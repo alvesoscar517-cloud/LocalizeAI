@@ -1,0 +1,1419 @@
+{
+  "appDesc": {
+    "message": "Công cụ kiểm tra dịch thuật AI. Dịch trực tiếp, báo cáo lỗi, giả lập bản địa hóa và dịch JSON hàng loạt.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Đóng",
+    "description": "Close button"
+  },
+  "collapse": {
+    "message": "Thu gọn thanh bên",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Nhấn để mở rộng",
+    "description": "Click to expand tooltip"
+  },
+  "cancel": {
+    "message": "Hủy",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Lưu",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Xóa",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Xuất",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Đồng bộ",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "NGUỒN",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MỤC TIÊU",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Tìm kiếm ngôn ngữ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Tự động phát hiện từ trình duyệt",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Chuyển đổi ngôn ngữ",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Chuyển đổi giữa văn bản gốc và văn bản dịch",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Cách thức hoạt động: • Chuyển đổi giữa văn bản gốc và văn bản đã dịch • Bản dịch được lưu vào bộ nhớ đệm để chuyển đổi nhanh chóng • Hoạt động với toàn bộ văn bản trên trang • Xóa bộ nhớ đệm để dịch lại",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Nguyên bản",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Đã dịch",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Sẵn sàng để dịch",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Xóa bộ nhớ đệm và dịch lại",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Bản địa hóa giả",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Kiểm tra giao diện người dùng với văn bản dài hơn để tìm ra sự cố tràn",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Cách thức hoạt động: • Thay thế các ký tự có dấu • Tăng độ dài thêm 30-40% • Ngắt dòng văn bản trong dấu [!!!... !!!] • Ví dụ: \"Cài đặt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Áp dụng Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Chế độ chỉnh sửa trực tiếp",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Nhấp vào bất kỳ văn bản nào để chỉnh sửa trực tiếp trên trang",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Cách thức hoạt động: • Nhấp vào bất kỳ phần tử văn bản nào để chỉnh sửa • Các thay đổi được theo dõi theo thời gian thực • Xuất các chỉnh sửa dưới dạng JSON hoặc Excel • Nhấn Ctrl+E để xuất các thay đổi",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Bật Chỉnh sửa trực tiếp",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Tính năng AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Công cụ dịch thuật hỗ trợ AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Tính năng cao cấp: • Dịch thuật theo ngữ cảnh bằng AI • Dịch hàng loạt toàn bộ trang • Kiểm tra chất lượng bản dịch • Đề xuất ngôn ngữ tự nhiên",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Nhận gợi ý AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Dịch hàng loạt thông minh",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Dịch TẤT CẢ văn bản trên trang với ngữ cảnh AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Kiểm tra chất lượng bản dịch",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Cao cấp",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Trình dịch tệp JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Dịch các tệp ngôn ngữ JSON sang nhiều ngôn ngữ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Cách thức hoạt động: • Tải lên tệp ngôn ngữ JSON • Chọn ngôn ngữ đích • Dịch bằng Google hoặc AI • Tải xuống tệp đã dịch",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Dịch tệp JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Báo cáo sự cố",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Báo cáo các vấn đề về bản dịch và bản địa hóa văn bản",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Cách thức hoạt động: • Nhấp vào các thành phần văn bản để báo cáo sự cố • Thêm mô tả và mức độ nghiêm trọng • Xuất báo cáo sang Excel hoặc JSON • Đồng bộ hóa với Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Bắt đầu báo cáo",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Quản lý báo cáo",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Tài khoản",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Đăng nhập bằng Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Nâng cấp lên Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Thông tin cao cấp",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Đăng xuất",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Báo cáo lỗi",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Tìm kiếm báo cáo...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Xóa tất cả",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Chưa có báo cáo lỗi nào",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Nhấp vào \"Bắt đầu báo cáo\" để theo dõi các vấn đề",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Không tìm thấy kết quả",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Hãy thử các từ khóa khác nhau",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Xem chi tiết",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Đánh dấu là đã giải quyết",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Mở lại",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Báo cáo lỗi #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Thông tin cơ bản",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Trạng thái",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Loại",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Ngày",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Chi tiết phần tử",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Thẻ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Văn bản",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Bộ chọn",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Bối cảnh dịch thuật",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Mô tả vấn đề",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Thông tin trang",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Tiêu đề",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Xóa báo cáo",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Bạn có chắc chắn muốn xóa báo cáo #$ID$ không?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Xóa tất cả báo cáo",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Xóa TẤT CẢ báo cáo lỗi? Hành động này không thể hoàn tác!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Xóa tất cả",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Xuất báo cáo lỗi",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Chọn định dạng xuất:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Xuất sang Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Xuất sang JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Đồng bộ hóa với Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Báo cáo #$ID$ được đánh dấu là $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Báo cáo #$ID$ đã bị xóa",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Tất cả các báo cáo đã được xóa",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Thay đổi ngôn ngữ đích?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Ngôn ngữ nguồn đã được thay đổi thành $SOURCE$. Bạn có muốn dịch sang $TARGET$ không?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Có, thay đổi",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Không, giữ nguyên",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "mở",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "đã giải quyết",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Cách thức hoạt động:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Tính năng cao cấp:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Tự động phát hiện: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Đồng bộ dữ liệu",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Đã tìm thấy $COUNT$ văn bản để dịch",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "đã chọn",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Chuẩn bị...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Hoàn thành!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Đang bắt đầu dịch cho $COUNT$ ngôn ngữ...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Đã hoàn thành ngôn ngữ $SUCCESS$/$TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Đã xóa bộ nhớ đệm",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Không xác định",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Trang không có tiêu đề",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Xem",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Xác nhận",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ĐƯỢC RỒI",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Mô tả vấn đề một cách chi tiết...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Vui lòng mô tả vấn đề",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Vui lòng đăng nhập trước",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Mẹo: Nhấn Ctrl+E để xuất các thay đổi của bạn",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Nhấp để tắt chế độ chỉnh sửa. Nhấn Ctrl+E để xuất thay đổi.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Đã sao chép vào bảng tạm!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Đã áp dụng cải tiến!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Đã áp dụng $COUNT$ cải tiến!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kiểm tra chất lượng hoàn tất",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Đang đồng bộ hóa với Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Đã đồng bộ với Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Đồng bộ Drive không thành công",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Vui lòng đăng nhập để đồng bộ hóa từ Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Đang đồng bộ hóa từ Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Đã đồng bộ $COUNT$ báo cáo từ Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Không tìm thấy báo cáo nào trong Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Đang chuẩn bị tệp Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Tệp Excel đã xuất: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Lỗi khi xuất sang Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Tệp JSON được xuất: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Lỗi khi xuất sang JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Tệp CSV đã xuất: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Lỗi khi xuất sang CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Vui lòng tải lên tệp JSON hợp lệ",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Đã tải $COUNT$ khóa dịch",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Tệp JSON không hợp lệ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Vui lòng hoàn thành tất cả các bước",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Dịch thuật AI yêu cầu Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Không thể dịch sang $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Tất cả bản dịch đều không thành công. Vui lòng thử lại.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Bản dịch không thành công. Vui lòng thử lại.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Đã dịch thành công sang $COUNT$ ngôn ngữ!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Đã tải xuống $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Thả tệp JSON vào đây hoặc nhấp để duyệt",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Hỗ trợ: en.json, vi.json, v.v.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Dịch",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Dịch nhanh và miễn phí bằng Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Bản dịch AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Bản dịch có nhận thức ngữ cảnh chất lượng cao sử dụng AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Miễn phí",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Nhanh",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Nhận thức ngữ cảnh",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Cách diễn đạt tự nhiên",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Tốt hơn cho văn bản UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Tắt tính năng Chỉnh sửa trực tiếp ($COUNT$ lần chỉnh sửa)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Bật Chỉnh sửa trực tiếp ($COUNT$ đã lưu)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Văn bản đã chọn ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Các lựa chọn thay thế tốt hơn ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Nâng cấp lên Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Mở khóa tất cả các tính năng AI và bản dịch không giới hạn",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Gợi ý thông minh của AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Dịch hàng loạt nhanh",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Kiểm tra chất lượng tự động",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Hỗ trợ ưu tiên",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Hỗ trợ tất cả các ngôn ngữ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Đăng ký ngay",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Tài khoản cao cấp",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Đăng ký đang hoạt động",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Ngày hết hạn",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Số ngày còn lại",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Loại vấn đề:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Bản dịch sai",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Tràn văn bản",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Bố cục bị hỏng",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Bản dịch bị thiếu",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Vấn đề định dạng",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Khác",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Trình quản lý báo cáo lỗi",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Quản lý và xuất các vấn đề bản địa hóa của bạn",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Bắt đầu báo cáo các vấn đề để theo dõi các vấn đề bản địa hóa",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Không có báo cáo nào khớp với bộ lọc của bạn",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tất cả trạng thái",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tất cả mức độ nghiêm trọng",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Tất cả các danh mục",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Cao",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Trung bình",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Thấp",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Xuất sắc!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Đã kiểm tra $COUNT$ đoạn văn bản và không tìm thấy vấn đề nào.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Ngôn ngữ nguồn:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ngôn ngữ mục tiêu:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Yêu cầu đăng nhập",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Vui lòng đăng nhập để sử dụng tính năng dịch. Người dùng miễn phí được nhận 10 bản dịch.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ trong số $LIMIT$ bản dịch còn lại",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Đã đạt đến giới hạn sử dụng",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Bạn đã đạt đến giới hạn sử dụng của mình.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Nâng cấp lên Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Mở khóa bản dịch không giới hạn và các tính năng cao cấp",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "mỗi tháng",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Bản dịch không giới hạn",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Có thể sau này",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Có thể hủy bất cứ lúc nào. Không cần hỏi lý do.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Cách sử dụng của bạn",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "bản dịch được sử dụng",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Vui lòng đăng nhập để sử dụng tính năng dịch thuật",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Không còn đủ bản dịch. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Bạn đang sử dụng tất cả $COUNT$ bản dịch còn lại.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Không thể chạy trên trang này",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI chỉ hoạt động trên các trang web thông thường. Nó không thể chạy trên các trang nội bộ của Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Loại trang không được hỗ trợ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Các trang không được hỗ trợ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Mở một trang web thông thường như google.com để sử dụng LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Bắt đầu dịch",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Tải xuống tất cả",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Dịch một tập tin khác",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Tải xuống",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Tải lên tệp JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Chọn ngôn ngữ mục tiêu",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Chọn chế độ dịch",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ khóa đã dịch",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Bản dịch đã hoàn tất!",
+    "description": "Translation complete message"
+  },
+  "checkedLabel": {
+    "message": "Đã kiểm tra:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Chính tả",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Ngữ pháp",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Định dạng",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Văn bản gốc không có vấn đề gì",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Đã kiểm tra <strong>$COUNT$</strong> đoạn văn bản",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Tìm thấy <strong>$COUNT$</strong> lỗi cần sửa",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Không có lỗi!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Báo cáo kiểm tra chất lượng",
+    "description": "Quality check report title"
+  },
+  "totalReports": {
+    "message": "Tổng số báo cáo",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Vấn đề đang mở",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Ưu tiên cao",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Đồng bộ lên Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Đồng bộ từ Drive",
+    "description": "Sync from Drive button"
+  },
+
+  "exportExcel": {
+    "message": "Xuất Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Xuất JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "NHẬN DẠNG",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Mức độ nghiêm trọng",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Yếu tố",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Vấn đề",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Giải pháp đề xuất",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Xem HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Cửa sổ xem",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Ngôn ngữ hiện tại",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Các phím đã được dịch",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Thời gian trôi qua",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Đang dịch...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Dịch các tệp ngôn ngữ JSON sang nhiều ngôn ngữ bằng Google Dịch hoặc AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Chọn một hoặc nhiều ngôn ngữ để dịch sang",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Định dạng được phát hiện: $FORMAT$, Chế độ: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Đang dịch sang $LANG$... (các phím $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Xuất $COUNT$ Thay đổi",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Xuất bản chỉnh sửa của bạn để chia sẻ với nhóm dịch thuật của bạn",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Tải xuống CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Tải xuống JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Đã lưu $COUNT$ thay đổi. Nhấn Ctrl+E để xuất.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Nhấp để bật chế độ chỉnh sửa",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Nhấp để bật chế độ chỉnh sửa. Bạn đã lưu thay đổi. Nhấn Ctrl+E để xuất.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Không có văn bản nào được chọn",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Chọn văn bản để nhận gợi ý AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Không tìm thấy ngôn ngữ nào",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Đăng nhập không thành công. Vui lòng thử lại.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Đã đăng nhập thành công!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Đã đăng xuất thành công",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Xác thực không thành công. Vui lòng xóa bộ nhớ đệm và đăng nhập lại.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Đang xóa bộ nhớ đệm...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Không xóa được bộ nhớ đệm",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Thư viện Excel không khả dụng. Vui lòng tải lại trang.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Tối đa $MAX$ ngôn ngữ cùng lúc để tối ưu hiệu suất. Vui lòng dịch theo từng đợt.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ đã chọn",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Vui lòng đăng nhập để sử dụng dịch AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "translationMethod": {
+    "message": "Phương thức dịch",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Miễn phí",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Không giới hạn",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Nhanh",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ngôn ngữ",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Dịch nhiều ngôn ngữ yêu cầu Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "aiLimitInfo": {
+    "message": "Tốt nhất cho các tập tin có kích thước hợp lý.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Chế độ AI: Chế độ này sẽ thực hiện các lệnh gọi API YÊU CẦU.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Sẽ thực hiện ~$COUNT$ API calls. Quá trình dịch có thể mất vài phút. Vui lòng kiên nhẫn.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Chế độ AI: Tối đa $MAX$ ngôn ngữ cùng lúc. Vui lòng chọn ít ngôn ngữ hơn hoặc dùng Google Translate.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  }
+}

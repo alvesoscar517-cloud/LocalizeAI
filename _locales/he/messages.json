@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "כלי בדיקת תרגום AI. תרגום חי, דיווח על באגים, פסאודו-לוקליזציה ותרגום JSON אצווה.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "לִסְגוֹר",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "לְבַטֵל",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "לִשְׁמוֹר",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "לִמְחוֹק",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "יְצוּא",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "סנכרון",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "מָקוֹר",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "יַעַד",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "חיפוש שפות...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "זוהה אוטומטית מהדפדפן",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "החלפת שפה",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "מעבר בין טקסט מקורי לתרגום",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "איך זה עובד: • מעבר בין טקסט מקורי לתרגום • תרגומים נשמרים במטמון למעבר מהיר • עובד עם כל הטקסט בדף • נקה את המטמון כדי לתרגם מחדש",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "מְקוֹרִי",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "מְתוּרגָם",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "מוכן לתרגום",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "נקה את המטמון ותרגם מחדש",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "פסאודו-לוקליזציה",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "בדיקת ממשק משתמש עם טקסט ארוך יותר כדי למצוא בעיות גלישה",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "איך זה עובד: • מחליף תווים בגרסאות מוטעמות • מוסיף הרחבת אורך של 30-40% • עוטף טקסט בתוך סמני [!!!... !!!] • דוגמה: \"הגדרות\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "החלת פסאודו-לוק",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "מצב עריכה חיה",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "לחץ על כל טקסט כדי לערוך אותו ישירות בדף",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "איך זה עובד: • לחצו על כל רכיב טקסט כדי לערוך אותו • השינויים מתבצעים בזמן אמת • ייצוא עריכות כ-JSON או Excel • לחצו Ctrl+E כדי לייצא שינויים",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "הפעל עריכה חיה",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "תכונות בינה מלאכותית",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "כלי תרגום המופעלים על ידי בינה מלאכותית",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "תכונות פרימיום: • תרגום מבוסס בינה מלאכותית ותומך בהקשר • תרגום אצווה של דפים שלמים • בדיקת איכות לתרגומים • הצעות לשפה טבעית",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "קבל הצעות של בינה מלאכותית",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "תרגום חכם של אצווה",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "מתרגם את כל הטקסט בדף באמצעות הקשר של בינה מלאכותית",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "בדיקת איכות התרגום",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "פּרֶמיָה",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "מתרגם קבצי JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "תרגום קבצי שפת JSON למספר שפות",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "איך זה עובד: • העלאת קבצי שפת JSON • בחירת שפות יעד • תרגום באמצעות גוגל או בינה מלאכותית • הורדת קבצים מתורגמים",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "תרגום קובץ JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "דווח על בעיה",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "דווח על בעיות בתרגום טקסט ולוקליזציה",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "איך זה עובד: • לחץ על רכיבי טקסט כדי לדווח על בעיות • הוסף תיאורים וחומרה • ייצא דוחות לאקסל או ל-JSON • סנכרן עם גוגל דרייב",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "התחל לדווח",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ניהול דוחות",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "חֶשְׁבּוֹן",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "התחברות עם גוגל",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "שדרג לפרימיום",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "מידע פרימיום",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "יציאה",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "דוחות באגים",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "דוחות חיפוש...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "נקה הכל",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "אין עדיין דיווחי באגים",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "לחץ על \"התחל דיווח\" כדי לעקוב אחר בעיות",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "לא נמצאו תוצאות",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "נסה מילות מפתח שונות",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "הצג פרטים",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "סמן כנפתר",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "פתיחה מחדש",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "דוח באג #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "מידע בסיסי",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "סטָטוּס",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "קָטֵגוֹרִיָה",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "תַאֲרִיך",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "פרטי האלמנט",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "תָג",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "טֶקסט",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "בורר",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "הקשר התרגום",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "תיאור הבעיה",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "מידע על הדף",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "כּוֹתֶרֶת",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "כתובת אתר",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "מחיקת דוח",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "האם אתה בטוח שברצונך למחוק את הדוח #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "נקה את כל הדוחות",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "למחוק את כל דוחות הבאגים? לא ניתן לבטל פעולה זו!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "מחק הכל",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ייצוא דוחות באגים",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "בחר פורמט ייצוא:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ייצוא לאקסל",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "ייצוא ל-JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "סנכרון לגוגל דרייב",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "דוח #$ID$ סומן כ-$STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "דוח #$ID$ נמחק",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "כל הדוחות נוקו",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "לשנות שפת יעד?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "שפת המקור שונתה ל-$SOURCE$. האם ברצונך לתרגם ל-$TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "כן, שינוי",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "לא, הישאר מעודכן",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "לִפְתוֹחַ",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "נפתר",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "איך זה עובד:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "תכונות פרימיום:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "זוהה אוטומטית: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "סנכרון נתונים",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "נמצאו $COUNT$ טקסטים לתרגום",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "נִבחָר",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "עֲרִיכָה...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "לְהַשְׁלִים!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "מתחיל תרגום עבור $COUNT$ שפות...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ שפות $SUCCESS$/$TOTAL$ הושלמו",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "גודל $$ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "המטמון נוקה",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "לא צוין",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "עמוד ללא כותרת",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "נוֹף",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "לְאַשֵׁר",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "בְּסֵדֶר",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "תאר את הבעיה בפירוט...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "אנא תאר את הבעיה",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "אנא היכנס תחילה",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "טיפ: לחצו Ctrl+E כדי לייצא את השינויים שלכם",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "לחץ כדי להשבית את מצב העריכה. לחץ על Ctrl+E כדי לייצא את השינויים.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "הועתק ללוח!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "שיפור יושם!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "הוחלו $COUNT$ שיפורים!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "בדיקת האיכות הושלמה",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "מסנכרן עם גוגל דרייב...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "מסונכרן לגוגל דרייב!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "סנכרון Drive נכשל",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "אנא היכנס כדי לסנכרן מ-Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "מסנכרן מגוגל דרייב...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "סנכרנו $COUNT$ דוחות מ-Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "לא נמצאו דוחות ב-Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "מכין קובץ אקסל...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "קובץ אקסל שיוצא: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "שגיאה בייצוא לאקסל",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "קובץ JSON שיוצא: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "שגיאה בייצוא ל-JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "קובץ CSV שיוצא: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "שגיאה בייצוא לקובץ CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "אנא העלה קובץ JSON תקין",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "טעינו $COUNT$ מפתחות תרגום",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "קובץ JSON לא חוקי",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "אנא השלם את כל השלבים",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "תרגום בינה מלאכותית דורש גרסת פרימיום. אנא שדרגו או השתמשו ב-Google Translate.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "נכשל בתרגום ל-$LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "כל התרגומים נכשלו. אנא נסה שוב.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "התרגום נכשל. אנא נסה שוב.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "תורגם בהצלחה ל-$COUNT$ שפות!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "הורד את $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "שחררו את קובץ ה-JSON כאן או לחצו כדי לדפדף",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "תומך: en.json, vi.json וכו'.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "גוגל תרגום",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "תרגום מהיר וחינמי באמצעות Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "תרגום בינה מלאכותית",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "תרגום איכותי המודע להקשר באמצעות בינה מלאכותית",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "לְשַׁחְרֵר",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "מָהִיר",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "מודע להקשר",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ניסוח טבעי",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "טוב יותר עבור טקסט ממשק משתמש",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "השבת עריכה בזמן אמת ($COUNT$$ עריכות)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "הפעל עריכה חיה ($COUNT$$ נשמר)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "טקסט נבחר ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "אלטרנטיבות טובות יותר ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "שדרג לפרימיום",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "פתחו את כל תכונות הבינה המלאכותית ותרגומים ללא הגבלה",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "הצעות חכמות של בינה מלאכותית",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "תרגום אצווה מהיר",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "בדיקת איכות אוטומטית",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "תמיכה בעדיפות",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "כל השפות נתמכות",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "הירשמו עכשיו",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "חשבון פרימיום",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "מנוי פעיל",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "תאריך תפוגה",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ימים שנותרו",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "סוג בעיה:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "תרגום שגוי",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "גלישת טקסט",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "פריסה שבורה",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "תרגום חסר",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "בעיית עיצוב",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "אַחֵר",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "מנהל דוחות באגים",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ניהול וייצוא של בעיות הלוקליזציה שלך",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "התחל לדווח על בעיות כדי לעקוב אחר בעיות לוקליזציה",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "אין דוחות התואמים את המסננים שלך",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "כל הסטטוסים",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "כל חומרה",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "כל הקטגוריות",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "גָבוֹהַ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "בֵּינוֹנִי",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "נָמוּך",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "מְעוּלֶה!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "בדקתי $COUNT$ מקטעי טקסט ולא נמצאו בעיות.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "שפת המקור:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "שפת היעד:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "נדרשת כניסה",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "אנא היכנס כדי להשתמש בתכונות התרגום. משתמשים בחינם מקבלים 10 תרגומים.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "נותרו $REMAINING$ מתוך $LIMIT$ תרגומים",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "מגבלת השימוש הגעת",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "הגעת למגבלת השימוש שלך.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "שדרג לפרימיום",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "פתחו תרגומים ללא הגבלה ותכונות פרימיום",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "לְחוֹדֶשׁ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "תרגומים ללא הגבלה",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "אולי מאוחר יותר",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "בטלו בכל עת. בלי שאלות.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "השימוש שלך",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "תרגומים בשימוש",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "אנא היכנס כדי להשתמש בתכונות התרגום",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "לא נותרו מספיק תרגומים. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "אתה משתמש בכל התרגומים הנותרים של $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "לא ניתן להפעיל בדף זה",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI עובד רק באתרים רגילים. הוא לא יכול לפעול בדפים פנימיים של Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "סוג דף לא נתמך",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "דפים שאינם נתמכים:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "פתח אתר אינטרנט רגיל כמו google.com כדי להשתמש ב-LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "התחל תרגום",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "הורד הכל",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "תרגם קובץ אחר",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "הורדה",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "העלה קובץ JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "בחירת שפות יעד",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "בחר מצב תרגום",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ מפתחות תורגמו",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "התרגום הושלם!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "סך כל הדוחות",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "נושאים פתוחים",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "עדיפות גבוהה",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "סנכרון ל-Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "סנכרון מ-Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ייצוא אקסל",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "ייצוא JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "תְעוּדַת זֶהוּת",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "חוּמרָה",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "אֵלֵמֶנט",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "לְהַנפִּיק",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "פתרונות מוצעים",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "הצג HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "חלון תצוגה",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "שפה נוכחית",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "מפתחות מתורגמים",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "הזמן שחלף",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "תִרגוּם...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "תרגם קבצי JSON למספר שפות באמצעות Google Translate או בינה מלאכותית",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "בחר שפה אחת או יותר לתרגום אליה",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "פורמט זוהה: $FORMAT$, מצב: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "מתרגם ל-$LANG$... מקשי $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "ייצוא $COUNT$ שינויים",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ייצוא העריכות שלך כדי לשתף אותן עם צוות התרגום שלך",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "הורד קובץ CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "הורד JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ שינויים נשמרו. לחץ על Ctrl+E כדי לייצא.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "לחץ כדי להפעיל מצב עריכה",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "לחץ כדי להפעיל מצב עריכה. שמרת את השינויים. לחץ Ctrl+E כדי לייצא.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "לא נבחר טקסט",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "בחר טקסט כדי לקבל הצעות של בינה מלאכותית",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "לא נמצאו שפות",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "הכניסה נכשלה. אנא נסה שוב.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "התחברות בוצעה בהצלחה!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "יציאה בהצלחה",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "האימות נכשל. אנא נסה לנקות את המטמון ולהיכנס שוב.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "מנקה את המטמון...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "נכשל ניקוי המטמון",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ספריית אקסל אינה זמינה. אנא טען מחדש את הדף.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "מקסימום $MAX$ שפות בו-זמנית לביצועים אופטימליים. אנא תרגם באצווה.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "נבחרו $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "אנא התחבר כדי להשתמש בתרגום AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "הכי מתאים לקבצים בגודל סביר.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "מצב AI: זה יבצע קריאות API של $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "תרגום זה יבצע כ-$COUNT$ קריאות API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "מצב AI תומך בשפות של $MAX$ לכל היותר בבת אחת.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "שיטת תרגום",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "לְשַׁחְרֵר",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "בִּלתִי מוּגבָּל",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "מָהִיר",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "שפות",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "תרגום לשפות מרובות דורש פרימיום.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "בָּדוּק:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "אִיוּת",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "דִקדוּק",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "עיצוב",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "לטקסט המקורי אין בעיות",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "בדק קטעי טקסט של <strong>$COUNT$</strong>",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "נמצאו <strong>$COUNT$</strong> שגיאות לתיקון",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "אין שגיאות!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "דוח בדיקת איכות",
+    "description": "Quality check report title"
+  }
+}

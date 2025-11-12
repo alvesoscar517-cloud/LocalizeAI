@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI ترجمي جي جانچ جو اوزار. لائيو ترجمو، بگ رپورٽنگ، سوڊو-لوڪلائيزيشن ۽ بيچ JSON ترجمو.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "بند ڪريو",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "منسوخ ڪريو",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "محفوظ ڪريو",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ختم ڪريو",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "برآمد ڪريو",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "هم وقت سازي",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ذريعو",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ٽارگيٽ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ٻوليون ڳوليو...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "برائوزر مان خودڪار طور تي ڳولهيو ويو",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ٻولي ٽوگل",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "اصل ۽ ترجمو ڪيل متن جي وچ ۾ سوئچ ڪريو",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو: • اصل ۽ ترجمو ڪيل متن جي وچ ۾ ٽوگل ڪريو • ترجما تيز سوئچنگ لاءِ ڪيش ڪيا ويندا آهن • صفحي تي سڀني متن سان ڪم ڪري ٿو • ٻيهر ترجمو ڪرڻ لاءِ ڪيش صاف ڪريو",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "اصل",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ترجمو ٿيل",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ترجمو ڪرڻ لاءِ تيار",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ڪيش صاف ڪريو ۽ ٻيهر ترجمو ڪريو",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "جعلي لوڪلائيزيشن",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "اوور فلو مسئلن کي ڳولڻ لاءِ ڊگهي متن سان UI جي جانچ ڪريو",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو: • اکرن کي ايڪسنٽ ٿيل ورزن سان تبديل ڪري ٿو • 30-40٪ ڊگھائي واڌ شامل ڪري ٿو • متن کي [!!!... !!!] مارڪرز ۾ لپيٽ ڪري ٿو • مثال: \"سيٽنگون\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "سيوڊو-لوڪ لاڳو ڪريو",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "لائيو ايڊٽ موڊ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "صفحي تي سڌو سنئون ايڊٽ ڪرڻ لاءِ ڪنهن به متن تي ڪلڪ ڪريو.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو: • ڪنهن به ٽيڪسٽ عنصر کي ايڊٽ ڪرڻ لاءِ ڪلڪ ڪريو • تبديليون ريئل ٽائيم ۾ ٽريڪ ڪيون وينديون آهن • تبديلين کي JSON يا ايڪسل طور ايڪسپورٽ ڪريو • تبديلين کي ايڪسپورٽ ڪرڻ لاءِ Ctrl+E دٻايو",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "لائيو ايڊٽ فعال ڪريو",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI خاصيتون",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI سان هلندڙ ترجمي جا اوزار",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "پريميئم خاصيتون: • AI سان هلندڙ سياق و سباق کان واقف ترجمو • بيچ ترجمو سڄو صفحو • ترجمن لاءِ معيار جي جانچ • قدرتي ٻولي جون تجويزون",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI تجويزون حاصل ڪريو",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "سمارٽ بيچ ترجمو",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "صفحي تي سڀ متن AI حوالي سان ترجمو ڪري ٿو.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ترجمي جي معيار جي جانچ ڪريو",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "پريميئم",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON فائل مترجم",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ٻولي فائلن کي ڪيترن ئي ٻولين ۾ ترجمو ڪريو",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو: • JSON ٻولي جون فائلون اپلوڊ ڪريو • ٽارگيٽ ٻوليون چونڊيو • گوگل يا AI سان ترجمو ڪريو • ترجمو ٿيل فائلون ڊائون لوڊ ڪريو",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON فائل جو ترجمو ڪريو",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "مسئلي جي رپورٽ ڪريو",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "متن جي ترجمي ۽ مقامي ڪرڻ جي مسئلن جي رپورٽ ڪريو",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو: • مسئلن جي رپورٽ ڪرڻ لاءِ ٽيڪسٽ عنصرن تي ڪلڪ ڪريو • وضاحت ۽ شدت شامل ڪريو • ايڪسل يا JSON ڏانهن رپورٽون برآمد ڪريو • گوگل ڊرائيو سان هم وقت سازي ڪريو",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "رپورٽنگ شروع ڪريو",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "رپورٽون منظم ڪريو",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "کاتو",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "گوگل سان سائن ان ڪريو",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "پريميئم ۾ اپ گريڊ ڪريو",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "پريميئم ڄاڻ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "سائن آئوٽ ڪريو",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "بگ رپورٽون",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "رپورٽون ڳوليو...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "سڀ صاف ڪريو",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "اڃا تائين ڪا به بگ رپورٽ ناهي.",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "مسئلن کي ٽريڪ ڪرڻ لاءِ \"رپورٽنگ شروع ڪريو\" تي ڪلڪ ڪريو.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ڪوبه نتيجو نه مليو",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "مختلف لفظ آزمايو",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "تفصيل ڏسو",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "حل ٿيل طور نشان لڳايو",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ٻيهر کوليو",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "بگ رپورٽ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "بنيادي ڄاڻ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "اسٽيٽس",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "زمرو",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "تاريخ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "عنصر جي تفصيل",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ٽيگ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "متن",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "چونڊيندڙ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ترجمو تناظر",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "مسئلي جي وضاحت",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "صفحي جي ڄاڻ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "عنوان",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "رپورٽ ختم ڪريو",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ڇا توهان کي پڪ آهي ته توهان رپورٽ #$ID$ کي ختم ڪرڻ چاهيو ٿا؟",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "سڀ رپورٽون صاف ڪريو",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "سڀ بگ رپورٽون ختم ڪريو؟ هي عمل واپس نه ٿو ڪري سگهجي!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "سڀ ختم ڪريو",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "بگ رپورٽون برآمد ڪريو",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "برآمد فارميٽ چونڊيو:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ايڪسل ڏانهن برآمد ڪريو",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON ڏانهن برآمد ڪريو",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "گوگل ڊرائيو سان هم وقت سازي ڪريو",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "رپورٽ #$ID$ نشان لڳل $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ ختم ٿيڻ جي رپورٽ ڪريو",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "سڀ رپورٽون صاف ڪيون ويون",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ٽارگيٽ ٻولي تبديل ڪريو؟",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ماخذ ٻولي $SOURCE$ ۾ تبديل ڪئي وئي آهي. ڇا توهان $TARGET$ ۾ ترجمو ڪرڻ چاهيندا؟",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ها، تبديل ڪريو",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "نه، موجوده رکو",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "کليل",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "حل ٿيل",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "اهو ڪيئن ڪم ڪري ٿو:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "پريميئم خاصيتون:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "خودڪار طور تي ڳوليل: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ڊيٽا هم وقت ڪريو",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ترجمو ڪرڻ لاءِ $COUNT$ متن مليا",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "چونڊيل",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "تياري ڪري رهيو آهي...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "مڪمل!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ٻولين لاءِ ترجمو شروع ٿي رهيو آهي...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ مڪمل ٿيل $SUCCESS$/$TOTAL$ ٻوليون",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$سائيز$ ڪلو بائيٽ $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$وقت$s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ڪيش صاف ڪيو ويو",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "بيان نه ڪيو ويو آهي",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "بي عنوان صفحو",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ڏسو",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "تصديق ڪريو",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ٺيڪ آهي",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "مسئلي کي تفصيل سان بيان ڪريو...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "مھرباني ڪري مسئلو بيان ڪريو.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "مھرباني ڪري پھريون سائن ان ڪريو",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "صلاح: پنھنجيون تبديليون برآمد ڪرڻ لاءِ Ctrl+E دٻايو.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ايڊيٽنگ موڊ کي غير فعال ڪرڻ لاءِ ڪلڪ ڪريو. تبديليون برآمد ڪرڻ لاءِ Ctrl+E دٻايو.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ڪلپ بورڊ ڏانهن نقل ڪيو ويو!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "بهتري لاڳو ڪئي وئي!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ بهتريون لاڳو ڪيون ويون!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "معيار جي چڪاس مڪمل ٿي وئي",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "گوگل ڊرائيو سان هم وقت ٿي رهيو آهي...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "گوگل ڊرائيو سان هم وقت ٿيل!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ڊرائيو هم وقت سازي ناڪام ٿي وئي",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "مهرباني ڪري ڊرائيو مان هم وقت سازي لاءِ سائن ان ڪريو.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "گوگل ڊرائيو مان هم وقت سازي ٿي رهي آهي...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ڊرائيو مان $COUNT$ رپورٽون هم وقت ڪيون ويون!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ڊرائيو ۾ ڪا به رپورٽ نه ملي.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ايڪسل فائل تيار ڪري رهيو آهي...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ايڪسل فائل برآمد ڪئي وئي: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ايڪسل ڏانهن ايڪسپورٽ ڪرڻ ۾ غلطي",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON فائل برآمد ڪئي وئي: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON ڏانهن برآمد ڪرڻ ۾ غلطي",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV فائل برآمد ڪئي وئي: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV ڏانهن برآمد ڪرڻ ۾ غلطي",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "مھرباني ڪري ھڪ صحيح JSON فائل اپ لوڊ ڪريو.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ ترجمي جون چاٻيون لوڊ ڪيون ويون",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "غلط JSON فائل",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "مھرباني ڪري سڀ مرحلا مڪمل ڪريو.",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ترجمي لاءِ پريميئم جي ضرورت آهي. مھرباني ڪري اپ گريڊ ڪريو يا گوگل ترجمو استعمال ڪريو.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ ۾ ترجمو ڪرڻ ۾ ناڪام ٿيو.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "سڀ ترجما ناڪام ٿيا. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ترجمو ناڪام ٿيو. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ٻولين ۾ ڪاميابي سان ترجمو ڪيو ويو!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ڊائون لوڊ ڪيو ويو",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON فائل هتي ڇڏيو يا براؤز ڪرڻ لاءِ ڪلڪ ڪريو",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "سپورٽ: en.json، vi.json، وغيره.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "گوگل ترجمو",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "گوگل ترجمو API استعمال ڪندي تيز ۽ مفت ترجمو",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI ترجمو",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI استعمال ڪندي اعليٰ معيار جي حوالي سان آگاهي وارو ترجمو",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "واندو",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "تيز",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "تناظر کان واقف",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "قدرتي جملي",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI ٽيڪسٽ لاءِ بهتر",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "لائيو ايڊٽ کي غير فعال ڪريو ($COUNT$ ايڊٽ)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "لائيو ايڊٽ فعال ڪريو ($COUNT$ بچايو ويو)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "چونڊيل متن ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "بهتر متبادل ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "پريميئم ۾ اپ گريڊ ڪريو",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "سڀ AI خاصيتون ۽ لامحدود ترجما انلاڪ ڪريو",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI سمارٽ تجويزون",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "تيز بيچ ترجمو",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "خودڪار معيار جي چڪاس",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ترجيحي مدد",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "سڀ ٻوليون سپورٽ ڪن ٿيون",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "هاڻي رڪنيت حاصل ڪريو",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "پريميئم اڪائونٽ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "فعال سبسڪرپشن",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ختم ٿيڻ جي تاريخ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "باقي ڏينهن",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "مسئلي جو قسم:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "غلط ترجمو",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ٽيڪسٽ اوور فلو",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "لي آئوٽ ٽٽل",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "گم ٿيل ترجمو",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "فارميٽنگ جو مسئلو",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ٻيا",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "بگ رپورٽ مئنيجر",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "پنهنجي لوڪلائيزيشن جي مسئلن کي منظم ۽ برآمد ڪريو",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "مقامي ڪرڻ جي مسئلن کي ٽريڪ ڪرڻ لاءِ مسئلن جي رپورٽنگ شروع ڪريو.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ڪا به رپورٽ توهان جي فلٽرن سان نه ملي.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "سڀ حيثيت",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "سڀ شدت",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "سڀ درجا بنديون",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "هاءِ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "وچولي",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "گهٽ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "بهترين!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ٽيڪسٽ سيگمينٽ چيڪ ڪيا ۽ ڪو به مسئلو نه مليو.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ماخذ ٻولي:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ھدف واري ٻولي:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "سائن ان گهربل آهي",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ترجمي جي خاصيتن کي استعمال ڪرڻ لاءِ مهرباني ڪري سائن ان ڪريو. مفت استعمال ڪندڙن کي 10 ترجما ملندا آهن.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ مان $REMAINING$ ترجما باقي آهن",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "استعمال جي حد پوري ٿي وئي",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "توهان پنهنجي استعمال جي حد تائين پهچي ويا آهيو. لامحدود رسائي لاءِ پريميئم ڏانهن اپ گريڊ ڪريو.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "پريميئم ۾ اپ گريڊ ڪريو",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "لامحدود ترجما ۽ پريميئم خاصيتون کوليو",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "هر مهيني",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "لامحدود ترجما",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "شايد پوءِ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ڪنهن به وقت منسوخ ڪريو. ڪو به سوال نه پڇيو ويو.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "توهان جو استعمال",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "استعمال ٿيل ترجما",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ترجمي جي خاصيتن کي استعمال ڪرڻ لاءِ مهرباني ڪري سائن ان ڪريو.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ڪافي ترجما باقي نه آهن. توهان وٽ $REMAINING$ باقي آهن پر $SELECTED$ ٻوليون چونڊيون آهن. مهرباني ڪري پريميئم ۾ اپ گريڊ ڪريو يا ٻوليون گهٽ ڪريو.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "توهان باقي سڀ $COUNT$ ترجما استعمال ڪري رهيا آهيو. لامحدود رسائي لاءِ پريميئم ڏانهن اپ گريڊ ڪريو.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "هن صفحي تي هلائي نه ٿو سگهجي.",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI صرف باقاعده ويب سائيٽن تي ڪم ڪري ٿو. اهو ڪروم جي اندروني صفحن تي نٿو هلي سگهي.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "غير معاون صفحي جو قسم",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "غير معاون صفحا:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI استعمال ڪرڻ لاءِ هڪ باقاعده ويب سائيٽ جهڙوڪ google.com کوليو.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ترجمو شروع ڪريو",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "سڀ ڊائون لوڊ ڪريو",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ٻي فائل جو ترجمو ڪريو",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ڊائون لوڊ ڪريو",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON فائل اپ لوڊ ڪريو",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ٽارگيٽ ٻوليون چونڊيو",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ترجمو موڊ چونڊيو",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ چاٻيون ترجمو ڪيون ويون",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ترجمو مڪمل!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ڪُل رپورٽون",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "کليل مسئلا",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "اعليٰ ترجيح",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ڊرائيو سان هم وقت سازي ڪريو",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ڊرائيو مان هم وقت سازي ڪريو",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ايڪسل برآمد ڪريو",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON برآمد ڪريو",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "سڃاڻپ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "شدت",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "عنصر",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "مسئلو",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "تجويز ڪيل حل",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ڏسو",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ايڪس پيٿ",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ويوپورٽ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "موجوده ٻولي",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "ترجمو ڪيل چاٻيون",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "وقت گذري ويو",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ترجمو ڪري رهيو آهي...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "گوگل ٽرانسليٽ يا AI سان JSON ٻولي فائلن کي ڪيترن ئي ٻولين ۾ ترجمو ڪريو.",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ترجمو ڪرڻ لاءِ هڪ يا وڌيڪ ٻوليون چونڊيو",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "فارميٽ معلوم ٿيو: $FORMAT$، موڊ: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ ۾ ترجمو ڪيو پيو وڃي... ($CURRENT$/$TOTAL$ ڪيز)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ تبديليون برآمد ڪريو",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "پنھنجي ترجمي ٽيم سان شيئر ڪرڻ لاءِ پنھنجون تبديليون برآمد ڪريو.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "سي ايس وي ڊائون لوڊ ڪريو",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ڊائون لوڊ ڪريو",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ تبديليون محفوظ ٿي ويون. برآمد ڪرڻ لاءِ Ctrl+E دٻايو.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ايڊيٽنگ موڊ کي فعال ڪرڻ لاءِ ڪلڪ ڪريو",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ايڊيٽنگ موڊ کي فعال ڪرڻ لاءِ ڪلڪ ڪريو. توهان تبديليون محفوظ ڪيون آهن. برآمد ڪرڻ لاءِ Ctrl+E دٻايو.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ڪو به متن نه چونڊيو ويو آهي.",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI تجويزون حاصل ڪرڻ لاءِ متن چونڊيو",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ڪابه ٻولي نه ملي",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "سائن ان ناڪام ٿيو. مهرباني ڪري ٻيهر ڪوشش ڪريو.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ڪاميابي سان سائن ان ٿيو!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ڪاميابي سان سائن آئوٽ ٿيو",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "تصديق ناڪام ٿي. مھرباني ڪري ڪيش صاف ڪرڻ ۽ ٻيهر سائن ان ڪرڻ جي ڪوشش ڪريو.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ڪيش صاف ڪري رهيو آهي...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ڪيش صاف ڪرڻ ۾ ناڪام ٿيو",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ايڪسل لائبريري موجود ناهي. مھرباني ڪري صفحي کي ٻيهر لوڊ ڪريو.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "وڌ ۾ وڌ $MAX$ ٻوليون هڪ ڀيرو بهتر ڪارڪردگي لاءِ.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ چونڊيو",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "مهرباني ڪري AI ترجمو استعمال ڪرڻ لاءِ سائن ان ٿيو",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "مناسب سائيز سان فائلن لاء بهترين.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI موڊ: هي $REQUESTS$ API ڪالون ڪندو. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "هي ترجمو لڳ ڀڳ $COUNT$ API ڪالون ڪندو.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI موڊ هڪ ئي وقت وڌ ۾ وڌ $MAX$ ٻولين کي سپورٽ ڪري ٿو.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "ترجمي جو طريقو",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "واندو",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "لامحدود",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "تڪڙو",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ٻوليون",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "گھڻن ٻولين جي ترجمي لاءِ پريميئم جي ضرورت آھي.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "چڪاس ٿيل:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "اسپيلنگ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "گرامر",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "فارميٽ ڪرڻ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "اصل متن ۾ ڪوبه مسئلو ناهي",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "چيڪ ڪيو <strong>$COUNT$</strong> متن جا حصا",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "درست ڪرڻ لاءِ <strong>$COUNT$</strong> غلطيون مليون",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ڪابه غلطي ناهي!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "معيار چيڪ رپورٽ",
+    "description": "Quality check report title"
+  }
+}

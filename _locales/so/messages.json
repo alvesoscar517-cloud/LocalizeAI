@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "Qalab tijaabinta turjumaadda AI. Turjumaad toos ah, warbixin khaladaad, pseudo-maxalligeyn iyo turjumaad JSON koox.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Xir",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Jooji",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Badbaadin",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Tirtir",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Dhoofinta",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Isku xidh",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "XIGASHO",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "bartilmaameed",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Raadi luqadaha...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Si toos ah ayaa looga helay browserka",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Luqadda beddel",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "U beddelo qoraalka asalka ah iyo midka la turjumay",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Sida ay u shaqeyso: U kala beddel qoraalka asalka ah iyo kan la turjumay Turjumaada waa la kaydiyay si degdeg ah loogu beddelo • Wuxuu kula shaqeeyaa dhammaan qoraalka bogga • Nadiifi kaydka si aad dib ugu tarjunto",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Asalka",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "La turjumay",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Diyaar u ah in la tarjumo",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Nadiifi Cache & Dib utarjum",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Been abuur-ku-dhigid",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Ku tijaabi UI qoraal dheer si aad u hesho arrimaha qulqulka",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Sida ay u shaqeyso:",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Codso Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Qaabka Tafatirka Tooska ah",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Guji qoraal kasta si aad toos ugu saxdo bogga",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Sida ay u shaqeyso: • Guji qayb kasta oo qoraal ah si aad u saxdo Isbeddellada waxaa lala socdaa waqtiga dhabta ah Dhoofinta waxka bedelka sida JSON ama Excel • Taabo Ctrl+E si aad u dhoofiso isbeddellada",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Daar wax ka beddelka tooska ah",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Tilmaamaha AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Qalabka turjumaada ee ku shaqeeya AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Astaamaha qiimaha leh: • Turjumaada og macnaha guud ee awooda AI Dufcaddii turjumi bogag dhan • Hubinta tayada tarjumaada • Soo jeedinta luqadda dabiiciga ah",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Hel Talooyin AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Turjumaada Smart Dufcada",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Wuxuu u turjumayaa DHAMMAAN qoraalka bogga isagoo wata macnaha guud ee AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Hubi tayada turjumaada",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Lacag joogto ah",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Turjumaanka Faylka JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "U tarjun faylasha luqadda JSON ee luuqado badan",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Sida ay u shaqeyso: • Soo rar faylasha luqadda JSON • Dooro luqadaha bartilmaameedka ah Ku turjun Google ama AI • Soo deji faylasha la turjumay",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Turjun faylka JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Arrinka Warbixinta",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Ka warbixi tarjumaada qoraalka iyo arrimaha meelaynta",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Sida ay u shaqeyso: • Guji qaybaha qoraalka si aad uga warbixiso arrimaha Ku dar sharaxaad iyo darnaan Dhoofinta warbixinnada Excel ama JSON La xidhiidh Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Bilow ka warbixinta",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Maamul Warbixinada",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Xisaab",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Ku gal Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Kor u qaad lacag bixinta",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Faahfaahinta caymiska",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Saxiix",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Warbixinnada Cayayaanka",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Warbixinnada raadinta...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Nadiifi Dhammaan",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Wali ma jiraan warbixino kutaan ah",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Guji \"Bilow Warbixinta\" si aad ula socoto arrimaha",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Wax natiijooyin ah lama helin",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Isku day ereyo muhiim ah oo kala duwan",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Faahfaahinta eeg",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Calaamadee sida la xaliyay",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Dib u fur",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Warbixinta Cayayaanka #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Macluumaadka aasaasiga ah",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Xaalada",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Qaybta",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Taariikhda",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Faahfaahinta Cunsurka",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Bag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Qoraal",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Xule",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Dulucda Turjumaada",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Sharaxaada Arrinta",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Macluumaadka bogga",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Ciwaanka",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Uriis",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Tirtir Warbixinta",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ma hubtaa inaad rabto inaad tirtirto warbixinta #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Nadiifi Dhammaan Wararka",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ma tirtirtaa DHAMMAAN warbixinnada cayayaanka? Falkan lama noqon karo!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Tirtir Dhammaan",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Dhoofinta Warbixinada Cayayaanka",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Dooro qaabka dhoofinta:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "U dhoofi Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "U Dhoofi JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Ku xidh Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Warbixinta # $ $$STATUS$$ $ oo loo calaamadeeyay $ Status $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Warbixinta #$ID$ waa la tirtiray",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Dhammaan warbixinada waa la nadiifiyay",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Beddel luqadda Bartilmaameedka?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Isha luqadda ayaa loo beddelay $SOURCE$. Ma jeclaan lahayd inaad u turjunto $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Haa, Isbeddel",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Maya, Hadda Hayso",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "furan",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "xaliyay",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Sida ay u shaqeyso:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Astaamaha qiimaha leh:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Si toos ah loo ogaado: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Isku xidh xogta",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "La helay $COUNT$ qoraalo la turjumayo",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "la doortay",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Diyaarinta...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Dhameystiran!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Bilawga turjumaada $COUNT$ luqadaha...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ La dhammaystiray $ GUUL/$ TOTAL$ luqadaha $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ Cabbirka $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ S $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache waa la nadiifiyay",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Lama cayimin",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Bog aan cinwaan lahayn",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Daawo",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Xaqiiji",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Hagaag",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Si faahfaahsan u sharax arrinta...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Fadlan sharax arrinta",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Fadlan saxiix marka hore",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Talo: Taabo Ctrl+E si aad u dhoofiso isbeddelladaada",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Guji si aad u damiso qaabka tafatirka Taabo Ctrl+E si aad u dhoofiso isbeddelada",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Lagu koobiyeeyay sabuuraddii!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Horumar baa lagu dabaqay!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Codsaday horumarinta $COUNT$!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Hubinta tayada waa dhammaatay",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Isku xidhka Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Lagula jaanqaaday Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Isku xidhka wadista wuu guuldarraystay",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Fadlan ka soo gal si aad ugala mid noqoto Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Isku xidhka Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "synced $COUNT$ warbixinaha Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Wax warbixin ah lagama helin Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Diyaarinta faylka Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Faylka Excel waa la dhoofiyay: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Khalad u dhoofinta Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Faylka JSON waa la dhoofiyay: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Khalad u dhoofinta JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Faylka CSV waa la dhoofiyay: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Khalad u dhoofinta CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Fadlan soo rar faylka JSON sax ah",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Raacay $COUNT$ furayaasha turjumaada",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Faylka JSON ee aan sax ahayn",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Fadlan buuxi dhammaan tallaabooyinka",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Tarjumaadda AI waxay u baahan tahay lacag bixin.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Ku guuldareystay in lootarjumo $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Dhammaan turjumaadaha waa guul daraystay Fadlan isku day mar kale",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Turjumaadii waa fashilantay Fadlan isku day mar kale",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Si guul leh loogu turjumay $COUNT$ luqadaha!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Soo dejisay $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Ku rid faylka JSON halkan ama dhagsii si aad u baadho",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Taageerada: en.json, vi.json, iwm.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Turjumaada degdega ah oo bilaashka ah iyadoo la isticmaalayo Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI Turjumaada",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Turjumaada tayada sare leh ee xog-ogaal u ah iyadoo la isticmaalayo AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Bilaash",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Degdeg ah",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Macnuhu-ogyahay",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Odhaahda dabiiciga ah",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "U roon qoraalka UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Dami Tafatirka Tooska ah ($COUNT$ wax ka beddelka)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Daar wax ka beddelka tooska ah ($COUNT$ la keydiyay)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Qoraal la xushay ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Beddelka Wanaagsan ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Kor u qaad lacag bixinta",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Fur dhammaan sifooyinka AI iyo tarjumaadaha aan xadidnayn",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Talooyin caqli badan AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Turjumaada dufcada degdega ah",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Hubinta tayada otomaatiga ah",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Taageerada mudnaanta leh",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Dhammaan luuqaduhu way taageeraan",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Isdiiwaangeli hadda",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Koontada Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Diiwaangelinta Firfircoon",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Taariikhda dhicitaanka",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Maalmo Harsan",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Nooca Arrinta:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Turjumaada Qaldan",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Qulqulka qoraalka",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Nashqad jaban",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Turjumaada maqan",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Arrinta qaabaynta",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Mid kale",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Maareeyaha Warbixinta Cayayaanka",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Maamul oo dhoofi arrimahaaga meelaynta",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Bilow ka warbixinta arrimaha si aad ula socoto dhibaatooyinka meelaynta",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ma jiraan warbixino u dhigma filtarradaada",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Dhammaan Xaaladda",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Dhammaan darnaanta",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Dhammaan Qaybaha",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Sare",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Dhexdhexaad",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Hoose",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Aad u fiican!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "La hubiyay $COUNT$ qaybaha qoraalka mana helin wax dhibaato ah.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Luqadda Luuqada:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Luuqadda Bartilmaameedka:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Saxeexa Loo Baahan Yahay",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Fadlan soo gal si aad u isticmaasho sifooyinka tarjumaada Isticmaalayaasha bilaashka ah waxay helayaan 10 tarjumaad",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ee $LIMIT$ tarjumaad ayaa hadhay",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Xadka Isticmaalka La Gaaray",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Waxaad gaadhay xadkaaga isticmaalka.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Kor u qaad lacag bixinta",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Fur turjumaadaha aan xadidnayn iyo sifooyinka qiimaha leh",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "bishiiba",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Turjumaada aan xadidnayn",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Malaha hadhow",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Jooji wakhti kasta Wax su'aalo ah lama weydiin.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Isticmaalkaaga",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "tarjumaad la isticmaalo",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Fadlan soo gal si aad u isticmaasho sifooyinka tarjumaada",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ma aha turjum$$SELECTED$$ ku filan oo harsan. $REMAINING$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Waxaad isticmaaleysaa dhammaan $ tirinta $ tarjumaadaha haray. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ma socon karo boggan",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI waxay kaliya ka shaqeysaa mareegaha caadiga ah. Kuma socon karto boggaga gudaha Chrome",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nooca bogga aan la taageerin",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Bogagga aan la taageerin:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Furo degel caadi ah sida google.com si aad u isticmaasho LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Bilow Turjumaada",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Soo dejiso dhammaantood",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Turjun Fayl kale",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Degis deg deg",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Soo rar faylka JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Dooro Luuqadaha Bartilmaameedka",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Dooro Qaabka Turjumaada",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ furayaasha waa la turjumay",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Turjumaadii Dhamaystiran",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Wadarta Wararka",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Arrimaha Furan",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Mudnaanta Sare",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Ku xidh Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Ku xidh Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Dhoofinta Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Dhoofinta JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Aqoonsiga",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Darnaanta",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Cunsurka",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Arrin",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Xalka la soo jeediyay",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Eeg HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XCH",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Daawashada",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Luuqadda Hadda",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Furayaasha La turjumay",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Wakhtigii Lasoo dhaafay",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Turjumida...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "U turjun faylasha luqadda JSON luqado badan Google Translate ama AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Dooro hal ama dhowr luqadood oo aad u turjunto",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Qaabka la ogaaday: $FORMAT$, Qaabka: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "U turjumaya $LANG$... ($ CURRENT$/$ TOTAL$ furayaasha) $CURRENT$ $TOTAL$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Dhoofinta $COUNT$ Isbeddellada",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Soo rar wax ka beddelkaaga si aad ula wadaagto kooxdaada turjumaada",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Soo deji CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Soo deji JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "isbedelada $COUNT$ waa la keydiyay Taabo Ctrl+E si aad u dhoofiso",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Guji si aad awood ugu yeelato habka tafatirka",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Guji si aad awood ugu yeelato habka tafatirka Waxaad kaydisay isbedel Taabo Ctrl+E si aad u dhoofiso",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ma jiro qoraal la doortay",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Dooro qoraal si aad u heshid talooyinka AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Lama helin luqado",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Soo gelid waa fashilantay Fadlan isku day mar kale",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Si guul leh u soo gashay!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Si guul leh uga baxay",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Xaqiijinta waa fashilantay Fadlan isku day inaad nadiifiso khasnado oo mar kale soo gasho.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Nadiifinaya kaydka...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Ku guuldareystay in la nadiifiyo kaydka",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Maktabada Excel lama heli karo Fadlan dib u soo deji bogga",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Ugu badnaan $ ugu badnaan $ hal mar waxqabadka ugu habboon. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Tirin $ / $ $$MAX$$ $ la xushay $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Fadlan soo gal si aad u isticmaasho tarjumaadda AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Ugu fiican feylasha leh cabir macquul ah.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI MODE: Tani waxay codsan doontaa codsiyada api.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Tarjumadaani waxay sameyn doontaa ugu yaraan tirinta wicitaannada API. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Xaaladda AI wuxuu taageeraa ugu badnaan $ ugu badnaan $ hal mar. $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Habka Tarjumaadda",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Bilaash",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Aan xadidnayn",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Soomid",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Luuqadaha",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Luuqado luqado badan ayaa loo baahan yahay lacag bixin.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Hubisay:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Hikaad",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Naxwe",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Qaabka",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Qoraalka asalka ah wax arimo ah ma leh",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Hubiyay $ tirinta $ qaybaha qoraalka",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Helay $ tirin $ khaladaad si aad u hagaajiso",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Khaladaad la'aan!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Warbixinta Hubinta Tayada",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI tikray t'ikray yanapana. Kawsaq t'ikray, pantay willakuy, llulla kay llaqtayay, chaymanta tawa JSON t'ikray.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Wichqay",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Sayachiy",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Waqaychay",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Chinkachiy",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Hawaman apachiy",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sincronización",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "QALLARIY",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "CHAYANA",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Simikunata maskay...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Kikinmanta tarisqa maskaqmanta",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Simi tikray",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Original textomanta t’ikrasqa textomantawan cambiay",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Imaynatataq llamkan: • Ñawpaq qillqasqata, tikrasqa qillqakunata tikray • T’ikraykunaqa usqhaylla cambianapaqmi waqaychasqa kashan • P’anqapi llapa qillqasqakunawan llamk’an • Wakmanta tikranapaq caché nisqa chuyanchay",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Kikin",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "T’ikrasqa",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Tikranapaq wakichisqa",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Caché chuyanchay & Wakmanta tikray",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Localización nisqa",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Prueba UI aswan unay qillqawan tarinapaq desbordamiento sasachakuykunata",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Imaynatataq llamkan: • Qillqakunataqa acentuado nisqawanmi tikran • 30-40% suni mastariyta yapan • Qillqasqata [!!!... !!!] marcadores nisqakuna • Ejemplo: \"Ajustes\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\" nisqa.",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc nisqawan yanapachikuy",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Kawsaq Llamk'apuy Modo",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Ima qillqasqatapas ñit'iy chiqap p'anqapi llamk'achinaykipaq",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Imaynatataq llamkan: • Ima qillqa elementotapas ñit’iy allichanaykipaq • Tikraykunaqa chiqap pachallapim qatipakun • JSON utaq Excel hina allichaykunata hawaman apachiy • Ctrl+E ñit’iy tikraykunata hawaman apachinapaq",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Kawsaq Llamk'apuyta atichiy",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI nisqa ruwaykuna",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI nisqawan kallpachasqa tikraypaq yanapakuykuna",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium nisqa ruwaykuna:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI yuyaychaykunata chaskiy",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Traducción",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "P'anqapi LLAPAN qillqata tikran AI contextowan",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "T’ikraypa allin kayninta qhaway",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON Archivo Tikraq",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON simi willañiqikunata achka simikunaman tikray",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Imaynatataq llamkan: • JSON simi qillqakunata yapay • Ima rimaykunata akllay • Google utaq AI nisqawan tikray • T’ikrasqa archivokunata uraykachiy",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON Archivota tikray",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Willakuypa asunton",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Qillqa tikraymanta, kitichakuymanta ima willay",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Imaynatataq llamkan: • Qillqa elementokunata ñit’iy sasachakuykunamanta willanaykipaq • Descripción nisqakunata, sinchi kaynintapas yapay • Willakuykunata Excel utaq JSON nisqaman hawaman apachiy • Google Drive nisqawan kuskanchana",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Willayta qallariy",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Willakuykunata kamachiy",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Yupay",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google nisqawan yaykuy",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Premium nisqaman yapay.",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Info premium.",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Lloqsiy",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Pantasqa Willakuykuna",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Maskana willakuykunata...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Tukuy Ch'uyanchana",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Manaraqmi pantasqa willakuykuna kanchu",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "\"Willayta qallariy\" ñit'iy sasachakuykunata qatipanaykipaq",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Mana ima tarikuykuna tarisqachu",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Huk rikchaq simikunata pruebay",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Detalles nisqakunata qhaway",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Decidisqa kasqanman hina marcay",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Wakmanta kichay",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Pantasqamanta Willakuy #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "info básica.",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Imayna kaynin",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Ñiqichana",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Imay pacha",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementomanta Detalles",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Sutichaq",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Qillqa",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Akllaq",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Traducción Contexto",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Issue Descripción",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "P'anqamanta willakuy.",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Suti",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL nisqa",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Willakuyta qulluy",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "¿Segurochu kanki willayta #$ID$ qulluyta?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Llapan Willakuykunata Ch’uyanchana",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "LLAPAN pantasqa willakuykunata qulluy? ¡Kay ruwayqa manan kutichiyta atikunmanchu!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Tukuy Borrar",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Pantasqa Willakuykunata hawaman apachiy",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Hawaman apachinapaq rikch'ayta akllay:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excel nisqaman hawaman apachiy",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON nisqaman hawaman apachiy",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Drive nisqaman tinkinakuy",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Willayta #$$$STATUS$$$ $status$ hina markasqa. $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Willakuy #$ID$ qullusqa",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Llapan willakuykuna chuyanchasqa",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "¿Simita tikray?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Pukyu simiqa $SOURCE$ nisqamanmi tikrasqa. ¿$TARGET$ nisqaman tikrayta munankichu?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Arí, Cambio",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Manan, Kunan pachallapi kay",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "kichasqa",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "allichasqa",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Imaynatataq llamkan:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium nisqa ruwaykuna:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Kikinmanta riqsisqa: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Datos nisqakunata tinkuchiy",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ qillqakunata tikranapaq tarisqa",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "akllasqa",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Wakichispa...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Huntasqa!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ simikunapaq tikrayta qallariy...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Tukuchishka $exccess$/$total$ $SUCCESS$iomas $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$$TIME$$s.",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Caché chuyanchasqa",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Mana nisqachu",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Mana sutiyuq P'anqa",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Qaway",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Yuyachiy",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "KUSA",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Chay asuntomanta allinta willakuy...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Ama hina kaspa, chay asuntomanta willakuy",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Ama hina kaspa, ñawpaqta yaykuy",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Yuyaychay: Ctrl+E ñit'iy tikrayniykikunata hawaman apachinaykipaq",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Llamk'apuy ñanta mana llamk'achinapaq ñit'iy. Ctrl+E ñit'iy tikraykunata hawaman apachinaykipaq.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "¡Capboard nisqaman copiasqa!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "¡Mejoramiento aplicado!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ allinchakuykuna churasqa!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Calidad qhaway hunt’asqa",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive nisqaman tinkinakuy...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "¡Google Drive nisqaman t'inkisqa!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Unidad sincronización mana atikunchu",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Ama hina kaspa, Drivemanta tinkinaykipaq yaykuy",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive nisqamanta tinkinakuy...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive kaqmanta $COUNT$ willakuykunata tinkisqa!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive llaqtapiqa manam ima willakuykunatapas tarirqakuchu",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel qillqata wakichiy...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel willañiqi hawaman apachisqa: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel nisqaman hawaman apachiypi pantasqa",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON willañiqi hawaman apachisqa: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON nisqaman hawaman apachiypi pantasqa",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV willañiqi hawaman apachisqa: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV nisqaman hawaman apachiypi pantasqa",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Ama hina kaspa, allin JSON willañiqita churay",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ tikray llavekuna kargasqa",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Mana allin JSON willañiqi",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Ama hina kaspa, tukuy llamk'aykunata hunt'achiy",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI tikrayqa primata munan.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ nisqaman tikrayta manam atirqanchu",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Llapan t’ikrasqankuqa manan allinchu karqan. Ama hina kaspa, hukmanta kallpachakuy.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "T’ikrayqa manan atirqanchu. Ama hina kaspa, hukmanta kallpachakuy.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ simikunaman allinta tikrasqa!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ nisqamanta uraykachisqa",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON willañiqita kaypi urmachiy utaq ñit'iy qhawanaykipaq",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Yanapakun: en.json, vi.json, hukkunapas.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Tikraq",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Utqaylla chaymanta mana qullqiyuq tikray Google Translate API kaqwan",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI Traducción",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Alta calidad contexto-consciente tikray AI kaqwan",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Qispisqa",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Utqay",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Contexto-consciente nisqa",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Fraseo natural nisqa",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Aswan allin UI qillqapaq",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Kawsaq Llamk'apuyta mana llamk'achiy ($COUNT$ llamk'apuykunata).",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Kawsaq Llamk'apuy atichiy ($COUNT$ waqaychasqa).",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Akllasqa Qillqa ($LANG$).",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Aswan allin Alternativakuna ($LANG$).",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Premium nisqaman yapay.",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Llapan AI ruwanakunata chaymanta mana k'itiyuq tikraykunata kichay",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI yuyaysapa yuyaychaykuna",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Utqaylla lote tikray",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Auto calidad qhaway",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Ñawpaqman churanapaq yanapakuy",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Tukuy simikuna yanapan",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Kunanpacha suscribirse",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Cuenta Premium.",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Suscripción Activa nisqa",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Fecha de vencimiento",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Puchuq punchawkuna",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Issue Tipo: 1.1.",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Pantasqa Traducción",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Texto Desbordamiento",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Diseño P’akisqa",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Traducción faltasqa",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formato nisqamanta Issue",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Huk",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Pantasqa Willayta kamachiq",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Llaqtachakuy sasachakuyniykikunata kamachiy chaymanta hawaman apachiy",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Sasachakuykunamanta willayta qallariy, kitichakuy sasachakuykunata qatipanapaq",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Mana willakuykunapas filtroykikunawan tupanchu",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tukuy Estado",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tukuy Severidad",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Tukuy Categorías nisqakuna",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Hatun",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Chawpi",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Pisi",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Aswan allin!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ qillqa t'aqakunata qhawaspa mana ima sasachakuykunata tarirqanchu.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Pukyu Simi:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Rimana simi: 1.1.",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Yaykuy Necesario",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Ama hina kaspa, yaykuy tikray ruwaykunata llamk'achinaykipaq. Libre usuariokuna 10 tikraykunata chaskinku.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ tikraykunamanta $REMAINING$ puchuq",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Límite de Uso Chayasqa",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Chayarunkiñam imapas servichikunaykipaq.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Premium nisqaman yapay.",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Desbloquear traducciones sin límites y características premium.",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "sapa killa",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Mana k’uchuyuq t’ikraykuna",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Ichapas qipaman",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Maypachapas cancelar. Mana tapuykuna ruwasqachu.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Tu Uso",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "tikrasqakuna llamk’achisqa",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Ama hina kaspa, yaykuy tikray ruwaykunata llamk'achinaykipaq",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Mana suficiente traducciones puchuq. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Llapan $$COUNT$$ puchuq tikraykunata llamk'achkanki.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Mana Kay P'anqapi Ruwayta Atinchu",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI sapa kuti web kitikunallapi llamkan. Chrome ukhu p'anqakunapi mana puriyta atinchu.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Mana yanapasqa p'anqap rikch'aynin",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Mana yanapasqa p'anqakuna:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Kichay huk sapa kuti web kitita google.com hina LocalizeAI llamk'achinapaq",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Traducciónta qallariy",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Tukuy imata hurquy",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Huk Willayta tikray",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Uraykachiy",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON Archivota yapay",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Simikuna maskanapaq akllay",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Modo de Traducción nisqapi akllay",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ llavekuna tikrasqa",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traducción Completa!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Llapan Willakuykuna",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Kichasqa Asuntukuna",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Alto Prioridad nisqa",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive nisqaman sincronizakuy",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive nisqamanta sincronización",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel nisqa hawa llaqtakunaman apachiy",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON nisqa hawa llaqtakunaman apachiy",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID nisqa.",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Sinchi kaynin",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Imakuna",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Sasachay",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Yuyaychasqa Soluciones",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML nisqa qhaway",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath nisqa",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Qhaway",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Kunan Simi",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Llaves Traducida",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Tiempo pasasqa",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Traducción...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "JSON simi willañiqikunata achka simikunaman tikray Google Translate utaq AI kaqwan",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Huk utaq achka simikunata akllay tikranaykipaq",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formato tarisqa: $FORMAT$, Modo: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ($CURRENT$/$TOTAL$ llaves) nisqaman tikraspa",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Hawaman apachiy $COUNT$ Tikray",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Llamk'apuyniykikunata hawaman apachiy tikray equipoykiwan rakinaykipaq",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV nisqamanta hurquy",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON nisqamanta hurquy",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ tikrakuykuna waqaychasqa. Ctrl+E ñit'iy hawaman apachinaykipaq.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Llamk'apuy ruwayta atichinaykipaq ñit'iy",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Llamk'apuy ñanta atichinaykipaq ñit'iy. Tikraykunatam waqaychanki. Ctrl+E ñit’iy hawaman apachinaykipaq.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Mana qillqasqa akllasqachu",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Qillqata akllay AI yuyaychaykunata chaskinaykipaq",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Mana simikuna tarisqachu",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Yaykuyqa manam atirqanchu. Ama hina kaspa, hukmanta kallpachakuy.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "¡Allinta haykuy!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Allinta firmasqa",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Chiqaqchayqa manam atirqanchu. Ama hina kaspa, waqaychayta ch'uyanchaspa hukmanta yaykuyta kallpachakuy.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Caché nisqa ch'uyanchaspa...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Caché nisqataqa manam chuyanchayta atirqanchu",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel biblioteca mana kanchu. Ama hina kaspa, p'anqata musuqmanta kargay.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "máximo $$MAX$$ simikuna huk kutillapi allin ruwaypaq.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$yupay$ / $$$MAX$$$ akllasqa. $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Ama hina kaspa, AI Traducción llamk'achinaykipaq yaykuykuy.",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Aswan allin archivokunapaq razonable tamañoyuq.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modo AI: Kayqa mañakuykunata ruwanqa API waqyakuykunata.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Kay tikrayqa yaqa yupay API waqyaykunata ruwanqa. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI modoqa huk kutillapi aswan achka $$MAX$$ simikunatam yanapan.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Método de Traducción.",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Qispisqa",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Mana k'itiyuq.",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Utqay",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Simikuna.",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Achka simikuna tikrayqa premium nisqatam munan.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Qhawasqa:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografía .",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramática nisqa.",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formato nisqa .",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Original Texto no tiene problemas .",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Qhawasqa $Count$ qillqa t'aqakuna .",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "tarisqa $yupay$ pantaykunata allichanapaq .",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "¡Manan pantaykuna kanchu!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Calidad qhaway willakuy .",
+    "description": "Quality check report title"
+  }
+}

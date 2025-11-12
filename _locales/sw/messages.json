@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "Zana ya majaribio ya tafsiri ya AI. Tafsiri ya moja kwa moja, ripoti ya hitilafu, pseudo-uenyeji na tafsiri ya JSON kwa wingi.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Funga",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Ghairi",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Hifadhi",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Futa",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Hamisha",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sawazisha",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "CHANZO",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "LENGO",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Tafuta lugha...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Imegunduliwa kiotomatiki kutoka kwa kivinjari",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Kugeuza Lugha",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Badili kati ya maandishi asilia na yaliyotafsiriwa",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Jinsi inavyofanya kazi: • Geuza kati ya maandishi asilia na yaliyotafsiriwa • Tafsiri zimehifadhiwa kwa ajili ya kubadili haraka • Hufanya kazi na maandishi yote kwenye ukurasa • Futa akiba ili kutafsiri upya",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Asili",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Imetafsiriwa",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Tayari kutafsiri",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Futa Akiba na Utafsiri Upya",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Ujanibishaji-Usio",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Jaribu kiolesura chenye maandishi marefu ili kupata masuala ya kufurika",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Jinsi inavyofanya kazi: • Hubadilisha herufi na matoleo yenye lafudhi • Huongeza upanuzi wa urefu wa 30-40%. • Hufunga maandishi kwa [!!!... !!!] alama • Mfano: \"Mipangilio\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Tumia Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Hali ya Kuhariri Moja kwa Moja",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Bofya maandishi yoyote ili kuhariri moja kwa moja kwenye ukurasa",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Jinsi inavyofanya kazi: • Bofya kipengele chochote cha maandishi ili kuhariri • Mabadiliko yanafuatiliwa katika muda halisi • Hamisha mabadiliko kama JSON au Excel • Bonyeza Ctrl+E ili kuhamisha mabadiliko",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Washa Uhariri wa Moja kwa Moja",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Vipengele vya AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Zana za kutafsiri zinazoendeshwa na AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Vipengele vya Kulipiwa: • Tafsiri inayozingatia muktadha inayoendeshwa na AI • Kundi kutafsiri kurasa nzima • Angalia ubora wa tafsiri • Mapendekezo ya lugha asilia",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Pata Mapendekezo ya AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Tafsiri",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Inatafsiri maandishi YOTE kwenye ukurasa kwa muktadha wa AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Angalia Ubora wa Tafsiri",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Malipo",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Kitafsiri cha Faili cha JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Tafsiri faili za lugha ya JSON kwa lugha nyingi",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Jinsi inavyofanya kazi: • Pakia faili za lugha za JSON • Chagua lugha lengwa • Tafsiri ukitumia Google au AI • Pakua faili zilizotafsiriwa",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Tafsiri Faili ya JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Ripoti Suala",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Ripoti masuala ya tafsiri ya maandishi na ujanibishaji",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Jinsi inavyofanya kazi: • Bofya vipengele vya maandishi ili kuripoti matatizo • Ongeza maelezo na ukali • Hamisha ripoti kwa Excel au JSON • Sawazisha na Hifadhi ya Google",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Anza Kuripoti",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Dhibiti Ripoti",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Akaunti",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Ingia kwa kutumia Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Boresha hadi malipo",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Maelezo ya Kulipiwa",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Ondoka",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Ripoti za Mdudu",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Tafuta ripoti...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Futa Zote",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Hakuna ripoti za hitilafu bado",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Bofya \"Anza Kuripoti\" ili kufuatilia masuala",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Hakuna matokeo yaliyopatikana",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Jaribu maneno muhimu tofauti",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Tazama maelezo",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Tia alama kuwa imesuluhishwa",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Fungua upya",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Ripoti ya Hitilafu #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Maelezo ya Msingi",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Hali",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Tarehe",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Maelezo ya kipengele",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Lebo",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Maandishi",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Kiteuzi",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Muktadha wa Tafsiri",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Maelezo ya Suala",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Maelezo ya Ukurasa",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Kichwa",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Url",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Futa Ripoti",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Je, una uhakika unataka kufuta ripoti #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Futa Ripoti Zote",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ungependa kufuta ripoti ZOTE za hitilafu? Kitendo hiki hakiwezi kutenduliwa!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Futa Zote",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Hamisha Ripoti za Mdudu",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Chagua umbizo la kuhamisha:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Hamisha kwa Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Hamisha kwa JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sawazisha kwenye Hifadhi ya Google",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Ripoti #$ $$STATUS$$ $ iliyowekwa alama kama $ $ $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ripoti #$ID$ imefutwa",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Ripoti zote zimefutwa",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Je, ungependa kubadilisha Lugha inayolengwa?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Lugha ya kimaumbile imebadilishwa hadi $SOURCE$. Je, ungependa kutafsiri hadi $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ndiyo, Badilisha",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Hapana, Endelea Sasa",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "wazi",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "kutatuliwa",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Jinsi inavyofanya kazi:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Vipengele vya Kulipiwa:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Imegunduliwa kiotomatiki: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sawazisha data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Tumepata maandishi $COUNT$ ya kutafsiri",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "iliyochaguliwa",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Inatayarisha...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Kamilisha!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Inaanza kutafsiri kwa lugha $COUNT$...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Imekamilika $ mafanikio $/$ jumla ya lugha $ $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Wakati $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Akiba imefutwa",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Haijabainishwa",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Ukurasa Usio na Kichwa",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Tazama",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Thibitisha",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "SAWA",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Eleza suala hilo kwa undani...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Tafadhali eleza suala hilo",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Tafadhali ingia kwanza",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Kidokezo: Bonyeza Ctrl+E ili kuhamisha mabadiliko yako",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Bofya ili kuzima hali ya kuhariri. Bonyeza Ctrl+E ili kuhamisha mabadiliko.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Imenakiliwa kwenye ubao wa kunakili!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Uboreshaji umetumika!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Imetumia maboresho ya $COUNT$!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Ukaguzi wa ubora umekamilika",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Inasawazisha kwenye Hifadhi ya Google...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Imesawazishwa kwenye Hifadhi ya Google!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Usawazishaji wa Hifadhi umeshindwa",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Tafadhali ingia ili kusawazisha kutoka kwa Hifadhi",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Inasawazisha kutoka Hifadhi ya Google...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Ilisawazisha ripoti $COUNT$ kutoka Hifadhi!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Hakuna ripoti zilizopatikana katika Hifadhi",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Inatayarisha faili ya Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Faili ya Excel imehamishwa: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Hitilafu katika kuhamisha hadi Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Faili ya JSON imehamishwa: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Hitilafu katika kuhamishia kwenye JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Faili ya CSV imehamishwa: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Hitilafu katika kuhamisha kwa CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Tafadhali pakia faili sahihi ya JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Imepakia funguo $COUNT$ za tafsiri",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Faili ya JSON si sahihi",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Tafadhali kamilisha hatua zote",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Tafsiri ya AI inahitaji malipo.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Imeshindwa kutafsiri hadi $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Tafsiri zote hazikufaulu. Tafadhali jaribu tena.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Tafsiri imeshindwa. Tafadhali jaribu tena.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Imefasiriwa kwa lugha $COUNT$!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Imepakua $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Dondosha faili ya JSON hapa au ubofye ili kuvinjari",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Inaauni: en.json, vi.json, nk.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Tafsiri",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Tafsiri ya haraka na bila malipo kwa kutumia API ya Tafsiri ya Google",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Tafsiri ya AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Utafsiri wa hali ya juu unaofahamu muktadha kwa kutumia AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Bure",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Haraka",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kufahamu muktadha",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Maneno ya asili",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Bora kwa maandishi ya UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Zima Uhariri wa Moja kwa Moja (maharirio $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Washa Uhariri wa Moja kwa Moja ($COUNT$ zimehifadhiwa)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Maandishi Uliochaguliwa ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Mbadala Bora ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Boresha hadi malipo",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Fungua vipengele vyote vya AI na tafsiri zisizo na kikomo",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Mapendekezo mahiri ya AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Tafsiri ya haraka ya kundi",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Ukaguzi wa ubora wa kiotomatiki",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Msaada wa kipaumbele",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Lugha zote zinasaidia",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Jisajili sasa",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Akaunti ya malipo",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Usajili Unaotumika",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Tarehe ya kumalizika muda wake",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Siku Zilizobaki",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Aina ya Toleo:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Tafsiri Isiyo sahihi",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Maandishi Yanayofurika",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Mpangilio Umevunjwa",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Tafsiri haipo",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Suala la Uumbizaji",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Nyingine",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Kidhibiti cha Ripoti ya Mdudu",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Dhibiti na uhamishe masuala yako ya ujanibishaji",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Anza kuripoti matatizo ili kufuatilia matatizo ya ujanibishaji",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Hakuna ripoti zinazolingana na vichujio vyako",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Hali Yote",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Ukali Wote",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Kategoria Zote",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Juu",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Kati",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Chini",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Bora kabisa!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Imekagua sehemu za maandishi $COUNT$ na haikupata matatizo yoyote.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lugha Chanzo:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lugha Lengwa:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Ingia Katika Akaunti Inahitajika",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Tafadhali ingia ili kutumia vipengele vya kutafsiri. Watumiaji bila malipo hupata tafsiri 10.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ kati ya tafsiri $LIMIT$ zimesalia",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Kikomo cha Matumizi Kimefikiwa",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Umefikia kikomo chako cha matumizi.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Boresha hadi malipo",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Fungua tafsiri zisizo na kikomo na vipengele vinavyolipiwa",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "kwa mwezi",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Tafsiri zisizo na kikomo",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Labda baadaye",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Ghairi wakati wowote. Hakuna maswali yaliyoulizwa.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Matumizi Yako",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "tafsiri zilizotumika",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Tafadhali ingia ili kutumia vipengele vya kutafsiri",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Tafsiri za kutosha zilizobaki. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Unatumia tafsiri zote za $ $ $ zilizobaki. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Haiwezi Kukimbia kwenye Ukurasa Huu",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI inafanya kazi kwenye tovuti za kawaida pekee. Haiwezi kufanya kazi kwenye kurasa za ndani za Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Aina ya ukurasa isiyotumika",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Kurasa zisizotumika:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Fungua tovuti ya kawaida kama google.com ili kutumia LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Anza Tafsiri",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Pakua Zote",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Tafsiri Faili Nyingine",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Pakua",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Pakia faili ya JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Chagua Lugha Lengwa",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Chagua Hali ya Tafsiri",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ vitufe vimetafsiriwa",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Tafsiri Imekamilika!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Jumla ya Ripoti",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Fungua Masuala",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Kipaumbele cha Juu",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sawazisha kwenye Hifadhi",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sawazisha kutoka kwa Hifadhi",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Hamisha Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Hamisha JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Id",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Ukali",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Kipengele",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Suala",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Suluhisho Zinazopendekezwa",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Tazama HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPATH",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Mtazamo",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Lugha ya Sasa",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Vifunguo Vilivyotafsiriwa",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Muda Umepita",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Inatafsiri...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Tafsiri faili za lugha ya JSON kwa lugha nyingi ukitumia Google Tafsiri au AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Chagua lugha moja au zaidi za kutafsiri",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Umbizo limetambuliwa: $FORMAT$, Hali: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Inatafsiri hadi $LANG$... (vifunguo $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Hamisha Mabadiliko $COUNT$",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Hamisha mabadiliko yako ili kushiriki na timu yako ya utafsiri",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Pakua CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Pakua JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Mabadiliko $COUNT$ yamehifadhiwa. Bonyeza Ctrl+E ili kuhamisha.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Bofya ili kuwezesha hali ya kuhariri",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Bofya ili kuwezesha hali ya kuhariri. Umehifadhi mabadiliko. Bonyeza Ctrl+E ili kuhamisha.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Hakuna maandishi yaliyochaguliwa",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Chagua maandishi ili kupata mapendekezo ya AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Hakuna lugha zilizopatikana",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Imeshindwa kuingia. Tafadhali jaribu tena.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Umeingia katika akaunti!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Umeondoka kwenye akaunti",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Uthibitishaji umeshindwa. Tafadhali jaribu kufuta akiba na uingie tena.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Inafuta akiba...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Imeshindwa kufuta akiba",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Maktaba ya Excel haipatikani. Tafadhali pakia upya ukurasa.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Upeo wa $ $ $ $ mara moja kwa utendaji mzuri. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Hesabu $ / $ $$MAX$$ $ iliyochaguliwa $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Tafadhali ingia ili utumie tafsiri ya AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Bora kwa faili zilizo na saizi nzuri.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Njia ya AI: Hii itafanya maombi ya simu za API.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Tafsiri hii itafanya simu za API takriban. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Njia ya AI inasaidia kiwango cha juu cha $ $ $ mara moja. $MAX$",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Njia ya tafsiri",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Bure",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Isiyo na kikomo",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Haraka",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "lugha",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Tafsiri ya lugha nyingi inahitaji malipo.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Imeangaliwa:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Spelling",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Sarufi",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Fomati",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Nakala ya asili haina maswala",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Sehemu za maandishi ya $ $ $",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Kupatikana makosa ya $ $ $ kurekebisha",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Hakuna makosa!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Ripoti ya ukaguzi wa ubora",
+    "description": "Quality check report title"
+  }
+}

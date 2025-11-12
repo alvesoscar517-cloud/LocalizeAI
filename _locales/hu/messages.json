@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI fordítási tesztelő eszköz. Élő fordítás, hibajelentés, pszeudo-lokalizáció és kötegelt JSON fordítás.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Bezár",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Mégsem",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Mentés",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Töröl",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Export",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Szinkronizál",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FORRÁS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "CÉL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Nyelvek keresése...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatikusan felismerve a böngészőből",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Nyelvváltás",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Váltás az eredeti és a fordított szöveg között",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Hogyan működik: • Váltás az eredeti és a fordított szöveg között • A fordítások gyorsítótárazva vannak a gyors váltás érdekében • Az oldalon található összes szöveggel működik • A gyorsítótár törlése az újrafordításhoz",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Eredeti",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Lefordított",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Fordításra kész",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Gyorsítótár törlése és újrafordítás",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pszeudo-lokalizáció",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Hosszabb szöveggel rendelkező felhasználói felület tesztelése a túlcsordulási problémák megtalálásához",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Hogyan működik: • Ékezetes karaktereket cserél le • 30-40%-os hosszbővítést ad hozzá • A szöveget [!!!... !!!] jelölők közé töri • Példa: \"Beállítások\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc alkalmazása",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Élő szerkesztési mód",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Kattintson bármelyik szövegre a lapon történő közvetlen szerkesztéshez",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Hogyan működik:",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Élő szerkesztés engedélyezése",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Mesterséges intelligencia funkciók",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Mesterséges intelligencia által vezérelt fordítóeszközök",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Prémium funkciók: • Mesterséges intelligencia által vezérelt, kontextus-érzékeny fordítás • Teljes oldalak kötegelt fordítása • Fordítások minőségellenőrzése • Természetes nyelvi javaslatok",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI-javaslatok kérése",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Intelligens kötegelt fordítás",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "AI kontextus segítségével lefordítja az oldalon található ÖSSZES szöveget",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Fordítási minőség ellenőrzése",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Prémium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON fájlfordító",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON nyelvi fájlok fordítása több nyelvre",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Hogyan működik: • JSON nyelvi fájlok feltöltése • Célnyelvek kiválasztása • Fordítás Google-lel vagy mesterséges intelligenciával • Lefordított fájlok letöltése",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON fájl fordítása",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Jelentés problémája",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Szövegfordítási és lokalizációs problémák jelentése",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Hogyan működik:",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Jelentéstétel indítása",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Jelentések kezelése",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Fiók",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Bejelentkezés Google-fiókkal",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Prémium verzióra váltás",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Prémium információk",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Kijelentkezés",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Hibajelentések",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Jelentések keresése...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Összes törlése",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Még nincsenek hibajelentések",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "A problémák nyomon követéséhez kattintson a „Jelentés indítása” gombra",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nincs találat",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Próbáljon ki különböző kulcsszavakat",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Részletek megtekintése",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Megjelölés megoldottként",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Újranyitás",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Hibajelentés #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Alapvető információk",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Állapot",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategória",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dátum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elem részletei",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Címke",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Szöveg",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Választó",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Fordítási kontextus",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Probléma leírása",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Oldalinformáció",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Cím",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-cím",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Jelentés törlése",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Biztosan törölni szeretné a(z) #$ID$ jelentést?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Összes jelentés törlése",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Törli az ÖSSZES hibajelentést? Ez a művelet nem vonható vissza!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Összes törlése",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Hibajelentések exportálása",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Válassza ki az exportálási formátumot:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exportálás Excelbe",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exportálás JSON-ba",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Szinkronizálás a Google Drive-val",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "A #$ID$ jelentés $STATUS$ jelzéssel",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "A(z) #$ID$ jelentés törölve",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Minden jelentés törölve",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Célnyelv módosítása?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "A forrásnyelv $SOURCE$-ra változott. Szeretné lefordítani $TARGET$ nyelvre?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Igen, változás",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nem, maradjon naprakész",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "nyitott",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "megoldott",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Hogyan működik:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Prémium funkciók:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatikusan felismerve: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Adatok szinkronizálása",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ fordítandó szöveget találtam",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "kiválasztott",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Előkészítés...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Teljes!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Fordítás indítása $COUNT$ nyelvre...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ befejezett nyelv",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$IDŐ$s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Gyorsítótár törölve",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nincs megadva",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Névtelen oldal",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Megtekintés",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Megerősítés",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "RENDBEN",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Írd le részletesen a problémát...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Kérjük, írja le a problémát",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Kérjük, először jelentkezzen be",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tipp: Nyomja meg a Ctrl+E billentyűkombinációt a módosítások exportálásához",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Kattintson a szerkesztési mód letiltásához.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Vágólapra másolva!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Javítás alkalmazva!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ fejlesztést alkalmaztál!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Minőségellenőrzés befejezve",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Szinkronizálás a Google Drive-ra...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Szinkronizálva a Google Drive-val!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "A meghajtó szinkronizálása sikertelen",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Jelentkezzen be a Drive-ból való szinkronizáláshoz",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Szinkronizálás a Google Drive-ról...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ jelentés szinkronizálva a Drive-ról!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Nem találhatók jelentések a Drive-ban",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel fájl előkészítése...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Exportált Excel-fájl: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Hiba az Excelbe exportáláskor",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-fájl exportálva: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Hiba történt az exportálás során JSON-ba",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-fájl exportálva: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Hiba a CSV-fájlba exportáláskor",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Kérjük, töltsön fel egy érvényes JSON fájlt",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ fordítási kulcs betöltve",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Érvénytelen JSON-fájl",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Kérjük, végezze el az összes lépést",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Az AI-fordításhoz Premium kell.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Nem sikerült lefordítani $LANG$ nyelvre",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Minden fordítás sikertelen. Próbáld újra.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "A fordítás sikertelen. Próbáld újra.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Sikeresen lefordítva $COUNT$ nyelvre!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Letöltve: $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Húzza ide a JSON fájlt, vagy kattintson a böngészéshez",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Támogatja: en.json, vi.json stb.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Fordító",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Gyors és ingyenes fordítás a Google Translate API segítségével",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Mesterséges intelligencia fordítás",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Kiváló minőségű, kontextus-érzékeny fordítás mesterséges intelligencia segítségével",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Ingyenes",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Gyors",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontextus-érzékeny",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Természetes megfogalmazás",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Jobb a felhasználói felület szövegéhez",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Élő szerkesztés letiltása ($COUNT$ szerkesztés)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Élő szerkesztés engedélyezése ($COUNT$$ megtakarítás)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Kijelölt szöveg ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Jobb alternatívák ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Prémium verzióra váltás",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Oldd fel az összes mesterséges intelligencia funkciót és a korlátlan fordítási lehetőségeket",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Intelligens javaslatok mesterséges intelligenciával",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Gyors kötegelt fordítás",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatikus minőségellenőrzés",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Elsőbbségi támogatás",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Minden nyelv támogatása",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Iratkozzon fel most",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Prémium fiók",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktív előfizetés",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Lejárati dátum",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Hátralévő napok",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Probléma típusa:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Helytelen fordítás",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Szöveg túlcsordulás",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Elrendezés hibás",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Hiányzó fordítás",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formázási probléma",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Más",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Hibajelentés-kezelő",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Kezelje és exportálja a lokalizációs problémákat",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Kezdje el jelenteni a problémákat a lokalizációs problémák nyomon követése érdekében",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Egyetlen jelentés sem felel meg a szűrőknek",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Minden állapot",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Minden súlyosság",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Minden kategória",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Magas",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Közepes",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Alacsony",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Kiváló!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ szövegszegmenst ellenőriztem, és nem találtam problémát.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Forrásnyelv:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Célnyelv:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Bejelentkezés szükséges",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Kérjük, jelentkezzen be a fordítási funkciók használatához. Az ingyenes felhasználók 10 fordítást kapnak.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ fordításból $REMAINING$ van hátra",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Használati korlát elérve",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Elérted a használati korlátodat. Válts Prémiumra a korlátlan hozzáférésért.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Prémium verzióra váltás",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Korlátlan fordítási és prémium funkciók",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "havonta",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Korlátlan fordítások",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Talán később",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Bármikor lemondható. Kérdés nélkül.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Az Ön használati szokásai",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "felhasznált fordítások",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Kérjük, jelentkezzen be a fordítási funkciók használatához",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Nincs elég fordítás maradt. Még $REMAINING$ van hátra, de $SELECTED$ nyelvet választott ki. Kérjük, frissítsen Prémiumra, vagy csökkentse a nyelvek számát.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Mind a $COUNT$ fennmaradó fordítást használod. Válts Prémiumra a korlátlan hozzáférésért.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Nem futtatható ezen az oldalon",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "A LocalizeAI csak normál weboldalakon működik. A Chrome belső oldalain nem futtatható.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nem támogatott oldaltípus",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Nem támogatott oldalak:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Nyisson meg egy sima weboldalt, például a google.com-ot a LocalizeAI használatához",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Fordítás indítása",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Összes letöltése",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Egy másik fájl fordítása",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Letöltés",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON fájl feltöltése",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Célnyelvek kiválasztása",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Fordítási mód kiválasztása",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ kulcs lefordítva",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Fordítás kész!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Összes jelentés",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Nyitott kérdések",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Magas prioritás",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Szinkronizálás a Drive-ra",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Szinkronizálás a Drive-ról",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel exportálása",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON exportálása",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "azonosító",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Súlyosság",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elem",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Probléma",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Javasolt megoldások",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML megtekintése",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Nézetablak",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Jelenlegi nyelv",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Lefordított kulcsok",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Eltelt idő",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Fordítás...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "JSON nyelvi fájlok fordítása több nyelvre a Google Fordító vagy a mesterséges intelligencia segítségével",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Válasszon ki egy vagy több nyelvet a fordításhoz",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Észlelt formátum: $FORMAT$, Mód: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Fordítás $LANG$ nyelvre... ($CURRENT$/$TOTAL$ kulcsok)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ módosítások exportálása",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exportálja a szerkesztéseket, és ossza meg fordítócsapatával",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV letöltése",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON letöltése",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ módosítás mentve.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Kattintson a szerkesztési mód engedélyezéséhez",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Kattintson a szerkesztési mód engedélyezéséhez.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nincs kijelölt szöveg",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Jelöljön ki szöveget a mesterséges intelligencia javaslatainak megtekintéséhez",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nem található nyelv",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Sikertelen bejelentkezés. Kérjük, próbálja újra.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Sikeresen bejelentkezve!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Sikeresen kijelentkezve",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Sikertelen hitelesítés. Kérjük, próbálja meg törölni a gyorsítótárat, és jelentkezzen be újra.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Gyorsítótár törlése...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Nem sikerült törölni a gyorsítótárat",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Az Excel könyvtár nem érhető el. Kérjük, töltse be újra az oldalt.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Optimális teljesítmény érdekében egyszerre maximum $MAX$ nyelv. Kérjük, fordítson kötegekben.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ kiválasztva",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Jelentkezzen be az AI fordítás használatához",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "A legjobb ésszerű méretű fájlokhoz.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI mód: Ez $REQUESTS$ API-hívásokat indít. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ez a fordítás körülbelül $COUNT$ API-hívást fog végrehajtani.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Az AI mód maximum $MAX$ nyelvet támogat egyszerre.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Fordítási módszer",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Ingyenes",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Korlátlan",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Gyors",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "nyelvek",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "A többnyelvű fordításhoz Premium szükséges.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Ellenőrizve:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Helyesírás",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Nyelvtan",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formázás",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Az eredeti szöveggel nincs probléma",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> szövegszegmens ellenőrizve",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "<strong>$COUNT$</strong> javítandó hibát találtunk",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Nincsenek hibák!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Minőség-ellenőrzési jelentés",
+    "description": "Quality check report title"
+  }
+}

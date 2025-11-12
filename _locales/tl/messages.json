@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "Tool ng pagsubok sa pagsasalin ng AI.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Isara",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Kanselahin",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "I -save",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Tanggalin",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "I -export",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "I-sync",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "PINAGMULAN",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "Target",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Maghanap ng mga wika...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Auto-detect mula sa browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Toggle ng Wika",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Lumipat sa pagitan ng orihinal at isinalin na teksto",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Paano ito gumagana: • Mag-toggle sa pagitan ng orihinal at isinalin na teksto • Ang mga pagsasalin ay naka-cache para sa mabilis na paglipat • Gumagana sa lahat ng teksto sa pahina • I-clear ang cache upang muling isalin",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Orihinal",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Isinalin",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Handa nang isalin",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "I-clear ang Cache at Isalin muli",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-localization",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Subukan ang UI na may mas mahabang text para makahanap ng mga isyu sa overflow",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Paano ito gumagana: • Pinapalitan ang mga character ng may accent na bersyon • Nagdaragdag ng 30-40% na pagpapalawak ng haba • Binabalot ang teksto sa [!!!... !!!] mga marker • Halimbawa: \"Mga Setting\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Ilapat ang Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Live na mode ng pag -edit",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Mag -click sa anumang teksto upang i -edit nang direkta sa pahina",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Paano ito gumagana:",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Paganahin ang live na pag -edit",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Mga Tampok ng AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Mga tool sa pagsasalin na pinapagana ng AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Mga Tampok ng Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Kumuha ng Mga Suhestyon sa AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Translate",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Isinasalin ang LAHAT ng text sa page na may kontekstong AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Suriin ang Kalidad ng Pagsasalin",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Tagasalin ng file ng json",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Isalin ang mga file ng wika ng json sa maraming wika",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Paano ito gumagana:",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Isalin ang JSON file",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Iulat ang Isyu",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Mag-ulat ng mga isyu sa pagsasalin ng teksto at lokalisasyon",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Paano ito gumagana:",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Simulan ang Pag-uulat",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Pamahalaan ang Mga Ulat",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Account",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Mag -sign in sa Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Mag -upgrade sa Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Impormasyon sa Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Mag -sign out",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Mga Ulat sa Bug",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Maghanap ng mga ulat...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "I-clear ang Lahat",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Wala pang mga ulat sa bug",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "I -click ang \"Start Reporting\" upang subaybayan ang mga isyu",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Walang nakitang resulta",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Subukan ang iba't ibang mga keyword",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Tingnan ang mga detalye",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Markahan bilang nalutas na",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Muling buksan",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Ulat ng Bug #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Pangunahing Impormasyon",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Katayuan",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorya",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Petsa",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Mga Detalye ng Elemento",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Teksto",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Tagapili",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Konteksto ng Pagsasalin",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Paglalarawan ng Isyu",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Impormasyon ng Pahina",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Pamagat",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Tanggalin ang Ulat",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Sigurado ka bang gusto mong tanggalin ang ulat na #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "I-clear ang Lahat ng Ulat",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Tanggalin ang LAHAT ng ulat ng bug? Ang pagkilos na ito ay hindi maaaring bawiin!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Tanggalin Lahat",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "I -export ang mga ulat ng bug",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Piliin ang format ng pag -export:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "I -export sa Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "I -export sa JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "I-sync sa Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Iulat ang #$ $$STATUS$$ $ na minarkahan bi$$STATUS$$ katayuan ng $ $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ang ulat na #$ID$ ay tinanggal",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Na-clear ang lahat ng ulat",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Baguhin ang Target na Wika?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Ang wika ng mapagkukunan ay nagbago sa $ mapagkukunan $. $SOURCE$ $TARGET$",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Oo, Pagbabago",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Hindi, Keep Current",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "bukas",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "naresolba",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Paano ito gumagana:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Mga Tampok ng Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Awtomatikong natukoy: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "I-sync ang data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Nakahanap ng $COUNT$ na tekstong isasalin",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "pinili",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Inihahanda...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Kumpleto na!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Sinisimulan ang pagsasalin para sa $COUNT$ wika...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Nakumpleto ang $ tagumpay $/$ kabuuang $ wika $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ Laki ng $ kb $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Oras $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Na-clear ang cache",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Hindi tinukoy",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Walang Pamagat na Pahina",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Tingnan",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Kumpirmahin",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Ok",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Ilarawan ang isyu nang detalyado...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Pakilarawan ang isyu",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Mangyaring mag -sign in muna",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: Pindutin ang Ctrl+E upang ma -export ang iyong mga pagbabago",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Mag -click upang huwag paganahin ang mode ng pag -edit.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kinopya sa clipboard!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Inilapat ang pagpapabuti!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Inilapat ang $COUNT$ na mga pagpapabuti!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kumpleto ang pagsusuri sa kalidad",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sini-sync sa Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Naka-sync sa Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Nabigo ang pag-sync ng drive",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Mangyaring mag -sign in upang mag -sync mula sa drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sini-sync mula sa Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Nag-sync ng $COUNT$ na ulat mula sa Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Walang nakitang ulat sa Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Paghahanda ng Excel File...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Export ng file ng Excel: $ $FILENAME$ $",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Error sa pag -export sa Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON file na -export: $ $FILENAME$ $",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Error sa pag -export sa JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV file na -export: $ $FILENAME$ $",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Error sa pag -export sa CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Mangyaring mag -upload ng isang wastong file ng JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Na -load ang $ bi$COUNT$ ng mga susi ng pagsasalin",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Di -wastong JSON file",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Mangyaring kumpletuhin ang lahat ng mga hakbang",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Ang pagsasalin ng AI ay nangangailangan ng premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Nabigong isalin sa $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Nabigo ang lahat ng pagsasalin. Pakisubukang muli.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Nabigo ang pagsasalin. Pakisubukang muli.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Matagumpay na naisalin sa $COUNT$ wika!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Nai -download na $ $FILENAME$ $",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "I -drop ang JSON file dito o mag -click upang mag -browse",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Mga suporta: en.json, vi.json, atbp.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Isinalin ng Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Mabilis at libreng pagsasalin gamit ang Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Pagsasalin ng AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "De-kalidad na pagsasalin na may kaalaman sa konteksto gamit ang AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Libre",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Mabilis",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Alam ng konteksto",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Natural na parirala",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Mas mahusay para sa UI text",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Huwag paganahin ang live na pag -edit ($ $COUNT$ $ edits)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Paganahin ang live na pag -edit ($ $COUNT$ $ nai -save)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Napiling Teksto ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Mas Mahusay na Alternatibo ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Mag -upgrade sa Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "I-unlock ang lahat ng feature ng AI at walang limitasyong pagsasalin",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Mga matalinong mungkahi ng AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Mabilis na pagsasalin ng batch",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Pagsusuri ng kalidad ng sasakyan",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Priyoridad na suporta",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Sinusuportahan ng lahat ng mga wika",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Mag -subscribe ngayon",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium account",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktibong Subscription",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Petsa ng Pag-expire",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Natitirang Araw",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Uri ng Isyu:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Maling Pagsasalin",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Overflow ng teksto",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Sirang Layout",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Nawawalang Pagsasalin",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Isyu sa Pag-format",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Iba pa",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Tagapamahala ng Ulat ng Bug",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Pamahalaan at i -export ang iyong mga isyu sa lokalisasyon",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Simulan ang pag-uulat ng mga isyu para subaybayan ang mga problema sa localization",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Walang mga ulat na tumutugma sa iyong mga filter",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Lahat ng Katayuan",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Lahat ng Kalubhaan",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Lahat ng Kategorya",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Mataas",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Katamtaman",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Mababa",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Magaling!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Sinuri ang $COUNT$ na mga segment ng teksto at walang nakitang mga isyu.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Wikang Pinagmulan:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Target na Wika:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Mag -sign in na kinakailangan",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Mangyaring mag -sign in upang magamit ang mga tampok ng pagsasalin.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ng $LIMIT$ pagsasalin ang natitira",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Naabot na ang Limitasyon sa Paggamit",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Naabot mo na ang iyong limitasyon sa paggamit.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Mag -upgrade sa Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "I -unlock ang walang limitasyong mga pagsasalin at mga tampok na premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "bawat buwan",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Walang limitasyong mga pagsasalin",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Baka mamaya",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Kanselahin anumang oras. Walang tinanong.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Iyong Paggamit",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "mga pagsasaling ginamit",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Mangyaring mag -sign in upang magamit ang mga tampok ng pagsasalin",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Hindi sapat na natitirang mga pagsasalin. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Ginagamit mo ang lahat ng $ $COUNT$ $ natitirang mga pagsasalin.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Hindi Mapatakbo sa Page na Ito",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "Gumagana lang ang LocalizeAI sa mga regular na website. Hindi ito maaaring tumakbo sa mga panloob na pahina ng Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Hindi sinusuportahang uri ng page",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Mga hindi sinusuportahang pahina:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Magbukas ng regular na website tulad ng google.com para magamit ang LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Simulan ang Pagsasalin",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "I -download ang lahat",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Isalin ang isa pang file",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "I -download",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Mag -upload ng json file",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Piliin ang Mga Target na Wika",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Piliin ang mode ng pagsasalin",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ key ang isinalin",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Pagsasalin Kumpleto na!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Kabuuang Ulat",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Mga Bukas na Isyu",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Mataas na Priyoridad",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "I-sync sa Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "I-sync mula sa Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "I -export ang Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "I -export ang JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Kalubhaan",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elemento",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Isyu",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Mga Iminungkahing Solusyon",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Tingnan ang HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Viewport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Kasalukuyang Wika",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Isinalin ang mga Susi",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Lumipas ang Oras",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Nagsasalin...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Isalin ang mga file ng wika ng json sa maraming wika kasama ang Google Translate o AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Pumili ng isa o higit pang mga wika kung saan isasalin",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Natukoy ang format: $FORMAT$, Mode: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Isinasalin sa $LANG$... ($CURRENT$/$TOTAL$ keys)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "I -export ang $ bi$COUNT$ mga pagbabago sa $",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "I -export ang iyong mga pag -edit upang ibahagi sa iyong koponan sa pagsasalin",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "I -download ang CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "I -download ang JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$ Bi$COUNT$in ang mga pagbabago sa $ na nai -save.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Mag -click upang paganahin ang mode ng pag -edit",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Mag -click upang paganahin ang mode ng pag -edit.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Walang napiling teksto",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Pumili ng text para makakuha ng mga suhestyon sa AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Walang nahanap na mga wika",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Nabigo ang pag -sign in.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Matagumpay na naka -sign!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Matagumpay na naka -sign out",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Nabigo ang pagpapatunay.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Ni-clear ang cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Nabigong i-clear ang cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Hindi available ang Excel library. Paki-reload ang page.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Pinakamataas na $ $MAX$ $ wika nang sabay -sabay para sa pinakamainam na pagganap.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Bi$$MAX$$ $ / $ $$MAX$$ $ napili $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Mangyaring mag -sign in upang magamit ang pagsasalin ng AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Pinakamahusay para sa mga file na may makatuwirang laki.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI Mode: Ito ay gagawa ng mga kahilingan sa API.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ang pagsasalin na ito ay gagawa ng humigit -kumulang na mga tawag sa API. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Sinusuportahan ng mode ng AI ang $MAX$imum na $ $ na wika nang sabay -sabay.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Paraan ng Pagsasalin",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Libre",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Walang limitasyong",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Mabilis",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Mga Wika",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Maramihang mga pagsasalin ng wika ay nangangailangan ng premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Naka -check:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Spelling",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammar",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Pag -format",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Ang orihinal na teksto ay walang mga isyu",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Sinuri ang $ count $ text segment",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Natagpuan ang $ bilang ng $ mga error upang ayusin",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Walang mga error!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Ulat ng kalidad ng tseke",
+    "description": "Quality check report title"
+  }
+}

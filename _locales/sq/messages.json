@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Mjet testimi përkthimi AI. Përkthim i drejtpërdrejtë, raportim gabimesh, pseudo-lokalizim dhe përkthim JSON në grup.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Mbyll",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Anulo",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Ruaj",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Fshij",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksporto",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinkronizim",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "BURIMI",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "OBJEKTIVI",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Kërko gjuhë...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Zbulohet automatikisht nga shfletuesi",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Ndërruesi i gjuhës",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Kaloni midis tekstit origjinal dhe atij të përkthyer",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Si funksionon: • Kaloni midis tekstit origjinal dhe atij të përkthyer • Përkthimet ruhen në memorje për ndërrim të shpejtë • Funksionon me të gjithë tekstin në faqe • Fshini memorjen e përkohshme për ta ripërkthyer",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Origjinale",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Përkthyer",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Gati për t'u përkthyer",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Fshij memorjen e përkohshme dhe ripërkthe",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Lokalizimi",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Testo ndërfaqen e përdoruesit me tekst më të gjatë për të gjetur problemet e tejmbushjes",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Si funksionon: • Zëvendëson karakteret me versione me theks • Shton zgjerim gjatësie prej 30-40% • Mbështjell tekstin në shënjues [!!!... !!!] • Shembull: \"Cilësimet\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aplikoni Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modaliteti i Redaktimit të Drejtpërdrejtë",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klikoni çdo tekst për ta modifikuar direkt në faqe",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Si funksionon: • Klikoni çdo element teksti për ta modifikuar • Ndryshimet gjurmohen në kohë reale • Eksportoni modifikimet si JSON ose Excel • Shtypni Ctrl+E për të eksportuar ndryshimet",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktivizo Redaktimin e Drejtpërdrejtë",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Karakteristikat e IA-së",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Mjete përkthimi të mundësuara nga inteligjenca artificiale",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Karakteristikat Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Merrni Sugjerime për IA-në",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Përkthim i Mençur në Grumbull",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Përkthen TË GJITHË tekstin në faqe me kontekst të inteligjencës artificiale",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Kontrolloni Cilësinë e Përkthimit",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Përkthyesi i skedarëve JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Përkthe skedarët e gjuhës JSON në shumë gjuhë",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Si funksionon: • Ngarko skedarë gjuhësorë JSON • Zgjidh gjuhët e synuara • Përkthe me Google ose AI • Shkarko skedarë të përkthyer",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Përkthe skedarin JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Raporto problemin",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Raporto problemet e përkthimit dhe lokalizimit të tekstit",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Si funksionon: • Klikoni elementët e tekstit për të raportuar problemet • Shtoni përshkrime dhe ashpërsi • Eksportoni raportet në Excel ose JSON • Sinkronizoni me Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Filloni raportimin",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Menaxho Raportet",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Llogari",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Hyr me Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Përmirësoje në Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informacion Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Dilni",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Raportet e defekteve",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Raportet e kërkimit...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Pastro të gjitha",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Nuk ka ende raportime për defektet",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klikoni \"Filloni Raportimin\" për të ndjekur problemet",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nuk u gjetën rezultate",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Provo fjalë kyçe të ndryshme",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Shiko detajet",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Shëno si të zgjidhur",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Rihap",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Raporti i defektit #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informacion bazë",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Statusi",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detajet e elementit",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etiketë",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Tekst",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Përzgjedhësi",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Konteksti i Përkthimit",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Përshkrimi i problemit",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informacion mbi faqen",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titulli",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-ja",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Fshij raportin",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Je i sigurt që dëshiron të fshish raportin #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Fshi të gjitha raportet",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Të fshihen TË GJITHA raportet e defekteve? Ky veprim nuk mund të zhbëhet!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Fshi të gjitha",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Eksporto Raportet e Defekteve",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Zgjidhni formatin e eksportit:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Eksporto në Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eksporto në JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinkronizoni me Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Raporti #$ID$ i shënuar si $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Raporti #$ID$ u fshi",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Të gjitha raportet u pastruan",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Të ndryshohet gjuha e synuar?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Gjuha burimore u ndryshua në $SOURCE$. Dëshironi të përktheni në $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Po, Ndrysho",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Jo, mbaje të azhurnuar",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "hapur",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "zgjidhur",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Si funksionon:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Karakteristikat Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Auto-zbuluar: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinkronizoni të dhënat",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "U gjetën $COUNT$ tekste për t'u përkthyer",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "zgjedhur",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Duke u përgatitur...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "I plotë!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Po fillon përkthimi për $COUNT$ gjuhë...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Gjuhët e përfunduara $SUCCESS$/$TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Memoria e përkohshme u pastrua",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nuk specifikohet",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Faqe pa titull",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Pamje",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Konfirmo",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Në rregull",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Përshkruani problemin në detaje...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Ju lutem përshkruani problemin",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Ju lutem identifikoheni së pari",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Këshillë: Shtypni Ctrl+E për të eksportuar ndryshimet tuaja",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klikoni për të çaktivizuar modalitetin e redaktimit. Shtypni Ctrl+E për të eksportuar ndryshimet.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "U kopjua në kujtesën e përkohshme!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Përmirësimi u zbatua!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "U aplikuan $COUNT$ përmirësime!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kontrolli i cilësisë përfundoi",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Duke u sinkronizuar me Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinkronizuar me Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sinkronizimi i Diskut dështoi",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Hyr për të sinkronizuar nga Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Duke sinkronizuar nga Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Raportet e sinkronizuara $COUNT$ nga Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Nuk u gjetën raporte në Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Duke përgatitur skedarin Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Skedari Excel u eksportua: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Gabim gjatë eksportimit në Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Skedari JSON u eksportua: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Gabim gjatë eksportimit në JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Skedari CSV u eksportua: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Gabim gjatë eksportimit në CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Ju lutemi ngarkoni një skedar JSON të vlefshëm",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "U ngarkuan $COUNT$ çelësa përkthimi",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Skedar JSON i pavlefshëm",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Ju lutemi plotësoni të gjitha hapat",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Përkthimi i AI kërkon Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Dështoi në përkthimin në $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Të gjitha përkthimet dështuan. Ju lutemi provoni përsëri.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Përkthimi dështoi. Ju lutemi provoni përsëri.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "U përkthye me sukses në $COUNT$ gjuhë!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "U shkarkua $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Lësho skedarin JSON këtu ose kliko për të shfletuar",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Mbështet: en.json, vi.json, etj.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Përkthe me Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Përkthim i shpejtë dhe falas duke përdorur API-në e Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Përkthimi i IA-së",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Përkthim me cilësi të lartë i vetëdijshëm për kontekstin duke përdorur inteligjencën artificiale",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Falas",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "I shpejtë",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "I vetëdijshëm për kontekstin",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Frazim natyral",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Më mirë për tekstin e ndërfaqes së përdoruesit",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Çaktivizo modifikimin e drejtpërdrejtë ($COUNT$$ modifikime)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Aktivizo Redaktimin e Drejtpërdrejtë ($COUNT$$ të kursyera)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Teksti i zgjedhur ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternativa më të mira ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Përmirësoje në Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Zhbllokoni të gjitha veçoritë e IA-së dhe përkthime të pakufizuara",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Sugjerime inteligjente të inteligjencës artificiale",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Përkthim i shpejtë në grup",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Kontroll automatik i cilësisë",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Mbështetje prioritare",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Mbështetje për të gjitha gjuhët",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Regjistrohu tani",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Llogaria Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abonim aktiv",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Data e skadimit",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Ditët e mbetura",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Lloji i problemit:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Përkthim i gabuar",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Mbikalimi i tekstit",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Paraqitja e prishur",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Mungon përkthimi",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problem me formatimin",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Të tjera",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Menaxheri i Raportimit të Gabimeve",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Menaxhoni dhe eksportoni problemet tuaja të lokalizimit",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Filloni të raportoni probleme për të ndjekur problemet e lokalizimit",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Asnjë raport nuk përputhet me filtrat tuaj",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Të gjitha statuset",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Të gjitha shkallët e ashpërsisë",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Të gjitha kategoritë",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "I lartë",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mesatare",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "I ulët",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Shkëlqyeshëm! Shkëlqyeshëm!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "U kontrolluan $COUNT$ segmente teksti dhe nuk u gjetën probleme.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Gjuha burimore:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Gjuha e synuar:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Kërkohet identifikim",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Ju lutemi identifikoheni për të përdorur funksionet e përkthimit. Përdoruesit falas marrin 10 përkthime.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ nga $LIMIT$ përkthime të mbetura",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "U arrit kufiri i përdorimit",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Ju keni arritur kufirin tuaj të përdorimit.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Përmirësoje në Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Zhbllokoni përkthime të pakufizuara dhe veçori premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "në muaj",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Përkthime të pakufizuara",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Ndoshta më vonë",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Anulo në çdo kohë. Pa pyetje.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Përdorimi juaj",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "përkthimet e përdorura",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Ju lutemi identifikoheni për të përdorur veçoritë e përkthimit",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Nuk kanë mbetur mjaft përkthime. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Po përdorni të gjitha $COUNT$ përkthimet e mbetura.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Nuk mund të ekzekutohet në këtë faqe",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funksionon vetëm në faqet e internetit të rregullta. Nuk mund të funksionojë në faqet e brendshme të Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Lloji i faqes nuk mbështetet",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Faqe të pambështetura:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Hapni një faqe interneti të rregullt si google.com për të përdorur LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Fillo përkthimin",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Shkarko të gjitha",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Përkthe një skedar tjetër",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Shkarko",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Ngarko skedarin JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Zgjidhni Gjuhët e Synuara",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Zgjidhni Modalitetin e Përkthimit",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ çelësa të përkthyer",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Përkthimi u krye!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Raportet totale",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Çështje të Hapura",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Prioritet i Lartë",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinkronizo me Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinkronizoni nga Disku",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Eksporto Excel-in",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Eksporto JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Ashpërsia",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elementi",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Çështje",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Zgjidhje të Sugjeruara",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Shiko HTML-në",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Pamje",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Gjuha aktuale",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Çelësat e përkthyera",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Koha e Kaluar",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Duke përkthyer...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Përkthejeni skedarët e gjuhës JSON në shumë gjuhë me Google Translate ose AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Zgjidh një ose më shumë gjuhë për të përkthyer",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formati i zbuluar: $FORMAT$, Modaliteti: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Duke përkthyer në $LANG$... (çelësat (TAPETA CURRENT$/$TOTAL$) $CURRENT$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Eksporto $COUNT$ ndryshime",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eksportoni ndryshimet tuaja për t'i ndarë me ekipin tuaj të përkthimit",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Shkarko CSV-në",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Shkarko JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ndryshime u ruajtën. Shtypni Ctrl+E për të eksportuar.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klikoni për të aktivizuar modalitetin e redaktimit",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klikoni për të aktivizuar modalitetin e redaktimit. I keni ruajtur ndryshimet. Shtypni Ctrl+E për të eksportuar.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nuk është zgjedhur tekst",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Zgjidh tekstin për të marrë sugjerime të inteligjencës artificiale",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nuk u gjet asnjë gjuhë",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Identifikimi dështoi. Ju lutemi provoni përsëri.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "U identifikua me sukses!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "U dal me sukses",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentifikimi dështoi. Ju lutemi provoni të pastroni memorien e përkohshme dhe të identifikoheni përsëri.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Duke pastruar memorien e përkohshme...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Pastrimi i memories së përkohshme dështoi.",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Biblioteka e Excel nuk është e disponueshme. Ju lutemi ringarkoni faqen.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimumi $MAX$ gjuhë njëherësh për performancë optimale.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Zgjedhur $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Identifikohu për të përdorur përkthimin e AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Më e mira për skedarë me madhësi të arsyeshme.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modaliteti AI: Kjo do të bëjë thirrje $REQUESTS$ API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ky përkthim do të bëjë afërsisht $COUNT$ thirrje API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Modaliteti AI mbështet maksimumi $MAX$ gjuhë menjëherë.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metoda e përkthimit",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Falas",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "E pakufizuar",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Shpejt",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "gjuhët",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Përkthimi në shumë gjuhë kërkon Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Kontrolluar:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Drejtshkrimi",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatimi",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Teksti origjinal nuk ka probleme",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Kontrolluar <strong>$COUNT$</strong> segmente teksti",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "U gjetën <strong>$COUNT$</strong> gabime për t'u rregulluar",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Nuk ka gabime!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Raporti i kontrollit të cilësisë",
+    "description": "Quality check report title"
+  }
+}

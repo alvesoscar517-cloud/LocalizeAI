@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI翻訳テストツール。ライブ翻訳、バグ報告、疑似ローカライゼーション、バッチJSON翻訳。",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "閉じる",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "キャンセル",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "保存",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "消去",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "エクスポート",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "同期",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ソース",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ターゲット",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "言語を検索...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ブラウザから自動検出",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "言語切り替え",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "原文と翻訳文を切り替える",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "仕組み： • 原文と翻訳文を切り替える • 翻訳文はキャッシュに保存されるため、素早く切り替えられる • ページ上のすべてのテキストで機能する • キャッシュをクリアして再翻訳する",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "オリジナル",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "翻訳済み",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "翻訳準備完了",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "キャッシュをクリアして再翻訳",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "擬似ローカリゼーション",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "オーバーフローの問題を見つけるために長いテキストで UI をテストします",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "仕組み： • 文字をアクセント付き文字に置き換えます。 • 文字数を30～40%拡張します。 • テキストを[!!!... !!!]マーカーで囲みます。 • 例：「設定」→「[!!! Şḗŧŧīƞɠş·· !!!]」",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "擬似Locを適用する",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ライブ編集モード",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ページ上で直接編集するには、任意のテキストをクリックします。",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "使い方： • テキスト要素をクリックして編集します。 • 変更はリアルタイムで追跡されます。 • 編集内容をJSONまたはExcel形式でエクスポートします。 • Ctrl+Eを押して変更内容をエクスポートします。",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ライブ編集を有効にする",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI機能",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI搭載翻訳ツール",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "プレミアム機能： • AIを活用したコンテキスト認識翻訳 • ページ全体の一括翻訳 • 翻訳の品質チェック • 自然言語の提案",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AIによる提案を受ける",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "スマートバッチ翻訳",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ページ上のすべてのテキストをAIコンテキストで翻訳します",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "翻訳品質を確認する",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "プレミアム",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ファイル トランスレータ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON言語ファイルを複数の言語に翻訳する",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "仕組み： • JSON言語ファイルをアップロード • 対象言語を選択 • GoogleまたはAIで翻訳 • 翻訳済みファイルをダウンロード",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSONファイルを翻訳する",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "問題を報告する",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "テキストの翻訳とローカリゼーションに関する問題を報告する",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "使い方： • テキスト要素をクリックして問題を報告 • 説明と重大度を追加 • レポートをExcelまたはJSONにエクスポート • Googleドライブと同期",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "報告を開始する",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "レポートの管理",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "アカウント",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Googleでログイン",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "プレミアムにアップグレード",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "プレミアム情報",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "サインアウト",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "バグレポート",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "レポートを検索...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "すべてクリア",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "まだバグ報告はありません",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "問題を追跡するには「レポートを開始」をクリックしてください",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "結果が見つかりませんでした",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "さまざまなキーワードを試す",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "詳細を表示",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "解決済みとしてマーク",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "再開",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "バグレポート #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "基本情報",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "状態",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "カテゴリ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "日付",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "要素の詳細",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "タグ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "文章",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "セレクタ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "翻訳コンテキスト",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "問題の説明",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ページ情報",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "タイトル",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "レポートを削除",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "レポート #$ID$ を削除してもよろしいですか?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "すべてのレポートをクリア",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "すべてのバグレポートを削除しますか？この操作は元に戻せません。",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "すべて削除",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "バグレポートをエクスポートする",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "エクスポート形式を選択してください:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excelにエクスポート",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSONにエクスポート",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Googleドライブに同期",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "レポート #$ID$ を $STATUS$ としてマーク",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "レポート#$ID$が削除されました",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "すべての報告はクリアされました",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ターゲット言語を変更しますか?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ソース言語が $SOURCE$ に変更されました。 $TARGET$ に翻訳しますか？",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "はい、変更",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "いいえ、最新の状態に保つ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "開ける",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "解決済み",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "仕組み：",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "プレミアム機能:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "自動検出: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "データを同期する",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "翻訳するテキストが $COUNT$ 件見つかりました",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "選択された",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "準備中...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "完了！",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ 言語の翻訳を開始しています...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ 言語を完了しました",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "キャッシュをクリアしました",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "指定されていない",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "無題のページ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ビュー",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "確認する",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "わかりました",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "問題を詳しく説明してください...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "問題を説明してください",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "まずはサインインしてください",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ヒント: 変更をエクスポートするにはCtrl+Eを押します",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "クリックすると編集モードが無効になります。変更をエクスポートするにはCtrl+Eを押してください。",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "クリップボードにコピーされました!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "改善が適用されました!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ 件の改善を適用しました。",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "品質チェック完了",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google ドライブに同期しています...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google ドライブに同期しました!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ドライブの同期に失敗しました",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ドライブから同期するにはログインしてください",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google ドライブから同期しています...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ドライブから $COUNT$ 件のレポートを同期しました。",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ドライブにレポートが見つかりません",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel ファイルを準備しています...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "エクスポートされた Excel ファイル: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excelへのエクスポート中にエラーが発生しました",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "エクスポートされた JSON ファイル: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSONへのエクスポート中にエラーが発生しました",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "エクスポートされたCSVファイル: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSVへのエクスポート中にエラーが発生しました",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "有効なJSONファイルをアップロードしてください",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ 個の翻訳キーを読み込んだ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "無効なJSONファイル",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "すべての手順を完了してください",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI翻訳にはプレミアムが必要です。アップグレードするか、Google翻訳をご利用ください。",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$への翻訳に失敗しました",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "すべての翻訳に失敗しました。もう一度お試しください。",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "翻訳に失敗しました。もう一度お試しください。",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ 言語に翻訳されました。",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ をダウンロードしました",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSONファイルをここにドロップするか、クリックして参照してください",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "サポート: en.json、vi.json など。",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google翻訳",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate APIを使用した高速かつ無料の翻訳",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI翻訳",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AIを活用した高品質なコンテキストアウェア翻訳",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "無料",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "速い",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "コンテキスト認識",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "自然な言い回し",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UIテキストに最適",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ライブ編集を無効にする（$COUNT$ 件の編集）",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ライブ編集を有効にする（$COUNT$ 個保存済み）",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "選択したテキスト ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "より良い代替案 ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "プレミアムにアップグレード",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "すべてのAI機能と無制限の翻訳をアンロック",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AIスマート提案",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "高速バッチ翻訳",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "自動品質チェック",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "優先サポート",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "すべての言語をサポート",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "今すぐ購読する",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "プレミアムアカウント",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "アクティブなサブスクリプション",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "有効期限",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "残り日数",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "問題の種類:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "誤った翻訳",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "テキストオーバーフロー",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "レイアウトが壊れている",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "翻訳がありません",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "フォーマットの問題",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "他の",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "バグレポートマネージャー",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ローカリゼーションの問題を管理およびエクスポートする",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ローカリゼーションの問題を追跡するために問題を報告し始める",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "フィルターに一致するレポートはありません",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "すべてのステータス",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "すべての重大度",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "すべてのカテゴリー",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "高い",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "中くらい",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "低い",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "素晴らしい！",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ 個のテキスト セグメントをチェックしましたが、問題は見つかりませんでした。",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ソース言語:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "対象言語:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "サインインが必要です",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "翻訳機能をご利用になるにはログインしてください。無料ユーザーは10件の翻訳が可能です。",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "残り $LIMIT$ 件のうち $REMAINING$ 件の翻訳",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "使用制限に達しました",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "使用制限に達しました。無制限にアクセスするには、プレミアムにアップグレードしてください。",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "プレミアムにアップグレード",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "無制限の翻訳とプレミアム機能のロックを解除",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "月額",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "無制限の翻訳",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "後で",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "いつでもキャンセルできます。質問は一切ありません。",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "使用状況",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "使用された翻訳",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "翻訳機能を使用するにはサインインしてください",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "翻訳数が不足しています。残り$REMAINING$ですが、選択した言語は$SELECTED$個です。プレミアムにアップグレードするか、言語数を減らしてください。",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "残り$COUNT$件の翻訳をすべて使用中です。無制限にアクセスするには、プレミアムにアップグレードしてください。",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "このページでは実行できません",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAIは通常のウェブサイトでのみ動作します。Chromeの内部ページでは動作しません。",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "サポートされていないページタイプ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "サポートされていないページ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAIを使用するには、google.comなどの通常のウェブサイトを開きます。",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "翻訳を開始",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "すべてダウンロード",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "別のファイルを翻訳する",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ダウンロード",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSONファイルをアップロード",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "対象言語を選択",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "翻訳モードを選択",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "翻訳されたキー数: $COUNT$",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "翻訳完了！",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "合計レポート",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "未解決の問題",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "優先度が高い",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ドライブに同期",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ドライブから同期",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel エクスポート",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSONをエクスポート",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "重大度",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "要素",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "問題",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "提案された解決策",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTMLを表示",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ビューポート",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "現在の言語",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "翻訳されたキー",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "経過時間",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "翻訳中...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google翻訳やAIを使ってJSON言語ファイルを複数の言語に翻訳する",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "翻訳する言語を1つ以上選択してください",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "検出されたフォーマット: $FORMAT$、モード: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ に翻訳しています... ($CURRENT$/$TOTAL$ キー)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ 件の変更をエクスポート",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "編集内容をエクスポートして翻訳チームと共有する",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSVをダウンロード",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSONをダウンロード",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ 件の変更を保存しました。エクスポートするには Ctrl+E を押してください。",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "クリックして編集モードを有効にします",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "クリックして編集モードを有効にしてください。変更を保存しました。エクスポートするにはCtrl+Eを押してください。",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "テキストが選択されていません",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "テキストを選択してAIの提案を取得",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "言語が見つかりません",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "サインインに失敗しました。もう一度お試しください。",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "サインインに成功しました。",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "サインアウトしました",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "認証に失敗しました。キャッシュをクリアして再度サインインしてください。",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "キャッシュをクリアしています...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "キャッシュをクリアできませんでした",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excelライブラリが利用できません。ページを再読み込みしてください。",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "最適なパフォーマンスのため、一度に最大 $MAX$ 言語まで。バッチで翻訳してください。",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ 選択済み",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI翻訳を使用するにはサインインしてください",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "適度なサイズのファイルに最適。一度に最大5言語。",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI モード: $REQUESTS$ API 呼び出しが行われます。",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "約$COUNT$回のAPI呼び出しを行います。翻訳には数分かかる場合があります。お待ちください。",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI モードは一度に最大 $MAX$ 言語をサポートします。",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "翻訳方法",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "無料",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "無制限",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "速い",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "言語",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "多言語翻訳にはプレミアムが必要です。",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "チェック済み:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "スペル",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "文法",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "書式設定",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "原文は問題ありません",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> 個のテキスト セグメントをチェックしました",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "修正すべき <strong>$COUNT$</strong> 個のエラーが見つかりました",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "エラーはありません!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "品質検査報告書",
+    "description": "Quality check report title"
+  }
+}

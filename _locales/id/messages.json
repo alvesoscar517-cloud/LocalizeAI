@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Alat pengujian terjemahan AI. Terjemahan langsung, pelaporan bug, pseudo-lokalisasi, dan terjemahan JSON batch.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Menutup",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Membatalkan",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Menyimpan",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Menghapus",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Ekspor",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinkronisasi",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "SUMBER",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "TARGET",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Cari bahasa...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Terdeteksi otomatis dari browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Bahasa Beralih",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Beralih antara teks asli dan terjemahan",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Cara kerjanya: • Beralih antara teks asli dan terjemahan • Terjemahan disimpan dalam cache untuk peralihan cepat • Berfungsi dengan semua teks di halaman • Hapus cache untuk menerjemahkan ulang",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Asli",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Diterjemahkan",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Siap untuk menerjemahkan",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Hapus Cache & Terjemahkan Ulang",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Lokalisasi",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Uji UI dengan teks yang lebih panjang untuk menemukan masalah luapan",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Cara kerjanya: • Mengganti karakter dengan versi beraksen • Menambahkan perluasan panjang 30-40% • Membungkus teks dengan penanda [!!!... !!!] • Contoh: \"Pengaturan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Terapkan Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Mode Edit Langsung",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klik teks apa pun untuk mengedit langsung di halaman",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Cara kerjanya:",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktifkan Edit Langsung",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Fitur AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Alat penerjemahan bertenaga AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Fitur Unggulan:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Dapatkan Saran AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Terjemahan Batch Cerdas",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Menerjemahkan SEMUA teks di halaman dengan konteks AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Periksa Kualitas Terjemahan",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premi",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Penerjemah File JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Terjemahkan file bahasa JSON ke berbagai bahasa",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Cara kerjanya: • Unggah berkas bahasa JSON • Pilih bahasa target • Terjemahkan dengan Google atau AI • Unduh berkas terjemahan",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Terjemahkan File JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Laporkan Masalah",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Melaporkan masalah terjemahan dan pelokalan teks",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Cara kerjanya: • Klik elemen teks untuk melaporkan masalah • Tambahkan deskripsi dan tingkat keparahan • Ekspor laporan ke Excel atau JSON • Sinkronkan dengan Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Mulai Melaporkan",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Kelola Laporan",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Akun",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Masuk dengan Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Tingkatkan ke Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Info Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Keluar",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Laporan Bug",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Laporan pencarian...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Hapus Semua",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Belum ada laporan bug",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klik \"Mulai Pelaporan\" untuk melacak masalah",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Tidak ada hasil yang ditemukan",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Coba kata kunci yang berbeda",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Lihat detailnya",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Tandai sebagai terselesaikan",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Buka kembali",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Laporan Bug #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Info Dasar",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Tanggal",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detail Elemen",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Menandai",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Teks",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Pemilih",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Konteks Terjemahan",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Deskripsi Masalah",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informasi Halaman",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Judul",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Alamat URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Hapus Laporan",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Apakah Anda yakin ingin menghapus laporan #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Hapus Semua Laporan",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Hapus SEMUA laporan bug? Tindakan ini tidak dapat dibatalkan!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Hapus Semua",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Ekspor Laporan Bug",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Pilih format ekspor:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Ekspor ke Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Ekspor ke JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinkronkan ke Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Laporkan #$ID$ ditandai sebagai $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Laporan #$ID$ dihapus",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Semua laporan telah dibersihkan",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Ubah Bahasa Target?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Bahasa sumber diubah menjadi $SOURCE$. Apakah Anda ingin menerjemahkan ke $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ya, Ubah",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Tidak, Tetap Terkini",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "membuka",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "terselesaikan",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Cara kerjanya:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Fitur Unggulan:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Terdeteksi otomatis: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinkronkan data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Ditemukan $COUNT$ teks untuk diterjemahkan",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "terpilih",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Mempersiapkan...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Menyelesaikan!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Memulai penerjemahan untuk $COUNT$ bahasa...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Menyelesaikan $SUCCESS$/$TOTAL$ bahasa",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "Ukuran KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache dihapus",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Tidak ditentukan",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Halaman Tanpa Judul",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Melihat",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Mengonfirmasi",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OKE",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Jelaskan masalahnya secara rinci...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Tolong jelaskan masalahnya",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Silakan masuk terlebih dahulu",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: Tekan Ctrl+E untuk mengekspor perubahan Anda",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klik untuk menonaktifkan mode pengeditan. Tekan Ctrl+E untuk mengekspor perubahan.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Disalin ke papan klip!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Peningkatan telah diterapkan!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Menerapkan $COUNT$ perbaikan!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Pemeriksaan kualitas selesai",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinkronisasi ke Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Disinkronkan ke Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sinkronisasi drive gagal",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Silakan masuk untuk menyinkronkan dari Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinkronisasi dari Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Menyinkronkan $COUNT$ laporan dari Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Tidak ada laporan yang ditemukan di Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Mempersiapkan berkas Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "File Excel yang diekspor: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Kesalahan saat mengekspor ke Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "File JSON yang diekspor: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Kesalahan saat mengekspor ke JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "File CSV yang diekspor: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Kesalahan saat mengekspor ke CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Harap unggah file JSON yang valid",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Memuat $COUNT$ kunci terjemahan",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Berkas JSON tidak valid",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Harap selesaikan semua langkah",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Terjemahan AI memerlukan Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Gagal menerjemahkan ke $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Semua terjemahan gagal. Silakan coba lagi.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Terjemahan gagal. Silakan coba lagi.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Berhasil diterjemahkan ke $COUNT$ bahasa!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Mengunduh $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Letakkan file JSON di sini atau klik untuk menelusuri",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Mendukung: en.json, vi.json, dll.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Terjemahan",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Terjemahan cepat dan gratis menggunakan Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Terjemahan AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Terjemahan berkualitas tinggi yang sadar konteks menggunakan AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Bebas",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Cepat",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Sadar konteks",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Frase alami",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Lebih baik untuk teks UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Nonaktifkan Pengeditan Langsung ($COUNT$ pengeditan)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Aktifkan Pengeditan Langsung ($COUNT$ disimpan)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Teks yang Dipilih ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternatif yang Lebih Baik ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Tingkatkan ke Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Buka kunci semua fitur AI dan terjemahan tanpa batas",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Saran cerdas AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Terjemahan batch cepat",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Pemeriksaan kualitas otomatis",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Dukungan prioritas",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Semua bahasa didukung",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Berlangganan sekarang",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Akun Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Berlangganan Aktif",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Tanggal Kedaluwarsa",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Hari Tersisa",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Jenis Masalah:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Terjemahan yang Salah",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Teks Meluap",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Tata Letak Rusak",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Terjemahan Hilang",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Masalah Pemformatan",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Lainnya",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Manajer Laporan Bug",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Kelola dan ekspor masalah lokalisasi Anda",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Mulai melaporkan masalah untuk melacak masalah lokalisasi",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Tidak ada laporan yang cocok dengan filter Anda",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Semua Status",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Semua Tingkat Keparahan",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Semua Kategori",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Tinggi",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Sedang",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Rendah",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Bagus sekali!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Memeriksa $COUNT$ segmen teks dan tidak menemukan masalah.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Bahasa Sumber:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Bahasa Target:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Diperlukan Masuk",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Silakan masuk untuk menggunakan fitur terjemahan. Pengguna gratis mendapatkan 10 terjemahan.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ dari $LIMIT$ terjemahan tersisa",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Batas Penggunaan Tercapai",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Anda telah mencapai batas penggunaan Anda.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Tingkatkan ke Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Buka kunci terjemahan tanpa batas dan fitur premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per bulan",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Terjemahan tak terbatas",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "mungkin nanti",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Batalkan kapan saja. Tanpa pertanyaan.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Penggunaan Anda",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "terjemahan yang digunakan",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Silakan masuk untuk menggunakan fitur terjemahan",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Terjemahan yang tersisa t$$SELECTED$$ak cukup. $REMAINING$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Anda menggunakan $COUNT$ sisa terjemahan.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Tidak Dapat Berjalan di Halaman Ini",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI hanya berfungsi di situs web biasa. Tidak dapat berjalan di halaman internal Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Jenis halaman tidak didukung",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Halaman yang tidak didukung:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Buka situs web biasa seperti google.com untuk menggunakan LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Mulai Penerjemahan",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Unduh Semua",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Terjemahkan File Lain",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Unduh",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Unggah Berkas JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Pilih Bahasa Target",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Pilih Mode Terjemahan",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ kunci diterjemahkan",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Terjemahan Selesai!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Total Laporan",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Masalah Terbuka",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Prioritas Tinggi",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinkronkan ke Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinkronkan dari Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Ekspor Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Ekspor JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "PENGENAL",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Kerasnya",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elemen",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Masalah",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Solusi yang Disarankan",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Lihat HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Jalur XP",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Jendela pandang",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Bahasa Saat Ini",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Kunci Diterjemahkan",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Waktu berlalu",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Menerjemahkan...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Terjemahkan file bahasa JSON ke berbagai bahasa dengan Google Terjemahan atau AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Pilih satu atau lebih bahasa untuk diterjemahkan",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format terdeteksi: $FORMAT$, Mode: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Menerjemahkan ke $LANG$... ($CURRENT$/$TOTAL$ kunci)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Ekspor $COUNT$ Perubahan",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Ekspor suntingan Anda untuk dibagikan dengan tim penerjemah Anda",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Unduh CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Unduh JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ perubahan telah disimpan. Tekan Ctrl+E untuk mengekspor.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klik untuk mengaktifkan mode pengeditan",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klik untuk mengaktifkan mode pengeditan.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Tidak ada teks yang dipilih",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Pilih teks untuk mendapatkan saran AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Tidak ada bahasa yang ditemukan",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Gagal masuk. Silakan coba lagi.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Berhasil masuk!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Berhasil keluar",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentikasi gagal. Coba bersihkan cache dan masuk lagi.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Menghapus cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Gagal menghapus cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Pustaka Excel tidak tersedia. Silakan muat ulang halaman.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimal $MAX$ bahasa sekaligus untuk performa optimal. Silakan terjemahkan dalam batch.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ dipilih",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Silakan masuk untuk menggunakan terjemahan AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Terbaik untuk file dengan ukuran wajar.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Mode AI: Ini akan membuat panggilan API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Terjemahan ini akan menghasilkan sekitar $COUNT$ panggilan API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Mode AI mendukung maksimum $MAX$ bahasa sekaligus.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metode Penerjemahan",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Bebas",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Tak terbatas",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Cepat",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "bahasa",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Terjemahan beberapa bahasa memerlukan Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Diperiksa:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ejaan",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Tata bahasa",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Pemformatan",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Teks asli tidak ada masalah",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Memeriksa <strong>$COUNT$</strong> segmen teks",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Ditemukan <strong>$COUNT$</strong> kesalahan yang perlu diperbaiki",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Tidak ada kesalahan!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Laporan Pemeriksaan Kualitas",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Zouti tès tradiksyon AI. Tradiksyon an dirèk, rapò erè, pseudo-lokalizasyon ak tradiksyon JSON an gwoup.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Fèmen",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Anile",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Sove",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Efase",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Ekspòtasyon",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Senkronize",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "SOUS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "SIB",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Chèche lang...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Detekte otomatikman nan navigatè a",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Chanje Lang",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Chanje ant tèks orijinal la ak tèks tradui a",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kijan li fonksyone: • Chanje ant tèks orijinal la ak tèks tradui a • Tradiksyon yo estoke nan kach pou chanjman rapid • Fonksyone ak tout tèks ki sou paj la • Vide kach la pou retradui",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Orijinal",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tradui",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Pare pou tradui",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Vide Kach la epi Tradwi ankò",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Lokalizasyon",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Teste koòdone itilizatè a avèk tèks ki pi long pou jwenn pwoblèm debòdman",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kijan li fonksyone: • Ranplase karaktè yo ak vèsyon aksan • Ajoute yon ekspansyon longè 30-40% • Vlope tèks la nan makè [!!!... !!!] • Egzanp: \"Paramèt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aplike Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Mòd Editasyon An Dirèk",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klike sou nenpòt tèks pou modifye dirèkteman sou paj la",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kijan li fonksyone: • Klike sou nenpòt eleman tèks pou modifye li • Chanjman yo swiv an tan reyèl • Ekspòte modifikasyon yo kòm JSON oswa Excel • Peze Ctrl+E pou ekspòte chanjman yo",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktive Modifikasyon An Dirèk",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Karakteristik IA",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Zouti tradiksyon ki mache ak entèlijans atifisyèl",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Karakteristik Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Jwenn sijesyon IA",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Tradiksyon Entelijan an Gwoup",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Tradui TOUT tèks sou paj la avèk kontèks IA",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Tcheke Kalite Tradiksyon an",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Prim",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Tradiktè Fichye JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Tradui fichye lang JSON an plizyè lang",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kijan li fonksyone: • Telechaje fichye lang JSON yo • Chwazi lang sib yo • Tradui ak Google oswa IA • Telechaje fichye tradui yo",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Tradui fichye JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Rapòte Pwoblèm",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Rapòte pwoblèm tradiksyon tèks ak lokalizasyon",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kijan li fonksyone: • Klike sou eleman tèks yo pou rapòte pwoblèm yo • Ajoute deskripsyon ak gravite yo • Ekspòte rapò yo an Excel oswa JSON • Senkronize ak Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Kòmanse Rapò",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Jere Rapò yo",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Kont",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Konekte avèk Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Upgrade nan Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Enfòmasyon sou Prim",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Dekonekte",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Rapò sou ensèk nuizib",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Rapò rechèch...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Efase tout",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Pa gen rapò sou pinèz ankò",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klike sou \"Kòmanse Rapòte\" pou swiv pwoblèm yo",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Pa jwenn okenn rezilta",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Eseye diferan mo kle",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Gade detay yo",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Make kòm rezoud",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Relouvri",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Rapò sou Ensèk #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Enfòmasyon debaz",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Estati",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dat",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detay sou Eleman yo",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etikèt",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Tèks",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selektè",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Kontèks Tradiksyon an",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Deskripsyon Pwoblèm",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Enfòmasyon sou Paj la",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Tit",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Efase Rapò a",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Èske ou sèten ou vle efase rapò #$ID$ la?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Efase tout rapò yo",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Efase TOUT rapò pinèz yo? Aksyon sa a pa ka anile!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Efase tout",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Ekspòte Rapò Ensèk",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Chwazi fòma ekspòtasyon an:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Ekspòte nan Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Ekspòte an JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Senkronize ak Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapò #$ID$ make kòm $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapò #$ID$ efase",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Tout rapò yo efase",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Chanje Lang Sib la?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Lang sous la chanje pou $SOURCE$. Èske ou ta renmen tradui an $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Wi, Chanjman",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Non, Kenbe Ajou",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "louvri",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "rezoud",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kijan li fonksyone:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Karakteristik Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Deteksyon otomatik: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Senkronize done yo",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Jwenn $COUNT$ tèks pou tradui",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "chwazi",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ap prepare...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Konplete!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Ap kòmanse tradiksyon pou $COUNT$ lang...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Fini $SUCCESS$/$TOTAL$ lang",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Kach vid",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Pa espesifye",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Paj san tit",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Gade",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Konfime",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Dekri pwoblèm nan an detay...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Tanpri dekri pwoblèm nan",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Tanpri konekte an premye",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Konsèy: Peze Ctrl+E pou ekspòte chanjman ou yo",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klike pou dezaktive mòd koreksyon an. Peze Ctrl+E pou ekspòte chanjman yo.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopye nan clipboard la!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Amelyorasyon aplike!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Aplike $COUNT$ amelyorasyon!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Verifikasyon kalite a fini",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Senkronizasyon ak Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Senkronize ak Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Senkronizasyon kondwi a echwe",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Tanpri konekte pou senkronize depi Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Senkronizasyon depi Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ rapò senkronize soti nan Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Pa gen rapò yo jwenn nan Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Ap prepare fichye Excel la...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Fichye Excel ekspòte: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Erè nan ekspòte nan Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Fichye JSON ekspòte: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Erè nan ekspòte an JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Fichye CSV ekspòte: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Erè nan ekspòte an CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Tanpri telechaje yon fichye JSON ki valab.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ kle tradiksyon chaje",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fichye JSON ki pa valab",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Tanpri konplete tout etap yo",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Tradiksyon mande Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Echèk pou tradui an $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Tout tradiksyon yo echwe. Tanpri eseye ankò.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Tradiksyon an echwe. Tanpri eseye ankò.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Tradiksyon an te reyisi nan $COUNT$ lang!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Telechaje $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Depoze fichye JSON an isit la oubyen klike pou browse",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Sipòte: en.json, vi.json, elatriye.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Tradiksyon",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Tradiksyon rapid e gratis lè l sèvi avèk API Google Translate la",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Tradiksyon IA",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Tradiksyon kalite siperyè ki pran an kont kontèks la lè l sèvi avèk IA",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Vit",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Konsyan de kontèks",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Fraz natirèl",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Pi bon pou tèks UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Dezaktive Modifikasyon An Dirèk ($COUNT$ modifikasyon)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Aktive Modifikasyon An Dirèk ($COUNT$ sove)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Tèks Chwazi ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Pi bon altènativ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Upgrade nan Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Debloke tout fonksyonalite IA yo ak tradiksyon san limit",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Sijesyon entelijan IA",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Tradiksyon rapid an gwoup",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Verifikasyon kalite otomatik",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Sipò priyorite",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Sipò pou tout lang",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abòne kounye a",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Kont Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abònman Aktif",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Dat Ekspirasyon",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Jou ki rete yo",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Kalite Pwoblèm:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Tradiksyon ki pa kòrèk",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Debòdman Tèks",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout kase",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Tradiksyon ki manke",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Pwoblèm Fòma",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Lòt",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Manadjè Rapò Ensèk",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Jere epi ekspòte pwoblèm lokalizasyon ou yo",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Kòmanse rapòte pwoblèm yo pou swiv pwoblèm lokalizasyon yo.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Pa gen rapò ki koresponn ak filtè ou yo",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tout Estati",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tout Gravite",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Tout kategori yo",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Segondè",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mwayen",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Ba",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Ekselan!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Mwen tcheke $COUNT$ segman tèks epi mwen pa jwenn okenn pwoblèm.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lang sous:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lang sib:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Konekte obligatwa",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Tanpri konekte pou itilize fonksyon tradiksyon yo. Itilizatè gratis yo jwenn 10 tradiksyon.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ sou $LIMIT$ tradiksyon ki rete",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Limit Itilizasyon an Rive",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Ou te rive nan limit itilizasyon ou.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Upgrade nan Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Debloke tradiksyon san limit ak fonksyonalite prim",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "pa mwa",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Tradiksyon san limit",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Petèt pita",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Anile nenpòt ki lè. Pa gen kesyon.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Itilizasyon ou",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "tradiksyon yo itilize",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Tanpri konekte pou itilize fonksyon tradiksyon yo",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Pa gen ase tradiksyon ki rete. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "W ap itilize tout $COUNT$ tradiksyon ki rete yo.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Pa ka kouri sou paj sa a",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI sèlman fonksyone sou sit entènèt òdinè. Li pa ka fonksyone sou paj entèn Chrome yo.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Kalite paj ki pa sipòte",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Paj ki pa sipòte:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Louvri yon sit entènèt òdinè tankou google.com pou itilize LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Kòmanse Tradiksyon",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Telechaje tout",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Tradui yon lòt fichye",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Telechaje",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Telechaje fichye JSON an",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Chwazi Lang Sib yo",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Chwazi Mòd Tradiksyon",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ kle tradui",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Tradiksyon an fini!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Total Rapò yo",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Pwoblèm Ouvè",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Segondè Priyorite",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Senkronize ak Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Senkronize depi Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Ekspòte Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Ekspòte JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Gravite",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Eleman",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Pwoblèm",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Solisyon yo sijere",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Gade HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vitrin",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Lang aktyèl la",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Kle yo tradui",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Tan ki pase",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Tradiksyon...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Tradui fichye lang JSON an plizyè lang avèk Google Translate oubyen IA",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Chwazi youn oubyen plizyè lang pou tradui ladan yo",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Fòma detekte: $FORMAT$, Mòd: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Tradui an $LANG$... kle ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Ekspòte $COUNT$ Chanjman",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Ekspòte modifikasyon ou yo pou pataje ak ekip tradiksyon ou an",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Telechaje CSV a",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Telechaje JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Chanjman yo sove. Peze Ctrl+E pou ekspòte. $COUNT$",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klike pou aktive mòd koreksyon an",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klike pou aktive mòd koreksyon an. Ou sove chanjman yo. Peze Ctrl+E pou ekspòte.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Pa gen tèks chwazi",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Chwazi tèks pou jwenn sijesyon IA yo",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Pa jwenn okenn lang",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Koneksyon an echwe. Tanpri eseye ankò.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Konekte avèk siksè!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Dekonekte avèk siksè",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Otantifikasyon an echwe. Tanpri eseye efase kach la epi konekte ankò.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Ap efase kach la...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Echèk pou efase kach la",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Bibliyotèk Excel la pa disponib. Tanpri rechaje paj la.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimòm $MAX$ lang nan yon fwa pou pèfòmans optimal.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ chwazi",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Tanpri konekte pou itilize tradiksyon AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Pi bon pou dosye ak gwosè rezonab.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Mòd AI: Sa a pral fè $REQUESTS$ apèl API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Tradiksyon sa a pral fè apeprè $COUNT$ apèl API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Mòd AI sipòte maksimòm $MAX$ lang nan yon fwa.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metòd tradiksyon",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "San limit",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Vit",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "lang",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Tradiksyon plizyè lang mande Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Tcheke:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "òtograf",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramè",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Fòma",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Tèks orijinal la pa gen pwoblèm",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Tcheke <strong>$COUNT$</strong> segman tèks yo",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Jwenn <strong>$COUNT$</strong> erè pou korije",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Pa gen erè!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Rapò Tcheke Kalite",
+    "description": "Quality check report title"
+  }
+}

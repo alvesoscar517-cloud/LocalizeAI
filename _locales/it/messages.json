@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Strumento di test di traduzione AI. Traduzione dal vivo, segnalazione bug, pseudo-localizzazione e traduzione JSON in batch.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Chiudi",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Annulla",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Salva",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Elimina",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Esportare",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sincronizzazione",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FONTE",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "BERSAGLIO",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Cerca lingue...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Rilevato automaticamente dal browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Attiva/disattiva la lingua",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Passa dal testo originale a quello tradotto",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Come funziona: • Alterna il testo originale con quello tradotto • Le traduzioni vengono memorizzate nella cache per un passaggio rapido • Funziona con tutto il testo della pagina • Svuota la cache per ritradurre",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Originale",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tradotto",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Pronto per la traduzione",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Cancella cache e ritraduci",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-localizzazione",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Prova l'interfaccia utente con testo più lungo per individuare problemi di overflow",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Come funziona: • Sostituisce i caratteri con le versioni accentate • Aggiunge un'espansione di lunghezza del 30-40% • Include il testo tra i marcatori [!!!... !!!] • Esempio: \"Impostazioni\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Applica Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modalità di modifica in tempo reale",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Fai clic su qualsiasi testo per modificarlo direttamente sulla pagina",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Come funziona: • Fai clic su qualsiasi elemento di testo per modificarlo • Le modifiche vengono monitorate in tempo reale • Esporta le modifiche come JSON o Excel • Premi Ctrl+E per esportare le modifiche",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Abilita modifica in tempo reale",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Funzionalità AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Strumenti di traduzione basati sull'intelligenza artificiale",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Funzionalità premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ottieni suggerimenti dall'IA",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Traduzione batch intelligente",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Traduce TUTTO il testo sulla pagina con il contesto AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Controlla la qualità della traduzione",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premio",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Traduttore di file JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Traduci file di lingua JSON in più lingue",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Come funziona:",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Traduci file JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Segnala un problema",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Segnala problemi di traduzione e localizzazione del testo",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Come funziona: • Fai clic sugli elementi di testo per segnalare i problemi • Aggiungi descrizioni e gravità • Esporta i report in Excel o JSON • Sincronizza con Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Inizia a segnalare",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Gestisci report",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Account",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Accedi con Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Passa a Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informazioni premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Disconnessione",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Segnalazioni di bug",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Rapporti di ricerca...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Cancella tutto",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Nessuna segnalazione di bug ancora",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Fai clic su \"Inizia segnalazione\" per monitorare i problemi",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nessun risultato trovato",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Prova parole chiave diverse",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Visualizza i dettagli",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Segna come risolto",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Riaprire",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Segnalazione di bug n. $ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informazioni di base",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Stato",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Dettagli dell'elemento",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etichetta",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Testo",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selettore",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Contesto di traduzione",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Descrizione del problema",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informazioni sulla pagina",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titolo",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Elimina segnalazione",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Sei sicuro di voler eliminare il report #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Cancella tutti i report",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Vuoi eliminare TUTTI i bug segnalati? Questa azione non può essere annullata!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Elimina tutto",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Esporta segnalazioni di bug",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Scegli il formato di esportazione:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Esporta in Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Esporta in JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sincronizzazione con Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Segnala #$ID$ contrassegnato come $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Segnalazione #$ID$ eliminata",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Tutti i report sono stati cancellati",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Cambiare la lingua di destinazione?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Lingua di origine modificata in $SOURCE$. Vuoi tradurre in $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Sì, cambia",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "No, mantieniti aggiornato",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "aprire",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "risolto",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Come funziona:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Funzionalità premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Rilevato automaticamente: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sincronizza i dati",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Trovati $COUNT$ testi da tradurre",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "selezionato",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Preparazione...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Completare!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Avvio della traduzione per $COUNT$ lingue...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Lingue $SUCCESS$/$TOTAL$ completate",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache cancellata",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Non specificato",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Pagina senza titolo",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Visualizzazione",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Conferma",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Descrivi il problema in dettaglio...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Per favore descrivi il problema",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Per favore, accedi prima",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Suggerimento: premi Ctrl+E per esportare le modifiche",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Fare clic per disattivare la modalità di modifica. Premere Ctrl+E per esportare le modifiche.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Copiato negli appunti!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Miglioramento applicato!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Applicati $COUNT$ miglioramenti!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Controllo qualità completato",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sincronizzazione con Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sincronizzato con Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sincronizzazione Drive non riuscita",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Accedi per sincronizzare da Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sincronizzazione da Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ report sincronizzati da Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Nessun report trovato in Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Preparazione del file Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "File Excel esportato: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Errore durante l'esportazione in Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "File JSON esportato: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Errore durante l'esportazione in JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "File CSV esportato: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Errore durante l'esportazione in CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Carica un file JSON valido",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Chiavi di traduzione caricate $COUNT$",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "File JSON non valido",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Si prega di completare tutti i passaggi",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "La traduzione AI richiede Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Impossibile tradurre in $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Tutte le traduzioni sono fallite. Riprova.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Traduzione non riuscita. Riprova.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Tradotto con successo in $COUNT$ lingue!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Scaricato $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Rilascia qui il file JSON o fai clic per sfogliarlo",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Supporta: en.json, vi.json, ecc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Traduttore",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Traduzione veloce e gratuita tramite l'API di Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Traduzione AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Traduzione contestuale di alta qualità tramite intelligenza artificiale",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratuito",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Veloce",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Consapevole del contesto",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Fraseggio naturale",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Meglio per il testo dell'interfaccia utente",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Disattiva la modifica dal vivo ($COUNT$ modifiche)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Abilita modifica in tempo reale ($COUNT$ salvati)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Testo selezionato ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternative migliori ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Passa a Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Sblocca tutte le funzionalità dell'intelligenza artificiale e traduzioni illimitate",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Suggerimenti intelligenti dell'intelligenza artificiale",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Traduzione batch veloce",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Controllo automatico della qualità",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Supporto prioritario",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Supporto per tutte le lingue",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Iscriviti ora",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Conto Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abbonamento attivo",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Data di scadenza",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Giorni rimanenti",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tipo di problema:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Traduzione errata",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Testo in eccesso",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout interrotto",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Traduzione mancante",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problema di formattazione",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Altro",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Gestione segnalazioni bug",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Gestisci ed esporta i tuoi problemi di localizzazione",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Inizia a segnalare i problemi per monitorare i problemi di localizzazione",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nessun rapporto corrisponde ai tuoi filtri",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tutti gli stati",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tutta la gravità",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Tutte le categorie",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Alto",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medio",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Basso",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Eccellente!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Ho controllato $COUNT$ segmenti di testo e non ho trovato problemi.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lingua di origine:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lingua di destinazione:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Accesso richiesto",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Accedi per utilizzare le funzionalità di traduzione. Gli utenti gratuiti hanno diritto a 10 traduzioni.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ di $LIMIT$ traduzioni rimanenti",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Limite di utilizzo raggiunto",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Hai raggiunto il limite di utilizzo.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Passa a Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Sblocca traduzioni illimitate e funzionalità premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "al mese",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Traduzioni illimitate",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Forse più tardi",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Annulla in qualsiasi momento. Non ti faremo domande.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Il tuo utilizzo",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "traduzioni utilizzate",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Accedi per utilizzare le funzionalità di traduzione",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Non sono rimaste abbastanza traduzioni. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Stai utilizzando tutte le $COUNT$ traduzioni rimanenti.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Impossibile eseguire questa pagina",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funziona solo sui siti web normali. Non può essere eseguito sulle pagine interne di Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Tipo di pagina non supportato",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Pagine non supportate:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Apri un sito web normale come google.com per utilizzare LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Inizia la traduzione",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Scarica tutto",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Traduci un altro file",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Scaricamento",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Carica file JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Seleziona le lingue di destinazione",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Scegli la modalità di traduzione",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ chiavi tradotte",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traduzione completata!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Rapporti totali",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Problemi aperti",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Alta priorità",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sincronizza con Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sincronizzazione da Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Esporta Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Esporta JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Gravità",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elemento",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problema",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Soluzioni suggerite",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Visualizza HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Finestra di visualizzazione",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Lingua corrente",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Chiavi tradotte",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Tempo trascorso",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Traduzione in corso...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Traduci file di lingua JSON in più lingue con Google Translate o AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Seleziona una o più lingue in cui tradurre",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formato rilevato: $FORMAT$, Modalità: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Traduzione in $LANG$... (chiavi $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Esporta $COUNT$ modifiche",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Esporta le tue modifiche per condividerle con il tuo team di traduzione",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Scarica CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Scarica JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ modifiche salvate. Premi Ctrl+E per esportare.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Fare clic per abilitare la modalità di modifica",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Fai clic per abilitare la modalità di modifica. Le modifiche sono state salvate. Premi Ctrl+E per esportare.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nessun testo selezionato",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Seleziona il testo per ottenere suggerimenti AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nessuna lingua trovata",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Accesso non riuscito. Riprova.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Accesso effettuato con successo!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Uscita avvenuta con successo",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autenticazione non riuscita. Prova a cancellare la cache e ad accedere nuovamente.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Svuotamento della cache in corso...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Impossibile cancellare la cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Libreria Excel non disponibile. Ricarica la pagina.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Massimo $MAX$ lingue alla volta per prestazioni ottimali. Traduci in batch.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ selezionati",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Accedi per utilizzare la traduzione AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Ideale per file di dimensioni ragionevoli.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modalità AI: effettuerà chiamate API $REQUESTS$.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Questo effettuerà ~$COUNT$ chiamate API. La traduzione potrebbe richiedere alcuni minuti. Per favore sii paziente.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "La modalità AI supporta il massimo delle lingue $MAX$ contemporaneamente.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metodo di traduzione",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratuito",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Illimitato",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Veloce",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "lingue",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "La traduzione in più lingue richiede Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Controllato:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografia",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatica",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formattazione",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Il testo originale non presenta problemi",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Segmenti di testo <strong>$COUNT$</strong> controllati",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Trovati <strong>$COUNT$</strong> errori da correggere",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Nessun errore!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Rapporto sul controllo qualità",
+    "description": "Quality check report title"
+  }
+}

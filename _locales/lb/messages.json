@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI Iwwersetzungstest-Tool. Live Iwwersetzung, Feelermeldung, Pseudo-Lokaliséierung a Batch JSON Iwwersetzung.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Zoumaachen",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Ofbriechen",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Späicheren",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Läschen",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Exportéieren",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synchroniséieren",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "Quell",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ZIL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Sprooche sichen...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatesch vum Browser erkannt",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Sprooch opklappen",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Wiessel tëscht Original- an Iwwersatentext",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Wéi et funktionéiert: • Wiesselt tëscht dem Original- an dem iwwersaten Text • Iwwersetzunge ginn am Cache gespäichert fir e séieren Wiessel • Funktionéiert mat all Text op der Säit • Läscht de Cache fir nei ze iwwersetzen",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Original",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Iwwersat",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Bereet fir ze iwwersetzen",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Cache läschen & nei iwwersetzen",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Lokaliséierung",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Test d'UI mat méi laangem Text fir Iwwerflussproblemer ze fannen",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Wéi et funktionéiert: • Ersetzt Zeechen duerch Versiounen mat Akzenter • Füügt eng Längterweiterung vun 30-40% bäi • Wéckelt den Text an [!!!... !!!] Markéierungen • Beispill: \"Astellungen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc uwenden",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Live Edit Modus",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klickt op en Text fir en direkt op der Säit z'änneren",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Wéi et funktionnéiert:",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktivéiert Live Edit",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "KI-Funktiounen",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "KI-ugedriwwen Iwwersetzungsinstrumenter",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium Features:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Kritt KI-Virschléi",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Iwwersetzung",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Iwwersetzt ALL Text op der Säit mat KI-Kontext",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Iwwersetzungsqualitéit kontrolléieren",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON Datei Iwwersetzer",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON-Sproochdateien a verschidde Sproochen iwwersetzen",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Wéi et funktionéiert: • JSON-Sproochdateien eroplueden • Zilsproochen auswielen • Mat Google oder KI iwwersetzen • Iwwersat Dateien eroflueden",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON-Datei iwwersetzen",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Problem mellen",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Problemer mat der Iwwersetzung an der Lokaliséierung vum Text mellen",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Wéi et funktionnéiert:",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Rapport ufänken",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Rapporten verwalten",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Kont",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Mellt Iech mat Google un",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Upgrade op Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium-Informatiounen",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Ofmellen",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Bug Berichter",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Sichberichter...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Alles läschen",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Nach keng Bugmeldungen",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klickt op \"Start Reporting\" fir Problemer ze verfollegen",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Keng Resultater fonnt",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Probéiert verschidde Schlësselwierder",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Detailer kucken",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Als geléist markéieren",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Wieder opmaachen",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Feeler Bericht #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Basisinformatiounen",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorie",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementdetailer",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Text",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selektor",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Iwwersetzungskontext",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Problembeschreiwung",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Säiteninformatiounen",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titel",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Rapport läschen",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Bass du sécher, datt du de Rapport #$ID$ läschen wëlls?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "All Rapporten läschen",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ALL Bugmeldungen läschen? Dës Aktioun kann net réckgängeg gemaach ginn!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Alles läschen",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Export Bug Berichter",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Exportformat auswielen:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Export an Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Export op JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synchroniséiert mat Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Bericht #$ID$ markéiert als $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapport #$ID$ geläscht",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "All Rapporten geläscht",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Zilsprooch änneren?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "D'Quellsprooch gouf op $SOURCE$ geännert. Wëllt Dir op $TARGET$ iwwersetzen?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Jo, Ännerung",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nee, bleift aktuell",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "oppen",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "geléist",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Wéi et funktionéiert:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium Funktiounen:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatesch erkannt: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Daten synchroniséieren",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ Texter fir Iwwersetzung fonnt",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ausgewielt",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Virbereedung...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Komplett!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Iwwersetzung fir $COUNT$ Sproochen ufänken...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Ofgeschloss $SUCCESS$/$TOTAL$ Sproochen",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$$TIME$$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache geläscht",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Net spezifizéiert",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Säit ouni Titel",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Vue",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Bestätegen",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Okay",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Beschreift d'Thema am Detail...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Beschreift w.e.g. de Problem",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Mellt Iech w.e.g. als éischt un",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tipp: Press Ctrl + E fir Är Ännerungen ze exportéieren",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klickt fir de Redaktiounsmodus auszeschalten.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "An d'Zwëschespäicher kopéiert!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Verbesserung ugewannt!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ Verbesserungen ugewannt!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Qualitéitskontroll ofgeschloss",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synchroniséiert mat Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Synchroniséiert mat Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive-Synchroniséierung feelgeschloen",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Mellt Iech w.e.g. un fir vun Drive ze synchroniséieren",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synchroniséierung vu Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ Rapporten vun Drive synchroniséiert!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Keng Rapporten am Drive fonnt",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel-Datei virbereeden...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel Datei exportéiert: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Feeler beim Export op Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON Datei exportéiert: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Feeler beim Export op JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV Datei exportéiert: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Feeler beim Export op CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Luet w.e.g. eng gülteg JSON-Datei erop",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ Iwwersetzungsschlësselen gelueden",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ongülteg JSON-Datei",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Maacht w.e.g. all Schrëtt fäerdeg",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Iwwersetzung erfuerdert Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Konnt net op $LANG$ iwwersetzen",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "All Iwwersetzunge konnten net funktionéieren. Probéiert et nach eng Kéier.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Iwwersetzung feelgeschloen. Probéiert et nach eng Kéier.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Erfollegräich op $COUNT$ Sproochen iwwersat!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ erofgelueden",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Loosst d'JSON-Datei hei falen oder klickt fir ze duerchsichen",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Ënnerstëtzt: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Iwwersetzer",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Schnell a gratis Iwwersetzung mat der Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "KI-Iwwersetzung",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Héichqualitativ kontextbewosst Iwwersetzung mat Hëllef vun KI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Schnell",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontextbewosst",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Natierlech Formuléierung",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Besser fir UI-Text",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Live Edit auszeschalten ($COUNT$ Ännerunge)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Live Edit aktivéieren ($COUNT$ gespäichert)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Ausgewielten Text ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Besser Alternativen ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Upgrade op Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Spärt all KI-Features an onlimitéiert Iwwersetzungen op",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "KI intelligent Virschléi",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Schnell Batch-Iwwersetzung",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Auto Qualitéitskontroll",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritéit Ënnerstëtzung",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "All Sproochen ënnerstëtzen",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonnéiert Iech elo",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium Kont",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktivt Abonnement",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Verfallsdatum",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Deeg verbleiwen",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Problemtyp:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Falsch Iwwersetzung",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Text Iwwerlaf",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout futti",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Fehlend Iwwersetzung",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formatéierungsproblem",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Aner",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Bug Report Manager",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Verwalten an exportéieren Är Lokalisatiounsprobleemer",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Fänkt un, Problemer ze mellen, fir Lokalisatiounsproblemer ze verfollegen",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Keng Rapporte passen zu Äre Filteren",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "All Status",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "All Schwéiergrad",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "All Kategorien",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Héich",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mëttel",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Niddereg",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Exzellent!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ Textsegmenter iwwerpréift a keng Problemer fonnt.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Quellsprooch:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Zilsprooch:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Umeldung erfuerderlech",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Mellt Iech w.e.g. un, fir d'Iwwersetzungsfunktiounen ze benotzen. Gratis Benotzer kréien 10 Iwwersetzungen.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ vun $LIMIT$ Iwwersetzungen bleiwen",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Benotzungslimit erreecht",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Dir hutt Är Benotzungslimit erreecht.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Upgrade op Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Spär onlimitéiert Iwwersetzungen a Premium Features op",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "pro Mount",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Onlimitéiert Iwwersetzungen",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Vläicht méi spéit",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Jidderee Zäit kënnegen. Keng Froen gestallt.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Är Benotzung",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "benotzt Iwwersetzungen",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Mellt Iech w.e.g. un, fir d'Iwwersetzungsfunktiounen ze benotzen",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Net genuch Iwwersetzunge bleiwen. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Dir benotzt all $COUNT$ verbleiwen Iwwersetzungen.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Kann net op dëser Säit lafen",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funktionéiert nëmmen op normale Websäiten. Et kann net op internen Chrome Säiten lafen.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Net ënnerstëtzte Säitentyp",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Net ënnerstëtzte Säiten:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Maacht eng normal Websäit wéi google.com op fir LocalizeAI ze benotzen",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Iwwersetzung ufänken",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Alles eroflueden",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Eng aner Datei iwwersetzen",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Eroflueden",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON-Datei eroplueden",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Zilsproochen auswielen",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Iwwersetzungsmodus wielen",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ Schlësselen iwwersat",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Iwwersetzung fäerdeg!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Gesamt Rapporten",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Oppe Froen",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Héich Prioritéit",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synchroniséiert mat Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synchroniséiere vum Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel exportéieren",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON exportéieren",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Identifikatioun",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Schwéiergrad",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problem",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Virgeschloe Léisungen",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML kucken",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vueport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Aktuell Sprooch",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Schlësselen iwwersat",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Vergaangen Zäit",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Iwwersetzen...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Iwwersetzt JSON-Sproochdateien a verschidde Sprooche mat Google Translate oder KI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Wielt eng oder méi Sproochen aus, fir op déi Dir iwwersetze wëllt",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format detektéiert: $FORMAT$, Modus: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Iwwersetzung op $LANG$... ($CURRENT$/$TOTAL$ Tasten)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Export $COUNT$ Ännerungen",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Export Är Ännerungen fir mat Ärem Iwwersetzungsteam ze deelen",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV eroflueden",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON eroflueden",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ Ännerungen gespäichert.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klickt fir den Editiounsmodus z'aktivéieren",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klickt fir den Editmodus z'aktivéieren.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Keen Text ausgewielt",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Text auswielen fir AI-Virschléi ze kréien",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Keng Sprooche fonnt",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "D'Umeldung ass gescheitert. Probéiert et nach eng Kéier.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Erfollegräich ageloggt!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Erfollegräich ofgemellt",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "D'Authentifikatioun ass gescheitert. Probéiert w.e.g. de Cache ze läschen an Iech nach eng Kéier unzemellen.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Cache läschen...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Konnt de Cache net läschen",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-Bibliothéik net verfügbar. Luet w.e.g. d'Säit nei.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maximum $MAX$ Sproochen op eemol fir optimal Leeschtung.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ ausgewielt",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Mellt Iech w.e.g. un fir AI Iwwersetzung ze benotzen",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Bescht fir Dateien mat raisonnabel Gréisst.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI Modus: Dëst wäert $REQUESTS$ API Uruff maachen. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Dës Iwwersetzung wäert ongeféier $COUNT$ API Uruff maachen.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI Modus ënnerstëtzt maximal $MAX$ Sproochen op eemol.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Iwwersetzung Method",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "fräi",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Onlimitéiert",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Schnell",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Sproochen",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Méisproocheg Iwwersetzung erfuerdert Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Iwwerpréift:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Schreifweis",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammaire",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatéieren",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originaltext huet keng Problemer",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Iwwerpréift <strong>$COUNT$</strong> Textsegmenter",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Fannt <strong>$COUNT$</strong> Feeler fir ze fixéieren",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Keng Feeler!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Qualitéit Check Rapport",
+    "description": "Quality check report title"
+  }
+}

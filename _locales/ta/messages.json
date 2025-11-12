@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI மொழிபெயர்ப்பு சோதனை கருவி. நேரடி மொழிபெயர்ப்பு, பிழை அறிக்கை, போலி-உள்ளூர்மயமாக்கல் மற்றும் தொகுதி JSON மொழிபெயர்ப்பு.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "மூடு",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ரத்துசெய்",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "சேமிக்கவும்",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "நீக்கு",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ஏற்றுமதி",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ஒத்திசைவு",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "மூலம்",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "இலக்கு",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "மொழிகளைத் தேடு...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "உலாவியிலிருந்து தானாகக் கண்டறியப்பட்டது",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "மொழி நிலைமாற்று",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "அசல் மற்றும் மொழிபெயர்க்கப்பட்ட உரைக்கு இடையில் மாறவும்",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "இது எவ்வாறு செயல்படுகிறது: • அசல் மற்றும் மொழிபெயர்க்கப்பட்ட உரைக்கு இடையில் மாறுதல் • மொழிபெயர்ப்புகள் வேகமாக மாறுவதற்கு தற்காலிகமாக சேமிக்கப்படுகின்றன • பக்கத்தில் உள்ள அனைத்து உரையுடனும் வேலை செய்கிறது • மீண்டும் மொழிபெயர்க்க தற்காலிக சேமிப்பை அழிக்கவும்",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "அசல்",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "மொழிபெயர்க்கப்பட்டது",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "மொழிபெயர்க்கத் தயார்",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "தற்காலிக சேமிப்பை அழித்து மீண்டும் மொழிபெயர்க்கவும்",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "போலி-உள்ளூர்மயமாக்கல்",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ஓவர்ஃப்ளோ சிக்கல்களைக் கண்டறிய நீண்ட உரையுடன் UI ஐச் சோதிக்கவும்.",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "இது எவ்வாறு செயல்படுகிறது: • உச்சரிக்கப்பட்ட பதிப்புகளுடன் எழுத்துக்களை மாற்றுகிறது • 30-40% நீள விரிவாக்கத்தைச் சேர்க்கிறது • [!!!... !!!] குறிப்பான்களில் உரையை மடிக்கிறது • எடுத்துக்காட்டு: \"அமைப்புகள்\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "போலி-உள்ளிடத்தைப் பயன்படுத்துங்கள்",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "நேரடித் திருத்தப் பயன்முறை",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "பக்கத்தில் நேரடியாகத் திருத்த எந்த உரையையும் சொடுக்கவும்.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "இது எவ்வாறு செயல்படுகிறது: • எந்த உரை உறுப்பையும் திருத்த கிளிக் செய்யவும் • மாற்றங்கள் நிகழ்நேரத்தில் கண்காணிக்கப்படும் • திருத்தங்களை JSON அல்லது Excel ஆக ஏற்றுமதி செய்யவும் • மாற்றங்களை ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "நேரடித் திருத்தத்தை இயக்கு",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI அம்சங்கள்",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI- இயங்கும் மொழிபெயர்ப்பு கருவிகள்",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "பிரீமியம் அம்சங்கள்: • AI-இயக்கப்படும் சூழல்-விழிப்புணர்வு மொழிபெயர்ப்பு • முழு பக்கங்களையும் தொகுதியாக மொழிபெயர்க்கவும் • மொழிபெயர்ப்புகளுக்கான தர சரிபார்ப்பு • இயற்கை மொழி பரிந்துரைகள்",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI பரிந்துரைகளைப் பெறுங்கள்",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ஸ்மார்ட் பேட்ச் மொழிபெயர்ப்பு",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "பக்கத்தில் உள்ள அனைத்து உரையையும் AI சூழலுடன் மொழிபெயர்க்கிறது.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "மொழிபெயர்ப்பு தரத்தைச் சரிபார்க்கவும்",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "பிரீமியம்",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON கோப்பு மொழிபெயர்ப்பாளர்",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON மொழி கோப்புகளை பல மொழிகளுக்கு மொழிபெயர்க்கவும்.",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "இது எவ்வாறு செயல்படுகிறது: • JSON மொழி கோப்புகளைப் பதிவேற்றவும் • இலக்கு மொழிகளைத் தேர்ந்தெடுக்கவும் • Google அல்லது AI மூலம் மொழிபெயர்க்கவும் • மொழிபெயர்க்கப்பட்ட கோப்புகளைப் பதிவிறக்கவும்",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON கோப்பை மொழிபெயர்க்கவும்",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "சிக்கலைப் புகாரளி",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "உரை மொழிபெயர்ப்பு மற்றும் உள்ளூர்மயமாக்கல் சிக்கல்களைப் புகாரளிக்கவும்",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "இது எவ்வாறு செயல்படுகிறது: • சிக்கல்களைப் புகாரளிக்க உரை கூறுகளைக் கிளிக் செய்யவும் • விளக்கங்களையும் தீவிரத்தையும் சேர்க்கவும் • அறிக்கைகளை Excel அல்லது JSON க்கு ஏற்றுமதி செய்யவும் • Google Drive உடன் ஒத்திசைக்கவும்",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "புகாரளிக்கத் தொடங்குங்கள்",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "அறிக்கைகளை நிர்வகிக்கவும்",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "கணக்கு",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google மூலம் உள்நுழையவும்",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "பிரீமியத்திற்கு மேம்படுத்து",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "பிரீமியம் தகவல்",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "வெளியேறு",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "பிழை அறிக்கைகள்",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "தேடல் அறிக்கைகள்...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "அனைத்தையும் அழி",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "இதுவரை பிழை அறிக்கைகள் எதுவும் இல்லை.",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "சிக்கல்களைக் கண்காணிக்க \"புகாரளிக்கத் தொடங்கு\" என்பதைக் கிளிக் செய்யவும்.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "முடிவுகள் எதுவும் கிடைக்கவில்லை",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "வெவ்வேறு முக்கிய வார்த்தைகளை முயற்சிக்கவும்.",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "விவரங்களைக் காண்க",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "தீர்க்கப்பட்டதாகக் குறி",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "மீண்டும் திற",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "பிழை அறிக்கை #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "அடிப்படை தகவல்",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "நிலைமை",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "வகை",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "தேதி",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "உறுப்பு விவரங்கள்",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "டேக்",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "உரை",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "தேர்வி",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "மொழிபெயர்ப்பு சூழல்",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "பிரச்சினை விளக்கம்",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "பக்கத் தகவல்",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "தலைப்பு",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL ஐ",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "அறிக்கையை நீக்கு",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "#$ID$ அறிக்கையை நீக்க விரும்புகிறீர்களா?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "அனைத்து அறிக்கைகளையும் அழி",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "எல்லா பிழை அறிக்கைகளையும் நீக்கவா? இந்த செயலை செயல்தவிர்க்க முடியாது!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "அனைத்தையும் நீக்கு",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "பிழை அறிக்கைகளை ஏற்றுமதி செய்",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ஏற்றுமதி வடிவமைப்பைத் தேர்வுசெய்க:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "எக்செல்லுக்கு ஏற்றுமதி செய்",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON க்கு ஏற்றுமதி செய்",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google இயக்ககத்துடன் ஒத்திசைக்கவும்",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "அறிக்கை #$ID$ $STATUS$ எனக் குறிக்கப்பட்டது",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "அறிக்கை #$ID$ நீக்கப்பட்டது",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "அனைத்து அறிக்கைகளும் அழிக்கப்பட்டன",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "இலக்கு மொழியை மாற்றவா?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "மூல மொழி $SOURCE$ ஆக மாற்றப்பட்டது. $TARGET$ ஆக மொழிபெயர்க்க விரும்புகிறீர்களா?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ஆம், மாற்று",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "இல்லை, புதுப்பித்த நிலையில் வைத்திரு",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "திறந்த",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "தீர்க்கப்பட்டது",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "எப்படி இது செயல்படுகிறது:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "பிரீமியம் அம்சங்கள்:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "தானாகக் கண்டறியப்பட்டது: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "தரவை ஒத்திசைக்கவும்",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "மொழிபெயர்க்க $COUNT$ உரைகள் கிடைத்தன.",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "தேர்ந்தெடுக்கப்பட்டது",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "தயாராகிறது...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "முழுமை!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ மொழிகளுக்கு மொழிபெயர்ப்பு தொடங்குகிறது...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ மொழிகளில் முடிந்தது",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$அளவு$ கி.பை. $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$வி",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "தற்காலிக சேமிப்பு அழிக்கப்பட்டது",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "குறிப்பிடப்படவில்லை",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "பெயரிடப்படாத பக்கம்",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "காண்க",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "உறுதிப்படுத்தவும்",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "சரி",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "சிக்கலை விரிவாக விவரிக்கவும்...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "சிக்கலை விவரிக்கவும்.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "முதலில் உள்நுழையவும்.",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "குறிப்பு: உங்கள் மாற்றங்களை ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "திருத்தும் பயன்முறையை முடக்க கிளிக் செய்யவும். மாற்றங்களை ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "மேம்பாடு பயன்படுத்தப்பட்டது!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ மேம்பாடுகள் பயன்படுத்தப்பட்டன!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "தரச் சரிபார்ப்பு முடிந்தது",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google இயக்ககத்துடன் ஒத்திசைக்கிறது...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google இயக்ககத்துடன் ஒத்திசைக்கப்பட்டது!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "இயக்கக ஒத்திசைவு தோல்வியடைந்தது.",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Driveவிலிருந்து ஒத்திசைக்க உள்நுழையவும்.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google இயக்ககத்திலிருந்து ஒத்திசைக்கிறது...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "இயக்ககத்திலிருந்து $COUNT$ அறிக்கைகள் ஒத்திசைக்கப்பட்டன!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "இயக்ககத்தில் எந்த அறிக்கைகளும் கிடைக்கவில்லை.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "எக்செல் கோப்பைத் தயாரிக்கிறது...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "எக்செல் கோப்பு ஏற்றுமதி செய்யப்பட்டது: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "எக்செல்லுக்கு ஏற்றுமதி செய்வதில் பிழை",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON கோப்பு ஏற்றுமதி செய்யப்பட்டது: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON க்கு ஏற்றுமதி செய்வதில் பிழை",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV கோப்பு ஏற்றுமதி செய்யப்பட்டது: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV க்கு ஏற்றுமதி செய்வதில் பிழை",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "செல்லுபடியாகும் JSON கோப்பை பதிவேற்றவும்.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ மொழிபெயர்ப்பு விசைகள் ஏற்றப்பட்டன.",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "தவறான JSON கோப்பு",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "அனைத்து படிகளையும் முடிக்கவும்.",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI மொழிபெயர்ப்புக்கு பிரீமியம் தேவை. மேம்படுத்தவும் அல்லது Google மொழிபெயர்ப்பைப் பயன்படுத்தவும்.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$க்கு மொழிபெயர்க்க முடியவில்லை.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "எல்லா மொழிபெயர்ப்புகளும் தோல்வியடைந்தன. மீண்டும் முயற்சிக்கவும்.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "மொழிபெயர்ப்பு தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ மொழிகளில் வெற்றிகரமாக மொழிபெயர்க்கப்பட்டது!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ பதிவிறக்கப்பட்டது",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON கோப்பை இங்கே விடுங்கள் அல்லது உலவ கிளிக் செய்யவும்.",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ஆதரவுகள்: en.json, vi.json போன்றவை.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "கூகிள் மொழிபெயர்ப்பு",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "கூகிள் மொழிபெயர்ப்பு API ஐப் பயன்படுத்தி வேகமான மற்றும் இலவச மொழிபெயர்ப்பு",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI மொழிபெயர்ப்பு",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ஐப் பயன்படுத்தி உயர்தர சூழல் விழிப்புணர்வு மொழிபெயர்ப்பு",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "இலவசம்",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "வேகமாக",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "சூழல் விழிப்புணர்வு",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "இயற்கையான சொற்றொடர்",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI உரைக்கு சிறந்தது",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "நேரடித் திருத்தத்தை முடக்கு ($COUNT$ திருத்தங்கள்)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "நேரடித் திருத்தத்தை இயக்கு ($COUNT$ சேமிக்கப்பட்டது)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உரை ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "சிறந்த மாற்றுகள் ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "பிரீமியத்திற்கு மேம்படுத்து",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "அனைத்து AI அம்சங்களையும் வரம்பற்ற மொழிபெயர்ப்புகளையும் திறக்கவும்.",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ஸ்மார்ட் பரிந்துரைகள்",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "வேகமான தொகுதி மொழிபெயர்ப்பு",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "தானியங்கி தர சோதனை",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "முன்னுரிமை ஆதரவு",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "அனைத்து மொழிகளும் ஆதரிக்கின்றன",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "இப்போதே குழுசேரவும்",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "பிரீமியம் கணக்கு",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "செயலில் உள்ள சந்தா",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "காலாவதி தேதி",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "மீதமுள்ள நாட்கள்",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "வெளியீட்டு வகை:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "தவறான மொழிபெயர்ப்பு",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "உரை ஓவர்ஃப்ளோ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "தளவமைப்பு உடைந்துவிட்டது",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "மொழிபெயர்ப்பு இல்லை",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "வடிவமைப்பு சிக்கல்",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "மற்றவை",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "பிழை அறிக்கை மேலாளர்",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "உங்கள் உள்ளூர்மயமாக்கல் சிக்கல்களை நிர்வகித்து ஏற்றுமதி செய்யுங்கள்.",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "உள்ளூர்மயமாக்கல் சிக்கல்களைக் கண்காணிக்க சிக்கல்களைப் புகாரளிக்கத் தொடங்குங்கள்.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "உங்கள் வடிப்பான்களுடன் பொருந்தக்கூடிய அறிக்கைகள் எதுவும் இல்லை.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "அனைத்து நிலை",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "அனைத்து தீவிரத்தன்மையும்",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "அனைத்து வகைகளும்",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "உயர்",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "நடுத்தரம்",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "குறைந்த",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "அருமை!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ உரைப் பகுதிகளைச் சரிபார்த்தேன், எந்தப் பிரச்சினையும் இல்லை.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "மூல மொழி:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "இலக்கு மொழி:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "உள்நுழைவு அவசியம்",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "மொழிபெயர்ப்பு அம்சங்களைப் பயன்படுத்த உள்நுழையவும். இலவச பயனர்கள் 10 மொழிபெயர்ப்புகளைப் பெறுவார்கள்.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ மொழிபெயர்ப்புகளில் $REMAINING$ மீதமுள்ளது.",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "பயன்பாட்டு வரம்பை அடைந்துவிட்டீர்கள்",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "உங்கள் பயன்பாட்டு வரம்பை அடைந்துவிட்டீர்கள். வரம்பற்ற அணுகலுக்கு பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "பிரீமியத்திற்கு மேம்படுத்து",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "வரம்பற்ற மொழிபெயர்ப்புகள் மற்றும் பிரீமியம் அம்சங்களைத் திறக்கவும்.",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "மாதத்திற்கு",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "வரம்பற்ற மொழிபெயர்ப்புகள்",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ஒருவேளை பின்னர்",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "எந்த நேரத்திலும் ரத்துசெய்யலாம். கேள்விகள் எதுவும் கேட்கப்படவில்லை.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "உங்கள் பயன்பாடு",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "மொழிபெயர்ப்புகள் பயன்படுத்தப்பட்டது",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "மொழிபெயர்ப்பு அம்சங்களைப் பயன்படுத்த உள்நுழையவும்.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "போதுமான மொழிபெயர்ப்புகள் மீதமுள்ளன. உங்களிடம் $REMAINING$ மீதமுள்ளது, ஆனால் $SELECTED$ மொழிகளைத் தேர்ந்தெடுத்துள்ளீர்கள். பிரீமியத்திற்கு மேம்படுத்தவும் அல்லது மொழிகளைக் குறைக்கவும்.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "மீதமுள்ள $COUNT$ மொழிபெயர்ப்புகளையும் நீங்கள் பயன்படுத்துகிறீர்கள். வரம்பற்ற அணுகலுக்கு பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "இந்தப் பக்கத்தில் இயக்க முடியாது.",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI வழக்கமான வலைத்தளங்களில் மட்டுமே செயல்படும். இது Chrome உள் பக்கங்களில் இயங்காது.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ஆதரிக்கப்படாத பக்க வகை",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ஆதரிக்கப்படாத பக்கங்கள்:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI-ஐப் பயன்படுத்த google.com போன்ற வழக்கமான வலைத்தளத்தைத் திறக்கவும்.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "மொழிபெயர்ப்பைத் தொடங்கு",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "அனைத்தையும் பதிவிறக்கு",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "மற்றொரு கோப்பை மொழிபெயர்க்கவும்",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "பதிவிறக்கவும்",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON கோப்பை பதிவேற்று",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "இலக்கு மொழிகளைத் தேர்ந்தெடுக்கவும்",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "மொழிபெயர்ப்புப் பயன்முறையைத் தேர்வுசெய்யவும்",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ விசைகள் மொழிபெயர்க்கப்பட்டன",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "மொழிபெயர்ப்பு முடிந்தது!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "மொத்த அறிக்கைகள்",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "திறந்த சிக்கல்கள்",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "அதிக முன்னுரிமை",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "இயக்ககத்துடன் ஒத்திசைக்கவும்",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "இயக்ககத்திலிருந்து ஒத்திசை",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "எக்செல் ஏற்றுமதி செய்",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ஐ ஏற்றுமதி செய்",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ஐடி",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "தீவிரம்",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "உறுப்பு",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "பிரச்சினை",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "பரிந்துரைக்கப்பட்ட தீர்வுகள்",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ஐப் பார்க்கவும்",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "எக்ஸ்பாத்",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "காட்சிப் பகுதி",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "தற்போதைய மொழி",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "மொழிபெயர்க்கப்பட்ட விசைகள்",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "கழிந்த நேரம்",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "மொழிபெயர்க்கிறது...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "கூகிள் மொழிபெயர்ப்பு அல்லது AI மூலம் JSON மொழி கோப்புகளை பல மொழிகளுக்கு மொழிபெயர்க்கவும்.",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "மொழிபெயர்க்க ஒன்று அல்லது அதற்கு மேற்பட்ட மொழிகளைத் தேர்ந்தெடுக்கவும்.",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "கண்டறியப்பட்ட வடிவம்: $FORMAT$, பயன்முறை: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$...க்கு மொழிபெயர்க்கிறது ($CURRENT$/$TOTAL$ விசைகள்)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ மாற்றங்களை ஏற்றுமதி செய்",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "உங்கள் மொழிபெயர்ப்புக் குழுவுடன் பகிர்ந்து கொள்ள உங்கள் திருத்தங்களை ஏற்றுமதி செய்யவும்.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ஐப் பதிவிறக்கு",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ஐப் பதிவிறக்கவும்",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ மாற்றங்கள் சேமிக்கப்பட்டன. ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "திருத்தும் பயன்முறையை இயக்க கிளிக் செய்யவும்.",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "திருத்தும் பயன்முறையை இயக்க கிளிக் செய்யவும். மாற்றங்களைச் சேமித்துள்ளீர்கள். ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "எந்த உரையும் தேர்ந்தெடுக்கப்படவில்லை.",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI பரிந்துரைகளைப் பெற உரையைத் தேர்ந்தெடுக்கவும்.",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "மொழிகள் எதுவும் கிடைக்கவில்லை.",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "உள்நுழைவு தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "வெற்றிகரமாக உள்நுழைந்தீர்கள்!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "வெற்றிகரமாக வெளியேறிவிட்டீர்கள்",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "அங்கீகாரம் தோல்வியடைந்தது. தற்காலிக சேமிப்பை அழித்து மீண்டும் உள்நுழைய முயற்சிக்கவும்.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "தற்காலிக சேமிப்பை அழிக்கிறது...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "தற்காலிக சேமிப்பை அழிக்க முடியவில்லை.",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "எக்செல் நூலகம் கிடைக்கவில்லை. பக்கத்தை மீண்டும் ஏற்றவும்.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "சிறந்த செயல்திறனுக்காக ஒரே நேரத்தில் அதிகபட்ச $MAX$ மொழிகள்.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ தேர்ந்தெடுக்கப்பட்டது",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI மொழிபெயர்ப்பைப் பயன்படுத்த உள்நுழையவும்",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "நியாயமான அளவு கொண்ட கோப்புகளுக்கு சிறந்தது.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI பயன்முறை: இது $REQUESTS$ API அழைப்புகளைச் செய்யும். $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "இந்த மொழிபெயர்ப்பு தோராயமாக $COUNT$ API அழைப்புகளை மேற்கொள்ளும்.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI பயன்முறை அதிகபட்சமாக $MAX$ மொழிகளை ஒரே நேரத்தில் ஆதரிக்கிறது.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "மொழிபெயர்ப்பு முறை",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "இலவசம்",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "வரம்பற்ற",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "வேகமாக",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "மொழிகள்",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "பல மொழிகளின் மொழிபெயர்ப்புக்கு Premium தேவை.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "சரிபார்க்கப்பட்டது:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "எழுத்துப்பிழை",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "இலக்கணம்",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "வடிவமைத்தல்",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "அசல் உரையில் சிக்கல்கள் இல்லை",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> உரைப் பகுதிகள் சரிபார்க்கப்பட்டன",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "சரிசெய்ய <strong>$COUNT$</strong> பிழைகள் உள்ளன",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "பிழைகள் இல்லை!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "தர சோதனை அறிக்கை",
+    "description": "Quality check report title"
+  }
+}

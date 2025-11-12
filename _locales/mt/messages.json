@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Għodda tat-test tat-traduzzjoni AI. Traduzzjoni live, rappurtar ta' bugs, pseudo-lokalizzazzjoni u traduzzjoni JSON batch.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Agħlaq",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Ikkanċella",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Issejvja",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Ħassar",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Esportazzjoni",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinkronizzazzjoni",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "SORS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MIRA",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Fittex lingwi...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Rilevat awtomatikament mill-browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Lingwa Toggle",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Ibdel bejn it-test oriġinali u dak tradott",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kif jaħdem: • Ibdel bejn it-test oriġinali u dak tradott • It-traduzzjonijiet jiġu ssejvjati fil-cache għal bdil rapidu • Jaħdem mat-test kollu fuq il-paġna • Neħħi l-cache biex terġa' tittraduċi",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Oriġinali",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tradott",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Lest biex nittraduċi",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Neħħi l-Cache u Ittraduċi mill-ġdid",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Psewdo-Lokalizzazzjoni",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Ittestja l-UI b'test itwal biex issib problemi ta' overflow",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kif taħdem:",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Applika Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modalità ta' Editjar Live",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Ikklikkja fuq kwalunkwe test biex teditja direttament fuq il-paġna",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kif jaħdem: • Ikklikkja fuq kwalunkwe element tat-test biex teditjah • Il-bidliet jiġu traċċati f'ħin reali • Esporta l-modifiki bħala JSON jew Excel • Agħfas Ctrl+E biex tesporta l-bidliet",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Ippermetti l-Editjar Live",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Karatteristiċi tal-AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Għodod ta' traduzzjoni mħaddma bl-AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Karatteristiċi Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ikseb Suġġerimenti tal-AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Traduzzjoni Intelliġenti f'Lotti",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Jittraduċi t-test KOLLU fuq il-paġna bil-kuntest tal-AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Iċċekkja l-Kwalità tat-Traduzzjoni",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Primjum",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Traduttur tal-Fajls JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Ittraduċi fajls tal-lingwa JSON għal diversi lingwi",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kif jaħdem: • Tella' fajls tal-lingwa JSON • Agħżel il-lingwi fil-mira • Ittraduċi bil-Google jew bl-AI • Niżżel fajls tradotti",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Ittraduċi l-Fajl JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Irrapporta l-Kwistjoni",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Irrapporta kwistjonijiet ta' traduzzjoni u lokalizzazzjoni tat-test",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kif jaħdem: • Ikklikkja elementi tat-test biex tirrapporta kwistjonijiet • Żid deskrizzjonijiet u s-severità • Esporta rapporti għal Excel jew JSON • Sinkronizza ma' Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Ibda r-Rappurtar",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Immaniġġja r-Rapporti",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Kont",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Idħol bil-Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Aġġorna għal Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informazzjoni Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Oħroġ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Rapporti tal-Bugs",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Rapporti tat-tiftix...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Neħħi Kollox",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Għad m'hemm l-ebda rapporti ta' bugs",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Ikklikkja \"Ibda r-Rappurtar\" biex issegwi l-problemi",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ma nstab l-ebda riżultat",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Ipprova kliem kjavi differenti",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Ara d-dettalji",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Immarka bħala riżolt",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Iftaħ mill-ġdid",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Rapport tal-Bug #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informazzjoni Bażika",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorija",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Dettalji tal-Element",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tikketta",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Test",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selettur",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Kuntest tat-Traduzzjoni",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Deskrizzjoni tal-Kwistjoni",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informazzjoni tal-Paġna",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titlu",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ħassar ir-Rapport",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Żgur li trid tħassar ir-rapport #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Neħħi r-Rapporti Kollha",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Tħassar ir-rapporti kollha tal-bugs? Din l-azzjoni ma tistax titneħħa!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ħassar Kollox",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Esportazzjoni ta' Rapporti ta' Bugs",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Agħżel il-format tal-esportazzjoni:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Esportazzjoni lejn Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Esportazzjoni għal JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinkronizza ma' Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapport #$ID$ immarkat bħala $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ir-rapport #$ID$ tħassar",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Ir-rapporti kollha mħassra",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Ibdel il-Lingwa Mira?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Il-lingwa tas-sors inbidlet għal $SOURCE$. Tixtieq tittraduċi għal $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Iva, Bidla",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Le, Żomm Aġġornat",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "miftuħ",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "solvut",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kif jaħdem:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Karatteristiċi Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Rilevat awtomatikament: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinkronizza d-dejta",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Instabu $COUNT$ testi biex jiġu tradotti",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "magħżul",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Qed nippreparaw...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Komplut!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Nibdew it-traduzzjoni għal $COUNT$ lingwi...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Imlesta $SUCCESS$/$TOTAL$ lingwi",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$DAQS$ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Il-cache tneħħiet",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Mhux speċifikat",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Paġna bla Titlu",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Veduta",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Ikkonferma",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Iddeskrivi l-kwistjoni fid-dettall...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Jekk jogħġbok iddeskrivi l-kwistjoni",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Jekk jogħġbok idħol l-ewwel",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: Agħfas Ctrl+E biex tesporta l-bidliet tiegħek",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Ikklikkja biex tiddiżattiva l-modalità tal-editjar. Agħfas Ctrl+E biex tesporta l-bidliet.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Ikkupjat fil-clipboard!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Titjib applikat!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Applikati $COUNT$ titjib!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kontroll tal-kwalità komplut",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinkronizzazzjoni ma' Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinkronizzat ma' Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Is-sinkronizzazzjoni tad-drajv falliet",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Jekk jogħġbok idħol biex tissinkronizza minn Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinkronizzazzjoni minn Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ rapporti minn Drive ġew sinkronizzati!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ma nstabu l-ebda rapporti f'Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Qed nippreparaw fajl tal-Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Fajl tal-Excel esportat: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Żball fl-esportazzjoni lejn Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Fajl JSON esportat: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Żball fl-esportazzjoni lejn JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Fajl CSV esportat: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Żball fl-esportazzjoni għal CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Jekk jogħġbok ittella' fajl JSON validu",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Mgħaddew $COUNT$ ċwievet tat-traduzzjoni",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fajl JSON mhux validu",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Jekk jogħġbok imla l-passi kollha",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Traduzzjoni AI teħtieġ Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Ma rnexxiex nittraduċu għal $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "It-traduzzjonijiet kollha fallew. Jekk jogħġbok erġa' pprova.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "It-traduzzjoni falliet. Jekk jogħġbok erġa' pprova.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Tradott b'suċċess għal $COUNT$ lingwi!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ niżżel",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Poġġi l-fajl JSON hawn jew ikklikkja biex tfittex",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Jappoġġja: en.json, vi.json, eċċ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Traduzzjoni veloċi u bla ħlas bl-użu tal-Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Traduzzjoni bl-AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Traduzzjoni ta' kwalità għolja konxja mill-kuntest bl-użu tal-AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "B'xejn",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Mgħaġġel",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Konxju tal-kuntest",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Frażijiet naturali",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Aħjar għat-test tal-UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Iddiżattiva l-Editjar Live ($COUNT$ edits)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Ippermetti l-Editjar Live ($COUNT$ iffrankati)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Test Magħżul ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternattivi Aħjar ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Aġġorna għal Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Iftaħ il-karatteristiċi kollha tal-AI u traduzzjonijiet illimitati",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Suġġerimenti intelliġenti tal-AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Traduzzjoni mgħaġġla f'lottijiet",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Kontroll tal-kwalità awtomatiku",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Appoġġ prijoritarju",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Appoġġ għall-lingwi kollha",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abbona issa",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Kont Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abbonament Attiv",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Data ta' Skadenza",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Jiem li Fadal",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tip ta' Kwistjoni:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Traduzzjoni Żbaljata",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Test żejjed",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Tqassim Imkisser",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Traduzzjoni Nieqsa",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Kwistjoni ta' Formattjar",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Oħrajn",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Maniġer tar-Rapporti tal-Bugs",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Immaniġġja u esporta l-kwistjonijiet tal-lokalizzazzjoni tiegħek",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Ibda rrapporta l-problemi biex issegwi l-problemi ta' lokalizzazzjoni",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "L-ebda rapport ma jaqbel mal-filtri tiegħek",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "L-Istatus Kollha",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Is-Severità Kollha",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Il-Kategoriji Kollha",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Għoli",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medju",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Baxx",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Eċċellenti!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Iċċekkjajt $COUNT$ segmenti tat-test u ma sibt l-ebda problema.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lingwa Sors:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lingwa fil-Mira:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Idħol Meħtieġ",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Jekk jogħġbok idħol biex tuża l-karatteristiċi tat-traduzzjoni. L-utenti b'xejn jiksbu 10 traduzzjonijiet.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Fadal $REMAINING$ minn $LIMIT$ traduzzjonijiet",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Intlaħaq il-Limitu tal-Użu",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Int ilħaqt il-limitu ta' użu tiegħek.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Aġġorna għal Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Nisfruttaw traduzzjonijiet illimitati u karatteristiċi premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "kull xahar",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Traduzzjonijiet illimitati",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Forsi aktar tard",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Ikkanċella f'kull ħin. Ma jsirux mistoqsijiet.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "L-Użu Tiegħek",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "traduzzjonijiet użati",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Jekk jogħġbok idħol biex tuża l-karatteristiċi tat-traduzzjoni",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ma baqax biżżejjed traduzzjonijiet. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Qed tuża $COUNT$ it-traduzzjonijiet kollha li fadal.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ma Tistax Taħdem f'Din il-Paġna",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI jaħdem biss fuq websajts regolari. Ma jistax jaħdem fuq paġni interni ta' Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Tip ta' paġna mhux appoġġjat",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Paġni mhux appoġġjati:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Iftaħ websajt regolari bħal google.com biex tuża LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Ibda t-Traduzzjoni",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Niżżel Kollox",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Ittraduċi Fajl Ieħor",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Niżżel",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Tella' l-Fajl JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Agħżel il-Lingwi fil-Mira",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Agħżel il-Modalità tat-Traduzzjoni",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ċwievet tradotti",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traduzzjoni Kompluta!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Rapporti Totali",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Kwistjonijiet Miftuħa",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Prijorità Għolja",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinkronizzazzjoni mas-Sewqan",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinkronizzazzjoni minn Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Esportazzjoni tal-Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Esporta JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Severità",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Kwistjoni",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Soluzzjonijiet Suġġeriti",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Ara l-HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Viewport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Lingwa Kurrenti",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Ċwievet Tradotti",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Ħin li Għadda",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Tittraduċi...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Ittraduċi fajls tal-lingwa JSON għal diversi lingwi permezz ta' Google Translate jew AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Agħżel lingwa waħda jew aktar biex tittraduċi lejhom",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format skopert: $FORMAT$, Modalità: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Tittraduċi għal $LANG$... (ċwievet ta' $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Esporta $COUNT$ Bidliet",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Esporta l-modifiki tiegħek biex taqsamhom mat-tim tat-traduzzjoni tiegħek",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Niżżel is-CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Niżżel il-JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ bidliet salvati. Agħfas Ctrl+E biex tesporta.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Ikklikkja biex tattiva l-modalità tal-editjar",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Ikklikkja biex tattiva l-modalità tal-editjar. Int salvajt il-bidliet. Agħfas Ctrl+E biex tesporta.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ma ntgħażel l-ebda test",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Agħżel test biex tikseb suġġerimenti tal-AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ma nstabet l-ebda lingwa",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Id-dħul ma rnexxiex. Jekk jogħġbok erġa' pprova.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Illoggjajt b'suċċess!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Illoggjat b'suċċess",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "L-awtentikazzjoni falliet. Jekk jogħġbok ipprova tnaddaf il-cache u erġa' idħol.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Qed innaddaf il-cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Ma rnexxiex innaddaf il-cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Librerija tal-Excel mhux disponibbli. Jekk jogħġbok erġa' għabbi l-paġna.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Massimu $MAX$ lingwi f'daqqa għall-aħjar prestazzjoni.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ magħżula",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Jekk jogħġbok idħol biex tuża t-traduzzjoni AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "L-aħjar għal fajls b'daqs raġonevoli.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modalità AI: Din se tagħmel $REQUESTS$ sejħiet API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Din it-traduzzjoni se tagħmel madwar $COUNT$ sejħiet API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Il-modalità AI tappoġġja massimu ta' $MAX$ lingwi f'daqqa.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metodu tat-Traduzzjoni",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Ħieles",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Illimitat",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Fast",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "lingwi",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "It-traduzzjoni b'diversi lingwi teħtieġ Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Iċċekkjat:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografija",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Ifformattjar",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "It-test oriġinali m'għandux kwistjonijiet",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Iċċekkja <strong>$COUNT$</strong> segmenti tat-test",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Sabu <strong>$COUNT$</strong> żbalji x'jirranġaw",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ebda żbalji!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Rapport tal-Kontroll tal-Kwalità",
+    "description": "Quality check report title"
+  }
+}

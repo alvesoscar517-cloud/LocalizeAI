@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI איבערזעצונג פּרובירן געצייַג. לעבן איבערזעצונג, באַריכט פֿעלער, פּסעוודאָ-לאָקאַליזאַציע און באַטש JSON איבערזעצונג.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "שליסן",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "אָפּרופן",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ראַטעווען",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "אויסמעקן",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "עקספּאָרטירן",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "סינקראָניזירן",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "מקור",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ציל",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "זוכן שפּראַכן...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "אויטאָמאַטיש דעטעקטירט פֿון בלעטערער",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "שפּראַך טאַגאַל",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "וועקסלען צווישן ארגינעלן און איבערגעזעצטן טעקסט",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ווי עס אַרבעט: • טוישן צווישן אָריגינעלן און איבערגעזעצטן טעקסט • איבערזעצונגען ווערן געקעשט פֿאַר שנעלן וועקסל • אַרבעט מיט אַלע טעקסט אויף דער בלאַט • רייניקן קעש צו איבערזעצן ווידער",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "אָריגינעל",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "איבערגעזעצט",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "גרייט צו איבערזעצן",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "אויסמעקן קעש און איבערזעצן ווידער",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "פּסעוודאָ-לאָקאַליזאַציע",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "טעסט די באַניצער צובינד מיט לענגערע טעקסט צו געפֿינען איבערפלוס פּראָבלעמען",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ווי אזוי עס ארבעט: • פארטרעט אותיות מיט אקצענטירטע ווערסיעס • לייגט צו 30-40% לענג אויסברייטערונג • איינוויקלט טעקסט אין [!!!... !!!] מארקערס • ביישפיל: \"סעטטינגס\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "צולייגן פּסעוודאָ-לאָק",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "לייוו רעדאַקטירן מאָדע",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "דריקט אויף יעדן טעקסט צו רעדאַקטירן גלייך אויף דער בלאַט",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ווי אזוי עס ארבעט: • דריקט אויף יעדן טעקסט עלעמענט צו עס רעדאַקטירן • ענדערונגען ווערן נאכגעפאלגט אין רעאל-צייט • עקספארטירט ענדערונגען אלס JSON אדער עקסעל • דריקט Ctrl+E צו עקספארטירן ענדערונגען",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "אַקטיווירן לייוו רעדאַקטירן",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "קינסטלעכע אינטעליגענץ פֿעיִטשערז",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "קינסטלעך-אינטעליגענטועלע איבערזעצונג מכשירים",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "פּרעמיע פֿעיִטשערז: • קינסטלעך-אינטעליגענטע (AI) געטריבענע קאָנטעקסט-באַוואוסטזיניקע איבערזעצונג • גרופּע איבערזעצן גאַנצע בלעטער • קוואַליטעט קאָנטראָל פֿאַר איבערזעצונגען • פֿאָרשלאָגן פֿאַר נאַטירלעכע שפּראַך",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "באַקומען קינסטלעכע אינטעליגענץ פֿאָרשלאָגן",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "קלוגע באַטש איבערזעצן",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "איבערזעצט אלע טעקסט אויף בלאט מיט קינסטלעכער אינטעליגענץ קאנטעקסט",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "קאָנטראָלירן די קוואַליטעט פון דער איבערזעצונג",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "פּרעמיום",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON טעקע איבערזעצער",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "איבערזעצן JSON שפּראַך טעקעס צו קייפל שפּראַכן",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ווי אזוי עס ארבעט: • ארויפלאדן JSON שפראך טעקעס • אויסקלויבן ציל שפראכן • איבערזעצן מיט גוגל אדער קינסטלעכע אינטעליגענץ • אראפלאדן איבערגעזעצטע טעקעס",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "איבערזעצן JSON טעקע",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "מעלדן פּראָבלעם",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "מעלדן טעקסט איבערזעצונג און לאָקאַליזאַציע פּראָבלעמען",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ווי אזוי עס ארבעט: • דריקט אויף טעקסט עלעמענטן צו מעלדן פראבלעמען • לייג צו באשרייבונגען און ערנסטקייט • עקספארטירן באריכטן צו עקסעל אדער דזשעי-ען • סינקראניזירן מיט גוגל דרייוו",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "אָנהייבן באַריכטן",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "פירן באריכטן",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "קאנטע",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "אַרײַנלאָגירן זיך מיט גוגל",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "אַפּגרעיד צו פּרעמיום",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "פּרעמיום אינפֿאָרמאַציע",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "אויסלאָגירן",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "באַג באַריכטן",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "זוכן באריכטן...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "אויסמעקן אַלץ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "קיין באַג באַריכטן נאָך נישט",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "דריקט \"אָנהייבן באַריכטן\" צו שפּורן פּראָבלעמען",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "קיין רעזולטאַטן געפֿונען",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "פרובירט פארשידענע שליסל-ווערטער",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "זען דעטאַלן",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "מאַרקירן ווי געלייזט",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ווידער עפענען",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "באַג באַריכט #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "גרונטלעכע אינפֿאָרמאַציע",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "סטאַטוס",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "קאַטעגאָריע",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "דאַטע",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "עלעמענט דעטאלן",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "טאַג",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "טעקסט",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "סעלעקטאָר",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "איבערזעצונג קאָנטעקסט",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "פּראָבלעם באַשרייַבונג",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "בלאַט אינפֿאָרמאַציע",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "טיטל",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "אויסמעקן באריכט",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ביסטו זיכער אז דו ווילסט אויסמעקן באריכט #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "אויסמעקן אלע באריכטן",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "אויסמעקן אלע באַג באַריכטן? די אַקציע קען נישט צוריקגעבראַכט ווערן!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "אויסמעקן אַלץ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "עקספּאָרטירן באַג באַריכטן",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "אויסקלײַבן עקספּאָרט פֿאָרמאַט:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "עקספּאָרטירן צו עקסעל",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "עקספּאָרטירן צו JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "סינקראָניזירן צו גוגל דרייוו",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "באריכט #$ID$ אנגעצייכנט אלס $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "באַריכט #$ID$ אויסגעמעקט",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "אַלע באַריכטן זענען אויסגעמעקט",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "טוישן ציל שפּראַך?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "קוואַל שפּראַך געביטן צו $SOURCE$. וואָלט איר וועלן איבערזעצן צו $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "יא, ענדערן",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ניין, בלייבט אַקטועל",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "עפענען",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "אויפגעלייזט",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ווי עס אַרבעט:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "פּרעמיום פֿעיִטשערז:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "אויטאָמאַטיש דעטעקטירט: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "סינקראָניזירן דאַטן",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "געפֿונען $COUNT$ טעקסטן צו איבערזעצן",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "אויסגעקליבן",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "צוגרייטן...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "פֿאַרענדיקט!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "אָנהייבן איבערזעצונג פֿאַר $COUNT$ שפּראַכן...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ געענדיקט $SUCCESS$/$TOTAL$ שפּראַכן",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$צייט$ס $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "קאַש אויסגעמעקט",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "נישט ספּעציפֿירט",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "אומבאַטיטלטע בלאַט",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "קוק",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "באַשטעטיקן",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "אָוקיי",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "באַשרײַבט דעם פּראָבלעם אין דעטאַל...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ביטע באַשרײַבט דעם פּראָבלעם",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ביטע זיך אריינלאָגירן ערשט",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "עצה: דריק Ctrl+E צו עקספּאָרטירן אייערע ענדערונגען",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "דריקט צו דיאַקטיווירן רעדאַקטירן מאָדע. דריקט Ctrl+E צו עקספּאָרטירן ענדערונגען.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "קאָפּירט צום קליפּבאָרד!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "פֿאַרבעסערונג אָנגעווענדט!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "אנגעווענדט $COUNT$ פֿאַרבעסערונגען!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "קוואַליטעט קאָנטראָל פֿאַרענדיקט",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "סינקראָניזירן צו גוגל דרייוו...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "סינקראָניזירט צו גוגל דרייוו!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "דרייוו סינקראָניזאַציע איז דורכגעפאַלן",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ביטע אריינלאגירן צו סינקראניזירן פון דרייוו",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "סינקראָניזירן פֿון גוגל דרייוו...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "סינקראָניזירט $COUNT$ באַריכטן פֿון דרייוו!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "קיין באריכטן נישט געפונען אין דרייוו",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "צוגרייטן עקסעל טעקע...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "עקסעל טעקע עקספארטירט: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "טעות אין עקספּאָרטירן צו עקסעל",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON טעקע עקספּאָרטירט: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "טעות אין עקספּאָרטירן צו JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV טעקע עקספּאָרטירט: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "טעות אין עקספּאָרטירן צו CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ביטע אַרויפֿלאָדן אַ גילטיקע JSON טעקע",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "געלאָדן $COUNT$ איבערזעצונג שליסלען",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "אומגילטיקע JSON טעקע",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "ביטע פֿאַרענדיקן אַלע טריט",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "קינסטלעכע אינטעליגענץ איבערזעצונג פארלאנגט פּרעמיום. ביטע אַפּגרעיד אָדער ניצט גוגל טראַנסלייט.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "נישט געקענט איבערזעצן צו $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "אַלע איבערזעצונגען זענען דורכגעפֿאַלן. ביטע פּרוּווט ווידער.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "איבערזעצונג איז דורכגעפאלן. ביטע פרובירט נאכאמאל.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "ערפאָלגרײַך איבערגעזעצט צו $COUNT$ שפּראַכן!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "אראפגעלאדנט $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "לאָזט אַראָפּ דעם JSON טעקע דאָ אָדער גיט אַ קליק צו בלעטערן",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "שטיצט: en.json, vi.json, עטק.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "גוגל איבערזעצער",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "שנעלע און פרייע איבערזעצונג ניצנדיק גוגל טראנסלייט API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "קינסטלעכע אינטעליגענץ איבערזעצונג",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "הויך-קוואַליטעט קאָנטעקסט-באַוואוסטזיניקע איבערזעצונג ניצנדיק קינסטלעכע אינטעליגענץ",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "פריי",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "שנעל",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "קאָנטעקסט-באַוואוסטזיניק",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "נאַטירלעכע פראַזירונג",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "בעסער פֿאַר UI טעקסט",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "דיאַקטיווירן לייוו רעדאַקטירן ($COUNT$ רעדאַקטירונגען)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "אַקטיווירן לייוו רעדאַקטירן ($COUNT$ געשפּאָרט)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "אויסגעקליבענער טעקסט ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "בעסערע אלטערנאטיוון ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "אַפּגרעיד צו פּרעמיום",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "עפֿנט אַלע קינסטלעכע אינטעליגענץ פֿונקציעס און אַנלימאַטאַד איבערזעצונגען",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "קלוגע פֿאָרשלאָגן פֿון AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "שנעלע באַטש איבערזעצונג",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "אויטאָ קוואַליטעט קאָנטראָל",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "פּריאָריטעט שטיצע",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "אַלע שפּראַכן שטיצן",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "אַבאָנירן איצט",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "פּרעמיום אַקאַונט",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "אַקטיווע אַבאָנעמענט",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "עקספּיירי דאַטע",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "טעג פארבליבן",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "פּראָבלעם טיפּ:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "אומרעכטע איבערזעצונג",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "טעקסט איבערפלוס",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "אויסלייג צעבראכן",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "פֿעלנדיקע איבערזעצונג",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "פֿאָרמאַטירונג פּראָבלעם",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "אַנדערע",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "באַג באַריכט פאַרוואַלטער",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "פאַרוואַלטן און עקספּאָרטירן אייערע לאָקאַליזאַציע פּראָבלעמען",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "אָנהייבן צו מעלדן פּראָבלעמען צו שפּורן לאָקאַליזאַציע פּראָבלעמען",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "קיין באריכטן שטימען נישט מיט אייערע פילטערס",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "אַלע סטאַטוס",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "אַלע שטרענגקייט",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "אַלע קאַטעגאָריעס",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "הויך",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "מיטל",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "נידעריק",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "אויסגעצייכנט!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "געטשעקט $COUNT$ טעקסט סעגמענטן און נישט געפונען קיין פראבלעמען.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "מקור שפּראַך:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ציל שפּראַך:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "אריינלאָגירן פארלאנגט",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ביטע לאָגט זיך איין צו נוצן איבערזעצונג פֿעיִטשערס. פרייע באַניצער באַקומען 10 איבערזעצונגען.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ פון $LIMIT$ איבערזעצונגען פארבליבן",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "באַניץ לימיט דערגרייכט",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "איר האָט דערגרייכט אייער באַניץ לימיט. אַפּגרעיד צו פּרעמיום פֿאַר אַנלימאַטאַד אַקסעס.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "אַפּגרעיד צו פּרעמיום",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "עפֿנט אַנלימאַטאַד איבערזעצונגען און פּרעמיע פֿונקציעס",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "פּער חודש",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "אומבאגרענעצטע איבערזעצונגען",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "אפשר שפּעטער",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "קענסלען ווען איר ווילט. קיין פראגעס נישט געפרעגט.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "דיין באַניץ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "איבערזעצונגען געניצט",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ביטע לאג אריין צו ניצן איבערזעצונג פֿעיִטשערס",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "נישט גענוג איבערזעצונגען פארבליבן. איר האָט $REMAINING$ פארבליבן אָבער איר האָט אויסגעקליבן $SELECTED$ שפּראַכן. ביטע אַפּגרעידן צו פּרעמיום אָדער רעדוצירן שפּראַכן.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "איר ניצט אַלע $COUNT$ איבערבליבענע איבערזעצונגען. אַפּגרעיד צו פּרעמיום פֿאַר אַנלימאַטאַד אַקסעס.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "קען נישט לויפן אויף דעם בלאט",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "לאָקאַליזירןAI אַרבעט נאָר אויף רעגולערע וועבזייטלעך. עס קען נישט לויפן אויף כראָום אינערלעכע בלעטער.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "נישט געשטיצט בלאַט טיפּ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "נישט-געשטיצטע בלעטער:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "עפֿנט אַ רעגולערע וועבזײַט ווי google.com צו ניצן LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "אָנהייבן איבערזעצונג",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "דאַונלאָוד אַלע",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "איבערזעצן אן אנדער טעקע",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "דאַונלאָודן",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "אַרויפֿלאָדן JSON טעקע",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "אויסקלייבן ציל שפּראַכן",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "אויסקלויבן איבערזעצונג מאָדע",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ שליסלען איבערגעזעצט",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "איבערזעצונג פֿאַרטיק!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "גאַנץ באַריכטן",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "אָפֿענע פּראָבלעמען",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "הויך פּריאָריטעט",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "סינקראָניזירן צו דרייוו",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "סינקראָניזירן פֿון דרייוו",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "עקספּאָרטירן עקסעל",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "עקספּאָרטירן דזשייסאָן",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "אידענטיפיקאציע",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "שטרענגקייט",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "עלעמענט",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "פּראָבלעם",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "פארגעשלאגענע לייזונגען",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "זען HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "וויופּאָרט",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "איצטיקע שפּראַך",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "שליסלען איבערגעזעצט",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "צייט פארבייגעגאנגען",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "איבערזעצן...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "איבערזעצן JSON שפּראַך טעקעס צו קייפל שפּראַכן מיט Google Translate אָדער AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "אויסקלייבן איין אדער מער שפראכן צו איבערזעצן צו",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "פֿאָרמאַט דעטעקטירט: $FORMAT$, מאָדוס: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "איבערזעצן צו $LANG$... ($CURRENT$/$TOTAL$ שליסלען)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "עקספּאָרטירן $COUNT$ ענדערונגען",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "עקספּאָרטיר אייערע רעדאַקציעס צו טיילן מיט אייער איבערזעצונג מאַנשאַפֿט",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "דאַונלאָוד CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "דאַונלאָוד JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ענדערונגען געראַטעוועט. דריק Ctrl+E צו עקספּאָרטירן.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "דריקט צו אַקטיוויזירן רעדאַקטירן מאָדע",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "דריקט צו אַקטיווירן רעדאַקטירן מאָדע. איר האָט געראַטעוועט ענדערונגען. דריקט Ctrl+E צו עקספּאָרטירן.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "קיין טעקסט נישט אויסגעקליבן",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "אויסקלייבן טעקסט צו באַקומען פֿאָרשלאָגן פֿון קינסטלעכער אינטעליגענץ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "קיין שפּראַכן נישט געפֿונען",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "אריינלאגירן איז דורכגעפאלן. ביטע פרובירט נאכאמאל.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "איינגעלאָגט מיט הצלחה!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "אויסגעלאָגט מיט הצלחה",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "אויטענטיפֿיקאַציע איז דורכגעפֿאַלן. ביטע פּרוּווט אויסמעקן דעם קאַש און זיך ווידער אַרײַנלאָגירן.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "אויסמעקן קעש...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "נישט געקענט אויסמעקן קעש",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "עקסעל ביבליאָטעק נישט פֿאַראַן. ביטע רילאָודן דעם בלאַט.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "מאַקסימום $ מאַקס $ שפּראַכן אין אַמאָל פֿאַר אָפּטימאַל פאָרשטעלונג. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ אויסגעקליבן",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "ביטע קלאָץ אין צו נוצן אַי איבערזעצונג",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "בעסטער פֿאַר טעקעס מיט אַ גלייַך גרייס.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI מאָדע: דאָס וועט מאַכן ריקוועס אַפּי קאַללס.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "די איבערזעצונג וועט מאַכן בעערעך $COUNT$ API קאַללס.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI מאָדע שטיצט מאַקסימום $ מאַקס $ שפּראַכן אין אַמאָל. $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "איבערזעצונג מעטאָד",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "פריי",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ונלימיטעד",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "שנעל",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "שפּראַכן",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "איבערזעצונג פון קייפל שפּראַכן ריקווייערז פּרעמיום.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "געזוכט:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "אויסלייג",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "גראַמאַטיק",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "פאָרמאַטטינג",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "אָריגינעל טעקסט האט קיין ישוז",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "אָפּגעשטעלט <strong>$COUNT$</strong> טעקסט סעגמאַנץ",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "געפונען <strong>$COUNT$</strong> ערראָרס צו פאַרריכטן",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "קיין ערראָרס!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "קוואַליטי טשעק באריכט",
+    "description": "Quality check report title"
+  }
+}

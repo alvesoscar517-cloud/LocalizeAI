@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "AI tarjima sinov vositasi. Jonli tarjima, xato hisoboti, soxta-mahalliylashtirish va ommaviy JSON tarjimasi.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Yopish",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Bekor qilish",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Saqlash",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Oʻchirish",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksport",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinxronlash",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "MANBA",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MAQSAD",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Tillarni qidirish...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Brauzerdan avtomatik ravishda aniqlandi",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Tilni almashtirish",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Asl va tarjima matni oʻrtasida almashish",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Bu qanday ishlaydi: • Asl va tarjima qilingan matn o'rtasida almashish • Tez almashtirish uchun tarjimalar keshlanadi • Sahifadagi barcha matnlar bilan ishlaydi • Qayta tarjima qilish uchun keshni tozalang",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Asl",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tarjima qilingan",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Tarjima qilishga tayyor",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Keshni tozalash va qayta tarjima qilish",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalizatsiya",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "To‘lib ketish bilan bog‘liq muammolarni aniqlash uchun foydalanuvchi interfeysini uzunroq matn bilan sinab ko‘ring",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Bu qanday ishlaydi: • Belgilarni aksentli versiyalar bilan almashtiradi • 30-40% uzunlik kengayishini qo'shadi • Matnni [!!!... !!!] belgilar • Misol: \"Sozlamalar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc-ni qo'llang",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Jonli tahrirlash rejimi",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "To'g'ridan-to'g'ri sahifada tahrirlash uchun istalgan matnni bosing",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Bu qanday ishlaydi: • Har qanday matn elementini tahrirlash uchun bosing • O'zgarishlar real vaqt rejimida kuzatiladi • Tahrirlarni JSON yoki Excel sifatida eksport qiling • O‘zgarishlarni eksport qilish uchun Ctrl+E tugmalarini bosing",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Jonli tahrirlashni yoqing",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI xususiyatlari",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI tomonidan boshqariladigan tarjima vositalari",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium xususiyatlari:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI bo'yicha takliflarni oling",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Paket tarjilang",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Sahifadagi HAMMA matnni AI konteksti bilan tarjima qiladi",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Tarjima sifatini tekshiring",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Mukofot",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON fayl tarjimoni",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON tilidagi fayllarni bir nechta tillarga tarjima qiling",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Bu qanday ishlaydi: • JSON til fayllarini yuklang • Maqsadli tillarni tanlang • Google yoki AI yordamida tarjima qiling • Tarjima qilingan fayllarni yuklab oling",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON faylini tarjima qiling",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Muammo haqida xabar berish",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Matnni tarjima qilish va mahalliylashtirish masalalari haqida xabar bering",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Bu qanday ishlaydi: • Muammolar haqida xabar berish uchun matn elementlarini bosing • Tavsiflar va jiddiylik qo'shing • Hisobotlarni Excel yoki JSONga eksport qiling • Google Drive bilan sinxronlash",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Hisobot berishni boshlang",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Hisobotlarni boshqarish",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Hisob",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google bilan kiring",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Premiumga yangilang",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium haqida ma'lumot",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Tizimdan chiqish",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Xatolar haqida hisobot",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Hisobotlarni qidirish...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Hammasini tozalash",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Hali xato xabarlari yoʻq",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Muammolarni kuzatish uchun \"Hisobotni boshlash\" tugmasini bosing",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Hech qanday natija topilmadi",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Turli xil kalit so'zlarni sinab ko'ring",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Tafsilotlarni ko'rish",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Yechilgan deb belgilang",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Qayta oching",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Xatolik hisoboti #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Asosiy ma'lumotlar",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Holat",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Turkum",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Sana",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Element tafsilotlari",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "teg",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Matn",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selektor",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Tarjima konteksti",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Muammo tavsifi",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Sahifa haqida ma'lumot",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Sarlavha",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Url",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Hisobotni o'chirish",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Haqiqatan ham #$ID$ hisobotini oʻchirib tashlamoqchimisiz?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Barcha hisobotlarni tozalash",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "BARCHA xatolik hisobotlari oʻchirilsinmi? Bu amalni ortga qaytarib bo‘lmaydi!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Hammasini o'chirish",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Xatolik hisobotlarini eksport qilish",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Eksport formatini tanlang:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excelga eksport qilish",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSONga eksport qiling",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Drive bilan sinxronlash",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Hisobot # $ $$STATUS$$ $ $ status sifat$$STATUS$$a belgilanadi $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ hisoboti oʻchirildi",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Barcha hisobotlar tozalandi",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Maqsadli til o'zgartirilsinmi?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Manba tili $SOURCE$ ga oʻzgartirildi. $TARGET$ tiliga tarjima qilmoqchimisiz?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ha, o'zgartirish",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Yo'q, hozirgi holatda saqlang",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ochiq",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "hal qilingan",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Bu qanday ishlaydi:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium xususiyatlari:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Avtomatik aniqlandi: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Ma'lumotlarni sinxronlash",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Tarjima uchun $COUNT$ matn topildi",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "tanlangan",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Tayyorlanmoqda...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Bajarildi!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ til uchun tarjima boshlanmoqda...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $ $ / $ to'liq tillar $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Vaqt $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Kesh tozalandi",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Belgilanmagan",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Sarlavhasiz sahifa",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Ko‘rish",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Tasdiqlang",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "KELISHDIKMI",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Muammoni batafsil tasvirlab bering...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Iltimos, masalani tasvirlab bering",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Iltimos, avval tizimga kiring",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Maslahat: Oʻzgarishlarni eksport qilish uchun Ctrl+E tugmalarini bosing",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Tahrirlash rejimini o'chirish uchun bosing. O'zgarishlarni eksport qilish uchun Ctrl+E tugmalarini bosing.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Buferga nusxalandi!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Yaxshilash qo'llanildi!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ yaxshilanish kiritildi!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Sifatni tekshirish tugallandi",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive bilan sinxronlanmoqda...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive bilan sinxronlandi!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Diskni sinxronlash amalga oshmadi",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Drive orqali sinxronlash uchun tizimga kiring",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive orqali sinxronlanmoqda...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive orqali sinxronlangan $COUNT$ hisobot!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive-da hech qanday hisobot topilmadi",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel fayli tayyorlanmoqda...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Eksport qilingan Excel fayli: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excelga eksport qilishda xatolik yuz berdi",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON fayli eksport qilindi: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSONga eksport qilishda xatolik yuz berdi",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV fayli eksport qilindi: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV ga eksport qilishda xatolik yuz berdi",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Yaroqli JSON faylini yuklang",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ tarjima kalitlari yuklandi",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "JSON fayli yaroqsiz",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Iltimos, barcha bosqichlarni bajaring",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Ai tarjimasi mukofotni talab qiladi.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ tiliga tarjima qilinmadi",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Barcha tarjimalar bajarilmadi. Iltimos, qayta urinib koʻring.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Tarjima amalga oshmadi. Iltimos, qayta urinib koʻring.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ tilga muvaffaqiyatli tarjima qilindi!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Yuklab olingan $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON faylini shu yerga tashlang yoki koʻrib chiqish uchun bosing",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Qo'llab-quvvatlaydi: en.json, vi.json va boshqalar.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google tarjimon",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API yordamida tez va bepul tarjima",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI tarjimasi",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI yordamida yuqori sifatli kontekstdan xabardor tarjima",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Bepul",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Tez",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontekstdan xabardor",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Tabiiy iboralar",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI matni uchun yaxshiroq",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Jonli tahrirni o‘chirish ($COUNT$ tahrir)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Jonli tahrirni yoqish ($COUNT$ saqlandi)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Tanlangan matn ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Yaxshiroq alternativalar ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Premiumga yangilang",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Barcha AI xususiyatlarini va cheksiz tarjimalarni qulfdan chiqaring",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI aqlli takliflar",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Tez ommaviy tarjima",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Avtomatik sifatni tekshirish",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Ustuvor qo'llab-quvvatlash",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Barcha tillar qo'llab-quvvatlanadi",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Hozir obuna boʻling",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium hisobi",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Faol obuna",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Quyidagi sanagacha foydalanilsin",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Qolgan kunlar",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Muammo turi:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Noto'g'ri tarjima",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Matnni to‘ldirish",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Tartib buzilgan",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Tarjima etishmayotgan",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formatlash muammosi",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Boshqa",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Xatolar haqida hisobot menejeri",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Mahalliylashtirish muammolaringizni boshqaring va eksport qiling",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Mahalliylashtirish muammolarini kuzatish uchun muammolar haqida xabar berishni boshlang",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Filtrlaringizga hech qanday hisobot mos kelmadi",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Barcha holat",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Barcha jiddiylik",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Barcha toifalar",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Yuqori",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "O'rta",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Past",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Ajoyib!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ matn segmentlari tekshirildi va hech qanday muammo topilmadi.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Manba tili:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Maqsadli til:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Kirish shart",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Tarjima funksiyalaridan foydalanish uchun tizimga kiring. Bepul foydalanuvchilar 10 ta tarjimani olishadi.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ / $LIMIT$ tarjima qoldi",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Foydalanish chegarasiga yetdi",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Foydalanish chegarangizga yetdingiz. Cheksiz kirish uchun Premiumga yangilang.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Premiumga yangilang",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Cheksiz tarjimalarni va premium xususiyatlarini oching",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "oyiga",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Cheksiz tarjimalar",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Balki keyinroq",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Istalgan vaqtda bekor qiling. Hech qanday savol berilmagan.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Foydalanishingiz",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "tarjimalardan foydalaniladi",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Tarjima funksiyalaridan foydalanish uchun tizimga kiring",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Yetarlicha tarjimalar qolmadi. Sizda $REMAINING$ qoldi, lekin tanlagan $SELECTED$ tillar. Iltimos, Premiumga yangilang yoki tillarni qisqartiring.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Qolgan barcha $COUNT$ tarjimadan foydalanmoqdasiz. Cheksiz kirish uchun Premiumga yangilang.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Bu sahifada ishga tushirib bo'lmaydi",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI faqat oddiy veb-saytlarda ishlaydi. U Chrome ichki sahifalarida ishlay olmaydi.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Qo'llab-quvvatlanmaydigan sahifa turi",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Qo'llab-quvvatlanmaydigan sahifalar:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI-dan foydalanish uchun google.com kabi oddiy veb-saytni oching",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Tarjimani boshlash",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Hammasini yuklab oling",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Boshqa faylni tarjima qilish",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Yuklab oling",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON faylini yuklang",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Maqsadli tillarni tanlang",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Tarjima rejimini tanlang",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ kalit tarjima qilindi",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Tarjima tugallandi!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Jami hisobotlar",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Ochiq masalalar",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Yuqori ustuvorlik",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive bilan sinxronlash",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive-dan sinxronlash",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excelni eksport qiling",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON-ni eksport qiling",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Id",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Jiddiylik",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Muammo",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Tavsiya etilgan yechimlar",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTMLni ko'rish",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Xpath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Ko'rish maydoni",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Joriy til",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Tarjima qilingan kalitlar",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Vaqt o'tdi",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Tarjima qilinmoqda...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate yoki AI yordamida JSON tilidagi fayllarni bir nechta tillarga tarjima qiling",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Tarjima qilish uchun bir yoki bir nechta tilni tanlang",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format aniqlandi: $FORMAT$, Rejim: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ tiliga tarjima qilinmoqda... ($CURRENT$/$TOTAL$ kalit)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ oʻzgarishlarni eksport qiling",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Tarjima jamoangiz bilan baham ko'rish uchun tahrirlaringizni eksport qiling",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV-ni yuklab oling",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON-ni yuklab oling",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ oʻzgarishlar saqlandi. Eksport qilish uchun Ctrl+E tugmalarini bosing.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Tahrirlash rejimini yoqish uchun bosing",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Tahrirlash rejimini yoqish uchun bosing. Siz oʻzgarishlarni saqladingiz. Eksport qilish uchun Ctrl+E tugmalarini bosing.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Hech qanday matn tanlanmagan",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI takliflarini olish uchun matnni tanlang",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Hech qanday til topilmadi",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Kirish amalga oshmadi. Iltimos, qayta urinib koʻring.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Kirish muvaffaqiyatli amalga oshirildi!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Hisobdan muvaffaqiyatli chiqdi",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentifikatsiya amalga oshmadi. Keshni tozalab, qaytadan kiring.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Kesh tozalanmoqda...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Keshni tozalab bo‘lmadi",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel kutubxonasi mavjud emas. Iltimos, sahifani qayta yuklang.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimal $ O'nda eng maqbul chiqish uchun bir marta $ til. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Coni $ / $ Maks $ Tan$$MAX$$an $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Iltimos, AI tarjimasini ishlatish uchun tizimga kiring",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Oqilona o'lchamdagi fayllar uchun eng yaxshisi.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI rejimi: Bu API qo'ng'iroqlarini so'raydi.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ushbu tarjimasi taxminan API qo'ng'iroqlarini amalga oshiradi. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Ai rejimi bir vaqtning o'zida maksimal $ tillarni qo'llab-quvvatlaydi. $MAX$",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Tarjima usuli",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Erkin",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Cheksiz",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Tez",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "tillar",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Bir nechta tillarga tarjima mukofoti uchun to'lov talab etiladi.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Tekshirildi:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Imlo",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatlash",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Asl matnda muammo yo'q",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Tekshirilgan $ SNG SEGITESS",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Topshiriqni aniqlash uchun $ 1 xato",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Hech qanday xato yo'q!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Sifatni tekshirish to'g'risidagi hisobot",
+    "description": "Quality check report title"
+  }
+}

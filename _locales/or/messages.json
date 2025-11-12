@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI ଅନୁବାଦ ପରୀକ୍ଷଣ ଉପକରଣ। ଲାଇଭ୍ ଅନୁବାଦ, ବଗ୍ ରିପୋର୍ଟିଂ, ସିଉଡୋ-ଲୋକାଲାଇଜେସନ୍ ଏବଂ ବ୍ୟାଚ୍ JSON ଅନୁବାଦ।",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ବନ୍ଦ କରନ୍ତୁ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ବାତିଲ କରନ୍ତୁ",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ସେଭ୍ କରନ୍ତୁ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ଡିଲିଟ୍ କରନ୍ତୁ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ରପ୍ତାନି କରନ୍ତୁ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ସିଙ୍କ୍",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ଉତ୍ସ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ଲକ୍ଷ୍ୟ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ଭାଷାଗୁଡ଼ିକୁ ସନ୍ଧାନ କରନ୍ତୁ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ବ୍ରାଉଜରରୁ ସ୍ଵତଃ-ଚିହ୍ନଟ ହୋଇଛି",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ଭାଷା ଟୋଗଲ୍",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ମୂଳ ଏବଂ ଅନୁବାଦିତ ଟେକ୍ସଟ୍ ମଧ୍ୟରେ ସ୍ୱିଚ୍ କରନ୍ତୁ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ଏହା କିପରି କାମ କରେ: • ମୂଳ ଏବଂ ଅନୁବାଦିତ ପାଠ୍ୟ ମଧ୍ୟରେ ଟଗଲ୍ କରନ୍ତୁ • ଦ୍ରୁତ ସୁଇଚ୍ ପାଇଁ ଅନୁବାଦଗୁଡ଼ିକୁ କ୍ୟାଶ୍ କରାଯାଏ • ପୃଷ୍ଠାରେ ଥିବା ସମସ୍ତ ପାଠ୍ୟ ସହିତ କାମ କରେ • ପୁନଃଅନୁବାଦ କରିବାକୁ କ୍ୟାଶ୍ ଖାଲି କରନ୍ତୁ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ମୂଳ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ଅନୁବାଦିତ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ଅନୁବାଦ କରିବାକୁ ପ୍ରସ୍ତୁତ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "କ୍ୟାଶ୍ ଖାଲି କରନ୍ତୁ ଏବଂ ପୁନଃଅନୁବାଦ କରନ୍ତୁ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "ନକଲ-ସ୍ଥାନୀୟକରଣ",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ଓଭରଫ୍ଲୋ ସମସ୍ୟା ଖୋଜିବା ପାଇଁ ଲମ୍ବା ଟେକ୍ସଟ୍ ସହିତ UI ପରୀକ୍ଷା କରନ୍ତୁ",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ଏହା କିପରି କାମ କରେ: • ଉଚ୍ଚାରଣିତ ସଂସ୍କରଣ ସହିତ ଅକ୍ଷରଗୁଡ଼ିକୁ ବଦଳାଇଥାଏ • 30-40% ଲମ୍ବ ବିସ୍ତାର ଯୋଡେ • [!!!... !!!] ମାର୍କରରେ ପାଠ୍ୟକୁ ଗୁଡ଼ାଏ • ଉଦାହରଣ: \"ସେଟିଂସ୍\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "ସୁଡୋ-ଲୋକ୍ ପ୍ରୟୋଗ କରନ୍ତୁ",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ଲାଇଭ୍ ଏଡିଟ୍ ମୋଡ୍",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ପୃଷ୍ଠାରେ ସିଧାସଳଖ ଏଡିଟ୍ କରିବାକୁ ଯେକୌଣସି ଲେଖାକୁ କ୍ଲିକ୍ କରନ୍ତୁ",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ଏହା କିପରି କାମ କରେ: • ଯେକୌଣସି ଟେକ୍ସଟ୍ ଉପାଦାନକୁ ସମ୍ପାଦନ କରିବା ପାଇଁ କ୍ଲିକ୍ କରନ୍ତୁ • ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରିଅଲ୍-ଟାଇମ୍‌ରେ ଟ୍ରାକ୍ କରାଯାଏ • ସମ୍ପାଦନଗୁଡ଼ିକୁ JSON କିମ୍ବା Excel ଭାବରେ ରପ୍ତାନି କରନ୍ତୁ • ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରପ୍ତାନି କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ଲାଇଭ୍ ଏଡିଟ୍ ସକ୍ଷମ କରନ୍ତୁ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI ଫିଚରଗୁଡ଼ିକ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-ଚାଳିତ ଅନୁବାଦ ଉପକରଣଗୁଡ଼ିକ",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ: • AI-ଚାଳିତ ପ୍ରସଙ୍ଗ-ସଚେତନ ଅନୁବାଦ • ସମଗ୍ର ପୃଷ୍ଠାଗୁଡ଼ିକୁ ବ୍ୟାଚ୍ ଅନୁବାଦ • ଅନୁବାଦ ପାଇଁ ଗୁଣବତ୍ତା ଯାଞ୍ଚ • ପ୍ରାକୃତିକ ଭାଷା ପରାମର୍ଶ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI ପରାମର୍ଶ ପାଆନ୍ତୁ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ସ୍ମାର୍ଟ ବ୍ୟାଚ୍ ଅନୁବାଦ",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ପୃଷ୍ଠାର ସମସ୍ତ ପାଠ୍ୟକୁ AI ପ୍ରସଙ୍ଗ ସହିତ ଅନୁବାଦ କରେ।",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ଅନୁବାଦର ଗୁଣବତ୍ତା ଯାଞ୍ଚ କରନ୍ତୁ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ପ୍ରିମିୟମ୍",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ଫାଇଲ୍ ଅନୁବାଦକ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ଭାଷା ଫାଇଲଗୁଡ଼ିକୁ ଏକାଧିକ ଭାଷାରେ ଅନୁବାଦ କରନ୍ତୁ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ଏହା କିପରି କାମ କରେ: • JSON ଭାଷା ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ • ଟାର୍ଗେଟ୍ ଭାଷା ଚୟନ କରନ୍ତୁ • Google କିମ୍ବା AI ସହିତ ଅନୁବାଦ କରନ୍ତୁ • ଅନୁବାଦିତ ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ଫାଇଲ୍ ଅନୁବାଦ କରନ୍ତୁ",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ସମସ୍ୟା ରିପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ଟେକ୍ସଟ୍ ଅନୁବାଦ ଏବଂ ସ୍ଥାନୀୟକରଣ ସମସ୍ୟାଗୁଡ଼ିକ ରିପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ଏହା କିପରି କାମ କରେ: • ସମସ୍ୟା ରିପୋର୍ଟ କରିବାକୁ ଟେକ୍ସଟ୍ ଉପାଦାନଗୁଡ଼ିକରେ କ୍ଲିକ୍ କରନ୍ତୁ • ବର୍ଣ୍ଣନା ଏବଂ ଗମ୍ଭୀରତା ଯୋଗ କରନ୍ତୁ • Excel କିମ୍ବା JSONକୁ ରିପୋର୍ଟଗୁଡ଼ିକ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ • Google Drive ସହିତ ସିଙ୍କ୍ କରନ୍ତୁ",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ରିପୋର୍ଟ କରିବା ଆରମ୍ଭ କରନ୍ତୁ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ରିପୋର୍ଟଗୁଡ଼ିକ ପରିଚାଳନା କରନ୍ତୁ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "ଖାତା",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "ଗୁଗଲ୍‌ରେ ସାଇନ୍‌ ଇନ୍‌ କରନ୍ତୁ",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ପ୍ରିମିୟମ୍‍‍କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ପ୍ରିମିୟମ୍ ସୂଚନା",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ସାଇନ୍ ଆଉଟ୍",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ବଗ୍ ରିପୋର୍ଟ୍‌ଗୁଡ଼ିକ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ସନ୍ଧାନ ରିପୋର୍ଟଗୁଡ଼ିକ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ସବୁ ଖାଲି କରନ୍ତୁ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ବଗ୍ ରିପୋର୍ଟ ନାହିଁ",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ସମସ୍ୟାଗୁଡ଼ିକୁ ଟ୍ରାକ୍ କରିବା ପାଇଁ \"ରିପୋର୍ଟିଂ ଆରମ୍ଭ କରନ୍ତୁ\" ଉପରେ କ୍ଲିକ୍ କରନ୍ତୁ।",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "କୌଣସି ଫଳାଫଳ ମିଳିଲା ନାହିଁ",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "ଭିନ୍ନ କୀୱାର୍ଡ ଚେଷ୍ଟା କରନ୍ତୁ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ବିବରଣୀ ଦେଖନ୍ତୁ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ସମାଧାନ କରାଯାଇଛି ଭାବରେ ଚିହ୍ନଟ କରନ୍ତୁ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ପୁଣି ଖୋଲନ୍ତୁ",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ବଗ୍ ରିପୋର୍ଟ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ମୌଳିକ ସୂଚନା",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ସ୍ଥିତି",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ବର୍ଗ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ତାରିଖ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ଉପାଦାନ ବିବରଣୀ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ଟ୍ୟାଗ୍",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ଟେକ୍ସଟ୍",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ଚୟନକାରୀ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ଅନୁବାଦ ପ୍ରସଙ୍ଗ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "ସମସ୍ୟାର ବର୍ଣ୍ଣନା",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ପୃଷ୍ଠା ସୂଚନା",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ଟାଇଟଲ୍",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ରିପୋର୍ଟ ଡିଲିଟ୍ କରନ୍ତୁ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ଆପଣ କ’ଣ ନିଶ୍ଚିତ ଯେ ଆପଣ ରିପୋର୍ଟ #$ID$ ଡିଲିଟ୍ କରିବାକୁ ଚାହୁଁଛନ୍ତି?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ସମସ୍ତ ରିପୋର୍ଟ ଖାଲି କରନ୍ତୁ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ସମସ୍ତ ବଗ୍ ରିପୋର୍ଟ ଡିଲିଟ୍ କରିବେ? ଏହି କାର୍ଯ୍ୟକୁ ପୂର୍ବବତ୍ କରାଯାଇପାରିବ ନାହିଁ!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ସମସ୍ତ ଡିଲିଟ୍ କରନ୍ତୁ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ବଗ୍ ରିପୋର୍ଟଗୁଡ଼ିକୁ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ରପ୍ତାନି ଫର୍ମାଟ୍ ବାଛନ୍ତୁ:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ଏକ୍ସେଲକୁ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSONକୁ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google ଡ୍ରାଇଭ୍‍ରେ ସିଙ୍କ କରନ୍ତୁ",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "$ STATUS as ଭାବରେ ଚିହ୍ନିତ # $ $$STATUS$$ $ ରିପୋର୍ଟ କରନ୍ତୁ | $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ ଡିଲିଟ୍ କରାଯାଇଥିବା ରିପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ସମସ୍ତ ରିପୋର୍ଟ ଖାଲି କରାଯାଇଛି",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ଟାର୍ଗେଟ ଭାଷା ପରିବର୍ତ୍ତନ କରିବେ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ଉତ୍ସ ଭାଷା $SOURCE$ କୁ ପରିବର୍ତ୍ତନ କରାଯାଇଛି। ଆପଣ କ’ଣ $TARGET$ କୁ ଅନୁବାଦ କରିବାକୁ ଚାହାଁନ୍ତି?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ହଁ, ବଦଳାନ୍ତୁ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ନା, ବର୍ତ୍ତମାନର ରଖନ୍ତୁ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ଖୋଲା",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ସମାଧାନ ହୋଇଛି",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ଏହା କିପରି କାମ କରେ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ସ୍ଵତଃ-ଚିହ୍ନଟ ହୋଇଛି: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ଡାଟା ସିଙ୍କ୍ କରନ୍ତୁ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ଅନୁବାଦ କରିବା ପାଇଁ $COUNT$ ଟେକ୍ସଟ୍ ମିଳିଲା",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ଚୟନିତ",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "ପ୍ରସ୍ତୁତ ହେଉଛି...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ସମ୍ପୂର୍ଣ୍ଣ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ଭାଷା ପାଇଁ ଅନୁବାଦ ଆରମ୍ଭ ହେଉଛି...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ ସମ୍ପୂର୍ଣ୍ଣ $ସଫଳତା$/$ମୋଟ$ ଭାଷା $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ କେବିଟ୍",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ସମୟ$ସେକେଣ୍ଡ $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "କ୍ୟାଶ୍ ଖାଲି କରାଯାଇଛି",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "ନିର୍ଦ୍ଦିଷ୍ଟ ନୁହେଁ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ନାମହୀନ ପୃଷ୍ଠା",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ଦର୍ଶନ",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ସୁନିଶ୍ଚିତ କରନ୍ତୁ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ଠିକ୍ ଅଛି",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ସମସ୍ୟାଟି ବିସ୍ତାରିତ ଭାବରେ ବର୍ଣ୍ଣନା କରନ୍ତୁ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ଦୟାକରି ସମସ୍ୟାଟି ବର୍ଣ୍ଣନା କରନ୍ତୁ।",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ଦୟାକରି ପ୍ରଥମେ ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ଟିପ୍: ଆପଣଙ୍କର ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ଏକ୍ସପୋର୍ଟ କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ।",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ସମ୍ପାଦନ ମୋଡ୍ ଅକ୍ଷମ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ। ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରପ୍ତାନି କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ।",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "କ୍ଲିପବୋର୍ଡକୁ କପି କରାଯାଇଛି!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ଉନ୍ନତି ଲାଗୁ କରାଯାଇଛି!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ ଉନ୍ନତିଗୁଡ଼ିକ ପ୍ରୟୋଗ କରାଯାଇଛି!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ଗୁଣବତ୍ତା ଯାଞ୍ଚ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google ଡ୍ରାଇଭରେ ସିଙ୍କ୍ ହେଉଛି...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Driveରେ ସିଙ୍କ ହୋଇଛି!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ଡ୍ରାଇଭ୍ ସିଙ୍କ୍ ବିଫଳ ହୋଇଛି",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Driveରୁ ସିଙ୍କ୍ କରିବାକୁ ଦୟାକରି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Driveରୁ ସିଙ୍କ୍ ହେଉଛି...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ଡ୍ରାଇଭ୍‍ରୁ $COUNT$ ରିପୋର୍ଟ ସିଙ୍କ୍ ହୋଇଛି!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Driveରେ କୌଣସି ରିପୋର୍ଟ ମିଳିଲା ନାହିଁ",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ଏକ୍ସେଲ ଫାଇଲ୍ ପ୍ରସ୍ତୁତ କରାଯାଉଛି...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ଏକ୍ସେଲ ଫାଇଲ୍ ଏକ୍ସପୋର୍ଟ ହୋଇଛି: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excelକୁ ଏକ୍ସପୋର୍ଟ କରିବାରେ ତ୍ରୁଟି",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ଫାଇଲ୍ ଏକ୍ସପୋର୍ଟ କରାଯାଇଛି: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSONକୁ ଏକ୍ସପୋର୍ଟ କରିବାରେ ତ୍ରୁଟି",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ଫାଇଲ୍ ରପ୍ତାନି ହୋଇଛି: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSVକୁ ଏକ୍ସପୋର୍ଟ କରିବାରେ ତ୍ରୁଟି",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ଦୟାକରି ଏକ ବୈଧ JSON ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ ଅନୁବାଦ କୀ ଲୋଡ୍ କରାଯାଇଛି",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ଅବୈଧ JSON ଫାଇଲ୍",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "ଦୟାକରି ସମସ୍ତ ପଦକ୍ଷେପ ସମ୍ପୂର୍ଣ୍ଣ କରନ୍ତୁ",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ଅନୁବାଦ ପାଇଁ ପ୍ରିମିୟମ୍ ଆବଶ୍ୟକ। ଦୟାକରି ଅପଗ୍ରେଡ୍ କରନ୍ତୁ କିମ୍ବା Google ଅନୁବାଦ ବ୍ୟବହାର କରନ୍ତୁ।",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ରେ ଅନୁବାଦ କରିବାରେ ବିଫଳ ହୋଇଛି",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ସମସ୍ତ ଅନୁବାଦ ବିଫଳ ହୋଇଛି। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ଅନୁବାଦ ବିଫଳ ହେଲା। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ଭାଷାରେ ସଫଳତାର ସହ ଅନୁବାଦ ହୋଇଛି!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ଡାଉନଲୋଡ୍ କରାଯାଇଛି",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ଫାଇଲ୍ ଏଠାରେ ଡ୍ରପ୍ କରନ୍ତୁ କିମ୍ବା ବ୍ରାଉଜ୍ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ।",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ସମର୍ଥନ: en.json, vi.json, ଇତ୍ୟାଦି |",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ଗୁଗୁଲ୍ ଅନୁବାଦ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API ବ୍ୟବହାର କରି ଦ୍ରୁତ ଏବଂ ମାଗଣା ଅନୁବାଦ",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI ଅନୁବାଦ",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ବ୍ୟବହାର କରି ଉଚ୍ଚ-ଗୁଣବତ୍ତା ପ୍ରସଙ୍ଗ-ସଚେତନ ଅନୁବାଦ",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ମାଗଣା",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "ଦ୍ରୁତ",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ପ୍ରସଙ୍ଗ-ସଚେତନ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ପ୍ରାକୃତିକ ବାକ୍ୟାଂଶ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI ଟେକ୍ସଟ୍ ପାଇଁ ଉନ୍ନତ",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ଲାଇଭ୍ ସମ୍ପାଦନ ($COUNT$ ସମ୍ପାଦନ) ଅକ୍ଷମ କରନ୍ତୁ",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ଲାଇଭ୍ ଏଡିଟ୍ ସକ୍ଷମ କରନ୍ତୁ ($COUNT$ ସଞ୍ଚୟ ହୋଇଛି)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ଚୟନିତ ପାଠ୍ୟ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ଉତ୍ତମ ବିକଳ୍ପ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ପ୍ରିମିୟମ୍‍‍କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ସମସ୍ତ AI ବୈଶିଷ୍ଟ୍ୟ ଏବଂ ଅସୀମିତ ଅନୁବାଦ ଅନଲକ୍ କରନ୍ତୁ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ସ୍ମାର୍ଟ ପରାମର୍ଶଗୁଡ଼ିକ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ଦ୍ରୁତ ବ୍ୟାଚ୍ ଅନୁବାଦ",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ସ୍ୱୟଂଚାଳିତ ଗୁଣବତ୍ତା ଯାଞ୍ଚ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ପ୍ରାଥମିକତା ସମର୍ଥନ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ସମସ୍ତ ଭାଷା ସମର୍ଥନ କରେ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ଏବେ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ପ୍ରିମିୟମ୍ ଆକାଉଣ୍ଟ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ସକ୍ରିୟ ସଦସ୍ୟତା",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ମିଆଦ ଶେଷ ତାରିଖ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ବାକି ଥିବା ଦିନ",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ସମସ୍ୟାର ପ୍ରକାର:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ଭୁଲ ଅନୁବାଦ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ଟେକ୍ସଟ୍ ଓଭରଫ୍ଲୋ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ଲେଆଉଟ୍ ଭାଙ୍ଗିଯାଇଛି",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ଅନୁବାଦ ଅନୁପଲବ୍ଧ ଅଛି",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ଫର୍ମାଟିଂ ସମସ୍ୟା",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ଅନ୍ୟାନ୍ୟ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ବଗ୍ ରିପୋର୍ଟ ପରିଚାଳକ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ଆପଣଙ୍କର ସ୍ଥାନୀୟକରଣ ସମସ୍ୟାଗୁଡ଼ିକୁ ପରିଚାଳନା ଏବଂ ରପ୍ତାନି କରନ୍ତୁ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ସ୍ଥାନୀୟକରଣ ସମସ୍ୟାଗୁଡ଼ିକୁ ଟ୍ରାକ୍ କରିବା ପାଇଁ ସମସ୍ୟାଗୁଡ଼ିକ ରିପୋର୍ଟ କରିବା ଆରମ୍ଭ କରନ୍ତୁ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ଆପଣଙ୍କ ଫିଲ୍ଟରଗୁଡ଼ିକ ସହିତ କୌଣସି ରିପୋର୍ଟ ମେଳ ଖାଉନାହିଁ।",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ସମସ୍ତ ସ୍ଥିତି",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ସମସ୍ତ ଗମ୍ଭୀରତା",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ସମସ୍ତ ବର୍ଗ",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ଅଧିକ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ମଧ୍ୟମ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "କମ୍",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ବହୁତ ଭଲ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ଟେକ୍ସଟ୍ ସେଗମେଣ୍ଟଗୁଡ଼ିକ ଯାଞ୍ଚ କଲି ଏବଂ କୌଣସି ସମସ୍ୟା ମିଳିଲା ନାହିଁ।",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ମୂଳ ଭାଷା:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ଟାର୍ଗେଟ ଭାଷା:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ସାଇନ୍ ଇନ୍ ଆବଶ୍ୟକ",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ଅନୁବାଦ ବୈଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିବାକୁ ଦୟାକରି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ। ମାଗଣା ବ୍ୟବହାରକାରୀମାନେ 10 ଟି ଅନୁବାଦ ପାଆନ୍ତି।",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ ର $REMAINING$ ଅନୁବାଦ ବାକି ଅଛି",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ବ୍ୟବହାର ସୀମା ପହଞ୍ଚି ଯାଇଛି",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "ଆପଣ ଆପଣଙ୍କର ବ୍ୟବହାର ସୀମାରେ ପହଞ୍ଚି ସାରିଛନ୍ତି। ଅସୀମିତ ପ୍ରବେଶ ପାଇଁ ପ୍ରିମିୟମକୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ପ୍ରିମିୟମ୍‍‍କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ଅସୀମିତ ଅନୁବାଦ ଏବଂ ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକୁ ଅନଲକ୍ କରନ୍ତୁ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ପ୍ରତି ମାସରେ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ଅସୀମିତ ଅନୁବାଦ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ହୁଏତ ପରେ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ଯେକୌଣସି ସମୟରେ ବାତିଲ୍ କରନ୍ତୁ। କୌଣସି ପ୍ରଶ୍ନ ପଚରାଯାଇ ନାହିଁ।",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ଆପଣଙ୍କ ବ୍ୟବହାର",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ବ୍ୟବହୃତ ଅନୁବାଦଗୁଡ଼ିକ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ଅନୁବାଦ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ ବ୍ୟବହାର କରିବାକୁ ଦୟାକରି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ।",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ପର୍ଯ୍ୟାପ୍ତ ଅନୁବାଦ ବାକି ନାହିଁ। ଆପଣଙ୍କର $REMAINING$ ବାକି ଅଛି କିନ୍ତୁ $SELECTED$ ଭାଷା ଚୟନ କରିଛନ୍ତି। ଦୟାକରି ପ୍ରିମିୟମ୍‍କୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ କିମ୍ବା ଭାଷାଗୁଡ଼ିକୁ ହ୍ରାସ କରନ୍ତୁ।",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "ଆପଣ ସମସ୍ତ $COUNT$ ବାକି ଥିବା ଅନୁବାଦ ବ୍ୟବହାର କରୁଛନ୍ତି। ଅସୀମିତ ପ୍ରବେଶ ପାଇଁ ପ୍ରିମିୟମକୁ ଅପଗ୍ରେଡ୍ କରନ୍ତୁ।",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ଏହି ପୃଷ୍ଠାରେ ଚାଲିପାରିବ ନାହିଁ",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI କେବଳ ନିୟମିତ ୱେବସାଇଟ୍‌ରେ କାମ କରେ। ଏହା Chrome ଆଭ୍ୟନ୍ତରୀଣ ପୃଷ୍ଠାଗୁଡ଼ିକରେ ଚାଲିପାରିବ ନାହିଁ।",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ଅସମର୍ଥିତ ପୃଷ୍ଠା ପ୍ରକାର",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ଅସମର୍ଥିତ ପୃଷ୍ଠାଗୁଡ଼ିକ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ବ୍ୟବହାର କରିବା ପାଇଁ google.com ପରି ଏକ ନିୟମିତ ୱେବସାଇଟ୍ ଖୋଲନ୍ତୁ।",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ଅନୁବାଦ ଆରମ୍ଭ କରନ୍ତୁ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ସମସ୍ତ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ଅନ୍ୟ ଏକ ଫାଇଲ୍ ଅନୁବାଦ କରନ୍ତୁ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ଟାର୍ଗେଟ୍ ଭାଷାଗୁଡ଼ିକୁ ଚୟନ କରନ୍ତୁ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ଅନୁବାଦ ମୋଡ୍ ବାଛନ୍ତୁ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ କୀ ଅନୁବାଦ କରାଯାଇଛି",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ଅନୁବାଦ ସମ୍ପୂର୍ଣ୍ଣ!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ମୋଟ ରିପୋର୍ଟ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ଖୋଲା ସମସ୍ୟାଗୁଡ଼ିକ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ଉଚ୍ଚ ପ୍ରାଥମିକତା",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ଡ୍ରାଇଭ୍‍ରେ ସିଙ୍କ କରନ୍ତୁ",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ଡ୍ରାଇଭ୍‍ରୁ ସିଙ୍କ୍ କରନ୍ତୁ",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ଏକ୍ସେଲ ରପ୍ତାନି କରନ୍ତୁ",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ପରିଚୟ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ଗମ୍ଭୀରତା",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ଉପାଦାନ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ସମସ୍ୟା",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "ପ୍ରସ୍ତାବିତ ସମାଧାନଗୁଡ଼ିକ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ଦେଖନ୍ତୁ",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPathName",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ଭ୍ୟୁପୋର୍ଟ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ସାମ୍ପ୍ରତିକ ଭାଷା",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "କୀଗୁଡିକ ଅନୁବାଦ କରାଯାଇଛି",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ବିତିଯାଇଥିବା ସମୟ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ଅନୁବାଦ କରାଯାଉଛି...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate କିମ୍ବା AI ସାହାଯ୍ୟରେ JSON ଭାଷା ଫାଇଲଗୁଡ଼ିକୁ ଏକାଧିକ ଭାଷାରେ ଅନୁବାଦ କରନ୍ତୁ।",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ଅନୁବାଦ କରିବାକୁ ଗୋଟିଏ କିମ୍ବା ଅଧିକ ଭାଷା ଚୟନ କରନ୍ତୁ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ଫର୍ମାଟ୍ ଚିହ୍ନଟ ହୋଇଛି: $FORMAT$, ମୋଡ୍: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ($CURRENT$/$TOTAL$ କୀ) ରେ ଅନୁବାଦ କରାଯାଉଛି",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ ପରିବର୍ତ୍ତନଗୁଡିକୁ ରପ୍ତାନି କରନ୍ତୁ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ଆପଣଙ୍କ ଅନୁବାଦ ଦଳ ସହ ସେୟାର କରିବାକୁ ଆପଣଙ୍କର ସମ୍ପାଦନାଗୁଡ଼ିକୁ ରପ୍ତାନି କରନ୍ତୁ।",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ପରିବର୍ତ୍ତନ ସେଭ୍ ହୋଇଛି। ଏକ୍ସପୋର୍ଟ କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ।",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ଏଡିଟିଂ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ଏଡିଟିଂ ମୋଡ୍ ସକ୍ଷମ କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ। ଆପଣ ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ସେଭ୍ କରିଛନ୍ତି। ରପ୍ତାନି କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ।",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "କୌଣସି ଟେକ୍ସଟ୍ ଚୟନ କରାଯାଇନାହିଁ",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI ପରାମର୍ଶ ପାଇବାକୁ ଟେକ୍ସଟ୍ ଚୟନ କରନ୍ତୁ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "କୌଣସି ଭାଷା ମିଳିଲା ନାହିଁ।",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ସାଇନ୍ ଇନ୍ ବିଫଳ ହେଲା। ଦୟାକରି ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ସଫଳତାର ସହ ସାଇନ୍ ଇନ୍ ହୋଇଛି!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ସଫଳତାର ସହ ସାଇନ୍ ଆଉଟ୍ ହୋଇଛି",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ପ୍ରମାଣୀକରଣ ବିଫଳ ହେଲା। ଦୟାକରି କେଚ୍ ଖାଲି କରି ପୁଣି ସାଇନ୍ ଇନ୍ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "କ୍ୟାଶ୍ ଖାଲି କରାଯାଉଛି...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "କ୍ୟାଶ୍ ଖାଲି କରିବାରେ ବିଫଳ ହୋଇଛି",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel ଲାଇବ୍ରେରୀ ଉପଲବ୍ଧ ନାହିଁ। ଦୟାକରି ପୃଷ୍ଠାକୁ ପୁନଃଲୋଡ୍ କରନ୍ତୁ।",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ସର୍ବୋତ୍କୃଷ୍ଟ କାର୍ଯ୍ୟଦକ୍ଷତା ପାଇଁ ଥରେ ସର୍ବାଧିକ $ $MAX$ $ ଭାଷା |",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ $$MAX$$ $ / $ $$MAX$$ $ ମନୋନୀତ | $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI ଅନୁବାଦ ବ୍ୟବହାର କରିବାକୁ ଦୟାକରି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ |",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ଯୁକ୍ତିଯୁକ୍ତ ଆକାର ଥିବା ଫାଇଲଗୁଡ଼ିକ ପାଇଁ ସର୍ବୋତ୍ତମ |",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI ମୋଡ୍: ଏହା $REQUESTS$ API କଲ୍ କରିବ |",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ଏହି ଅନୁବାଦ ପ୍ରାୟ $COUNT$ API କଲ୍ କରିବ |",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI ମୋଡ୍ ଏକାସାଙ୍ଗରେ ସର୍ବାଧିକ $ $MAX$ $ ଭାଷାକୁ ସମର୍ଥନ କରେ |",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "ଅନୁବାଦ ପଦ୍ଧତି",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ମାଗଣା |",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ଅସୀମିତ |",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ଦ୍ରୁତ",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ଭାଷା",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ଏକାଧିକ ଭାଷା ଅନୁବାଦ ପ୍ରିମିୟମ୍ ଆବଶ୍ୟକ କରେ |",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ଯାଞ୍ଚ କରାଯାଇଛି:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ବନାନ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ବ୍ୟାକରଣ",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ଫର୍ମାଟିଂ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ମୂଳ ପାଠ୍ୟର କ issues ଣସି ସମସ୍ୟା ନାହିଁ |",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "$ COUNT $ ପାଠ୍ୟ ବିଭାଗଗୁଡିକ ଯାଞ୍ଚ କରାଯାଇଛି |",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ସମାଧାନ କରିବାକୁ $ COUNT $ ତ୍ରୁଟି ମିଳିଲା |",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "କ No ଣସି ତ୍ରୁଟି ନାହିଁ!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ଗୁଣବତ୍ତା ଯାଞ୍ଚ ରିପୋର୍ଟ",
+    "description": "Quality check report title"
+  }
+}

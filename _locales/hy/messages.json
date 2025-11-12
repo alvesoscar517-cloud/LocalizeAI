@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI թարգմանության փորձարկման գործիք։ Ուղիղ թարգմանություն, սխալների հաղորդում, կեղծ տեղայնացում և խմբային JSON թարգմանություն։",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Փակել",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Չեղարկել",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Պահպանել",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Ջնջել",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Արտահանել",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Համաժամեցում",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ԱՂԲՅՈՒՐ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ՆՊԱՏԱԿ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Որոնել լեզուներ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Ավտոմատ կերպով հայտնաբերվում է դիտարկիչից",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Լեզվի փոխարկիչ",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Փոխարկել բնօրինակի և թարգմանված տեքստի միջև",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Ինչպես է այն աշխատում. • Անջատել բնօրինակ և թարգմանված տեքստի միջև • Թարգմանությունները պահվում են քեշում՝ արագ անցման համար • Աշխատում է էջի բոլոր տեքստերի հետ • Մաքրել քեշը՝ վերաթարգմանելու համար",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Բնօրինակ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Թարգմանված",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Պատրաստ է թարգմանելու",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Մաքրել քեշը և վերաթարգմանել",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "կեղծ տեղայնացում",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Փորձարկեք UI-ը ավելի երկար տեքստով՝ գերբեռնվածության խնդիրները գտնելու համար",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Ինչպես է այն աշխատում. • Փոխարինում է նիշերը շեշտադրված տարբերակներով • Ավելացնում է երկարության 30-40% ընդլայնում • Տեքստը փաթաթում է [!!!... !!!] նշիչներով • Օրինակ՝ \"Կարգավորումներ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Կիրառել Pseudo-Loc-ը",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Ուղիղ խմբագրման ռեժիմ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Սեղմեք ցանկացած տեքստ՝ էջում անմիջապես խմբագրելու համար",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Ինչպես է այն աշխատում. • Սեղմեք ցանկացած տեքստային տարր՝ այն խմբագրելու համար • Փոփոխությունները հետևվում են իրական ժամանակում • Արտահանեք խմբագրումները որպես JSON կամ Excel • Սեղմեք Ctrl+E՝ փոփոխությունները արտահանելու համար",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Միացնել ուղիղ խմբագրումը",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Արհեստական բանականության առանձնահատկություններ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Արհեստական բանականությամբ աշխատող թարգմանչական գործիքներ",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Պրեմիում հնարավորություններ՝ • Արհեստական բանականության միջոցով համատեքստից կախված թարգմանություն • Ամբողջ էջերի խմբաքանակային թարգմանություն • Թարգմանությունների որակի ստուգում • Բնական լեզվի առաջարկներ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ստացեք արհեստական բանականության առաջարկներ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Խելացի խմբաքանակային թարգմանություն",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Թարգմանում է էջի բոլոր տեքստերը՝ օգտագործելով արհեստական բանականության համատեքստը",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Ստուգեք թարգմանության որակը",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Պրեմիում",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ֆայլերի թարգմանիչ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Թարգմանեք JSON լեզվի ֆայլերը մի քանի լեզուներով",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Ինչպես է այն աշխատում. • JSON լեզվի ֆայլերի վերբեռնում • Նպատակային լեզուների ընտրություն • Թարգմանություն Google-ի կամ արհեստական բանականության միջոցով • Թարգմանված ֆայլերի ներբեռնում",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Թարգմանել JSON ֆայլը",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Հաղորդել խնդրի մասին",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Հաղորդել տեքստի թարգմանության և տեղայնացման խնդիրների մասին",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Ինչպես է այն աշխատում. • Սեղմեք տեքստային տարրերի վրա՝ խնդիրների մասին հաղորդելու համար • Ավելացրեք նկարագրություններ և լրջության աստիճան • Արտահանեք հաշվետվությունները Excel կամ JSON ձևաչափով • Համաժամեցրեք Google Drive-ի հետ",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Սկսել հաշվետվությունը",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Հաշվետվությունների կառավարում",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Հաշիվ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Մուտք գործեք Google-ով",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Թարմացրեք Պրեմիումի",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Պրեմիում տեղեկատվություն",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Ելք",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Սխալների մասին հաղորդագրություններ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Որոնման հաշվետվություններ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Մաքրել բոլորը",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Սխալի մասին հաղորդագրություններ դեռ չկան",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Սեղմեք «Սկսել հաղորդումը»՝ խնդիրները հետևելու համար",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Արդյունքներ չեն գտնվել",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Փորձեք այլ բանալի բառեր",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Դիտել մանրամասները",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Նշել որպես լուծված",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Վերաբացել",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Սխալի մասին հաղորդում #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Հիմնական տեղեկություններ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Կարգավիճակ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Կատեգորիա",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Ամսաթիվ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Տարրի մանրամասները",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Թեգ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Տեքստ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Ընտրիչ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Թարգմանության համատեքստ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Խնդրի նկարագրությունը",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Էջի տեղեկատվություն",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Վերնագիր",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ջնջել հաշվետվությունը",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Վստա՞հ եք, որ ուզում եք ջնջել #$ID$ հաշվետվությունը։",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Մաքրել բոլոր հաշվետվությունները",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ջնջե՞լ ԲՈԼՈՐ սխալի հաղորդագրությունները: Այս գործողությունը չի կարող հետարկվել:",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ջնջել բոլորը",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Արտահանել սխալի մասին հաղորդագրությունները",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Ընտրեք արտահանման ձևաչափը՝",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Արտահանել Excel-ում",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Արտահանել JSON ձևաչափով",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Համաժամեցում Google Drive-ի հետ",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Հաղորդում #$ID$ նշվել է որպես $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Հաշվետվություն #$ID$-ի մասին՝ ջնջված",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Բոլոր հաշվետվությունները մաքրվեցին",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Փոխե՞լ թիրախային լեզուն։",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Սկզբնական լեզուն փոխվել է $SOURCE$-ի։ Ցանկանո՞ւմ եք թարգմանել $TARGET$-ի։",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Այո, փոփոխություն",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ոչ, պահպանել արդիականությունը",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "բաց",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "լուծված",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Ինչպես է այն աշխատում.",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Պրեմիում հատկանիշներ՝",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Ավտոմատ հայտնաբերված՝ $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Համաժամեցրեք տվյալները",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Գտնվել է $COUNT$ տեքստ թարգմանելու համար",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ընտրված",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Պատրաստվում է...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Ավարտված է!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ լեզուների թարգմանությունը սկսվում է...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Ավարտված $SUCCESS$/$TOTAL$ լեզուներ",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ ԿԲ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Քեշը մաքրվեց",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Նշված չէ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Անվերնագիր էջ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Դիտել",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Հաստատել",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Լավ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Մանրամասն նկարագրեք խնդիրը...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Խնդրում եմ նկարագրել խնդիրը",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Խնդրում ենք նախ մուտք գործել",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Հուշում. Սեղմեք Ctrl+E՝ ձեր փոփոխությունները արտահանելու համար",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Սեղմեք՝ խմբագրման ռեժիմն անջատելու համար: Սեղմեք Ctrl+E՝ փոփոխությունները արտահանելու համար:",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Պատճենվել է սեղմատախտակին։",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Կիրառվեց բարելավում։",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Կիրառվել է $COUNT$ բարելավում։",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Որակի ստուգումն ավարտված է",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Համաժամեցվում է Google Drive-ի հետ...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Սինխրոնացված է Google Drive-ի հետ։",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive-ի համաժամեցումը ձախողվեց",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Մուտք գործեք Drive-ից համաժամեցնելու համար",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Համաժամեցվում է Google Drive-ից...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Սինխրոնացված $COUNT$ հաշվետվություններ Drive-ից!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive-ում հաշվետվություններ չեն գտնվել",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel ֆայլի պատրաստում...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel ֆայլը արտահանվել է՝ $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel-ում արտահանման սխալ։",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ֆայլը արտահանվել է՝ $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Սխալ JSON ձևաչափով արտահանելիս։",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ֆայլը արտահանվել է՝ $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Սխալ CSV ձևաչափով արտահանելիս։",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Խնդրում ենք վերբեռնել վավեր JSON ֆայլ",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Բեռնվել է $COUNT$ թարգմանության բանալիներ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Անվավեր JSON ֆայլ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Խնդրում ենք կատարել բոլոր քայլերը",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation-ը պահանջում է Պրեմիում:",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Չհաջողվեց թարգմանել $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Բոլոր թարգմանությունները ձախողվեցին։ Խնդրում ենք կրկին փորձել։",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Թարգմանությունը ձախողվեց։ Խնդրում ենք կրկին փորձել։",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Հաջողությամբ թարգմանվել է $COUNT$ լեզուներով։",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$-ը ներբեռնվել է",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Տեղադրեք JSON ֆայլը այստեղ կամ սեղմեք՝ զննելու համար",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Աջակցում է՝ en.json, vi.json և այլն:",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Արագ և անվճար թարգմանություն՝ օգտագործելով Google Translate API-ը",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Արհեստական բանականության թարգմանություն",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Բարձրորակ համատեքստից կախված թարգմանություն՝ արհեստական բանականության միջոցով",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Անվճար",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Արագ",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Համատեքստից տեղեկացված",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Բնական արտահայտություն",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Ավելի լավ է UI տեքստի համար",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Անջատել ուղիղ խմբագրումը ($COUNT$$ խմբագրումներ)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Միացնել ուղիղ խմբագրումը (խնայվել է $COUNT$$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Ընտրված տեքստ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Ավելի լավ այլընտրանքներ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Թարմացրեք Պրեմիումի",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Բացեք բոլոր արհեստական բանականության հնարավորությունները և անսահմանափակ թարգմանությունները",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Արհեստական բանականության խելացի առաջարկներ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Արագ խմբաքանակային թարգմանություն",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Ավտոմատ որակի ստուգում",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Առաջնահերթ աջակցություն",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Բոլոր լեզուների աջակցություն",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Բաժանորդագրվել հիմա",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Պրեմիում հաշիվ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Ակտիվ բաժանորդագրություն",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Սպառման ամսաթիվ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Մնացած օրերը",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Խնդրի տեսակը՝",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Սխալ թարգմանություն",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Տեքստի լցում",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Դասավորությունը խափանված է",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Թարգմանությունը բացակայում է",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Ձևաչափման խնդիր",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Այլ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Սխալների մասին հաղորդագրությունների կառավարիչ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Կառավարեք և արտահանեք ձեր տեղայնացման խնդիրները",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Սկսեք հաղորդել խնդիրների մասին՝ տեղայնացման խնդիրները հետևելու համար",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ձեր զտիչներին համապատասխանող հաշվետվություններ չկան",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Բոլոր կարգավիճակները",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Բոլոր ծանրության աստիճանները",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Բոլոր կատեգորիաները",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Բարձր",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Միջին",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Ցածր",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Գերազանց է!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Ստուգվել է $COUNT$ տեքստի հատված և որևէ խնդիր չի հայտնաբերվել։",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Աղբյուրի լեզու՝",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Նպատակային լեզու՝",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Մուտք գործելը պարտադիր է",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Մուտք գործեք՝ թարգմանության հնարավորություններից օգտվելու համար: Անվճար օգտատերերը ստանում են 10 թարգմանություն:",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Մնացել է $REMAINING$՝ $LIMIT$ թարգմանություններից",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Օգտագործման սահմանաչափը լրացված է",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Դուք հասել եք ձեր օգտագործման սահմանաչափին:",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Թարմացրեք Պրեմիումի",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Բացեք անսահմանափակ թարգմանություններ և պրեմիում հնարավորություններ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ամսական",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Անսահմանափակ թարգմանություններ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Գուցե ավելի ուշ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Չեղարկել ցանկացած ժամանակ։ Հարցեր չկան։",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Ձեր օգտագործումը",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "օգտագործված թարգմանություններ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Մուտք գործեք՝ թարգմանության գործառույթներն օգտագործելու համար",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Բավարար թարգմանություններ չեն մնացել: $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Դուք օգտագործում եք մնացած բոլոր $COUNT$ թարգմանությունները:",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Հնարավոր չէ գործարկել այս էջում",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI-ը աշխատում է միայն սովորական կայքերում։ Այն չի կարող աշխատել Chrome-ի ներքին էջերում։",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Էջի տեսակը չի աջակցվում",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Չաջակցվող էջեր՝",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Բացեք սովորական կայք, ինչպիսին է google.com-ը՝ LocalizeAI-ն օգտագործելու համար",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Սկսել թարգմանությունը",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Ներբեռնել բոլորը",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Թարգմանել մեկ այլ ֆայլ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Ներբեռնել",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Բեռնել JSON ֆայլը",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Ընտրեք թիրախային լեզուները",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Ընտրեք թարգմանության ռեժիմը",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ստեղներ թարգմանված են",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Թարգմանությունն ավարտված է։",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Ընդհանուր հաշվետվություններ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Բաց հարցեր",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Բարձր առաջնահերթություն",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Համաժամեցում Drive-ի հետ",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Սինխրոնիզացնել Drive-ից",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Արտահանել Excel-ում",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Արտահանել JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Անձնագիր",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Լրջությունը",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Տարր",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Թողարկում",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Առաջարկվող լուծումներ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Դիտել HTML-ը",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Դիտման պատուհան",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Ընթացիկ լեզու",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Թարգմանված բանալիներ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Անցած ժամանակը",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Թարգմանվում է...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Թարգմանեք JSON լեզվի ֆայլերը բազմաթիվ լեզուներով՝ Google Translate-ի կամ AI-ի միջոցով",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Ընտրեք մեկ կամ մի քանի լեզուներ՝ թարգմանելու համար",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Հայտնաբերված ձևաչափը՝ $FORMAT$, Ռեժիմը՝ $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Թարգմանվում է $LANG$... ($CURRENT$/$TOTAL$ ստեղներ)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Արտահանել $COUNT$ փոփոխություններ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Արտահանեք ձեր խմբագրումները՝ ձեր թարգմանչական թիմի հետ կիսվելու համար",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Ներբեռնել CSV ֆայլը",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Ներբեռնեք JSON-ը",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ փոփոխություններ պահպանվեցին: Արտահանելու համար սեղմեք Ctrl+E:",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Սեղմեք՝ խմբագրման ռեժիմը միացնելու համար",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Սեղմեք՝ խմբագրման ռեժիմը միացնելու համար։ Դուք պահպանել եք փոփոխությունները։ Սեղմեք Ctrl+E՝ արտահանելու համար։",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Տեքստ ընտրված չէ",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Ընտրեք տեքստ՝ արհեստական ինտելեկտի առաջարկներ ստանալու համար",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Լեզուներ չեն գտնվել",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Մուտք գործելը ձախողվեց։ Խնդրում ենք կրկին փորձել։",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Մուտք գործեցիք հաջողությամբ։",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Հաջողությամբ դուրս եկաք հաշվից",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Նույնականացումը ձախողվեց: Խնդրում ենք փորձել մաքրել քեշը և կրկին մուտք գործել:",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Քեշի մաքրում...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Չհաջողվեց մաքրել քեշը",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel գրադարանը հասանելի չէ։ Խնդրում ենք վերաբեռնել էջը։",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Առավելագույն $MAX$ լեզուներ միանգամից օպտիմալ կատարման համար:",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Ընտրված է $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Խնդրում ենք մուտք գործել՝ AI թարգմանությունն օգտագործելու համար",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Լավագույնը ողջամիտ չափերով ֆայլերի համար:",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI ռեժիմ. սա $REQUESTS$ API զանգեր կկատարի: $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Այս թարգմանությունը կկատարի մոտավորապես $COUNT$ API զանգ:",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI ռեժիմն աջակցում է առավելագույնը $MAX$ լեզուներ միանգամից:",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Թարգմանության մեթոդ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Անվճար",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Անսահմանափակ",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Արագ",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "լեզուները",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Բազմաթիվ լեզուներով թարգմանությունը պահանջում է Premium:",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Ստուգված է.",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ուղղագրություն",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Քերականություն",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Ֆորմատավորում",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Բնօրինակ տեքստը խնդիրներ չունի",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Ստուգվել է <strong>$COUNT$</strong> տեքստային հատված",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Գտնվել է <strong>$COUNT$</strong> սխալ՝ ուղղելու համար",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Սխալներ չկան:",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Որակի ստուգման հաշվետվություն",
+    "description": "Quality check report title"
+  }
+}

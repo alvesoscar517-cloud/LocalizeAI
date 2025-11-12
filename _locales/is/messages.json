@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI þýðingaprófunartól. Bein þýðing, villuskýrsla, gervi-staðfærsla og magnþýðing JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Loka",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Hætta við",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Vista",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Eyða",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Útflutningur",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Samstilling",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "HEIMILD",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MARKMIÐ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Leita að tungumálum...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Sjálfvirkt greint úr vafra",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Tungumálaskipti",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Skipta á milli frumtexta og þýdds texta",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Hvernig þetta virkar: • Skipta á milli upprunalegs og þýdds texta • Þýðingar eru vistaðar í skyndiminni til að hraða skiptingu • Virkar með öllum texta á síðunni • Hreinsa skyndiminnið til að endurþýða",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Upprunalega",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Þýtt",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Tilbúinn til að þýða",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Hreinsa skyndiminnið og þýða aftur",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Sýndarstaðfæring",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Prófaðu notendaviðmót með lengri texta til að finna vandamál með yfirflæði",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Hvernig þetta virkar: • Skiptir út stöfum fyrir útgáfur með kommu • Bætir við 30-40% lengdaraukningu • Vefur texta innan [!!!... !!!] merkja • Dæmi: \"Stillingar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Berið á Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Lifandi klippistilling",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Smelltu á hvaða texta sem er til að breyta beint á síðunni",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Hvernig þetta virkar: • Smelltu á hvaða textaþátt sem er til að breyta honum • Breytingar eru raktar í rauntíma • Flyttu út breytingar sem JSON eða Excel • Ýttu á Ctrl+E til að flytja út breytingar",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Virkja lifandi breytingu",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Eiginleikar gervigreindar",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Þýðingartól knúin gervigreind",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Aukaeiginleikar: • Gervigreindarknúnar samhengisvitundarþýðingar • Hópaþýðingar á heilum síðum • Gæðaeftirlit með þýðingum • Tillögur að náttúrulegu tungumáli",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Fáðu tillögur um gervigreind",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Snjall hópþýðing",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Þýðir ALLAN texta á síðu með gervigreindarsamhengi",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Athugaðu gæði þýðingar",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON skráaþýðandi",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Þýða JSON skrár á mörg tungumál",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Hvernig þetta virkar: • Hlaða upp JSON tungumálaskrám • Velja markmál • Þýða með Google eða gervigreind • Sækja þýddar skrár",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Þýða JSON skrá",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Tilkynna vandamál",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Tilkynna vandamál með textaþýðingu og staðfæringu",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Hvernig þetta virkar: • Smelltu á textaþætti til að tilkynna vandamál • Bættu við lýsingum og alvarleika • Flyttu skýrslur út í Excel eða JSON • Samstilltu við Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Byrja að tilkynna",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Stjórna skýrslum",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Reikningur",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Innskráning með Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Uppfærðu í Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Upplýsingar um aukagjald",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Skrá út",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Villutilkynningar",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Leitarskýrslur...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Hreinsa allt",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Engar villutilkynningar ennþá",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Smelltu á „Byrja að tilkynna“ til að fylgjast með vandamálum",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Engar niðurstöður fundust",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Prófaðu mismunandi leitarorð",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Skoða upplýsingar",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Merkja sem leyst",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Opna aftur",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Villutilkynning #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Grunnupplýsingar",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Staða",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Flokkur",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dagsetning",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Upplýsingar um frumefni",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Merki",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Texti",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Val",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Þýðingarsamhengi",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Lýsing á vandamáli",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Upplýsingar um síðu",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titill",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Vefslóð",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Eyða skýrslu",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ertu viss um að þú viljir eyða skýrslu #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Hreinsa allar skýrslur",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Eyða ÖLLUM villutilkynningum? Ekki er hægt að afturkalla þessa aðgerð.",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Eyða öllu",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Flytja út villutilkynningar",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Veldu útflutningssnið:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Flytja út í Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Flytja út í JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Samstilla við Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Skýrsla #$ID$ merkt sem $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Skýrsla #$ID$ eytt",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Allar skýrslur hreinsaðar",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Breyta markmáli?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Upprunamálið breytt í $SOURCE$. Viltu þýða yfir á $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Já, breyting",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nei, haltu þig uppfærðan",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "opið",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "leyst",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Hvernig þetta virkar:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Aukahlutir:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Sjálfvirkt greint: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Samstilla gögn",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Fann $COUNT$ texta til að þýða",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "valið",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Undirbúningur...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Lokið!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Byrjar að þýða fyrir $COUNT$ tungumál...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Lokið $SUCCESS$/$TOTAL$ tungumálum",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Skyndiminni hreinsað",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ekki tilgreint",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Ónefnd síða",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Skoða",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Staðfesta",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Í lagi",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Lýstu málinu í smáatriðum...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Vinsamlegast lýstu vandamálinu",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Vinsamlegast skráðu þig inn fyrst",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Ábending: Ýttu á Ctrl+E til að flytja út breytingarnar þínar",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Smelltu til að slökkva á ritvinnslustillingu. Ýttu á Ctrl+E til að flytja út breytingar.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Afritað á klippiborð!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Úrbætur notaðar!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Beitt $COUNT$ úrbótum!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Gæðaeftirlit lokið",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Samstillir við Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Samstillt við Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Samstilling Drive mistókst",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Skráðu þig inn til að samstilla frá Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Samstillir frá Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Samstillti $COUNT$ skýrslur frá Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Engar skýrslur fundust í Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Undirbýr Excel-skrá...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel skrá flutt út: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Villa í útflutningi í Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON skrá flutt út: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Villa í útflutningi í JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV skrá flutt út: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Villa í útflutningi í CSV-skjal",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Vinsamlegast hlaðið inn gildri JSON skrá",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Hlaðinn inn $COUNT$ þýðingarlyklum",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ógild JSON skrá",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Vinsamlegast ljúktu öllum skrefum",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI þýðing krefst Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Mistókst að þýða yfir á $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Allar þýðingar mistókust. Vinsamlegast reynið aftur.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Þýðingin mistókst. Reyndu aftur.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Þýtt á $COUNT$ tungumál!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Sótti $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Slepptu JSON skránni hér eða smelltu til að skoða",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Styður: en.json, vi.json, osfrv.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Hraðvirk og ókeypis þýðing með Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Þýðing gervigreindar",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Hágæða samhengisvitundarþýðing með gervigreind",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Ókeypis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Hratt",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Samhengisvitund",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Náttúruleg orðalag",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Betra fyrir notendaviðmótstexta",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Slökkva á lifandi breytingum ($COUNT$ breytingar)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Virkja lifandi breytingar ($COUNT$ vistað)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Valinn texti ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Betri valkostir ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Uppfærðu í Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Opnaðu alla eiginleika gervigreindar og ótakmarkaðar þýðingar",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Snjallar tillögur frá gervigreind",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Hraðvirk hópþýðing",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Sjálfvirk gæðaeftirlit",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Forgangsstuðningur",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Öll tungumál styðja",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Gerast áskrifandi núna",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium reikningur",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Virk áskrift",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Gildislokadagur",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dagar eftir",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tegund vandamáls:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Röng þýðing",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Textaflæði",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Skipulag bilað",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Þýðing vantar",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Sniðvandamál",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Annað",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Villutilkynningastjóri",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Stjórnaðu og fluttu út staðfæringarvandamál þín",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Byrjaðu að tilkynna vandamál til að fylgjast með staðfæringarvandamálum",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Engar skýrslur passa við síurnar þínar",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Öll staða",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Öll alvarleiki",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Allir flokkar",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Hátt",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Miðlungs",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Lágt",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Frábært!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Athugaði $COUNT$ textahluta og fann engin vandamál.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Upprunalegt tungumál:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Markmál:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Innskráning nauðsynleg",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Vinsamlegast skráðu þig inn til að nota þýðingaraðgerðir. Ókeypis notendur fá 10 þýðingar.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ af $LIMIT$ þýðingum eftir",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Notkunarmörkum náð",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Þú hefur náð hámarksnotkun þinni.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Uppfærðu í Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Opnaðu fyrir ótakmarkaðar þýðingar og úrvalseiginleika",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "á mánuði",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Ótakmarkaðar þýðingar",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Kannski síðar",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Hætta við hvenær sem er. Engar spurningar spurðar.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Notkun þín",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "þýðingar notaðar",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Vinsamlegast skráðu þig inn til að nota þýðingaraðgerðir",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ekki nægar þýðingar eftir. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Þú ert að nota allar $COUNT$ þýðingar sem eftir eru.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Get ekki keyrt á þessari síðu",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI virkar aðeins á venjulegum vefsíðum. Það getur ekki keyrt á innri síðum Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Óstudd síðugerð",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Óstuddar síður:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Opnaðu venjulega vefsíðu eins og google.com til að nota LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Hefja þýðingu",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Sækja allt",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Þýða aðra skrá",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Sækja",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Hlaða inn JSON skrá",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Veldu markmál",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Veldu þýðingarstillingu",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ lyklar þýddir",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Þýðing lokið!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Heildarskýrslur",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Opin mál",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Mikil forgangsverkefni",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Samstilla við Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Samstilla frá Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Flytja út Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Flytja út JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Auðkenni",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Alvarleiki",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Þáttur",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Vandamál",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Tillögur að lausnum",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Skoða HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Útsýnishorn",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Núverandi tungumál",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Lyklar þýddir",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Liðinn tími",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Þýða...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Þýddu JSON skrár yfir á mörg tungumál með Google Translate eða gervigreind",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Veldu eitt eða fleiri tungumál til að þýða á",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Snið greind: $FORMAT$, Stilling: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Þýðir yfir á $LANG$... ($CURRENT$/$TOTAL$ lykla)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Flytja út $COUNT$ breytingar",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Flyttu út breytingarnar þínar til að deila með þýðingateyminu þínu",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Sækja CSV-skrá",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Sækja JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ breytingar vistaðar. Ýttu á Ctrl+E til að flytja út.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Smelltu til að virkja ritvinnslustillingu",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Smelltu til að virkja breytingarstillingu. Þú hefur vistað breytingarnar. Ýttu á Ctrl+E til að flytja út.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Enginn texti valinn",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Veldu texta til að fá tillögur frá gervigreind",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Engin tungumál fundust",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Innskráning mistókst. Reyndu aftur.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Innskráning tókst!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Útskráning tókst",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Auðkenning mistókst. Reyndu að hreinsa skyndiminnið og skrá þig inn aftur.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Hreinsa skyndiminnið...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Mistókst að hreinsa skyndiminnið",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-bókasafn er ekki tiltækt. Vinsamlegast endurhlaðið síðuna.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Hámark $MAX$ tungumála í einu fyrir bestu frammistöðu.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ valið",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Vinsamlegast skráðu þig inn til að nota gervigreindarþýðingu",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Best fyrir skrár með hæfilegri stærð.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI ham: Þetta mun kalla $REQUESTS$ API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Þessi þýðing mun hringja um það bil $COUNT$ API símtöl.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI ham styður hámark $MAX$ tungumál í einu.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Þýðingaraðferð",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Ókeypis",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Ótakmarkað",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Hratt",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "tungumálum",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Þýðing á mörgum tungumálum krefst Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Merkt:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Stafsetning",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Málfræði",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Forsníða",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Upprunalegur texti hefur engin vandamál",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Merkti við <strong>$COUNT$</strong> textahluta",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Fann <strong>$COUNT$</strong> villur til að laga",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Engar villur!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Skýrsla um gæðaeftirlit",
+    "description": "Quality check report title"
+  }
+}

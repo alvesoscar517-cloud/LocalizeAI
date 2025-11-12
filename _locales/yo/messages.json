@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "Ohun elo idanwo itumọ AI. Itumọ laaye, ijabọ aṣiṣe, pseudo-agbegbe ati itumọ JSON ọpọ.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Sunmọ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Fagilee",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Fipamọ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Paarẹ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "okeere",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Amuṣiṣẹpọ",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ORISUN",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ÀKÚNṢẸ́",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Wa awọn ede...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Ti ṣe awari ni aifọwọyi lati ẹrọ aṣawakiri",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Yipada Ede",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Yipada laarin atilẹba ati ọrọ itumọ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Bi o ṣe n ṣiṣẹ: • Yi laarin atilẹba ati ọrọ ti a tumọ • Awọn itumọ ti wa ni ipamọ fun yiyipada yarayara • Ṣiṣẹ pẹlu gbogbo ọrọ lori oju-iwe naa Ko kaṣe kuro lati tuntumọ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Atilẹba",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tumọ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Ṣetan lati tumọ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Ko kaṣe kuro & Tuntumọ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Afarape-Localization",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Ṣe idanwo UI pẹlu ọrọ to gun lati wa awọn ọran sisan",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Bi o ṣe n ṣiṣẹ: Rọpo awọn kikọ pẹlu awọn ẹya asẹnti • Ṣe afikun 30-40% imugboroosi ipari • Mu ọrọ sinu [!!!... !!!] asami • Apeere: \"Eto\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Waye Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Ipo Ṣatunkọ Live",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Tẹ ọrọ eyikeyi lati ṣatunkọ taara ni oju-iwe",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Bi o ṣe n ṣiṣẹ: Tẹ eyikeyi nkan ọrọ lati ṣatunkọ rẹ • Awọn ayipada ti wa ni tọpinpin ni akoko gidi • Awọn atunṣe okeere bi JSON tabi Tayo Tẹ Konturolu+E lati okeere awọn ayipada",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Jeki Live Ṣatunkọ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI Awọn ẹya ara ẹrọ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Awọn irinṣẹ itumọ agbara AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Awọn ẹya Ere: • Itumọ ọrọ-ọrọ ti o ni agbara AI Batch tumọ gbogbo awọn oju-iwe Ṣayẹwo didara fun awọn itumọ • Awọn imọran ede adayeba",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Gba awọn imọran AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Tumọ",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Tumọ GBOGBO ọrọ lori oju-iwe pẹlu ipo AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Ṣayẹwo Didara Itumọ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Ere",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Onitumọ Faili JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Tumọ awọn faili ede JSON si awọn ede pupọ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Bi o ṣe n ṣiṣẹ: Ṣe kojọpọ awọn faili ede JSON Yan awọn ede afojusun Tumọ pẹlu Google tabi AI Ṣe igbasilẹ awọn faili ti a tumọ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Tumọ Faili JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Oro Iroyin",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Jabo itumọ ọrọ ati awọn ọran isọdibilẹ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Bi o ṣe n ṣiṣẹ: Tẹ awọn eroja ọrọ lati jabo awọn ọran Fikun awọn apejuwe ati idibajẹ Firanṣẹ awọn ijabọ si Tayo tabi JSON Muṣiṣẹpọ pẹlu Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Bẹrẹ Ijabọ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Ṣakoso awọn Iroyin",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Iroyin",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Wọle pẹlu Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Igbesoke si Ere",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Alaye Ere",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Ifowosi jada",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Awọn ijabọ kokoro",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Wa awọn ijabọ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Ko Gbogbo rẹ kuro",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ko si awọn ijabọ kokoro sibẹsibẹ",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Tẹ \"Bẹrẹ Iroyin\" lati tọpa awọn oran",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ko si esi ri",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Gbiyanju awọn koko-ọrọ oriṣiriṣi",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Wo awọn alaye",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Samisi bi ipinnu",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Tun ṣii",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Iroyin kokoro #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Alaye ipilẹ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Ipo",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Ẹka",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Ọjọ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Awọn alaye eroja",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Ta aami",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Ọrọ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Ayanfẹ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Ọrọ Itumọ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Apejuwe oro",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Alaye oju-iwe",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Akọle",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Ulé",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Pa Iroyin",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ṣe o da ọ loju pe o fẹ pa iroyin #$ID$ rẹ bi?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Ko Gbogbo Iroyin",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Pa GBOGBO awọn ijabọ kokoro rẹ bi? Iṣe yii ko le ṣe atunṣe!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Pa Gbogbo Rẹ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Gbejade Awọn ijabọ kokoro",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Yan ọna kika okeere:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Ṣe okeere si Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Ṣe okeere si JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Muṣiṣẹpọ si Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Ṣe ijabọ # $ $$STATUS$$ $ samisi bi ipo $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Iroyin #$ID$ ti paarẹ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Gbogbo awọn iroyin nso",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Yi Èdè Àfojúsùn pada?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Èdè orísun yí padà sí $SOURCE$. Ṣe o fẹ lati tumọ si $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Bẹẹni, Yipada",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Rara, Jeki Lọwọlọwọ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ṣii",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "yanju",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Bi o ṣe n ṣiṣẹ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Awọn ẹya Ere:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Ti ṣe awari ni aladaaṣe: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "data amuṣiṣẹpọ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "A ri awọn ọrọ $COUNT$ lati tumọ",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "yan",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ngbaradi...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Pari!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Bibẹrẹ itumọ fun awọn ede $COUNT$...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Aṣeyọri $/$TOTAL$ ti pari awọn ede $SUCCESS$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "Giga $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "ÀKÓKÒ$s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Kaṣe nu",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Lai so ni pato",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Oju-iwe ti ko ni akole",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Wo",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Jẹrisi",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "O DARA",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Ṣapejuwe ọrọ naa ni kikun…",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Jọwọ ṣapejuwe ọrọ naa",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Jọwọ wọle akọkọ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Imọran: Tẹ Ctrl+E lati okeere awọn ayipada rẹ",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Tẹ lati mu ipo ṣiṣatunkọ ṣiṣẹ. Tẹ Konturolu + E lati okeere awọn ayipada.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Ti daakọ si agekuru agekuru!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Ilọsiwaju ti a lo!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Awọn ilọsiwaju $COUNT$ ti a lo!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Ayẹwo didara ti pari",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Mimuuṣiṣẹpọ si Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Amuṣiṣẹpọ si Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Amuṣiṣẹpọ wakọ kuna",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Jọwọ wọle lati muṣiṣẹpọ lati Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Amuṣiṣẹpọ lati Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Awọn ijabọ $COUNT$ ti muṣiṣẹpọ lati Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ko si awọn ijabọ ti a rii ni Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Ngbaradi faili Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Tayo faili okeere: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Aṣiṣe fifiranṣẹ si okeere si Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Faili JSON ti okeere: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Aṣiṣe gbigbejade si JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Faili CSV ti okeere: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Aṣiṣe fifiranṣẹ si okeere si CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Jọwọ gbejade faili JSON to wulo",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ti kojọpọ $COUNT$ awọn bọtini itumọ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Faili JSON ti ko tọ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Jọwọ pari gbogbo awọn igbesẹ",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Itumọ AI nilo Ere. Jọwọ ṣe igbesoke tabi lo Google Translate.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Kuna lati tumọ si $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Gbogbo awọn itumọ ti kuna. Jọwọ gbiyanju lẹẹkansi.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Itumọ kuna. Jọwọ gbiyanju lẹẹkansi.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Ni aṣeyọri tumọ si awọn ede $COUNT$!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Ṣe igbasilẹ $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Ju faili JSON silẹ nibi tabi tẹ lati lọ kiri lori ayelujara",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Awọn atilẹyin: en.json, vi.json, ati bẹbẹ lọ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "tumo gugulu",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Iyara ati itumọ ọfẹ ni lilo Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI Itumọ",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Itumọ ọrọ-ọrọ ti o ni agbara giga ni lilo AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Ọfẹ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Yara",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Ọrọ-mọ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Adayeba gbolohun ọrọ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Dara julọ fun UI ọrọ",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Pa Ṣatunkọ Live ($ $COUNT$$ awọn atunṣe)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Mu Ṣatunkọ Live ṣiṣẹ ($ $COUNT$$ ti a fipamọ)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Ọrọ ti a yan ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Awọn Yiyan Dara julọ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Igbesoke si Ere",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Ṣii gbogbo awọn ẹya AI ati awọn itumọ ailopin",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI smart awọn didaba",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Itumọ ipele iyara",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Ayẹwo didara aifọwọyi",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Atilẹyin ayo",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Gbogbo awọn ede ṣe atilẹyin",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Alabapin bayi",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Ere iroyin",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Ṣiṣe alabapin ti nṣiṣe lọwọ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Ọjọ Ipari",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Awọn ọjọ to ku",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Irú Ìṣòro:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Itumọ ti ko tọ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Ọrọ aponsedanu",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Ìfilélẹ dà",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Itumọ ti nsọnu",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Oro kika",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Omiiran",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Alakoso Iroyin kokoro",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Ṣakoso ati okeere awọn ọran isọdibilẹ rẹ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Bẹrẹ jijabọ awọn ọran lati tọpa awọn iṣoro isọdibilẹ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ko si awọn ijabọ ti o baamu awọn asẹ rẹ",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Gbogbo Ipo",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Gbogbo Isegun",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Gbogbo Awọn ẹka",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Ga",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Alabọde",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Kekere",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "O tayọ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Ti ṣayẹwo awọn apakan ọrọ $COUNT$ ko si ri awọn iṣoro.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Ede Orisun:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Èdè Àfojúsùn:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Wọle Ti beere fun",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Jọwọ wọle lati lo awọn ẹya itumọ. Awọn olumulo ọfẹ gba awọn itumọ 10.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ti $LIMIT$ awọn itumọ ti o ku",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Opin Lilo Ti de",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "O ti de opin lilo rẹ. Igbesoke si Ere fun iraye si ailopin.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Igbesoke si Ere",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Ṣii awọn itumọ ailopin ati awọn ẹya Ere",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "fun osu",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Awọn itumọ ailopin",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Boya nigbamii",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Fagilee nigbakugba. Ko si ibeere ti o beere.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Lilo rẹ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "awọn itumọ ti a lo",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Jọwọ wọle lati lo awọn ẹya itumọ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Awọn itumọ ko to. O ni $REMAINING$ osi ṣugbọn awọn ede $SELECTED$ ti yan. Jọwọ ṣe igbesoke si Ere tabi dinku awọn ede.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "O nlo gbogbo $COUNT$ awọn itumọ ti o ku. Igbesoke si Ere fun iraye si ailopin.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ko le Ṣiṣe lori Oju-iwe yii",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ṣiṣẹ nikan lori awọn oju opo wẹẹbu deede. Ko le ṣiṣẹ lori awọn oju-iwe inu Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Iru iwe ti ko ni atilẹyin",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Awọn oju-iwe ti ko ni atilẹyin:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Ṣii oju opo wẹẹbu deede bi google.com lati lo LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Bẹrẹ Itumọ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Ṣe igbasilẹ gbogbo wọn",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Tumọ Faili miiran",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Gba lati ayelujara",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Ṣe igbasilẹ faili JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Yan Awọn ede Àkọlé",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Yan Ipo Itumọ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Awọn bọtini $COUNT$ tumọ",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Itumọ Pari!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Lapapọ Iroyin",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Ṣii Awọn ọrọ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Ga ni ayo",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Muṣiṣẹpọ si Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Muṣiṣẹpọ lati Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "okeere Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Jade JSON jade",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Id",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Àìdára",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Eroja",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Oro",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Awọn solusan ti a daba",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Wo HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Xşda",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Iboju wiwo",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Ede lọwọlọwọ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Awọn bọtini Tumọ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Àkókò ti kọjá",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Itumọ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Tumọ awọn faili ede JSON si awọn ede pupọ pẹlu Google Tumọ tabi AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Yan ọkan tabi diẹ ẹ sii ede lati tumọ si",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Awari ọna kika: $FORMAT$, Ipo: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Itumọ si $LANG$... ($ Lọwọlọwọ$/$TOTAL$ awọn bọtini) $CURRENT$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Ayipada $COUNT$ okeere",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Ṣe okeere awọn atunṣe rẹ lati pin pẹlu ẹgbẹ itumọ rẹ",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Ṣe igbasilẹ CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Ṣe igbasilẹ JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ti fipamọ. Tẹ Konturolu + E lati okeere.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Tẹ lati mu ipo ṣiṣatunṣe ṣiṣẹ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Tẹ lati mu ipo ṣiṣatunṣe ṣiṣẹ. O ti fipamọ awọn ayipada. Tẹ Konturolu + E lati okeere.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ko si ọrọ ti a yan",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Yan ọrọ lati gba awọn imọran AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ko si awọn ede ti a rii",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Wọle kuna. Jọwọ gbiyanju lẹẹkansi.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Wọle ni aṣeyọri!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Ti forukọsilẹ ni aṣeyọri",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Ijeri kuna. Jọwọ gbiyanju lati nu kaṣe kuro ki o wọle lẹẹkansi.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Npa cache kuro...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "O kuna lati ko kaṣe kuro",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Tayo ìkàwé ko si. Jọwọ tun gbee si oju-iwe naa.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Awọn ede ti o pọju $ ti o pọju fun iṣẹ ti o dara julọ. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Ka $ / $ $$MAX$$ $ ti a yan $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Jọwọ Wọle lati Lo Itumọ Ai",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Dara julọ fun awọn faili pẹlu iwọn to bojumu.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI Ipo: Eyi yoo ṣe awọn ipe Appi API.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Itumọ yii yoo ṣe iwọn awọn ipe ti appi. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI Ipo ṣe atilẹyin awọn ede ti o pọju $ ni ẹẹkan. $MAX$",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Ọna itumọ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Ṣ'ofo",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Kolopin",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Yiyara",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Awọn ede",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Ọpọlọpọ awọn ede ti o tumọ si Ere.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Ṣayẹwo:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Kika",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Girama",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Kika",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Ọrọ atilẹba ko ni awọn ọran",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Ṣayẹwo $ Ka nọmba Awọn ọrọ $",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Ri $ ka awọn aṣiṣe $ lati tunṣe",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ko si awọn aṣiṣe!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Iroyin ayẹwo didara",
+    "description": "Quality check report title"
+  }
+}

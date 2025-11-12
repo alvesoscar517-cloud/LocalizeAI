@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "Isixhobo sovavanyo lwenguqulelo ye-AI. Inguqulelo ephilayo, ingxelo yebhagi, pseudo-localization kunye nenguqulelo ye-JSON yeqela.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Vala",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Rhoxisa",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Gcina",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Cima",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Thumela ngaphandle",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Ngqamanisa",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "UMTHOMBO",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "EKUJOLISWE KUYO",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Phendla iilwimi...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Ichongiwe ngokuzenzekela kwisikhangeli",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Ukuguqula Ulwimi",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Tshintsha phakathi kombhalo wokuqala kunye noguquliweyo",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Ingaba isebenza kanjani: • Guqula phakathi kombhalo wokuqala kunye noguquliweyo • Iinguqulelo zigcinelwe ukutshintshwa ngokukhawuleza • Isebenza ngawo onke amagama ephepha • Cima i-cache ukuze uguqulelwe kwakhona",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Eyoqobo",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Iguqulelwe",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Ukulungele ukuguqulela",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Cima iCache & Uguqulele kwakhona",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "I-Pseudo-Localization",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Vavanya i-UI enombhalo omde ukufumana imiba yokuphuphuma",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Ingaba isebenza kanjani: • Beka endaweni yoonobumba ngeenguqulelo ze-accented • Yongeza ubude be-30-40%. • Usonga isicatshulwa kwi [!!!... !!!] abamakishi • Umzekelo: \"Iisetingi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Faka iPseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Phila Imo yokuHlela",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Cofa nawuphi na umbhalo ukuhlela ngqo kwiphepha",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Ingaba isebenza kanjani: • Cofa nayiphi na into yokubhaliweyo ukuyihlela • Utshintsho lulandelelwa ngexesha lokwenyani • Thumela ukuhlelwa ngaphandle njenge-JSON okanye i-Excel • Cofa u-Ctrl+E ukuthumela utshintsho ngaphandle",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Vula uHlelo olubukhoma",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Iimpawu ze-AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Izixhobo zokuguqulela ezinikwe amandla nge-AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Iimpawu eziphambili: • Uguqulo lokuqonda umxholo olunikwe amandla nge-AI • Ibhetshi iguqulela onke amaphepha • Ukukhangela umgangatho weenguqulelo • Iingcebiso ngolwimi lwendalo",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Fumana iingcebiso ze-AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "I-Smart Batch Translate",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Iguqulela YONKE itekisi ekwiphepha ngomxholo we-AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Jonga uMgangatho woGuqulelo",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Intlawulo yanyanga le",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "I-JSON Flouretor Translator",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Guqulela iifayile zolwimi lweJSON kwiilwimi ezininzi",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Ingaba isebenza kanjani: • Layisha iifayile zolwimi lwe-JSON • Khetha iilwimi ekujoliswe kuzo • Guqulela ngoGoogle okanye ngeAI • Khuphela iifayile eziguqulelweyo",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Guqulela iFayile yeJSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Xela umba",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Xela uguqulo lombhalo kunye nemiba yasekuhlaleni",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Ingaba isebenza kanjani: • Cofa izinto ezibhaliweyo ukuxela imiba • Yongeza iinkcazelo kunye nobungqongqo • Thumela iingxelo ku-Excel okanye kwi-JSON • Ngqamanisa ne-Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Qalisa ukubika",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Lawula iiNgxelo",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Iakhawunti",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Sayina ungene kuGoogle",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Nyukela kwiPremium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Ulwazi oluphambili",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Phuma",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Iingxelo zebug",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Phendla iingxelo...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Yicime yonke",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Akukho zingxelo zebug okwangoku",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Cofa u-\"Qala ukubika\" ukulandelela imiba",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Akukho ziphumo zifunyenweyo",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Zama amagama angundoqo ahlukeneyo",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Jonga iinkcukacha",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Phawula njengesonjululwe",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Phinda uvule",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Ingxelo yeBug #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Ulwazi olusisiseko",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Ubume",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Udidi",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Umhla",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Iinkcukacha ze-Element",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Ithegi",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Isicatshulwa",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Umkhethi",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Umxholo Woguqulo",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Inkcazo yomba",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Ulwazi lwephepha",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Isihloko",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "I-URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Cima Ingxelo",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Uqinisekile ufuna ukucima ingxelo #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Coca zonke iiNgxelo",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Cima ZONKE iingxelo zebug? Esi senzo asinakuphinda singenziwa!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Cima Konke",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Thumela Iingxelo zebug",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Khetha ifomathi yokuthumela ngaphandle:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Thumela ngaphandle kwi-Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Thumela ngaphandle kwi-JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Ngqamanisa kuGoogle Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Ingxelo # $ i-$$STATUS$$ $ ephawulwe njenge- $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ingxelo #$ID$ icinyiwe",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Zonke iingxelo zicinyiwe",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Tshintsha ulwimi ekujoliswe kulo?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Ulwimi lwentsusa lutshintshelwe kwi-$SOURCE$. Ngaba ungathanda ukuguqulela ukuya kwi-$TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ewe, Guqula",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Hayi, Gcina Ngoku",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "vula",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "isonjululwe",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Ingaba isebenza kanjani:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Iimpawu eziphambili:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Zichongelwe ngokuzenzekela: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Idatha ye-Sync",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Kufunyenwe $COUNT$ imibhalo yokuguqulela",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ikhethiwe",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Iyalungiselela...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Gqibezela!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Iqala inguqulelo ye-$COUNT$ yeelwimi...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Ugqibezele $ Impumelelo ye- $ / $ iyonke yeelwimi $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ Ubungakanani $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Ixesha $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "I-Cache isusiwe",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ayichazwanga ngqo",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Iphepha Elingenasihloko",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Jonga",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Qinisekisa",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "KULUNGILE",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Chaza umba ngokweenkcukacha...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Nceda uchaze umba",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Nceda ungene kuqala",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Ingcebiso: Cofa u-Ctrl+E ukuthumela ngaphandle utshintsho lwakho",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Cofa ukuvala indlela yokuhlela. Cofa u-Ctrl+E ukuthumela utshintsho ngaphandle.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Ikopishwe kwibhodi eqhotyoshwayo!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Uphuculo lusetyenzisiwe!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Kufakwe i-$COUNT$ yophuculo!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Ukujonga umgangatho kugqityiwe",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Ingqamanisa kuGoogle Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Ingqanyaniswe kuGoogle Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Ungqamaniso lweDrive akuphumelelanga",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Nceda ungene ungqamaniso olusuka kwi-Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Ingqamanisa ukusuka kuGoogle Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Synced $COUNT$ iingxelo ezisuka kwiDrive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Akukho ngxelo zifunyenweyo kwiDrive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Ilungiselela ifayile yeExcel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Ifayile yeExcel ithunyelwe ngaphandle: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Imposiso yokuthumela ngaphandle kwi-Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Ifayile ye-JSON ithunyelwe ngaphandle: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Imposiso yokuthumela ngaphandle kwi-JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Ifayile ye-CSV ithunyelwe ngaphandle: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Imposiso yokuthumela ngaphandle kwi-CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Nceda ulayishe ifayile ye-JSON esebenzayo",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ilayishwe $COUNT$ amaqhosha enguqulelo",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ifayile ye-JSON engasebenziyo",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Nceda ugcwalise onke amanyathelo",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Inguqulelo ye-AI ifuna iPremium. Nceda uphucule okanye usebenzise iToliki kaGoogle.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Ayiphumelelanga ukuguqulela ukuya kwi-$LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Zonke iinguqulelo aziphumelelanga. Nceda zama kwakhona.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Inguqulelo ayiphumelelanga. Nceda zama kwakhona.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Iguqulelwe ngempumelelo kwi $COUNT$ iilwimi!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Ikhutshelwe $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Lahla ifayile yeJSON apha okanye ucofe ukukhangela",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Ixhasa: en.json, vi.json, njl.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Isiguquleli sikaGoogle",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Uguqulo olukhawulezayo nolusimahla usebenzisa i-API yeToliki kaGoogle",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Inguqulelo ye-AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Uguqulo olukumgangatho ophezulu wokuqonda umxholo usebenzisa i-AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Mahala",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Ukukhawuleza",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Ukuqonda umxholo",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Amabinzana endalo",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Ingcono kumbhalo we-UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Khubaza uHlelo olubukhoma ($COUNT$ ukuhlela)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Yenza uHlelo olubukhoma ($COUNT$ lugciniwe)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Isiqendu Esikhethiweyo ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Ezingcono Ezingezinye ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Nyukela kwiPremium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Vula zonke iimpawu ze-AI kunye neenguqulelo ezingenamkhawulo",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI iingcebiso ezikrelekrele",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Ukuguqulelwa kwebhetshi ngokukhawuleza",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Ukukhangela umgangatho ozenzekelayo",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Inkxaso ephambili",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Zonke iilwimi ziyaxhasa",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Bhalisa ngoku",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Akhawunti yePremium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Umrhumo osebenzayo",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Umhla WOKUPHELELWA",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Iintsuku Eziseleyo",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Uhlobo lomba:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Inguqulelo engalunganga",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Ukuphuphuma kwesiqendu",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Ubume bophukile",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Inguqulelo engekhoyo",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Umba wokuFomatha",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Okunye",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Umphathi weNgxelo yeBug",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Lawula kwaye uthumele imiba yakho yasekhaya",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Qala ukubika imiba ukulandelela iingxaki zendawo",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Akukho ngxelo zihambelana nezihluzo zakho",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Sonke Isimo",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Bonke Ubukhali",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Zonke Iindidi",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Phezulu",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Phakathi",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Phantsi",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Kugqwesileyo!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Kuqwalaselwe i-$COUNT$ icandelo lombhalo kwaye akukho miba.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Ulwimi loMthombo:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ulwimi ekujoliswe kulo:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Sayina ungene Kuyafuneka",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Nceda ungene ukuze usebenzise iimpawu zoguqulo. Abasebenzisi basimahla bafumana iinguqulelo ezili-10.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ye $LIMIT$ iinguqulelo eziseleyo",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Kufikelelwe kuMda wosetyenziso",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Ufikelele kumda wokusebenzisa kwakho. Nyukela kwiPremium ukuze ufikelelo olungenamda.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Nyukela kwiPremium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Vula iinguqulelo ezingasikelwanga mda kunye neempawu zeprimiyamu",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ngenyanga",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Iinguqulelo ezingenamkhawulo",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Mhlawumbi mva",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Rhoxisa nanini na. Akukho mibuzo ibuzwayo.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Ukusebenzisa kwakho",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "iinguqulelo ezisetyenzisiweyo",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Nceda ungene ukuze usebenzise iimpawu zoguqulo",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Akukho nguqulelo zaneleyo eziseleyo. Une-$REMAINING$ eshiyekileyo kodwa ukhethe iilwimi ze-$SELECTED$. Nceda unyusele kwiPremium okanye unciphise iilwimi.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Usebenzisa zonke $COUNT$ eziseleyo iinguqulelo. Nyukela kwiPremium ukuze ufikelelo olungenamda.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ayinakubaleka Kweli Phepha",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "I-LocalizeAI isebenza kuphela kwiiwebhusayithi eziqhelekileyo. Ayinakuqhuba kumaphepha angaphakathi eChrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Uhlobo lwephepha olungaxhaswanga",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Amaphepha angaxhaswayo:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Vula iwebhusayithi eqhelekileyo efana ne-google.com ukusebenzisa i-LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Qala uGuqulelo",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Khuphela Konke",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Guqulela Enye Ifayile",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Khuphela",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Layisha iFayile yeJSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Khetha Iilwimi ekuJoliswe kuzo",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Khetha Imo Yoguqulo",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ izitshixo ziguqulelwe",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Inguqulelo Igqityiwe!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Iingxelo zizonke",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Vula imiba",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Ukubaluleka okuphezulu",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Ngqamanisa ukuya Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Ngqamanisa ukusuka Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Thumela iExcel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Thumela ngaphandle iJSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Isazisi",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Ubukhali",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Isiqalelo",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Khupha",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Izisombululo ezicetyiswayo",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Jonga iHTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Xpath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Indawo yokujonga",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Ulwimi lwangoku",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Amaqhosha Aguqulelwe",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Ixesha Lihambile",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Iyaguqulelwa...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Guqulela iifayile zolwimi lweJSON kwiilwimi ezininzi ngeToliki kaGoogle okanye iAI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Khetha ulwimi olunye okanye ngaphezulu ukuze uguqulele kulo",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Ifomathi ifunyenwe: $FORMAT$, Imo: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Ukuguqulelwa kwi-$LANG$... ($CURRENT$/$TOTAL$ amaqhosha)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Thumela $COUNT$ Iinguqu",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Thumela ukuhlelwa kwakho ukuze wabelane neqela lakho labaguquleli",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Khuphela i-CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Khuphela i-JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ utshintsho lugciniwe. Cofa u-Ctrl+E ukuthumela ngaphandle.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Cofa ukwenza imo yokuhlela isebenze",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Cofa ukwenza imo yokuhlela isebenze. Ulugcinile utshintsho. Cofa u-Ctrl+E ukuthumela ngaphandle.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Akukho mbhalo ukhethiweyo",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Khetha umbhalo ukufumana iingcebiso ze-AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Akukho lwimi lufunyenweyo",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Ukungena akuphumelelanga. Nceda zama kwakhona.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Ungene ngempumelelo!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Uphume ngempumelelo",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Ugunyaziso aluphumelanga. Nceda zama ukucima i-cache kwaye ungene kwakhona.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Icoca i-cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Ayiphumelelanga ukucima indawo efihlakeleyo",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Ithala leencwadi le-Excel alifumaneki. Nceda ulayishe kwakhona iphepha.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Ubuninzi be- $ $MAX$ $ iilwimi ngaxeshanye ngentsebenzo efanelekileyo.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "I- $ $ / $ $$MAX$$ $ ikhethiweyo $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Nceda ungene ungene ukuze usebenzise uguqulelo lwe-AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Eyona nto ilungele iifayile ngobukhulu obufanelekileyo.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Imo ye-AI: Oku kuyakwenza izicelo ze-API.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Le nguqulelo iya kwenza ukuba zibale iifowuni ze-API. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Imodi ye-AI ixhasa ubuninzi be- $ $MAX$ $ ulwimi ngaxeshanye.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Indlela yokuguqulela",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Simahla",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Engenamda",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Ngokukhawuleza",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Iilwimi",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Iinguqulelo ezininzi Iinguqulelo zifuna ipremiyamu.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Itshekishwe:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Upelo",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Igrama",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Ukufomatha",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Itekisi yoqobo ayinangxaki",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Itshekishwe i- $ ukuba ye-000 yeedola",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Ifumene i- $ ukuba ifumane iimpazamo ukuba zilungiswe",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Akukho zimpazamo!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Ingxelo yokujonga esemgangathweni",
+    "description": "Quality check report title"
+  }
+}

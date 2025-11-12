@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Offeryn profi cyfieithu AI. Cyfieithu byw, adrodd ar wallau, ffug-leoleiddio a chyfieithu JSON swmp.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Cau",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Canslo",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Cadw",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Dileu",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Allforio",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Cysoni",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FFYNHONNELL",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "TARGED",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Chwilio ieithoedd...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Wedi'i ganfod yn awtomatig o'r porwr",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Togl Iaith",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Newid rhwng testun gwreiddiol a chyfieithedig",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Sut mae'n gweithio: • Newid rhwng testun gwreiddiol a chyfieithiad • Mae cyfieithiadau wedi'u storio yn y storfa er mwyn newid yn gyflym • Yn gweithio gyda'r holl destun ar y dudalen • Clirio'r storfa i ailgyfieithu",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Gwreiddiol",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Wedi'i gyfieithu",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Yn barod i gyfieithu",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Clirio'r Storfa ac Ailgyfieithu",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Ffug-Leoleiddio",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Profi'r rhyngwyneb defnyddiwr gyda thestun hirach i ddod o hyd i broblemau gorlif",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Sut mae'n gweithio: • Yn disodli nodau gyda fersiynau acennog • Yn ychwanegu ehangu hyd o 30-40% • Yn lapio testun mewn marcwyr [!!!... !!!] • Enghraifft: \"Gosodiadau\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Gwneud cais am Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modd Golygu Byw",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Cliciwch ar unrhyw destun i'w olygu'n uniongyrchol ar y dudalen",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Sut mae'n gweithio: • Cliciwch ar unrhyw elfen destun i'w golygu • Caiff newidiadau eu holrhain mewn amser real • Allforio golygiadau fel JSON neu Excel • Pwyswch Ctrl+E i allforio newidiadau",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Galluogi Golygu Byw",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Nodweddion AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Offer cyfieithu wedi'u pweru gan AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Nodweddion Premiwm: • Cyfieithu ymwybodol o gyd-destun wedi'i bweru gan AI • Cyfieithu tudalennau cyfan mewn swp • Gwirio ansawdd ar gyfer cyfieithiadau • Awgrymiadau iaith naturiol",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Cael Awgrymiadau AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Cyfieithu Swp Clyfar",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Yn cyfieithu'r holl destun ar y dudalen gyda chyd-destun AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Gwirio Ansawdd y Cyfieithiad",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premiwm",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Cyfieithydd Ffeiliau JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Cyfieithu ffeiliau iaith JSON i sawl iaith",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Sut mae'n gweithio: • Uwchlwytho ffeiliau iaith JSON • Dewis ieithoedd targed • Cyfieithu gyda Google neu AI • Lawrlwytho ffeiliau wedi'u cyfieithu",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Cyfieithu Ffeil JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Adrodd am Broblem",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Adrodd am broblemau cyfieithu testun a lleoleiddio",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Sut mae'n gweithio: • Cliciwch ar elfennau testun i roi gwybod am broblemau • Ychwanegu disgrifiadau a difrifoldeb • Allforio adroddiadau i Excel neu JSON • Cysoni â Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Dechrau Adrodd",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Rheoli Adroddiadau",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Cyfrif",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Mewngofnodwch gyda Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Uwchraddio i Premiwm",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Gwybodaeth Premiwm",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Allgofnodi",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Adroddiadau Nam",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Chwilio adroddiadau...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Clirio Popeth",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Dim adroddiadau nam eto",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Cliciwch \"Dechrau Adrodd\" i olrhain problemau",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ni chanfuwyd unrhyw ganlyniadau",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Rhowch gynnig ar wahanol allweddeiriau",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Gweld manylion",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marcio fel wedi'i ddatrys",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Ailagor",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Adroddiad Nam #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Gwybodaeth Sylfaenol",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Statws",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dyddiad",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Manylion yr Elfen",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Testun",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Dewisydd",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Cyd-destun Cyfieithu",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Disgrifiad o'r Mater",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Gwybodaeth Tudalen",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Teitl",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Dileu Adroddiad",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ydych chi'n siŵr eich bod chi eisiau dileu adroddiad #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Clirio Pob Adroddiad",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Dileu POB adroddiad nam? Ni ellir dadwneud y weithred hon!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Dileu Popeth",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Allforio Adroddiadau Nam",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Dewiswch fformat allforio:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Allforio i Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Allforio i JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Cysoni â Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Adroddiad #$ID$ wedi'i nodi fel $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Adroddiad #$ID$ wedi'i ddileu",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Pob adroddiad wedi'i glirio",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Newid yr Iaith Darged?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Newidiwyd yr iaith ffynhonnell i $SOURCE$. Hoffech chi gyfieithu i $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ie, Newid",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Na, Cadwch yn Gyfredol",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "agored",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "wedi'i ddatrys",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Sut mae'n gweithio:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Nodweddion Premiwm:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Wedi'i ganfod yn awtomatig: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Data cysoni",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Canfuwyd $COUNT$ testunau i'w cyfieithu",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "wedi'i ddewis",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Yn paratoi...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Wedi'i gwblhau!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Dechrau cyfieithu ar gyfer $COUNT$ iaith...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Cwblhawyd $SUCCESS$/$TOTAL$ ieithoedd",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache wedi'i glirio",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Heb ei nodi",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Tudalen Heb Deitl",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Gweld",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Cadarnhau",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Iawn",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Disgrifiwch y mater yn fanwl...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Disgrifiwch y broblem",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Mewngofnodwch yn gyntaf os gwelwch yn dda",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Awgrym: Pwyswch Ctrl+E i allforio eich newidiadau",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Cliciwch i analluogi'r modd golygu. Pwyswch Ctrl+E i allforio newidiadau.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Wedi'i gopïo i'r clipfwrdd!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Gwelliant wedi'i gymhwyso!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Wedi cymhwyso $COUNT$ o welliannau!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Gwiriad ansawdd wedi'i gwblhau",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Yn cysoni â Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Wedi'i gysoni â Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Methodd cysoni'r gyriant",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Mewngofnodwch i gysoni o Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Yn cysoni o Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Wedi cysoni $COUNT$ o adroddiadau o Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ni chanfuwyd unrhyw adroddiadau yn Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Yn paratoi ffeil Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Ffeil Excel wedi'i hallforio: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Gwall wrth allforio i Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Ffeil JSON wedi'i hallforio: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Gwall wrth allforio i JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Ffeil CSV wedi'i hallforio: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Gwall wrth allforio i CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Llwythwch ffeil JSON ddilys i fyny",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Llwythwyd $COUNT$ allweddi cyfieithu",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ffeil JSON annilys",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Cwblhewch yr holl gamau os gwelwch yn dda",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Mae AI Cyfieithu yn gofyn am Premiwm.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Methwyd cyfieithu i $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Methodd pob cyfieithiad. Rhowch gynnig arall arni.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Methodd y cyfieithu. Rhowch gynnig arall arni.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Wedi'i gyfieithu'n llwyddiannus i $COUNT$ iaith!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Lawrlwythwyd $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Gollyngwch ffeil JSON yma neu cliciwch i bori",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Yn cefnogi: en.json, vi.json, ac ati.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Cyfieithu Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Cyfieithu cyflym a rhad ac am ddim gan ddefnyddio API Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Cyfieithu AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Cyfieithu ymwybodol o gyd-destun o ansawdd uchel gan ddefnyddio deallusrwydd artiffisial",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Am ddim",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Cyflym",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Ymwybodol o gyd-destun",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Ymadrodd naturiol",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Gwell ar gyfer testun UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Analluogi Golygu Byw ($COUNT$ golygiadau)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Galluogi Golygu Byw ($COUNT$ wedi'i gadw)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Testun Dewisiedig ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Dewisiadau Amgen Gwell ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Uwchraddio i Premiwm",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Datgloi pob nodwedd AI a chyfieithiadau diderfyn",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Awgrymiadau clyfar AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Cyfieithu swp cyflym",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Gwiriad ansawdd awtomatig",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Cymorth blaenoriaeth",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Cefnogaeth i bob iaith",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Tanysgrifiwch nawr",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Cyfrif Premiwm",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Tanysgrifiad Gweithredol",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Dyddiad Dod i Ben",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dyddiau sy'n Weddill",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Math o Broblem:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Cyfieithiad Anghywir",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Gorlif Testun",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Cynllun wedi'i dorri",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Cyfieithiad ar Goll",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problem Fformatio",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Arall",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Rheolwr Adroddiadau Nam",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Rheoli ac allforio eich problemau lleoleiddio",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Dechreuwch adrodd am broblemau i olrhain problemau lleoleiddio",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nid oes unrhyw adroddiadau'n cyfateb i'ch hidlwyr",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Pob Statws",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Pob Difrifoldeb",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Pob Categori",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Uchel",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Canolig",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Isel",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Ardderchog!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Gwiriwyd $COUNT$ segmentau testun ac ni chanfuwyd unrhyw broblemau.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Iaith Ffynhonnell:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Iaith Darged:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Mewngofnodi Angenrheidiol",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Mewngofnodwch i ddefnyddio nodweddion cyfieithu. Mae defnyddwyr am ddim yn cael 10 cyfieithiad.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ o $LIMIT$ cyfieithiadau ar ôl",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Terfyn Defnydd wedi'i Gyrraedd",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Rydych chi wedi cyrraedd eich terfyn defnydd.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Uwchraddio i Premiwm",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Datgloi cyfieithiadau diderfyn a nodweddion premiwm",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "y mis",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Cyfieithiadau diderfyn",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Efallai yn ddiweddarach",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Canslo unrhyw bryd. Dim cwestiynau'n cael eu gofyn.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Eich Defnydd",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "cyfieithiadau a ddefnyddiwyd",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Mewngofnodwch i ddefnyddio nodweddion cyfieithu",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Dim digon o gyfieithiadau ar ôl. Mae gennych $REMAINING$ ar ôl ond dewiswch $SELECTED$ o ieithoedd. Uwchraddiwch i Premiwm neu lleihewch yr ieithoedd.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Rydych chi'n defnyddio'r holl $COUNT$ o gyfieithiadau sy'n weddill.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Methu Rhedeg ar y Dudalen Hon",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "Dim ond ar wefannau rheolaidd y mae LocalizeAI yn gweithio. Ni all redeg ar dudalennau mewnol Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Math o dudalen heb ei chefnogi",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Tudalennau heb eu cefnogi:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Agorwch wefan reolaidd fel google.com i ddefnyddio LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Dechrau Cyfieithu",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Lawrlwytho Popeth",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Cyfieithu Ffeil Arall",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Lawrlwytho",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Uwchlwytho Ffeil JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Dewiswch Ieithoedd Targed",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Dewiswch Modd Cyfieithu",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ allweddi wedi'u cyfieithu",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Cyfieithiad Wedi'i Gwblhau!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Cyfanswm yr Adroddiadau",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Materion Agored",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Blaenoriaeth Uchel",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Cysoni i Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Cysoni o Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Allforio Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Allforio JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Difrifoldeb",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elfen",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Mater",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Datrysiadau Awgrymedig",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Gweld HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Porth Golygfa",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Iaith Gyfredol",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Allweddi wedi'u Cyfieithu",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Amser a Fynychodd",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Cyfieithu...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Cyfieithu ffeiliau iaith JSON i sawl iaith gyda Google Translate neu AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Dewiswch un neu fwy o ieithoedd i gyfieithu iddynt",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Fformat wedi'i ganfod: $FORMAT$, Modd: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Cyfieithu i $LANG$... allweddi ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Allforio $COUNT$ Newidiadau",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Allforiwch eich golygiadau i'w rhannu gyda'ch tîm cyfieithu",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Lawrlwytho CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Lawrlwytho JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ newidiadau wedi'u cadw. Pwyswch Ctrl+E i allforio.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Cliciwch i alluogi modd golygu",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Cliciwch i alluogi modd golygu. Rydych chi wedi cadw newidiadau. Pwyswch Ctrl+E i allforio.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Dim testun wedi'i ddewis",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Dewiswch destun i gael awgrymiadau AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ni chanfuwyd unrhyw ieithoedd",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Methodd mewngofnodi. Rhowch gynnig arall arni.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Wedi mewngofnodi'n llwyddiannus!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Wedi allgofnodi'n llwyddiannus",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Methodd y dilysu. Rhowch gynnig ar glirio'r storfa a mewngofnodi eto.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Clirio'r storfa...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Methwyd clirio'r storfa",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Nid yw llyfrgell Excel ar gael. Ail-lwythwch y dudalen.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Uchafswm o $MAX$ o ieithoedd ar unwaith ar gyfer y perfformiad gorau posibl.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ wedi'i ddewis",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Mewngofnodwch i ddefnyddio cyfieithiad AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Gorau ar gyfer ffeiliau gyda maint rhesymol.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modd AI: Bydd hyn yn gwneud galwadau API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Bydd y cyfieithiad hwn yn gwneud tua $COUNT$ galwad API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Mae modd AI yn cefnogi uchafswm o $MAX$ o ieithoedd ar unwaith.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Dull Cyfieithu",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Rhad ac am ddim",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Diderfyn",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Cyflym",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ieithoedd",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Mae angen Premiwm ar gyfer cyfieithu ieithoedd lluosog.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Wedi gwirio:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Sillafu",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramadeg",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Fformatio",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Nid oes gan y testun gwreiddiol unrhyw broblemau",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Wedi gwirio <strong>$COUNT$</strong> segmentau testun",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Wedi dod o hyd i <strong>$COUNT$</strong> gwallau i'w trwsio",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Dim gwallau!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Adroddiad Gwirio Ansawdd",
+    "description": "Quality check report title"
+  }
+}

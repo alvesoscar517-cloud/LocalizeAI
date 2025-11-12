@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Eina de prova de traducció amb IA. Traducció en directe, informes d'errors, pseudo-localització i traducció JSON per lots.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Tanca",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Cancel·la",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Desa",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Suprimeix",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Exporta",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sincronització",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FONT",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "OBJECTIU",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Cerca idiomes...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Detectat automàticament des del navegador",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Commutació d'idioma",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Canvia entre el text original i el traduït",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Com funciona: • Alterna entre el text original i el traduït • Les traduccions s'emmagatzemen a la memòria cau per a un canvi ràpid • Funciona amb tot el text de la pàgina • Esborra la memòria cau per tornar a traduir",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Original",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Traduït",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Llest per traduir",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Esborra la memòria cau i torna a traduir",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudolocalització",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Prova la interfície d'usuari amb text més llarg per trobar problemes de desbordament",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Com funciona: • Substitueix els caràcters per versions accentuades • Afegeix una expansió de longitud del 30-40% • Ajusta el text entre marcadors [!!!... !!!] • Exemple: \"Configuració\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aplica la pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Mode d'edició en directe",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Feu clic a qualsevol text per editar-lo directament a la pàgina",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Com funciona: • Feu clic a qualsevol element de text per editar-lo • Els canvis es controlen en temps real • Exporteu les edicions com a JSON o Excel • Premeu Ctrl+E per exportar els canvis",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Activa l'edició en directe",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Funcions d'IA",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Eines de traducció amb tecnologia d'IA",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Característiques premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Obtén suggeriments d'IA",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Traducció intel·ligent per lots",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Tradueix TOT el text de la pàgina amb context d'IA",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Comprovar la qualitat de la traducció",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Traductor de fitxers JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Tradueix fitxers d'idioma JSON a diversos idiomes",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Com funciona: • Puja fitxers d'idioma JSON • Selecciona els idiomes de destinació • Tradueix amb Google o IA • Descarrega els fitxers traduïts",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Tradueix el fitxer JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Informa d'un problema",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Informar de problemes de traducció i localització de text",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Com funciona: • Feu clic als elements de text per informar de problemes • Afegiu descripcions i la seva gravetat • Exporteu informes a Excel o JSON • Sincronitzeu amb Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Comença a informar",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Gestiona informes",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Compte",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Inicia la sessió amb Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Actualitza a Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informació Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Tanca la sessió",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Informes d'errors",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Informes de cerca...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Esborra-ho tot",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Encara no hi ha informes d'errors",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Feu clic a \"Comença a informar\" per fer un seguiment dels problemes",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "No s'han trobat resultats",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Prova diferents paraules clau",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Veure detalls",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marca com a resolt",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Reobrir",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Informe d'errors #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informació bàsica",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Estat",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detalls de l'element",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etiqueta",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Text",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selector",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Context de la traducció",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Descripció del problema",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informació de la pàgina",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Títol",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Suprimeix l'informe",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Esteu segur que voleu suprimir l'informe #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Esborra tots els informes",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Voleu suprimir TOTS els informes d'errors? Aquesta acció no es pot desfer!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Suprimeix-ho tot",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Exportar informes d'errors",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Trieu el format d'exportació:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exporta a Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exporta a JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sincronitza amb Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Informe #$ID$ marcat com a $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "S'ha suprimit l'informe núm. $ID$",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Tots els informes esborrats",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Canviar l'idioma de destinació?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "L'idioma d'origen ha canviat a $SOURCE$. Voleu traduir a $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Sí, canvi",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "No, mantingueu-vos al dia",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "obert",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "resolt",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Com funciona:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Característiques premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Detectat automàticament: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sincronitza les dades",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "S'han trobat $COUNT$ textos per traduir",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "seleccionat",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Preparant...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Complet!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "S'està iniciant la traducció per a $COUNT$ idiomes...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ S'han completat $SUCCESS$/$TOTAL$ idiomes",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ $SIZE$$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "S'ha esborrat la memòria cau",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "No especificat",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Pàgina sense títol",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Vista",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Confirma",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "D'acord",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Descriu el problema amb detall...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Si us plau, descriviu el problema.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Si us plau, inicia la sessió primer",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Consell: Premeu Ctrl+E per exportar els canvis",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Feu clic per desactivar el mode d'edició. Premeu Ctrl+E per exportar els canvis.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Copiat al porta-retalls!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Millora aplicada!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "S'han aplicat $COUNT$ millores!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Comprovació de qualitat completada",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sincronitzant amb Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sincronitzat amb Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "La sincronització de la unitat ha fallat",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Si us plau, inicia la sessió per sincronitzar des de Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sincronitzant des de Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "S'han sincronitzat $COUNT$ informes de Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "No s'han trobat informes a Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Preparant el fitxer d'Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Fitxer d'Excel exportat: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "S'ha produït un error en exportar a Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Fitxer JSON exportat: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "S'ha produït un error en exportar a JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Fitxer CSV exportat: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "S'ha produït un error en exportar a CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Si us plau, pugeu un fitxer JSON vàlid.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "S'han carregat $COUNT$ claus de traducció",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fitxer JSON no vàlid",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Si us plau, completeu tots els passos",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "La traducció d'IA requereix Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "No s'ha pogut traduir a $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Totes les traduccions han fallat. Si us plau, torneu-ho a intentar.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "La traducció ha fallat. Torna-ho a intentar.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Traduït correctament a $COUNT$ idiomes!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "S'ha descarregat $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Deixa anar el fitxer JSON aquí o fes clic per navegar",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Suporta: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Traductor de Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Traducció ràpida i gratuïta amb l'API de Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Traducció per IA",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Traducció contextual d'alta qualitat mitjançant IA",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratuït",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Ràpid",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Contextual",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Fraseig natural",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Millor per al text de la interfície d'usuari",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Desactiva l'edició en directe ($COUNT$$ edicions)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Activa l'edició en directe ($COUNT$$ estalviats)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Text seleccionat ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Millors alternatives ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Actualitza a Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Desbloqueja totes les funcions d'IA i traduccions il·limitades",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Suggeriments intel·ligents d'IA",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Traducció ràpida per lots",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Control de qualitat automàtic",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Suport prioritari",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Compatibilitat amb tots els idiomes",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Subscriu-te ara",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Compte Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Subscripció activa",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Data de caducitat",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dies restants",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tipus de problema:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Traducció incorrecta",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Desbordament de text",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Disseny trencat",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Traducció que falta",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problema de format",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Altres",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Gestor d'informes d'errors",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Gestioneu i exporteu els vostres problemes de localització",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Comença a informar de problemes per fer un seguiment dels problemes de localització",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "No hi ha informes que coincideixin amb els filtres",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tots els estats",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tota la gravetat",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Totes les categories",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Alt",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mitjà",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Baix",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Excel·lent!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "He comprovat $COUNT$ segments de text i no he trobat cap problema.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Idioma d'origen:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Idioma de destinació:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Cal iniciar la sessió",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Si us plau, inicia la sessió per utilitzar les funcions de traducció. Els usuaris gratuïts reben 10 traduccions.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Queden $REMAINING$ de $LIMIT$ traduccions",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Límit d'ús assolit",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Heu arribat al vostre límit d'ús.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Actualitza a Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Desbloqueja traduccions il·limitades i funcions premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per mes",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Traduccions il·limitades",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Potser més tard",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Cancel·la en qualsevol moment.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "El vostre ús",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "traduccions utilitzades",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Si us plau, inicia la sessió per utilitzar les funcions de traducció",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "No queden prou traduccions. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Esteu utilitzant totes les traduccions restants de $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "No es pot executar en aquesta pàgina",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI només funciona en llocs web normals. No es pot executar en pàgines internes de Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Tipus de pàgina no compatible",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Pàgines no compatibles:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Obriu un lloc web normal com ara google.com per utilitzar LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Comença la traducció",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Descarrega-ho tot",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Tradueix un altre fitxer",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Descarrega",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Puja el fitxer JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Selecciona els idiomes de destinació",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Trieu el mode de traducció",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ claus traduïdes",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traducció completa!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Informes totals",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Problemes oberts",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Alta prioritat",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sincronitza amb Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sincronitza des de Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Exporta Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Exporta JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Gravetat",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problema",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Solucions suggerides",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Veure HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Finestra gràfica",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Idioma actual",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Claus traduïdes",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Temps transcorregut",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Traduint...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Tradueix fitxers d'idioma JSON a diversos idiomes amb Google Translate o IA",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Seleccioneu un o més idiomes als quals voleu traduir",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format detectat: $FORMAT$, Mode: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Traduint a $LANG$... claus de $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exporta $COUNT$ canvis",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exporta les teves edicions per compartir-les amb el teu equip de traducció",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Descarrega el fitxer CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Descarrega JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "S'han desat $COUNT$ canvis. Premeu Ctrl+E per exportar.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Feu clic per activar el mode d'edició",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Feu clic per activar el mode d'edició. Heu desat els canvis. Premeu Ctrl+E per exportar.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "No s'ha seleccionat cap text",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Selecciona text per obtenir suggeriments d'IA",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "No s'han trobat idiomes",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "No s'ha pogut iniciar la sessió. Torna-ho a provar.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Sessió iniciada correctament!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "S'ha tancat la sessió correctament",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "L'autenticació ha fallat. Si us plau, intenta esborrar la memòria cau i tornar a iniciar la sessió.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "S'està esborrant la memòria cau...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "No s'ha pogut esborrar la memòria cau",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "La biblioteca d'Excel no està disponible. Torna a carregar la pàgina.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Un màxim de $MAX$ idiomes alhora per obtenir un rendiment òptim.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ seleccionats",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Si us plau, inicieu la sessió per utilitzar la traducció d'AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "El millor per a fitxers amb una mida raonable.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Mode AI: això farà trucades a l'API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Aquesta traducció farà aproximadament $COUNT$ trucades a l'API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "El mode AI admet un màxim de $MAX$ idiomes alhora.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Mètode de traducció",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratuït",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Il·limitat",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Ràpid",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "llengües",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "La traducció en diversos idiomes requereix Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Comprovat:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografia",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramàtica",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatatge",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "El text original no té cap problema",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "S'han comprovat <strong>$COUNT$</strong> segments de text",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "S'han trobat <strong>$COUNT$</strong> errors per corregir",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Sense errors!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Informe de control de qualitat",
+    "description": "Quality check report title"
+  }
+}

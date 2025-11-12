@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "ឧបករណ៍សាកល្បងការបកប្រែ AI។ ការបកប្រែផ្ទាល់, របាយការណ៍កំហុស, ការធ្វើមូលដ្ឋានីយកម្មក្លែងក្លាយ និងការបកប្រែ JSON ជាបាច់។",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "បិទ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "បោះបង់",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "រក្សាទុក",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "លុប",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "នាំចេញ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ធ្វើសមកាលកម្ម",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ប្រភព",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "គោលដៅ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ស្វែងរកភាសា...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "រកឃើញដោយស្វ័យប្រវត្តិពីកម្មវិធីរុករក",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "បិទបើកភាសា",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ប្តូររវាងអត្ថបទដើម និងអត្ថបទដែលបានបកប្រែ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "របៀបដែលវាដំណើរការ៖ • បិទបើករវាងអត្ថបទដើម និងអត្ថបទដែលបានបកប្រែ • ការបកប្រែត្រូវបានទុកក្នុងឃ្លាំងសម្ងាត់សម្រាប់ការប្តូររហ័ស • ធ្វើការជាមួយអត្ថបទទាំងអស់នៅលើទំព័រ • សម្អាតឃ្លាំងសម្ងាត់ដើម្បីបកប្រែឡើងវិញ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ដើម",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "បកប្រែ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "រួចរាល់ក្នុងការបកប្រែ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "សម្អាតឃ្លាំងសម្ងាត់ និងបកប្រែឡើងវិញ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "ការធ្វើមូលដ្ឋានីយកម្ម Pseudo",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "សាកល្បង UI ជាមួយនឹងអត្ថបទវែងជាងនេះ ដើម្បីស្វែងរកបញ្ហាលើស",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "របៀបដែលវាដំណើរការ៖ • ជំនួសតួអក្សរជាមួយនឹងកំណែសង្កត់សំឡេង • បន្ថែមការពង្រីកប្រវែង 30-40% • រុំអត្ថបទក្នុង [!!!...!!!] សញ្ញាសម្គាល់ • ឧទាហរណ៍៖ \"ការកំណត់\" → \"[!!!Şḗŧŧīƞɠş··!!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "អនុវត្ត Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "របៀបកែសម្រួលផ្ទាល់",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ចុចអត្ថបទណាមួយដើម្បីកែសម្រួលដោយផ្ទាល់នៅលើទំព័រ",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "របៀបដែលវាដំណើរការ៖ • ចុចធាតុអត្ថបទណាមួយដើម្បីកែសម្រួលវា។ • ការផ្លាស់ប្តូរត្រូវបានតាមដានក្នុងពេលជាក់ស្តែង • នាំចេញការកែសម្រួលជា JSON ឬ Excel • ចុច Ctrl+E ដើម្បីនាំចេញការផ្លាស់ប្តូរ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "បើកការកែសម្រួលផ្ទាល់",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "លក្ខណៈពិសេស AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "ឧបករណ៍បកប្រែដែលដំណើរការដោយ AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "លក្ខណៈពិសេសពិសេស៖ • ការបកប្រែតាមបរិបទដែលស្គាល់ដោយថាមពល AI • បាច់បកប្រែទំព័រទាំងមូល • ពិនិត្យគុណភាពសម្រាប់ការបកប្រែ • ការណែនាំជាភាសាធម្មជាតិ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "ទទួលបានការណែនាំ AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "បកប្រែបាច់ឆ្លាត",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "បកប្រែអត្ថបទទាំងអស់នៅលើទំព័រជាមួយនឹងបរិបទ AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ពិនិត្យគុណភាពការបកប្រែ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "បុព្វលាភ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "អ្នកបកប្រែឯកសារ JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "បកប្រែឯកសារភាសា JSON ទៅជាភាសាច្រើន។",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "របៀបដែលវាដំណើរការ៖ • បង្ហោះឯកសារភាសា JSON • ជ្រើសរើសភាសាគោលដៅ • បកប្រែជាមួយ Google ឬ AI • ទាញយកឯកសារដែលបានបកប្រែ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "បកប្រែឯកសារ JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "រាយការណ៍បញ្ហា",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "រាយការណ៍បញ្ហាការបកប្រែអត្ថបទ និងការធ្វើមូលដ្ឋានីយកម្ម",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "របៀបដែលវាដំណើរការ៖ • ចុចធាតុអត្ថបទដើម្បីរាយការណ៍បញ្ហា • បន្ថែមការពិពណ៌នា និងភាពធ្ងន់ធ្ងរ • នាំចេញរបាយការណ៍ទៅ Excel ឬ JSON • ធ្វើសមកាលកម្មជាមួយ Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ចាប់ផ្តើមរាយការណ៍",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "គ្រប់គ្រងរបាយការណ៍",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "គណនី",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "ចូលជាមួយ Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ធ្វើឱ្យប្រសើរឡើងទៅបុព្វលាភ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ព័ត៌មានពិសេស",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ចេញ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "របាយការណ៍កំហុស",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ស្វែងរករបាយការណ៍...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ជម្រះទាំងអស់។",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "មិនទាន់មានរបាយការណ៍អំពីបញ្ហានៅឡើយទេ",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ចុច \"ចាប់ផ្តើមការរាយការណ៍\" ដើម្បីតាមដានបញ្ហា",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "រកមិនឃើញលទ្ធផលទេ។",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "សាកល្បងពាក្យគន្លឹះផ្សេងៗ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "មើលព័ត៌មានលម្អិត",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "សម្គាល់ថាបានដោះស្រាយ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "បើកឡើងវិញ",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "របាយការណ៍កំហុស #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ព័ត៌មានមូលដ្ឋាន",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ស្ថានភាព",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ប្រភេទ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "កាលបរិច្ឆេទ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ព័ត៌មានលម្អិតអំពីធាតុ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ស្លាក",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "អត្ថបទ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "អ្នកជ្រើសរើស",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "បរិបទនៃការបកប្រែ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "ការពិពណ៌នាអំពីបញ្ហា",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ព័ត៌មានទំព័រ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ចំណងជើង",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "លុបរបាយការណ៍",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "តើអ្នកប្រាកដថាចង់លុបរបាយការណ៍ #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ជម្រះរបាយការណ៍ទាំងអស់។",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "លុបរបាយការណ៍កំហុសទាំងអស់? សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "លុបទាំងអស់។",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "នាំចេញរបាយការណ៍កំហុស",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ជ្រើសរើសទម្រង់នាំចេញ៖",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "នាំចេញទៅ Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "នាំចេញទៅ JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "ធ្វើសមកាលកម្មទៅ Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "របាយការណ៍ # $ លេខសម្គាល់ $ បានសម្គាល់ជា $ $ $ID$ $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "របាយការណ៍ #$ID$ ត្រូវបានលុប",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "របាយការណ៍ទាំងអស់ត្រូវបានសម្អាត",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ផ្លាស់ប្តូរភាសាគោលដៅ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ភាសាប្រភពបានប្តូរទៅជា $SOURCE$។ តើអ្នកចង់បកប្រែទៅជា $TARGET$ ទេ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "បាទ ផ្លាស់ប្តូរ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ទេ រក្សាបច្ចុប្បន្ន",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "បើក",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ដោះស្រាយ",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "របៀបដែលវាដំណើរការ៖",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "លក្ខណៈពិសេសពិសេស៖",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "រកឃើញដោយស្វ័យប្រវត្តិ៖ $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ធ្វើសមកាលកម្មទិន្នន័យ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "បានរកឃើញ $COUNT$ អត្ថបទដើម្បីបកប្រែ",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "បានជ្រើសរើស",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "កំពុងរៀបចំ...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ចប់!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "កំពុងចាប់ផ្តើមបកប្រែសម្រាប់ $COUNT$ ភាសា...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓បានបញ្ចប់ប្រាក់ដុល្លារទទួលបានជោគជ័យ $ / $ $ ភាសា $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ KB $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$គេ $ S $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "បានសម្អាតឃ្លាំងសម្ងាត់",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "មិនបានបញ្ជាក់",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ទំព័រគ្មានចំណងជើង",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "មើល",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "បញ្ជាក់",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "យល់ព្រម",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "រៀបរាប់​ពី​បញ្ហា​យ៉ាង​លម្អិត...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "សូមពណ៌នាអំពីបញ្ហា",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "សូមចុះឈ្មោះជាមុនសិន",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "គន្លឹះ៖ ចុច Ctrl+E ដើម្បីនាំចេញការផ្លាស់ប្ដូររបស់អ្នក។",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ចុចដើម្បីបិទរបៀបកែសម្រួល។ ចុច Ctrl+E ដើម្បីនាំចេញការផ្លាស់ប្តូរ។",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ចម្លងទៅក្ដារតម្បៀតខ្ទាស់!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ការកែលម្អត្រូវបានអនុវត្ត!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "បានអនុវត្តការកែលម្អ $COUNT$!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ការត្រួតពិនិត្យគុណភាពបានបញ្ចប់",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "កំពុងធ្វើសមកាលកម្មទៅ Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "បានធ្វើសមកាលកម្មទៅ Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ការធ្វើសមកាលកម្មថាសបានបរាជ័យ",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "សូមចូលដើម្បីធ្វើសមកាលកម្មពីថាស",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "កំពុងធ្វើសមកាលកម្មពី Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "បានធ្វើសមកាលកម្មរបាយការណ៍ $COUNT$ ពីថាស!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "រកមិនឃើញរបាយការណ៍នៅក្នុងថាសទេ។",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "កំពុងរៀបចំឯកសារ Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ឯកសារ Excel ត្រូវបាននាំចេញ៖ $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "កំហុសក្នុងការនាំចេញទៅ Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "ឯកសារ JSON ត្រូវបាននាំចេញ៖ $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "កំហុសក្នុងការនាំចេញទៅ JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "ឯកសារ CSV ត្រូវបាននាំចេញ៖ $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "កំហុសក្នុងការនាំចេញទៅ CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "សូមបង្ហោះឯកសារ JSON ត្រឹមត្រូវ។",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "បាន​ផ្ទុក​សោ​បកប្រែ $COUNT$",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ឯកសារ JSON មិនត្រឹមត្រូវ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "សូមបំពេញជំហានទាំងអស់។",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "ការបកប្រែ AI ទាមទារបុព្វលាភ។",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "បរាជ័យក្នុងការបកប្រែទៅជា $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ការបកប្រែទាំងអស់បានបរាជ័យ។ សូមព្យាយាមម្តងទៀត។",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ការបកប្រែបានបរាជ័យ។ សូមព្យាយាមម្តងទៀត។",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "បកប្រែដោយជោគជ័យទៅជាភាសា $COUNT$!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "បានទាញយក $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "ទម្លាក់ឯកសារ JSON នៅទីនេះ ឬចុចដើម្បីរុករក",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "គាំទ្រ៖ en.json, vi.json ជាដើម។",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google បកប្រែ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ការបកប្រែលឿន និងឥតគិតថ្លៃដោយប្រើ Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ការបកប្រែ AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "ការបកប្រែដែលដឹងពីបរិបទដែលមានគុណភាពខ្ពស់ដោយប្រើ AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ឥតគិតថ្លៃ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "លឿន",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ការយល់ដឹងអំពីបរិបទ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ឃ្លាធម្មជាតិ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "កាន់តែប្រសើរសម្រាប់អត្ថបទ UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "បិទការកែសម្រួលផ្ទាល់ (ការកែសម្រួល $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "បើកការកែសម្រួលផ្ទាល់ ($COUNT$ រក្សាទុក)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "អត្ថបទដែលបានជ្រើសរើស ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ជម្មើសជំនួសកាន់តែប្រសើរ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ធ្វើឱ្យប្រសើរឡើងទៅបុព្វលាភ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ដោះសោមុខងារ AI ទាំងអស់ និងការបកប្រែគ្មានដែនកំណត់",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "ការណែនាំឆ្លាតវៃ AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ការបកប្រែបណ្តុំរហ័ស",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ការត្រួតពិនិត្យគុណភាពដោយស្វ័យប្រវត្តិ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ការគាំទ្រជាអាទិភាព",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ភាសាទាំងអស់គាំទ្រ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ជាវឥឡូវនេះ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "គណនីបុព្វលាភ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ការជាវសកម្ម",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "កាលបរិច្ឆេទផុតកំណត់",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ថ្ងៃដែលនៅសល់",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ប្រភេទបញ្ហា៖",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ការបកប្រែខុស",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "អត្ថបទលើស",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ប្លង់ខូច",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "បាត់ការបកប្រែ",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "បញ្ហាទម្រង់",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ផ្សេងៗ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "កម្មវិធីគ្រប់គ្រងរបាយការណ៍កំហុស",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "គ្រប់គ្រង និងនាំចេញបញ្ហាការធ្វើមូលដ្ឋានីយកម្មរបស់អ្នក។",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ចាប់ផ្តើមរាយការណ៍បញ្ហាដើម្បីតាមដានបញ្ហានៃការធ្វើមូលដ្ឋានីយកម្ម",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "គ្មានរបាយការណ៍ដែលត្រូវនឹងតម្រងរបស់អ្នកទេ។",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ស្ថានភាពទាំងអស់។",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ភាពធ្ងន់ធ្ងរទាំងអស់។",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ប្រភេទទាំងអស់។",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ខ្ពស់។",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "មធ្យម",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ទាប",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "អស្ចារ្យ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "បានពិនិត្យផ្នែកអត្ថបទ $COUNT$ ហើយរកមិនឃើញបញ្ហាទេ។",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ភាសាប្រភព៖",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ភាសាគោលដៅ៖",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "តម្រូវឱ្យចូល",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "សូមចូលដើម្បីប្រើមុខងារបកប្រែ។ អ្នកប្រើប្រាស់ឥតគិតថ្លៃទទួលបានការបកប្រែចំនួន 10 ។",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "ការបកប្រែ $REMAINING$ នៃ $LIMIT$ នៅសល់",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "បានឈានដល់ដែនកំណត់នៃការប្រើប្រាស់",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "អ្នកបានឈានដល់ដែនកំណត់ការប្រើប្រាស់របស់អ្នក។",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ធ្វើឱ្យប្រសើរឡើងទៅបុព្វលាភ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ដោះសោការបកប្រែគ្មានដែនកំណត់ និងមុខងារពិសេស",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ក្នុងមួយខែ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ការបកប្រែគ្មានដែនកំណត់",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ប្រហែលជាពេលក្រោយ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "បោះបង់នៅពេលណាក៏បាន។ គ្មានសំណួរសួរទេ។",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ការប្រើប្រាស់របស់អ្នក។",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ការបកប្រែដែលបានប្រើ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "សូមចូលដើម្បីប្រើមុខងារបកប្រែ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "មិនមានការបកប្រែគ្រប់គ្រាន់ទេ។ $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "អ្នកកំពុងប្រើ $ រាប់ $ ដែលនៅសល់។ $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "មិនអាចដំណើរការលើទំព័រនេះបានទេ។",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ដំណើរការតែនៅលើគេហទំព័រធម្មតាប៉ុណ្ណោះ។ វាមិនអាចដំណើរការលើទំព័រខាងក្នុងរបស់ Chrome បានទេ។",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ប្រភេទទំព័រដែលមិនគាំទ្រ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ទំព័រដែលមិនគាំទ្រ៖",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "បើកគេហទំព័រធម្មតាដូចជា google.com ដើម្បីប្រើ LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ចាប់ផ្តើមការបកប្រែ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ទាញយកទាំងអស់។",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "បកប្រែឯកសារផ្សេងទៀត។",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ទាញយក",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "ផ្ទុកឡើងឯកសារ JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ជ្រើសរើសភាសាគោលដៅ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ជ្រើសរើសរបៀបបកប្រែ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ keys បានបកប្រែ",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ការបកប្រែបានបញ្ចប់!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "របាយការណ៍សរុប",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "បើកបញ្ហា",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "អាទិភាពខ្ពស់។",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ធ្វើសមកាលកម្មទៅថាស",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ធ្វើសមកាលកម្មពីថាស",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "នាំចេញ Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "នាំចេញ JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "លេខសម្គាល់",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ភាពធ្ងន់ធ្ងរ",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ធាតុ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "បញ្ហា",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "ដំណោះស្រាយដែលបានណែនាំ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "មើល HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "xpath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ច្រកចូលមើល",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ភាសាបច្ចុប្បន្ន",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "គ្រាប់ចុចបកប្រែ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ពេលវេលាបានកន្លងផុតទៅ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "កំពុងបកប្រែ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "បកប្រែឯកសារភាសា JSON ទៅជាភាសាច្រើនដោយប្រើ Google Translate ឬ AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ជ្រើសរើសភាសាមួយ ឬច្រើនដើម្បីបកប្រែ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "បានរកឃើញទម្រង់៖ $FORMAT$ របៀប៖ $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "បកប្រែទៅជា $LANG$... ($CURRENT$/$TOTAL$ keys)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "នាំចេញការផ្លាស់ប្តូរ $COUNT$",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "នាំចេញការកែសម្រួលរបស់អ្នកដើម្បីចែករំលែកជាមួយក្រុមបកប្រែរបស់អ្នក។",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "ទាញយក CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "ទាញយក JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "បានរក្សាទុកការផ្លាស់ប្តូរ $COUNT$។ ចុច Ctrl+E ដើម្បីនាំចេញ។",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ចុចដើម្បីបើករបៀបកែសម្រួល",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ចុចដើម្បីបើករបៀបកែសម្រួល។ អ្នកបានរក្សាទុកការផ្លាស់ប្តូរ។ ចុច Ctrl+E ដើម្បីនាំចេញ។",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "មិនបានជ្រើសរើសអត្ថបទទេ។",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "ជ្រើសរើសអត្ថបទដើម្បីទទួលបានការណែនាំ AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "រកមិនឃើញភាសាទេ។",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ចូលបានបរាជ័យ។ សូមព្យាយាមម្តងទៀត។",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ចូលដោយជោគជ័យ!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ចេញដោយជោគជ័យ",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ការផ្ទៀងផ្ទាត់បានបរាជ័យ។ សូមព្យាយាមសម្អាតឃ្លាំងសម្ងាត់ ហើយចូលម្តងទៀត។",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "កំពុងសម្អាតឃ្លាំងសម្ងាត់...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "បរាជ័យក្នុងការសម្អាតឃ្លាំងសម្ងាត់",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "បណ្ណាល័យ Excel មិនមានទេ។ សូមផ្ទុកទំព័រឡើងវិញ។",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "$ អតិបរិមា $ អតិបរមាភាសាក្នុងពេលតែមួយសម្រាប់ការអនុវត្តល្អបំផុត។ $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ រាប់ $ / $ hair $ បានជ្រើសរើស $COUNT$ $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "សូមចូលដើម្បីប្រើការបកប្រែ AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ល្អបំផុតសម្រាប់ឯកសារដែលមានទំហំសមហេតុផល។",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "របៀប AI: នេះនឹងធ្វើឱ្យសំណើការហៅ API ។",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ការបកប្រែនេះនឹងធ្វើឱ្យការហៅទូរស័ព្ទ API ប្រមាណប្រមាណជាចំនួនប្រហាក់ប្រហែល។ $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "របៀប AI គាំទ្រ $ អតិបរមាភាសាអតិបរមាក្នុងពេលតែមួយ។ $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "វិធីសាស្ត្របកប្រែ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ដេលមានសេរីផាប",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "គ្មានដែនកំណត់",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ការតមបាយ",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "បដា",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ការបកប្រែភាសាច្រើនតម្រូវឱ្យមានបុព្វលាភ។",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "បានធីក:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ការរបកបអកសរ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "វេយ្យាករន៍",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ការដាក់ចិហ្ចប់ម",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "អត្ថបទដើមមិនមានបញ្ហាទេ",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "បានធីក $ រាប់វគ្គអត្ថបទ",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "រកឃើញ $ រាប់រាប់ $ កំហុសក្នុងការជួសជុល",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "គ្មានកំហុស!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "របាយការណ៍ត្រួតពិនិត្យគុណភាព",
+    "description": "Quality check report title"
+  }
+}

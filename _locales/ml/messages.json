@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI വിവർത്തന പരിശോധന ഉപകരണം. തത്സമയ വിവർത്തനം, ബഗ് റിപ്പോർട്ടിംഗ്, സ്യൂഡോ-പ്രാദേശികവൽക്കരണം, ബാച്ച് JSON വിവർത്തനം.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "അടയ്ക്കുക",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "റദ്ദാക്കുക",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "രക്ഷിക്കും",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ഇല്ലാതാക്കുക",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "കയറ്റുമതി ചെയ്യുക",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "സമന്വയിപ്പിക്കുക",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ഉറവിടം",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ലക്ഷ്യം",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ഭാഷകൾ തിരയുക...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ബ്രൗസറിൽ നിന്ന് സ്വയമേവ കണ്ടെത്തി",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ഭാഷ ടോഗിൾ ചെയ്യുക",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "യഥാർത്ഥ വാചകവും വിവർത്തനം ചെയ്ത വാചകവും തമ്മിൽ മാറുക",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • യഥാർത്ഥ വാചകവും വിവർത്തനം ചെയ്ത വാചകവും തമ്മിൽ ടോഗിൾ ചെയ്യുക • വേഗത്തിൽ മാറുന്നതിനായി വിവർത്തനങ്ങൾ കാഷെ ചെയ്‌തിരിക്കുന്നു • പേജിലെ എല്ലാ വാചകങ്ങളുമായും പ്രവർത്തിക്കുന്നു • വീണ്ടും വിവർത്തനം ചെയ്യാൻ കാഷെ മായ്‌ക്കുക",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ഒറിജിനൽ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "വിവർത്തനം ചെയ്തത്",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "വിവർത്തനം ചെയ്യാൻ തയ്യാറാണ്",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "കാഷെ മായ്‌ച്ച് വീണ്ടും വിവർത്തനം ചെയ്യുക",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "കപട-പ്രാദേശികവൽക്കരണം",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ഓവർഫ്ലോ പ്രശ്നങ്ങൾ കണ്ടെത്താൻ ദൈർഘ്യമേറിയ ടെക്സ്റ്റ് ഉപയോഗിച്ച് UI പരീക്ഷിക്കുക",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • പ്രതീകങ്ങളെ ആക്‌സന്റഡ് പതിപ്പുകൾ ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു • 30-40% നീളമുള്ള വിപുലീകരണം ചേർക്കുന്നു • [!!!... !!!] മാർക്കറുകളിൽ വാചകം പൊതിയുന്നു • ഉദാഹരണം: \"ക്രമീകരണങ്ങൾ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "സ്യൂഡോ-ലോക്ക് പ്രയോഗിക്കുക",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ലൈവ് എഡിറ്റ് മോഡ്",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "പേജിൽ നേരിട്ട് എഡിറ്റ് ചെയ്യാൻ ഏതെങ്കിലും വാചകത്തിൽ ക്ലിക്കുചെയ്യുക.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • എഡിറ്റ് ചെയ്യാൻ ഏതെങ്കിലും ടെക്സ്റ്റ് എലമെന്റിൽ ക്ലിക്ക് ചെയ്യുക • മാറ്റങ്ങൾ തത്സമയം ട്രാക്ക് ചെയ്യപ്പെടും • എഡിറ്റുകൾ JSON അല്ലെങ്കിൽ Excel ആയി എക്സ്പോർട്ട് ചെയ്യുക • മാറ്റങ്ങൾ എക്സ്പോർട്ട് ചെയ്യാൻ Ctrl+E അമർത്തുക",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ലൈവ് എഡിറ്റ് പ്രാപ്തമാക്കുക",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI സവിശേഷതകൾ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-അധിഷ്ഠിത വിവർത്തന ഉപകരണങ്ങൾ",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "പ്രീമിയം സവിശേഷതകൾ: • AI-അധിഷ്ഠിത സന്ദർഭ-അവബോധ വിവർത്തനം • മുഴുവൻ പേജുകളുടെയും ബാച്ച് വിവർത്തനം • വിവർത്തനങ്ങൾക്കായുള്ള ഗുണനിലവാര പരിശോധന • സ്വാഭാവിക ഭാഷാ നിർദ്ദേശങ്ങൾ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI നിർദ്ദേശങ്ങൾ നേടുക",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "സ്മാർട്ട് ബാച്ച് വിവർത്തനം",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "പേജിലെ എല്ലാ വാചകങ്ങളും AI സന്ദർഭത്തിനനുസരിച്ച് വിവർത്തനം ചെയ്യുന്നു.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "വിവർത്തന നിലവാരം പരിശോധിക്കുക",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "പ്രീമിയം",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ഫയൽ ട്രാൻസ്ലേറ്റർ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ഭാഷാ ഫയലുകൾ ഒന്നിലധികം ഭാഷകളിലേക്ക് വിവർത്തനം ചെയ്യുക",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • JSON ഭാഷാ ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യുക • ലക്ഷ്യ ഭാഷകൾ തിരഞ്ഞെടുക്കുക • Google അല്ലെങ്കിൽ AI ഉപയോഗിച്ച് വിവർത്തനം ചെയ്യുക • വിവർത്തനം ചെയ്ത ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുക",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ഫയൽ വിവർത്തനം ചെയ്യുക",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "പ്രശ്നം റിപ്പോർട്ട് ചെയ്യുക",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ടെക്സ്റ്റ് വിവർത്തന, പ്രാദേശികവൽക്കരണ പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യുക",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ ടെക്സ്റ്റ് ഘടകങ്ങളിൽ ക്ലിക്ക് ചെയ്യുക • വിവരണങ്ങളും തീവ്രതയും ചേർക്കുക • Excel അല്ലെങ്കിൽ JSON-ലേക്ക് റിപ്പോർട്ടുകൾ എക്സ്പോർട്ട് ചെയ്യുക • Google ഡ്രൈവുമായി സമന്വയിപ്പിക്കുക",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "റിപ്പോർട്ട് ചെയ്യാൻ ആരംഭിക്കുക",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "റിപ്പോർട്ടുകൾ കൈകാര്യം ചെയ്യുക",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "അക്കൗണ്ട്",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "പ്രീമിയം വിവരങ്ങൾ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "സൈൻ ഔട്ട്",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ബഗ് റിപ്പോർട്ടുകൾ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "തിരയൽ റിപ്പോർട്ടുകൾ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "എല്ലാം മായ്‌ക്കുക",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ഇതുവരെ ബഗ് റിപ്പോർട്ടുകളൊന്നുമില്ല.",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "പ്രശ്നങ്ങൾ ട്രാക്ക് ചെയ്യാൻ \"റിപ്പോർട്ടുചെയ്യാൻ ആരംഭിക്കുക\" ക്ലിക്ക് ചെയ്യുക.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ഫലങ്ങളൊന്നും കണ്ടെത്തിയില്ല",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "വ്യത്യസ്ത കീവേഡുകൾ പരീക്ഷിച്ചുനോക്കൂ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "വിശദാംശങ്ങൾ കാണുക",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "പരിഹരിച്ചതായി അടയാളപ്പെടുത്തുക",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "വീണ്ടും തുറക്കുക",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ബഗ് റിപ്പോർട്ട് #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "അടിസ്ഥാന വിവരങ്ങൾ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "പദവി",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "വിഭാഗം",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "തീയതി",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "എലമെന്റ് വിശദാംശങ്ങൾ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ടാഗ് ചെയ്യുക",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "വാചകം",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "സെലക്ടർ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "വിവർത്തന സന്ദർഭം",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "പ്രശ്നത്തിന്റെ വിവരണം",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "പേജ് വിവരം",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "തലക്കെട്ട്",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-ൽ",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "റിപ്പോർട്ട് ഇല്ലാതാക്കുക",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "#$ID$ റിപ്പോർട്ട് ഇല്ലാതാക്കണമെന്ന് നിങ്ങൾക്ക് ഉറപ്പാണോ?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "എല്ലാ റിപ്പോർട്ടുകളും മായ്ക്കുക",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "എല്ലാ ബഗ് റിപ്പോർട്ടുകളും ഇല്ലാതാക്കണോ? ഈ പ്രവർത്തനം പഴയപടിയാക്കാൻ കഴിയില്ല!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "എല്ലാം ഇല്ലാതാക്കുക",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ബഗ് റിപ്പോർട്ടുകൾ എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "കയറ്റുമതി ഫോർമാറ്റ് തിരഞ്ഞെടുക്കുക:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "എക്സലിലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON-ലേക്ക് എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google ഡ്രൈവിലേക്ക് സമന്വയിപ്പിക്കുക",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "റിപ്പോർട്ട് #$ID$ $STATUS$ ആയി അടയാളപ്പെടുത്തി",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "റിപ്പോർട്ട് #$ID$ ഇല്ലാതാക്കി",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "എല്ലാ റിപ്പോർട്ടുകളും മായ്ച്ചു",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ലക്ഷ്യ ഭാഷ മാറ്റണോ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ഉറവിട ഭാഷ $SOURCE$ ആയി മാറ്റി. $TARGET$ ലേക്ക് വിവർത്തനം ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "അതെ, മാറ്റുക",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "വേണ്ട, നിലവിലുള്ളത് നിലനിർത്തുക",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "തുറക്കുക",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "പരിഹരിച്ചു",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "പ്രീമിയം സവിശേഷതകൾ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "സ്വയം കണ്ടെത്തി: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ഡാറ്റ സമന്വയിപ്പിക്കുക",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "വിവർത്തനം ചെയ്യാൻ $COUNT$ വാചകങ്ങൾ കണ്ടെത്തി",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "തിരഞ്ഞെടുത്തു",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "തയ്യാറെടുക്കുന്നു...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "പൂർത്തിയായി!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ഭാഷകളിൽ വിവർത്തനം ആരംഭിക്കുന്നു...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ ഭാഷകൾ പൂർത്തിയാക്കി",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ കെ.ബി.",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "കാഷെ മായ്ച്ചു",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "വ്യക്തമാക്കിയിട്ടില്ല",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ശീർഷകമില്ലാത്ത പേജ്",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "കാണുക",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "സ്ഥിരീകരിക്കുക",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ശരി",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "പ്രശ്നം വിശദമായി വിവരിക്കൂ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "പ്രശ്നം വിവരിക്കുക.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ദയവായി ആദ്യം സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "സൂചന: നിങ്ങളുടെ മാറ്റങ്ങൾ കയറ്റുമതി ചെയ്യാൻ Ctrl+E അമർത്തുക.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "എഡിറ്റിംഗ് മോഡ് പ്രവർത്തനരഹിതമാക്കാൻ ക്ലിക്ക് ചെയ്യുക. മാറ്റങ്ങൾ കയറ്റുമതി ചെയ്യാൻ Ctrl+E അമർത്തുക.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "മെച്ചപ്പെടുത്തൽ പ്രയോഗിച്ചു!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ മെച്ചപ്പെടുത്തലുകൾ പ്രയോഗിച്ചു!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ഗുണനിലവാര പരിശോധന പൂർത്തിയായി",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google ഡ്രൈവിലേക്ക് സമന്വയിപ്പിക്കുന്നു...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google ഡ്രൈവിലേക്ക് സമന്വയിപ്പിച്ചു!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ഡ്രൈവ് സമന്വയം പരാജയപ്പെട്ടു",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ഡ്രൈവിൽ നിന്ന് സമന്വയിപ്പിക്കാൻ സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google ഡ്രൈവിൽ നിന്ന് സമന്വയിപ്പിക്കുന്നു...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ഡ്രൈവിൽ നിന്ന് $COUNT$ റിപ്പോർട്ടുകൾ സമന്വയിപ്പിച്ചു!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ഡ്രൈവിൽ റിപ്പോർട്ടുകളൊന്നും കണ്ടെത്തിയില്ല.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "എക്സൽ ഫയൽ തയ്യാറാക്കുന്നു...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "എക്സൽ ഫയൽ എക്സ്പോർട്ട് ചെയ്തു: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel-ലേക്ക് കയറ്റുമതി ചെയ്യുന്നതിൽ പിശക്",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ഫയൽ എക്സ്പോർട്ട് ചെയ്തു: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON-ലേക്ക് കയറ്റുമതി ചെയ്യുന്നതിൽ പിശക്",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ഫയൽ എക്സ്പോർട്ട് ചെയ്തു: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV-യിലേക്ക് കയറ്റുമതി ചെയ്യുന്നതിൽ പിശക്",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ദയവായി സാധുവായ ഒരു JSON ഫയൽ അപ്‌ലോഡ് ചെയ്യുക.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ വിവർത്തന കീകൾ ലോഡ് ചെയ്തു",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "അസാധുവായ JSON ഫയൽ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "എല്ലാ ഘട്ടങ്ങളും പൂർത്തിയാക്കുക.",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI വിവർത്തനത്തിന് പ്രീമിയം ആവശ്യമാണ്. അപ്‌ഗ്രേഡ് ചെയ്യുക അല്ലെങ്കിൽ Google വിവർത്തനം ഉപയോഗിക്കുക.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ ലേക്ക് വിവർത്തനം ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "എല്ലാ വിവർത്തനങ്ങളും പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "വിവർത്തനം പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ഭാഷകളിലേക്ക് വിജയകരമായി വിവർത്തനം ചെയ്തു!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ഡൗൺലോഡ് ചെയ്തു",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ഫയൽ ഇവിടെ ഇടുക അല്ലെങ്കിൽ ബ്രൗസ് ചെയ്യാൻ ക്ലിക്ക് ചെയ്യുക",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "പിന്തുണയ്ക്കുന്നു: en.json, vi.json, മുതലായവ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google ട്രാൻസലേറ്റ്",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API ഉപയോഗിച്ചുള്ള വേഗതയേറിയതും സൗജന്യവുമായ വിവർത്തനം",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI വിവർത്തനം",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ഉപയോഗിച്ചുള്ള ഉയർന്ന നിലവാരമുള്ള സന്ദർഭ-അവബോധ വിവർത്തനം",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "സൗ ജന്യം",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "വേഗത",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "സന്ദർഭ അവബോധം",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "സ്വാഭാവിക പദസമുച്ചയം",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI ടെക്സ്റ്റിന് മികച്ചത്",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ലൈവ് എഡിറ്റ് പ്രവർത്തനരഹിതമാക്കുക ($COUNT$ എഡിറ്റുകൾ)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ലൈവ് എഡിറ്റ് പ്രാപ്തമാക്കുക ($COUNT$ ലാഭിച്ചു)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "തിരഞ്ഞെടുത്ത വാചകം ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "മികച്ച ബദലുകൾ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "എല്ലാ AI സവിശേഷതകളും പരിധിയില്ലാത്ത വിവർത്തനങ്ങളും അൺലോക്ക് ചെയ്യുക.",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI സ്മാർട്ട് നിർദ്ദേശങ്ങൾ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "വേഗത്തിലുള്ള ബാച്ച് വിവർത്തനം",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "യാന്ത്രിക ഗുണനിലവാര പരിശോധന",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "മുൻഗണനാ പിന്തുണ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "എല്ലാ ഭാഷകളുടെയും പിന്തുണ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ഇപ്പോൾ സബ്സ്ക്രൈബ് ചെയ്യുക",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "പ്രീമിയം അക്കൗണ്ട്",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "സജീവ സബ്‌സ്‌ക്രിപ്‌ഷൻ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "കാലഹരണപ്പെടുന്ന തീയതി",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ശേഷിക്കുന്ന ദിവസങ്ങൾ",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "പ്രശ്ന തരം:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "തെറ്റായ വിവർത്തനം",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ടെക്സ്റ്റ് ഓവർഫ്ലോ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ലേഔട്ട് തകർന്നു",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "വിവർത്തനം കാണുന്നില്ല",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ഫോർമാറ്റിംഗ് പ്രശ്നം",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "മറ്റുള്ളവ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ബഗ് റിപ്പോർട്ട് മാനേജർ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "നിങ്ങളുടെ പ്രാദേശികവൽക്കരണ പ്രശ്നങ്ങൾ കൈകാര്യം ചെയ്യുകയും കയറ്റുമതി ചെയ്യുകയും ചെയ്യുക",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "പ്രാദേശികവൽക്കരണ പ്രശ്നങ്ങൾ ട്രാക്ക് ചെയ്യുന്നതിന് പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ ആരംഭിക്കുക.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "നിങ്ങളുടെ ഫിൽട്ടറുകളുമായി പൊരുത്തപ്പെടുന്ന റിപ്പോർട്ടുകളൊന്നുമില്ല.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "എല്ലാ സ്റ്റാറ്റസും",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "എല്ലാ തീവ്രതയും",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "എല്ലാ വിഭാഗങ്ങളും",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ഉയർന്ന",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ഇടത്തരം",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "താഴ്ന്നത്",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "മികച്ചത്!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ടെക്സ്റ്റ് സെഗ്‌മെന്റുകൾ പരിശോധിച്ചു, പ്രശ്‌നങ്ങളൊന്നും കണ്ടെത്തിയില്ല.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ഉറവിട ഭാഷ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ലക്ഷ്യ ഭാഷ:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "സൈൻ ഇൻ നിർബന്ധമാണ്",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "വിവർത്തന സവിശേഷതകൾ ഉപയോഗിക്കാൻ ദയവായി സൈൻ ഇൻ ചെയ്യുക. സൗജന്യ ഉപയോക്താക്കൾക്ക് 10 വിവർത്തനങ്ങൾ ലഭിക്കും.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ വിവർത്തനങ്ങളിൽ $REMAINING$ എണ്ണം ശേഷിക്കുന്നു",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ഉപയോഗ പരിധി എത്തി",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "നിങ്ങളുടെ ഉപയോഗ പരിധിയിലെത്തി. പരിധിയില്ലാത്ത ആക്‌സസിന് പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "പരിധിയില്ലാത്ത വിവർത്തനങ്ങളും പ്രീമിയം സവിശേഷതകളും അൺലോക്ക് ചെയ്യുക",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "പ്രതിമാസം",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "പരിധിയില്ലാത്ത വിവർത്തനങ്ങൾ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "പിന്നീട് ആകാം",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "എപ്പോൾ വേണമെങ്കിലും റദ്ദാക്കാം. ചോദ്യങ്ങളൊന്നും ചോദിച്ചിട്ടില്ല.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "നിങ്ങളുടെ ഉപയോഗം",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ഉപയോഗിച്ച വിവർത്തനങ്ങൾ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "വിവർത്തന സവിശേഷതകൾ ഉപയോഗിക്കാൻ സൈൻ ഇൻ ചെയ്യുക.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ആവശ്യത്തിന് വിവർത്തനങ്ങൾ ശേഷിക്കുന്നില്ല. നിങ്ങൾക്ക് $REMAINING$ ബാക്കിയുണ്ട്, പക്ഷേ $SELECTED$ ഭാഷകൾ തിരഞ്ഞെടുത്തു. പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക അല്ലെങ്കിൽ ഭാഷകൾ കുറയ്ക്കുക.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "നിങ്ങൾ ബാക്കിയുള്ള $COUNT$ വിവർത്തനങ്ങളാണ് ഉപയോഗിക്കുന്നത്. പരിധിയില്ലാത്ത ആക്‌സസിന് പ്രീമിയത്തിലേക്ക് അപ്‌ഗ്രേഡ് ചെയ്യുക.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ഈ പേജിൽ പ്രവർത്തിപ്പിക്കാൻ കഴിയില്ല.",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI സാധാരണ വെബ്‌സൈറ്റുകളിൽ മാത്രമേ പ്രവർത്തിക്കൂ. ഇത് Chrome ഇന്റേണൽ പേജുകളിൽ പ്രവർത്തിക്കാൻ കഴിയില്ല.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "പിന്തുണയ്‌ക്കാത്ത പേജ് തരം",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "പിന്തുണയ്ക്കാത്ത പേജുകൾ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ഉപയോഗിക്കുന്നതിന് google.com പോലുള്ള ഒരു പതിവ് വെബ്‌സൈറ്റ് തുറക്കുക.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "വിവർത്തനം ആരംഭിക്കുക",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "എല്ലാം ഡൗൺലോഡ് ചെയ്യുക",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "മറ്റൊരു ഫയൽ വിവർത്തനം ചെയ്യുക",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ഇറക്കുമതി",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ഫയൽ അപ്‌ലോഡ് ചെയ്യുക",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ലക്ഷ്യ ഭാഷകൾ തിരഞ്ഞെടുക്കുക",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "വിവർത്തന മോഡ് തിരഞ്ഞെടുക്കുക",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ കീകൾ വിവർത്തനം ചെയ്‌തു",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "വിവർത്തനം പൂർത്തിയായി!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ആകെ റിപ്പോർട്ടുകൾ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "തുറന്ന പ്രശ്നങ്ങൾ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ഉയർന്ന മുൻഗണന",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ഡ്രൈവിലേക്ക് സമന്വയിപ്പിക്കുക",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ഡ്രൈവിൽ നിന്ന് സമന്വയിപ്പിക്കുക",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "എക്സൽ എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON എക്സ്പോർട്ട് ചെയ്യുക",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ഐഡി",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "തീവ്രത",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ഘടകം",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ഇഷ്യൂ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "നിർദ്ദേശിച്ച പരിഹാരങ്ങൾ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML കാണുക",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "എക്സ്പാത്ത്",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "വ്യൂപോർട്ട്",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "നിലവിലെ ഭാഷ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "കീകൾ വിവർത്തനം ചെയ്‌തു",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "കഴിഞ്ഞുപോയ സമയം",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "വിവർത്തനം ചെയ്യുന്നു...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate അല്ലെങ്കിൽ AI ഉപയോഗിച്ച് JSON ഭാഷാ ഫയലുകൾ ഒന്നിലധികം ഭാഷകളിലേക്ക് വിവർത്തനം ചെയ്യുക.",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "വിവർത്തനം ചെയ്യാൻ ഒന്നോ അതിലധികമോ ഭാഷകൾ തിരഞ്ഞെടുക്കുക.",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ഫോർമാറ്റ് കണ്ടെത്തി: $FORMAT$, മോഡ്: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ലേക്ക് വിവർത്തനം ചെയ്യുന്നു ($CURRENT$/$TOTAL$ കീകൾ)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ മാറ്റങ്ങൾ കയറ്റുമതി ചെയ്യുക",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "നിങ്ങളുടെ വിവർത്തന സംഘവുമായി പങ്കിടുന്നതിന് നിങ്ങളുടെ എഡിറ്റുകൾ കയറ്റുമതി ചെയ്യുക.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ഡൗൺലോഡ് ചെയ്യുക",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ഡൗൺലോഡ് ചെയ്യുക",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ മാറ്റങ്ങൾ സംരക്ഷിച്ചു. കയറ്റുമതി ചെയ്യാൻ Ctrl+E അമർത്തുക.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "എഡിറ്റിംഗ് മോഡ് പ്രാപ്തമാക്കാൻ ക്ലിക്ക് ചെയ്യുക",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "എഡിറ്റിംഗ് മോഡ് പ്രാപ്തമാക്കാൻ ക്ലിക്കുചെയ്യുക. നിങ്ങൾ മാറ്റങ്ങൾ സംരക്ഷിച്ചു. കയറ്റുമതി ചെയ്യാൻ Ctrl+E അമർത്തുക.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ഒരു വാചകവും തിരഞ്ഞെടുത്തിട്ടില്ല.",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI നിർദ്ദേശങ്ങൾ ലഭിക്കാൻ ടെക്സ്റ്റ് തിരഞ്ഞെടുക്കുക",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ഭാഷകളൊന്നും കണ്ടെത്തിയില്ല.",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "സൈൻ ഇൻ പരാജയപ്പെട്ടു. വീണ്ടും ശ്രമിക്കുക.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "വിജയകരമായി സൈൻ ഇൻ ചെയ്‌തു!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "വിജയകരമായി സൈൻ ഔട്ട് ചെയ്‌തു",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "പ്രാമാണീകരണം പരാജയപ്പെട്ടു. കാഷെ മായ്‌ച്ച് വീണ്ടും സൈൻ ഇൻ ചെയ്യാൻ ശ്രമിക്കുക.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "കാഷെ മായ്‌ക്കുന്നു...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "കാഷെ മായ്‌ക്കാനായില്ല",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "എക്സൽ ലൈബ്രറി ലഭ്യമല്ല. പേജ് വീണ്ടും ലോഡുചെയ്യുക.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ഒപ്റ്റിമൽ പ്രകടനത്തിനായി ഒരേസമയം പരമാവധി $MAX$ ഭാഷകൾ.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ തിരഞ്ഞെടുത്തു",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI വിവർത്തനം ഉപയോഗിക്കുന്നതിന് ദയവായി സൈൻ ഇൻ ചെയ്യുക",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ന്യായമായ വലിപ്പമുള്ള ഫയലുകൾക്ക് മികച്ചത്.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI മോഡ്: ഇത് $REQUESTS$ API കോളുകൾ ചെയ്യും. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ഈ വിവർത്തനം ഏകദേശം $COUNT$ API കോളുകൾ ചെയ്യും.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI മോഡ് പരമാവധി $MAX$ ഭാഷകളെ ഒരേസമയം പിന്തുണയ്ക്കുന്നു.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "വിവർത്തന രീതി",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "സൗജന്യം",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "അൺലിമിറ്റഡ്",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "വേഗം",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ഭാഷകൾ",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ഒന്നിലധികം ഭാഷാ വിവർത്തനത്തിന് പ്രീമിയം ആവശ്യമാണ്.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "പരിശോധിച്ചത്:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "അക്ഷരവിന്യാസം",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "വ്യാകരണം",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ഫോർമാറ്റിംഗ്",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ഒറിജിനൽ ടെക്‌സ്‌റ്റിന് പ്രശ്‌നങ്ങളൊന്നുമില്ല",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> ടെക്സ്റ്റ് സെഗ്‌മെൻ്റുകൾ പരിശോധിച്ചു",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "പരിഹരിക്കാൻ <strong>$COUNT$</strong> പിശകുകൾ കണ്ടെത്തി",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "പിശകുകളൊന്നുമില്ല!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ഗുണനിലവാര പരിശോധന റിപ്പോർട്ട്",
+    "description": "Quality check report title"
+  }
+}

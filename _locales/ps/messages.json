@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "د AI ژباړې ازموینې وسیله. ژوندی ژباړه، د بګ راپور، جعلی ځایی کول او د JSON ډله ایزه ژباړه.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "تړل",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "لغوه کول",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "خوندي کړئ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ړنګول",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "صادرول",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "همغږي کول",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "سرچینه",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "هدف",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ژبې ولټوئ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "د براوزر څخه په اتوماتيک ډول کشف شوی",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "د ژبې ټګل",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "د اصلي او ژباړل شوي متن ترمنځ بدل کړئ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "دا څنګه کار کوي: • د اصلي او ژباړل شوي متن ترمنځ بدل کړئ • ژباړې د چټک بدلون لپاره زیرمه شوي • په پاڼه کې د ټولو متنونو سره کار کوي • د بیا ژباړې لپاره زیرمه پاکه کړئ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "اصلي",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ژباړل شوی",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "د ژباړې لپاره چمتو",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "زیرمه پاکه کړئ او بیا ژباړه وکړئ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "جعلي ځایي کول",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "د اوور فلو مسلو موندلو لپاره د اوږد متن سره UI ازموینه وکړئ",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "دا څنګه کار کوي: • د تورو ځای په ځای کولو سره accented versions • د 30-40٪ اوږدوالي پراخول اضافه کوي • متن په [!!!... !!!] مارکرونو کې پوښي • مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "سیډو-لوک تطبیق کړئ",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "د ژوندۍ ایډیټ حالت",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "په پاڼه کې د مستقیم سمون لپاره په هر متن کلیک وکړئ",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "دا څنګه کار کوي: • د هر متن عنصر د سمولو لپاره کلیک وکړئ • بدلونونه په ریښتیني وخت کې تعقیب کیږي • سمونونه د JSON یا Excel په توګه صادر کړئ • د بدلونونو صادرولو لپاره Ctrl+E فشار ورکړئ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ژوندۍ ایډیټ فعال کړئ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "د مصنوعي ذهانت ځانګړتیاوې",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "د مصنوعي ذهانت په مرسته د ژباړې وسایل",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "غوره ځانګړتیاوې: • د مصنوعي ذهانت په واسطه ځواکمن شوي د شرایطو څخه خبر ژباړه • د ټولو پاڼو ډله ییزه ژباړه • د ژباړو لپاره د کیفیت چک • د طبیعي ژبې وړاندیزونه",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "د مصنوعي ذهانت وړاندیزونه ترلاسه کړئ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "سمارټ بیچ ژباړه",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "په پاڼه کې ټول متن د AI شرایطو سره ژباړي",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "د ژباړې کیفیت وګورئ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "پریمیم",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "د JSON فایل ژباړونکی",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "د JSON ژبې فایلونه څو ژبو ته وژباړئ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "دا څنګه کار کوي: • د JSON ژبې فایلونه اپلوډ کړئ • د هدف ژبې غوره کړئ • د ګوګل یا AI سره ژباړه وکړئ • ژباړل شوي فایلونه ډاونلوډ کړئ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "د JSON فایل وژباړئ",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "د راپور ورکولو ستونزه",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "د متن د ژباړې او ځای پر ځای کولو مسلو راپور ورکړئ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "دا څنګه کار کوي: • د مسلو راپور ورکولو لپاره د متن عناصرو باندې کلیک وکړئ • توضیحات او شدت اضافه کړئ • راپورونه ایکسل یا JSON ته صادر کړئ • د ګوګل ډرایو سره همغږي کړئ",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "راپور ورکول پیل کړئ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "راپورونه اداره کړئ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "حساب",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "د ګوګل سره ننوتل",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "پریمیم ته لوړ کړئ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "پریمیم معلومات",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "وتون",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "د تېروتنې راپورونه",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "د راپورونو لټون...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ټول پاک کړئ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "تر اوسه د کومې تېروتنې راپور نشته",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "د ستونزو د تعقیب لپاره \"راپور ورکول پیل کړئ\" کلیک وکړئ",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "هیڅ پایلې ونه موندل شوې",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "مختلف کلیمې هڅه وکړئ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "تفصيلات وګورئ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "د حل شوي په توګه نښه کړئ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "بیا پرانیستل",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "د تېروتنې راپور #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "اساسي معلومات",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "وضعیت",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "کټګوري",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "نیټه",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "د عنصر جزئیات",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ټګ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "متن",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "انتخاب کوونکی",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "د ژباړې متن",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "د مسلې تفصیل",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "د پاڼې معلومات",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "سرلیک",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "راپور ړنګ کړئ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ایا تاسو ډاډه یاست چې غواړئ راپور #$ID$ حذف کړئ؟",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ټول راپورونه پاک کړئ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ټول د تېروتنې راپورونه ړنګ کړئ؟ دا عمل بیرته نشي راوستلی!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ټول ړنګ کړئ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "د تېروتنې راپورونه صادر کړئ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "د صادراتو بڼه غوره کړئ:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ایکسل ته صادر کړئ",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON ته صادر کړئ",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "د ګوګل ډرایو سره همغږي کول",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "راپور #$ID$ د $STATUS$ په توګه نښه شوی",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "راپور #$ID$ حذف شو",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ټول راپورونه پاک شول",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "د هدف ژبه بدله کړئ؟",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "د سرچینې ژبه $SOURCE$ ته بدله شوه. ایا تاسو غواړئ چې $TARGET$ ته وژباړئ؟",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "هو، بدلون",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "نه، اوسنی وساتئ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "خلاص",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "حل شوی",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "دا څنګه کار کوي:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "غوره ځانګړتیاوې:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "په اتومات ډول کشف شو: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "معلومات همغږي کړئ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "د ژباړې لپاره $COUNT$ متنونه وموندل شول",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "غوره شوی",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "چمتو کول...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "بشپړ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "د $COUNT$ ژبو لپاره ژباړه پیل کیږي...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ د $SUCCESS$/$TOTAL$ ژبې بشپړې شوې",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$سایز$ کیلو بایټ $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$وختونه $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "زیرمه پاکه شوه",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "مشخص شوی نه دی",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "بې سرلیکه پاڼه",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "لید",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "تایید کړئ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "سمه ده",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "موضوع په تفصیل سره بیان کړئ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "مهرباني وکړئ ستونزه تشریح کړئ",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "مهرباني وکړئ لومړی لاسلیک وکړئ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "لارښوونه: د خپلو بدلونونو صادرولو لپاره Ctrl+E فشار ورکړئ",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "د سمون حالت غیر فعالولو لپاره کلیک وکړئ. د بدلونونو صادرولو لپاره Ctrl+E فشار ورکړئ.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "کلپ بورډ ته کاپي شو!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ښه والی تطبیق شو!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "د $COUNT$ ښه والی تطبیق شو!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "د کیفیت چک بشپړ شو",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "ګوګل ډرایو سره همغږي کېږي...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "د ګوګل ډرایو سره همغږي شوی!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "د ډرایو همغږي ناکامه شوه",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "مهرباني وکړئ د ډرایو څخه د همغږۍ لپاره لاسلیک وکړئ",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "د ګوګل ډرایو څخه همغږي کیږي...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "د ډرایو څخه د $COUNT$ راپورونه همغږي شوي!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "په ډرایو کې هیڅ راپور ونه موندل شو",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "د ایکسل فایل چمتو کول...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "د ایکسل فایل صادر شو: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ایکسل ته د صادرولو تېروتنه",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "د JSON فایل صادر شو: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON ته د صادرولو تېروتنه",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "د CSV فایل صادر شو: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV ته د صادرولو تېروتنه",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "مهرباني وکړئ یو باوري JSON فایل اپلوډ کړئ",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "د $COUNT$ ژباړې کیلي بار شوې",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ناسم JSON فایل",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "مهرباني وکړئ ټول ګامونه بشپړ کړئ",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "د مصنوعي ذهانت ژباړه پریمیم ته اړتیا لري. مهرباني وکړئ اپ گریڈ کړئ یا ګوګل ژباړونکی وکاروئ.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ ته په ژباړه کې پاتې راغی",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ټولې ژباړې ناکامې شوې. مهرباني وکړئ بیا هڅه وکړئ.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ژباړه ناکامه شوه. مهرباني وکړئ بیا هڅه وکړئ.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "په بریالیتوب سره $COUNT$ ژبو ته ژباړل شوی!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ډاونلوډ شو",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "دلته د JSON فایل پریږدئ یا د لټون لپاره کلیک وکړئ",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ملاتړ کوي: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google ژباړه",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "د ګوګل ژباړې API په کارولو سره چټکه او وړیا ژباړه",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "د مصنوعي ذهانت ژباړه",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "د مصنوعي ذهانت په کارولو سره د لوړ کیفیت لرونکي متن ژباړه",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "وړیا",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "چټک",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "د شرایطو څخه خبر",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "طبیعي جملې جوړول",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "د UI متن لپاره غوره",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ژوندۍ سمون غیر فعال کړئ ($COUNT$ سمونونه)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ژوندۍ سمون فعال کړئ ($COUNT$ خوندي شوی)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "غوره شوی متن ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "غوره بدیلونه ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "پریمیم ته لوړ کړئ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "د مصنوعي ذهانت ټولې ځانګړتیاوې او نامحدود ژباړې خلاص کړئ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "د مصنوعي ذهانت سمارټ وړاندیزونه",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "چټک ډله ژباړه",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "د کیفیت اتومات چک",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "د لومړیتوب ملاتړ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ټولې ژبې ملاتړ کوي",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "اوس ګډون وکړئ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "پریمیم حساب",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "فعال ګډون",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "د پای نیټه",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "پاتې ورځې",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "د موضوع ډول:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "غلط ژباړه",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "د متن ګڼه ګوڼه",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ترتیب مات شوی",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ورکه ژباړه",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "د فارمیټ کولو ستونزه",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "نور",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "د بګ راپور مدیر",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "خپل د ځای پر ځای کولو مسلې اداره او صادر کړئ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "د ځایي کولو ستونزو تعقیبولو لپاره د ستونزو راپور ورکول پیل کړئ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ستاسو د فلټرونو سره سمون نه خوري راپورونه",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ټول حالت",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ټول شدت",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ټول کټګورۍ",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "لوړ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "منځنی",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ټیټ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ډېر ښه!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "د $COUNT$ متن برخې مې وګورلې او کومه ستونزه یې ونه موندله.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "د سرچینې ژبه:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "د هدف ژبه:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ننوتل اړین دي",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "مهرباني وکړئ د ژباړې ځانګړتیاو کارولو لپاره لاسلیک وکړئ. وړیا کاروونکي 10 ژباړې ترلاسه کوي.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "د $LIMIT$ څخه $REMAINING$ ژباړې پاتې دي",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "د کارولو حد ته ورسېدل",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "تاسو د خپل کارونې حد ته رسیدلي یاست. د لامحدود لاسرسي لپاره پریمیم ته لوړ کړئ.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "پریمیم ته لوړ کړئ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "نامحدود ژباړې او پریمیم ځانګړتیاوې خلاص کړئ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "په میاشت کې",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "نامحدود ژباړې",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "شاید وروسته",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "هر وخت لغوه کړئ. هیڅ پوښتنه نه ده شوې.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ستاسو کارول",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ژباړې کارول شوې",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "مهرباني وکړئ د ژباړې ځانګړتیاو کارولو لپاره لاسلیک وکړئ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "کافي ژباړې پاتې نه دي. تاسو $REMAINING$ پاتې دي مګر $SELECTED$ ژبې غوره کړې دي. مهرباني وکړئ پریمیم ته لوړ کړئ یا ژبې کمې کړئ.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "تاسو د پاتې ټولو $COUNT$ ژباړو څخه کار اخلئ. د لامحدود لاسرسي لپاره پریمیم ته لوړ کړئ.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "په دې پاڼه کې نشي چلیدلی",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI یوازې په عادي ویب پاڼو کې کار کوي. دا د کروم داخلي پاڼو کې نشي چلیدلی.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "د پاڼې ډول چې ملاتړ یې نه کیږي",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "نه ملاتړ شوي پاڼې:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "د LocalizeAI کارولو لپاره یو منظم ویب پاڼه لکه google.com پرانیزئ.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ژباړه پیل کړئ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ټول ډاونلوډ کړئ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "بل فایل وژباړئ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ډاونلوډ کړئ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "د JSON فایل اپلوډ کړئ",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "د هدف ژبې غوره کړئ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "د ژباړې حالت غوره کړئ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ کیلي ژباړل شوې",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ژباړه بشپړه شوه!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ټول راپورونه",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "خلاصې مسلې",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "لوړ لومړیتوب",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ډرایو سره همغږي کول",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "له ډرایو څخه همغږي کول",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ایکسل صادر کړئ",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON صادر کړئ",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "پېژندپاڼه",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "شدت",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "عنصر",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ستونزه",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "وړاندیز شوي حلونه",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML وګورئ",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ایکس پات",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ویوپورټ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "اوسنۍ ژبه",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "ژباړل شوي کیلي",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "تېر شوی وخت",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ژباړه...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "د ګوګل ژباړې یا AI په کارولو سره د JSON ژبې فایلونه څو ژبو ته وژباړئ",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "د ژباړې لپاره یو یا څو ژبې غوره کړئ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "بڼه وموندل شوه: $FORMAT$، حالت: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ ته ژباړل... ($CURRENT$/$TOTAL$ کیلي)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "د $COUNT$ بدلونونه صادر کړئ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "خپل سمونونه د خپلې ژباړې ټیم سره شریکولو لپاره صادر کړئ",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ډاونلوډ کړئ",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ډاونلوډ کړئ",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ بدلونونه خوندي شول. د صادرولو لپاره Ctrl+E فشار ورکړئ.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "د سمون حالت فعالولو لپاره کلیک وکړئ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "د سمون حالت فعالولو لپاره کلیک وکړئ. تاسو بدلونونه خوندي کړي دي. د صادرولو لپاره Ctrl+E فشار ورکړئ.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "هیڅ متن نه دی ټاکل شوی",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "د AI وړاندیزونو ترلاسه کولو لپاره متن غوره کړئ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "هیڅ ژبه ونه موندل شوه",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ننوتل ناکام شول. مهرباني وکړئ بیا هڅه وکړئ.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "په بریالیتوب سره لاسلیک شو!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "په بریالیتوب سره لاسلیک شو",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "تصدیق ناکام شو. مهرباني وکړئ د زیرمې پاکولو او بیا ننوتلو هڅه وکړئ.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "د زیرمې پاکول...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "د زیرمې پاکولو کې پاتې راغلل",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "د ایکسل کتابتون شتون نلري. مهرباني وکړئ پاڼه بیا پورته کړئ.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "د غوره فعالیت لپاره په یوځل کې اعظمي $MAX$ ژبې.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ غوره شوی",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "مهرباني وکړئ د AI ژباړې کارولو لپاره لاسلیک وکړئ",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "د مناسب اندازې فایلونو لپاره غوره.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI حالت: دا به $REQUESTS$ API کالونه وکړي. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "دا ژباړه به نږدې $COUNT$ API کالونه وکړي.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI موډ په یو وخت کې د ډیرو $MAX$ ژبو ملاتړ کوي.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "د ژباړې طریقه",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "وړيا",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "لامحدود",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "چټک",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ژبې",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "د څو ژبو ژباړه پریمیم ته اړتیا لري.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "چک شوی:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "املا",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ګرامر",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "شکل ورکول",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "اصلي متن کومه ستونزه نلري",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "چک شوي <strong>$COUNT$</strong> متن برخې",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "د سمولو لپاره <strong>$COUNT$</strong> غلطۍ وموندل",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "هیڅ غلطی نشته!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "د کیفیت چک راپور",
+    "description": "Quality check report title"
+  }
+}

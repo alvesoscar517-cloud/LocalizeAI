@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "AI алат за тестирање превода. Превођење уживо, пријављивање грешака, псеудо-локализација и групно JSON превођење.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Затвори",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Откажи",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Сачувај",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Обриши",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Извоз",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Синхронизација",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ИЗВОР",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ЦИЉ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Претражи језике...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Аутоматски детектовано из прегледача",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Пребацивање језика",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Пребацивање између оригиналног и преведеног текста",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Како функционише: • Пребацивање између оригиналног и преведеног текста • Преводи се кеширају ради брзог пребацивања • Ради са свим текстом на страници • Обришите кеш меморију да бисте поново превели",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Оригинал",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Преведено",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Спремно за превод",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Обриши кеш и поново преведи",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Псеудо-локализација",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Тестирајте кориснички интерфејс са дужим текстом да бисте пронашли проблеме са прекорачењем",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Како функционише: • Замењује знакове верзијама са акценатима • Додаје проширење дужине од 30-40% • Прелама текст у маркере [!!!... !!!] • Пример: „Подешавања“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Примени псеудо-локацију",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Режим уређивања уживо",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Кликните на било који текст да бисте га уредили директно на страници",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Како функционише: • Кликните на било који текстуални елемент да бисте га изменили • Промене се прате у реалном времену • Извезите измене као JSON или Excel • Притисните Ctrl+E да бисте извезли измене",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Омогући уређивање уживо",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Карактеристике вештачке интелигенције",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Алати за превођење засновани на вештачкој интелигенцији",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Премијум функције: • Превод заснован на контексту помоћу вештачке интелигенције • Групно превођење целих страница • Провера квалитета превода • Предлози за природни језик",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Добијте предлоге вештачке интелигенције",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Паметно групно превођење",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Преводи САВ текст на страници помоћу вештачке интелигенције",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Проверите квалитет превода",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Премијум",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Преводилац JSON датотека",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Преведите JSON језичке датотеке на више језика",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Како функционише: • Отпремите JSON језичке датотеке • Изаберите циљне језике • Преведите помоћу Google-а или вештачке интелигенције • Преузмите преведене датотеке",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Преведи JSON датотеку",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Пријави проблем",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Пријавите проблеме са преводом и локализацијом текста",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Како функционише: • Кликните на текстуалне елементе да бисте пријавили проблеме • Додајте описе и озбиљност • Извезите извештаје у Excel или JSON • Синхронизујте са Google диском",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Почни са извештавањем",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Управљање извештајима",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Налог",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Пријавите се помоћу Google-а",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Надоградите на Премиум",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Премијум информације",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Одјава",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Извештаји о грешкама",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Претражи извештаје...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Обриши све",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Још нема извештаја о грешкама",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Кликните на „Почни са извештавањем“ да бисте пратили проблеме",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Нису пронађени резултати",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Испробајте различите кључне речи",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Прикажи детаље",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Означи као решено",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Поново отвори",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Извештај о грешци #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Основне информације",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Категорија",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Датум",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Детаљи елемента",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Ознака",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Текст",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Селектор",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Контекст превода",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Опис проблема",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Информације о страници",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Наслов",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "УРЛ",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Обриши извештај",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Да ли сте сигурни да желите да обришете извештај #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Обриши све извештаје",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Да ли желите да обришете СВЕ извештаје о грешкама? Ова радња се не може поништити!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Обриши све",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Извоз извештаја о грешкама",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Изаберите формат извоза:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Извоз у Ексел",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Извоз у JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Синхронизуј са Google диском",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Извештај #$ИД$ означен као $СТАТУС$ $ID$ $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Извештај бр. $ID$ обрисан",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Сви извештаји су обрисани",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Променити циљни језик?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Изворни језик је промењен на $SOURCE$. Да ли желите да преведете на $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Да, Промена",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Не, задржи актуелно",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "отворено",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "решен",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Како функционише:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Премијум карактеристике:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Аутоматски детектовано: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Синхронизација података",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Пронађено $COUNT$ текстова за превод",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "одабрано",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Припрема...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Завршено!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Покретање превода за $COUNT$ језика...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Завршени $СУЦЦЕСС$/$ТОТАЛ$ језици $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$СИЗЕ$ КБ $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ТИМЕ$с $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Кеш меморија је обрисана",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Није наведено",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Неименована страница",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Поглед",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Потврди",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "У реду",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Детаљно опишите проблем...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Молимо вас да опишете проблем",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Молимо вас да се прво пријавите",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Савет: Притисните Ctrl+E да бисте извезли измене",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Кликните да бисте онемогућили режим уређивања. Притисните Ctrl+E да бисте извезли измене.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Копирано у међуспремник!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Побољшање је примењено!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Примењено је $COUNT$ побољшања!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Провера квалитета завршена",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Синхронизација са Google диском...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Синхронизовано са Google диском!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Синхронизација Диска није успела",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Пријавите се да бисте синхронизовали са Диска",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Синхронизација са Google диска...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Синхронизовано $COUNT$ извештаја са Диска!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Није пронађен ниједан извештај на Диску",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Припрема Ексел датотеке...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Извезена Excel датотека: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Грешка при извозу у Ексел",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Извезена JSON датотека: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Грешка при извозу у JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Извезена CSV датотека: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Грешка при извозу у CSV формат",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Молимо вас да отпремите важећу JSON датотеку",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Учитано $COUNT$ преводилачких кључева",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Неважећа JSON датотека",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Молимо вас да завршите све кораке",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "За превод са вештачком интелигенцијом потребан је премијум приступ. Надоградите или користите Google преводилац.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Превод на $LANG$ није успео",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Сви преводи нису успели. Молимо покушајте поново.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Превод није успео. Молимо покушајте поново.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Успешно преведено на $COUNT$ језика!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Преузето $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Отпустите JSON датотеку овде или кликните да бисте прегледали",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Подржава: ен.јсон, ви.јсон, итд.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Гугл преводилац",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Брз и бесплатан превод помоћу Google Translate API-ја",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Превод са вештачком интелигенцијом",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Висококвалитетно превођење у зависности од контекста помоћу вештачке интелигенције",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Бесплатно",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Брзо",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Контекстно свесно",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Природно фразирање",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Боље за текст корисничког интерфејса",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Онемогући уређивање уживо ($COUNT$ измена)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Омогући уређивање уживо (уштеђено $COUNT$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Изабрани текст ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Боље алтернативе ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Надоградите на Премиум",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Откључајте све вештачке интелигенције и неограничене преводе",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Паметни предлози вештачке интелигенције",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Брзи групни превод",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Аутоматска провера квалитета",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Приоритетна подршка",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Подршка за све језике",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Претплатите се сада",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Премијум налог",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Активна претплата",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Датум истека",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Преостали дани",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Тип проблема:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Погрешан превод",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Преливање текста",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Распоред прекршен",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Недостаје превод",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Проблем са форматирањем",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Друго",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Менаџер извештаја о грешкама",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Управљајте проблемима локализације и извозите их",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Почните да пријављујете проблеме како бисте пратили проблеме са локализацијом",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ниједан извештај не одговара вашим филтерима",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Сви статуси",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Сва озбиљност",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Све категорије",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Високо",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Средњи",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Ниско",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Одлично!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Проверено је $COUNT$ текстуалних сегмената и нису пронађени проблеми.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Изворни језик:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Циљани језик:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Потребна је пријава",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Пријавите се да бисте користили функције превођења. Бесплатни корисници добијају 10 превода.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Преостало је $REMAINING$ од $LIMIT$ превода",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Достигнуто је ограничење коришћења",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Достигли сте ограничење коришћења. Надоградите на Премиум за неограничен приступ.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Надоградите на Премиум",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Откључајте неограничене преводе и премиум функције",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "месечно",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Неограничени преводи",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Можда касније",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Откажите било када. Без питања.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Ваша употреба",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "коришћени преводи",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Пријавите се да бисте користили функције превођења",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Нема довољно превода. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Користите свих преосталих $ЦОУНТ$ превода. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Не може се покренути на овој страници",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "ЛокализАИ ради само на обичним веб-сајтовима. Не може да се покреће на интерним страницама Chrome-а.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Неподржани тип странице",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Неподржане странице:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Отворите обичан веб-сајт попут google.com да бисте користили LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Почни превод",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Преузми све",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Преведи другу датотеку",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Преузми",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Отпреми JSON датотеку",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Изаберите циљне језике",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Изаберите режим превођења",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Преведено је $COUNT$ кључева",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Превод завршен!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Укупан број извештаја",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Отворена питања",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Висок приоритет",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Синхронизуј са Диском",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Синхронизација са Диска",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Извоз у Ексел",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Извези JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ИД",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Озбиљност",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Елемент",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Проблем",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Предложена решења",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Прикажи HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "КСПатх",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Видни део",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Тренутни језик",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Кључеви преведени",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Протекло време",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Превођење...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Преведите JSON језичке датотеке на више језика помоћу Google преводиоца или вештачке интелигенције",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Изаберите један или више језика за превод",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Откривен формат: $FORMAT$, Режим: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Превођење на $LANG$... (кључеви $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Извези $COUNT$ измена",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Извезите своје измене да бисте их поделили са својим преводилачким тимом",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Преузми CSV датотеку",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Преузми JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Сачувано је $COUNT$ промена. Притисните Ctrl+E за извоз.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Кликните да бисте омогућили режим уређивања",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Кликните да бисте омогућили режим уређивања. Сачували сте измене. Притисните Ctrl+E да бисте извезли.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Није изабран текст",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Изаберите текст да бисте добили предлоге вештачке интелигенције",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Није пронађен ниједан језик",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Пријављивање није успело. Молимо покушајте поново.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Успешно пријављени!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Успешно одјављен/а",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Аутентификација није успела. Молимо вас да покушате да обришете кеш меморију и поново се пријавите.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Брисање кеша...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Брисање кеша није успело",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Ексел библиотека није доступна. Молимо вас да поново учитате страницу.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Максимално $МАКС$ језика одједном за оптималне перформансе. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Изабрано је $ЦОУНТ$ / $МАКС$ $COUNT$ $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Пријавите се да бисте користили АИ превод",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Најбоље за датотеке разумне величине.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "АИ режим: Ово ће упутити РЕКУЕСТС АПИ позиве.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Овај превод ће извршити приближно ЦОУНТ АПИ позива. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "АИ режим подржава максимално $МАКС$ језика одједном. $MAX$",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Метод превођења",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Бесплатно",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Неограничено",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Фаст",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "језика",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Превод на више језика захтева Премиум.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Проверено:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Правопис",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Граматика",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Форматирање",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Оригинални текст нема проблема",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Проверено је $ЦОУНТ$ текстуалних сегмената",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Пронађено је $ЦОУНТ$ грешака које треба исправити",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Нема грешака!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Извештај о провери квалитета",
+    "description": "Quality check report title"
+  }
+}

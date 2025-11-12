@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI itzulpen proba tresna. Zuzeneko itzulpena, akats txostenak, pseudo-lokalizazioa eta JSON itzulpen masiboak.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Itxi",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Utzi",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Gorde",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Ezabatu",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Esportatu",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinkronizatu",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ITURRIA",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "HELBURUA",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Bilatu hizkuntzak...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Arakatzaileak automatikoki detektatu du",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Hizkuntza Txandakatu",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Aldatu jatorrizko testuaren eta itzulitako testuaren artean",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Nola funtzionatzen duen: • Jatorrizko testuaren eta itzulitakoaren artean txandakatu • Itzulpenak cachean gordetzen dira aldaketa azkarra ahalbidetzeko • Orrialdeko testu guztiarekin funtzionatzen du • Garbitu cachea berriro itzultzeko",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Jatorrizkoa",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Itzulia",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Itzultzeko prest",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Garbitu cachea eta itzuli berriro",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalizazioa",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Probatu UI testu luzeagoekin gainezkatze arazoak aurkitzeko",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Nola funtzionatzen duen: • Karaktereak azentudun bertsioekin ordezkatzen ditu • % 30-40ko luzera-hedapena gehitzen du • Testua [!!!... !!!] markatzaileetan biltzen du • Adibidea: \"Ezarpenak\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aplikatu Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Zuzeneko edizio modua",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Egin klik edozein testu orrialdean bertan editatzeko",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Nola funtzionatzen duen: • Egin klik edozein testu-elementu editatzeko • Aldaketak denbora errealean jarraitzen dira • Esportatu edizioak JSON edo Excel gisa • Sakatu Ctrl+E aldaketak esportatzeko",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Zuzeneko edizioa gaitu",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI Ezaugarriak",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Adimen artifizialaren bidezko itzulpen tresnak",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Ezaugarri Premiumak: • Adimen Artifizialaren bidezko testuinguruaren araberako itzulpena • Orrialde osoak multzoka itzuli • Itzulpenen kalitate-egiaztapena • Hizkuntza naturaleko iradokizunak",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Lortu IA iradokizunak",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Itzulpen Multzo Adimenduna",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Orrialdeko testu GUZTIA itzultzen du IA testuinguruarekin",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Itzulpenaren kalitatea egiaztatu",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON fitxategi itzultzailea",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Itzuli JSON hizkuntza fitxategiak hainbat hizkuntzatara",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Nola funtzionatzen duen: • JSON hizkuntza fitxategiak igo • Helburu hizkuntzak hautatu • Google edo AI erabiliz itzuli • Itzulitako fitxategiak deskargatu",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Itzuli JSON fitxategia",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Arazoaren berri eman",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Testu-itzulpen eta lokalizazio arazoen berri eman",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Nola funtzionatzen duen: • Egin klik testu elementuetan arazoak salatzeko • Gehitu deskribapenak eta larritasuna • Esportatu txostenak Excel edo JSON formatuan • Sinkronizatu Google Drive-rekin",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Hasi txostenak",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Txostenak kudeatu",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Kontua",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Hasi saioa Google-rekin",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Igotu Premium-era",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium informazioa",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Saioa itxi",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Akatsen txostenak",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Bilaketa-txostenak...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Garbitu dena",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Oraindik ez dago akatsen berririk",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Sakatu \"Hasi txostena\" arazoak jarraitzeko",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ez da emaitzarik aurkitu",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Saiatu gako-hitz desberdinak",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Ikusi xehetasunak",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Markatu ebatzitako gisa",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Berriro ireki",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Akatsen txostena #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Oinarrizko informazioa",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Egoera",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementuaren xehetasunak",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etiketa",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Testua",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Hautatzailea",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Itzulpenaren testuingurua",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Arazoaren deskribapena",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Orriaren informazioa",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Izenburua",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URLa",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ezabatu txostena",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ziur zaude $ID$ txostena ezabatu nahi duzula?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Garbitu txosten guztiak",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Akatsen txosten GUZTIAK ezabatu? Ekintza hau ezin da desegin!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ezabatu guztiak",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Esportatu akatsen txostenak",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Aukeratu esportazio formatua:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Esportatu Excelera",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Esportatu JSON formatura",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinkronizatu Google Drive-rekin",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "$STATUS$ gisa markatutako #$ID$ txostena",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ezabatu da $ID$ txostena",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Txosten guztiak garbitu dira",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Aldatu helburu hizkuntza?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Jatorrizko hizkuntza $SOURCE$-ra aldatu da. $TARGET$-ra itzuli nahi al duzu?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Bai, Aldaketa",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ez, eguneratuta mantendu",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ireki",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "konponduta",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Nola funtzionatzen duen:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Ezaugarri Premiumak:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatikoki detektatua: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinkronizatu datuak",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ testu aurkitu dira itzultzeko",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "hautatua",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Prestatzen...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Osatua!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ hizkuntzetarako itzulpena hasten...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ hizkuntzak osatuta",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cachea garbitu da",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Zehaztu gabe",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Izenik gabeko orrialdea",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Ikusi",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Berretsi",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Ados",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Deskribatu arazoa xehetasunez...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Mesedez, deskribatu arazoa.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Mesedez, hasi saioa lehenik",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Aholkua: Sakatu Ctrl+E aldaketak esportatzeko",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Egin klik edizio modua desgaitzeko. Sakatu Ktrl+E aldaketak esportatzeko.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Arbelean kopiatu da!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Hobekuntza aplikatu da!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ hobekuntza aplikatu dira!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kalitate-egiaztapena osatu da",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive-rekin sinkronizatzen...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive-rekin sinkronizatuta!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Unitatearen sinkronizazioak huts egin du",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Mesedez, hasi saioa Drive-tik sinkronizatzeko",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive-tik sinkronizatzen...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ txosten sinkronizatu dira Drive-tik!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ez da txostenik aurkitu Drive-n",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel fitxategia prestatzen...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel fitxategia esportatu da: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Errorea Excelera esportatzean",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON fitxategia esportatu da: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Errorea JSON formatura esportatzean",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Esportatutako CSV fitxategia: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Errorea CSV formatura esportatzean",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Mesedez, igo baliozko JSON fitxategi bat",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ itzulpen-giltza kargatu dira",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "JSON fitxategi baliogabea",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Mesedez, bete urrats guztiak",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI itzulpenak Premium behar du.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Ezin izan da itzuli $LANG$ hizkuntzara",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Itzulpen guztiek huts egin dute. Saiatu berriro, mesedez.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Itzulpenak huts egin du. Saiatu berriro.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ hizkuntzatara itzuli da!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ deskargatu da",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Jaregin JSON fitxategia hemen edo egin klik arakatzeko",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Euskarriak: en.json, vi.json, etab.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Itzultzailea",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Itzulpen azkarra eta doakoa Google Translate APIa erabiliz",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI itzulpena",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Testuinguruaren araberako itzulpen bikaina adimen artifiziala erabiliz",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Doan",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Azkarra",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Testuinguruaren araberakoa",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Esaldi naturalak",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Hobea UI testurako",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Desgaitu zuzeneko edizioa ($COUNT$$ edizio)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Zuzeneko edizioa gaitu ($COUNT$$ aurreztuta)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Hautatutako testua ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternatiba hobeak ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Igotu Premium-era",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Desblokeatu AI funtzio guztiak eta itzulpen mugagabeak",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI iradokizun adimendunak",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Itzulpen azkarra multzoka",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Kalitate-egiaztapen automatikoa",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Lehentasunezko laguntza",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Hizkuntza guztien laguntza",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Harpidetu orain",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium kontua",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Harpidetza aktiboa",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Iraungitze data",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Geratzen diren egunak",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Arazo mota:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Itzulpen okerra",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Testuaren gainezkatzea",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Diseinua hautsia",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Itzulpena falta da",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formatu arazoa",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Beste",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Akatsen Txostenen Kudeatzailea",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Kudeatu eta esportatu zure lokalizazio arazoak",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Lokalizazio arazoak jarraitzeko, hasi arazoak salatzen",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ez dago zure iragazkiekin bat datorren txostenik",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Egoera guztiak",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Larritasun Guztia",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Kategoria guztiak",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Altua",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Ertaina",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Baxua",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Bikain!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ testu segmentu egiaztatu ditut eta ez dut arazorik aurkitu.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Jatorrizko hizkuntza:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Helburu hizkuntza:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Saioa hasi behar da",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Mesedez, hasi saioa itzulpen funtzioak erabiltzeko. Doako erabiltzaileek 10 itzulpen lortzen dituzte.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ itzulpenetatik $REMAINING$ geratzen dira",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Erabilera Muga Iritsi Da",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Erabilera mugara iritsi zara.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Igotu Premium-era",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Desblokeatu itzulpen mugagabeak eta premium funtzioak",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "hilean",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Itzulpen mugagabeak",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Agian geroago",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Edozein unetan bertan behera utzi. Ez da galderarik egingo.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Zure erabilera",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "erabilitako itzulpenak",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Mesedez, hasi saioa itzulpen funtzioak erabiltzeko",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ez dago itzulpen nahikorik. $REMAINING$ geratzen zaizkizu, baina $SELECTED$ hizkuntza hautatu dituzu. Mesedez, berritu Premiumera edo murriztu hizkuntzak.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Gainerako $COUNT$ itzulpen guztiak erabiltzen ari zara.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ezin da orrialde honetan exekutatu",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI-k webgune arruntetan bakarrik funtzionatzen du. Ezin da Chrome-ren barne orrialdeetan exekutatu.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Orrialde mota ez-onargarria",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Onartu gabeko orrialdeak:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Ireki webgune arrunt bat, google.com bezalakoa, LocalizeAI erabiltzeko.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Hasi itzulpena",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Deskargatu guztiak",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Beste fitxategi bat itzuli",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Deskargatu",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON fitxategia igo",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Hautatu helburu-hizkuntzak",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Aukeratu itzulpen modua",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ giltza itzulita",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Itzulpena osatuta!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Txosten guztiak",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Arazo irekiak",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Lehentasun Handia",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinkronizatu Drive-rekin",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinkronizatu Drive-tik",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel esportatu",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Esportatu JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "NAN",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Larritasuna",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elementua",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Arazoa",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Iradokitako irtenbideak",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Ikusi HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Ikuspegi-leihoa",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Uneko hizkuntza",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Itzulitako giltzak",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Igarotako denbora",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Itzultzen...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Itzuli JSON hizkuntza fitxategiak hainbat hizkuntzatara Google Translate edo AI erabiliz",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Hautatu itzulpena egiteko hizkuntza bat edo gehiago",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formatua detektatu da: $FORMAT$, Modua: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$-ra itzultzen... ($CURRENT$/$TOTAL$ gakoak)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Esportatu $COUNT$ aldaketak",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Esportatu zure aldaketak zure itzulpen-taldearekin partekatzeko",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Deskargatu CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Deskargatu JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ aldaketa gorde dira. Sakatu Ktrl+E esportatzeko.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Egin klik edizio modua gaitzeko",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Egin klik edizio modua gaitzeko. Aldaketak gorde dituzu. Sakatu Ktrl+E esportatzeko.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ez da testurik hautatu",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Hautatu testua IA iradokizunak jasotzeko",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ez da hizkuntzarik aurkitu",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Saioa hastea huts egin du. Saiatu berriro.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Arrakastaz hasi da saioa!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Saioa amaitu da behar bezala",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentifikazioak huts egin du. Saiatu cachea garbitzen eta saioa berriro hasten.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Cachea garbitzen...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Ezin izan da cachea garbitu",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel liburutegia ez dago eskuragarri. Kargatu berriro orria.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Gehienezko $MAX$ hizkuntzak aldi berean errendimendu optimorako.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ hautatuta",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Mesedez, hasi saioa AI itzulpena erabiltzeko",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Onena zentzuzko tamaina duten fitxategietarako.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI modua: honek $REQUESTS$ API deiak egingo ditu. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Itzulpen honek gutxi gorabehera $COUNT$ API dei egingo ditu.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI moduak gehienez $MAX$ hizkuntzak onartzen ditu aldi berean.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Itzulpen Metodoa",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Doan",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Mugagabea",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Azkar",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "hizkuntzak",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Hizkuntza anitzeko itzulpenak Premium behar du.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Egiaztatua:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografia",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formateatzea",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Jatorrizko testuak ez du arazorik",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> testu-segmentu egiaztatu dira",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "<strong>$COUNT$</strong> errore aurkitu dira konpontzeko",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Akatsik ez!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kalitate Kontrolaren Txostena",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Instrument de testare a traducerii AI. Traducere live, raportare erori, pseudo-localizare și traducere JSON în lot.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Închide",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Anula",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Salva",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Şterge",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Export",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sincronizare",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "SURSĂ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ŢINTĂ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Căutați limbi...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Detectat automat din browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Comutare limbă",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Comutați între textul original și cel tradus",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Cum funcționează: • Comutare între textul original și cel tradus • Traducerile sunt stocate în memoria cache pentru comutare rapidă • Funcționează cu tot textul de pe pagină • Ștergere memorie cache pentru retraducere",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Original",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tradus",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Gata de tradus",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Ștergeți memoria cache și traduceți din nou",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-localizare",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Testați interfața cu text mai lung pentru a identifica problemele de depășire a limitei de încărcare",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Cum funcționează: • Înlocuiește caracterele cu versiuni accentuate • Adaugă o extindere a lungimii de 30-40% • Încadrează textul în markeri [!!!... !!!] • Exemplu: „Setări” → „[!!! Şḗŧŧīƞɠş·· !!!]”",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aplicați Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Mod de editare live",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Faceți clic pe orice text pentru a edita direct pe pagină",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Cum funcționează: • Faceți clic pe orice element de text pentru a-l edita • Modificările sunt urmărite în timp real • Exportați modificările ca JSON sau Excel • Apăsați Ctrl+E pentru a exporta modificările",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Activează editarea live",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Caracteristici ale inteligenței artificiale",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Instrumente de traducere bazate pe inteligență artificială",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Caracteristici premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Obțineți sugestii de inteligență artificială",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Traducere inteligentă în lot",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Traduce TOT textul de pe pagină cu context AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Verificați calitatea traducerii",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Traducător de fișiere JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Traduceți fișiere JSON în mai multe limbi",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Cum funcționează: • Încărcați fișiere JSON în limbaj • Selectați limbile țintă • Traduceți cu Google sau inteligența artificială • Descărcați fișierele traduse",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Traduceți fișierul JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Raportează o problemă",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Raportați problemele de traducere și localizare a textului",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Cum funcționează: • Faceți clic pe elemente de text pentru a raporta probleme • Adăugați descrieri și informații despre gravitate • Exportați rapoarte în Excel sau JSON • Sincronizați cu Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Începeți raportarea",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Gestionați rapoartele",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Cont",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Conectați-vă cu Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Faceți upgrade la Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informații premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Sign out",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Rapoarte de erori",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Rapoarte de căutare...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Ștergeți tot",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Încă nu există raportări de erori",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Faceți clic pe „Începeți raportarea” pentru a urmări problemele",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nu s-au găsit rezultate",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Încercați cuvinte cheie diferite",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Vedeți detaliile",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marchează ca rezolvat",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Redeschide",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Raport de eroare #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informații de bază",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Stare",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categorie",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detalii element",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etichetă",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Text",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selector",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Contextul traducerii",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Descrierea problemei",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informații despre pagină",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titlu",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-ul",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ștergeți raportul",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Sigur doriți să ștergeți raportul #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Ștergeți toate rapoartele",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ștergeți TOATE rapoartele de erori? Această acțiune nu poate fi anulată!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ștergeți tot",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Exportați rapoartele de erori",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Alegeți formatul de exportare:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exportați în Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exportați în JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sincronizare cu Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Raportul #$ID$ marcat ca $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Raportul #$ID$ a fost șters",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Toate rapoartele au fost șterse",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Schimbați limba țintă?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Limba sursă a fost schimbată în $SOURCE$. Doriți să traduceți în $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Da, Schimbare",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nu, mențineți-vă la curent",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "deschis",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "rezolvat",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Cum funcționează:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Caracteristici premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Detectat automat: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sincronizați datele",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "S-au găsit $COUNT$ texte de tradus",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "selectat",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Pregătire...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Complet!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Se începe traducerea pentru $COUNT$ limbi...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Ați finalizat $SUCCESS$/$TOTAL$ limbi",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Memoria cache a fost ștearsă",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nu este specificat",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Pagină fără titlu",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Vedere",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Confirma",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Bine",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Descrieți problema în detaliu...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Vă rugăm să descrieți problema",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Vă rugăm să vă conectați mai întâi",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Sfat: Apăsați Ctrl+E pentru a exporta modificările",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Faceți clic pentru a dezactiva modul de editare. Apăsați Ctrl+E pentru a exporta modificările.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Copiat în clipboard!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Îmbunătățire aplicată!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "S-au aplicat $COUNT$ îmbunătățiri!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Verificare calitate finalizată",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Se sincronizează cu Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sincronizat cu Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sincronizarea unității a eșuat",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Vă rugăm să vă conectați pentru a sincroniza din Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Se sincronizează din Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ rapoarte sincronizate din Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Nu s-au găsit rapoarte în Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Se pregătește fișierul Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Fișier Excel exportat: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Eroare la exportarea în Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Fișier JSON exportat: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Eroare la exportarea în JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Fișier CSV exportat: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Eroare la exportarea în format CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Vă rugăm să încărcați un fișier JSON valid",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "S-au încărcat $COUNT$ chei de traducere",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fișier JSON nevalid",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Vă rugăm să finalizați toți pașii",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Traducerea AI necesită Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Traducerea în $LANG$ nu a reușit",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Toate traducerile au eșuat. Vă rugăm să încercați din nou.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Traducerea a eșuat. Vă rugăm să încercați din nou.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Tradus cu succes în $COUNT$ limbi!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Descărcat $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Plasați fișierul JSON aici sau faceți clic pentru a răsfoi",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Suporta: en.json, vi.json etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Traducere",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Traducere rapidă și gratuită folosind API-ul Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Traducere prin inteligență artificială",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Traducere contextuală de înaltă calitate folosind inteligența artificială",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratuit",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Rapid",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Context-relevant",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Frazare naturală",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Mai bun pentru textul interfeței utilizator",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Dezactivează Editarea live ($COUNT$ editări)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Activează editarea live ($COUNT$$ economisiți)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Text selectat ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternative mai bune ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Faceți upgrade la Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Deblochează toate funcțiile AI și traduceri nelimitate",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Sugestii inteligente cu inteligență artificială",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Traducere rapidă în lot",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Verificare automată a calității",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Suport prioritar",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Suport pentru toate limbile",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonează-te acum",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Cont Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abonament activ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Data de expirare",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Zile rămase",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tipul problemei:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Traducere greșită",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Text Overflow",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Aspect rupt",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Traducere lipsă",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problemă de formatare",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Alte",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Manager de raportare a erorilor",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Gestionați și exportați problemele de localizare",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Începeți să raportați problemele pentru a urmări problemele de localizare",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Niciun raport nu corespunde filtrelor dvs.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Toate stările",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Toată severitatea",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Toate categoriile",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Ridicat",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mediu",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Scăzut",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Excelent!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Am verificat $COUNT$ segmente de text și nu am găsit nicio problemă.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Limba sursă:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Limba țintă:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Conectare necesară",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Vă rugăm să vă conectați pentru a utiliza funcțiile de traducere. Utilizatorii cu abonament gratuit primesc 10 traduceri.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ din $LIMIT$ traduceri rămase",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Limita de utilizare atinsă",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Ați atins limita de utilizare.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Faceți upgrade la Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Deblocați traduceri nelimitate și funcții premium",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "pe lună",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Traduceri nelimitate",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Poate mai târziu",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Anulează oricând. Fără întrebări.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Utilizarea dvs.",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "traduceri utilizate",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Vă rugăm să vă conectați pentru a utiliza funcțiile de traducere",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Nu au mai rămas suficiente traduceri. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Folosiți toate traducerile rămase în $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Nu se poate rula pe această pagină",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funcționează doar pe site-uri web obișnuite. Nu poate rula pe paginile interne ale Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Tip de pagină neacceptat",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Pagini neacceptate:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Deschideți un site web obișnuit, cum ar fi google.com, pentru a utiliza LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Începeți traducerea",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Descărcați tot",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Traduceți un alt fișier",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Descărcare",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Încărcați fișierul JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Selectați limbile țintă",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Alegeți modul de traducere",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ chei traduse",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traducere finalizată!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Rapoarte totale",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Probleme deschise",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Prioritate ridicată",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sincronizare cu Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sincronizare din Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Export Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Exportați JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID-ul",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Severitate",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Emisiune",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Soluții sugerate",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Vizualizare HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vizualizare",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Limba curentă",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Chei traduse",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Timpul scurs",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Se traduce...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Traduceți fișiere JSON în mai multe limbi cu Google Translate sau AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Selectați una sau mai multe limbi în care să traduceți",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format detectat: $FORMAT$, Mod: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Se traduce în $LANG$... cheile ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exportați $COUNT$ modificări",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exportați editările pentru a le distribui echipei dvs. de traduceri",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Descărcați fișierul CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Descărcați JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ modificări au fost salvate. Apăsați Ctrl+E pentru a exporta.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Faceți clic pentru a activa modul de editare",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Faceți clic pentru a activa modul de editare. Ați salvat modificările. Apăsați Ctrl+E pentru a exporta.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Niciun text selectat",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Selectați text pentru a primi sugestii de inteligență artificială",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nu s-au găsit limbi",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Conectarea a eșuat. Vă rugăm să încercați din nou.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Conectat cu succes!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Deconectare reușită",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentificarea a eșuat. Încercați să goliți memoria cache și să vă conectați din nou.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Se șterge memoria cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Nu s-a putut șterge memoria cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Biblioteca Excel nu este disponibilă. Vă rugăm să reîncărcați pagina.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maxim $MAX$ limbi simultan pentru performanță optimă. Traduceți în loturi.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ selectate",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Conectați-vă pentru a utiliza traducerea AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Cel mai bun pentru fișiere cu dimensiuni rezonabile.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modul AI: Acest lucru va face apeluri API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Această traducere va efectua aproximativ $COUNT$ apeluri API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Modul AI acceptă maximum $MAX$ limbi simultan.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metoda de traducere",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratuit",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Nelimitat",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Rapid",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "limbi",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Traducerea în mai multe limbi necesită Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Verificat:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ortografie",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatică",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatare",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Textul original nu are probleme",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "S-au bifat <strong>$COUNT$</strong> segmente de text",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "S-au găsit <strong>$COUNT$</strong> erori de remediat",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Fara erori!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Raport de verificare a calității",
+    "description": "Quality check report title"
+  }
+}

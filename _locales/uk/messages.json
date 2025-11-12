@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Інструмент тестування AI-перекладу. Переклад наживо, звіти про помилки, псевдо-локалізація та пакетний переклад JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Закрити",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Скасувати",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Зберегти",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Видалити",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Експорт",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Синхронізація",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ДЖЕРЕЛО",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ЦІЛЬ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Пошук мов...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Автоматично визначено з браузера",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Перемикач мови",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Перемикання між оригінальним та перекладеним текстом",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Як це працює: • Перемикання між оригінальним та перекладеним текстом • Переклади кешуються для швидкого перемикання • Працює з усім текстом на сторінці • Очищення кешу для повторного перекладу",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Оригінал",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Перекладено",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Готовий до перекладу",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Очистити кеш і перекласти повторно",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Псевдолокалізація",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Тестування інтерфейсу користувача з довшим текстом для виявлення проблем з переповненням",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Як це працює: • Замінює символи на діакритичні версії • Додає розширення довжини на 30-40% • Переносить текст у маркери [!!!... !!!] • Приклад: \"Налаштування\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Застосувати псевдолокацію",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Режим редагування в реальному часі",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Клацніть будь-який текст, щоб редагувати його безпосередньо на сторінці",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Як це працює: • Натисніть будь-який текстовий елемент, щоб редагувати його • Зміни відстежуються в режимі реального часу • Експортуйте зміни у форматі JSON або Excel • Натисніть Ctrl+E, щоб експортувати зміни",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Увімкнути редагування в реальному часі",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Функції штучного інтелекту",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Інструменти перекладу на базі штучного інтелекту",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Преміум-функції: • Контекстно-залежний переклад на основі штучного інтелекту • Пакетний переклад цілих сторінок • Перевірка якості перекладів • Пропозиції природною мовою",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Отримайте пропозиції щодо штучного інтелекту",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Розумний пакетний переклад",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Перекладає ВЕСЬ текст на сторінці за допомогою контексту штучного інтелекту",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Перевірте якість перекладу",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Преміум",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Перекладач файлів JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Переклад мовних файлів JSON на кілька мов",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Як це працює: • Завантаження мовних файлів JSON • Вибір цільових мов • Переклад за допомогою Google або штучного інтелекту • Завантаження перекладених файлів",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Перекласти JSON-файл",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Повідомити про проблему",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Повідомити про проблеми з перекладом та локалізацією тексту",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Як це працює: • Натисніть на текстові елементи, щоб повідомити про проблеми • Додайте описи та інформацію про серйозність • Експортуйте звіти в Excel або JSON • Синхронізуйте з Google Диском",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Почати звітування",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Керування звітами",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Обліковий запис",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Увійти за допомогою Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Оновіть до преміум-версії",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Преміум-інформація",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Вийти",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Звіти про помилки",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Пошук звітів...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Очистити все",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Поки що немає повідомлень про помилки",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Натисніть «Почати звітувати», щоб відстежувати проблеми",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Результатів не знайдено",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Спробуйте інші ключові слова",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Переглянути деталі",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Позначити як вирішене",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Знову відкрити",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Звіт про помилку №$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Основна інформація",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Категорія",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Дата",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Деталі елемента",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Тег",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Текст",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Селектор",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Контекст перекладу",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Опис проблеми",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Інформація про сторінку",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Назва",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-адреса",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Видалити звіт",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ви впевнені, що хочете видалити звіт #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Очистити всі звіти",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Видалити ВСІ звіти про помилки? Цю дію не можна скасувати!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Видалити все",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Експорт звітів про помилки",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Виберіть формат експорту:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Експорт до Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Експорт у JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Синхронізувати з Google Диском",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Звіт #$ID$ позначено як $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Звіт №$ID$ видалено",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Усі звіти очищені",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Змінити мову перекладу?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Мову оригіналу змінено на $SOURCE$. Бажаєте перекласти на $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Так, Змінити",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ні, зберегти актуальність",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ВІДЧИНЕНО",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "вирішено",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Як це працює:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Преміум-функції:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Автоматично визначено: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Синхронізація даних",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Знайдено $COUNT$ текстів для перекладу",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "вибраний",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Підготовка...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Завершено!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Розпочато переклад для $COUNT$ мов...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Вивчено $SUCCESS$/$TOTAL$ мов",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ КБ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Кеш очищено",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Не вказано",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Сторінка без назви",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Переглянути",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Підтвердити",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Гаразд",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Детально опишіть проблему...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Будь ласка, опишіть проблему",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Будь ласка, спочатку увійдіть",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Порада: Натисніть Ctrl+E, щоб експортувати зміни",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Натисніть, щоб вимкнути режим редагування. Натисніть Ctrl+E, щоб експортувати зміни.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Скопійовано в буфер обміну!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Покращення застосовано!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Застосовано $COUNT$ покращень!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Перевірка якості завершена",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Синхронізація з Google Диском...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Синхронізовано з Google Диском!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Не вдалося синхронізувати Диск",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Будь ласка, увійдіть, щоб синхронізувати з Диска",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Синхронізація з Google Диска...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Синхронізовано $COUNT$ звітів з Диска!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "На Диску не знайдено жодних звітів",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Підготовка файлу Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Експортовано файл Excel: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Помилка експорту в Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Експортовано JSON-файл: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Помилка експорту в JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Експортовано CSV-файл: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Помилка експорту в CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Будь ласка, завантажте дійсний JSON-файл",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Завантажено ключів перекладу: $COUNT$",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Недійсний JSON-файл",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Будь ласка, виконайте всі кроки",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Для перекладу зі штучним інтелектом потрібен преміум-підпис. Оновіть підписку або скористайтеся Google Translate.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Не вдалося перекласти на $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Усі переклади не вдалися. Спробуйте ще раз.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Переклад не вдалося. Спробуйте ще раз.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Успішно перекладено $COUNT$ мовами!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Завантажено $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Перетягніть сюди JSON-файл або натисніть, щоб переглянути",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Підтримує: en.json, vi.json тощо.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Перекладач",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Швидкий та безкоштовний переклад за допомогою API Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ШІ-переклад",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Високоякісний контекстно-залежний переклад за допомогою штучного інтелекту",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Безкоштовно",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Швидкий",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Контекстно-залежний",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Природне формулювання",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Краще для тексту інтерфейсу користувача",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Вимкнути редагування в реальному часі ($COUNT$ редагувань)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Увімкнути редагування в реальному часі (економлено $COUNT$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Вибраний текст ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Кращі альтернативи ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Оновіть до преміум-версії",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Розблокуйте всі функції штучного інтелекту та необмежену кількість перекладів",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Розумні пропозиції ШІ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Швидкий пакетний переклад",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Автоматична перевірка якості",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Пріоритетна підтримка",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Підтримка всіх мов",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Підпишіться зараз",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Преміум-акаунт",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Активна підписка",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Термін дії",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Залишилося днів",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Тип проблеми:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Неправильний переклад",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Переповнення тексту",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Порушений макет",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Відсутній переклад",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Проблема з форматуванням",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Інше",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Менеджер звітів про помилки",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Керування проблемами локалізації та експорт",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Почніть повідомляти про проблеми, щоб відстежувати проблеми локалізації",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Немає звітів, що відповідають вашим фільтрам",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Усі статуси",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Усі ступені тяжкості",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Усі категорії",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Високий",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Середній",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Низький",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Чудово!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Перевірено $COUNT$ текстових сегментів і проблем не виявлено.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Мова оригіналу:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Мова перекладу:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Потрібно ввійти",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Будь ласка, увійдіть, щоб скористатися функціями перекладу. Користувачі безкоштовної версії отримують 10 перекладів.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Залишилося $REMAINING$ з $LIMIT$ перекладів",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Досягнуто ліміту використання",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Ви досягли ліміту використання. Оновіть підписку до преміум-класу для необмеженого доступу.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Оновіть до преміум-версії",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Розблокуйте необмежену кількість перекладів та преміум-функції",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "на місяць",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Необмежена кількість перекладів",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Можливо, пізніше",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Скасувати можна будь-коли. Без жодних питань.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Ваше використання",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "використані переклади",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Будь ласка, увійдіть, щоб скористатися функціями перекладу",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Недостатньо перекладів. У вас залишилося $REMAINING$, але вибрано $SELECTED$ мов. Будь ласка, оновіть до Преміум або зменште кількість мов.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Ви використовуєте всі переклади, що залишилися ($COUNT$). Оновіть підписку до преміум-підписки для необмеженого доступу.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Неможливо виконати на цій сторінці",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI працює лише на звичайних вебсайтах. Він не може працювати на внутрішніх сторінках Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Непідтримуваний тип сторінки",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Непідтримувані сторінки:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Відкрийте звичайний вебсайт, такий як google.com, щоб використовувати LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Почати переклад",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Завантажити все",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Перекласти інший файл",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Завантажити",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Завантажити JSON-файл",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Виберіть цільові мови",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Виберіть режим перекладу",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Перекладено ключів: $COUNT$",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Переклад завершено!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Загальна кількість звітів",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Відкриті питання",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Високий пріоритет",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Синхронізувати з Диском",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Синхронізація з Диска",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Експорт Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Експорт JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Ідентифікатор",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Серйозність",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Елемент",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Проблема",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Запропоновані рішення",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Переглянути HTML-код",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Вікно перегляду",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Поточна мова",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Переклад ключів",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Час, що минув",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Переклад...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Перекладайте мовні файли JSON кількома мовами за допомогою Google Translate або штучного інтелекту",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Виберіть одну або кілька мов для перекладу",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Виявлено формат: $FORMAT$, Режим: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Переклад на $LANG$... (клавіші (CURRENT$/$TOTAL$) $CURRENT$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Експортувати $COUNT$ змін",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Експортуйте свої редагування, щоб поділитися ними з командою перекладачів",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Завантажити CSV-файл",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Завантажити JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Збережено змін: $COUNT$. Натисніть Ctrl+E для експорту.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Натисніть, щоб увімкнути режим редагування",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Натисніть, щоб увімкнути режим редагування. Ви зберегли зміни. Натисніть Ctrl+E для експорту.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Текст не вибрано",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Виберіть текст, щоб отримати пропозиції ШІ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Мови не знайдено",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Не вдалося ввійти. Спробуйте ще раз.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Успішно ввійшли!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Вихід успішно виконано",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Помилка автентифікації. Спробуйте очистити кеш і ввійти знову.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Очищення кешу...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Не вдалося очистити кеш",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Бібліотека Excel недоступна. Будь ласка, перезавантажте сторінку.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Максимум $MAX$ мов одночасно для оптимальної продуктивності. Перекладайте партіями.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Вибрано $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Увійдіть, щоб використовувати переклад AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Найкраще для файлів розумного розміру.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Режим штучного інтелекту: це зробить виклики $REQUESTS$ API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Цей переклад зробить приблизно $COUNT$ викликів API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Режим AI підтримує максимум $MAX$ мов одночасно.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Метод перекладу",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "безкоштовно",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Необмежений",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "швидко",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "мови",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Переклад кількома мовами вимагає Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Перевірено:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Правопис",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Граматика",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Форматування",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Оригінальний текст не має проблем",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Позначено <strong>$COUNT$</strong> сегментів тексту",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Знайдено <strong>$COUNT$</strong> помилок для виправлення",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Без помилок!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Звіт про перевірку якості",
+    "description": "Quality check report title"
+  }
+}

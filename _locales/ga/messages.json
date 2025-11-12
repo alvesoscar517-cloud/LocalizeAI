@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Uirlis tástála aistriúcháin AI. Aistriúchán beo, tuairisciú fabhtanna, pseudo-logánú agus aistriúchán JSON baisce.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Dún",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Cealaigh",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Sábháil",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Scrios",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Easpórtáil",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sioncrónaigh",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FOINSE",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "SPRIOC",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Cuardaigh teangacha...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Braite go huathoibríoch ón mbrabhsálaí",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Athraigh Teanga",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Athraigh idir an téacs bunaidh agus an téacs aistrithe",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Conas a oibríonn sé: • Athraigh idir an téacs bunaidh agus an téacs aistrithe • Cuirtear aistriúcháin i dtaisce le haghaidh aistriú tapa • Oibríonn sé le gach téacs ar an leathanach • Glan an taisce le hathaistriú",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Bunaidh",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Aistrithe",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Réidh le haistriúchán",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Glan an Taisce & Ath-Aistrigh",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Bréag-Localú",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Tástáil an Chomhéadain Úsáideora le téacs níos faide chun fadhbanna róshreafa a aimsiú",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Conas a oibríonn sé: • Cuireann sé leaganacha béime in ionad carachtair • Cuireann sé leathnú faid 30-40% leis • Fillteann sé téacs i marcóirí [!!!... !!!] • Sampla: \"Socruithe\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Cuir Pseudo-Loc i bhFeidhm",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Mód Eagarthóireachta Beo",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Cliceáil ar aon téacs le heagarthóireacht a dhéanamh go díreach ar an leathanach",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Conas a oibríonn sé: • Cliceáil ar aon eilimint téacs chun é a chur in eagar • Déantar athruithe a rianú i bhfíor-am • Easpórtáil eagarthóireachtaí mar JSON nó Excel • Brúigh Ctrl+E chun athruithe a easpórtáil",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Cumasaigh Eagarthóireacht Bheo",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Gnéithe AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Uirlisí aistriúcháin faoi thiomáint ag AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Gnéithe Préimhe: • Aistriúchán comhthéacsúil faoi thiomáint na hintleachta saorga • Aistriúchán baisce ar leathanaigh iomlána • Seiceáil cáilíochta ar aistriúcháin • Moltaí teanga nádúrtha",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Faigh Moltaí AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Aistriúchán Baisc Chliste",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Aistríonn sé GACH téacs ar an leathanach le comhthéacs AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Seiceáil Cáilíocht an Aistriúcháin",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Préimh",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Aistritheoir Comhad JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Aistrigh comhaid teanga JSON go teangacha iolracha",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Conas a oibríonn sé: • Uaslódáil comhaid teanga JSON • Roghnaigh teangacha sprice • Aistrigh le Google nó le hintleacht shaorga • Íoslódáil comhaid aistrithe",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Aistrigh Comhad JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Tuairiscigh an Fhadhb",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Tuairiscigh fadhbanna aistriúcháin agus logánaithe téacs",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Conas a oibríonn sé: • Cliceáil ar eilimintí téacs chun fadhbanna a thuairisciú • Cuir tuairiscí agus déine leis • Easpórtáil tuarascálacha chuig Excel nó JSON • Sioncrónaigh le Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Tosaigh ag Tuairisciú",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Bainistigh Tuarascálacha",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Cuntas",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Sínigh isteach le Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Uasghrádaigh go Préimh",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Eolas Préimhe",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Sínigh Amach",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Tuairiscí Fabht",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Cuardaigh tuairiscí...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Glan Gach Rud",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Gan aon tuairiscí fabht fós",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Cliceáil \"Tosaigh ag Tuairisciú\" chun fadhbanna a rianú",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Níor aimsíodh aon torthaí",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Bain triail as eochairfhocail éagsúla",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Féach sonraí",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marcáil mar réitithe",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Athoscail",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Tuairisc Fabht #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Eolas Bunúsach",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Stádas",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Catagóir",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dáta",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Sonraí na nEilimintí",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Clib",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Téacs",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Roghnóir",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Comhthéacs Aistriúcháin",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Cur Síos ar an bhFadhb",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Eolas Leathanaigh",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Teideal",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Scrios Tuairisc",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "An bhfuil tú cinnte gur mian leat tuarascáil #$ID$ a scriosadh?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Glan Gach Tuairisc",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Scrios GACH tuairisc fabht? Ní féidir an gníomh seo a chealú!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Scrios Gach Rud",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Easpórtáil Tuairiscí Fabht",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Roghnaigh formáid easpórtála:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Easpórtáil go Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Easpórtáil go JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sioncrónaigh le Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Marcáladh an tuairisc #$ID$ mar $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Scriosadh an tuarascáil #$ID$",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Glanadh na tuarascálacha uile",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Athraigh an Teanga Spriocdhírithe?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Athraíodh an teanga foinse go $SOURCE$. Ar mhaith leat aistriúchán a dhéanamh go $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Sea, Athraigh",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Níl, coinnigh suas chun dáta",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "oscailte",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "réitithe",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Conas a oibríonn sé:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Gnéithe Préimhe:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Braite go huathoibríoch: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sonraí sioncrónaithe",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Aimsíodh $COUNT$ téacsanna le haistriú",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "roghnaithe",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ag ullmhú...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Críochnaithe!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Ag tosú ag aistriúchán do $COUNT$ teangacha...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ teangacha críochnaithe",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Glanadh an taisce",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Gan sonrú",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Leathanach Gan Teideal",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Amharc",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Deimhnigh",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Ceart go leor",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Déan cur síos mionsonraithe ar an gceist...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Déan cur síos ar an gceist le do thoil",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Sínigh isteach ar dtús le do thoil",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Leid: Brúigh Ctrl+E chun d’athruithe a easpórtáil",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Cliceáil chun an modh eagarthóireachta a dhíchumasú. Brúigh Ctrl+E chun athruithe a easpórtáil.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Cóipeáilte chuig an ghearrthaisce!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Feabhsú curtha i bhfeidhm!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Cuireadh $COUNT$ feabhsuithe i bhfeidhm!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Seiceáil cáilíochta críochnaithe",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Ag sioncrónú le Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sioncrónaithe le Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Theip ar shioncrónú Drive",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Sínigh isteach le do thoil chun sioncrónú ó Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Ag sioncrónú ó Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Sioncronaíodh $COUNT$ tuairiscí ó Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ní bhfuarthas aon tuairiscí i Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Comhad Excel á ullmhú...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Comhad Excel easpórtáilte: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Earráid easpórtála chuig Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Comhad JSON easpórtáilte: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Earráid easpórtála chuig JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Comhad CSV easpórtáilte: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Earráid easpórtála chuig CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Uaslódáil comhad JSON bailí le do thoil",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Luchtaíodh $COUNT$ eochracha aistriúcháin",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Comhad JSON neamhbhailí",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Comhlánaigh gach céim le do thoil",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Éilíonn Aistriúchán Intleachta Saorga Préimh. Uasghrádaigh nó bain úsáid as Google Translate le do thoil.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Theip ar aistriú go $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Theip ar na haistriúcháin go léir. Déan iarracht arís.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Theip ar an aistriúchán. Déan iarracht arís.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Aistrithe go rathúil go $COUNT$ teangacha!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Íoslódáladh $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Scaoil comhad JSON anseo nó cliceáil chun brabhsáil",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Tacaíochtaí: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Aistriúchán tapa agus saor in aisce ag baint úsáide as API Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Aistriúchán Intleachta Saorga",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Aistriúchán ardchaighdeáin atá feasach ar chomhthéacs ag baint úsáide as hintleacht shaorga",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Saor in aisce",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Tapa",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Comhthéacs-eolach",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Frásaíocht nádúrtha",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Níos fearr le haghaidh téacs an chomhéadain úsáideora",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Díchumasaigh Eagarthóireacht Bheo ($COUNT$ eagarthóireachtaí)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Cumasaigh Eagarthóireacht Bheo ($COUNT$ sábháilte)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Téacs Roghnaithe ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Roghanna Malartacha Níos Fearr ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Uasghrádaigh go Préimh",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Díghlasáil gach gné AI agus aistriúcháin gan teorainn",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Moltaí cliste AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Aistriúchán baisce tapa",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Seiceáil cáilíochta uathoibríoch",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Tacaíocht tosaíochta",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Tacaíonn gach teanga",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Liostáil anois",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Cuntas Préimhe",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Síntiús Gníomhach",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Dáta Éaga",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Laethanta atá fágtha",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Cineál Fadhb:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Aistriúchán Mícheart",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Ró-shreabhadh Téacs",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Leagan Amach Briste",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Aistriúchán ar Iarraidh",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Fadhb Formáidithe",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Eile",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Bainisteoir Tuairiscí Fabht",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Bainistigh agus easpórtáil do chuid fadhbanna logánaithe",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Tosaigh ag tuairisciú fadhbanna chun fadhbanna logánaithe a rianú",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Níl aon tuairiscí a mheaitseálann do scagairí",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Gach Stádas",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Gach Déine",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Gach Catagóir",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Ard",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Meánach",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Íseal",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Ar fheabhas!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Rinneadh seiceáil ar $COUNT$ deighleoga téacs agus ní bhfuarthas aon fhadhbanna.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Teanga Fhoinseach:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Teanga Spriocdhírithe:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Sínigh Isteach Riachtanach",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Sínigh isteach le do thoil chun gnéithe aistriúcháin a úsáid. Gheobhaidh úsáideoirí saor in aisce 10 aistriúchán.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ de $LIMIT$ aistriúcháin fágtha",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Teorainn Úsáide Sroichte",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Tá do theorainn úsáide sroichte agat. Uasghrádaigh go Préimh le haghaidh rochtain gan teorainn.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Uasghrádaigh go Préimh",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Díghlasáil aistriúcháin gan teorainn agus gnéithe préimhe",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "in aghaidh na míosa",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Aistriúcháin gan teorainn",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "B’fhéidir níos déanaí",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Cealaigh am ar bith. Gan aon cheist.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Do Úsáid",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "aistriúcháin a úsáideadh",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Sínigh isteach le do thoil chun gnéithe aistriúcháin a úsáid",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Níl dóthain aistriúcháin fágtha. Tá $REMAINING$ fágtha agat ach roghnaigh tú $SELECTED$ teangacha. Uasghrádaigh go Préimh nó laghdaigh líon na dteangacha le do thoil.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Tá tú ag úsáid na $COUNT$ aistriúcháin atá fágtha. Uasghrádaigh go Préimh le haghaidh rochtain gan teorainn.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ní féidir rith ar an leathanach seo",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "Ní oibríonn LocalizeAI ach ar shuíomhanna gréasáin rialta. Ní féidir é a rith ar leathanaigh inmheánacha Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Cineál leathanaigh nach dtacaítear leis",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Leathanaigh nach dtacaítear leo:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Oscail suíomh gréasáin rialta cosúil le google.com chun LocalizeAI a úsáid",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Tosaigh an tAistriúchán",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Íoslódáil Gach Rud",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Aistrigh Comhad Eile",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Íoslódáil",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Uaslódáil Comhad JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Roghnaigh Teangacha Spriocdhírithe",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Roghnaigh Mód Aistriúcháin",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ eochracha aistrithe",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Aistriúchán Críochnaithe!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Iomlán na dTuarascálacha",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Saincheisteanna Oscailte",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Tosaíocht Ard",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sioncrónaigh le Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sioncrónaigh ó Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Easpórtáil Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Easpórtáil JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Aitheantas",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Déine",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Eilimint",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Ceist",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Réitigh Molta",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Féach ar HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Radharcphoirt",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Teanga Reatha",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Eochracha Aistrithe",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Am Caite",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Ag aistriú...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Aistrigh comhaid teanga JSON go teangacha éagsúla le Google Translate nó le hintleacht shaorga",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Roghnaigh teanga amháin nó níos mó le haistriú chuici",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formáid braite: $FORMAT$, Mód: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Ag aistriú go $LANG$... eochracha ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Easpórtáil $COUNT$ Athruithe",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Easpórtáil do chuid eagarthóireachtaí le roinnt le do fhoireann aistriúcháin",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Íoslódáil CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Íoslódáil JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ athruithe sábháilte. Brúigh Ctrl+E le heaspórtáil.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Cliceáil chun mód eagarthóireachta a chumasú",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Cliceáil chun mód eagarthóireachta a chumasú. Tá athruithe sábháilte agat. Brúigh Ctrl+E le heaspórtáil.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Níl aon téacs roghnaithe",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Roghnaigh téacs chun moltaí AI a fháil",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Níor aimsíodh aon teangacha",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Theip ar an síniú isteach. Déan iarracht arís.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Sínithe isteach go rathúil!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Sínithe amach go rathúil",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Theip ar an bhfíordheimhniú. Déan iarracht an taisce a ghlanadh agus síniú isteach arís.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Ag glanadh an taisce...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Theip ar an taisce a ghlanadh",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Níl leabharlann Excel ar fáil. Athlódáil an leathanach le do thoil.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Uasmhéid teangacha $MAX$ ag an am céanna le haghaidh feidhmíochta barrmhaithe.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ roghnaithe",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Sínigh isteach chun aistriúchán AI a úsáid",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Is fearr le haghaidh comhaid le méid réasúnta.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Mód AI: Déanfaidh sé seo glaonna API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Déanfaidh an t-aistriúchán seo thart ar $COUNT$ glao API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Tacaíonn mód AI le $MAX$ teangacha uasta ag an am céanna.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Modh Aistriúcháin",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Saor",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Gan teorainn",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Go tapa",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "teangacha",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Teastaíonn Préimh le haistriúchán teangacha iolracha.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Seiceáilte:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Litriú",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramadach",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formáidiú",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Níl aon fhadhb ag an mbuntéacs",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Seiceáladh <strong>$COUNT$</strong> mír théacs",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Aimsíodh <strong>$COUNT$</strong> earráid le réiteach",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Uimh earráidí!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Tuarascáil Seiceála Cáilíochta",
+    "description": "Quality check report title"
+  }
+}

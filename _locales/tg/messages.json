@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "Асбоби санҷиши тарҷумаи AI. Тарҷумаи зинда, гузориши хатогӣ, псевдо-маҳаллигардонӣ ва тарҷумаи гурӯҳии JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Пӯшед",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Бекор кардан",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Захира кунед",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Нобуд кунед",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Содирот",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Ҳамоҳангсозӣ",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "МАНБА",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "МАКСАД",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Ҷустуҷӯи забонҳо...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Аз браузер худкор муайян карда мешавад",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Гузариш ба забон",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Гузариш байни матни аслӣ ва тарҷумашуда",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Чӣ тавр он кор мекунад: • Гузариш байни матни аслӣ ва тарҷумашуда • Тарҷумаҳо барои гузариш зуд кэш карда мешаванд • Бо тамоми матни саҳифа кор мекунад • Тоза кардани кэш барои дубора тарҷума кардан",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Асли",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Тарҷума шудааст",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Омода барои тарҷума",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Тоза кардани кэш ва тарҷумаи дубора",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Псевдо-локализатсия",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "UI-ро бо матни дарозтар санҷед, то мушкилоти пурборро пайдо кунед",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Чӣ тавр он кор мекунад: • Аломатҳоро бо версияҳои аксентӣ иваз мекунад • 30-40% дарозии дарозро илова мекунад • Матнро дар [!!!... !!!] нишонгузорҳо • Мисол: \"Танзимот\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc-ро татбиқ кунед",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Ҳолати таҳрири зинда",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Барои таҳрир бевосита дар саҳифа ягон матнро клик кунед",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Чӣ тавр он кор мекунад: • Барои таҳрир кардани он ягон унсури матниро клик кунед • Тағйирот дар вақти воқеӣ пайгирӣ карда мешаванд • Таҳрирҳоро ҳамчун JSON ё Excel содир кунед • Барои содироти тағирот Ctrl+E -ро пахш кунед",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Таҳрири зиндаро фаъол созед",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Хусусиятҳои AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Воситаҳои тарҷумаи аз ҷониби AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Хусусиятҳои мукофотӣ:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Пешниҳодҳои AI гиред",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Тарҷума",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ҲАМАИ матни саҳифаро бо контексти AI тарҷума мекунад",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Сифати тарҷумаро санҷед",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Премиум",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Тарҷумони файли JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Файлҳои забони JSON-ро ба забонҳои гуногун тарҷума кунед",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Чӣ тавр он кор мекунад: • Файлҳои забони JSON-ро бор кунед • Забонҳои мавриди ҳадафро интихоб кунед • Бо Google ё AI тарҷума кунед • Файлҳои тарҷумашударо зеркашӣ кунед",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Тарҷумаи файли JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Ҳисобот оид ба масъала",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Тарҷумаи матн ва мушкилоти маҳаллисозӣ гузориш диҳед",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Чӣ тавр он кор мекунад: • Барои гузориш додани мушкилот, унсурҳои матнро клик кунед • Илова кардани тавсиф ва шиддат • Ҳисоботҳоро ба Excel ё JSON содир кунед • Ҳамоҳангсозӣ бо Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Ҳисоботро оғоз кунед",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Ҳисоботҳоро идора кунед",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Ҳисоб",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Бо Google ворид шавед",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Навсозӣ ба мукофоти",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Маълумоти Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Баромадан",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Ҳисобот оид ба хатогиҳо",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Ҷустуҷӯи гузоришҳо...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Ҳамаро тоза кунед",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ҳанӯз гузориши хатогӣ нест",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Барои пайгирии мушкилот \"Оғоз кардани гузориш\" -ро клик кунед",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ягон натиҷа ёфт нашуд",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Калидвожаҳои гуногунро санҷед",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Тафсилотро дидан",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Ҳамчун ҳалшуда қайд кунед",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Боз кушоед",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Ҳисобот оид ба хатогиҳо #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Маълумоти асосӣ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Категория",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Сана",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Тафсилоти элемент",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "тег",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Матн",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Интихобкунанда",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Контексти тарҷума",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Тавсифи масъала",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Маълумоти саҳифа",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Унвон",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ҳисоботро нест кунед",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Шумо мутмаин ҳастед, ки мехоҳед гузориши #$ID$-ро нест кунед?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Ҳама гузоришҳоро тоза кунед",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ҲАМАИ гузоришҳои хатогиҳоро нест кунед? Ин амалро бекор кардан мумкин нест!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ҳамаро нест кунед",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Ҳисобот оид ба хатогиҳои содиротӣ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Формати содиротро интихоб кунед:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Содирот ба Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Содирот ба JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Бо Google Drive ҳамоҳанг созед",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Гузориши # $ $$STATUS$$ $ AS $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ҳисоботи #$ID$ нест карда шуд",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Ҳама гузоришҳо тоза карда шуданд",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Тағйир додани забони мақсаднок?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Забони манбаъ ба $SOURCE$ иваз карда шуд. Оё шумо мехоҳед ба $TARGET$ тарҷума кунед?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ҳа, Тағйир",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Не, ҷорӣ нигоҳ доред",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "кушода",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "хал карда шуд",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Чӣ тавр он кор мекунад:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Хусусиятҳои мукофотӣ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Худкор муайян карда шуд: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Синхронизатсияи маълумот",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Барои тарҷума $COUNT$ матн ёфт",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "интихоб шуд",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Омода мешавад...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Анҷом!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Оғози тарҷума барои $COUNT$ забон...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ USAILE $ / $ 13 Забонҳои ҷамъиятро ба итмом расонд $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ КБ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Stef $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Кэш тоза карда шуд",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Муайян нашудааст",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Саҳифаи беном",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Намоиш",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Тасдиқ кунед",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ДУРУСТ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Масъаларо муфассал шарҳ диҳед...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Лутфан масъаларо тавсиф кунед",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Лутфан аввал ворид шавед",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Маслиҳат: Барои содироти тағиротҳои худ Ctrl+E -ро пахш кунед",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Барои хомӯш кардани ҳолати таҳрир клик кунед. Барои содироти тағирот Ctrl+E -ро пахш кунед.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Ба буфер нусхабардорӣ карда шуд!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Такмил татбиқ карда шуд!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Такмили $COUNT$ истифода шуд!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Санҷиши сифат анҷом ёфт",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Ҳамоҳангсозӣ бо Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Бо Google Drive ҳамоҳанг карда шудааст!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Синхронизатсияи диск ноком шуд",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Лутфан барои ҳамоҳангсозӣ аз Drive ворид шавед",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Синхронизатсия аз Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Ҳисоботҳои $COUNT$ аз Drive ҳамоҳанг карда шуданд!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Дар Drive ягон гузорише ёфт нашуд",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Омода кардани файли Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Файли Excel содир карда шуд: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Хатогӣ дар содирот ба Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Файли JSON содир карда шуд: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Хатогии содирот ба JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Файли CSV содир карда шуд: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Хатогӣ дар содирот ба CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Лутфан файли дурусти JSON-ро бор кунед",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Калидҳои тарҷумаи $COUNT$ бор карда шуданд",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Файли JSON нодуруст",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Лутфан ҳамаи қадамҳоро иҷро кунед",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI тарҷума мукофоти худро талаб мекунад.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Тарҷума ба $LANG$ натавонист",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Ҳама тарҷумаҳо ноком шуданд. Лутфан бори дигар кӯшиш кунед.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Тарҷума ноком шуд. Лутфан бори дигар кӯшиш кунед.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Бомуваффақият ба $COUNT$ забон тарҷума шуд!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Зеркашидашуда $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Файли JSON-ро дар ин ҷо гузоред ё барои дидан клик кунед",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Дастгирӣ мекунад: en.json, vi.json ва ғайра.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Гугл тарҷумон",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Тарҷумаи зуд ва ройгон бо истифода аз Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Тарҷумаи AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Тарҷумаи босифат бо контекст бо истифода аз AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Озод",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Тез",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Огоҳ аз контекст",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Ибораи табиӣ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Барои матни UI беҳтар аст",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Хомӯш кардани Таҳрири Зиндагӣ ($COUNT$ таҳрир)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Таҳрири зиндаро фаъол созед ($COUNT$ захира шудааст)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Матни интихобшуда ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Алтернативаҳои беҳтар ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Навсозӣ ба мукофоти",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Ҳама хусусиятҳои AI ва тарҷумаҳои номаҳдудро кушоед",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Пешниҳодҳои оқилонаи AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Тарҷумаи зуди даста",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Санҷиши сифати худкор",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Дастгирии афзалиятнок",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Ҳама забонҳо дастгирӣ мекунанд",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Ҳоло обуна шавед",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Ҳисоби Preumium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Обунаи фаъол",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Санаи поёни бақо",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Рӯзҳои боқимонда",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Навъи масъала:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Тарҷумаи нодуруст",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Зиёдшавии матн",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Тарҳ шикаста",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Тарҷумаи гумшуда",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Масъалаи форматкунӣ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Дигар",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Менеҷери гузориши хатогиҳо",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Масъалаҳои маҳаллисозии худро идора ва содир кунед",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Барои пайгирии мушкилоти маҳаллӣсозӣ гузориш доданро оғоз кунед",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ҳеҷ гузорише ба филтрҳои шумо мувофиқат намекунад",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Ҳама Статус",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Ҳама вазнинӣ",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Ҳама категорияҳо",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Баланд",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Миёна",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Кам",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Аъло!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Сегментҳои матнии $COUNT$ санҷида шуд ва ҳеҷ мушкиле наёфт.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Забони манбаъ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Забони мақсаднок:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Воридшавӣ ҳатмист",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Лутфан барои истифодаи хусусиятҳои тарҷума ворид шавед. Истифодабарандагони ройгон 10 тарҷумаро мегиранд.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ аз $LIMIT$ тарҷума боқӣ мондааст",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Ба маҳдудияти истифода расид",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Шумо ба маҳдудияти истифодаи худ расидед.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Навсозӣ ба мукофоти",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Тарҷумаҳои номаҳдуд ва хусусиятҳои премиумро кушоед",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "дар як моҳ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Тарҷумаҳои номаҳдуд",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Шояд дертар",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Ҳар вақт бекор кунед. Саволе дода нашуд.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Истифодаи шумо",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "тарҷумаҳо истифода мешаванд",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Лутфан барои истифодаи хусусиятҳои тарҷума ворид шавед",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Тарҷумаҳои кофӣ нест. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Шумо ҳама $ Sections-ро $ Infумак истифода мебаред. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Дар ин саҳифа кор кардан мумкин нест",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI танҳо дар вебсайтҳои муқаррарӣ кор мекунад. Он наметавонад дар саҳифаҳои дохилии Chrome кор кунад.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Навъи саҳифаи дастгирнашаванда",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Саҳифаҳои дастгирнашаванда:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Барои истифодаи LocalizeAI як вебсайти муқаррарӣ ба монанди google.com кушоед",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Тарҷумаро оғоз кунед",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Ҳама зеркашӣ кунед",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Файли дигарро тарҷума кунед",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Зеркашӣ кунед",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Файли JSON-ро бор кунед",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Забонҳои мақсаднокро интихоб кунед",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Ҳолати тарҷумаро интихоб кунед",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Калидҳои $COUNT$ тарҷума карда шуданд",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Тарҷума ба итмом расид!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Ҳисоботи умумӣ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Масъалаҳои кушода",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Афзалияти баланд",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Ҳамоҳангсозӣ ба Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Синхронизатсия аз Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Экспорти Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Содироти JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Иди",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Шиддат",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Элемент",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Чоп",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Ҳалли пешниҳодшуда",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Дидани HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Xatp",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Намоишгоҳ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Забони ҷорӣ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Калидҳои тарҷумашуда",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Вақт гузашт",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Тарҷума...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Бо Google Translate ё AI файлҳои забони JSON-ро ба забонҳои гуногун тарҷума кунед",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Барои тарҷума як ё якчанд забонро интихоб кунед",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Формат ошкор шуд: $FORMAT$, Ҳолати: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Тарҷума ба $LANG$... (калидҳои $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Тағироти $COUNT$ содирот",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Таҳрирҳои худро содир кунед, то бо дастаи тарҷумаи худ мубодила кунед",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV-ро зеркашӣ кунед",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON-ро зеркашӣ кунед",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ тағирот захира карда шуд. Барои содирот Ctrl+E-ро пахш кунед.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Барои фаъол кардани режими таҳрир клик кунед",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Барои фаъол кардани режими таҳрир клик кунед. Шумо тағиротро захира кардед. Барои содирот Ctrl+E-ро пахш кунед.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ягон матн интихоб нашудааст",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Барои гирифтани пешниҳодҳои AI матнро интихоб кунед",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ягон забон ёфт нашуд",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Воридшавӣ муваффақ нашуд. Лутфан бори дигар кӯшиш кунед.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Бомуваффақият ворид шуд!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Бомуваффақият баромад",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Аутентификатсия ноком шуд. Лутфан кэшро тоза кунед ва дубора ворид шавед.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Тоза кардани кэш...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Тоза кардани кэш муяссар нашуд",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Китобхонаи Excel дастрас нест. Лутфан саҳифаро аз нав бор кунед.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Ҳадди аксар $ Макс дар як вақт барои иҷрои оптималӣ. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ / $ $$MAX$$ $ интихобшуда $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Лутфан барои истифодаи тарҷумаи AI ворид шавед",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Беҳтарин барои файлҳо бо андозаи оқилона.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Ҳолати AI: Ин зангҳои API дархост мекунад.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ин тарҷума тақрибан зангҳои АПИро ҳисоб мекунад. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Ҳолати AI ҳадди аксар $ Макс дар як вақт ба забонҳои $ оварда шудааст. $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Усули тарҷумавӣ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Озод",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Номаҳдуд",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Зуд",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "забонҳо",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Тарҷумаи забонҳои сершумор мукофотпулӣ талаб мекунад.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Санҷед:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Имло",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Грамматика",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Форматкунӣ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Матни аслии матн мушкил надорад",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Санҷед $ Sealts Sealts",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Барои ислоҳ кардани хатогиҳои $ $ ёфт",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ҳеҷ хатогӣ нест!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Ҳисоботи санҷиши сифат",
+    "description": "Quality check report title"
+  }
+}

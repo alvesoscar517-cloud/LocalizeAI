@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "أداة اختبار الترجمة بالذكاء الاصطناعي. ترجمة مباشرة، الإبلاغ عن الأخطاء، التوطين الزائف، وترجمة JSON دفعة واحدة.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "يغلق",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "يلغي",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "يحفظ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "يمسح",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "يصدّر",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "المزامنة",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "مصدر",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "هدف",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "البحث عن اللغات...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "تم اكتشافه تلقائيًا من المتصفح",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "تبديل اللغة",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "التبديل بين النص الأصلي والمترجم",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "كيفية العمل: • التبديل بين النص الأصلي والمترجم • يتم تخزين الترجمات مؤقتًا للتبديل السريع • يعمل مع جميع النصوص في الصفحة • مسح ذاكرة التخزين المؤقت لإعادة الترجمة",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "إبداعي",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "مترجمة",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "جاهز للترجمة",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "مسح ذاكرة التخزين المؤقت وإعادة الترجمة",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "التوطين الزائف",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "اختبار واجهة المستخدم باستخدام نص أطول للعثور على مشكلات تجاوز الحد الأقصى",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "طريقة العمل: • استبدال الأحرف بنسخ مُعَلَّمة • إضافة امتداد للطول بنسبة ٣٠-٤٠٪ • لف النص بعلامات [!!!... !!!] • مثال: \"الإعدادات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "تطبيق Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "وضع التحرير المباشر",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "انقر على أي نص لتحريره مباشرة على الصفحة",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "كيفية العمل: • انقر على أي عنصر نصي لتحريره. • يتم تتبع التغييرات فورًا. • تصدير التعديلات بصيغة JSON أو Excel. • اضغط على Ctrl+E لتصدير التغييرات.",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "تمكين التحرير المباشر",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "ميزات الذكاء الاصطناعي",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "أدوات الترجمة المدعومة بالذكاء الاصطناعي",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "الميزات المميزة: • ترجمة سياقية مدعومة بالذكاء الاصطناعي • ترجمة دفعية لصفحات كاملة • فحص جودة الترجمات • اقتراحات بلغة طبيعية",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "احصل على اقتراحات الذكاء الاصطناعي",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "الترجمة الذكية الدفعية",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "يترجم كل النص الموجود على الصفحة باستخدام سياق الذكاء الاصطناعي",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "التحقق من جودة الترجمة",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "غالي",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "مترجم ملفات JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "ترجمة ملفات لغة JSON إلى لغات متعددة",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "كيفية العمل: • تحميل ملفات لغة JSON • اختيار اللغات المستهدفة • الترجمة باستخدام جوجل أو الذكاء الاصطناعي • تنزيل الملفات المترجمة",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "ترجمة ملف JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "الإبلاغ عن المشكلة",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "الإبلاغ عن مشاكل ترجمة النصوص وتوطينها",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "كيفية العمل: • انقر على عناصر النص للإبلاغ عن المشكلات. • أضف الأوصاف ودرجة الخطورة. • صدّر التقارير إلى Excel أو JSON. • مزامنة مع Google Drive.",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ابدأ في الإبلاغ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "إدارة التقارير",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "حساب",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "تسجيل الدخول باستخدام جوجل",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "الترقية إلى الإصدار المميز",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "معلومات مميزة",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "تسجيل الخروج",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "تقارير الأخطاء",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "تقارير البحث...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "مسح الكل",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "لا توجد تقارير عن الأخطاء حتى الآن",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "انقر فوق \"بدء الإبلاغ\" لتتبع المشكلات",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "لم يتم العثور على نتائج",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "جرب كلمات رئيسية مختلفة",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "عرض التفاصيل",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "وضع علامة على الحل",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "إعادة فتح",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "تقرير الخطأ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "معلومات اساسية",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "حالة",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "فئة",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "تاريخ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "تفاصيل العنصر",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "العلامة",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "نص",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "محدد",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "سياق الترجمة",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "وصف المشكلة",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "معلومات الصفحة",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "عنوان",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "عنوان URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "حذف التقرير",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "هل أنت متأكد أنك تريد حذف التقرير #$ID$؟",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "مسح جميع التقارير",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "هل تريد حذف جميع تقارير الأخطاء؟ لا يمكن التراجع عن هذا الإجراء!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "حذف الكل",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "تصدير تقارير الأخطاء",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "اختر تنسيق التصدير:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "تصدير إلى Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "التصدير إلى JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "المزامنة مع Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "تم وضع علامة على التقرير #$ID$ كـ $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "تم حذف التقرير #$ID$",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "تمت الموافقة على جميع التقارير",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "تغيير لغة الهدف؟",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "تم تغيير لغة المصدر إلى $SOURCE$. هل ترغب في الترجمة إلى $TARGET$؟",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "نعم التغيير",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "لا، حافظ على التحديث",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "يفتح",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "تم حلها",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "كيف يعمل:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "الميزات المميزة:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "تم الكشف تلقائيًا: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "مزامنة البيانات",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "تم العثور على $COUNT$ نصًا للترجمة",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "تم اختياره",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "جاري التحضير...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "مكتمل!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "بدء الترجمة لـ $COUNT$ لغة...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ أكملت لغات $SUCCESS$/$TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "الحجم$ كيلوبايت $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "الوقت $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "تم مسح ذاكرة التخزين المؤقت",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "غير محدد",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "صفحة بدون عنوان",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "منظر",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "يتأكد",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "نعم",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "وصف المشكلة بالتفصيل...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "يرجى وصف المشكلة",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "الرجاء تسجيل الدخول أولا",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "نصيحة: اضغط على Ctrl+E لتصدير التغييرات الخاصة بك",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "انقر لتعطيل وضع التحرير. اضغط Ctrl+E لتصدير التغييرات.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "تمت النسخ إلى الحافظة!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "تم تطبيق التحسين!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "تم تطبيق $COUNT$ من التحسينات!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "تم الانتهاء من فحص الجودة",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "مزامنة مع Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "تمت المزامنة مع Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "فشل مزامنة محرك الأقراص",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "يرجى تسجيل الدخول للمزامنة من Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "مزامنة من Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "تمت مزامنة $COUNT$ من التقارير من Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "لم يتم العثور على تقارير في Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "تحضير ملف Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ملف Excel المُصدَّر: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "خطأ في التصدير إلى Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "ملف JSON المُصدَّر: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "خطأ في التصدير إلى JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "ملف CSV المُصدَّر: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "خطأ في التصدير إلى CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "الرجاء تحميل ملف JSON صالح",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "تم تحميل $COUNT$ مفاتيح الترجمة",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ملف JSON غير صالح",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "الرجاء إكمال جميع الخطوات",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "تتطلب ترجمة الذكاء الاصطناعي اشتراكًا مميزًا. يُرجى الترقية أو استخدام ترجمة جوجل.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "فشل في الترجمة إلى اللغة $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "فشلت جميع الترجمات. يُرجى المحاولة مرة أخرى.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "فشلت الترجمة. يُرجى المحاولة مرة أخرى.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "تمت الترجمة بنجاح إلى $COUNT$ لغة!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "تم تنزيل $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "قم بإفلات ملف JSON هنا أو انقر للاستعراض",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "يدعم: en.json، vi.json، إلخ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ترجمة جوجل",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ترجمة سريعة ومجانية باستخدام Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ترجمة الذكاء الاصطناعي",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "ترجمة عالية الجودة مع مراعاة السياق باستخدام الذكاء الاصطناعي",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "حر",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "سريع",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "واعي بالسياق",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "صياغة طبيعية",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "أفضل لنص واجهة المستخدم",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "تعطيل التحرير المباشر ($COUNT$ تعديلات)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "تمكين التحرير المباشر ($COUNT$ تم الحفظ)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "النص المحدد ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "بدائل أفضل ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "الترقية إلى الإصدار المميز",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "افتح جميع ميزات الذكاء الاصطناعي والترجمات غير المحدودة",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "اقتراحات الذكاء الاصطناعي الذكية",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "الترجمة السريعة للدفعات",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "فحص الجودة التلقائي",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "الدعم ذو الأولوية",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "يدعم جميع اللغات",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "اشترك الآن",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "حساب مميز",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "الاشتراك النشط",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "تاريخ انتهاء الصلاحية",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "الأيام المتبقية",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "نوع المشكلة:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ترجمة خاطئة",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "تجاوز النص",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "التخطيط مكسور",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "الترجمة المفقودة",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "مشكلة التنسيق",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "آخر",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "مدير تقارير الأخطاء",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "إدارة وتصدير مشكلات التوطين الخاصة بك",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ابدأ في الإبلاغ عن المشكلات لتتبع مشكلات التوطين",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "لا توجد تقارير تطابق مرشحاتك",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "جميع الحالات",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "كل الشدة",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "جميع الفئات",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "عالي",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "واسطة",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "قليل",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ممتاز!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "تم فحص $COUNT$ من مقاطع النص ولم يتم العثور على أي مشاكل.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "اللغة المصدر:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "اللغة المستهدفة:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "مطلوب تسجيل الدخول",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "يرجى تسجيل الدخول لاستخدام ميزات الترجمة. يحصل المستخدمون المجانيون على ١٠ ترجمات.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ من $LIMIT$ الترجمات المتبقية",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "تم الوصول إلى حد الاستخدام",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "لقد وصلت إلى الحد الأقصى لاستخدامك. ارتقِ إلى الإصدار المميز للاستفادة من وصول غير محدود.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "الترقية إلى الإصدار المميز",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "احصل على ترجمات غير محدودة وميزات مميزة",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "كل شهر",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ترجمات غير محدودة",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ربما في وقت لاحق",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "إلغاء في أي وقت. لا توجد أسئلة.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "استخدامك",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "الترجمات المستخدمة",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "يرجى تسجيل الدخول لاستخدام ميزات الترجمة",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "لا توجد ترجمات كافية متبقية. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "أنت تستخدم جميع الترجمات المتبقية (عددها $COUNT$). ارتقِ إلى النسخة المميزة لوصول غير محدود.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "لا يمكن التشغيل على هذه الصفحة",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "يعمل LocalizeAI فقط على المواقع الإلكترونية العادية. لا يمكن تشغيله على صفحات Chrome الداخلية.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "نوع الصفحة غير مدعوم",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "الصفحات غير المدعومة:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "افتح موقعًا عاديًا مثل google.com لاستخدام LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ابدأ الترجمة",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "تنزيل الكل",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ترجمة ملف آخر",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "تحميل",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "تحميل ملف JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "اختر اللغات المستهدفة",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "اختر وضع الترجمة",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "عدد المفاتيح المترجمة $COUNT$",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "تمت الترجمة!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "إجمالي التقارير",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "القضايا المفتوحة",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "أولوية عالية",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "المزامنة مع Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "المزامنة من Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "تصدير إكسل",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "تصدير JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "بطاقة تعريف",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "خطورة",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "عنصر",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "مشكلة",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "الحلول المقترحة",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "عرض HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "منفذ العرض",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "اللغة الحالية",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "المفاتيح المترجمة",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "الوقت المنقضي",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "جاري الترجمة...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "ترجمة ملفات لغة JSON إلى لغات متعددة باستخدام Google Translate أو الذكاء الاصطناعي",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "حدد لغة واحدة أو أكثر للترجمة إليها",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "تم اكتشاف التنسيق: $FORMAT$، الوضع: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "جاري الترجمة إلى $LANG$... ($CURRENT$/$TOTAL$ keys)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "تصدير $COUNT$ التغييرات",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "قم بتصدير تعديلاتك لمشاركتها مع فريق الترجمة الخاص بك",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "تنزيل ملف CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "تنزيل JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "تم حفظ $COUNT$ من التغييرات. اضغط Ctrl+E للتصدير.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "انقر هنا لتمكين وضع التحرير",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "انقر لتفعيل وضع التحرير. لقد حفظت التغييرات. اضغط Ctrl+E للتصدير.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "لم يتم تحديد النص",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "حدد النص للحصول على اقتراحات الذكاء الاصطناعي",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "لم يتم العثور على لغات",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "فشل تسجيل الدخول. يُرجى المحاولة مرة أخرى.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "تم تسجيل الدخول بنجاح!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "تم تسجيل الخروج بنجاح",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "فشل المصادقة. يُرجى محاولة مسح ذاكرة التخزين المؤقت وتسجيل الدخول مرة أخرى.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "مسح ذاكرة التخزين المؤقت...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "فشل في مسح ذاكرة التخزين المؤقت",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "مكتبة إكسل غير متاحة. يُرجى إعادة تحميل الصفحة.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "الحد الأقصى $MAX$ لغة في وقت واحد للأداء الأمثل. يرجى الترجمة على دفعات.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "تم تحديد $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "يرجى تسجيل الدخول لاستخدام ترجمة الذكاء الاصطناعي",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "الأفضل للملفات ذات الحجم المعقول.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "وضع الذكاء الاصطناعي: سيؤدي هذا إلى إجراء مكالمات $REQUESTS$ API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ستجري هذه الترجمة حوالي $COUNT$ من استدعاءات واجهة برمجة التطبيقات.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "يدعم وضع AI الحد الأقصى من اللغات $MAX$ في وقت واحد.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "طريقة الترجمة",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "حر",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "غير محدود",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "سريع",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "اللغات",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "تتطلب الترجمة بعدة لغات الحصول على Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "تم الفحص:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "تهجئة",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "القواعد",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "التنسيق",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "النص الأصلي ليس لديه مشاكل",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "تم التحقق من مقاطع نصية بقيمة <strong>$COUNT$</strong>",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "تم العثور على أخطاء <strong>$COUNT$</strong> لإصلاحها",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "لا توجد أخطاء!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "تقرير فحص الجودة",
+    "description": "Quality check report title"
+  }
+}

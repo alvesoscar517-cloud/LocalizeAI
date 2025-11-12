@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI-översättningstestverktyg. Direktöversättning, felrapportering, pseudo-lokalisering och batch JSON-översättning.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Stäng",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Avboka",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Spara",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Radera",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Exportera",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synkronisera",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "KÄLLA",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MÅL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Sök språk...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatiskt upptäckt från webbläsaren",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Språkväxling",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Växla mellan originaltext och översatt text",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Så här fungerar det: • Växla mellan originaltext och översatt text • Översättningar cachas för snabb växling • Fungerar med all text på sidan • Rensa cachen för att översätta om",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Original",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Översatt",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Klar att översättas",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Rensa cachen och översätt om",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalisering",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Testa gränssnittet med längre text för att hitta problem med överflöde",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Så här fungerar det: • Ersätter tecken med accenttecken • Lägger till 30–40 % längdförlängning • Radbryter text inom [!!!... !!!]-markörer • Exempel: \"Inställningar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Applicera Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Liveredigeringsläge",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klicka på valfri text för att redigera direkt på sidan",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Så här fungerar det: • Klicka på valfritt textelement för att redigera det • Ändringar spåras i realtid • Exportera redigeringar som JSON eller Excel • Tryck Ctrl+E för att exportera ändringar",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktivera Live-redigering",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI-funktioner",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-drivna översättningsverktyg",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premiumfunktioner: • AI-driven kontextmedveten översättning • Batchöversättning av hela sidor • Kvalitetskontroll av översättningar • Förslag på naturligt språk",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Få AI-förslag",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart batchöversättning",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Översätter ALL text på sidan med AI-kontext",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Kontrollera översättningskvaliteten",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premie",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON-filöversättare",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Översätt JSON-språkfiler till flera språk",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Så här fungerar det: • Ladda upp JSON-språkfiler • Välj målspråk • Översätt med Google eller AI • Ladda ner översatta filer",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Översätt JSON-fil",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Rapportera problem",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Rapportera problem med textöversättning och lokalisering",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Så här fungerar det: • Klicka på textelement för att rapportera problem • Lägg till beskrivningar och allvarlighetsgrad • Exportera rapporter till Excel eller JSON • Synkronisera med Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Börja rapportera",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Hantera rapporter",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Konto",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Logga in med Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Uppgradera till Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premiuminformation",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Logga ut",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Felrapporter",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Sökrapporter...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Rensa alla",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Inga felrapporter ännu",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klicka på \"Starta rapportering\" för att spåra problem",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Inga resultat hittades",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Prova olika sökord",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Visa detaljer",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Markera som löst",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Öppna igen",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Felrapport #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Grundläggande information",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementdetaljer",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Märka",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Text",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Väljare",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Översättningskontext",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Problembeskrivning",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Sidinformation",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titel",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ta bort rapport",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Är du säker på att du vill radera rapport #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Rensa alla rapporter",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Radera ALLA felrapporter? Den här åtgärden kan inte ångras!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ta bort alla",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Exportera felrapporter",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Välj exportformat:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exportera till Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exportera till JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synkronisera till Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapport #$ID$ markerad som $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapport #$ID$ borttagen",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Alla rapporter har rensats",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Ändra målspråk?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Källspråket har ändrats till $SOURCE$. Vill du översätta till $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ja, ändra",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nej, håll dig uppdaterad",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "öppna",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "löst",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Hur det fungerar:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premiumfunktioner:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatiskt upptäckt: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Synkronisera data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Hittade $COUNT$ texter att översätta",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "vald",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Förbereder...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Komplett!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Börjar översätta för $COUNT$ språk...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Slutförda $SUCCESS$/$TOTAL$ språk",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cacheminnet har rensats",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ej specificerad",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Namnlös sida",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Se",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Bekräfta",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Beskriv problemet i detalj...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Vänligen beskriv problemet",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Vänligen logga in först",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tips: Tryck Ctrl+E för att exportera dina ändringar",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klicka för att inaktivera redigeringsläget. Tryck Ctrl+E för att exportera ändringarna.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopierad till urklipp!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Förbättring tillämpad!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Tillämpade $COUNT$ förbättringar!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kvalitetskontroll klar",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synkroniserar med Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Synkroniserat med Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive-synkroniseringen misslyckades",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Logga in för att synkronisera från Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synkroniserar från Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Synkroniserade $COUNT$ rapporter från Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Inga rapporter hittades i Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Förbereder Excel-fil...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel-fil exporterad: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Fel vid export till Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-fil exporterad: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Fel vid export till JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-fil exporterad: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Fel vid export till CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Vänligen ladda upp en giltig JSON-fil",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Laddade in $COUNT$ översättningsnycklar",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ogiltig JSON-fil",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Vänligen slutför alla steg",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI-översättning kräver Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Misslyckades med att översätta till $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Alla översättningar misslyckades. Försök igen.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Översättningen misslyckades. Försök igen.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Lyckades översätta till $COUNT$ språk!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Nedladdade $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Släpp JSON-filen här eller klicka för att bläddra",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Stöder: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Översätt",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Snabb och gratis översättning med Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI-översättning",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Högkvalitativ kontextmedveten översättning med hjälp av AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Snabb",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontextmedveten",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Naturlig frasering",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Bättre för UI-text",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Inaktivera Live-redigering ($COUNT$ redigeringar)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Aktivera Live Edit ($COUNT$ sparat)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Markerad text ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Bättre alternativ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Uppgradera till Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Lås upp alla AI-funktioner och obegränsade översättningar",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Smarta AI-förslag",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Snabb batchöversättning",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatisk kvalitetskontroll",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioriterat stöd",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Alla språk stöds",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Prenumerera nu",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premiumkonto",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktiv prenumeration",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Utgångsdatum",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Återstående dagar",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Problemtyp:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Fel översättning",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Textöverflöde",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Trasig layout",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Översättning saknas",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formateringsproblem",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Andra",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Hanterare för felrapporter",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Hantera och exportera dina lokaliseringsproblem",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Börja rapportera problem för att spåra lokaliseringsproblem",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Inga rapporter matchar dina filter",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Alla status",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "All allvarlighetsgrad",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Alla kategorier",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Hög",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medium",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Låg",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Excellent!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Kontrollerade $COUNT$ textsegment och hittade inga problem.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Källspråk:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Målspråk:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Inloggning krävs",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Vänligen logga in för att använda översättningsfunktionerna. Gratisanvändare får 10 översättningar.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ av $LIMIT$ översättningar återstår",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Användningsgränsen nådd",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Du har nått din användningsgräns.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Uppgradera till Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Lås upp obegränsade översättningar och premiumfunktioner",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per månad",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Obegränsade översättningar",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Kanske senare",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Avsluta när som helst. Inga frågor ställs.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Din användning",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "översättningar som används",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Vänligen logga in för att använda översättningsfunktionerna",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Det finns inte tillräckligt med översättningar kvar. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Du använder alla återstående översättningar av $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Kan inte köras på den här sidan",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI fungerar bara på vanliga webbplatser. Det kan inte köras på Chromes interna sidor.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Sidtyp som inte stöds",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Sidor som inte stöds:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Öppna en vanlig webbplats som google.com för att använda LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Starta översättning",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Ladda ner alla",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Översätt en annan fil",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Ladda ner",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Ladda upp JSON-fil",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Välj målspråk",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Välj översättningsläge",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ nycklar översatta",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Översättningen är klar!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Totalt antal rapporter",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Öppna ärenden",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Hög prioritet",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synkronisera till Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synkronisera från Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Exportera Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Exportera JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Stränghet",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Utfärda",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Föreslagna lösningar",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Visa HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vyport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Nuvarande språk",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Översatta nycklar",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Förfluten tid",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Översätter...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Översätt JSON-språkfiler till flera språk med Google Translate eller AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Välj ett eller flera språk att översätta till",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format detekterat: $FORMAT$, Läge: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Översätter till $LANG$... ($CURRENT$/$TOTAL$-tangenter)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exportera $COUNT$ ändringar",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exportera dina redigeringar för att dela dem med ditt översättningsteam",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Ladda ner CSV-filen",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Ladda ner JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ändringar sparade. Tryck Ctrl+E för att exportera.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klicka för att aktivera redigeringsläge",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klicka för att aktivera redigeringsläge. Du har sparat ändringarna. Tryck Ctrl+E för att exportera.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ingen text vald",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Markera text för att få AI-förslag",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Inga språk hittades",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Inloggningen misslyckades. Försök igen.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Inloggning lyckades!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Utloggad",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentiseringen misslyckades. Försök att rensa cachen och logga in igen.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Rensar cachen...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Misslyckades med att rensa cachen",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-biblioteket är inte tillgängligt. Vänligen ladda sidan igen.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maximalt $MAX$ språk åt gången för optimal prestanda. Översätt i omgångar.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ valda",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Logga in för att använda AI-översättning",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Bäst för filer med rimlig storlek.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI-läge: Detta kommer att göra $REQUESTS$ API-anrop. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Denna översättning kommer att göra ungefär $COUNT$ API-anrop.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI-läge stöder maximalt $MAX$-språk samtidigt.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Översättningsmetod",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Obegränsat",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Snabb",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "språk",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Översättning av flera språk kräver Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Kontrollerade:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Stavning",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatik",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatering",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originaltexten har inga problem",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Kontrollerade <strong>$COUNT$</strong> textsegment",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Hittade <strong>$COUNT$</strong> fel att åtgärda",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Inga fel!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kvalitetskontrollrapport",
+    "description": "Quality check report title"
+  }
+}

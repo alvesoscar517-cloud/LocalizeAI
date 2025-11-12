@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "ເຄື່ອງມືທົດສອບການແປ AI. ການແປສົດ, ການລາຍງານຂໍ້ຜິດພາດ, ການແປເປັນພາສາທ້ອງຖິ່ນປອມ ແລະການແປ JSON ເປັນກຸ່ມ.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ປິດ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ຍົກເລີກ",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ບັນທຶກ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ລຶບ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ສົ່ງອອກ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ຊິງຄ໌",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ແຫຼ່ງຂໍ້ມູນ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ເປົ້າໝາຍ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ຊອກຫາພາສາ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ກວດພົບອັດຕະໂນມັດຈາກຕົວທ່ອງເວັບ",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ສະຫຼັບພາສາ",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ສະຫຼັບລະຫວ່າງຂໍ້ຄວາມຕົ້ນສະບັບ ແລະຂໍ້ຄວາມທີ່ແປແລ້ວ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ມັນເຮັດວຽກແນວໃດ: • ສະຫຼັບລະຫວ່າງຂໍ້ຄວາມຕົ້ນສະບັບ ແລະຂໍ້ຄວາມທີ່ແປແລ້ວ • ການແປພາສາຖືກເກັບໄວ້ໃນຖານສໍາລັບການປ່ຽນໄວ •ເຮັດວຽກກັບຂໍ້ຄວາມທັງຫມົດໃນຫນ້າ • ລ້າງແຄດເພື່ອແປຄືນໃໝ່",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ຕົ້ນສະບັບ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ແປ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ພ້ອມແປແລ້ວ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ລຶບລ້າງແຄສ ແລະແປຄືນໃໝ່",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "pseudo-localization",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ທົດສອບ UI ດ້ວຍຂໍ້ຄວາມທີ່ຍາວກວ່າເພື່ອຊອກຫາບັນຫາລົ້ນ",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ເຮັດແນວໃດມັນເຮັດວຽກ:",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "ນຳໃຊ້ Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ໂໝດແກ້ໄຂສົດ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ຄລິກຂໍ້ຄວາມໃດໜຶ່ງເພື່ອແກ້ໄຂໂດຍກົງໃນໜ້າ",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ມັນເຮັດວຽກແນວໃດ: • ຄລິກອົງປະກອບຂໍ້ຄວາມໃດນຶ່ງເພື່ອແກ້ໄຂມັນ • ການປ່ຽນແປງແມ່ນຕິດຕາມໃນເວລາຈິງ • ສົ່ງອອກການແກ້ໄຂເປັນ JSON ຫຼື Excel • ກົດ Ctrl+E ເພື່ອສົ່ງອອກການປ່ຽນແປງ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ເປີດໃຊ້ງານແກ້ໄຂບັນຫາ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "ຄຸນນະສົມບັດ AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "ເຄື່ອງມືແປພາສາທີ່ຂັບເຄື່ອນດ້ວຍ AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ຄຸນນະສົມບັດທີ່ນິຍົມ:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "ຮັບຄຳແນະນຳ AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ແປພາສາ Smart Batch",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ແປຂໍ້ຄວາມທັງໝົດໃນໜ້າດ້ວຍ AI context",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ກວດເບິ່ງຄຸນນະພາບການແປ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ພຣີມຽມ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "ນັກແປໄຟລ໌ JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "ແປໄຟລ໌ພາສາ JSON ເປັນຫຼາຍພາສາ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ມັນເຮັດວຽກແນວໃດ: • ອັບໂຫຼດໄຟລ໌ພາສາ JSON • ເລືອກພາສາເປົ້າໝາຍ • ແປດ້ວຍ Google ຫຼື AI • ດາວໂຫຼດໄຟລ໌ທີ່ແປແລ້ວ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "ແປໄຟລ໌ JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ລາຍງານບັນຫາ",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ລາຍງານບັນຫາການແປຂໍ້ຄວາມ ແລະການແປພາສາ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ມັນເຮັດວຽກແນວໃດ: • ຄລິກອົງປະກອບຂໍ້ຄວາມເພື່ອລາຍງານບັນຫາ •ເພີ່ມຄໍາອະທິບາຍແລະຄວາມຮຸນແຮງ • ສົ່ງອອກລາຍງານໄປຍັງ Excel ຫຼື JSON • ຊິງຄ໌ກັບ Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ເລີ່ມການລາຍງານ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ຈັດການລາຍງານ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "ບັນຊີ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "ເຂົ້າສູ່ລະບົບດ້ວຍ Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ຍົກລະດັບໃຫ້ເປັນທີ່ນິຍົມ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ຂໍ້ມູນພຣີມຽມ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ອອກຈາກລະບົບ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ລາຍງານຂໍ້ຜິດພາດ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ຄົ້ນຫາບົດລາຍງານ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ລຶບລ້າງທັງໝົດ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ຍັງບໍ່ມີລາຍງານຂໍ້ຜິດພາດເທື່ອ",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ຄລິກ \"ເລີ່ມການລາຍງານ\" ເພື່ອຕິດຕາມບັນຫາ",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ບໍ່ພົບຜົນການຊອກຫາ",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "ລອງໃຊ້ຄໍາທີ່ແຕກຕ່າງ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ເບິ່ງລາຍລະອຽດ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ໝາຍວ່າແກ້ໄຂແລ້ວ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ເປີດຄືນໃໝ່",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ລາຍງານຂໍ້ຜິດພາດ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ຂໍ້ມູນພື້ນຖານ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ສະຖານະ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ປະເພດ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ວັນທີ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ລາຍລະອຽດອົງປະກອບ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ແທັກ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ຂໍ້ຄວາມ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ໂຕເລືອກ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ສະພາບການແປ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "ລາຍລະອຽດຂອງບັນຫາ",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ຂໍ້ມູນໜ້າ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ຫົວຂໍ້",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ລຶບລາຍງານ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບລາຍງານ #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ລຶບລາຍງານທັງໝົດ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ລຶບລາຍງານຂໍ້ຜິດພາດທັງໝົດບໍ? ຄຳສັ່ງນີ້ບໍ່ສາມາດຍົກເລີກໄດ້!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ລຶບທັງໝົດ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ສົ່ງອອກລາຍງານຂໍ້ຜິດພາດ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ເລືອກຮູບແບບການສົ່ງອອກ:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ສົ່ງອອກໄປຍັງ Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "ສົ່ງອອກໄປຍັງ JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "ຊິງຄ໌ກັບ Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "ລາຍງານ # $ $$STATUS$$ $ ຫມາຍ $ ຫມາຍເປັນ $ ສະຖານະພາບ $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "ລາຍງານ #$ID$ ຖືກລຶບແລ້ວ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ລາຍງານທັງໝົດຖືກລຶບລ້າງແລ້ວ",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ປ່ຽນພາສາເປົ້າໝາຍບໍ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ປ່ຽນພາສາຕົ້ນສະບັບເປັນ $SOURCE$. ທ່ານຕ້ອງການແປເປັນ $TARGET$ ບໍ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ແມ່ນແລ້ວ, ປ່ຽນ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ບໍ່, ຮັກສາປັດຈຸບັນ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ເປີດ",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ແກ້ໄຂແລ້ວ",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ມັນເຮັດວຽກແນວໃດ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ຄຸນສົມບັດພິເສດ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ກວດພົບອັດຕະໂນມັດ: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ຊິງຂໍ້ມູນ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ພົບ $COUNT$ ຂໍ້ຄວາມທີ່ຈະແປ",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ເລືອກ",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "ກຳລັງກະກຽມ...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ສຳເລັດ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "ກຳລັງເລີ່ມການແປເປັນພາສາ $COUNT$...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ສໍາເລັດ $ / $ / $ $ ລວມທັງຫມົດທັງຫມົດພາສາ $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ ຂະຫນາດ $ KB $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ ເວລາ $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ລ້າງແຄດແລ້ວ",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "ບໍ່ໄດ້ລະບຸ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ໜ້າບໍ່ມີຊື່",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ເບິ່ງ",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ຢືນຢັນ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ຕົກລົງ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ອະທິບາຍບັນຫາຢ່າງລະອຽດ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ກະລຸນາອະທິບາຍບັນຫາ",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ກະລຸນາເຂົ້າສູ່ລະບົບກ່ອນ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ເຄັດລັບ: ກົດ Ctrl+E ເພື່ອສົ່ງອອກການປ່ຽນແປງຂອງທ່ານ",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ຄລິກເພື່ອປິດການນຳໃຊ້ຮູບແບບການແກ້ໄຂ. ກົດ Ctrl+E ເພື່ອສົ່ງອອກການປ່ຽນແປງ.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ສຳເນົາໃສ່ຄລິບບອດແລ້ວ!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ນຳໃຊ້ການປັບປຸງແລ້ວ!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "ນຳໃຊ້ການປັບປຸງ $COUNT$ ແລ້ວ!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ການກວດສອບຄຸນນະພາບສໍາເລັດ",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "ກຳລັງຊິ້ງກັບ Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "ຊິ້ງກັບ Google Drive ແລ້ວ!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ການຊິ້ງຂໍ້ມູນ Drive ລົ້ມເຫລວ",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ກະລຸນາເຂົ້າສູ່ລະບົບເພື່ອຊິ້ງຈາກ Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "ກຳລັງຊິ້ງຂໍ້ມູນຈາກ Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ຊິ້ງ $COUNT$ ລາຍງານຈາກ Drive ແລ້ວ!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ບໍ່ພົບລາຍງານໃນ Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ກຳລັງກະກຽມໄຟລ໌ Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ໄຟລ໌ Excel ຖືກສົ່ງອອກ: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ເກີດຄວາມຜິດພາດໃນການສົ່ງອອກໄປຍັງ Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "ໄຟລ໌ JSON ຖືກສົ່ງອອກ: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "ການສົ່ງອອກໄປ JSON ຜິດພາດ",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "ໄຟລ໌ CSV ຖືກສົ່ງອອກ: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "ເກີດຄວາມຜິດພາດໃນການສົ່ງອອກເປັນ CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ກະລຸນາອັບໂຫລດໄຟລ໌ JSON ທີ່ຖືກຕ້ອງ",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "ໂຫລດລະຫັດການແປ $COUNT$ ແລ້ວ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ໄຟລ໌ JSON ບໍ່ຖືກຕ້ອງ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "ກະລຸນາເຮັດສໍາເລັດທຸກຂັ້ນຕອນ",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "ການແປພາສາ AI ຕ້ອງການນິຍົມ.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "ແປເປັນ $LANG$ ບໍ່ສຳເລັດ",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ການແປທັງໝົດລົ້ມເຫລວ. ກະລຸນາລອງອີກຄັ້ງ.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ການແປລົ້ມເຫລວ. ກະລຸນາລອງອີກຄັ້ງ.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "ແປເປັນ $COUNT$ ພາສາສຳເລັດແລ້ວ!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "ດາວໂຫຼດ $FILENAME$ ແລ້ວ",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "ວາງໄຟລ໌ JSON ບ່ອນນີ້ ຫຼືຄລິກເພື່ອເລືອກເບິ່ງ",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ຮອງຮັບ: en.json, vi.json, ແລະອື່ນໆ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google ແປພາສາ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ການແປພາສາໄວ ແລະບໍ່ເສຍຄ່າໂດຍໃຊ້ Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ການແປພາສາ AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "ການແປພາສາທີ່ຮັບຮູ້ບໍລິບົດຄຸນນະພາບສູງໂດຍໃຊ້ AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ຟຣີ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "ໄວ",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ຄວາມເຂົ້າໃຈກ່ຽວກັບສະພາບການ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ປະໂຫຍກທໍາມະຊາດ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "ດີກວ່າສໍາລັບຂໍ້ຄວາມ UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ປິດການດັດແກ້ສົດ ($COUNT$ ການແກ້ໄຂ)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ເປີດໃຊ້ເວລາແກ້ໄຂບັນຫາ ($ ນັບ $ ທີ່ບັນທຶກໄວ້) $COUNT$",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ຂໍ້ຄວາມທີ່ເລືອກ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ທາງເລືອກທີ່ດີກວ່າ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ຍົກລະດັບໃຫ້ເປັນທີ່ນິຍົມ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ປົດລັອກຄຸນສົມບັດ AI ທັງໝົດ ແລະການແປບໍ່ຈຳກັດ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ແນະນໍາ smart",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ການ​ແປ​ພາ​ສາ batch ໄວ​",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ການກວດສອບຄຸນນະພາບອັດຕະໂນມັດ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ສະຫນັບສະຫນູນບູລິມະສິດ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ສະຫນັບສະຫນູນພາສາທັງຫມົດ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ສະໝັກດຽວນີ້",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ບັນຊີພຣີມຽມ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ການສະໝັກສະມາຊິກ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ວັນໝົດອາຍຸ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ມື້ທີ່ຍັງເຫຼືອ",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ປະເພດບັນຫາ:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ການແປຜິດ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ຂໍ້ຄວາມທີ່ລົ້ນ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ໂຄງຮ່າງແຕກ",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ຂາດການແປ",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ບັນຫາການຈັດຮູບແບບ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ອື່ນໆ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ຜູ້ຈັດການລາຍງານຂໍ້ຜິດພາດ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ຈັດການແລະສົ່ງອອກບັນຫາການແປພາສາຂອງທ່ານ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ເລີ່ມການລາຍງານບັນຫາເພື່ອຕິດຕາມບັນຫາການທ້ອງຖິ່ນ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ບໍ່ມີບົດລາຍງານທີ່ກົງກັບຕົວກອງຂອງທ່ານ",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ສະຖານະທັງໝົດ",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ຄວາມຮຸນແຮງທັງໝົດ",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ໝວດໝູ່ທັງໝົດ",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ສູງ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ຂະຫນາດກາງ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ຕໍ່າ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ເລີດ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "ກວດເບິ່ງພາກສ່ວນຂໍ້ຄວາມ $COUNT$ ແລະບໍ່ພົບບັນຫາ.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ພາສາຕົ້ນສະບັບ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ພາສາເປົ້າໝາຍ:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ຕ້ອງການເຂົ້າສູ່ລະບົບ",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ກະລຸນາເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ຄຸນສົມບັດການແປ. ຜູ້​ໃຊ້​ຟຣີ​ໄດ້​ຮັບ 10 ການ​ແປ​ພາ​ສາ​.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "ຍັງເຫຼືອການແປ $REMAINING$ ຂອງ $LIMIT$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ຮອດຂີດຈຳກັດການນຳໃຊ້ແລ້ວ",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "ທ່ານໄດ້ບັນລຸຂີດຈໍາກັດການນໍາໃຊ້ຂອງທ່ານແລ້ວ.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ຍົກລະດັບໃຫ້ເປັນທີ່ນິຍົມ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ປົດລັອກການແປບໍ່ຈຳກັດ ແລະຄຸນສົມບັດພຣີມຽມ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ຕໍ່ເດືອນ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ການແປພາສາບໍ່ຈໍາກັດ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ບາງທີຕໍ່ມາ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ຍົກເລີກໄດ້ທຸກເວລາ. ບໍ່ມີຄຳຖາມ.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ການ​ນໍາ​ໃຊ້​ຂອງ​ທ່ານ​",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ການແປພາສາທີ່ໃຊ້",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ກະລຸນາເຂົ້າສູ່ລະບົບເພື່ອໃຊ້ຄຸນສົມບັດການແປ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ການແປທີ່ຍັງເຫຼືອບໍ່ພຽງພໍ. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "ທ່ານກໍາລັງໃຊ້ທັງຫມົດ $ ນັບ $ ທີ່ຍັງເຫຼືອ. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ບໍ່ສາມາດແລ່ນໃນໜ້ານີ້ໄດ້",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ພຽງແຕ່ເຮັດວຽກຢູ່ໃນເວັບໄຊທ໌ປົກກະຕິ. ມັນບໍ່ສາມາດແລ່ນຢູ່ໃນໜ້າພາຍໃນຂອງ Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ປະເພດໜ້າທີ່ບໍ່ຮອງຮັບ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ໜ້າທີ່ບໍ່ຮອງຮັບ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "ເປີດເວັບໄຊທ໌ປົກກະຕິເຊັ່ນ google.com ເພື່ອໃຊ້ LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ເລີ່ມການແປ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ດາວໂຫຼດທັງໝົດ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ແປໄຟລ໌ອື່ນ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ດາວໂຫຼດ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "ອັບໂຫຼດໄຟລ໌ JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ເລືອກພາສາເປົ້າໝາຍ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ເລືອກໂໝດການແປ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ແປແລ້ວ",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ການແປສຳເລັດແລ້ວ!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ບົດລາຍງານທັງໝົດ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ເປີດບັນຫາ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ບູລິມະສິດສູງ",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sync ກັບ Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ຊິງຄ໌ຈາກ Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ສົ່ງອອກ Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "ສົ່ງອອກ JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ບັດປະຈໍາຕົວ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ຄວາມຮຸນແຮງ",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ອົງປະກອບ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ສະບັບ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "ວິທີແກ້ໄຂທີ່ແນະນໍາ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "ເບິ່ງ HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ເງິນ Xpath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ຊ່ອງເບິ່ງ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ພາສາປັດຈຸບັນ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Keys ແປ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ເວລາຜ່ານໄປ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ກຳລັງແປ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "ແປໄຟລ໌ພາສາ JSON ເປັນຫຼາຍພາສາດ້ວຍ Google ແປພາສາ ຫຼື AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ເລືອກໜຶ່ງ ຫຼືຫຼາຍພາສາເພື່ອແປເປັນ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ກວດພົບຮູບແບບ: $FORMAT$, ໂໝດ: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "ກຳລັງແປເປັນ $LANG$... (ກະແຈ $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "ສົ່ງອອກ $COUNT$ ການປ່ຽນແປງ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ສົ່ງອອກການແກ້ໄຂຂອງທ່ານເພື່ອແບ່ງປັນກັບທີມງານແປພາສາຂອງທ່ານ",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "ດາວໂຫລດ CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "ດາວໂຫລດ JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "ບັນທຶກການປ່ຽນແປງ $COUNT$ ແລ້ວ. ກົດ Ctrl+E ເພື່ອສົ່ງອອກ.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ຄລິກເພື່ອເປີດໃຊ້ໂໝດການແກ້ໄຂ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ຄລິກເພື່ອເປີດໃຊ້ໂໝດການແກ້ໄຂ. ທ່ານໄດ້ບັນທຶກການປ່ຽນແປງ. ກົດ Ctrl+E ເພື່ອສົ່ງອອກ.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ບໍ່ໄດ້ເລືອກຂໍ້ຄວາມ",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "ເລືອກຂໍ້ຄວາມເພື່ອຮັບຄຳແນະນຳ AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ບໍ່ພົບພາສາ",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ. ກະລຸນາລອງອີກຄັ້ງ.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ເຂົ້າສູ່ລະບົບສຳເລັດແລ້ວ!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ອອກຈາກລະບົບສຳເລັດແລ້ວ",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ການພິສູດຢືນຢັນລົ້ມເຫລວ. ກະລຸນາລອງລຶບລ້າງແຄດ ແລະເຂົ້າສູ່ລະບົບອີກຄັ້ງ.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ກຳລັງລຶບລ້າງແຄສ...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ລຶບລ້າງແຄສບໍ່ສຳເລັດ",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ບໍ່ມີຫ້ອງສະໝຸດ Excel. ກະລຸນາໂຫຼດໜ້ານີ້ຄືນໃໝ່.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ສູງສຸດ $ $MAX$ $ ພາສາໃນເວລາດຽວກັນສໍາລັບການປະຕິບັດທີ່ດີທີ່ສຸດ.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ ນັບ $ / $ $ $$MAX$$ $ ເລືອກ $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "ກະລຸນາເຂົ້າສູ່ລະບົບເພື່ອນໍາໃຊ້ AI Translation",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ດີທີ່ສຸດສໍາລັບໄຟລ໌ທີ່ມີຂະຫນາດທີ່ສົມເຫດສົມຜົນ.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "ຮູບແບບ AI: ສິ່ງນີ້ຈະເຮັດໃຫ້ການຮຽກຮ້ອງ API ຮຽກຮ້ອງ.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ການແປພາສານີ້ຈະເຮັດໃຫ້ການໂທຫາປະມານ API. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "ຮູບແບບ AI ສະຫນັບສະຫນູນສູງສຸດ $ $MAX$ $ $ Languages ​​ໃນເວລາດຽວກັນ.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "ວິທີການແປພາສາ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ອິດສະລະ",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ບໍ່ຈໍາກັດ",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ອົດອາຫານ",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ພາສາ",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ການແປພາສາຫລາຍພາສາຕ້ອງການຮັບຮອງ.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ເຊັກ:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ການສະກົດຄໍາ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ໄວຢະກອນ",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ການຈັດຮູບແບບ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ບົດເລື່ອງຕົ້ນສະບັບບໍ່ມີບັນຫາ",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "ກວດເບິ່ງ $ ນັບ $ ສ່ວນຂໍ້ຄວາມ",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ພົບ $ ນັບ $ ຂໍ້ຜິດພາດໃນການແກ້ໄຂ",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ບໍ່ມີຂໍ້ຜິດພາດ!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ບົດລາຍງານການກວດສອບຄຸນນະພາບ",
+    "description": "Quality check report title"
+  }
+}

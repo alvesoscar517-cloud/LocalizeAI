@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI-käännöstestaustyökalu. Reaaliaikainen käännös, virheraportointi, pseudo-lokalisointi ja JSON-eräkäännös.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Sulje",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Peruuttaa",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Tallentaa",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Poistaa",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Viedä",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synkronoi",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "LÄHDE",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "KOHDE",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Hae kieliä...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automaattisesti selaimesta tunnistettu",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Kielivalinta",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Vaihda alkuperäisen ja käännetyn tekstin välillä",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Toimintaperiaate: • Vaihda alkuperäisen ja käännetyn tekstin välillä • Käännökset tallennetaan välimuistiin nopeaa vaihtoa varten • Toimii kaiken sivun tekstin kanssa • Tyhjennä välimuisti uudelleenkääntämistä varten",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Alkuperäinen",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Käännetty",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Valmis kääntämään",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Tyhjennä välimuisti ja käännä uudelleen",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Näennäislokalisaatio",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Testaa käyttöliittymää pidemmällä tekstillä löytääksesi ylivuoto-ongelmia",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Toimintaperiaate: • Korvaa merkit aksenttisilla merkeillä • Lisää 30–40 % pituuden laajennuksen • Rivittää tekstin [!!!... !!!] -merkkien sisään • Esimerkki: \"Asetukset\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Levitä Pseudo-Locia",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Live-muokkaustila",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Napsauta mitä tahansa tekstiä muokataksesi sitä suoraan sivulla",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Toimintaperiaate: • Napsauta mitä tahansa tekstielementtiä muokataksesi sitä • Muutoksia seurataan reaaliajassa • Vie muokkaukset JSON- tai Excel-muodossa • Vie muutokset painamalla Ctrl+E",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Ota käyttöön reaaliaikainen muokkaus",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Tekoälyn ominaisuudet",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Tekoälyllä toimivat käännöstyökalut",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium-ominaisuudet:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Hanki tekoälyn ehdotuksia",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Älykäs eräkäännös",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Kääntää KAIKEN sivulla olevan tekstin tekoälykontekstin avulla",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Tarkista käännöksen laatu",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON-tiedostojen kääntäjä",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Käännä JSON-kielitiedostoja useille kielille",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Toimintaperiaate: • Lataa JSON-kielitiedostoja • Valitse kohdekielet • Käännä Googlen tai tekoälyn avulla • Lataa käännettyjä tiedostoja",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Käännä JSON-tiedosto",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Ilmoita ongelmasta",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Ilmoita tekstin käännös- ja lokalisointiongelmista",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Toimintaperiaate: • Napsauta tekstielementtejä ilmoittaaksesi ongelmista • Lisää kuvauksia ja vakavuusastetta • Vie raportit Exceliin tai JSON-muotoon • Synkronoi Google Driven kanssa",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Aloita raportointi",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Hallinnoi raportteja",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Tili",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Kirjaudu sisään Googlella",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Päivitä Premiumiin",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium-tiedot",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Kirjaudu ulos",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Virheraportit",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Hakuraportit...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Tyhjennä kaikki",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ei vielä bugiraportteja",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Seuraa ongelmia napsauttamalla \"Aloita raportointi\"",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ei tuloksia",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Kokeile eri avainsanoja",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Näytä tiedot",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Merkitse ratkaistuksi",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Avaa uudelleen",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Virheilmoitus #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Perustiedot",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Päivämäärä",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementin tiedot",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Teksti",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Valitsin",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Käännöskonteksti",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Ongelman kuvaus",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Sivun tiedot",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Otsikko",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-osoite",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Poista raportti",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Haluatko varmasti poistaa raportin #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Tyhjennä kaikki raportit",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Poistetaanko KAIKKI vikailmoitukset? Tätä toimintoa ei voi perua!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Poista kaikki",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Vie virheraportit",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Valitse vientimuoto:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Vie Exceliin",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Vie JSON-muotoon",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synkronoi Google Driveen",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Raportti #$ID$ merkitty $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Raportti #$ID$ poistettu",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Kaikki raportit tyhjennetty",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Vaihtaako kohdekieltä?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Lähdekieleksi muutettu $SOURCE$. Haluatko kääntää kielelle $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Kyllä, muutos",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ei, pidä ajan tasalla",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "avata",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ratkaistu",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Näin se toimii:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium-ominaisuudet:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automaattisesti havaittu: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Synkronoi tiedot",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Löytyi $COUNT$ käännettävää tekstiä",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "valittu",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Valmistellaan...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Täydellinen!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Aloitetaan käännös $COUNT$ kielelle...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Valmiit $SUCCESS$/$TOTAL$ kieltä",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ kt",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Välimuisti tyhjennetty",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ei määritelty",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Nimetön sivu",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Näytä",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Vahvistaa",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Kuvaile ongelmaa yksityiskohtaisesti...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Kuvaile ongelmaa",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Kirjaudu sisään ensin",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Vihje: Vie muutokset painamalla Ctrl+E näppäinyhdistelmää.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Napsauta poistaaksesi muokkaustilan käytöstä. Vie muutokset painamalla Ctrl+E.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopioitu leikepöydälle!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Parannus tehty!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ parannusta käytössä!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Laaduntarkastus valmis",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synkronoidaan Google Driveen...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Synkronoitu Google Driveen!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Driven synkronointi epäonnistui",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Kirjaudu sisään synkronoidaksesi Drivesta",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synkronoidaan Google Drivesta...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Synkronoi $COUNT$ raporttia Drivesta!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drivesta ei löytynyt raportteja",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel-tiedostoa valmistellaan...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel-tiedosto viety: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Virhe Exceliin viennissä",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-tiedosto viety: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Virhe JSON-viennissä",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-tiedosto viety: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Virhe CSV-tiedostoon viennissä",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Lataa kelvollinen JSON-tiedosto",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ladattu $COUNT$ käännösavainta",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Virheellinen JSON-tiedosto",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Suorita kaikki vaiheet",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Tekoälykääntäminen vaatii Premiumin. Päivitä tai käytä Google Kääntäjää.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Käännös kielelle $LANG$ epäonnistui",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Kaikki käännökset epäonnistuivat. Yritä uudelleen.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Käännös epäonnistui. Yritä uudelleen.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Käännetty onnistuneesti $COUNT$ kielelle!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Ladattu tiedosto $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Pudota JSON-tiedosto tähän tai napsauta selataksesi",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Tukee: en.json, vi.json jne.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google-kääntäjä",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Nopea ja ilmainen käännös Google Translate API:n avulla",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Tekoälykäännös",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Korkealaatuinen kontekstitietoinen käännös tekoälyn avulla",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Ilmainen",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Nopeasti",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontekstitietoinen",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Luonnollinen fraseeraus",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Parempi käyttöliittymätekstille",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Poista käytöstä reaaliaikainen muokkaus ($COUNT$ muokkausta)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Ota käyttöön reaaliaikainen muokkaus (säästöä: $COUNT$$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Valittu teksti ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Parempia vaihtoehtoja ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Päivitä Premiumiin",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Avaa kaikki tekoälyominaisuudet ja rajattomat käännökset",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Tekoälyn älykkäät ehdotukset",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Nopea eräkäännös",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automaattinen laaduntarkistus",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioriteettituki",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Kaikki kielet tuettu",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Tilaa nyt",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium-tili",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktiivinen tilaus",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Voimassaolopäivä",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Jäljellä olevia päiviä",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Ongelman tyyppi:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Väärä käännös",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Tekstin ylivuoto",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Asettelu rikki",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Puuttuva käännös",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Muotoiluongelma",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Muut",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Virheraporttien hallinta",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Hallitse ja vie lokalisointiongelmiasi",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Aloita ongelmien raportointi seurataksesi lokalisointiongelmia",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Yksikään raportti ei vastaa suodattimiasi",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Kaikki tilat",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Kaikki vakavuusasteet",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Kaikki kategoriat",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Korkea",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Keskikokoinen",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Matala",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Erinomainen!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Tarkistettu $COUNT$ tekstisegmenttiä eikä ongelmia löytynyt.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lähdekieli:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Kohdekieli:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Kirjaudu sisään",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Kirjaudu sisään käyttääksesi käännösominaisuuksia. Ilmaisversion käyttäjät saavat 10 käännöstä.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$/$LIMIT$ käännöstä jäljellä",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Käyttöraja saavutettu",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Olet saavuttanut käyttörajasi.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Päivitä Premiumiin",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Avaa rajattomat käännökset ja premium-ominaisuudet",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "kuukaudessa",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Rajoittamaton määrä käännöksiä",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Ehkä myöhemmin",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Peruuta milloin tahansa. Ei kysymyksiä.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Käyttösi",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "käytetyt käännökset",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Kirjaudu sisään käyttääksesi käännösominaisuuksia",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ei tarpeeksi käännöksiä jäljellä. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Käytät kaikkia $COUNT$ jäljellä olevia käännöksiä.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ei voida suorittaa tällä sivulla",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI toimii vain tavallisilla verkkosivustoilla. Se ei voi toimia Chromen sisäisillä sivuilla.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Ei-tuettu sivutyyppi",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Ei-tuetut sivut:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Avaa tavallinen verkkosivusto, kuten google.com, käyttääksesi LocalizeAI:ta",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Aloita käännös",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Lataa kaikki",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Käännä toinen tiedosto",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Lataa",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Lähetä JSON-tiedosto",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Valitse kohdekielet",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Valitse käännöstila",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ avainta käännetty",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Käännös valmis!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Raporttien kokonaismäärä",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Avoimet ongelmat",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Korkea prioriteetti",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synkronoi Driveen",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synkronoi Drivesta",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Vie Exceliin",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Vie JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Henkilöllisyystodistus",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Vakavuusaste",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elementti",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Antaa",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Ehdotetut ratkaisut",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Näytä HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Näkymä",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Nykyinen kieli",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Käännettyjä avaimia",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Kulunut aika",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Käännetään...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Käännä JSON-kielitiedostoja useille kielille Google Kääntäjällä tai tekoälyllä",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Valitse yksi tai useampi kieli käännettäväksi",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Havaittu muoto: $FORMAT$, Tila: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Käännetään kielelle $LANG$... ($CURRENT$/$TOTAL$ avaimet)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Vie $COUNT$ muutosta",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Vie muokkauksesi ja jaa ne käännöstiimillesi",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Lataa CSV-tiedosto",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Lataa JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ muutosta tallennettu. Vie painamalla Ctrl+E.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Napsauta ottaaksesi muokkaustilan käyttöön",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Napsauta ottaaksesi muokkaustilan käyttöön. Olet tallentanut muutokset. Vie ne painamalla Ctrl+E.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ei valittua tekstiä",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Valitse teksti saadaksesi tekoälyehdotuksia",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ei kieliä löytynyt",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Kirjautuminen epäonnistui. Yritä uudelleen.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Kirjautuminen onnistui!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Uloskirjautuminen onnistui",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Todennus epäonnistui. Yritä tyhjentää välimuisti ja kirjautua sisään uudelleen.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Tyhjennetään välimuistia...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Välimuistin tyhjentäminen epäonnistui",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-kirjasto ei ole käytettävissä. Lataa sivu uudelleen.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Enintään $MAX$ kieltä kerrallaan optimaalisen suorituskyvyn saavuttamiseksi. Käännä erissä.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ valittu",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Kirjaudu sisään käyttääksesi AI-käännöstä",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Paras kohtuullisen kokoisille tiedostoille.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI-tila: Tämä tekee $REQUESTS$ API-kutsuja. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Tämä käännös tekee noin $COUNT$ API-kutsua.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI-tila tukee enintään $MAX$ kieltä kerralla.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Käännösmenetelmä",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Ilmainen",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Rajoittamaton",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Nopeasti",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "kieliä",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Useiden kielten käännös vaatii Premiumin.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Tarkistettu:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Oikeinkirjoitus",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Kielioppi",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Muotoilu",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Alkuperäisessä tekstissä ei ole ongelmia",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Tarkistettu <strong>$COUNT$</strong> tekstisegmenttejä",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Löytyi <strong>$COUNT$</strong> korjattavaa virhettä",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ei virheitä!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Laaduntarkastusraportti",
+    "description": "Quality check report title"
+  }
+}

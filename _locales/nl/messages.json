@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI-vertaaltesttool. Live vertaling, bugrapportage, pseudo-lokalisatie en batch JSON-vertaling.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Sluiten",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Annuleren",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Opslaan",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Verwijderen",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Exporteren",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synchroniseren",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "BRON",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "DOEL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Zoek talen...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatisch gedetecteerd door browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Taal wisselen",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Schakelen tussen originele en vertaalde tekst",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Hoe het werkt: • Schakel tussen originele en vertaalde tekst • Vertalingen worden in de cache opgeslagen voor snelle omschakeling • Werkt met alle tekst op de pagina • Wis de cache om opnieuw te vertalen",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Origineel",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Vertaald",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Klaar om te vertalen",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Cache wissen en opnieuw vertalen",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalisatie",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Test de gebruikersinterface met langere tekst om overloopproblemen te vinden",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Hoe het werkt: • Vervangt tekens door geaccentueerde versies • Voegt 30-40% lengte-uitbreiding toe • Plaatst tekst tussen [!!!... !!!] markeringen • Voorbeeld: \"Instellingen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc toepassen",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Live-bewerkingsmodus",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klik op een tekst om deze direct op de pagina te bewerken",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Hoe het werkt: • Klik op een tekstelement om het te bewerken • Wijzigingen worden in realtime bijgehouden • Exporteer bewerkingen als JSON of Excel • Druk op Ctrl+E om wijzigingen te exporteren",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Live bewerken inschakelen",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI-functies",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-aangedreven vertaaltools",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premiumfuncties: • Contextbewuste vertaling op basis van AI • Volledige pagina's batchgewijs vertalen • Kwaliteitscontrole voor vertalingen • Suggesties voor natuurlijke taal",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ontvang AI-suggesties",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Slimme batchvertaling",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Vertaalt ALLE tekst op de pagina met AI-context",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Controleer de vertaalkwaliteit",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premie",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON-bestandsvertaler",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Vertaal JSON-taalbestanden naar meerdere talen",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Hoe het werkt:",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON-bestand vertalen",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Probleem melden",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Problemen met tekstvertaling en -lokalisatie melden",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Hoe het werkt: • Klik op tekstelementen om problemen te melden • Voeg beschrijvingen en ernst toe • Exporteer rapporten naar Excel of JSON • Synchroniseer met Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Begin met rapporteren",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Rapporten beheren",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Rekening",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Aanmelden met Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Upgrade naar Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium-informatie",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Afmelden",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Bug-rapporten",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Zoekrapporten...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Alles wissen",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Nog geen bug-rapporten",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klik op 'Start met rapporteren' om problemen bij te houden",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Geen resultaten gevonden",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Probeer verschillende trefwoorden",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Bekijk details",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Markeer als opgelost",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Heropenen",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Bugrapport #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Basisinfo",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categorie",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementdetails",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Label",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Tekst",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selector",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Vertalingscontext",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Probleembeschrijving",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Pagina-info",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titel",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Rapport verwijderen",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Weet u zeker dat u rapport #$ID$ wilt verwijderen?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Alle rapporten wissen",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ALLE bugmeldingen verwijderen? Deze actie kan niet ongedaan worden gemaakt!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Alles verwijderen",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Bugrapporten exporteren",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Kies exportformaat:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exporteren naar Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exporteren naar JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synchroniseren met Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapport #$ID$ gemarkeerd als $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapport #$ID$ verwijderd",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Alle rapporten zijn goedgekeurd",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Doeltaal wijzigen?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Brontaal gewijzigd naar $SOURCE$. Wilt u vertalen naar $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ja, veranderen",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nee, blijf actueel",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "open",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "opgelost",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Hoe het werkt:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premiumfuncties:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatisch gedetecteerd: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Gegevens synchroniseren",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ teksten gevonden om te vertalen",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "gekozen",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Voorbereiden...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Compleet!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Vertaling starten voor $COUNT$ talen...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ talen voltooid",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache gewist",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Niet gespecificeerd",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Naamloze pagina",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Weergave",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Bevestigen",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Beschrijf het probleem gedetailleerd...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Beschrijf het probleem",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Meld u eerst aan",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: druk op Ctrl+E om uw wijzigingen te exporteren",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klik om de bewerkingsmodus uit te schakelen. Druk op Ctrl+E om de wijzigingen te exporteren.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Gekopieerd naar klembord!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Verbetering toegepast!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ verbeteringen toegepast!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kwaliteitscontrole voltooid",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synchroniseren met Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Gesynchroniseerd met Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Schijfsynchronisatie mislukt",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Meld u aan om te synchroniseren vanaf Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synchroniseren vanuit Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ rapporten gesynchroniseerd vanuit Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Geen rapporten gevonden in Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel-bestand voorbereiden...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel-bestand geëxporteerd: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Fout bij exporteren naar Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-bestand geëxporteerd: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Fout bij exporteren naar JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-bestand geëxporteerd: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Fout bij exporteren naar CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Upload een geldig JSON-bestand",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ vertaalsleutels geladen",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ongeldig JSON-bestand",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Voltooi alle stappen",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI-vertaling vereist Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Vertaling naar het $LANG$ mislukt",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Alle vertalingen zijn mislukt. Probeer het opnieuw.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Vertaling mislukt. Probeer het opnieuw.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Succesvol vertaald naar $COUNT$ talen!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Gedownloade $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Zet het JSON-bestand hier neer of klik om te bladeren",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Ondersteunt: en.json, vi.json, enz.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Vertalen",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Snelle en gratis vertaling met de Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI-vertaling",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Hoogwaardige contextbewuste vertaling met behulp van AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Snel",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Contextbewust",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Natuurlijke formulering",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Beter voor UI-tekst",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Live bewerken uitschakelen ($COUNT$ bewerkingen)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Live bewerken inschakelen ($COUNT$ opgeslagen)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Geselecteerde tekst ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Betere alternatieven ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Upgrade naar Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Ontgrendel alle AI-functies en onbeperkte vertalingen",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Slimme AI-suggesties",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Snelle batchvertaling",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatische kwaliteitscontrole",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritaire ondersteuning",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Alle talen worden ondersteund",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonneer je nu",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium-account",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Actief abonnement",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Vervaldatum",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dagen resterend",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Probleemtype:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Verkeerde vertaling",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Tekstoverloop",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Lay-out kapot",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Ontbrekende vertaling",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Opmaakprobleem",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Ander",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Bug-rapportbeheerder",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Beheer en exporteer uw lokalisatieproblemen",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Begin met het melden van problemen om lokalisatieproblemen op te sporen",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Er zijn geen rapporten die aan uw filters voldoen",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Alle statussen",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Alle ernst",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Alle categorieën",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Hoog",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medium",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Laag",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Uitstekend!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Ik heb $COUNT$ tekstsegmenten gecontroleerd en geen problemen gevonden.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Brontaal:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Doeltaal:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Aanmelden vereist",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Meld u aan om de vertaalfuncties te gebruiken. Gratis gebruikers krijgen 10 vertalingen.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ van $LIMIT$ vertalingen resterend",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Gebruikslimiet bereikt",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "U heeft uw gebruikslimiet bereikt.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Upgrade naar Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Ontgrendel onbeperkte vertalingen en premiumfuncties",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per maand",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Onbeperkte vertalingen",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Misschien later",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "U kunt op elk gewenst moment annuleren. Zonder vragen.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Uw gebruik",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "gebruikte vertalingen",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Meld u aan om de vertaalfuncties te gebruiken",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Er zijn niet genoeg vertalingen over. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "U gebruikt alle resterende vertalingen van $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Kan niet op deze pagina worden uitgevoerd",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI werkt alleen op reguliere websites. Het kan niet op interne Chrome-pagina's worden gebruikt.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Niet-ondersteund paginatype",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Niet-ondersteunde pagina's:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Open een gewone website zoals google.com om LocalizeAI te gebruiken",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Vertaling starten",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Alles downloaden",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Vertaal een ander bestand",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Downloaden",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON-bestand uploaden",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Selecteer doeltalen",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Kies vertaalmodus",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ sleutels vertaald",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Vertaling voltooid!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Totaal aantal rapporten",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Openstaande kwesties",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Hoge prioriteit",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synchroniseren met Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synchroniseren vanaf Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel exporteren",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON exporteren",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Identiteitskaart",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Ernst",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Probleem",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Voorgestelde oplossingen",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML bekijken",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Kijkvenster",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Huidige taal",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Sleutels vertaald",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Verstreken tijd",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Vertalen...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Vertaal JSON-taalbestanden naar meerdere talen met Google Translate of AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Selecteer een of meer talen om naar te vertalen",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Gedetecteerde indeling: $FORMAT$, modus: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Vertalen naar $LANG$... ($CURRENT$/$TOTAL$-toetsen)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exporteer $COUNT$ wijzigingen",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exporteer uw bewerkingen om ze te delen met uw vertaalteam",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV downloaden",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON downloaden",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ wijzigingen opgeslagen. Druk op Ctrl+E om te exporteren.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klik om de bewerkingsmodus in te schakelen",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klik om de bewerkingsmodus in te schakelen. Je hebt de wijzigingen opgeslagen. Druk op Ctrl+E om te exporteren.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Geen tekst geselecteerd",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Selecteer tekst om AI-suggesties te ontvangen",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Geen talen gevonden",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Aanmelden mislukt. Probeer het opnieuw.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Succesvol aangemeld!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Succesvol afgemeld",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Authenticatie mislukt. Probeer de cache te wissen en opnieuw in te loggen.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Cache wissen...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Cache wissen is mislukt",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-bibliotheek niet beschikbaar. Laad de pagina opnieuw.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maximaal $MAX$ talen tegelijk voor optimale prestaties. Vertaal in batches.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ geselecteerd",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Log in om AI-vertaling te gebruiken",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Het beste voor bestanden met een redelijke grootte.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI-modus: hierdoor worden $REQUESTS$ API-aanroepen gedaan. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Deze vertaling zal ongeveer $COUNT$ API-aanroepen opleveren.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "De AI-modus ondersteunt maximaal $MAX$ talen tegelijk.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Vertaalmethode",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Vrij",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Onbeperkt",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Snel",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "talen",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Voor vertalingen in meerdere talen is Premium vereist.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Gecontroleerd:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Spelling",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatica",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Opmaak",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originele tekst kent geen problemen",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> tekstsegmenten gecontroleerd",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Er zijn <strong>$COUNT$</strong> fouten gevonden die moeten worden opgelost",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Geen fouten!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kwaliteitscontrolerapport",
+    "description": "Quality check report title"
+  }
+}

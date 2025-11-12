@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "ابزار تست ترجمه هوش مصنوعی. ترجمه زنده، گزارش باگ، شبه-بومی‌سازی و ترجمه دسته‌ای JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "بستن",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "لغو",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ذخیره",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "حذف",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "صادرات",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "همگام‌سازی",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "منبع",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "هدف",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "جستجوی زبان‌ها...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "شناسایی خودکار از مرورگر",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "تغییر زبان",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "جابجایی بین متن اصلی و ترجمه شده",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "نحوه کار: • جابجایی بین متن اصلی و ترجمه شده • ترجمه‌ها برای جابجایی سریع ذخیره می‌شوند • با تمام متن موجود در صفحه کار می‌کند • برای ترجمه مجدد، حافظه پنهان را پاک کنید",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "اصلی",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ترجمه شده",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "آماده ترجمه",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "پاک کردن حافظه پنهان و ترجمه مجدد",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "شبه محلی‌سازی",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "رابط کاربری را با متن طولانی‌تر آزمایش کنید تا مشکلات سرریز را پیدا کنید.",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "نحوه کار: • کاراکترها را با نسخه‌های دارای لهجه جایگزین می‌کند • 30-40٪ گسترش طول اضافه می‌کند • متن را در نشانگرهای [!!!... !!!] قرار می‌دهد • مثال: \"تنظیمات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "اعمال شبه-لوک",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "حالت ویرایش زنده",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "برای ویرایش مستقیم در صفحه، روی هر متنی کلیک کنید",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "نحوه کار: • برای ویرایش هر عنصر متنی، روی آن کلیک کنید • تغییرات به صورت آنی ردیابی می‌شوند • ویرایش‌ها را به صورت JSON یا Excel صادر کنید • برای صادر کردن تغییرات، Ctrl+E را فشار دهید",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "فعال کردن ویرایش زنده",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "ویژگی‌های هوش مصنوعی",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "ابزارهای ترجمه مبتنی بر هوش مصنوعی",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ویژگی‌های پریمیوم: • ترجمه متن-آگاه با هوش مصنوعی • ترجمه دسته‌ای کل صفحات • بررسی کیفیت ترجمه‌ها • پیشنهاد زبان طبیعی",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "دریافت پیشنهادات هوش مصنوعی",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ترجمه دسته‌ای هوشمند",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "تمام متن‌های صفحه را با هوش مصنوعی ترجمه می‌کند",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "بررسی کیفیت ترجمه",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "پریمیوم",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "مترجم فایل JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "ترجمه فایل‌های زبان JSON به چندین زبان",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "نحوه کار: • آپلود فایل‌های زبان JSON • انتخاب زبان‌های هدف • ترجمه با گوگل یا هوش مصنوعی • دانلود فایل‌های ترجمه شده",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "ترجمه فایل JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "گزارش مشکل",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "گزارش مشکلات ترجمه و بومی‌سازی متن",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "نحوه کار: • برای گزارش مشکلات، روی عناصر متن کلیک کنید • توضیحات و شدت را اضافه کنید • گزارش‌ها را به اکسل یا JSON صادر کنید • با Google Drive همگام‌سازی کنید",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "شروع گزارش‌دهی",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "مدیریت گزارش‌ها",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "حساب کاربری",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "با گوگل وارد شوید",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ارتقا به پریمیوم",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "اطلاعات ویژه",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "خروج",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "گزارش‌های اشکال",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "جستجوی گزارش‌ها...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "پاک کردن همه",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "هنوز گزارش اشکالی ثبت نشده است",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "برای پیگیری مشکلات، روی «شروع گزارش» کلیک کنید",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "هیچ نتیجه‌ای یافت نشد",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "کلمات کلیدی مختلف را امتحان کنید",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "مشاهده جزئیات",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "علامت‌گذاری به عنوان حل‌شده",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "بازگشایی",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "گزارش اشکال #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "اطلاعات پایه",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "وضعیت",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "دسته بندی",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "تاریخ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "جزئیات عنصر",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "برچسب",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "متن",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "انتخابگر",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "زمینه ترجمه",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "شرح مسئله",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "اطلاعات صفحه",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "عنوان",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "آدرس اینترنتی",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "حذف گزارش",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "آیا مطمئن هستید که می‌خواهید گزارش #$ID$ را حذف کنید؟",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "پاک کردن همه گزارش‌ها",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "حذف همه گزارش‌های اشکال؟ این اقدام قابل بازگشت نیست!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "حذف همه",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "گزارش‌های اشکال را صادر کنید",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "قالب خروجی را انتخاب کنید:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "صادرات به اکسل",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "صادرات به JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "همگام‌سازی با گوگل درایو",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "گزارش #$ID$ علامت گذاری شده به عنوان $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "گزارش #$ID$ حذف شد",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "همه گزارش‌ها پاک شدند",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "زبان مقصد را تغییر دهید؟",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "زبان مبدا به $SOURCE$ تغییر یافت. آیا مایلید به $TARGET$ ترجمه کنید؟",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "بله، تغییر",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "خیر، به روز باشید",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "باز",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "حل و فصل شده",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "چگونه کار می‌کند:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ویژگی‌های پریمیوم:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "تشخیص خودکار: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "همگام‌سازی داده‌ها",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "متن‌های $COUNT$ برای ترجمه پیدا شدند",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "انتخاب شده",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "در حال آماده سازی...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "کامل!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "شروع ترجمه برای زبان‌های $COUNT$...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ زبان های $SUCCESS$/$TOTAL$ تکمیل شده است",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "اندازه $$ کیلوبایت $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "زمان $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "حافظه پنهان پاک شد",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "مشخص نشده",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "صفحه بدون عنوان",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "مشاهده",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "تأیید",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "باشه",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "موضوع را با جزئیات شرح دهید...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "لطفا موضوع را شرح دهید",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "لطفا ابتدا وارد شوید",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "نکته: برای خروجی گرفتن از تغییرات، کلیدهای Ctrl+E را فشار دهید.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "برای غیرفعال کردن حالت ویرایش کلیک کنید. برای خروجی گرفتن از تغییرات، Ctrl+E را فشار دهید.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "در کلیپ بورد کپی شد!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "بهبود اعمال شد!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "بهبودهای اعمال شده $COUNT$!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "بررسی کیفیت کامل شد",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "همگام‌سازی با گوگل درایو...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "با گوگل درایو همگام‌سازی شد!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "همگام‌سازی درایو ناموفق بود",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "لطفاً برای همگام‌سازی از Drive وارد سیستم شوید",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "همگام‌سازی از گوگل درایو...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "گزارش‌های $COUNT$ از Drive همگام‌سازی شد!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "هیچ گزارشی در Drive یافت نشد",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "در حال آماده سازی فایل اکسل...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "فایل اکسل خروجی: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "خطا در خروجی گرفتن به اکسل",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "فایل JSON خروجی گرفته شده: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "خطا در خروجی گرفتن به JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "فایل CSV خروجی گرفته شده: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "خطا در خروجی گرفتن به CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "لطفا یک فایل JSON معتبر آپلود کنید",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "کلیدهای ترجمه $COUNT$ بارگذاری شده است",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "فایل JSON نامعتبر است",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "لطفا تمام مراحل را انجام دهید",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "ترجمه هوش مصنوعی نیاز به نسخه پریمیوم دارد. لطفاً آن را ارتقا دهید یا از گوگل ترنسلیت استفاده کنید.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "ترجمه به $LANG$ ناموفق بود",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "همه ترجمه‌ها ناموفق بودند. لطفاً دوباره امتحان کنید.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ترجمه ناموفق بود. لطفا دوباره امتحان کنید.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "با موفقیت به زبان‌های $COUNT$ ترجمه شد!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "دانلود شده $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "فایل JSON را اینجا رها کنید یا برای مرور کلیک کنید",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "پشتیبانی از: en.json، vi.json و غیره",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ترجمه گوگل",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ترجمه سریع و رایگان با استفاده از API گوگل ترنسلیت",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ترجمه هوش مصنوعی",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "ترجمه با کیفیت بالا و آگاه از متن با استفاده از هوش مصنوعی",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "رایگان",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "سریع",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "آگاه از متن",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "عبارت‌بندی طبیعی",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "برای متن رابط کاربری بهتر است",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "غیرفعال کردن ویرایش زنده (تعداد ویرایش‌ها $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "فعال کردن ویرایش زنده ($تعداد$ صرفه‌جویی شده) $COUNT$",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "متن انتخاب شده ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "جایگزین‌های بهتر (به دلار آمریکا) $LANG$",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ارتقا به پریمیوم",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "تمام ویژگی‌های هوش مصنوعی و ترجمه‌های نامحدود را آزاد کنید",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "پیشنهادهای هوشمند هوش مصنوعی",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ترجمه دسته‌ای سریع",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "بررسی کیفیت خودکار",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "پشتیبانی اولویت‌دار",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "پشتیبانی از همه زبان‌ها",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "همین حالا مشترک شوید",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "حساب پریمیوم",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "اشتراک فعال",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "تاریخ انقضا",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "روزهای باقی مانده",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "نوع مسئله:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ترجمه اشتباه",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "سرریز متن",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "طرح‌بندی خراب",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ترجمه گمشده",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "مشکل قالب‌بندی",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "دیگر",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "مدیر گزارش اشکال",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "مشکلات محلی‌سازی خود را مدیریت و صادر کنید",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "شروع به گزارش مشکلات کنید تا مشکلات محلی‌سازی را پیگیری کنید",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "هیچ گزارشی با فیلترهای شما مطابقت ندارد",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "همه وضعیت‌ها",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "تمام شدت",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "همه دسته‌ها",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "بالا",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "متوسط",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "کم",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "عالی!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "بخش‌های متنی $COUNT$ بررسی شد و هیچ مشکلی پیدا نشد.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "زبان مبدا:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "زبان مقصد:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ورود الزامی است",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "برای استفاده از ویژگی‌های ترجمه، لطفاً وارد شوید. کاربران رایگان 10 ترجمه دریافت می‌کنند.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ از $LIMIT$ ترجمه‌های باقی‌مانده",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "محدودیت استفاده تکمیل شد",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "شما به سقف استفاده خود رسیده‌اید. برای دسترسی نامحدود، به نسخه ویژه ارتقا دهید.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ارتقا به پریمیوم",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ترجمه‌های نامحدود و ویژگی‌های پریمیوم را آزاد کنید",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "در هر ماه",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ترجمه‌های نامحدود",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "شاید بعداً",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "هر زمان که خواستید لغو کنید. بدون هیچ سوالی.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "میزان استفاده شما",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ترجمه‌های استفاده شده",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "لطفا برای استفاده از ویژگی‌های ترجمه وارد شوید",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "تعداد ترجمه‌های باقی‌مانده کافی نیست. شما $REMAINING$ دارید، اما زبان‌های $SELECTED$ را انتخاب کرده‌اید. لطفاً به نسخه ویژه ارتقا دهید یا زبان‌ها را کاهش دهید.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "شما در حال استفاده از تمام $COUNT$ ترجمه‌های باقیمانده هستید. برای دسترسی نامحدود به نسخه پریمیوم ارتقا دهید.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "در این صفحه اجرا نمی‌شود",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI فقط روی وب‌سایت‌های معمولی کار می‌کند و نمی‌تواند روی صفحات داخلی کروم اجرا شود.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "نوع صفحه پشتیبانی نشده",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "صفحات پشتیبانی نشده:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "برای استفاده از LocalizeAI، یک وب‌سایت معمولی مانند google.com را باز کنید.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "شروع ترجمه",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "دانلود همه",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ترجمه فایل دیگر",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "دانلود",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "آپلود فایل JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "زبان‌های هدف را انتخاب کنید",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "انتخاب حالت ترجمه",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "کلیدهای $COUNT$ ترجمه شده‌اند",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ترجمه کامل شد!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "کل گزارش‌ها",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "مسائل باز",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "اولویت بالا",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "همگام‌سازی با درایو",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "همگام‌سازی از درایو",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "خروجی اکسل",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "خروجی JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "شناسه",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "شدت",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "عنصر",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "مسئله",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "راهکارهای پیشنهادی",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "مشاهده HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ویوپورت",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "زبان فعلی",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "کلیدهای ترجمه شده",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "زمان سپری شده",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "در حال ترجمه...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "ترجمه فایل‌های زبان JSON به چندین زبان با Google Translate یا هوش مصنوعی",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "یک یا چند زبان را برای ترجمه انتخاب کنید",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "قالب شناسایی شد: $FORMAT$، حالت: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "ترجمه به $LANG$... کلیدهای ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "خروجی گرفتن از تغییرات $COUNT$",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ویرایش‌های خود را برای اشتراک‌گذاری با تیم ترجمه خود صادر کنید",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "دانلود CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "دانلود جی‌سان",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "تغییرات $COUNT$ ذخیره شد. برای خروجی گرفتن، Ctrl+E را فشار دهید.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "برای فعال کردن حالت ویرایش کلیک کنید",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "برای فعال کردن حالت ویرایش کلیک کنید. شما تغییرات را ذخیره کرده‌اید. برای خروجی گرفتن، Ctrl+E را فشار دهید.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "متنی انتخاب نشده است",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "متن را انتخاب کنید تا پیشنهادات هوش مصنوعی را دریافت کنید",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "هیچ زبانی یافت نشد",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ورود ناموفق بود. لطفا دوباره امتحان کنید.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "با موفقیت وارد سیستم شدید!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "با موفقیت از سیستم خارج شد",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "احراز هویت ناموفق بود. لطفاً حافظه پنهان را پاک کنید و دوباره وارد سیستم شوید.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "پاکسازی حافظه پنهان...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "پاک کردن حافظه پنهان ناموفق بود",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "کتابخانه اکسل در دسترس نیست. لطفاً صفحه را دوباره بارگذاری کنید.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "حداکثر $MAX$ زبان در یک زمان برای عملکرد بهینه.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ انتخاب شده است",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "لطفاً برای استفاده از ترجمه هوش مصنوعی وارد شوید",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "بهترین برای فایل هایی با اندازه معقول.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "حالت هوش مصنوعی: با این کار تماس های API $REQUESTS$ برقرار می شود. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "این ترجمه تقریباً $COUNT$ تماس API برقرار خواهد کرد.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "حالت هوش مصنوعی حداکثر $MAX$ زبان را به طور همزمان پشتیبانی می کند.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "روش ترجمه",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "رایگان",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "نامحدود",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "سریع",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "زبان ها",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ترجمه چند زبانه به Premium نیاز دارد.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "بررسی شد:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "املا",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "گرامر",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "قالب بندی",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "متن اصلی مشکلی ندارد",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> بخش متن را علامت زد",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "<strong>$COUNT$</strong> خطا برای رفع پیدا شد",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "بدون خطا!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "گزارش بررسی کیفیت",
+    "description": "Quality check report title"
+  }
+}

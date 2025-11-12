@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI oversættelsestestværktøj. Live oversættelse, fejlrapportering, pseudo-lokalisering og batch JSON-oversættelse.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Luk",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Ophæve",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Gem",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Slet",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksportere",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synkroniser",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "KILDE",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MÅL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Søg på sprog...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatisk registreret fra browser",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Sprogskift",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Skift mellem original og oversat tekst",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Sådan fungerer det: • Skift mellem original og oversat tekst • Oversættelser cachelagres for hurtig skift • Fungerer med al tekst på siden • Ryd cachen for at genoversætte",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Original",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Oversat",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Klar til at oversætte",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Ryd cache og oversæt igen",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalisering",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Test brugergrænsefladen med længere tekst for at finde overflow-problemer",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Sådan fungerer det: • Erstatter tegn med accenttegn • Tilføjer 30-40% længdeudvidelse • Ombryder tekst i [!!!... !!!] markører • Eksempel: \"Indstillinger\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Påfør Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Live-redigeringstilstand",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klik på en hvilken som helst tekst for at redigere direkte på siden",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Sådan fungerer det: • Klik på et tekstelement for at redigere det • Ændringer spores i realtid • Eksporter redigeringer som JSON eller Excel • Tryk på Ctrl+E for at eksportere ændringer",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Aktivér Live-redigering",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI-funktioner",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-drevne oversættelsesværktøjer",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium funktioner:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Få AI-forslag",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart batchoversættelse",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Oversætter AL tekst på siden med AI-kontekst",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Tjek oversættelseskvaliteten",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Præmie",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON-filoversætter",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Oversæt JSON-sprogfiler til flere sprog",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Sådan fungerer det:",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Oversæt JSON-fil",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Rapportér problem",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Rapportér problemer med tekstoversættelse og lokalisering",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Sådan fungerer det: • Klik på tekstelementer for at rapportere problemer • Tilføj beskrivelser og alvorlighedsgrad • Eksporter rapporter til Excel eller JSON • Synkroniser med Google Drev",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Start rapportering",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Administrer rapporter",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Konto",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Log ind med Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Opgrader til Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium info",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Log ud",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Fejlrapporter",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Søg i rapporter...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Ryd alt",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ingen fejlrapporter endnu",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klik på \"Start rapportering\" for at spore problemer",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ingen resultater fundet",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Prøv forskellige søgeord",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Se detaljer",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Markér som løst",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Genåbn",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Fejlrapport #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Grundlæggende information",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dato",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementdetaljer",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Tekst",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Vælger",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Oversættelseskontekst",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Problembeskrivelse",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Sideinfo",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titel",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Slet rapport",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Er du sikker på, at du vil slette rapport #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Ryd alle rapporter",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Slet ALLE fejlrapporter? Denne handling kan ikke fortrydes!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Slet alle",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Eksportér fejlrapporter",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Vælg eksportformat:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Eksporter til Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eksportér til JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synkroniser til Google Drev",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapport #$ID$ markeret som $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapport #$ID$ slettet",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Alle rapporter ryddet",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Ændre målsprog?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Kildesproget er ændret til $SOURCE$. Vil du oversætte til $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ja, skift",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nej, hold dig opdateret",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "åben",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "løst",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Sådan fungerer det:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium funktioner:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatisk detekteret: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Synkroniser data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Fandt $COUNT$ tekster at oversætte",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "udvalgte",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Forbereder...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Komplet!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Starter oversættelse for $COUNT$ sprog...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Gennemførte $SUCCESS$/$TOTAL$ sprog",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Cache ryddet",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ikke specificeret",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Unavngivet side",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Vis",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Bekræfte",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Okay",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Beskriv problemet i detaljer...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Beskriv venligst problemet",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Log venligst ind først",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: Tryk Ctrl+E for at eksportere dine ændringer",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Klik for at deaktivere redigeringstilstand. Tryk på Ctrl+E for at eksportere ændringerne.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopieret til udklipsholder!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Forbedring anvendt!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Anvendte $COUNT$ forbedringer!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kvalitetstjek fuldført",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synkroniserer med Google Drev...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Synkroniseret til Google Drev!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drev-synkronisering mislykkedes",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Log ind for at synkronisere fra Drev",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synkroniserer fra Google Drev...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Synkroniserede $COUNT$ rapporter fra Drev!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ingen rapporter fundet i Drev",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Forbereder Excel-fil...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel-fil eksporteret: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Fejl ved eksport til Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-fil eksporteret: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Fejl ved eksport til JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-fil eksporteret: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Fejl ved eksport til CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Upload venligst en gyldig JSON-fil",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Indlæste $COUNT$ oversættelsesnøgler",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Ugyldig JSON-fil",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Udfør venligst alle trin",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI-oversættelse kræver Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Kunne ikke oversætte til $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Alle oversættelser mislykkedes. Prøv igen.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Oversættelsen mislykkedes. Prøv igen.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Oversat til $COUNT$ sprog!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Downloadede $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Slip JSON-filen her, eller klik for at gennemse",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Understøtter: en.json, vi.json osv.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Oversæt",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Hurtig og gratis oversættelse ved hjælp af Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI-oversættelse",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Kontekstbevidst oversættelse af høj kvalitet ved hjælp af AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Hurtig",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontekstbevidst",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Naturlig frasering",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Bedre til tekst i brugergrænsefladen",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Deaktiver Live Edit ($COUNT$ redigeringer)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Aktiver Live Edit ($COUNT$ gemt)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Valgt tekst ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Bedre alternativer ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Opgrader til Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Lås op for alle AI-funktioner og ubegrænsede oversættelser",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI-smarte forslag",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Hurtig batchoversættelse",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatisk kvalitetskontrol",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioriteret støtte",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Alle sprog understøttes",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonner nu",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium-konto",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktivt abonnement",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Udløbsdato",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dage tilbage",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Problemtype:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Forkert oversættelse",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Tekstoverløb",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout ødelagt",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Manglende oversættelse",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formateringsproblem",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Andre",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Fejlrapporteringsadministrator",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Administrer og eksporter dine lokaliseringsproblemer",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Begynd at rapportere problemer for at spore lokaliseringsproblemer",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ingen rapporter matcher dine filtre",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Alle statusser",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Al alvorlighed",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Alle kategorier",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Høj",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medium",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Lav",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Fremragende!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Tjekkede $COUNT$ tekstsegmenter og fandt ingen problemer.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Kildesprog:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Målsprog:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Log ind påkrævet",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Log venligst ind for at bruge oversættelsesfunktionerne. Gratisbrugere får 10 oversættelser.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ af $LIMIT$ oversættelser tilbage",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Brugsgrænse nået",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Du har nået din forbrugsgrænse.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Opgrader til Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Lås op for ubegrænsede oversættelser og premium-funktioner",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "pr. måned",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Ubegrænsede oversættelser",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Måske senere",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Annuller når som helst. Ingen spørgsmål stillet.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Din brug",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "brugte oversættelser",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Log venligst ind for at bruge oversættelsesfunktionerne",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Der er ikke nok oversættelser tilbage. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Du bruger alle $COUNT$ resterende oversættelser.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Kan ikke køre på denne side",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI fungerer kun på almindelige hjemmesider. Det kan ikke køre på Chromes interne sider.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Ikke-understøttet sidetype",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Ikke-understøttede sider:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Åbn et almindeligt websted som google.com for at bruge LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Start oversættelse",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Download alle",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Oversæt en anden fil",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Download",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Upload JSON-fil",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Vælg målsprog",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Vælg oversættelsestilstand",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ nøgler oversat",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Oversættelse færdig!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Samlede rapporter",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Åbne problemer",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Høj prioritet",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synkroniser til Drev",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synkroniser fra Drev",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Eksportér Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Eksportér JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Sværhedsgrad",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Spørgsmål",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Foreslåede løsninger",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Vis HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Udsigtsport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Nuværende sprog",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Nøgler oversat",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Forløbet tid",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Oversætter...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Oversæt JSON-sprogfiler til flere sprog med Google Translate eller AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Vælg et eller flere sprog, der skal oversættes til",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Format registreret: $FORMAT$, Tilstand: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Oversætter til $LANG$... ($CURRENT$/$TOTAL$ nøgler)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Eksportér $COUNT$ ændringer",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eksporter dine redigeringer for at dele dem med dit oversættelsesteam",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Download CSV-fil",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Download JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ændringer gemt. Tryk Ctrl+E for at eksportere.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Klik for at aktivere redigeringstilstand",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Klik for at aktivere redigeringstilstand. Du har gemt ændringerne. Tryk på Ctrl+E for at eksportere.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ingen tekst valgt",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Vælg tekst for at få AI-forslag",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ingen sprog fundet",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Log ind mislykkedes. Prøv igen.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Logget ind!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Udlogget",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Godkendelse mislykkedes. Prøv at rydde cachen og logge ind igen.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Rydder cachen...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Kunne ikke rydde cachen",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-biblioteket er ikke tilgængeligt. Genindlæs siden.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimalt $MAX$ sprog ad gangen for optimal ydeevne. Oversæt i batches.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ valgt",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Log ind for at bruge AI-oversættelse",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Bedst til filer med rimelig størrelse.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI-tilstand: Dette vil foretage $REQUESTS$ API-kald. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Denne oversættelse vil foretage ca. $COUNT$ API-kald.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI-tilstand understøtter maksimalt $MAX$-sprog på én gang.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Oversættelsesmetode",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Gratis",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Ubegrænset",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Hurtig",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "sprog",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Oversættelse til flere sprog kræver Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Tjekket:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Stavning",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatik",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatering",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Den originale tekst har ingen problemer",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Markerede <strong>$COUNT$</strong> tekstsegmenter",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Fandt <strong>$COUNT$</strong> fejl, der skal rettes",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ingen fejl!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kvalitetstjek rapport",
+    "description": "Quality check report title"
+  }
+}

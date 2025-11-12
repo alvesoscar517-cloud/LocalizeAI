@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Εργαλείο δοκιμής μετάφρασης AI. Ζωντανή μετάφραση, αναφορά σφαλμάτων, ψευδο-τοπικοποίηση και μαζική μετάφραση JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Κλείσιμο",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Ματαίωση",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Αποθήκευση",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Διαγράφω",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Εξαγωγή",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Συγχρονισμός",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ΠΗΓΗ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ΣΤΟΧΟΣ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Αναζήτηση γλωσσών...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Αυτόματη ανίχνευση από το πρόγραμμα περιήγησης",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Εναλλαγή γλώσσας",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Εναλλαγή μεταξύ πρωτότυπου και μεταφρασμένου κειμένου",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Πώς λειτουργεί: • Εναλλαγή μεταξύ πρωτότυπου και μεταφρασμένου κειμένου • Οι μεταφράσεις αποθηκεύονται προσωρινά για γρήγορη εναλλαγή • Λειτουργεί με όλο το κείμενο στη σελίδα • Εκκαθάριση της προσωρινής μνήμης για εκ νέου μετάφραση",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Πρωτότυπο",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Μεταφρασμένο",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Έτοιμο για μετάφραση",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Εκκαθάριση προσωρινής μνήμης και επανάληψη μετάφρασης",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Ψευδο-Εντοπισμός",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Δοκιμή UI με μεγαλύτερο κείμενο για να εντοπίσετε προβλήματα υπερχείλισης",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Πώς λειτουργεί: • Αντικαθιστά χαρακτήρες με τονισμένες εκδόσεις • Προσθέτει επέκταση μήκους 30-40% • Αναδιπλώνει κείμενο σε δείκτες [!!!... !!!] • Παράδειγμα: \"Ρυθμίσεις\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Εφαρμόστε το Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Λειτουργία επεξεργασίας σε πραγματικό χρόνο",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Κάντε κλικ σε οποιοδήποτε κείμενο για επεξεργασία απευθείας στη σελίδα",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Πώς λειτουργεί: • Κάντε κλικ σε οποιοδήποτε στοιχείο κειμένου για να το επεξεργαστείτε • Οι αλλαγές παρακολουθούνται σε πραγματικό χρόνο • Εξαγωγή επεξεργασιών ως JSON ή Excel • Πατήστε Ctrl+E για εξαγωγή αλλαγών",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Ενεργοποίηση ζωντανής επεξεργασίας",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Χαρακτηριστικά Τεχνητής Νοημοσύνης",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Εργαλεία μετάφρασης με τεχνητή νοημοσύνη",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium Χαρακτηριστικά:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Λάβετε προτάσεις τεχνητής νοημοσύνης",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Έξυπνη μαζική μετάφραση",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Μεταφράζει ΟΛΟ το κείμενο στη σελίδα με βάση το περιεχόμενο της Τεχνητής Νοημοσύνης",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Έλεγχος Ποιότητας Μετάφρασης",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Ασφάλιστρο",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Μεταφραστής αρχείων JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Μετάφραση αρχείων γλώσσας JSON σε πολλές γλώσσες",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Πώς λειτουργεί: • Ανεβάστε αρχεία γλώσσας JSON • Επιλέξτε γλώσσες-στόχους • Μεταφράστε με Google ή AI • Λήψη μεταφρασμένων αρχείων",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Μετάφραση αρχείου JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Αναφορά προβλήματος",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Αναφορά προβλημάτων μετάφρασης και τοπικής προσαρμογής κειμένου",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Πώς λειτουργεί: • Κάντε κλικ σε στοιχεία κειμένου για να αναφέρετε προβλήματα • Προσθέστε περιγραφές και σοβαρότητα • Εξάγετε αναφορές σε Excel ή JSON • Συγχρονίστε με το Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Έναρξη αναφοράς",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Διαχείριση αναφορών",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Λογαριασμός",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Συνδεθείτε με την Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Αναβάθμιση σε Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium Πληροφορίες",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Αποσύνδεση",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Αναφορές σφαλμάτων",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Αναφορές αναζήτησης...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Εκκαθάριση όλων",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Δεν υπάρχουν ακόμη αναφορές σφαλμάτων",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Κάντε κλικ στην επιλογή «Έναρξη αναφοράς» για να παρακολουθήσετε προβλήματα",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Δεν βρέθηκαν αποτελέσματα",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Δοκιμάστε διαφορετικές λέξεις-κλειδιά",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Δείτε λεπτομέρειες",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Επισήμανση ως επιλυμένου",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Ξανανοίγω",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Αναφορά σφάλματος #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Βασικές πληροφορίες",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Κατάσταση",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Κατηγορία",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Ημερομηνία",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Λεπτομέρειες στοιχείου",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Ετικέτα",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Κείμενο",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Εκλέκτορας",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Μεταφραστικό πλαίσιο",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Περιγραφή προβλήματος",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Πληροφορίες σελίδας",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Τίτλος",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Διαγραφή αναφοράς",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Είστε βέβαιοι ότι θέλετε να διαγράψετε την αναφορά #$ID$;",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Εκκαθάριση όλων των αναφορών",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Διαγραφή ΟΛΩΝ των αναφορών σφαλμάτων; Δεν είναι δυνατή η αναίρεση αυτής της ενέργειας!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Διαγραφή όλων",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Εξαγωγή αναφορών σφαλμάτων",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Επιλέξτε μορφή εξαγωγής:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Εξαγωγή σε Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Εξαγωγή σε JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Συγχρονισμός με το Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Η αναφορά #$ID$ επισημάνθηκε ως $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Η αναφορά #$ID$ διαγράφηκε",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Όλες οι αναφορές διαγράφηκαν",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Αλλαγή γλώσσας-στόχου;",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Η γλώσσα πηγής άλλαξε σε $SOURCE$. Θέλετε να μεταφράσετε σε $TARGET$;",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ναι, Αλλαγή",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Όχι, να διατηρείται ενημερωμένο",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ανοιχτό",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "αποφασισμένος",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Πώς λειτουργεί:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium Χαρακτηριστικά:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Αυτόματη ανίχνευση: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Συγχρονισμός δεδομένων",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Βρέθηκαν $COUNT$ κείμενα για μετάφραση",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "επιλεγμένο",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Προετοιμασία...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Πλήρης!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Έναρξη μετάφρασης για $COUNT$ γλώσσες...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Ολοκληρωμένες γλώσσες $SUCCESS$/$TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Η προσωρινή μνήμη διαγράφηκε",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Δεν προσδιορίζεται",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Σελίδα χωρίς τίτλο",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Προβολή",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Επιβεβαιώνω",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ΕΝΤΑΞΕΙ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Περιγράψτε λεπτομερώς το πρόβλημα...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Παρακαλώ περιγράψτε το πρόβλημα",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Παρακαλώ συνδεθείτε πρώτα",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Συμβουλή: Πατήστε Ctrl+E για να εξαγάγετε τις αλλαγές σας.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Κάντε κλικ για να απενεργοποιήσετε τη λειτουργία επεξεργασίας. Πατήστε Ctrl+E για να εξαγάγετε τις αλλαγές.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Αντιγράφηκε στο πρόχειρο!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Εφαρμόστηκε βελτίωση!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Εφαρμόστηκαν $COUNT$ βελτιώσεις!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Ο έλεγχος ποιότητας ολοκληρώθηκε",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Συγχρονισμός με το Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Συγχρονίστηκε με το Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Ο συγχρονισμός του Drive απέτυχε.",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Συνδεθείτε για συγχρονισμό από το Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Συγχρονισμός από το Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Συγχρονισμένες $COUNT$ αναφορές από το Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Δεν βρέθηκαν αναφορές στο Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Προετοιμασία αρχείου Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Εξήχθη αρχείο Excel: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Σφάλμα εξαγωγής στο Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Εξήχθη αρχείο JSON: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Σφάλμα εξαγωγής σε JSON κατά την εξαγωγή σε JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Εξήχθη αρχείο CSV: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Σφάλμα εξαγωγής σε CSV κατά την εξαγωγή",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Παρακαλώ μεταφορτώστε ένα έγκυρο αρχείο JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Φορτώθηκαν $COUNT$ κλειδιά μετάφρασης",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Μη έγκυρο αρχείο JSON",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Παρακαλώ ολοκληρώστε όλα τα βήματα",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Η μετάφραση AI απαιτεί Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Αποτυχία μετάφρασης σε $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Όλες οι μεταφράσεις απέτυχαν. Δοκιμάστε ξανά.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Η μετάφραση απέτυχε. Δοκιμάστε ξανά.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Μεταφράστηκε με επιτυχία σε $COUNT$ γλώσσες!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Λήφθηκε το $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Αποθέστε εδώ το αρχείο JSON ή κάντε κλικ για περιήγηση",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Υποστηρίζει: en.json, vi.json, κ.λπ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Μετάφραση Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Γρήγορη και δωρεάν μετάφραση χρησιμοποιώντας το API της Μετάφρασης Google",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Μετάφραση Τεχνητής Νοημοσύνης",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Υψηλής ποιότητας μετάφραση με επίγνωση του συμφραζομένου χρησιμοποιώντας Τεχνητή Νοημοσύνη",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Δωρεάν",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Γρήγορα",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Έχοντας επίγνωση του πλαισίου",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Φυσική διατύπωση",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Καλύτερο για κείμενο UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Απενεργοποίηση ζωντανής επεξεργασίας ($COUNT$$ επεξεργασίες)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Ενεργοποίηση ζωντανής επεξεργασίας ($COUNT$$ εξοικονόμηση)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Επιλεγμένο κείμενο ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Καλύτερες εναλλακτικές λύσεις ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Αναβάθμιση σε Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Ξεκλειδώστε όλες τις λειτουργίες AI και απεριόριστες μεταφράσεις",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Έξυπνες προτάσεις τεχνητής νοημοσύνης",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Γρήγορη μαζική μετάφραση",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Αυτόματος έλεγχος ποιότητας",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Υποστήριξη προτεραιότητας",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Υποστηρίζονται όλες οι γλώσσες",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Εγγραφείτε τώρα",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Λογαριασμός Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Ενεργή Συνδρομή",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Ημερομηνία λήξης",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Ημέρες που απομένουν",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Τύπος προβλήματος:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Λάθος μετάφραση",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Υπερχείλιση κειμένου",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Διαταραγμένη διάταξη",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Λείπει η μετάφραση",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Πρόβλημα μορφοποίησης",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Αλλος",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Διαχειριστής αναφορών σφαλμάτων",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Διαχείριση και εξαγωγή των προβλημάτων τοπικής προσαρμογής",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Έναρξη αναφοράς προβλημάτων για την παρακολούθηση προβλημάτων τοπικής προσαρμογής",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Δεν υπάρχουν αναφορές που να αντιστοιχούν στα φίλτρα σας",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Όλες οι καταστάσεις",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Όλη η σοβαρότητα",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Όλες οι κατηγορίες",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Ψηλά",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Μέσον",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Χαμηλός",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Εξοχος!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Έλεγξα $COUNT$ τμήματα κειμένου και δεν βρήκα κανένα πρόβλημα.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Γλώσσα πηγής:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Γλώσσα-στόχος:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Απαιτείται σύνδεση",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Συνδεθείτε για να χρησιμοποιήσετε τις λειτουργίες μετάφρασης. Οι δωρεάν χρήστες λαμβάνουν 10 μεταφράσεις.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Απομένουν $REMAINING$ από $LIMIT$ μεταφράσεις",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Συμπληρώθηκε το όριο χρήσης",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Έχετε φτάσει το όριο χρήσης σας.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Αναβάθμιση σε Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Ξεκλειδώστε απεριόριστες μεταφράσεις και premium λειτουργίες",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ανά μήνα",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Απεριόριστες μεταφράσεις",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Ίσως αργότερα",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Ακύρωση οποιαδήποτε στιγμή. Δεν υπάρχουν ερωτήσεις.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Η χρήση σας",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "μεταφράσεις που χρησιμοποιήθηκαν",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Συνδεθείτε για να χρησιμοποιήσετε τις λειτουργίες μετάφρασης",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Δεν απομένουν αρκετές μεταφράσεις. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Χρησιμοποιείτε όλες τις μεταφράσεις που απομένουν $COUNT$.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Δεν είναι δυνατή η εκτέλεση σε αυτήν τη σελίδα",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "Το LocalizeAI λειτουργεί μόνο σε κανονικούς ιστότοπους. Δεν μπορεί να εκτελεστεί σε εσωτερικές σελίδες του Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Μη υποστηριζόμενος τύπος σελίδας",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Μη υποστηριζόμενες σελίδες:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Ανοίξτε έναν κανονικό ιστότοπο όπως το google.com για να χρησιμοποιήσετε το LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Έναρξη μετάφρασης",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Λήψη όλων",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Μετάφραση άλλου αρχείου",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Λήψη",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Μεταφόρτωση αρχείου JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Επιλογή Γλωσσών-Στόχων",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Επιλογή Λειτουργίας Μετάφρασης",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Μεταφράστηκαν $COUNT$ κλειδιά",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Η μετάφραση ολοκληρώθηκε!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Συνολικές αναφορές",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Ανοιχτά Θέματα",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Υψηλή προτεραιότητα",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Συγχρονισμός με το Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Συγχρονισμός από το Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Εξαγωγή Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Εξαγωγή JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ταυτότητα",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Αυστηρότητα",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Στοιχείο",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Ζήτημα",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Προτεινόμενες λύσεις",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Προβολή HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Θύρα προβολής",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Τρέχουσα γλώσσα",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Μεταφρασμένα κλειδιά",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Χρόνος που πέρασε",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Μεταφράζοντας...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Μεταφράστε αρχεία γλώσσας JSON σε πολλές γλώσσες με το Google Translate ή το AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Επιλέξτε μία ή περισσότερες γλώσσες για μετάφραση",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Εντοπίστηκε μορφή: $FORMAT$, Λειτουργία: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Μετάφραση σε $LANG$... (κλειδιά (ΤΡΕΧΟΥΣΑ $/$ΤΟΤΑΛ $) $CURRENT$ $TOTAL$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Εξαγωγή $COUNT$ αλλαγών",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Εξαγάγετε τις επεξεργασίες σας για να τις μοιραστείτε με την ομάδα μετάφρασης",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Λήψη CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Λήψη JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ αλλαγές αποθηκεύτηκαν. Πατήστε Ctrl+E για εξαγωγή.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Κάντε κλικ για να ενεργοποιήσετε τη λειτουργία επεξεργασίας",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Κάντε κλικ για να ενεργοποιήσετε τη λειτουργία επεξεργασίας. Έχετε αποθηκεύσει τις αλλαγές. Πατήστε Ctrl+E για εξαγωγή.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Δεν έχει επιλεγεί κείμενο",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Επιλέξτε κείμενο για να λάβετε προτάσεις τεχνητής νοημοσύνης",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Δεν βρέθηκαν γλώσσες",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Η σύνδεση απέτυχε. Δοκιμάστε ξανά.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Η σύνδεση ολοκληρώθηκε με επιτυχία!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Η αποσύνδεση ολοκληρώθηκε με επιτυχία",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Ο έλεγχος ταυτότητας απέτυχε. Δοκιμάστε να καθαρίσετε την προσωρινή μνήμη και να συνδεθείτε ξανά.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Εκκαθάριση προσωρινής μνήμης...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Η εκκαθάριση της προσωρινής μνήμης απέτυχε",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Η βιβλιοθήκη Excel δεν είναι διαθέσιμη. Παρακαλώ επαναφορτώστε τη σελίδα.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Μέγιστο $MAX$ γλώσσες ταυτόχρονα για βέλτιστη απόδοση. Μεταφράστε σε παρτίδες.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Επιλέχθηκαν $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Συνδεθείτε για να χρησιμοποιήσετε τη μετάφραση AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Το καλύτερο για αρχεία με λογικό μέγεθος.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Λειτουργία AI: Αυτό θα πραγματοποιήσει κλήσεις API $REQUESTS$. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Αυτή η μετάφραση θα πραγματοποιήσει περίπου $COUNT$ κλήσεις API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Η λειτουργία AI υποστηρίζει το μέγιστο $MAX$ γλώσσες ταυτόχρονα.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Μέθοδος μετάφρασης",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Δωρεάν",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Απεριόριστος",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Γρήγορα",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "γλώσσες",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Η μετάφραση πολλών γλωσσών απαιτεί Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Τετραγωνισμένος:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ορθογραφία",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Γραμματική",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Μορφοποίηση",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Το αρχικό κείμενο δεν έχει προβλήματα",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Έλεγξε <strong>$COUNT$</strong> τμήματα κειμένου",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Βρέθηκαν <strong>$COUNT$</strong> σφάλματα προς διόρθωση",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Χωρίς λάθη!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Αναφορά ποιοτικού ελέγχου",
+    "description": "Quality check report title"
+  }
+}

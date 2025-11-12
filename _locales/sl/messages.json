@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Orodje za testiranje AI prevajanja. Prevajanje v živo, poročanje o napakah, psevdo-lokalizacija in paketno prevajanje JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Zapri",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Prekliči",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Shrani",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Izbriši",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Izvoz",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinhronizacija",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "VIR",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "CILJ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Iskanje jezikov...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Samodejno zaznano iz brskalnika",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Preklop jezika",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Preklapljanje med izvirnim in prevedenim besedilom",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kako deluje: • Preklapljanje med izvirnim in prevedenim besedilom • Prevodi so shranjeni v predpomnilniku za hitro preklapljanje • Deluje z vsem besedilom na strani • Počisti predpomnilnik za ponovni prevod",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Izvirnik",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Prevedeno",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Pripravljeno za prevajanje",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Počisti predpomnilnik in ponovno prevedi",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Psevdo-lokalizacija",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Preizkusite uporabniški vmesnik z daljšim besedilom, da odkrijete težave s prelivanjem",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kako deluje: • Zamenja znake z različicami z naglašenimi znaki • Doda 30–40 % razširitve dolžine • Besedilo prelomi v oznake [!!!... !!!] • Primer: »Nastavitve« → »[!!! Şḗŧŧīƞɠş·· !!!]«",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Uporabi Psevdo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Način urejanja v živo",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Kliknite katero koli besedilo za urejanje neposredno na strani",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kako deluje: • Kliknite kateri koli element besedila, da ga uredite • Spremembe se spremljajo v realnem času • Izvozite spremembe kot JSON ali Excel • Pritisnite Ctrl+E za izvoz sprememb",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Omogoči urejanje v živo",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Funkcije umetne inteligence",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Orodja za prevajanje, ki jih poganja umetna inteligenca",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium funkcije:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Pridobite predloge za umetno inteligenco",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Pametno paketno prevajanje",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Prevede VSE besedilo na strani s kontekstom umetne inteligence",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Preverite kakovost prevoda",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Prevajalnik datotek JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Prevajanje jezikovnih datotek JSON v več jezikov",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kako deluje: • Nalaganje jezikovnih datotek JSON • Izbira ciljnih jezikov • Prevajanje z Googlom ali umetno inteligenco • Prenos prevedenih datotek",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Prevedi datoteko JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Prijavi težavo",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Prijavi težave s prevajanjem in lokalizacijo besedila",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kako deluje: • Kliknite besedilne elemente za prijavo težav • Dodajte opise in resnost • Izvozite poročila v Excel ali JSON • Sinhronizirajte z Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Začni poročati",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Upravljanje poročil",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Račun",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Prijava z Googlom",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Nadgradite na Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informacije o premiji",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Odjava",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Poročila o napakah",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Iskanje poročil...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Počisti vse",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Še ni poročil o napakah",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Kliknite »Začni poročati«, da spremljate težave",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ni najdenih rezultatov",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Poskusite z različnimi ključnimi besedami",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Ogled podrobnosti",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Označi kot rešeno",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Ponovno odprto",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Poročilo o napaki #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Osnovne informacije",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Stanje",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorija",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Podrobnosti elementa",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Oznaka",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Besedilo",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Izbirnik",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Kontekst prevoda",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Opis težave",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informacije o strani",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Naslov",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL-naslov",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Izbriši poročilo",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ali ste prepričani, da želite izbrisati poročilo št. $ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Počisti vsa poročila",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Želite izbrisati VSA poročila o napakah? Tega dejanja ni mogoče razveljaviti!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Izbriši vse",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Izvoz poročil o napakah",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Izberite obliko izvoza:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Izvozi v Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Izvozi v JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinhronizacija z Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Poročilo #$ID$ označeno kot $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Poročilo št. $ID$ izbrisano",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Vsa poročila so bila potrjena",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Sprememba ciljnega jezika?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Izvorni jezik spremenjen v $SOURCE$. Želite prevesti v $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Da, sprememba",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ne, ohrani posodobljeno",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "odprto",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "rešeno",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kako deluje:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium funkcije:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Samodejno zaznano: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinhronizacija podatkov",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Najdenih $COUNT$ besedil za prevod",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "izbrano",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Priprava...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Dokončano!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Začetek prevajanja za $COUNT$ jezikov...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Opravljenih $SUCCESS$/$TOTAL$ jezikov",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Predpomnilnik je bil izbrisan",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ni določeno",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Neimenovana stran",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Ogled",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Potrdi",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "V redu",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Podrobno opišite težavo...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Prosim, opišite težavo",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Najprej se prijavite",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Nasvet: Za izvoz sprememb pritisnite Ctrl+E",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Kliknite, če želite onemogočiti način urejanja. Pritisnite Ctrl+E za izvoz sprememb.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopirano v odložišče!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Izboljšava je bila uporabljena!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Uporabljenih je bilo $COUNT$ izboljšav!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Preverjanje kakovosti končano",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinhronizacija z Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinhronizirano z Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sinhronizacija diska ni uspela",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Za sinhronizacijo iz storitve Drive se prijavite",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinhronizacija iz Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Sinhroniziranih $COUNT$ poročil iz Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "V storitvi Drive ni bilo najdenih poročil",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Priprava Excelove datoteke...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Izvožena Excelova datoteka: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Napaka pri izvozu v Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Izvožena datoteka JSON: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Napaka pri izvozu v JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Izvožena datoteka CSV: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Napaka pri izvozu v CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Naložite veljavno datoteko JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Naloženih $COUNT$ ključev za prevod",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Neveljavna datoteka JSON",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Prosimo, dokončajte vse korake",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation zahteva Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Prevajanje v jezik $LANG$ ni uspelo",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Vsi prevodi niso uspeli. Poskusite znova.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Prevod ni uspel. Poskusite znova.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Uspešno prevedeno v $COUNT$ jezikov!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Prenesena datoteka $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Spustite datoteko JSON sem ali kliknite za brskanje",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Podpira: en.json, vi.json itd.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Prevajalnik",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Hitro in brezplačno prevajanje z uporabo Google Translate API-ja",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Prevajanje z umetno inteligenco",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Visokokakovostno prevajanje, ki upošteva kontekst, z uporabo umetne inteligence",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Brezplačno",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Hitro",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontekstualno zavedanje",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Naravno fraziranje",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Boljše za besedilo uporabniškega vmesnika",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Onemogoči urejanje v živo (št. urejanj: $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Omogoči urejanje v živo (prihranjenih $COUNT$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Izbrano besedilo ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Boljše alternative ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Nadgradite na Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Odklenite vse funkcije umetne inteligence in neomejene prevode",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Pametni predlogi umetne inteligence",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Hitro paketno prevajanje",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Samodejno preverjanje kakovosti",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prednostna podpora",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Podpora za vse jezike",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Naročite se zdaj",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium račun",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktivna naročnina",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Datum poteka veljavnosti",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Preostali dnevi",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Vrsta težave:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Napačen prevod",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Prelivanje besedila",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Postavitev prekinjena",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Manjka prevod",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Težava z oblikovanjem",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Drugo",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Upravitelj poročil o napakah",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Upravljajte in izvozite težave z lokalizacijo",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Začnite poročati o težavah, da boste lahko spremljali težave z lokalizacijo",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nobeno poročilo ne ustreza vašim filtrom",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Vsi statusi",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Vse stopnje resnosti",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Vse kategorije",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Visoka",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Srednje",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Nizko",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Odlično!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Preverjenih je bilo $COUNT$ besedilnih segmentov in ni bilo najdenih težav.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Izvorni jezik:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ciljni jezik:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Prijava obvezna",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Za uporabo funkcij prevajanja se prijavite. Brezplačni uporabniki dobijo 10 prevodov.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Preostali prevodi: $REMAINING$ od $LIMIT$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Dosežena je omejitev uporabe",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Dosegli ste omejitev uporabe.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Nadgradite na Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Odklenite neomejene prevode in vrhunske funkcije",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "na mesec",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Neomejeno število prevodov",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Morda kasneje",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Prekličite kadar koli. Brez vprašanj.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Vaša uporaba",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "uporabljeni prevodi",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Za uporabo funkcij prevajanja se prijavite",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Preostalo ni dovolj prevodov. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Uporabljate vseh $COUNT$ preostalih prevodov.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Na tej strani ni mogoče zagnati",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI deluje samo na običajnih spletnih mestih. Ne more se izvajati na notranjih straneh Chroma.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nepodprta vrsta strani",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Nepodprte strani:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Za uporabo LocalizeAI odprite običajno spletno mesto, kot je google.com",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Začni prevajanje",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Prenesi vse",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Prevedi drugo datoteko",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Prenesi",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Naloži datoteko JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Izberite ciljne jezike",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Izberite način prevajanja",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Prevedenih ključev: $COUNT$",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Prevod končan!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Skupno poročil",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Odprte težave",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Visoka prioriteta",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinhronizacija z Driveom",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinhronizacija iz storitve Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Izvozi Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Izvozi JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Osebna izkaznica",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Resnost",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Element",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Težava",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Predlagane rešitve",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Ogled HTML-ja",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vidno polje",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Trenutni jezik",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Prevedeni ključi",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Pretečeni čas",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Prevajanje...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Prevedite jezikovne datoteke JSON v več jezikov z Google Prevajalnikom ali umetno inteligenco",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Izberite enega ali več jezikov za prevajanje",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Zaznana oblika: $FORMAT$, Način: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Prevajanje v $LANG$... (ključi $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Izvozi $COUNT$ sprememb",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Izvozite svoje spremembe, da jih delite s svojo prevajalsko ekipo",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Prenesi CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Prenesi JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Shranjenih je bilo $COUNT$ sprememb. Za izvoz pritisnite Ctrl+E.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Kliknite za omogočanje načina urejanja",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Kliknite, da omogočite način urejanja. Shranili ste spremembe. Pritisnite Ctrl+E za izvoz.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ni izbranega besedila",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Izberite besedilo, da dobite predloge umetne inteligence",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ni najdenih jezikov",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Prijava ni uspela. Poskusite znova.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Uspešno prijavljen/a!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Uspešno odjavljen/a",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Preverjanje pristnosti ni uspelo. Poskusite počistiti predpomnilnik in se znova prijaviti.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Brisanje predpomnilnika...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Brisanje predpomnilnika ni uspelo",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excelova knjižnica ni na voljo. Ponovno naložite stran.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Največ $MAX$ jezikov hkrati za optimalno delovanje.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ izbranih",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Prijavite se, če želite uporabljati prevajanje z umetno inteligenco",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Najboljše za datoteke razumne velikosti.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Način AI: To bo povzročilo $REQUESTS$ klicev API-ja. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ta prevod bo opravil približno $COUNT$ klicev API-ja.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Način AI podpira največ $MAX$ jezikov hkrati.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metoda prevajanja",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Brezplačno",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Neomejeno",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "hitro",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "jezikov",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Prevajanje v več jezikov zahteva Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Preverjeno:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Črkovanje",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Slovnica",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Oblikovanje",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Izvirno besedilo nima težav",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Preverjenih <strong>$COUNT$</strong> segmentov besedila",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Najdenih <strong>$COUNT$</strong> napak, ki jih je treba popraviti",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Brez napak!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Poročilo o preverjanju kakovosti",
+    "description": "Quality check report title"
+  }
+}

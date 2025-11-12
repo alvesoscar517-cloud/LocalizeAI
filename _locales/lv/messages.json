@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI tulkošanas testēšanas rīks. Tiešraides tulkošana, kļūdu ziņošana, pseidolokalizācija un pakešu JSON tulkošana.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Aizvērt",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Atcelt",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Saglabāt",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Dzēst",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksportēt",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinhronizācija",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "AVOTS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MĒRĶIS",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Meklēt valodas...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automātiski noteikts pārlūkprogrammā",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Valodas pārslēgšana",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Pārslēgties starp oriģinālo un tulkoto tekstu",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kā tas darbojas: • Pārslēgties starp oriģinālo un tulkoto tekstu • Tulkojumi tiek saglabāti kešatmiņā, lai varētu ātri pārslēgties • Darbojas ar visu lapas tekstu • Notīrīt kešatmiņu, lai atkārtoti tulkotu",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Oriģināls",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tulkots",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Gatavs tulkošanai",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Notīrīt kešatmiņu un tulkot atkārtoti",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseidolokalizācija",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Pārbaudiet lietotāja saskarni ar garāku tekstu, lai atrastu pārpildes problēmas",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kā tas darbojas: • Aizvieto rakstzīmes ar diakritiskajām rakstzīmēm • Pievieno 30–40 % garuma paplašinājumu • Aptin tekstu ar [!!!... !!!] marķieriem • Piemērs: \"Iestatījumi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Uzklājiet Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Tiešraides rediģēšanas režīms",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Noklikšķiniet uz jebkura teksta, lai rediģētu tieši lapā",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kā tas darbojas: • Noklikšķiniet uz jebkura teksta elementa, lai to rediģētu • Izmaiņas tiek izsekotas reāllaikā • Eksportējiet labojumus JSON vai Excel formātā • Nospiediet taustiņu kombināciju Ctrl+E, lai eksportētu izmaiņas",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Iespējot tiešraides rediģēšanu",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Mākslīgā intelekta funkcijas",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Ar mākslīgo intelektu darbināmi tulkošanas rīki",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium funkcijas:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Saņemt mākslīgā intelekta ieteikumus",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Viedā partijas tulkošana",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Tulko VISU tekstu lapā, izmantojot mākslīgā intelekta kontekstu",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Pārbaudiet tulkojuma kvalitāti",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON failu tulkotājs",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON valodas failu tulkošana vairākās valodās",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kā tas darbojas: • JSON valodas failu augšupielāde • Mērķa valodu atlasīšana • Tulkošana, izmantojot Google vai mākslīgo intelektu • Tulkoto failu lejupielāde",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Tulkot JSON failu",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Ziņot par problēmu",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Ziņot par teksta tulkošanas un lokalizācijas problēmām",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kā tas darbojas: • Noklikšķiniet uz teksta elementiem, lai ziņotu par problēmām • Pievienojiet aprakstus un to nopietnību • Eksportējiet ziņojumus uz Excel vai JSON • Sinhronizējiet ar Google disku",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Sākt ziņošanu",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Pārvaldīt pārskatus",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Konts",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Pierakstieties ar Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Jauniniet uz Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informācija par maksu",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Izrakstīties",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Kļūdu ziņojumi",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Meklēšanas atskaites...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Notīrīt visu",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Vēl nav kļūdu ziņojumu",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Noklikšķiniet uz \"Sākt ziņošanu\", lai izsekotu problēmām",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nav atrasts neviens rezultāts",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Izmēģiniet dažādus atslēgvārdus",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Skatīt detalizētu informāciju",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Atzīmēt kā atrisinātu",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Atvērt atkārtoti",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Kļūdas ziņojums #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Pamatinformācija",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Statuss",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorija",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datums",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementa detaļas",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Birka",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Teksts",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selektors",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Tulkošanas konteksts",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Problēmas apraksts",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Lapas informācija",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Nosaukums",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Dzēst pārskatu",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Vai tiešām vēlaties dzēst ziņojumu #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Notīrīt visus pārskatus",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Vai dzēst VISUS kļūdu ziņojumus? Šo darbību nevar atsaukt!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Dzēst visu",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Eksportēt kļūdu ziņojumus",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Izvēlieties eksporta formātu:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Eksportēt uz Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eksportēt uz JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinhronizēt ar Google disku",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Ziņojums #$ID$ atzīmēts kā $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ziņojums #$ID$ ir dzēsts",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Visi ziņojumi notīrīti",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Mainīt mērķa valodu?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Avota valoda mainīta uz $SOURCE$. Vai vēlaties tulkot uz $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Jā, mainīt",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nē, saglabāt aktuālo",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "atvērts",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "atrisināts",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kā tas darbojas:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium funkcijas:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automātiski noteikts: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinhronizēt datus",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Atrasti $COUNT$ teksti tulkošanai",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "atlasīts",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Sagatavošana...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Pabeigts!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Tiek sākta tulkošana $COUNT$ valodām...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Pabeigtas $SUCCESS$/$TOTAL$ valodas",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Kešatmiņa notīrīta",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nav norādīts",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Bez nosaukuma lapa",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Skatīt",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Apstiprināt",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Labi",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Aprakstiet problēmu detalizēti...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Lūdzu, aprakstiet problēmu",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Lūdzu, vispirms pierakstieties",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Padoms. Lai eksportētu izmaiņas, nospiediet taustiņu kombināciju Ctrl+E.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Noklikšķiniet, lai atspējotu rediģēšanas režīmu. Nospiediet taustiņu kombināciju Ctrl+E, lai eksportētu izmaiņas.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopēts starpliktuvē!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Uzlabojums piemērots!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Lietoti $COUNT$ uzlabojumi!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kvalitātes pārbaude pabeigta",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinhronizē ar Google disku...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinhronizēts ar Google disku!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Diska sinhronizācija neizdevās",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Lūdzu, pierakstieties, lai sinhronizētu no Diska.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinhronizācija no Google diska...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Sinhronizēti $COUNT$ ziņojumi no Diska!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Diskā nav atrasti ziņojumi",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Notiek Excel faila sagatavošana...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Eksportēts Excel fails: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Kļūda eksportējot uz Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Eksportēts JSON fails: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Kļūda eksportējot uz JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Eksportēts CSV fails: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Kļūda eksportējot uz CSV failu",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Lūdzu, augšupielādējiet derīgu JSON failu.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ielādētas $COUNT$ tulkošanas atslēgas",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Nederīgs JSON fails",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Lūdzu, veiciet visas darbības",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI tulkošanai ir nepieciešama Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Neizdevās tulkot uz $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Neviens tulkojums neizdevās. Lūdzu, mēģiniet vēlreiz.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Tulkojums neizdevās. Lūdzu, mēģiniet vēlreiz.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Veiksmīgi iztulkots $COUNT$ valodās!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Lejupielādēts fails $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Ievietojiet JSON failu šeit vai noklikšķiniet, lai pārlūkotu",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Atbalsta: en.json, vi.json utt.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google tulkotājs",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Ātra un bezmaksas tulkošana, izmantojot Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Mākslīgā intelekta tulkošana",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Augstas kvalitātes kontekstatkarīgs tulkojums, izmantojot mākslīgo intelektu",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Bezmaksas",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Ātri",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Konteksts apzinīgs",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Dabiska frāze",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Labāk piemērots lietotāja interfeisa tekstam",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Atspējot tiešraides rediģēšanu ($COUNT$ labojumu)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Iespējot tiešraides rediģēšanu (ietaupījums ($COUNT$$))",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Atlasītais teksts ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Labākas alternatīvas ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Jauniniet uz Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Atbloķējiet visas mākslīgā intelekta funkcijas un neierobežotu tulkojumu skaitu",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Mākslīgā intelekta viedie ieteikumi",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Ātra partijas tulkošana",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automātiska kvalitātes pārbaude",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritārs atbalsts",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Atbalsta visas valodas",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonēt tūlīt",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium konts",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktīvs abonements",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Derīguma termiņš",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Atlikušās dienas",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Problēmas veids:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Nepareizs tulkojums",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Teksta pārpilde",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Izkārtojums ir bojāts",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Trūkstošais tulkojums",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formatēšanas problēma",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Citi",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Kļūdu ziņojumu pārvaldnieks",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Pārvaldiet un eksportējiet savas lokalizācijas problēmas",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Sāciet ziņot par problēmām, lai izsekotu lokalizācijas problēmām",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nav jūsu filtriem atbilstošu pārskatu",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Viss statuss",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Visas smaguma pakāpes",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Visas kategorijas",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Augsts",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Vidējs",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Zems",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Lieliski!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Pārbaudīti $COUNT$ teksta segmenti, un problēmas netika atrastas.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Avota valoda:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Mērķa valoda:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Nepieciešama pieteikšanās",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Lūdzu, pierakstieties, lai izmantotu tulkošanas funkcijas. Bezmaksas lietotāji saņem 10 tulkojumus.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Atlikušie tulkojumi: $REMAINING$ no $LIMIT$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Sasniegts lietošanas limits",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Jūs esat sasniedzis lietošanas ierobežojumu.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Jauniniet uz Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Atbloķējiet neierobežotu tulkojumu skaitu un augstākās kvalitātes funkcijas",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "mēnesī",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Neierobežoti tulkojumi",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Varbūt vēlāk",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Atcelt jebkurā laikā. Nav jāuzdod jautājumi.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Jūsu lietojums",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "izmantotie tulkojumi",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Lūdzu, pierakstieties, lai izmantotu tulkošanas funkcijas.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Nav atlicis pietiekami daudz tulkojumu. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Jūs izmantojat visus $COUNT$ atlikušos tulkojumus.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Nevar palaist šajā lapā",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI darbojas tikai parastās tīmekļa vietnēs. Tas nevar darboties Chrome iekšējās lapās.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Neatbalstīts lapas veids",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Neatbalstītas lapas:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Atveriet parastu vietni, piemēram, google.com, lai izmantotu LocalizeAI.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Sākt tulkošanu",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Lejupielādēt visu",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Tulkot citu failu",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Lejupielādēt",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Augšupielādēt JSON failu",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Atlasiet mērķa valodas",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Izvēlieties tulkošanas režīmu",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ atslēgas tulkotas",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Tulkojums pabeigts!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Kopējais ziņojumu skaits",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Atvērtie jautājumi",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Augsta prioritāte",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinhronizēt ar Disku",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinhronizēt no Diska",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Eksportēt uz Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Eksportēt JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Smagums",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elements",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problēma",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Ieteiktie risinājumi",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Skatīt HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Skata logs",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Pašreizējā valoda",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Tulkotās atslēgas",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Pagājušais laiks",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Tulkošana...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Tulkojiet JSON valodas failus vairākās valodās, izmantojot Google Translate vai mākslīgo intelektu",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Atlasiet vienu vai vairākas valodas, uz kurām tulkot",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Noteiktais formāts: $FORMAT$, Režīms: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Tulkošana uz $LANG$... (atslēgas ($CURRENT$/$TOTAL$))",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Eksportēt $COUNT$ izmaiņas",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eksportējiet savus labojumus, lai kopīgotu tos ar savu tulkošanas komandu",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Lejupielādēt CSV failu",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Lejupielādēt JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Saglabātas $COUNT$ izmaiņas. Lai eksportētu, nospiediet Ctrl+E.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Noklikšķiniet, lai iespējotu rediģēšanas režīmu",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Noklikšķiniet, lai iespējotu rediģēšanas režīmu. Jūs esat saglabājis izmaiņas. Nospiediet Ctrl+E, lai eksportētu.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nav atlasīts teksts",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Atlasiet tekstu, lai saņemtu mākslīgā intelekta ieteikumus",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nav atrasta neviena valoda",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Pierakstīšanās neizdevās. Lūdzu, mēģiniet vēlreiz.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Pierakstīšanās veiksmīga!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Izrakstīts veiksmīgi",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentifikācija neizdevās. Lūdzu, mēģiniet notīrīt kešatmiņu un pierakstīties vēlreiz.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Notiek kešatmiņas tīrīšana...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Neizdevās notīrīt kešatmiņu",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel bibliotēka nav pieejama. Lūdzu, atkārtoti ielādējiet lapu.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimāli $MAX$ valodas vienlaikus, lai nodrošinātu optimālu veiktspēju.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Atlasīti $COUNT$/$MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Lūdzu, pierakstieties, lai izmantotu AI tulkojumu",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Vispiemērotākais failiem ar saprātīgu izmēru.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI režīms: tiks veikti $REQUESTS$ API izsaukumi. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Šis tulkojums veiks aptuveni $COUNT$ API izsaukumus.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI režīms vienlaikus atbalsta maksimāli $MAX$ valodas.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Tulkošanas metode",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Bezmaksas",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Neierobežots",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Ātri",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "valodas",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Tulkošanai vairākās valodās ir nepieciešama Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Pārbaudīts:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Pareizrakstība",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatēšana",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Sākotnējam tekstam nav problēmu",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Pārbaudīti <strong>$COUNT$</strong> teksta segmenti",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Atrastas <strong>$COUNT$</strong> labojamas kļūdas",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Nav kļūdu!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kvalitātes pārbaudes ziņojums",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI ဘာသာပြန်စစ်ဆေးရေးကိရိယာ။ တိုက်ရိုက်ဘာသာပြန်ခြင်း၊ အမှားအယွင်းတင်ပြခြင်း၊ အတုဒေသန္တရအောင်ခြင်း နှင့် အစုလိုက် JSON ဘာသာပြန်ခြင်း။",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ပိတ်လိုက်",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "မလုပ်တော့",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "သိမ်းဆည်းပါ။",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ဖျက်ပါ။",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "တင်ပို့ခြင်း။",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ထပ်တူကျသည်။",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "အရင်းအမြစ်",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ပစ်မှတ်",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ဘာသာစကားများကို ရှာဖွေပါ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ဘရောင်ဇာမှ အလိုအလျောက် တွေ့ရှိသည်။",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ဘာသာစကား ပြောင်းရန်",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "မူရင်းနှင့် ဘာသာပြန်ထားသော စာသားကြားသို့ ပြောင်းပါ။",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "အလုပ်လုပ်ပုံ- • မူရင်းနှင့် ဘာသာပြန်ထားသော စာသားကြားသို့ ပြောင်းပါ။ • အမြန်ပြောင်းရန်အတွက် ဘာသာပြန်ချက်များကို သိမ်းဆည်းထားသည်။ • စာမျက်နှာရှိ စာသားအားလုံးနှင့် အလုပ်လုပ်သည်။ • ပြန်လည်ဘာသာပြန်ဆိုရန် ကက်ရှ်ကို ရှင်းလင်းပါ။",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "မူရင်း",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ဘာသာပြန်ပါသည်။",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ဘာသာပြန်ရန် အဆင်သင့်ဖြစ်ပါပြီ။",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Cache ကိုရှင်းပြီး ပြန်ဆိုပါ။",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-localization",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ပြည့်လျှံနေသော ပြဿနာများကို ရှာတွေ့ရန် ရှည်လျားသော စာသားဖြင့် UI ကို စမ်းသပ်ပါ။",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "အလုပ်လုပ်ပုံ- • ဇာတ်ကောင်များကို အသံထွက်ဗားရှင်းများဖြင့် အစားထိုးသည်။ • အရှည် 30-40% ထပ်တိုးသည်။ • စာသားကို [!!!...!!!] အမှတ်အသားများ • ဥပမာ- \"ဆက်တင်များ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc ကိုသုံးပါ။",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "တိုက်ရိုက်တည်းဖြတ်မုဒ်",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "စာမျက်နှာပေါ်တွင် တိုက်ရိုက်တည်းဖြတ်ရန် မည်သည့်စာသားကိုမဆို နှိပ်ပါ။",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "အလုပ်လုပ်ပုံ- • ၎င်းကိုတည်းဖြတ်ရန် မည်သည့်စာသားအစိတ်အပိုင်းကိုမဆို နှိပ်ပါ။ • အပြောင်းအလဲများကို အချိန်နှင့်တပြေးညီ ခြေရာခံပါသည်။ • တည်းဖြတ်မှုများကို JSON သို့မဟုတ် Excel အဖြစ် ထုတ်ယူပါ။ • ပြောင်းလဲမှုများကို ထုတ်ယူရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "တိုက်ရိုက်တည်းဖြတ်ခြင်းကို ဖွင့်ပါ။",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI အင်္ဂါရပ်များ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI စနစ်သုံး ဘာသာပြန်ကိရိယာများ",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ပရီမီယံအင်္ဂါရပ်များ- • AI စနစ်သုံး ဆက်စပ်-သတိပြုမိသော ဘာသာပြန်ဆိုမှု • စာမျက်နှာတစ်ခုလုံးကို အတွဲလိုက် ဘာသာပြန်ပါ။ • ဘာသာပြန်ဆိုမှုများအတွက် အရည်အသွေးစစ်ဆေးပါ။ • သဘာဝဘာသာစကား အကြံပြုချက်များ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI အကြံပြုချက်များကို ရယူပါ။",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "SMART Batch ဘာသာပြန်ဆိုမှု",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "AI အကြောင်းအရာဖြင့် စာမျက်နှာရှိ စာသားအားလုံးကို ဘာသာပြန်ပေးသည်။",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ဘာသာပြန်အရည်အသွေးကို စစ်ဆေးပါ။",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ပရီမီယံ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ဖိုင်ဘာသာပြန်သူ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ဘာသာစကားဖိုင်များကို ဘာသာစကားများစွာသို့ ဘာသာပြန်ပါ။",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "အလုပ်လုပ်ပုံ- • JSON ဘာသာစကားဖိုင်များကို အပ်လုဒ်လုပ်ပါ။ • ပစ်မှတ်ဘာသာစကားများကို ရွေးချယ်ပါ။ • Google သို့မဟုတ် AI ဖြင့် ဘာသာပြန်ပါ။ • ဘာသာပြန်ထားသောဖိုင်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ဖိုင်ကို ဘာသာပြန်ပါ။",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ပြဿနာကို သတင်းပို့ပါ။",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "စာသားဘာသာပြန်ဆိုခြင်းနှင့် ဒေသသတ်မှတ်ခြင်းဆိုင်ရာ ပြဿနာများကို သတင်းပို့ပါ။",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "အလုပ်လုပ်ပုံ- • ပြဿနာများကို သတင်းပို့ရန် စာသားအစိတ်အပိုင်းများကို နှိပ်ပါ။ • ဖော်ပြချက်များနှင့် ပြင်းထန်မှု ထည့်ပါ။ • အစီရင်ခံစာများကို Excel သို့မဟုတ် JSON သို့ ထုတ်ယူပါ။ • Google Drive နှင့် စင့်ခ်လုပ်ပါ။",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "စတင်အစီရင်ခံခြင်း။",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "အစီရင်ခံစာများကို စီမံပါ။",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "အကောင့်",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google ဖြင့် လက်မှတ်ထိုးဝင်ပါ။",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ပရီမီယံသို့အဆင့်မြှင့်တင်",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ပရီမီယံအချက်အလက်",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ဆိုင်းအောက်",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ချွတ်ယွင်းချက်အစီရင်ခံစာများ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ရှာဖွေမှုအစီရင်ခံစာများ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "အားလုံးကို ရှင်းလင်းပါ။",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "bug အစီရင်ခံချက်မရှိသေးပါ။",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ပြဿနာများကို ခြေရာခံရန် \"စတင်သတင်းပို့ခြင်း\" ကိုနှိပ်ပါ။",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ရလဒ်များမတွေ့ပါ။",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "မတူညီသောသော့ချက်စာလုံးများကို စမ်းကြည့်ပါ။",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "အသေးစိတ်ကြည့်ရှုပါ။",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ဖြေရှင်းပြီးကြောင်း အမှတ်အသားပြုပါ။",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ပြန်ဖွင့်သည်။",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ချွတ်ယွင်းချက်အစီရင်ခံစာ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "အခြေခံအချက်အလက်",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "အဆင့်အတန်း",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "အမျိုးအစား",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ရက်စွဲ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "အစိတ်အပိုင်းအသေးစိတ်",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "တက်ဂ်",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "စာသား",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ရွေးချယ်သူ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ဘာသာပြန်ဆိုချက်",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "စာစောင်ဖော်ပြချက်",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "စာမျက်နှာအချက်အလက်",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ခေါင်းစဉ်",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "အွန်လိုင်း",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "အစီရင်ခံစာကိုဖျက်ပါ။",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "အစီရင်ခံစာ #$ID$ ကို ဖျက်လိုသည်မှာ သေချာပါသလား။",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "အစီရင်ခံစာများအားလုံးကို ရှင်းလင်းပါ။",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ချွတ်ယွင်းချက်အစီရင်ခံစာများအားလုံးကို ဖျက်မလား။ ဤလုပ်ဆောင်ချက်ကို ပြန်ပြင်၍မရပါ။",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "အားလုံးကို ဖျက်ပါ။",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ချွတ်ယွင်းချက်အစီရင်ခံစာများကို ထုတ်ယူပါ။",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ထုတ်ယူမှုပုံစံကို ရွေးပါ-",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excel သို့ တင်ပို့ပါ။",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON သို့ ထုတ်ယူပါ။",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Drive သို့ စင့်ခ်လုပ်ပါ။",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "အစီရင်ခံစာ # $ $$STATUS$$ $ $ status ကို $ အဖြစ်မှတ်သား $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "အစီရင်ခံစာ #$ID$ ဖျက်လိုက်ပါပြီ။",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "အစီရင်ခံစာအားလုံးကို ရှင်းလင်းထားသည်။",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ပစ်မှတ်ဘာသာစကားကို ပြောင်းမလား။",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ရင်းမြစ်ဘာသာစကားကို $SOURCE$ သို့ ပြောင်းထားသည်။ $TARGET$ သို့ ဘာသာပြန်လိုပါသလား။",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ဟုတ်ကဲ့၊ ပြောင်းလဲပါ။",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "မဟုတ်ပါ၊ လက်ရှိကို ဆက်ထားပါ။",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ဖွင့်သည်။",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ဖြေရှင်းခဲ့သည်။",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "အလုပ်လုပ်ပုံ-",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ပရီမီယံအင်္ဂါရပ်များ-",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "အလိုအလျောက်တွေ့ရှိခဲ့သည်- $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ဒေတာစင့်ခ်လုပ်ပါ။",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ဘာသာပြန်ရန် $COUNT$ စာသားများကို တွေ့ရှိခဲ့သည်။",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ရွေးချယ်ထားသည်။",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "ပြင်ဆင်နေသည်...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ပြီးအောင်။",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ဘာသာစကားများအတွက် ဘာသာပြန်ဆိုခြင်းကို စတင်နေသည်...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ပြီးစီးသည့် $ အောင်မြင်မှု $ / $ စုစုပေါင်းဘာသာစကားဖြင့်ဘာသာစကား $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ အရွယ်အစား $ kb $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ t အချိန် $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ကက်ရှ်ကို ရှင်းလင်းထားသည်။",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "မသတ်မှတ်ထားပါ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ခေါင်းစဉ်မဲ့ စာမျက်နှာ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "အမြင်",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "အတည်ပြုပါ။",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "အိုကေ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ပြသနာကို အသေးစိတ်ရှင်းပြပါ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ပြဿနာကို ဖော်ပြပါ။",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ကျေးဇူးပြု၍ ဦးစွာဝင်ရောက်ပါ။",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "အကြံပြုချက်- သင်၏ပြောင်းလဲမှုများကို ထုတ်ယူရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "တည်းဖြတ်မုဒ်ကို ပိတ်ရန် နှိပ်ပါ။ ပြောင်းလဲမှုများကို ထုတ်ယူရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ကလစ်ဘုတ်သို့ ကူးယူထားသည်။",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "တိုးတက်မှုကို အသုံးပြုခဲ့သည်။",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "တိုးတက်မှု $COUNT$ ကို အသုံးပြုခဲ့သည်။",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "အရည်အသွေးစစ်ဆေးပြီးပါပြီ။",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive သို့ စင့်ခ်လုပ်နေသည်...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive သို့ စင့်ခ်လုပ်ထားသည်။",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive စင့်ခ်လုပ်ခြင်း မအောင်မြင်ပါ။",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Drive မှ စင့်ခ်လုပ်ရန် လက်မှတ်ထိုးဝင်ပါ။",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive မှ စင့်ခ်လုပ်နေသည်...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive မှ $COUNT$ အစီရင်ခံစာများကို စင့်ခ်လုပ်ထားသည်။",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive တွင် အစီရင်ခံစာများ မတွေ့ပါ။",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel ဖိုင်ကို ပြင်ဆင်နေသည်...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel ဖိုင်ကို ထုတ်ယူခဲ့သည်- $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel သို့ တင်ပို့ရာတွင် အမှားအယွင်းရှိသည်။",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ဖိုင်ကို ထုတ်ယူခဲ့သည်- $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON သို့ တင်ပို့ရာတွင် အမှားအယွင်းရှိသည်။",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ဖိုင်ကို ထုတ်ယူခဲ့သည်- $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV သို့ တင်ပို့ရာတွင် အမှားအယွင်းရှိသည်။",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ကျေးဇူးပြု၍ တရားဝင် JSON ဖိုင်ကို အပ်လုဒ်လုပ်ပါ။",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "ဘာသာပြန်ကီး $COUNT$ ကို တင်ထားသည်။",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "မမှန်ကန်သော JSON ဖိုင်",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "အဆင့်အားလုံးကို ပြီးအောင်လုပ်ပါ။",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ဘာသာပြန်ဆိုမှုသည် ပရီမီယံလိုအပ်သည်။ ကျေးဇူးပြု၍ အဆင့်မြှင့်ပါ သို့မဟုတ် Google ဘာသာပြန်ကို အသုံးပြုပါ။",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ သို့ ဘာသာပြန်ဆိုရန် မအောင်မြင်ပါ။",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ဘာသာပြန်အားလုံး မအောင်မြင်ပါ။ ထပ်စမ်းကြည့်ပါ။",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ဘာသာပြန်ဆိုမှု မအောင်မြင်ပါ။ ထပ်စမ်းကြည့်ပါ။",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ဘာသာစကားများသို့ အောင်မြင်စွာ ဘာသာပြန်ဆိုပါသည်။",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ကို ဒေါင်းလုဒ်လုပ်ထားသည်။",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ဖိုင်ကို ဤနေရာတွင် ချပါ သို့မဟုတ် ရှာဖွေကြည့်ရန် နှိပ်ပါ။",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ပံ့ပိုးမှုများ- en.json၊ vi.json စသည်တို့။",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ဂူဂယ်လ်ဘာသာပြန်",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API ကို အသုံးပြု၍ မြန်ဆန်ပြီး အခမဲ့ ဘာသာပြန်ဆိုခြင်း။",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI ဘာသာပြန်ခြင်း။",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ကို အသုံးပြု၍ အရည်အသွေးမြင့် ဆက်စပ်-သတိပြုမိသော ဘာသာပြန်ဆိုမှု",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "အခမဲ့",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "မြန်တယ်။",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ဆက်စပ်-သတိပြုပါ။",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "သဘာဝစကားစု",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI စာသားအတွက် ပိုကောင်းပါတယ်။",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "တိုက်ရိုက်တည်းဖြတ်ခြင်းကို ပိတ်ပါ (တည်းဖြတ်မှု $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "တိုက်ရိုက်တည်းဖြတ်မှုကို ဖွင့်ပါ ($COUNT$ သိမ်းဆည်းပြီး)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ရွေးချယ်ထားသော စာသား ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ပိုမိုကောင်းမွန်သော အခြားရွေးချယ်စရာများ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ပရီမီယံသို့အဆင့်မြှင့်တင်",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "AI အင်္ဂါရပ်များနှင့် အကန့်အသတ်မရှိ ဘာသာပြန်ချက်များကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI စမတ်အကြံပြုချက်များ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "အမြန်အသုတ်ဘာသာပြန်ခြင်း။",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "အလိုအလျောက်အရည်အသွေးစစ်ဆေးခြင်း။",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ဦးစားပေးပံ့ပိုးမှု",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ဘာသာစကားအားလုံးထောက်ခံပါတယ်။",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ယခု စာရင်းသွင်းလိုက်ပါ။",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ပရီမီယံအကောင့်",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "အသက်ဝင်သော စာရင်းသွင်းမှု",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "သက်တမ်းကုန်ဆုံးရက်",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ကျန်ရက်များ",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ပြဿနာအမျိုးအစား-",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ဘာသာပြန်မှား",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "စာသားအလျှံ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout ကွဲသွားပြီ",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ဘာသာပြန်ခြင်း ပျောက်ဆုံးနေပါသည်။",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ပုံစံချခြင်း ပြဿနာ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "တခြား",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ချွတ်ယွင်းချက်အစီရင်ခံစာမန်နေဂျာ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "သင်၏ ဒေသပြောင်းလဲခြင်းဆိုင်ရာ ပြဿနာများကို စီမံခန့်ခွဲပြီး ထုတ်ယူပါ။",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ဒေသသတ်မှတ်ခြင်းဆိုင်ရာ ပြဿနာများကို ခြေရာခံရန် ပြဿနာများကို စတင်သတင်းပို့ပါ။",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "သင်၏ စစ်ထုတ်မှုများနှင့် ကိုက်ညီသော အစီရင်ခံစာများ မရှိပါ။",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "အဆင့်အတန်းအားလုံး",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ပြင်းထန်မှုအားလုံး",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "အမျိုးအစားအားလုံး",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "မြင့်သည်။",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "လတ်",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "နိမ့်သည်။",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "အရမ်းကောင်းတယ်!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ စာသားအပိုင်းများကို စစ်ဆေးပြီး ပြဿနာမရှိပါ ။",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "အရင်းအမြစ်ဘာသာစကား-",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ပစ်မှတ် ဘာသာစကား-",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "အကောင့်ဝင်ရန် လိုအပ်ပါသည်။",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ဘာသာပြန်ခြင်းအင်္ဂါရပ်များကို အသုံးပြုရန် ကျေးဇူးပြု၍ လက်မှတ်ထိုးဝင်ပါ။ အခမဲ့အသုံးပြုသူများသည် ဘာသာပြန်ဆိုမှု 10 ခု ရရှိသည်။",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "ဘာသာပြန်ဆိုမှု $REMAINING$ မှ $LIMIT$ ကျန်ပါသည်။",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "အသုံးပြုမှု ကန့်သတ်ချက် ပြည့်သွားပါပြီ။",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "သင်သည်သင်၏အသုံးပြုမှုကန့်သတ်ရောက်ရှိခဲ့သည်။",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ပရီမီယံသို့အဆင့်မြှင့်တင်",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "အကန့်အသတ်မရှိ ဘာသာပြန်ဆိုမှုများနှင့် ပရီမီယံဝန်ဆောင်မှုများကို လော့ခ်ဖွင့်ပါ။",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "တစ်လလျှင်",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "အကန့်အသတ်မရှိ ဘာသာပြန်ဆိုမှုများ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "နောက်မှဖြစ်နိုင်တယ်။",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "အချိန်မရွေး ပယ်ဖျက်ပါ။ မေးခွန်းတွေ မမေးဘူး။",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "သင်၏အသုံးပြုမှု",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ဘာသာပြန်တွေ သုံးတယ်။",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ဘာသာပြန်ခြင်းအင်္ဂါရပ်များကို အသုံးပြုရန် ကျေးဇူးပြု၍ လက်မှတ်ထိုးဝင်ပါ။",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ကျန်ရှိနေသေးသောဘာသာပြန်များမလုံလောက်ပါ။ $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "သင်အားလုံး $ ရေတွက် $ ကျန်ရှိသောဘာသာပြန်ကျမ်းကိုအသုံးပြုနေကြသည်။ $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ဤစာမျက်နှာတွင် မလည်ပတ်နိုင်ပါ။",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI သည် ပုံမှန်ဝဘ်ဆိုဒ်များတွင်သာ အလုပ်လုပ်ပါသည်။ ၎င်းသည် Chrome အတွင်းပိုင်း စာမျက်နှာများတွင် မလည်ပတ်နိုင်ပါ။",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ပံ့ပိုးမထားသော စာမျက်နှာအမျိုးအစား",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ပံ့ပိုးမထားသော စာမျက်နှာများ-",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ကိုအသုံးပြုရန် google.com ကဲ့သို့ ပုံမှန်ဝဘ်ဆိုဒ်တစ်ခုကို ဖွင့်ပါ။",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ဘာသာပြန်ခြင်းကို စတင်ပါ။",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "အားလုံးကို ဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "အခြားဖိုင်ကို ဘာသာပြန်ပါ။",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ဖိုင်ကို အပ်လုဒ်လုပ်ပါ။",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ပစ်မှတ်ဘာသာစကားများကို ရွေးချယ်ပါ။",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ဘာသာပြန်မုဒ်ကို ရွေးပါ။",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ သော့များကို ဘာသာပြန်ထားသည်။",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ဘာသာပြန်ဆိုချက် ပြီးပါပြီ။",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "စုစုပေါင်းအစီရင်ခံစာများ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ပြဿနာများကို ဖွင့်ပါ။",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ဦးစားပေး",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive သို့ စင့်ခ်လုပ်ပါ။",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive မှ စင့်ခ်လုပ်ပါ။",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel ကို ထုတ်ယူပါ။",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ကို ထုတ်ယူပါ။",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "အမှတ်သညာ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ပြင်းထန်မှု",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ဒြပ်",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ထုတ်ပြန်သည်",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "အကြံပြုဖြေရှင်းချက်",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ကိုကြည့်ပါ။",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ရှုခင်း",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "လက်ရှိ ဘာသာစကား",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "သော့များကို ဘာသာပြန်ထားသည်။",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "အချိန်ကုန်သွားပြီ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ဘာသာပြန်နေသည်...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "JSON ဘာသာစကားဖိုင်များကို Google Translate သို့မဟုတ် AI ဖြင့် ဘာသာစကားများစွာသို့ ဘာသာပြန်ပါ။",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ဘာသာပြန်ရန် ဘာသာစကားတစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ဘာသာစကားများကို ရွေးပါ။",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "တွေ့ရှိထားသော ဖော်မတ်- $FORMAT$၊ မုဒ်- $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ($CURRENT$/$TOTAL$ သော့များ) သို့ ဘာသာပြန်နေသည်",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ အပြောင်းအလဲများကို ထုတ်ယူပါ။",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "သင်၏ဘာသာပြန်အဖွဲ့နှင့်မျှဝေရန် သင်၏တည်းဖြတ်မှုများကို ထုတ်ယူပါ။",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ကိုဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ကိုဒေါင်းလုဒ်လုပ်ပါ။",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ အပြောင်းအလဲများကို သိမ်းဆည်းပြီးပါပြီ။ တင်ပို့ရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "တည်းဖြတ်မုဒ်ကို ဖွင့်ရန် နှိပ်ပါ။",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "တည်းဖြတ်မုဒ်ကို ဖွင့်ရန် နှိပ်ပါ။ သင်သည် ပြောင်းလဲမှုများကို သိမ်းဆည်းထားသည်။ တင်ပို့ရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "စာသားမရွေးပါ။",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI အကြံပြုချက်များကို ရယူရန် စာသားကို ရွေးချယ်ပါ။",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ဘာသာစကား မတွေ့ပါ။",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "လက်မှတ်ထိုးဝင်ခြင်း မအောင်မြင်ပါ။ ထပ်စမ်းကြည့်ပါ။",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "အောင်မြင်စွာ အကောင့်ဝင်ပါ။",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "အောင်မြင်စွာ ထွက်လိုက်ပါပြီ။",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "အထောက်အထားစိစစ်ခြင်း မအောင်မြင်ပါ။ ကျေးဇူးပြု၍ ကက်ရှ်ကို ရှင်းလင်းပြီး ထပ်မံ၍ လက်မှတ်ထိုးဝင်ကြည့်ပါ။",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ကက်ရှ်ကို ရှင်းလင်းနေသည်...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ကက်ရှ်ကို ရှင်းလင်းရန် မအောင်မြင်ပါ။",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel စာကြည့်တိုက် မရနိုင်ပါ။ ကျေးဇူးပြု၍ စာမျက်နှာကို ပြန်လည်စတင်ပါ။",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "အကောင်းဆုံးစွမ်းဆောင်ရည်အတွက်အမြင့်ဆုံး $ $MAX$ ကို $ $MAX$ ကို $ ဘာသာစကားများ။",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ / $ / $ $$MAX$$ ကို $ ရွေးချယ်ထား $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "ကျေးဇူးပြု. AI ဘာသာပြန်ခြင်းကိုအသုံးပြုရန်ဆိုင်းအင်လုပ်ပါ",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ကျိုးကြောင်းဆီလျော်သောအရွယ်အစားနှင့်အတူဖိုင်များအတွက်အကောင်းဆုံး။",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI Mode: API ခေါ်ဆိုမှုတောင်းဆိုမှုများပြုလုပ်လိမ့်မည်။",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ဤဘာသာပြန်ကျမ်းသည်ခန့်မှန်းခြေအားဖြင့် API ခေါ်ဆိုမှုများကိုပြုလုပ်လိမ့်မည်။ $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI Mode သည်ဒေါ်လာအများဆုံးဒေါ်လာဒေါ်လာအများဆုံးသောဘာသာစကားများကိုတစ်ချိန်တည်းတွင်ထောက်ပံ့သည်။ $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "ဘာသာပြန်ချက်နည်းလမ်း",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "လွတ်လပ်သော",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "အကန့်အသတ်",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ဉပုသ်",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ဘာသာစကားများ",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ဘာသာစကားမျိုးစုံဘာသာပြန်ကျမ်းသည်ပရီမီယံလိုအပ်သည်။",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Checked:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "စာလုံးပေါင်းခြင်း",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "သဒ္ဒါ",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ပုံစံချခြင်း",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "မူရင်းစာသားတွင်ပြ issues နာမရှိပါ",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "$ ရေတွက် $ text segments ကိုစစ်ဆေးသည်",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Fix မှ $ ရေတွက် $ အမှားများကိုတွေ့ရှိခဲ့ပါတယ်",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "အဘယ်သူမျှမအမှားများ!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "အရည်အသွေးစစ်ဆေးမှုအစီရင်ခံစာ",
+    "description": "Quality check report title"
+  }
+}

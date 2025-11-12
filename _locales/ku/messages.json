@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Amûra ceribandinê ya wergerê AI. Wergerandina zindî, ragihandina çewtî, pseudo-herêmîkirin û wergerandina JSON-ê bi komî.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Nêzîkî",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Bişûndekirin",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Rizgarkirin",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Jêbirin",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksport",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Senkronîzekirin",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "KANÎ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ARMANC",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Lêgerîna zimanan...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Ji gerokê bixweber hat tespîtkirin",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Guhertina Ziman",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Di navbera nivîsa orîjînal û wergerandî de biguhere",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Çawa dixebite: • Di navbera nivîsa orîjînal û wergerandî de biguhere • Werger ji bo guhertina bilez têne tomar kirin • Bi hemî nivîsên li ser rûpelê re dixebite • Ji bo wergerandina ji nû ve, kaşê paqij bike",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Eslî",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Wergerandî",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Amade ye ji bo wergerandinê",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Keşeya Paqij Bike û Ji Nû Ve Wergerîne",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Cihêkîbûn",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Ji bo dîtina pirsgirêkên zêdebûnê, UI bi nivîsa dirêjtir biceribînin",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Çawa dixebite: • Tîpên bi guhertoyên bi aksentan diguherîne • Berfirehkirina dirêjahiya 30-40% zêde dike • Nivîsê di nîşankerên [!!!... !!!] de dipêçe • Mînak: \"Mîheng\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc bicîh bîne",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Moda Guherandina Zindî",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Ji bo sererastkirina rasterast li ser rûpelê li ser her nivîsê bitikîne",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Çawa dixebite: • Ji bo guherandina wê li ser her hêmanek nivîsê bikirtînin • Guhertin di wextê rast de têne şopandin • Guhertinan wekî JSON an Excel hinarde bikin • Ji bo hinardekirina guhertinan Ctrl+E bikirtînin",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Guherandina Zindî Çalak Bike",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Taybetmendiyên AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Amûrên wergerandinê yên bi hêza AI-ê",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Taybetmendiyên Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Pêşniyarên AI bistînin",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Wergerandina Batch a Jîr",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Hemû nivîsên li ser rûpelê bi çarçoveya AI werdigerîne",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Kalîteya Wergerê Kontrol Bike",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Xelat",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Wergêrê Pelê JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Pelên zimanê JSON wergerînin gelek zimanan",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Çawa dixebite: • Pelên zimanê JSON bar bike • Zimanên hedef hilbijêre • Bi Google an AI wergerîne • Pelên wergerandî dakêşîne",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Pelê JSON wergerîne",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Pirsgirêkê Rapor Bike",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Pirsgirêkên wergerandina nivîsê û herêmîkirinê rapor bikin",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Çawa dixebite: • Ji bo raporkirina pirsgirêkan li hêmanên nivîsê bikirtînin • Danasîn û giraniyê lê zêde bikin • Raportan ji bo Excel an JSON hinarde bikin • Bi Google Drive re senkronîze bikin",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Dest bi Raporkirinê Bike",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Raportan Birêve Bibe",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Konto",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Bi Google-ê têkeve hesabê xwe",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Nûvekirina Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Agahiyên Premium",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Guhê xwe nedene",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Raporên Çewtiyê",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Raportên lêgerînê...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Hemûyan Paqij Bike",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Hîn raporên çewtiyê tune ne",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Ji bo şopandina pirsgirêkan li ser \"Dest bi raporkirinê bike\" bitikîne",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ti encam nehat dîtin",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Peyvên sereke yên cuda biceribînin",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Hûrguliyan bibîne",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Wekî çareserkirî nîşan bike",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Ji nû ve veke",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Rapora Çewtiyê #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Agahiyên bingehîn",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Cî",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Liq",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Rojek",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Hûrguliyên Hêmanan",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Tag",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Nivîstok",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Hilbijêr",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Konteksta Wergerê",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Danasîna Pirsgirêkê",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Agahiyên Rûpelê",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Nav",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Raporê Jê Bibe",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ma tu piştrast î ku dixwazî rapora #$ID$ jê bibî?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Hemû Raportan Paqij Bike",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Hemû raporên xeletiyan jê bibin? Ev çalakî nayê vegerandin!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Hemûyan Jê Bibe",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Raporên Çewtiyê Hinarde Bike",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Formata hinardekirinê hilbijêre:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Hinarde bo Excelê",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Hinarde bo JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Senkronîzekirin bi Google Drive re",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rapora #$ID$ wekî $STATUS$ hat nîşankirin",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapora #$ID$ hat jêbirin",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Hemû rapor hatin paqijkirin",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Zimanê Armanc Biguherîne?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Zimanê çavkaniyê bo $SOURCE$ hat guhertin. Hûn dixwazin wergerînin bo $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Belê, Biguherîne",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Na, Nûjen Bimîne",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "vekirî",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "çareserkirî",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Çawa dixebite:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Taybetmendiyên Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Otomatîkî hat tespîtkirin: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Daneyên senkronîze bike",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ nivîs hatin dîtin bo wergerandinê",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "hilbijartî",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Amadekarî...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Temamkirin!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Wergerandina ji bo $COUNT$ zimanan dest pê dike...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Zimanên $SUCCESS$/$TOTAL$ qedandin",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Keşeya tomarbûyî hat paqijkirin",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nehatiye diyarkirin",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Rûpelê Bêsernav",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Dîtinî",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Tesdîqkirin",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Başe",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Pirsgirêkê bi berfirehî şîrove bike...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Ji kerema xwe pirsgirêkê rave bike",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Ji kerema xwe pêşî têkevinê",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Serişte: Ji bo hinardekirina guhertinên xwe Ctrl+E bikirtînin",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Ji bo neçalakkirina moda sererastkirinê bitikîne. Ji bo hinardekirina guhertinan Ctrl+E bitikîne.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Li ser clipboardê hat kopîkirin!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Başkirin hatîye sepandin!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ başkirin hatine sepandin!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kontrolkirina kalîteyê qediya",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Senkronîzekirin bi Google Drive re...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Bi Google Drive re senkronîzekirî!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Senkronîzekirina ajokerê bi ser neket",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Ji kerema xwe têkevinê da ku ji Drive-ê senkronîze bikin",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Senkronîzekirin ji Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Raportên $COUNT$ ji Drive-ê senkronîzekirî!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Di Drive de rapor nehatin dîtin",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Pelê Excel tê amadekirin...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Pelê Excelê hat hinardekirin: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Çewtî di hinardekirina bo Excelê de",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Pelê JSON hat hinardekirin: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Çewtî di hinardekirina bo JSON de çêbû",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Pelê CSV hat hinardekirin: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Çewtî di hinardekirina bo CSV de",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Ji kerema xwe pelê JSON-ê yê derbasdar bar bike",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ mifteyên wergerê hatin barkirin",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Pelê JSON nederbasdar e",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Ji kerema xwe hemû gavan temam bikin",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Wergera AI Premium hewce dike.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Wergerandina bo $LANG$ neserkeftî bû",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Hemû wergerandin têk çûn. Ji kerema xwe dîsa biceribînin.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Wergerandin têk çû. Ji kerema xwe dîsa biceribînin.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Bi serkeftî ji bo $COUNT$ zimanan hate wergerandin!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ hat daxistin",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Pelê JSON li vir bavêje an jî ji bo gerandinê bitikîne",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Piştgirî: en.json, vi.json, hwd.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google wergêr",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Wergerandina bilez û belaş bi karanîna API-ya Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Wergera AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Wergera bi kalîte û hay ji çarçovê hebe bi karanîna AI-ê",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Belaş",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Zû",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Hay ji rewşê heye",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Gotinên xwezayî",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Ji bo nivîsa UI çêtir e",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Guherandina Zindî neçalak bike ($COUNT$$ guherandin)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Guherandina Zindî Çalak Bike ($COUNT$$ hat tomarkirin)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Nivîsara Hilbijartî ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternatîfên Baştir ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Nûvekirina Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Hemû taybetmendiyên AI û wergerên bêsînor vekin",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Pêşniyarên jîr ên AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Wergerandina komî ya bilez",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Kontrolkirina kalîteya otomatîk",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Piştgiriya pêşîn",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Hemû ziman piştgirî dikin",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Niha abone bibin",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Hesabê Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Abonetiya Çalak",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Dîroka qedandinê",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Rojên Mayî",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Cureyê Pirsgirêkê:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Wergera Çewt",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Zêdebûna Nivîsê",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Nexşeya Şikestî",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Wergera Winda",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Pirsgirêka Formatkirinê",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Yên din",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Gerînendeyê Rapora Çewtiyê",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Pirsgirêkên xwe yên herêmîkirinê birêve bibin û hinarde bikin",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Ji bo şopandina pirsgirêkên herêmîkirinê, dest bi ragihandina pirsgirêkan bikin",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ti rapor li gorî fîlterên we nînin",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Hemû Rewş",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Hemû Giraniya",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Hemû Kategoriyan",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Bilind",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medya",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Nizm",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Pirrbidilî!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ beşên nivîsê hatin kontrolkirin û ti pirsgirêk nehat dîtin.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Zimanê Çavkaniyê:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Zimanê Armanc:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Têketin Pêwîst e",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Ji kerema xwe têkevinê da ku taybetmendiyên wergerandinê bikar bînin. Bikarhênerên belaş 10 wergeran distînin.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ji $LIMIT$ werger mane",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Sînorê Bikaranînê Gihiştiye",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Tu gihîştiye sînorê bikaranîna xwe.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Nûvekirina Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Wergerên bêsînor û taybetmendiyên premium vekin",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "her meh",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Wergerên bêsînor",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Belkî paşê",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Her dem betal bike. Pirs nayê pirsîn.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Bikaranîna Te",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "wergerên hatine bikaranîn",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Ji kerema xwe têkevinê da ku taybetmendiyên wergerandinê bikar bînin",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Têr werger nema. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Hûn hemî $COUNT$ wergerên mayî bikar tînin.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Li ser vê rûpelê nikare bixebite",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI tenê li ser malperên asayî dixebite. Ew nikare li ser rûpelên navxweyî yên Chrome-ê bixebite.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Cureyê rûpelê yê nayê piştgirîkirin",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Rûpelên ku nayên piştgirîkirin:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Malperek asayî mîna google.com veke da ku LocalizeAI bikar bîne",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Wergerandinê Dest Pê Bike",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Hemûyan Dakêşîne",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Pelêkî Din Wergerîne",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Daxistin",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Pelê JSON bar bike",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Zimanên Armanc Hilbijêre",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Moda Wergerandinê Hilbijêre",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ bişkok hatin wergerandin",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Werger temam bû!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Raportên Giştî",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Pirsgirêkên Vekirî",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Pêşanîya Bilind",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Senkronîzekirin bi Drive re",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Senkronîzekirin ji Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excelê hinarde bike",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON-ê hinarde bike",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Nasname",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Giraniya",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Pêve",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Pirs",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Çareseriyên Pêşniyarkirî",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML-ê bibîne",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Dîmender",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Zimanê Niha",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Bişkokên Wergerandî",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Dem derbas bû",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Wergerandin...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Pelên zimanê JSON bi Google Translate an AI-ê wergerînin gelek zimanan",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Ji bo wergerandinê yek an çend zimanan hilbijêre",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formata hatîye tespîtkirin: $FORMAT$, Mod: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Wergerandina bo $LANG$... (bişkokên ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Guhertinên $COUNT$ hinarde bike",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Guherandinên xwe hinarde bike da ku bi tîma wergera xwe re parve bikî",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Daxistina CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON Dakêşîne",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ guhertin hatin tomarkirin. Ji bo hinardekirinê Ctrl+E bikirtînin.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Ji bo çalakkirina moda sererastkirinê bikirtînin",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Ji bo çalakkirina moda sererastkirinê bitikîne. Te guhertin tomar kirin. Ji bo hinardekirinê Ctrl+E bitikîne.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nivîs nehatiye hilbijartin",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Ji bo wergirtina pêşniyarên AI nivîsê hilbijêre",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ziman nehatin dîtin",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Têketin bi ser neket. Ji kerema xwe dîsa biceribînin.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Bi serkeftî têketin!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Bi serkeftî derket",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Rastkirin bi ser neket. Ji kerema xwe biceribînin ku keşeya xwe paqij bikin û dîsa têkevinê.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Paqijkirina keşfê...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Paqijkirina keşfê bi ser neket",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Pirtûkxaneya Excelê peyda nabe. Ji kerema xwe rûpelê ji nû ve bar bike.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Ji bo performansa herî baş bi yekcarî herî zêde zimanên $MAX$.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ hat hilbijartin",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Ji kerema xwe têkevinê da ku wergera AI-ê bikar bînin",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Ji bo pelên bi mezinahiya maqûl çêtirîn.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Moda AI: Ev ê bangên $REQUESTS$ API-ê bike. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ev werger dê bi qasî $COUNT$ bangên API-ê bike.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Moda AI-ê herî zêde zimanên $MAX$ yekcar piştgirî dike.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Rêbaza Wergerandinê",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Belaş",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Bêsînor",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Zû",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "zimanan",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Wergera pir zimanan Premium hewce dike.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Kontrol kirin:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Rastnivîs",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Rêziman",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formating",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Pirsgirêka nivîsa orîjînal tune",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> beşên nivîsê kontrol kirin",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "<strong>$COUNT$</strong> xeletiyên ji bo sererastkirinê hatin dîtin",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "No errors!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Rapora Kontrolkirina Kalîteyê",
+    "description": "Quality check report title"
+  }
+}

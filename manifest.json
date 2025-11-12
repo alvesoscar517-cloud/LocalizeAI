@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "LocalizeAI - AI Translation Testing",
+  "version": "1.0.0",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+  "permissions": ["activeTab", "storage", "scripting", "identity"],
+  "host_permissions": ["<all_urls>"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  },
+  "oauth2": {
+    "client_id": "864763590147-sq3d7469v8jisthp4s5g4pndftspi0d1.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "email",
+      "profile",
+      "https://www.googleapis.com/auth/drive.file"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_icon": "icons/icon128.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "xlsx.full.min.js",
+        "i18n-helper.js",
+        "languages-config.js",
+        "translate-client.js",
+        "bug-report-db.js",
+        "bug-report-export.js",
+        "drive-sync.js",
+        "bug-report-manager.js",
+        "bug-report-sidebar.js",
+        "json-translator.js",
+        "confirm-dialog.js",
+        "text-shimmer.js",
+        "content.js"
+      ],
+      "css": ["content.css", "content-language-modern.css", "content-modal-modern.css"]
+    }
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "icons/lucide/*.svg",
+        "icons/*.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

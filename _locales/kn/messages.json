@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI ಅನುವಾದ ಪರೀಕ್ಷಾ ಸಾಧನ. ಲೈವ್ ಅನುವಾದ, ಬಗ್ ವರದಿ, ಸ್ಯೂಡೋ-ಸ್ಥಳೀಕರಣ ಮತ್ತು ಬ್ಯಾಚ್ JSON ಅನುವಾದ.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ಮುಚ್ಚಿ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡಿ",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ಉಳಿಸಿ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ಅಳಿಸಿ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ರಫ್ತು ಮಾಡಿ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ಮೂಲ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ಗುರಿ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ಭಾಷೆಗಳನ್ನು ಹುಡುಕಿ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ಬ್ರೌಸರ್‌ನಿಂದ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪತ್ತೆಯಾಗಿದೆ",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ಭಾಷೆ ಟಾಗಲ್",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ಮೂಲ ಮತ್ತು ಅನುವಾದಿತ ಪಠ್ಯದ ನಡುವೆ ಬದಲಾಯಿಸಿ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಮೂಲ ಮತ್ತು ಅನುವಾದಿತ ಪಠ್ಯದ ನಡುವೆ ಟಾಗಲ್ ಮಾಡಿ • ಅನುವಾದಗಳನ್ನು ವೇಗವಾಗಿ ಬದಲಾಯಿಸಲು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ • ಪುಟದಲ್ಲಿನ ಎಲ್ಲಾ ಪಠ್ಯದೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ • ಮರುಅನುವಾದಿಸಲು ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ಮೂಲ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ಅನುವಾದಿಸಲಾಗಿದೆ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ಅನುವಾದಿಸಲು ಸಿದ್ಧವಾಗಿದೆ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ ಮತ್ತು ಮರುಅನುವಾದಿಸಿ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "ಹುಸಿ-ಸ್ಥಳೀಕರಣ",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ಓವರ್‌ಫ್ಲೋ ಸಮಸ್ಯೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯಲು ಉದ್ದವಾದ ಪಠ್ಯದೊಂದಿಗೆ UI ಅನ್ನು ಪರೀಕ್ಷಿಸಿ",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಅಕ್ಷರಗಳನ್ನು ಉಚ್ಚಾರಣಾ ಆವೃತ್ತಿಗಳೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ • 30-40% ಉದ್ದ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸುತ್ತದೆ • [!!!... !!!] ಮಾರ್ಕರ್‌ಗಳಲ್ಲಿ ಪಠ್ಯವನ್ನು ಸುತ್ತುತ್ತದೆ • ಉದಾಹರಣೆ: \"ಸೆಟ್ಟಿಂಗ್‌ಗಳು\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "ಹುಸಿ ಲೋಕಾಯುಕ್ತ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಮೋಡ್",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ಪುಟದಲ್ಲಿ ನೇರವಾಗಿ ಸಂಪಾದಿಸಲು ಯಾವುದೇ ಪಠ್ಯವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಯಾವುದೇ ಪಠ್ಯ ಅಂಶವನ್ನು ಸಂಪಾದಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ • ಬದಲಾವಣೆಗಳನ್ನು ನೈಜ ಸಮಯದಲ್ಲಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ • ಸಂಪಾದನೆಗಳನ್ನು JSON ಅಥವಾ Excel ಆಗಿ ರಫ್ತು ಮಾಡಿ • ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಸಕ್ರಿಯಗೊಳಿಸಿ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI ವೈಶಿಷ್ಟ್ಯಗಳು",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI-ಚಾಲಿತ ಅನುವಾದ ಪರಿಕರಗಳು",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳು: • AI-ಚಾಲಿತ ಸಂದರ್ಭ-ಅರಿವು ಅನುವಾದ • ಸಂಪೂರ್ಣ ಪುಟಗಳನ್ನು ಬ್ಯಾಚ್ ಅನುವಾದ • ಅನುವಾದಗಳಿಗಾಗಿ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ • ನೈಸರ್ಗಿಕ ಭಾಷಾ ಸಲಹೆಗಳು",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI ಸಲಹೆಗಳನ್ನು ಪಡೆಯಿರಿ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ಸ್ಮಾರ್ಟ್ ಬ್ಯಾಚ್ ಅನುವಾದ",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ಪುಟದಲ್ಲಿರುವ ಎಲ್ಲಾ ಪಠ್ಯವನ್ನು AI ಸಂದರ್ಭಕ್ಕೆ ಅನುಗುಣವಾಗಿ ಅನುವಾದಿಸುತ್ತದೆ.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ಅನುವಾದ ಗುಣಮಟ್ಟವನ್ನು ಪರಿಶೀಲಿಸಿ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ಪ್ರೀಮಿಯಂ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ಫೈಲ್ ಅನುವಾದಕ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ಭಾಷಾ ಫೈಲ್‌ಗಳನ್ನು ಬಹು ಭಾಷೆಗಳಿಗೆ ಅನುವಾದಿಸಿ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • JSON ಭಾಷಾ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ • ಗುರಿ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ • Google ಅಥವಾ AI ಬಳಸಿ ಅನುವಾದಿಸಿ • ಅನುವಾದಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ಫೈಲ್ ಅನ್ನು ಅನುವಾದಿಸಿ",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ಸಮಸ್ಯೆಯನ್ನು ವರದಿ ಮಾಡಿ",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ಪಠ್ಯ ಅನುವಾದ ಮತ್ತು ಸ್ಥಳೀಕರಣ ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಿ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ಪಠ್ಯ ಅಂಶಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ • ವಿವರಣೆಗಳು ಮತ್ತು ತೀವ್ರತೆಯನ್ನು ಸೇರಿಸಿ • ವರದಿಗಳನ್ನು ಎಕ್ಸೆಲ್ ಅಥವಾ JSON ಗೆ ರಫ್ತು ಮಾಡಿ • Google ಡ್ರೈವ್‌ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ವರದಿ ಮಾಡುವುದನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ವರದಿಗಳನ್ನು ನಿರ್ವಹಿಸಿ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "ಖಾತೆ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ಪ್ರೀಮಿಯಂ ಮಾಹಿತಿ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ಸೈನ್ ಔಟ್ ಮಾಡಿ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ದೋಷ ವರದಿಗಳು",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ಹುಡುಕಾಟ ವರದಿಗಳು...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸಿ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ಇನ್ನೂ ಯಾವುದೇ ದೋಷ ವರದಿಗಳಿಲ್ಲ.",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ಸಮಸ್ಯೆಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಲು \"ವರದಿ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಿ\" ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ಯಾವುದೇ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "ಬೇರೆ ಬೇರೆ ಕೀವರ್ಡ್‌ಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ವಿವರಗಳನ್ನು ವೀಕ್ಷಿಸಿ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ಪರಿಹರಿಸಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ಪುನಃ ತೆರೆಯಿರಿ",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ದೋಷ ವರದಿ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ಮೂಲ ಮಾಹಿತಿ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ಸ್ಥಿತಿ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ವರ್ಗ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ದಿನಾಂಕ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ಅಂಶ ವಿವರಗಳು",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ಟ್ಯಾಗ್ ಮಾಡಿ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ಪಠ್ಯ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ಆಯ್ಕೆದಾರ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ಅನುವಾದ ಸಂದರ್ಭ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "ಸಮಸ್ಯೆಯ ವಿವರಣೆ",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ಪುಟ ಮಾಹಿತಿ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ಶೀರ್ಷಿಕೆ",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ವರದಿಯನ್ನು ಅಳಿಸಿ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ನೀವು #$ID$ ವರದಿಯನ್ನು ಅಳಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ಎಲ್ಲಾ ವರದಿಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ಎಲ್ಲಾ ದೋಷ ವರದಿಗಳನ್ನು ಅಳಿಸುವುದೇ? ಈ ಕ್ರಿಯೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಅಳಿಸಿ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ದೋಷ ವರದಿಗಳನ್ನು ರಫ್ತು ಮಾಡಿ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ರಫ್ತು ಸ್ವರೂಪವನ್ನು ಆರಿಸಿ:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ಎಕ್ಸೆಲ್‌ಗೆ ರಫ್ತು ಮಾಡಿ",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON ಗೆ ರಫ್ತು ಮಾಡಿ",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google ಡ್ರೈವ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "ವರದಿ #$ID$ $STATUS$ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "ವರದಿ #$ID$ ಅಳಿಸಲಾಗಿದೆ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ಎಲ್ಲಾ ವರದಿಗಳನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ಗುರಿ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸುವುದೇ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ಮೂಲ ಭಾಷೆಯನ್ನು $SOURCE$ ಗೆ ಬದಲಾಯಿಸಲಾಗಿದೆ. ನೀವು $TARGET$ ಗೆ ಅನುವಾದಿಸಲು ಬಯಸುವಿರಾ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ಹೌದು, ಬದಲಾಯಿಸಿ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ಇಲ್ಲ, ಪ್ರಸ್ತುತವಾಗಿ ಇರಿಸಿ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ತೆರೆದ",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ಪರಿಹರಿಸಲಾಗಿದೆ",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳು:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ಸ್ವಯಂ-ಪತ್ತೆಹಚ್ಚಲಾಗಿದೆ: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ಡೇಟಾ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ಅನುವಾದಿಸಲು $COUNT$ ಪಠ್ಯಗಳು ಕಂಡುಬಂದಿವೆ",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ಪೂರ್ಣಗೊಂಡಿದೆ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ಭಾಷೆಗಳಿಗೆ ಅನುವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ ಭಾಷೆಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ಗಾತ್ರ$ ಕೆ.ಬಿ. $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$ಗಳು",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ಸಂಗ್ರಹ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "ನಿರ್ದಿಷ್ಟಪಡಿಸಲಾಗಿಲ್ಲ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ಶೀರ್ಷಿಕೆರಹಿತ ಪುಟ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ವೀಕ್ಷಿಸಿ",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ದೃಢೀಕರಿಸಿ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ಸರಿ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ಸಮಸ್ಯೆಯನ್ನು ವಿವರವಾಗಿ ವಿವರಿಸಿ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ದಯವಿಟ್ಟು ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ದಯವಿಟ್ಟು ಮೊದಲು ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ಸಲಹೆ: ನಿಮ್ಮ ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ಸಂಪಾದನೆ ಮೋಡ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ. ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ಗೆ ನಕಲಿಸಲಾಗಿದೆ!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ಸುಧಾರಣೆ ಅನ್ವಯಿಸಲಾಗಿದೆ!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ ಸುಧಾರಣೆಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗಿದೆ!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ ಪೂರ್ಣಗೊಂಡಿದೆ",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google ಡ್ರೈವ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google ಡ್ರೈವ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ಡ್ರೈವ್ ಸಿಂಕ್ ವಿಫಲವಾಗಿದೆ",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ಡ್ರೈವ್‌ನಿಂದ ಸಿಂಕ್ ಮಾಡಲು ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google ಡ್ರೈವ್‌ನಿಂದ ಸಿಂಕ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ಡ್ರೈವ್‌ನಿಂದ $COUNT$ ವರದಿಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಲಾಗಿದೆ!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ಡ್ರೈವ್‌ನಲ್ಲಿ ಯಾವುದೇ ವರದಿಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ಎಕ್ಸೆಲ್ ಫೈಲ್ ಅನ್ನು ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ಎಕ್ಸೆಲ್ ಫೈಲ್ ರಫ್ತು ಮಾಡಲಾಗಿದೆ: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ಎಕ್ಸೆಲ್‌ಗೆ ರಫ್ತು ಮಾಡುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ.",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ಫೈಲ್ ರಫ್ತು ಮಾಡಲಾಗಿದೆ: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON ಗೆ ರಫ್ತು ಮಾಡುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ.",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ಫೈಲ್ ಅನ್ನು ರಫ್ತು ಮಾಡಲಾಗಿದೆ: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV ಗೆ ರಫ್ತು ಮಾಡುವಾಗ ದೋಷ ಉಂಟಾಗಿದೆ.",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ JSON ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ ಅನುವಾದ ಕೀಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ಅಮಾನ್ಯವಾದ JSON ಫೈಲ್",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "ದಯವಿಟ್ಟು ಎಲ್ಲಾ ಹಂತಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ.",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ಅನುವಾದಕ್ಕೆ ಪ್ರೀಮಿಯಂ ಅಗತ್ಯವಿದೆ. ದಯವಿಟ್ಟು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ ಅಥವಾ Google ಅನುವಾದವನ್ನು ಬಳಸಿ.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ ಗೆ ಅನುವಾದಿಸಲು ವಿಫಲವಾಗಿದೆ.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ಎಲ್ಲಾ ಅನುವಾದಗಳು ವಿಫಲವಾಗಿವೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ಅನುವಾದ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ಭಾಷೆಗಳಿಗೆ ಯಶಸ್ವಿಯಾಗಿ ಅನುವಾದಿಸಲಾಗಿದೆ!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ಫೈಲ್ ಅನ್ನು ಇಲ್ಲಿ ಬಿಡಿ ಅಥವಾ ಬ್ರೌಸ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ಬೆಂಬಲಗಳು: en.json, vi.json, ಇತ್ಯಾದಿ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ಗೂಗಲ್ ಅನುವಾದ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API ಬಳಸಿಕೊಂಡು ವೇಗದ ಮತ್ತು ಉಚಿತ ಅನುವಾದ",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI ಅನುವಾದ",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ಬಳಸಿಕೊಂಡು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಸಂದರ್ಭ-ಅರಿವುಳ್ಳ ಅನುವಾದ",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ಉಚಿತ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "ವೇಗವಾಗಿ",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ಸಂದರ್ಭ-ಅರಿವು",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ನೈಸರ್ಗಿಕ ಪದಗುಚ್ಛ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI ಪಠ್ಯಕ್ಕೆ ಉತ್ತಮವಾಗಿದೆ",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ($COUNT$ ಎಡಿಟ್‌ಗಳು)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಸಕ್ರಿಯಗೊಳಿಸಿ ($COUNT$ ಉಳಿಸಲಾಗಿದೆ)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ಆಯ್ಕೆ ಮಾಡಿದ ಪಠ್ಯ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ಉತ್ತಮ ಪರ್ಯಾಯಗಳು ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ಎಲ್ಲಾ AI ವೈಶಿಷ್ಟ್ಯಗಳು ಮತ್ತು ಅನಿಯಮಿತ ಅನುವಾದಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ.",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ಸ್ಮಾರ್ಟ್ ಸಲಹೆಗಳು",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ವೇಗದ ಬ್ಯಾಚ್ ಅನುವಾದ",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ಸ್ವಯಂ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ಆದ್ಯತೆಯ ಬೆಂಬಲ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ಎಲ್ಲಾ ಭಾಷೆಗಳ ಬೆಂಬಲ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ಈಗಲೇ ಚಂದಾದಾರರಾಗಿ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ಪ್ರೀಮಿಯಂ ಖಾತೆ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ಸಕ್ರಿಯ ಚಂದಾದಾರಿಕೆ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ಮುಕ್ತಾಯ ದಿನಾಂಕ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ಉಳಿದ ದಿನಗಳು",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ಸಮಸ್ಯೆಯ ಪ್ರಕಾರ:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ತಪ್ಪು ಅನುವಾದ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ಪಠ್ಯ ಓವರ್‌ಫ್ಲೋ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ಲೇಔಟ್ ಮುರಿದಿದೆ",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ಅನುವಾದ ಕಾಣೆಯಾಗಿದೆ",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್ ಸಮಸ್ಯೆ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ಇತರೆ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ದೋಷ ವರದಿ ವ್ಯವಸ್ಥಾಪಕ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ನಿಮ್ಮ ಸ್ಥಳೀಕರಣ ಸಮಸ್ಯೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ ಮತ್ತು ರಫ್ತು ಮಾಡಿ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ಸ್ಥಳೀಕರಣ ಸಮಸ್ಯೆಗಳನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ಪ್ರಾರಂಭಿಸಿ.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ನಿಮ್ಮ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಹೊಂದಿಕೆಯಾಗುವ ಯಾವುದೇ ವರದಿಗಳಿಲ್ಲ.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ಎಲ್ಲಾ ಸ್ಥಿತಿ",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ಎಲ್ಲಾ ತೀವ್ರತೆ",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ಎಲ್ಲಾ ವರ್ಗಗಳು",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ಹೆಚ್ಚಿನ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ಮಧ್ಯಮ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ಕಡಿಮೆ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ಅತ್ಯುತ್ತಮ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ಪಠ್ಯ ಭಾಗಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ ಮತ್ತು ಯಾವುದೇ ಸಮಸ್ಯೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ಮೂಲ ಭಾಷೆ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ಗುರಿ ಭಾಷೆ:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ಸೈನ್ ಇನ್ ಅಗತ್ಯವಿದೆ",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ಅನುವಾದ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ. ಉಚಿತ ಬಳಕೆದಾರರು 10 ಅನುವಾದಗಳನ್ನು ಪಡೆಯುತ್ತಾರೆ.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ ಅನುವಾದಗಳು ಉಳಿದಿರುವ $REMAINING$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ಬಳಕೆಯ ಮಿತಿ ತಲುಪಿದೆ",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "ನೀವು ನಿಮ್ಮ ಬಳಕೆಯ ಮಿತಿಯನ್ನು ತಲುಪಿದ್ದೀರಿ. ಅನಿಯಮಿತ ಪ್ರವೇಶಕ್ಕಾಗಿ ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ಅನಿಯಮಿತ ಅನುವಾದಗಳು ಮತ್ತು ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಿ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ಪ್ರತಿ ತಿಂಗಳು",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ಅನಿಯಮಿತ ಅನುವಾದಗಳು",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ಬಹುಶಃ ನಂತರ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ರದ್ದುಮಾಡಿ. ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಲಾಗಿಲ್ಲ.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ನಿಮ್ಮ ಬಳಕೆ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ಅನುವಾದಗಳು ಬಳಸಲಾಗಿದೆ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ಅನುವಾದ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ಸಾಕಷ್ಟು ಅನುವಾದಗಳು ಉಳಿದಿಲ್ಲ. ನಿಮ್ಮ ಬಳಿ $REMAINING$ ಉಳಿದಿದೆ ಆದರೆ $SELECTED$ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ ಅಥವಾ ಭಾಷೆಗಳನ್ನು ಕಡಿಮೆ ಮಾಡಿ.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "ನೀವು ಉಳಿದಿರುವ ಎಲ್ಲಾ $COUNT$ ಅನುವಾದಗಳನ್ನು ಬಳಸುತ್ತಿದ್ದೀರಿ. ಅನಿಯಮಿತ ಪ್ರವೇಶಕ್ಕಾಗಿ ಪ್ರೀಮಿಯಂಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಿ.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ಈ ಪುಟದಲ್ಲಿ ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ಸಾಮಾನ್ಯ ವೆಬ್‌ಸೈಟ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಇದು Chrome ಆಂತರಿಕ ಪುಟಗಳಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ಬೆಂಬಲಿತವಲ್ಲದ ಪುಟ ಪ್ರಕಾರ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ಬೆಂಬಲವಿಲ್ಲದ ಪುಟಗಳು:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ಬಳಸಲು google.com ನಂತಹ ನಿಯಮಿತ ವೆಬ್‌ಸೈಟ್ ತೆರೆಯಿರಿ.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ಅನುವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ಇನ್ನೊಂದು ಫೈಲ್ ಅನ್ನು ಅನುವಾದಿಸಿ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ಫೈಲ್ ಅನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ಗುರಿ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ಅನುವಾದ ಮೋಡ್ ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ಕೀಗಳನ್ನು ಅನುವಾದಿಸಲಾಗಿದೆ",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ಅನುವಾದ ಪೂರ್ಣಗೊಂಡಿದೆ!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ಒಟ್ಟು ವರದಿಗಳು",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ತೆರೆದ ಸಮಸ್ಯೆಗಳು",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ಹೆಚ್ಚಿನ ಆದ್ಯತೆ",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ಡ್ರೈವ್‌ಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ಡ್ರೈವ್‌ನಿಂದ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ಎಕ್ಸೆಲ್ ರಫ್ತು ಮಾಡಿ",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ರಫ್ತು ಮಾಡಿ",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ಐಡಿ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ತೀವ್ರತೆ",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ಅಂಶ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ಸಮಸ್ಯೆ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "ಸೂಚಿಸಲಾದ ಪರಿಹಾರಗಳು",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ವೀಕ್ಷಿಸಿ",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ಎಕ್ಸ್‌ಪಾತ್",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ವ್ಯೂಪೋರ್ಟ್",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ಪ್ರಸ್ತುತ ಭಾಷೆ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "ಕೀಗಳನ್ನು ಅನುವಾದಿಸಲಾಗಿದೆ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ಕಳೆದ ಸಮಯ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ಅನುವಾದಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate ಅಥವಾ AI ಬಳಸಿ JSON ಭಾಷಾ ಫೈಲ್‌ಗಳನ್ನು ಬಹು ಭಾಷೆಗಳಿಗೆ ಅನುವಾದಿಸಿ.",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ಅನುವಾದಿಸಲು ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ಪತ್ತೆಹಚ್ಚಲಾದ ಸ್ವರೂಪ: $FORMAT$, ಮೋಡ್: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ಗೆ ಅನುವಾದಿಸಲಾಗುತ್ತಿದೆ ($CURRENT$/$TOTAL$ ಕೀಗಳು)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಿ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ನಿಮ್ಮ ಅನುವಾದ ತಂಡದೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ನಿಮ್ಮ ಸಂಪಾದನೆಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಲಾಗಿದೆ. ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ಸಂಪಾದನೆ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ಸಂಪಾದನೆ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿದ್ದೀರಿ. ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ಯಾವುದೇ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ.",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI ಸಲಹೆಗಳನ್ನು ಪಡೆಯಲು ಪಠ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ಯಾವುದೇ ಭಾಷೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ಸೈನ್ ಇನ್ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ಯಶಸ್ವಿಯಾಗಿ ಸೈನ್ ಇನ್ ಮಾಡಲಾಗಿದೆ!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ಯಶಸ್ವಿಯಾಗಿ ಸೈನ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ ಮತ್ತೆ ಸೈನ್ ಇನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ಎಕ್ಸೆಲ್ ಲೈಬ್ರರಿ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿ.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ಅತ್ಯುತ್ತಮ ಕಾರ್ಯಕ್ಷಮತೆಗಾಗಿ ಏಕಕಾಲದಲ್ಲಿ ಗರಿಷ್ಠ $MAX$ ಭಾಷೆಗಳು.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI ಅನುವಾದವನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ಸಮಂಜಸವಾದ ಗಾತ್ರದೊಂದಿಗೆ ಫೈಲ್‌ಗಳಿಗೆ ಉತ್ತಮವಾಗಿದೆ.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI ಮೋಡ್: ಇದು $REQUESTS$ API ಕರೆಗಳನ್ನು ಮಾಡುತ್ತದೆ. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ಈ ಅನುವಾದವು ಸರಿಸುಮಾರು $COUNT$ API ಕರೆಗಳನ್ನು ಮಾಡುತ್ತದೆ.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI ಮೋಡ್ ಗರಿಷ್ಠ $MAX$ ಭಾಷೆಗಳನ್ನು ಏಕಕಾಲದಲ್ಲಿ ಬೆಂಬಲಿಸುತ್ತದೆ.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "ಅನುವಾದ ವಿಧಾನ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ಉಚಿತ",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ಅನಿಯಮಿತ",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ವೇಗವಾಗಿ",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ಭಾಷೆಗಳು",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ಬಹು ಭಾಷೆಗಳ ಅನುವಾದಕ್ಕೆ ಪ್ರೀಮಿಯಂ ಅಗತ್ಯವಿದೆ.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ಪರಿಶೀಲಿಸಲಾಗಿದೆ:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ಕಾಗುಣಿತ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ವ್ಯಾಕರಣ",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ಫಾರ್ಮ್ಯಾಟಿಂಗ್",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ಮೂಲ ಪಠ್ಯದಲ್ಲಿ ಯಾವುದೇ ಸಮಸ್ಯೆಗಳಿಲ್ಲ",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> ಪಠ್ಯ ವಿಭಾಗಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ಸರಿಪಡಿಸಲು <strong>$COUNT$</strong> ದೋಷಗಳು ಕಂಡುಬಂದಿವೆ",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ಯಾವುದೇ ದೋಷಗಳಿಲ್ಲ!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ ವರದಿ",
+    "description": "Quality check report title"
+  }
+}

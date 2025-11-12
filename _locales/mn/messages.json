@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI орчуулгын туршилтын хэрэгсэл. Шууд орчуулга, алдааны мэдээлэл, хуурамч орон нутагшуулалт, багц JSON орчуулга.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Хаах",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Цуцлах",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Хадгалах",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Устгах",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Экспорт",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Синк хийх",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ЭХ СУРВАЛЖ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ЗОРИЛТ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Хэл хайх...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Хөтөчөөс автоматаар илрүүлсэн",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Хэл сэлгэх",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Эх болон орчуулсан текст хооронд шилжих",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ: • Эх болон орчуулсан текстийн хооронд шилжих • Орчуулга нь хурдан шилжихийн тулд кэшд хадгалагддаг • Хуудасны бүх тексттэй ажиллана • Дахин орчуулахын тулд кэшийг цэвэрлэ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Жинхэнэ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Орчуулсан",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Орчуулахад бэлэн байна",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Кэшийг цэвэрлэх, дахин орчуулах",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Псевдо-локалчлал",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Халих асуудлыг олохын тулд UI-г урт текстээр туршина уу",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ: • Тэмдэгтүүдийг өргөлттэй хувилбараар солино • 30-40% уртын өргөтгөл нэмнэ • Текстийг [!!!... !!!] тэмдэглэгээ • Жишээ: \"Тохиргоо\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc-г хэрэглэнэ",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Шууд засварлах горим",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Хуудас дээр шууд засварлахын тулд дурын текст дээр дарна уу",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ: • Аливаа текстийн элементийг засахын тулд дарна уу • Өөрчлөлтийг цаг тухайд нь хянадаг • Засваруудыг JSON эсвэл Excel хэлбэрээр экспортлох • Өөрчлөлтүүдийг экспортлохын тулд Ctrl+E товчийг дарна уу",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Шууд засварыг идэвхжүүлэх",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI онцлог",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Хиймэл оюун ухаанаар ажилладаг орчуулгын хэрэгслүүд",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Дээд зэрэглэлийн онцлогууд: • Хиймэл оюун ухаанаар ажилладаг контекстэд нийцсэн орчуулга • Хуудсуудыг бүхэлд нь багцлан орчуулах • Орчуулгын чанарыг шалгах • Байгалийн хэлний санал",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI зөвлөмжийг аваарай",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Ухаалаг багц орчуулга",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Хуудасны БҮХ текстийг AI контекстээр орчуулна",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Орчуулгын чанарыг шалгана уу",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Дээд зэрэглэлийн",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON файлын орчуулагч",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON хэлний файлуудыг олон хэл рүү орчуулах",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ: • JSON хэлний файлуудыг байршуулах • Зорилтот хэлээ сонгоно уу • Google эсвэл AI ашиглан орчуулах • Орчуулсан файлуудыг татаж авах",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON файлыг орчуулах",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Асуудлыг мэдээлэх",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Текстийн орчуулга болон нутагшуулах асуудлыг мэдээлэх",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ: • Асуудлыг мэдээлэхийн тулд текстийн элементүүд дээр дарна уу • Тодорхойлолт болон ноцтой байдлыг нэмнэ үү • Тайланг Excel эсвэл JSON руу экспортлох • Google Drive-тай синк хийх",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Тайлангаа эхлүүлнэ үү",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Тайланг удирдах",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Данс",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google-ээр нэвтэрнэ үү",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Дээд зэрэглэлийн сайжруулалт",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Дээд зэрэглэлийн мэдээлэл",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Гарах",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Алдааны тайлан",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Тайлан хайх...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Бүгдийг арилгах",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Одоогоор алдааны мэдээ байхгүй байна",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Асуудлыг хянахын тулд \"Тайлбарыг эхлүүлэх\" дээр дарна уу",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Үр дүн олдсонгүй",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Өөр түлхүүр үгсийг туршиж үзээрэй",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Дэлгэрэнгүйг харах",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Шийдвэрлэсэн гэж тэмдэглэ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Дахин нээх",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Алдааны тайлан #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Үндсэн мэдээлэл",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Ангилал",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Огноо",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Элементийн дэлгэрэнгүй мэдээлэл",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Захьдхны",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Текст",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Сонгогч",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Орчуулгын контекст",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Асуудлын тодорхойлолт",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Хуудасны мэдээлэл",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Гарчиг",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "Туар",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Тайлан устгах",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Та #$ID$ тайланг устгахдаа итгэлтэй байна уу?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Бүх тайланг арилгах",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "БҮХ алдааны тайланг устгах уу? Энэ үйлдлийг буцаах боломжгүй!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Бүгдийг устгах",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Алдааны тайланг экспортлох",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Экспортын форматыг сонгоно уу:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excel рүү экспортлох",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON руу экспортлох",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Драйвтай синк хийнэ үү",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "$ # Долларын $$STATUS$$ $ -ийг $ статус доллар гэж тэмдэглэв $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ тайлан устгагдсан",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Бүх тайланг арилгасан",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Зорилтот хэлээ өөрчлөх үү?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Эх хэлийг $SOURCE$ болгож өөрчилсөн. Та $TARGET$ руу орчуулахыг хүсэж байна уу?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Тийм ээ, өөрчил",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Үгүй, одоо байгаа хэвээр байна",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "нээлттэй",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "шийдэгдсэн",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Энэ нь хэрхэн ажилладаг вэ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Дээд зэрэглэлийн онцлогууд:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Автоматаар илрүүлсэн: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Өгөгдлийг синк хийх",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Орчуулах $COUNT$ текст олдлоо",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "сонгосон",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Бэлтгэж байна...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Дуус!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ хэлээр орчуулж эхэлж байна...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $ Амжилт $ / $ Нийт $ Нийт $ хэл $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ КБ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Цаг $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Кэшийг цэвэрлэв",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Тодорхойлоогүй",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Гарчиггүй хуудас",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Харах",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Баталгаажуулах",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Бас",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Асуудлыг дэлгэрэнгүй тайлбарлана уу...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Асуудлыг тайлбарлана уу",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Эхлээд нэвтэрнэ үү",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Зөвлөмж: Өөрчлөлтүүдийг экспортлохын тулд Ctrl+E товчийг дарна уу",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Засварлах горимыг идэвхгүй болгохын тулд товшино уу. Өөрчлөлтүүдийг экспортлохын тулд Ctrl+E товчийг дарна уу.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Түр санах ой руу хуулсан!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Сайжрууллаа!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ сайжруулалт ашигласан!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Чанарын шалгалт дууссан",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Драйвтай синк хийж байна...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Драйвтай синк хийсэн!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Драйвыг синк хийж чадсангүй",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Драйваас синк хийхийн тулд нэвтэрнэ үү",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Драйваас синк хийж байна...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Драйваас $COUNT$ тайланг синк хийсэн!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Драйваас тайлан олдсонгүй",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel файлыг бэлтгэж байна...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Экспортолсон Excel файл: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel рүү экспортлоход алдаа гарлаа",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON файлыг экспортолсон: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON руу экспортлоход алдаа гарлаа",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV файлыг экспортолсон: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV руу экспортлоход алдаа гарлаа",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Хүчинтэй JSON файлыг байршуулна уу",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ орчуулгын түлхүүрийг ачаалсан",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Буруу JSON файл",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Бүх алхмуудыг гүйцээнэ үү",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI орчуулга нь шимтгэл шаарддаг.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ руу орчуулж чадсангүй",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Бүх орчуулга амжилтгүй боллоо. Дахин оролдоно уу.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Орчуулга амжилтгүй боллоо. Дахин оролдоно уу.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ хэл рүү амжилттай орчуулагдсан!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Татаж авсан $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON файлыг энд буулгах эсвэл үзэхийн тулд товшино уу",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Дэмждэг: en.json, vi.json гэх мэт.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Орчуул",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API ашиглан хурдан бөгөөд үнэгүй орчуулга",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI орчуулга",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ашиглан контекстэд нийцсэн өндөр чанартай орчуулга",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Үнэгүй",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Хурдан",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Контекстийг мэддэг",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Байгалийн хэллэг",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI текстийн хувьд илүү дээр",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Шууд засварлахыг идэвхгүй болгох ($COUNT$ засвар)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Шууд засварлахыг идэвхжүүлэх ($COUNT$ хадгалсан)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Сонгосон текст ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Илүү сайн хувилбарууд ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Дээд зэрэглэлийн сайжруулалт",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "AI-ийн бүх функцууд болон хязгааргүй орчуулгыг нээ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ухаалаг зөвлөмжүүд",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Хурдан багц орчуулга",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Автомат чанарын шалгалт",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Тэргүүлэх дэмжлэг",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Бүх хэлийг дэмждэг",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Яг одоо бүртгүүлээрэй",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Дээд зэрэглэлийн данс",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Идэвхтэй захиалга",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Дуусах огноо",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Үлдсэн өдрүүд",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Асуудлын төрөл:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Буруу орчуулга",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Текст халих",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Байршил эвдэрсэн",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Орчуулга дутуу байна",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Форматлах асуудал",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Бусад",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Алдааны тайлангийн менежер",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Өөрийн нутагшуулах асуудлыг удирдаж, экспортлох",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Нутагшуулалтын асуудлыг хянахын тулд асуудлыг мэдээлж эхлээрэй",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Таны шүүлтүүрт тохирох тайлан байхгүй байна",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Бүх статус",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Бүх ноцтой байдал",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Бүх ангилал",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Өндөр",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Дунд зэрэг",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Бага",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Маш сайн!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ текстийн сегментийг шалгаад асуудал олдсонгүй.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Эх хэл:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Зорилтот хэл:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Нэвтрэх шаардлагатай",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Орчуулгын функцийг ашиглахын тулд нэвтэрнэ үү. Үнэгүй хэрэглэгчид 10 орчуулга авах боломжтой.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$-с $REMAINING$ орчуулга үлдсэн",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Хэрэглээний хязгаарт хүрсэн",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Та таны ашиглалтын хязгаарт хүрсэн байна.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Дээд зэрэглэлийн сайжруулалт",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Хязгааргүй орчуулга болон дээд зэргийн функцуудыг нээгээрэй",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "сард",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Хязгааргүй орчуулга",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Магадгүй дараа нь",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Хэзээ ч цуцлах. Асуулт асуугаагүй.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Таны хэрэглээ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "орчуулгууд ашигласан",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Орчуулгын функцийг ашиглахын тулд нэвтэрнэ үү",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Хангалттай орчуулга үлдсэнгүй. Танд $REMAINING$ үлдсэн ч сонгосон $SELECTED$ хэл байна. Дээд зэрэглэлийн болгон шинэчлэх эсвэл хэлийг багасгана уу.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Та $ Cound $ $COUNT$ $ Free орчуулгыг ашиглаж байна.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Энэ хуудсан дээр ажиллах боломжгүй",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI нь зөвхөн энгийн вэбсайт дээр ажилладаг. Энэ нь Chrome-ын дотоод хуудсан дээр ажиллах боломжгүй.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Дэмжигдээгүй хуудасны төрөл",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Дэмжигдээгүй хуудаснууд:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ашиглахын тулд google.com гэх мэт ердийн вэбсайтыг нээнэ үү",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Орчуулга эхлүүлэх",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Бүгдийг татаж авах",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Өөр файлыг орчуулах",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Татаж авах",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON файлыг байршуулах",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Зорилтот хэлийг сонгоно уу",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Орчуулгын горимыг сонгоно уу",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ түлхүүр орчуулагдсан",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Орчуулга дууссан!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Нийт тайлан",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Нээлттэй асуудлууд",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Өндөр ач холбогдол",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Драйв руу синк хийнэ үү",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Драйваас синк хийх",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel-ийг экспортлох",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON экспортлох",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Цамц",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Хүнд байдал",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Элемент",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Асуудал",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Санал болгож буй шийдлүүд",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML харах",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "Дөгөөодог",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Харах цонх",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Одоогийн хэл",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Түлхүүрүүдийг орчуулсан",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Цаг хугацаа өнгөрөв",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Орчуулж байна...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate эсвэл AI ашиглан JSON хэлний файлуудыг олон хэл рүү орчуулаарай",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Орчуулах нэг буюу хэд хэдэн хэлийг сонгоно уу",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Формат илэрсэн: $FORMAT$, Горим: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ руу орчуулж байна... ($CURRENT$/$TOTAL$ түлхүүр)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ өөрчлөлтийг экспортлох",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Орчуулгын багтайгаа хуваалцахын тулд засвараа экспортлоорой",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV татаж авах",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON татаж авах",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ өөрчлөлт хадгалагдсан. Экспорт хийхийн тулд Ctrl+E товчийг дарна уу.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Засварлах горимыг идэвхжүүлэхийн тулд товшино уу",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Засварлах горимыг идэвхжүүлэхийн тулд товшино уу. Та өөрчлөлтүүдийг хадгалсан байна. Экспорт хийхийн тулд Ctrl+E товчийг дарна уу.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Текст сонгогдоогүй байна",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI зөвлөмжийг авахын тулд текстийг сонгоно уу",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ямар ч хэл олдсонгүй",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Нэвтэрч чадсангүй. Дахин оролдоно уу.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Амжилттай нэвтэрлээ!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Амжилттай гарлаа",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Баталгаажуулалт амжилтгүй боллоо. Кэшийг цэвэрлэж дахин нэвтэрч үзнэ үү.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Кэшийг цэвэрлэж байна...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Кэшийг цэвэрлэж чадсангүй",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel номын сан байхгүй байна. Хуудсыг дахин ачааллана уу.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Хамгийн их гүйцэтгэлийн хамгийн их гүйцэтгэлийг нэг дор нэг удаа хий. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ Тоолох $ / $ $$MAX$$ $ сонгогдсон $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI орчуулгыг ашиглахын тулд нэвтэрч орно уу",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Боломжийн хэмжээтэй файлуудын хувьд хамгийн сайн.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI горим: Энэ нь API дуудлагыг авах хүсэлт гаргах болно.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Энэ орчуулга нь ойролцоогоор API дуудлагыг тоолох болно. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI горим нь нэг дор $ $MAX$ $ $ ones-ийг нэг дор дэмждэг.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Орчуулга өгөх арга",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Үнэгүй",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Хязгааргүй",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Онөс",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "дотоод хамлох",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Олон хэлний орчуулга нь шимтгэл шаарддаг.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Шалгасан:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Үсэг усгээр нө дуудах",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Дүрэм",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Форматлах",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Жинхэнэ текст нь ямар ч асуудалгүй",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "$ Counted $ Text текстийн сегментийг шалгасан",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "$ Cound $ Count addors засах",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Алдаа байхгүй байна!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Чанарын шалгах тайлан",
+    "description": "Quality check report title"
+  }
+}

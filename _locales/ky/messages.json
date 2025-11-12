@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI котормо сыноо куралы. Түз котормо, ката тууралуу билдирүү, жалган локализация жана топтук JSON котормо.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Жабуу",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Жокко чыгаруу",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Сактоо",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Жок кылуу",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Экспорт",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Синхрондоштуруу",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "БУЛАК",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "Максат",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Тилдерди издөө...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Браузерден автоматтык түрдө аныкталган",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Тил которгуч",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Түпнуска жана которулган тексттин ортосунда которулуу",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Бул кантип иштейт: • Түпнуска жана которулган тексттин ортосунда которуштуруу • Котормолор тез которулуу үчүн кэштелген • Беттеги бардык текст менен иштейт • Кайра которуу үчүн кэшти тазалаңыз",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Оригинал",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Которулган",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Которууга даяр",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Кэшти тазалоо жана кайра которуу",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Псевдолокализация",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Толуп кеткен көйгөйлөрдү табуу үчүн UI'ди узунураак текст менен сынап көрүңүз",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Бул кантип иштейт: • Белгилерди акценттүү версиялар менен алмаштырат • 30-40% узундугун кеңейтет • Текстти [!!!... !!!] маркерлер • Мисалы: \"Орнотуулар\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc колдонуу",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Жандуу түзөтүү режими",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Түз бетте түзөтүү үчүн каалаган текстти басыңыз",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Бул кантип иштейт: • Аны түзөтүү үчүн каалаган текст элементин басыңыз • Өзгөрүүлөр реалдуу убакытта көзөмөлдөнөт • Түзөтүүлөрдү JSON же Excel катары экспорттоо • Өзгөртүүлөрдү экспорттоо үчүн Ctrl+E басыңыз",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Жандуу түзөтүүнү иштетүү",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI өзгөчөлүктөрү",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI менен иштеген котормо куралдары",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Премиум өзгөчөлүктөрү: • AI менен иштеген контекстти түшүнгөн котормо • Барактарды толугу менен которуу • Котормолордун сапатын текшерүү • Табигый тил боюнча сунуштар",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI сунуштарын алыңыз",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Smart Batch Которуу Комментарий",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "AI контексти менен беттеги БАРДЫК текстти которот",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Котормо сапатын текшерүү",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON File Котормочу",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON тил файлдарын бир нече тилге которуңуз",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Бул кантип иштейт: • JSON тил файлдарын жүктөп бериңиз • Максаттуу тилдерди тандаңыз • Google же AI менен которуңуз • Которулган файлдарды жүктөп алыңыз",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON файлын которуу",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Отчеттук маселе",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Текстти которуу жана локалдаштыруу маселелерин кабарлаңыз",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Бул кантип иштейт: • Маселелерди билдирүү үчүн текст элементтерин басыңыз • Сүрөттөмөлөрдү жана катаалдыгын кошуңуз • Отчетторду Excel же JSONга экспорттоо • Google Drive менен синхрондоштуруу",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Кабарлоону баштоо",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Отчетторду башкаруу",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Каттоо эсеби",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google менен кириңиз",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Премиумга чейин жаңыртуу",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Премиум маалымат",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Чыгыңыз",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Мүчүлүштүктөр жөнүндө кабарлар",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Издөө отчеттору...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Баарын тазалоо",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Азырынча мүчүлүштүк тууралуу кабарлар жок",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Маселелерге көз салуу үчүн \"Кабарлоону баштоо\" баскычын басыңыз",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Эч натыйжа табылган жок",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Башка ачкыч сөздөрдү колдонуп көрүңүз",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Чоо-жайын көрүү",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Чечилген деп белгилөө",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Кайра ачыңыз",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Мүчүлүштүк тууралуу кабар #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Негизги маалымат",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Категория",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Дата",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Элементтин чоо-жайы",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Теги",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Текст",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Селектор",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Котормо шарттары",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Issue Сүрөттөө",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Барак маалыматы",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Аталышы",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Отчетту жок кылуу",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "#$ID$ отчетту чын эле жок кылгыңыз келеби?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Бардык отчетторду тазалоо",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "БАРДЫК мүчүлүштүктөрдүн отчеттору жок кылынсынбы? Бул аракетти артка кайтаруу мүмкүн эмес!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Баарын жок кылуу",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Мүчүлүштүктөр жөнүндө отчетторду экспорттоо",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Экспорт форматын тандоо:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excelге экспорттоо",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSONга экспорттоо",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Drive менен синхрондоштуруу",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "№ $ $$STATUS$$ $ $ Абалы $ деп белгиленди $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ билдирүү өчүрүлдү",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Бардык отчеттор тазаланды",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Максаттуу тилди өзгөртүүбү?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Булак тили $SOURCE$ болуп өзгөртүлдү. $TARGET$ тилине которгуңуз келеби?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ооба, өзгөртүү",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Жок, учурдагы бойдон калуу",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ачык",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "чечилди",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Бул кантип иштейт:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Премиум өзгөчөлүктөрү:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Автоматтык түрдө аныкталган: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Дайындарды шайкештирүү",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Которуу үчүн $COUNT$ текст табылды",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "тандалды",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Даярдалууда...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Бүттү!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ тилге которуу башталууда...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "$ Ийгиликке жетишти $ / $ Бардыгы $ Тилдер $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ КБ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ S $ $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Кэш тазаланды",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Белгиленген эмес",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Аты жок бет",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Көрүү",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ырастоо",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "макул",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Маселени кеңири сүрөттөп бериңиз...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Сураныч, маселени сүрөттөп бериңиз",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Сураныч, биринчи кириңиз",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Кеңеш: Өзгөртүүлөрүңүздү экспорттоо үчүн Ctrl+E басыңыз",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Түзөтүү режимин өчүрүү үчүн чыкылдатыңыз. Өзгөртүүлөрдү экспорттоо үчүн Ctrl+E басыңыз.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Алмашуу буферине көчүрүлдү!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Жакшыртуу колдонулду!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ жакшыртуулар колдонулду!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Сапатты текшерүү аяктады",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive менен шайкештирилүүдө...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive менен шайкештирилди!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive шайкештештирилбей калды",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Drive'дан шайкештирүү үчүн аккаунтуңузга кириңиз",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive'дан шайкештирилүүдө...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive'дан $COUNT$ отчет шайкештирилди!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive'да эч кандай отчет табылган жок",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel файлы даярдалууда...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Экспорттолгон Excel файлы: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excelге экспорттоо катасы",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON файлы экспорттолду: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSONга экспорттоо катасы",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV файлы экспорттолду: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSVге экспорттоо катасы",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Жарактуу JSON файлын жүктөп бериңиз",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ котормо ачкычтары жүктөлдү",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "JSON файлы жараксыз",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Сураныч, бардык кадамдарды аткарыңыз",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation Premium талап кылынат.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ тилине которулган жок",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Бардык котормолор ишке ашкан жок. Сураныч, кайра аракет кылыңыз.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Которуу ишке ашкан жок. Сураныч, кайра аракет кылыңыз.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ тилге ийгиликтүү которулду!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ жүктөлүп алынды",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON файлын бул жерге таштаңыз же серептөө үчүн чыкылдатыңыз",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Колдоолор: en.json, vi.json, ж.б.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google которуу",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API аркылуу тез жана акысыз которуу",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI Translation",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI аркылуу жогорку сапаттагы контекстти түшүнгөн котормо",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "бекер",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Тез",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Контексттен кабардар",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Табигый сөз айкаштары",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI тексти үчүн жакшыраак",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Жандуу түзөтүүнү өчүрүү ($COUNT$ түзөтүү)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Жандуу түзөтүүнү иштетүү ($COUNT$ сакталды)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Тандалган текст ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Жакшыраак альтернативалар ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Премиумга чейин жаңыртуу",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Бардык AI функцияларын жана чексиз котормолорду ачыңыз",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI акылдуу сунуштар",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Ыкчам пакет которуу",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Автоматтык сапатты текшерүү",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Приоритеттүү колдоо",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Бардык тилдер колдоо",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Азыр жазылыңыз",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Премиум каттоо эсеби",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Активдүү жазылуу",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Жарамдуулук мөөнөтү",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Калган күндөр",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Маселенин түрү:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Туура эмес котормо",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Текст ашып кетти",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Жайгашуу сынган",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Котормо жок",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Форматтоо маселеси",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Башка",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Мүчүлүштүктөрдү кабарлоо менеджери",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Локалдаштыруу маселелерин башкарыңыз жана экспорттоңуз",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Локализация көйгөйлөрүнө көз салуу үчүн маселелерди кабарлоону баштаңыз",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Чыпкаларыңызга эч кандай отчет дал келбейт",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Бардык Статус",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Бардык катаалдыгы",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Бардык категориялар",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Жогорку",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Орто",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Төмөн",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Эң сонун!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ текст сегменттерин текшерип, эч кандай көйгөй табылган жок.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Булак тили:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Максаттуу тил:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Кирүү талап кылынат",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Котормо функцияларын колдонуу үчүн кириңиз. Акысыз колдонуучулар 10 котормо алышат.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ ичинен $REMAINING$ котормо калды",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Колдонуу чегине жетти",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Сиз колдонуу чегиңизге жеттиңиз.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Премиумга чейин жаңыртуу",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Чексиз котормолорду жана премиум мүмкүнчүлүктөрдү ачыңыз",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "айына",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Чексиз котормолор",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Балким кийинчерээк",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Каалаган убакта жокко чыгарыңыз. Суроолор берилген жок.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Сиздин колдонуу",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "котормолору колдонулат",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Котормо функцияларын колдонуу үчүн кириңиз",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Котормолордун саны жетишсиз. Сизде $REMAINING$ калды, бирок тандалган $SELECTED$ тилдер. Премиумга жаңыртыңыз же тилдерди азайтыңыз.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Бардык $ эсептеген $ күрөөгө коюлган котормолорду колдонуп жатасыз. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Бул баракта иштетүү мүмкүн эмес",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI кадимки веб-сайттарда гана иштейт. Ал Chrome ички барактарында иштей албайт.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Колдоого алынбаган бет түрү",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Колдоого алынбаган баракчалар:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI колдонуу үчүн google.com сыяктуу кадимки вебсайтты ачыңыз",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Которууну баштаңыз",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Баарын жүктөп алыңыз",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Башка файлды которуу",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Жүктөп алуу",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON файлын жүктөө",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Максаттуу тилдерди тандаңыз",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Котормо режимин тандаңыз",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ачкыч которулду",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Котормо аяктады!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Жалпы отчеттор",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Ачык маселелер",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Жогорку артыкчылык",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive менен шайкештирүү",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive'дан шайкештирүү",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel экспорттоо",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON экспорттоо",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Катуулугу",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Элемент",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Маселе",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Сунушталган чечимдер",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML көрүү",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Viewport",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Учурдагы тил",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Баскычтар которулган",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Убакыт өттү",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Которулууда...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "JSON тил файлдарын Google Translate же AI менен бир нече тилге которуңуз",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Которуу үчүн бир же бир нече тилди тандаңыз",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Формат аныкталды: $FORMAT$, Режим: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ тилине которулууда... ($CURRENT$/$TOTAL$ баскычтары)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ өзгөртүү экспорттоо",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Котормо жамаатыңыз менен бөлүшүү үчүн түзөтүүлөрүңүздү экспорттоңуз",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV жүктөп алыңыз",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON жүктөп алыңыз",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ өзгөртүү сакталды. Экспорттоо үчүн Ctrl+E басыңыз.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Түзөтүү режимин иштетүү үчүн чыкылдатыңыз",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Түзөтүү режимин иштетүү үчүн чыкылдатыңыз. Сиз өзгөртүүлөрдү сактадыңыз. Экспорттоо үчүн Ctrl+E басыңыз.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Текст тандалган жок",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI сунуштарын алуу үчүн текстти тандаңыз",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Тилдер табылган жок",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Кирүү ишке ашкан жок. Сураныч, кайра аракет кылыңыз.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Ийгиликтүү кирдиңиз!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Ийгиликтүү чыкты",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Аутентификация ишке ашкан жок. Кэшти тазалап, кайра кирип көрүңүз.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Кэш тазаланууда...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Кэш тазаланбай калды",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel китепканасы жеткиликтүү эмес. Баракты кайра жүктөңүз.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Максималдуу $ максималдуу $ бир дароо оптималдуу иштеши үчүн. $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ $ / $ $$MAX$$ $ $ $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI Translation колдонууга кириңиз",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Акылга сыярлык өлчөмдөгү файлдар үчүн мыкты.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI режими: Бул API чалууларын сурайт.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Бул котормо болжол менен API чалууларын эсептейт. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI режими бир эле учурда максималдуу $ бир тилдерди колдойт. $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Котормо ыкмасы",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Бекер",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Чексиз",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Тез",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Тилдер",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Бир нече тилдердин котормосун сыйлыкты талап кылат.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Текшерилген:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Орфография",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Грамматика",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Форматтоо",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Түпнуска текст жок",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "$ Эсептелген $ SMS текст сегменттери текшерилди",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "$ Эсептөө үчүн $ кандуу $ каталарды эсептөө",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Ката жок!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Сапат текшерүү отчету",
+    "description": "Quality check report title"
+  }
+}

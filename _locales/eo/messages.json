@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI-traduka testa ilo. Rekta traduko, erarraporto, pseŭdo-lokaĵigo kaj amasa JSON-traduko.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Fermi",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Nuligi",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Konservi",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Forigi",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksporto",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinkronigi",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FONTO",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "CELO",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Serĉu lingvojn...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Aŭtomate detektita de retumilo",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Lingvoŝaltilo",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Ŝanĝi inter originala kaj tradukita teksto",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kiel ĝi funkcias: • Ŝalti inter originala kaj tradukita teksto • Tradukoj estas konservitaj en kaŝmemoro por rapida ŝanĝo • Funkcias kun ĉiu teksto sur la paĝo • Malplenigi la kaŝmemoron por retraduki",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Originala",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tradukita",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Preta por traduki",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Malplenigi la kaŝmemoron kaj retraduki",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseŭdo-lokigo",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Testu la uzulinterfacon kun pli longa teksto por trovi problemojn pri superfluo",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kiel ĝi funkcias: • Anstataŭigas signojn per akcentitaj versioj • Aldonas 30-40%-an longo-vastiĝon • Envolvas tekston en [!!!... !!!] markilojn • Ekzemplo: \"Agordoj\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Apliki Pseŭdo-Lok",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Rekta Redakta Reĝimo",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Alklaku iun ajn tekston por redakti rekte sur la paĝo",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kiel ĝi funkcias: • Alklaku iun ajn tekstelementon por redakti ĝin • Ŝanĝoj estas spurataj en reala tempo • Eksporti redaktojn kiel JSON aŭ Excel • Premu Ctrl+E por eksporti ŝanĝojn",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Ebligi Vivan Redakton",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI-Trajtoj",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Tradukaj iloj funkciigitaj per artefarita inteligenteco",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Altnivelaj Trajtoj: • AI-funkciigita kuntekstkonscia tradukado • Aro da tradukoj de tutaj paĝoj • Kvalitkontrolo por tradukoj • Naturalingvaj sugestoj",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ricevu AI-Sugestojn",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Inteligenta Aro-Traduko",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Tradukas ĈIUN tekston sur la paĝo per artefarita inteligenteco-kunteksto",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Kontroli la tradukkvaliton",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Supera",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON-Dosiertradukilo",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Traduki JSON-lingvajn dosierojn al pluraj lingvoj",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kiel ĝi funkcias: • Alŝuti JSON-lingvajn dosierojn • Elekti cellingvojn • Traduki per Google aŭ artefarita inteligenteco • Elŝuti tradukitajn dosierojn",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Traduki JSON-dosieron",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Raporti Problemon",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Raporti problemojn pri teksta tradukado kaj lokalizo",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kiel ĝi funkcias: • Alklaku tekstajn elementojn por raporti problemojn • Aldonu priskribojn kaj gravecon • Eksportu raportojn al Excel aŭ JSON • Sinkronigu kun Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Komencu Raportadon",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Administri Raportojn",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Konto",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Ensaluti per Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Ĝisdatigu al Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Superaj Informoj",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Elsaluti",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Cimo-Raportoj",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Serĉraportoj...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Forigi Ĉion",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ankoraŭ neniuj cimo-raportoj",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Alklaku \"Komenci Raporti\" por spuri problemojn",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Neniuj rezultoj trovitaj",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Provu malsamajn ŝlosilvortojn",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Vidi detalojn",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marki kiel solvita",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Remalfermi",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Raporto pri cimoj #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Bazaj Informoj",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Statuso",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorio",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dato",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementaj Detaloj",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etikedo",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Teksto",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selektilo",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Traduka Kunteksto",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Priskribo de la problemo",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Paĝinformoj",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titolo",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Forigi Raporton",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ĉu vi certas, ke vi volas forigi raporton #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Forigi Ĉiujn Raportojn",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ĉu forigi ĈIUJN cimo-raportojn? Ĉi tiu ago ne povas esti malfarita!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Forigi Ĉion",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Eksporti cimo-raportojn",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Elektu eksportan formaton:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Eksporti al Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eksporti al JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinkronigi al Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Raporto #$ID$ markita kiel $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Raporto #$ID$ forigita",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Ĉiuj raportoj forigitaj",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Ŝanĝi cellingvon?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "La fontlingvo ŝanĝiĝis al $SOURCE$. Ĉu vi ŝatus traduki al $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Jes, Ŝanĝo",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ne, Restu Aktuala",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "malfermita",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "solvita",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kiel ĝi funkcias:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Altvaloraj Trajtoj:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Aŭtomate detektita: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinkronigi datumojn",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Trovis $COUNT$ tekstojn por traduki",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "elektita",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Preparante...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Kompleta!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Komencas tradukadon por $COUNT$ lingvoj...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Finitaj $SUCCESS$/$TOTAL$ lingvoj",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Kaŝmemoro malplenigita",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ne specifita",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Sennoma Paĝo",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Vido",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Konfirmi",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Bone",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Priskribu la problemon detale...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Bonvolu priskribi la problemon",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Bonvolu ensaluti unue",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Konsilo: Premu Ctrl+E por eksporti viajn ŝanĝojn",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Alklaku por malŝalti redaktan reĝimon. Premu Ctrl+E por eksporti ŝanĝojn.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Kopiita al la tondujo!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Plibonigo aplikita!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Aplikis $COUNT$ plibonigojn!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kvalitkontrolo kompleta",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinkronigante al Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinkronigita kun Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Diska sinkronigo malsukcesis",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Bonvolu ensaluti por sinkronigi el Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinkronigante el Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Sinkronigis $COUNT$ raportojn el Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Neniuj raportoj trovitaj en Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Preparante Excel-dosieron...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Eksportita Excel-dosiero: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Eraro eksportante al Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON-dosiero eksportita: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Eraro eksportante al JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV-dosiero eksportita: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Eraro dum eksportado al CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Bonvolu alŝuti validan JSON-dosieron",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ŝarĝis $COUNT$ tradukŝlosilojn",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Malvalida JSON-dosiero",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Bonvolu plenumi ĉiujn paŝojn",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation postulas Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Malsukcesis traduki al $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Ĉiuj tradukoj malsukcesis. Bonvolu reprovi.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Traduko malsukcesis. Bonvolu reprovi.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Sukcese tradukita al $COUNT$ lingvoj!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Elŝutita $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Metu JSON-dosieron ĉi tien aŭ klaku por foliumi",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Subtenas: en.json, vi.json, ktp.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Traduki",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Rapida kaj senpaga tradukado uzante la API-on de Google Translate",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI-Traduko",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Altkvalita kuntekstkonscia tradukado uzante artefaritan inteligentecon",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Senpaga",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Rapida",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kuntekstkonscia",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Natura vortumo",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Pli bona por UI-teksto",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Malŝalti Vivan Redakton ($COUNT$ redaktoj)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Ebligi Vivan Redaktadon ($COUNT$ ŝparitaj)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Elektita Teksto ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Pli Bonaj Alternativoj ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Ĝisdatigu al Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Malŝlosu ĉiujn funkciojn de artefarita inteligenteco kaj senlimajn tradukojn",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI-inteligentaj sugestoj",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Rapida aro-traduko",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Aŭtomata kvalito-kontrolo",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritata subteno",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Ĉiuj lingvoj subtenataj",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Abonu nun",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium Konto",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktiva Abono",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Finvalida dato",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Tagoj Restantaj",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tipo de problemo:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Malĝusta Traduko",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Teksta Superfluo",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Aranĝo Rompita",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Mankanta Traduko",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problemo pri formatado",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Aliaj",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Administranto de cimo-raportoj",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Administru kaj eksportu viajn lokalizajn problemojn",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Komencu raporti problemojn por spuri lokalizajn problemojn",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Neniuj raportoj kongruas kun viaj filtriloj",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Ĉiuj Statoj",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Ĉiu Severeco",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Ĉiuj Kategorioj",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Alta",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Meza",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Malalta",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Bonege!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Kontrolis $COUNT$ tekstajn segmentojn kaj trovis neniujn problemojn.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Fontlingvo:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Cellingvo:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Ensaluto Necesa",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Bonvolu ensaluti por uzi tradukajn funkciojn. Senpagaj uzantoj ricevas 10 tradukojn.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ el $LIMIT$ tradukoj restantaj",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Uzolimo Atingita",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Vi atingis vian uzlimon.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Ĝisdatigu al Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Malŝlosu senlimajn tradukojn kaj altkvalitajn funkciojn",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "po monato",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Senlimaj tradukoj",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Eble poste",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Nuligi iam ajn. Neniuj demandoj.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Via Uzado",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "uzitaj tradukoj",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Bonvolu ensaluti por uzi tradukajn funkciojn",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ne restas sufiĉe da tradukoj. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Vi uzas ĉiujn $COUNT$ ceterajn tradukojn.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ne eblas kuri sur ĉi tiu paĝo",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funkcias nur sur ordinaraj retejoj. Ĝi ne povas funkcii sur internaj paĝoj de Chrome.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nesubtenata paĝotipo",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Nesubtenataj paĝoj:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Malfermu ordinaran retejon kiel google.com por uzi LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Komencu Tradukadon",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Elŝuti Ĉion",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Traduki Alian Dosieron",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Elŝuti",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Alŝuti JSON-dosieron",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Elektu Cellingvojn",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Elektu Tradukan Reĝimon",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ŝlosiloj tradukitaj",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Traduko Kompletigita!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Totalaj Raportoj",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Malfermaj Temoj",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Alta Prioritato",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinkronigi al Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinkronigi el Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Eksporti Excel-on",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Eksporti JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "identigilo",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Severeco",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elemento",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Temo",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Sugestitaj Solvoj",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Vidi HTML-on",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Vidfenestro",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Aktuala lingvo",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Ŝlosiloj Tradukitaj",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Tempo Pasinta",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Tradukante...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Traduku JSON-lingvajn dosierojn al pluraj lingvoj per Google Translate aŭ AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Elektu unu aŭ plurajn lingvojn por traduki",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Formato detektita: $FORMAT$, Reĝimo: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Tradukante al $LANG$... ŝlosiloj de ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Eksporti $COUNT$ Ŝanĝojn",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eksportu viajn redaktojn por kunhavigi ilin kun via tradukteamo",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Elŝuti CSV-on",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Elŝuti JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ŝanĝoj konservitaj. Premu Ctrl+E por eksporti.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Alklaku por ebligi redaktan reĝimon",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Alklaku por ebligi redaktan reĝimon. Vi konservis la ŝanĝojn. Premu Ctrl+E por eksporti.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Neniu teksto elektita",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Elektu tekston por ricevi sugestojn de artefarita inteligenteco",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Neniuj lingvoj trovitaj",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Ensaluto malsukcesis. Bonvolu provi denove.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Sukcese ensalutinta!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Sukcese elsaluti",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Aŭtentigo malsukcesis. Bonvolu provi malplenigi la kaŝmemoron kaj ensaluti denove.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Forigante kaŝmemoron...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Malsukcesis malplenigi la kaŝmemoron",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Biblioteko de Excel ne havebla. Bonvolu reŝargi la paĝon.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimumo $MAX$ lingvoj samtempe por optimuma rendimento.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ elektitaj",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Bonvolu ensaluti por uzi AI-tradukon",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Plej bone por dosieroj kun racia grandeco.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI-reĝimo: Ĉi tio faros $REQUESTS$ API-vokojn. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ĉi tiu traduko faros proksimume $COUNT$ API-vokojn.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI-reĝimo subtenas maksimumajn $MAX$ lingvojn samtempe.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Traduka Metodo",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Senpaga",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Senlima",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Rapide",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "lingvoj",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Plurlingva tradukado postulas Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Kontrolita:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Literumo",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatiko",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatado",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originala teksto ne havas problemojn",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Kontrolis <strong>$COUNT$</strong> tekstajn segmentojn",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Trovis <strong>$COUNT$</strong>-erarojn por ripari",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Neniuj eraroj!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Raporto pri Kvalita Kontrolo",
+    "description": "Quality check report title"
+  }
+}

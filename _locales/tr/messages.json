@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI çeviri test aracı. Canlı çeviri, hata bildirimi, sözde yerelleştirme ve toplu JSON çevirisi.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Kapat",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "İptal etmek",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Kaydetmek",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Silmek",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "İhracat",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Senkronizasyon",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "KAYNAK",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "HEDEF",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Dilleri ara...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Tarayıcıdan otomatik olarak algılandı",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Dil Değiştirme",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Orijinal ve çevrilmiş metin arasında geçiş yapın",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Nasıl çalışır: • Orijinal ve çevrilmiş metin arasında geçiş yapın • Hızlı geçiş için çeviriler önbelleğe alınır • Sayfadaki tüm metinle çalışır • Yeniden çevirmek için önbelleği temizleyin",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Orijinal",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Tercüme edildi",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Çeviriye hazır",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Önbelleği Temizle ve Yeniden Çevir",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Sahte Yerelleştirme",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Taşma sorunlarını bulmak için daha uzun metinli kullanıcı arayüzünü test edin",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Nasıl çalışır: • Karakterleri aksanlı versiyonlarıyla değiştirir • %30-40 uzunluk artışı ekler • Metni [!!!... !!!] işaretleriyle sarar • Örnek: \"Ayarlar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc'u uygula",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Canlı Düzenleme Modu",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Sayfada doğrudan düzenlemek için herhangi bir metne tıklayın",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Nasıl çalışır: • Düzenlemek için herhangi bir metin öğesine tıklayın • Değişiklikler gerçek zamanlı olarak izlenir • Düzenlemeleri JSON veya Excel olarak dışa aktarın • Değişiklikleri dışa aktarmak için Ctrl+E tuşlarına basın",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Canlı Düzenlemeyi Etkinleştir",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Yapay Zeka Özellikleri",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Yapay zeka destekli çeviri araçları",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Premium Özellikler:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Yapay Zeka Önerileri Alın",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Akıllı Toplu Çeviri",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Sayfadaki TÜM metni AI bağlamıyla çevirir",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Çeviri Kalitesini Kontrol Edin",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "prim",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON Dosya Çeviricisi",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON dil dosyalarını birden fazla dile çevirin",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Nasıl çalışır: • JSON dil dosyalarını yükleyin • Hedef dilleri seçin • Google veya AI ile çevirin • Çevrilen dosyaları indirin",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON Dosyasını Çevir",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Sorun Bildir",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Metin çevirisi ve yerelleştirme sorunlarını bildirin",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Nasıl çalışır: • Sorunları bildirmek için metin öğelerine tıklayın • Açıklama ve önem derecesi ekleyin • Raporları Excel veya JSON'a aktarın • Google Drive ile senkronize edin",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Raporlamaya Başlayın",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Raporları Yönet",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Hesap",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google ile oturum açın",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Premium'a Yükselt",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium Bilgiler",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Oturumu Kapat",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Hata Raporları",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Raporları ara...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Tümünü Temizle",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Henüz hata raporu yok",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Sorunları takip etmek için \"Raporlamaya Başla\"ya tıklayın",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Hiçbir sonuç bulunamadı",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Farklı anahtar kelimeler deneyin",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Ayrıntıları görüntüle",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Çözüldü olarak işaretle",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Yeniden aç",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Hata Raporu #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Temel Bilgiler",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Durum",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategori",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Tarih",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Element Ayrıntıları",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Etiket",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Metin",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Seçici",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Çeviri Bağlamı",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Sorun Açıklaması",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Sayfa Bilgisi",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Başlık",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL'si",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Raporu Sil",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "#$ID$ raporunu silmek istediğinizden emin misiniz?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Tüm Raporları Temizle",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "TÜM hata raporları silinsin mi? Bu işlem geri alınamaz!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Tümünü Sil",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Hata Raporlarını Dışa Aktar",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Dışa aktarma formatını seçin:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excel'e aktar",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON'a aktar",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google Drive ile senkronize edin",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "$STATUS$ olarak işaretlenen #$ID$ raporunu bildirin",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Rapor #$ID$ silindi",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Tüm raporlar temizlendi",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Hedef Dil Değiştirilsin mi?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Kaynak dil $SOURCE$ olarak değiştirildi. $TARGET$ diline çevirmek ister misiniz?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Evet, Değişim",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Hayır, Güncel Kalın",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "açık",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "çözüldü",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Nasıl çalışır:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Premium Özellikler:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Otomatik olarak algılandı: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Verileri senkronize et",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Çevrilecek $COUNT$ metin bulundu",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "seçilmiş",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Hazırlanıyor...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Tamamlamak!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ dil için çeviri başlatılıyor...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ dilleri tamamladınız",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Önbellek temizlendi",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Belirtilmemiş",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Başlıksız Sayfa",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Görüntüle",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Onaylamak",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "TAMAM",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Konuyu detaylı bir şekilde açıklayınız...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Lütfen sorunu açıklayın",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Lütfen önce oturum açın",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "İpucu: Değişikliklerinizi dışa aktarmak için Ctrl+E tuşlarına basın",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Düzenleme modunu devre dışı bırakmak için tıklayın. Değişiklikleri dışa aktarmak için Ctrl+E tuşlarına basın.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Panoya kopyalandı!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "İyileştirme uygulandı!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ iyileştirme uygulandı!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kalite kontrolü tamamlandı",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive ile senkronize ediliyor...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive ile senkronize edildi!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Sürücü senkronizasyonu başarısız oldu",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Lütfen Drive'dan senkronize etmek için oturum açın",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive'dan senkronize ediliyor...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive'dan $COUNT$ rapor senkronize edildi!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive'da hiçbir rapor bulunamadı",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel dosyası hazırlanıyor...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel dosyası dışa aktarıldı: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel'e aktarma hatası",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON dosyası dışa aktarıldı: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON'a aktarma sırasında hata oluştu",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV dosyası dışa aktarıldı: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV'ye aktarım sırasında hata oluştu",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Lütfen geçerli bir JSON dosyası yükleyin",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ çeviri anahtarı yüklendi",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Geçersiz JSON dosyası",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Lütfen tüm adımları tamamlayın",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Çevirisi Premium gerektirir.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ diline çevrilemedi",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Tüm çeviriler başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Çeviri başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ dile başarıyla çevrildi!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ indirildi",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON dosyasını buraya bırakın veya göz atmak için tıklayın",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Destekler: en.json, vi.json, vb.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Çeviri",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API'sini kullanarak hızlı ve ücretsiz çeviri",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Yapay Zeka Çevirisi",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Yapay zeka kullanarak yüksek kaliteli, bağlam farkında çeviri",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Ücretsiz",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Hızlı",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Bağlam farkındalığı",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Doğal ifade",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Kullanıcı arayüzü metni için daha iyi",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Canlı Düzenlemeyi Devre Dışı Bırak ($COUNT$ düzenleme)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Canlı Düzenlemeyi Etkinleştir ($COUNT$ kaydedildi)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Seçili Metin ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Daha İyi Alternatifler ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Premium'a Yükselt",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Tüm yapay zeka özelliklerinin ve sınırsız çevirilerin kilidini açın",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Yapay zeka akıllı önerileri",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Hızlı toplu çeviri",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Otomatik kalite kontrolü",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Öncelikli destek",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Tüm diller desteklenmektedir",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Şimdi abone olun",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium Hesap",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktif Abonelik",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Son kullanma tarihi",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Kalan Günler",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Sorun Türü:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Yanlış Çeviri",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Metin Taşması",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Düzen Bozuk",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Eksik Çeviri",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Biçimlendirme Sorunu",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Diğer",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Hata Raporu Yöneticisi",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Yerelleştirme sorunlarınızı yönetin ve dışa aktarın",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Yerelleştirme sorunlarını izlemek için sorunları bildirmeye başlayın",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Filtrelerinizle eşleşen rapor bulunamadı",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Tüm Durumlar",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Tüm Şiddetler",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Tüm Kategoriler",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Yüksek",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Orta",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Düşük",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Harika!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ metin parçasını kontrol ettim ve hiçbir sorun bulamadım.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Kaynak Dil:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Hedef Dil:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Giriş Gerekli",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Çeviri özelliklerini kullanmak için lütfen oturum açın. Ücretsiz kullanıcılar 10 çeviri alabilir.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ çeviriden $REMAINING$ tanesi kaldı",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Kullanım Sınırına Ulaşıldı",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Kullanım sınırınıza ulaştınız.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Premium'a Yükselt",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Sınırsız çevirilerin ve premium özelliklerin kilidini açın",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ayda",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Sınırsız çeviriler",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Belki daha sonra",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "İstediğiniz zaman iptal edebilirsiniz. Soru sorulmaz.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Kullanımınız",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "kullanılan çeviriler",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Çeviri özelliklerini kullanmak için lütfen oturum açın",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Yeterli çeviri kalmadı. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Kalan $COUNT$ çevirinin tamamını kullanıyorsunuz.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Bu Sayfada Çalıştırılamaz",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI yalnızca normal web sitelerinde çalışır. Chrome dahili sayfalarında çalışamaz.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Desteklenmeyen sayfa türü",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Desteklenmeyen sayfalar:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI'yi kullanmak için google.com gibi normal bir web sitesi açın",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Çeviriye Başla",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Tümünü İndir",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Başka Bir Dosyayı Çevir",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "İndirmek",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON Dosyasını Yükle",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Hedef Dilleri Seçin",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Çeviri Modunu Seçin",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ anahtar çevrildi",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Çeviri Tamamlandı!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Toplam Raporlar",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Açık Konular",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Yüksek Öncelikli",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive'a senkronize et",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive'dan senkronize et",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel'i dışa aktar",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON'u dışa aktar",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "İD",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Şiddet",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Öğe",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Sorun",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Önerilen Çözümler",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML'yi görüntüle",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Görünüm penceresi",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Mevcut Dil",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Çeviri Anahtarları",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Geçen Zaman",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Çeviriliyor...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "JSON dil dosyalarını Google Çeviri veya AI ile birden fazla dile çevirin",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Çeviri yapmak için bir veya daha fazla dil seçin",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Biçim algılandı: $FORMAT$, Mod: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$'a çevriliyor... ($CURRENT$/$TOTAL$ anahtar)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ Değişikliği Dışa Aktar",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Düzenlemelerinizi çeviri ekibinizle paylaşmak üzere dışa aktarın",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV'yi indirin",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON'u indirin",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ değişiklik kaydedildi. Dışa aktarmak için Ctrl+E tuşlarına basın.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Düzenleme modunu etkinleştirmek için tıklayın",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Düzenleme modunu etkinleştirmek için tıklayın. Değişiklikleri kaydettiniz. Dışa aktarmak için Ctrl+E tuşlarına basın.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Hiçbir metin seçilmedi",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Yapay zeka önerileri almak için metni seçin",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Hiçbir dil bulunamadı",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Giriş başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Başarıyla giriş yapıldı!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Başarıyla çıkış yapıldı",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Kimlik doğrulama başarısız oldu. Lütfen önbelleği temizleyip tekrar oturum açmayı deneyin.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Önbellek temizleniyor...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Önbellek temizlenemedi",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel kütüphanesi mevcut değil. Lütfen sayfayı yeniden yükleyin.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Optimum performans için aynı anda maksimum $MAX$ dil. Lütfen toplu olarak çevirin.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ seçildi",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI çevirisi kullanmak için lütfen giriş yapın",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Makul boyuttaki dosyalar için en iyisi.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI modu: Bu, $REQUESTS$ API çağrıları yapacaktır. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Bu çeviri yaklaşık olarak $COUNT$ API çağrısı yapacak.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI modu aynı anda maksimum $MAX$ dili destekler.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Çeviri Yöntemi",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Özgür",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Sınırsız",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Hızlı",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "diller",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Birden fazla dilde çeviri Premium gerektirir.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Kontrol edildi:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Yazım",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Dilbilgisi",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Biçimlendirme",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Orijinal metinde sorun yok",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> metin bölümü kontrol edildi",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Düzeltilecek <strong>$COUNT$</strong> hata bulundu",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Hata yok!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kalite Kontrol Raporu",
+    "description": "Quality check report title"
+  }
+}

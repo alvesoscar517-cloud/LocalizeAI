@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "Nástroj pro testování AI překladu. Živý překlad, hlášení chyb, pseudo-lokalizace a dávkový překlad JSON.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Zavřít",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Zrušit",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Uložit",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Vymazat",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Vývozní",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synchronizace",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ZDROJ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "CÍL",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Hledat jazyky...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automaticky detekováno z prohlížeče",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Přepínání jazyků",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Přepínání mezi původním a přeloženým textem",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Jak to funguje: • Přepínání mezi původním a přeloženým textem • Překlady se ukládají do mezipaměti pro rychlé přepínání • Funguje s veškerým textem na stránce • Vymazání mezipaměti pro opětovný překlad",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Originál",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Přeloženo",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Připraveno k překladu",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Vymazat mezipaměť a znovu přeložit",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalizace",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Otestujte uživatelské rozhraní s delším textem pro nalezení problémů s přetečením",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Jak to funguje: • Nahrazuje znaky verzemi s diakritikou • Přidává 30–40% rozšíření délky • Zalamuje text do značek [!!!... !!!] • Příklad: „Nastavení“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Použít pseudo-lokalizaci",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Režim živé úpravy",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Klikněte na libovolný text pro úpravu přímo na stránce",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Jak to funguje:",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Povolit živé úpravy",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Funkce umělé inteligence",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Překladatelské nástroje s umělou inteligencí",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Prémiové funkce: • Kontextový překlad s využitím umělé inteligence • Hromadný překlad celých stránek • Kontrola kvality překladů • Návrhy v přirozeném jazyce",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Získejte návrhy umělé inteligence",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Inteligentní dávkový překlad",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Překládá VŠECHNY texty na stránce s využitím kontextu umělé inteligence",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Zkontrolujte kvalitu překladu",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Pojistné",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Překladač souborů JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Překlad jazykových souborů JSON do více jazyků",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Jak to funguje: • Nahrávání jazykových souborů JSON • Výběr cílových jazyků • Překlad pomocí Googlu nebo umělé inteligence • Stahování přeložených souborů",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Přeložit soubor JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Nahlásit problém",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Nahlásit problémy s překladem a lokalizací textu",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Jak to funguje: • Kliknutím na textové prvky nahlaste problémy • Přidejte popisy a závažnost • Exportujte zprávy do Excelu nebo JSON • Synchronizujte s Diskem Google",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Začít s hlášením",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Správa přehledů",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Účet",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Přihlásit se pomocí Googlu",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Upgradujte na prémiovou verzi",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Prémiové informace",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Odhlásit se",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Hlášení chyb",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Vyhledávání zpráv...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Vymazat vše",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Zatím žádné hlášení chyb",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Klikněte na tlačítko „Zahájit hlášení“ pro sledování problémů.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nenalezeny žádné výsledky",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Vyzkoušejte jiná klíčová slova",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Zobrazit podrobnosti",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Označit jako vyřešené",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Znovu otevřít",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Hlášení o chybě #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Základní informace",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Postavení",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorie",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Datum",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Detaily prvku",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Štítek",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Text",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Volič",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Kontext překladu",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Popis problému",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Informace o stránce",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titul",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Smazat zprávu",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Opravdu chcete smazat zprávu #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Vymazat všechny zprávy",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Smazat VŠECHNY hlášení o chybách? Tuto akci nelze vrátit zpět!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Smazat vše",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Exportovat hlášení o chybách",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Vyberte formát exportu:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exportovat do Excelu",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exportovat do JSONu",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synchronizace s Diskem Google",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Hlášení č. $ID$ označeno jako $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Zpráva č. $ID$ smazána",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Všechny zprávy vymazány",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Změnit cílový jazyk?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Zdrojový jazyk změněn na $SOURCE$. Chcete přeložit do $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ano, Změnit",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ne, zachovat aktuální",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "OTEVŘENO",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "vyřešeno",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Jak to funguje:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Prémiové funkce:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automaticky detekováno: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Synchronizace dat",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Nalezeno $COUNT$ textů k překladu",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "vybraný",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Příprava...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Kompletní!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Začíná překlad $COUNT$ jazyků...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Dokončeno $SUCCESS$/$TOTAL$ jazyků",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ kB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Mezipaměť vymazána",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nespecifikováno",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Stránka bez názvu",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Zobrazit",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Potvrdit",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OK",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Popište problém podrobně...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Popište prosím problém",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Nejprve se prosím přihlaste",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tip: Stisknutím kláves Ctrl+E exportujete změny.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Kliknutím deaktivujete režim úprav. Stisknutím kláves Ctrl+E exportujete změny.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Zkopírováno do schránky!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Vylepšení použito!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Použito $COUNT$ vylepšení!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kontrola kvality dokončena",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synchronizace s Diskem Google...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Synchronizováno s Diskem Google!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Synchronizace Disku selhala",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Pro synchronizaci z Disku se prosím přihlaste.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synchronizace z Disku Google...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Synchronizováno $COUNT$ reportů z Disku!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Na Disku nebyly nalezeny žádné přehledy",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Příprava souboru Excelu...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Exportovaný soubor Excel: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Chyba exportu do Excelu",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Exportovaný soubor JSON: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Chyba exportu do JSONu",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Exportovaný soubor CSV: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Chyba exportu do CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Nahrajte prosím platný soubor JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Načteno $COUNT$ překladových klíčů",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Neplatný soubor JSON",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Prosím, dokončete všechny kroky",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Překlad s umělou inteligencí vyžaduje prémiovou verzi. Prosím, upgradujte nebo použijte Překladač Google.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Překlad do jazyka $LANG$ se nepodařilo",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Všechny překlady selhaly. Zkuste to prosím znovu.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Překlad se nezdařil. Zkuste to prosím znovu.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Úspěšně přeloženo do $COUNT$ jazyků!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Staženo $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Přetáhněte soubor JSON sem nebo klikněte pro procházení",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Podporuje: en.json, vi.json atd.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Překladač Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Rychlý a bezplatný překlad pomocí Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Překlad s umělou inteligencí",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Vysoce kvalitní kontextový překlad s využitím umělé inteligence",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Uvolnit",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Rychle",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontextově ovlivněné",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Přirozené frázování",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Lepší pro text uživatelského rozhraní",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Zakázat živé úpravy (počet úprav: $COUNT$)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Povolit živé úpravy (ušetřeno $COUNT$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Vybraný text ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Lepší alternativy ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Upgradujte na prémiovou verzi",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Odemkněte všechny funkce umělé inteligence a neomezené překlady",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Chytré návrhy od umělé inteligence",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Rychlý dávkový překlad",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatická kontrola kvality",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritní podpora",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Podpora všech jazyků",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Přihlaste se k odběru",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Prémiový účet",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktivní předplatné",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Datum expirace",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Zbývající dny",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Typ problému:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Špatný překlad",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Přetečení textu",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Rozvržení poškozené",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Chybí překlad",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Problém s formátováním",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Ostatní",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Správce hlášení chyb",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Spravujte a exportujte své problémy s lokalizací",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Začněte hlásit problémy, abyste mohli sledovat problémy s lokalizací",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Žádné přehledy neodpovídají vašim filtrům",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Všechny stavy",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Veškerá závažnost",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Všechny kategorie",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Vysoký",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Střední",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Nízký",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Vynikající!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Zkontrolováno $COUNT$ textových segmentů a nenalezeno žádné problémy.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Zdrojový jazyk:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Cílový jazyk:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Je vyžadováno přihlášení",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Pro použití funkcí překladu se prosím přihlaste. Uživatelé bezplatné verze získají 10 překladů.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Zbývá $REMAINING$ z $LIMIT$ překladů",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Dosažen limit využití",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Dosáhli jste limitu využití. Pro neomezený přístup přejděte na prémiový tarif.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Upgradujte na prémiovou verzi",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Odemkněte neomezené překlady a prémiové funkce",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "za měsíc",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Neomezené překlady",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Možná později",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Zrušte kdykoli. Bez jakýchkoli otázek.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Vaše použití",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "použité překlady",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Pro použití funkcí překladu se prosím přihlaste.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Nezbývá dostatek překladů. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Používáte všech $COUNT$ zbývajících překladů.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Na této stránce nelze spustit",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI funguje pouze na běžných webových stránkách. Nelze jej spustit na interních stránkách Chromu.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nepodporovaný typ stránky",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Nepodporované stránky:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Otevřete běžný web, jako je google.com, a použijte LocalizeAI.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Začít překlad",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Stáhnout vše",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Přeložit další soubor",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Stáhnout",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Nahrát soubor JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Vyberte cílové jazyky",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Vyberte režim překladu",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Přeloženo $COUNT$ klíčů",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Překlad dokončen!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Celkový počet zpráv",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Otevřené problémy",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Vysoká priorita",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synchronizovat s Diskem",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synchronizace z Disku",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Exportovat do Excelu",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Exportovat JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Průkaz totožnosti",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Závažnost",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Živel",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problém",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Navrhovaná řešení",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Zobrazit HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Výřez",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Aktuální jazyk",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Přeložené klíče",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Uplynulý čas",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Překládání...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Překlad jazykových souborů JSON do více jazyků pomocí Google Translate nebo umělé inteligence",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Vyberte jeden nebo více jazyků, do kterých chcete překládat",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Detekovaný formát: $FORMAT$, Režim: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Překlad do $LANG$... (klávesy (CURRENT$/$TOTAL$)) $CURRENT$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exportovat $COUNT$ změn",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Exportujte své úpravy a sdílejte je s překladatelským týmem",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Stáhnout CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Stáhnout JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ změn uloženo.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Kliknutím povolíte režim úprav",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Kliknutím povolíte režim úprav. Změny jsou uloženy. Stisknutím kláves Ctrl+E je exportujete.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Není vybrán žádný text",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Vyberte text pro zobrazení návrhů umělé inteligence",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nenalezeny žádné jazyky",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Přihlášení se nezdařilo. Zkuste to prosím znovu.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Úspěšně přihlášeni!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Úspěšně odhlášeno",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Ověření se nezdařilo. Zkuste prosím vymazat mezipaměť a znovu se přihlásit.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Mazání mezipaměti...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Nepodařilo se vymazat mezipaměť",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Knihovna aplikace Excel není k dispozici. Znovu načtěte stránku.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maximálně $MAX$ jazyků najednou pro optimální výkon. Překládejte v dávkách.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Vybráno $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Přihlaste se pro použití AI překladu",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Nejlepší pro soubory s rozumnou velikostí.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Režim AI: Toto provede $REQUESTS$ volání API. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Tento překlad provede přibližně $COUNT$ volání API.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Režim AI podporuje maximálně $MAX$ jazyků najednou.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Metoda překladu",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Uvolnit",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Neomezený",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Rychle",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "jazyky",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Překlad do více jazyků vyžaduje Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Zkontrolováno:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Pravopis",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formátování",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Původní text nemá žádné problémy",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Zkontrolováno <strong>$COUNT$</strong> textových segmentů",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Nalezeno <strong>$COUNT$</strong> chyb k opravě",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Žádné chyby!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Zpráva o kontrole kvality",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "AI ñe'ẽasa pypore rembiporu. Ñe'ẽasa tekovépe, marandu jejavy, pseudo-localización ha JSON ñe'ẽasa heta.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Mboty",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Heja",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Pysyrõ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Mboje'oha",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Rova",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Ñembojoaju",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "HEÑOIPY",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MOROTĨ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Eheka ñe'ẽnguéra...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Ojehechakuaa ijeheguiete kundaháragui",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Ñe’ẽ Ñemboheko",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Embohasa jehaipyre ypykue ha ojetradusíva apytépe",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Mba’éichapa omba’apo: • Ombohasa jehaipyre ypykue ha oñembohasáva apytépe • Umi ñe’ẽasa oñeñongatu caché-pe oñembohasa pya’e hag̃ua • Omba’apo opaite jehaipyre ndive oĩva página-pe • Oñemopotĩ caché oñembohasa jey hag̃ua",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Ypykue",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Ombohasa",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Oĩmava ojetradusi hag̃ua",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Emopotĩ Caché & Embohasa jey",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Seudo-Localización rehegua",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Eñeha’ã UI jehaipyre ipukuvéva reheve eheka hag̃ua mba’e’oka desbordamiento rehegua",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Mba’éichapa omba’apo: • Omyengovia umi karameg̃ua umi versión acentuada reheve • Ombojoapy 30-40% ipukukue ñembotuichave • Ombojere jehaipyre [!!!... !!!] marcador-kuéra • Techapyrã: \"Ñemboheko\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Ojeporu Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modo de Edición en vivo rehegua",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Emboguejy oimeraẽ jehaipyre emohenda hag̃ua directamente página-pe",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Mba’éichapa omba’apo: • Jaikutu oimeraẽva elemento jehaipyre rehegua ñamohenda hag̃ua • Ojesareko umi ñemoambue rehe tiempo real-pe • Eguerahauka umi ñemboheko JSON térã Excel ramo • Jaikutu Ctrl+E jaguerahauka hag̃ua umi ñemoambue",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Emboguata Edición en vivo rehegua",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI Mba’ekuaarã",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Tembipuru ñembohasa rehegua AI rupive",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Umi mba’e ojehechava’erã premium:.",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Ehupyty Sugerencias AI rehegua",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Lote Inteligente Ñembohasa",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Ombohasa OPAVAVE jehaipyre oĩva página-pe AI contexto reheve",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Ojesareko Traducción Calidad rehe",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Prima",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON Archivo Ñembohasaha",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Embohasa JSON ñe’ẽ ryru heta ñe’ẽme",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Mba’éichapa omba’apo: • Emboguejy JSON ñe’ẽ rembiapokue • Eiporavo umi ñe’ẽ ojehekahápe • Ombohasa Google térã AI rupive • Emboguejy umi archivo oñembohasáva",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Ombohasa JSON Archivo",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Marandu rehegua",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Emombe’u umi mba’e jehaipyre ñembohasa ha localización rehegua",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Mba’éichapa omba’apo: • Emboguejy umi elemento jehaipyre rehegua emombe’u hag̃ua umi mba’e oikóva • Oñemoĩve ñemombe’u ha mba’éichapa hasy • Eguerahauka marandu Excel térã JSON-pe • Oñembojoaju Google Drive ndive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Eñepyrũ Emombe’u",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Ojesareko Marandukuéra rehe",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Mba'erepy",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Eike Google ndive",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "actualización a Premium.",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Info premium rehegua.",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Esẽ Esẽ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Marandu Mba’e’oka rehegua",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Marandu jeheka...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Oñemopotî Opa mba'e",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Ndaipóri gueteri marandu mba’e’oka rehegua",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Emboguejy \"Eñepyrũ emombe'u\" ehecha hag̃ua umi mba’e’apopy",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ndojejuhúi resultado",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Eñeha’ã ñe’ẽ clave iñambuéva",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Ehecha umi detalle",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Marca ojerresolveháicha",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Ojeabri jey",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Marandu Mba’e’oka rehegua #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Info Básico rehegua.",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Tetã",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Hendápe",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Fecha",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elemento rehegua Detalles",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Mbohéra",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Maranduhai",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Selector rehegua",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Ñe’ẽasa Contexto",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Tembiaporã Ñemombe’u",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Página Info.",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Myakãha",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL.",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ombogue Marandu",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "¿Eĩpa seguro embogueseha marandu #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Oñemopotî Opaite Marandu",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "¿Embogue OPAVAVE marandu mba’e’oka rehegua? ¡Ko acción ndaikatúi ojedesatina!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Omboguepaite",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Ojeguerahauka marandu mba’e’oka rehegua",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Eiporavo formato exportación rehegua:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Ojeguerahauka Excel-pe",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eguerahauka JSON-pe",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Embojoaju Google Drive-pe",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Marandu #$$ID$$ oñemarkáva $STATUS$ ramo",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Marandu #$ID$ oñembogue",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Opavave marandu oñemopotî",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "¿Emoambue Ñe’ẽ Ojehupytyséva?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Ñe’ẽ ypykue oñemoambue $SOURCE$-pe. ¿Rembohasase $TARGET$-pe?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Heẽ, Ñemoambue",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Nahániri, Eñongatu ko’áĝa",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "pe'a",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "oñesoluciona",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Mba’éichapa omba’apo:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Umi mba’e ojehechava’erã premium:.",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Ojehechakuaa ijehegui: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Ombojoaju datokuéra",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Ojejuhu $COUNT$ jehaipyre oñembohasa hag̃ua",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ojeporavóva",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ombosako'ívo...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Orekopáva!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Oñepyrũvo ñembohasa $COUNT$ ñe'ẽnguérape...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Oñemohu’ã $success$/$total$ ñe’ẽ. $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$$TIME$$s.",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Caché oñembogue",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ndoje’eporãi",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Página ndorekóiva título",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Hecha",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Moneĩ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "OĨMA",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Emombe'u detalle reheve pe tema...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Por favor, emombe'u pe tema",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Eike raẽ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Ñe’ẽñemi: Emboguejy Ctrl+E eguerahauka hag̃ua ne ñemoambue",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Emboguejy embogue hag̃ua ñemboheko reko. Emboguejy Ctrl+E eguerahauka hag̃ua ñemoambue.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "¡Ojekopia portapapeles-pe!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "¡Mejora ojeaplika!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Ojeporu $COUNT$ ñemyatyrõ!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Oñembotýma jesareko calidad rehegua",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Oñembojoaju Google Drive-pe...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "¡Oñembojoaju Google Drive-pe!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Pe sincronización unidad rehegua ndoikói",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Eike embojoaju hag̃ua Drive guive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Oñembojoaju Google Drive guive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Oñembojoaju $COUNT$ marandu Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Ndojejuhúi marandu Drive-pe",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Oñembosako’ívo Excel rembiapokue...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel rembiapokue ojeguerahauka: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Ojejavy ojeguerahaukávo Excel-pe",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON vore ojeguerahauka: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Ojejavy ojeguerahaukávo JSON-pe",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV vore ojeguerahauka: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Ojejavy ojeguerahaukávo CSV-pe",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Emboguejy peteĩ JSON vore añetegua",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Ojekarga umi llave ñembohasa rehegua $COUNT$",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Archivo JSON ndoikóiva",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Emohu’ã opaite mba’e ojejapóva",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ñembohasa oikotevẽ premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Ndojehejái oñembohasa $LANG$-pe",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Entéro traduksión ndoikói. Eñeha’ã jey.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Pe traduksión ndoikói. Eñeha’ã jey.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "¡Oñembohasa porã $COUNT$ ñe’ẽme!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Ojegueru $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Eity JSON rembiapokue ko’ápe térã eity ehesa’ỹijo hag̃ua",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Oipytyvõ: en.json, vi.json, ha mba’e.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google ñe'ẽasa",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Ñembohasa pya’e ha isãsóva ojeporúvo Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI Ñe’ẽasa",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Ñembohasaha iporãvéva contexto-pegua oipurúvo AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Reiguáva",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Pya'e",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Contexto-pe oikuaa porãva",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Ñe’ẽjoaju natural",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Iporãve UI jehaipyre-pe g̃uarã",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Embogue Edición Viva ($COUNT$ ñemboheko).",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Emboguata Edición en vivo ($COUNT$ oñeñongatu).",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Jehaipyre ojeporavóva ($LANG$).",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Alternativa iporãvéva ($LANG$).",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "actualización a Premium.",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Emboguejy opaite AI mba’ekuaarã ha ñembohasa ilimitádova",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI sugerencias inteligentes rehegua",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Traducción lote pya’e",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Auto calidad jesareko",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Pytyvõ tenonderãite rehegua",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Opaite ñe’ẽ oipytyvõ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Eñemboja ko'ágã",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Cuenta Premium rehegua.",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Suscripción Activa rehegua",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Ára Oñembotývo",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Ára Hembýva",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Tipo de tema: 1.1.",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Traducción Javy",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Texto Desbordamiento rehegua",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Disposición Oñembyai",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Ojefaltáva Ñe’ẽasa",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Cuestión de Formatación rehegua",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Ambue",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Mba’e’oka Marandu Mohendaha",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Emohenda ha emosẽ ne mba’e’oka localización rehegua",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Eñepyrũ emombe’u umi mba’e’oka eñangareko hag̃ua umi apañuãi localización rehegua",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Ndaipóri marandu ojoajúva ne filtrokuéra ndive",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Opaite Estado rehegua",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Opa mba’e Severidad",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Opaite Categoría-pegua",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Yvate",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Mbyte",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Iguýpe",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Jarýi!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Ojesareko $COUNT$ jehaipyre segmento rehe ha ndojuhúi mba’eveichagua mba’e’oka.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Ñe’ẽ Fuente:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Ñe’ẽ ojehekahápe:.",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Oñeikotevẽ ojeike hag̃ua",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Eike eipuru hag̃ua umi mbaʼe ojetradusíva. Umi oiporúva isãsóva ohupyty 10 ñe’ẽasa.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ umi $LIMIT$ ñembohasa hembývagui",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Ojehupyty Límite Jeporu rehegua",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Nde reguahẽma nde límite de uso-pe.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "actualización a Premium.",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Desbloqueo traducciones ilimitas ha umi característica premium.",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "peteĩ jasy pukukue",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Umi traduksión ilimitádova",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Ikatu upe rire",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Ombogue oimeha ára. Ndaipóri porandu ojejapóva.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Nde Jepuru",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "umi traduksión ojeporúva",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Eike eipuru hag̃ua umi mbaʼe ojetradusíva",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Ndaipóri suficiente traducción hembýva. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Nde reipuru opaite $$COUNT$$ ñembohasa hembýva.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ndaikatúi Oñemboguata Ko Página-pe",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ombaꞌapo umi ñanduti renda jepiveguápe añoite. Ndaikatúi oñemboguata Chrome página ryepýpe.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Página tipo ndojeguerohorýiva",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Umi páhina ndojeguerohorýiva:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Eipe’a peteĩ página web jepivegua google.com-icha eipuru hag̃ua LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Eñepyrũ Ñembohasa",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Emboguejy Opa mba'e",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Ombohasa Ambue Archivo",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Mboguejy",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Emboguejy JSON rembiapokue",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Eiporavo Ñe’ẽnguéra ojehekahápe",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Eiporavo Modo de Traducción",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ llavekuéra oñembohasáva",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "¡Traducción Completo!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Marandu Total rehegua",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Cuestiones Abiertas rehegua",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Prioridad yvate",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Oñembojoaju Conducir-pe",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Oñembojoaju Drive guive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Ojeguerahauka Excel-pe",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Oguerahauka JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID.",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Severidad rehegua",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Mba'e rehegua",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Mba'e",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Solución oñesugeríva",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Ojehechakuaa HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath rehegua",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Pe jehechaukaha",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Ñe’ẽ Ko’áĝagua",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Teclas Ojetradusíva",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Ohasáma pe tiémpo",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Ombohasávo...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Embohasa JSON ñe’ẽ ryru heta ñe’ẽme Google Translate térã AI rupive",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Eiporavo peteĩ térã hetave ñe’ẽ rembohasa hag̃ua",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Ojejuhúva formato: $FORMAT$, Modo: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Oñembohasávo $LANG$... ($CURRENT$/$TOTAL$ clave-kuérape)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Emosẽ $COUNT$ Ñemoambue",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eguerahauka ne ñemboheko ekomparti hag̃ua ne ñe’ẽasaha ndive",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Emboguejy CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Emboguejy JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ñemoambue oñeñongatúva. Emboguapy Ctrl+E eguerahauka hag̃ua.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Emboguejy emboguata hag̃ua edición reko",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Emboguejy emboguata hag̃ua edición reko. Nde reñongatu umi ñemoambue. Emboguapy Ctrl+E eguerahauka hag̃ua.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Ndaipóri jehaipyre ojeporavóva",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Eiporavo jehaipyre rehupyty hag̃ua AI sugerencia",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ndaipóri ñe’ẽ ojejuhúva",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Ndoikói jeike. Eñeha’ã jey.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "¡Oike porã!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Ofirma osẽ porã",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Pe jekuaauka ndoikói. Eñeha’ã emopotĩ caché ha eike jey.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Oñemopotĩvo caché...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Ndojejapói omopotĩ haguã caché",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel biblioteca ndojeguerekói. Emboguejy jey pe páhina.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Máximo $$MAX$$ ñe’ẽ peteĩ jeýpe rendimiento iporãvévape g̃uarã.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$$$MAX$$$ / $$$MAX$$$ ojeporavóva. $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Eike eipuru hag̃ua AI ñe'ẽasa.",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Iporãvéva umi archivo orekóva tamaño razonable.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Modo AI: Kóva ojapóta umi mbaꞌejerure API ñehenói.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Ko ñe’ẽasa ojapóta aproximadamente conteo API ñehenói. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Modo AI oipytyvõ $MAX$ $$ ñeꞌepy peteĩ jeýpe.",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Método de Traducción.",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Reiguáva",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Ilimitado rehegua.",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Pya'e",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "Ñe’ẽnguéra.",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Heta ñe’ẽ ñembohasa oikotevẽ premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Ojehechákuri: .",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Ñe’ẽtekuaa rehegua .",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Ñe’ẽtekuaa rehegua .",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "formato rehegua .",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Texto original ndorekói asunto .",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Ojehecháva $Count$ Segmentos de texto rehegua .",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Ojejuhu $Count$ jejavy oñemyatyrõ hag̃ua .",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "¡No hay errores!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Informe de Cheque de Calidad rehegua .",
+    "description": "Quality check report title"
+  }
+}

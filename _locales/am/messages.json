@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "የ AI ትርጉም ሙከራ መሳሪያ። ቀጥታ ትርጉም፣ ስህተት ሪፖርት፣ ሐሰተኛ ቋንቋ እና ባች JSON ትርጉም።",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ገጠመ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ሰርዝ",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "አስቀምጥ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ሰርዝ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ወደ ውጪ ላክ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "አመሳስል",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ምንጭ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ዒላማ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ቋንቋዎችን ፈልግ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ከአሳሽ በራስ-ሰር የተገኘ",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ቋንቋ መቀያየር",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "በመጀመሪያው እና በተተረጎመ ጽሑፍ መካከል ይቀያይሩ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "እንዴት እንደሚሰራ፡- • በመጀመሪያው እና በተተረጎመ ጽሑፍ መካከል ይቀያይሩ • ለፈጣን መቀያየር ትርጉሞች የተሸጎጡ ናቸው። • በገጹ ላይ ካሉ ሁሉም ጽሑፎች ጋር ይሰራል • እንደገና ለመተርጎም መሸጎጫውን ያጽዱ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ኦሪጅናል",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ተተርጉሟል",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ለመተርጎም ዝግጁ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "መሸጎጫ አጽዳ እና እንደገና መተርጎም",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "አስመሳይ-አካባቢ",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "የተትረፈረፈ ችግሮችን ለማግኘት UI በረዥም ጽሑፍ ይሞክሩት።",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "እንዴት እንደሚሰራ፡- • ቁምፊዎችን በድምፅ ስሪቶች ይተካል። • ከ30-40% ርዝመት መስፋፋትን ይጨምራል • ጽሑፍን በ [!!!...!!!] ጠቋሚዎች • ምሳሌ፡ \"ቅንጅቶች\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc ተግብር",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "የቀጥታ ማስተካከያ ሁነታ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "በገጹ ላይ በቀጥታ ለማርትዕ ማንኛውንም ጽሑፍ ጠቅ ያድርጉ",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "እንዴት እንደሚሰራ፡- • ለማርትዕ ማንኛውንም የጽሑፍ አካል ጠቅ ያድርጉ • ለውጦች በቅጽበት ክትትል ይደረግባቸዋል • አርትዖቶችን እንደ JSON ወይም Excel ወደ ውጪ ላክ • ለውጦችን ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "የቀጥታ አርትዕን አንቃ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI ባህሪያት",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "በ AI የተጎላበተ የትርጉም መሳሪያዎች",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "የፕሪሚየም ባህሪዎች • በአይ-የተጎላበተ አውድ-የሚያውቅ ትርጉም • ባች ሙሉ ገጾችን መተርጎም • ለትርጉሞች ጥራት ማረጋገጫ • የተፈጥሮ ቋንቋ ጥቆማዎች",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "የ AI ጥቆማዎችን ያግኙ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ስማርት ባች ተርጉም።",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "በገጽ ላይ ያለውን ሁሉንም ጽሑፍ በ AI አውድ ይተረጉማል",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "የትርጉም ጥራትን ያረጋግጡ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ፕሪሚየም",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ፋይል ተርጓሚ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "የJSON ቋንቋ ፋይሎችን ወደ ብዙ ቋንቋዎች ተርጉም።",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "እንዴት እንደሚሰራ፡- • የJSON ቋንቋ ፋይሎችን ይስቀሉ። • የዒላማ ቋንቋዎችን ይምረጡ • በGoogle ወይም AI መተርጎም • የተተረጎሙ ፋይሎችን ያውርዱ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ፋይልን ተርጉም።",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ጉዳይ ሪፖርት አድርግ",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "የጽሑፍ ትርጉም እና የትርጉም ጉዳዮችን ሪፖርት ያድርጉ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "እንዴት እንደሚሰራ፡- • ጉዳዮችን ሪፖርት ለማድረግ የጽሑፍ ክፍሎችን ጠቅ ያድርጉ • መግለጫዎችን እና ክብደትን ይጨምሩ • ሪፖርቶችን ወደ ኤክሴል ወይም JSON ይላኩ። • ከGoogle Drive ጋር አስምር",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ሪፖርት ማድረግ ጀምር",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ሪፖርቶችን ያስተዳድሩ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "መለያ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "በGoogle ይግቡ",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "የፕሪሚየም መረጃ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ዘግተህ ውጣ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "የሳንካ ሪፖርቶች",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ሪፖርቶችን ይፈልጉ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ሁሉንም አጽዳ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "እስካሁን ምንም የሳንካ ሪፖርቶች የሉም",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ጉዳዮችን ለመከታተል \"ሪፖርት ማድረግ ጀምር\" ን ጠቅ ያድርጉ",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ምንም ውጤቶች አልተገኙም።",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "የተለያዩ ቁልፍ ቃላትን ይሞክሩ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ዝርዝሮችን ይመልከቱ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "እንደተፈታ ምልክት አድርግበት",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "እንደገና ክፈት",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "የሳንካ ሪፖርት #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "መሰረታዊ መረጃ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ሁኔታ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ምድብ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ቀን",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "የአባል ዝርዝሮች",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "መለያ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ጽሑፍ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "መራጭ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "የትርጉም አውድ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "የችግር መግለጫ",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "የገጽ መረጃ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ርዕስ",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "ዩ አር ኤል",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ሪፖርት ሰርዝ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "እርግጠኛ ነህ የ#$ID$ን ሪፖርት መሰረዝ ትፈልጋለህ?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ሁሉንም ሪፖርቶች አጽዳ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ሁሉም የሳንካ ሪፖርቶች ይሰረዙ? ይህ እርምጃ ሊቀለበስ አይችልም!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ሁሉንም ሰርዝ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "የሳንካ ሪፖርቶችን ወደ ውጪ ላክ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ወደ ውጭ መላኪያ ቅርጸት ይምረጡ፡-",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ወደ ኤክሴል ላክ",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "ወደ JSON ላክ",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "ከ Google Drive ጋር አስምር",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "ሪፖርት # $ መታወቂያ $ እንደ $ ደረጃ $ ምልክት ተደርጎበታል $ID$ $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "ሪፖርት #$ID$ ተሰርዟል።",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ሁሉም ሪፖርቶች ጸድተዋል።",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "የዒላማ ቋንቋ ይቀየር?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "የምንጭ ቋንቋ ወደ $SOURCE$ ተቀይሯል። ወደ $TARGET$ መተርጎም ይፈልጋሉ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "አዎ ለውጥ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "አይ፣ አሁኑን አቆይ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ክፈት",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ተፈትቷል",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "እንዴት እንደሚሰራ፡-",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "የፕሪሚየም ባህሪዎች",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "በራስ-የተገኘ፡ $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ውሂብ አመሳስል።",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ለመተርጎም $COUNT$ ጽሑፎች ተገኝተዋል",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ተመርጧል",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "በማዘጋጀት ላይ...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ተጠናቀቀ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "ለ$COUNT$ ቋንቋዎች ትርጉም በመጀመር ላይ...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ የተጠናቀቀ $ ስኬት $ / $ ጠቅላላ $ - ጠቅላላ $ ቋንቋዎች $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ ኪባ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ ጊዜ $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "መሸጎጫ ጸድቷል።",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "አልተገለጸም።",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ርዕስ አልባ ገጽ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ይመልከቱ",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "አረጋግጥ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "እሺ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ጉዳዩን በዝርዝር ግለጽ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "እባክዎን ጉዳዩን ይግለጹ",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "እባክዎ መጀመሪያ ይግቡ",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ጠቃሚ ምክር፡ ለውጦችዎን ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "የአርትዖት ሁነታን ለማሰናከል ጠቅ ያድርጉ። ለውጦችን ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ።",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ወደ ቅንጥብ ሰሌዳ ተቀድቷል!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ማሻሻያ ተተግብሯል!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "የ$COUNT$ ማሻሻያዎችን ተተግብሯል!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "የጥራት ማረጋገጫ ተጠናቅቋል",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "ከGoogle Drive ጋር በማመሳሰል ላይ...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "ከ Google Drive ጋር ተመሳስሏል!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "የDrive ማመሳሰል አልተሳካም።",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "እባክዎ ከDrive ለማመሳሰል ይግቡ",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "ከGoogle Drive በማመሳሰል ላይ...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ከDrive $COUNT$ ሪፖርቶች ተመሳስለዋል!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "በDrive ውስጥ ምንም ሪፖርቶች አልተገኙም።",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "የኤክሴል ፋይልን በማዘጋጀት ላይ...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "የExcel ፋይል ወደ ውጭ ተልኳል፡$FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ወደ Excel በመላክ ላይ ስህተት",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ፋይል ወደ ውጭ ተልኳል፡ $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "ወደ JSON በመላክ ላይ ስህተት",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "የCSV ፋይል ወደ ውጭ ተልኳል፡$FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "ወደ CSV በመላክ ላይ ስህተት",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "እባክዎ የሚሰራ JSON ፋይል ይስቀሉ።",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "የ$COUNT$ የትርጉም ቁልፎች ተጭነዋል",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ልክ ያልሆነ JSON ፋይል",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "እባክዎ ሁሉንም እርምጃዎች ያጠናቅቁ",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ትርጉም ፕሪሚየም ያስፈልገዋል። እባክህ ጎግል ትርጉምን አሻሽል ወይም ተጠቀም።",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "ወደ $LANG$ መተርጎም አልተሳካም።",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ሁሉም ትርጉሞች አልተሳኩም። እባክህ እንደገና ሞክር።",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ትርጉም አልተሳካም። እባክህ እንደገና ሞክር።",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "በተሳካ ሁኔታ ወደ $COUNT$ ቋንቋዎች ተተርጉሟል!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ወርዷል",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ፋይልን እዚህ ጣል ያድርጉ ወይም ለማሰስ ጠቅ ያድርጉ",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ይደግፋል: en.json, vi.json, ወዘተ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "የጉግል ትርጉም",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ጎግል ትርጉም ኤፒአይን በመጠቀም ፈጣን እና ነፃ ትርጉም",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI ትርጉም",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI በመጠቀም ከፍተኛ ጥራት ያለው አውድ የሚያውቅ ትርጉም",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ፍርይ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "ፈጣን",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ዐውደ-ጽሑፍ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "የተፈጥሮ ሐረግ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "ለUI ጽሑፍ የተሻለ",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "የቀጥታ አርትዕን አሰናክል ($COUNT$ አርትዖቶች)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "የቀጥታ አርትዕን አንቃ ($COUNT$ ተቀምጧል)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "የተመረጠ ጽሑፍ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "የተሻሉ አማራጮች ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ሁሉንም የ AI ባህሪያትን እና ያልተገደቡ ትርጉሞችን ይክፈቱ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI ብልጥ ምክሮች",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ፈጣን የስብስብ ትርጉም",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ራስ-ሰር ጥራት ማረጋገጥ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ቅድሚያ የሚሰጠው ድጋፍ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ሁሉም ቋንቋዎች ይደግፋሉ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "አሁን ይመዝገቡ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ፕሪሚየም መለያ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ንቁ የደንበኝነት ምዝገባ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "የሚያበቃበት ቀን",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "የቀሩ ቀናት",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "የችግር አይነት፡-",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "የተሳሳተ ትርጉም",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "የጽሑፍ ፍሰት",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "አቀማመጥ ተሰበረ",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ትርጉም ይጎድላል",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "የቅርጸት ጉዳይ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ሌላ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "የሳንካ ሪፖርት አስተዳዳሪ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "የትርጉም ጉዳዮችዎን ያስተዳድሩ እና ወደ ውጭ ይላኩ።",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "የአካባቢ ችግሮችን ለመከታተል ጉዳዮችን ሪፖርት ማድረግ ይጀምሩ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ከእርስዎ ማጣሪያዎች ጋር የሚዛመዱ ምንም ሪፖርቶች የሉም",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ሁሉም ሁኔታ",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ሁሉም ከባድነት",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ሁሉም ምድቦች",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ከፍተኛ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "መካከለኛ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ዝቅተኛ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "በጣም ጥሩ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "የ$COUNT$ የጽሑፍ ክፍሎችን ፈትሸ ምንም ችግር አላገኘም።",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ምንጭ ቋንቋ፡-",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "የዒላማ ቋንቋ፡",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "መግባት ያስፈልጋል",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "የትርጉም ባህሪያትን ለመጠቀም እባክዎ ይግቡ። ነፃ ተጠቃሚዎች 10 ትርጉሞችን ያገኛሉ።",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ከ$LIMIT$ ትርጉሞች ይቀራሉ",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "የአጠቃቀም ገደብ ላይ ደርሷል",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "የአጠቃቀም ገደብዎ ላይ ደርሰዋል። ላልተገደበ መዳረሻ ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ያልተገደቡ ትርጉሞችን እና ዋና ባህሪያትን ይክፈቱ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "በወር",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ያልተገደበ ትርጉሞች",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ምናልባት በኋላ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "በማንኛውም ጊዜ ይሰርዙ። ምንም ጥያቄዎች አልተጠየቁም።",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "የእርስዎ አጠቃቀም",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ጥቅም ላይ የዋሉ ትርጉሞች",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "የትርጉም ባህሪያትን ለመጠቀም እባክዎ ይግቡ",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "በቂ ትርጉሞች የሉም። $REMAINING$ አለህ ግን የ$SELECTED$ ቋንቋዎችን መርጠሃል። እባክዎ ወደ ፕሪሚየም ያሻሽሉ ወይም ቋንቋዎችን ይቀንሱ።",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "ቀሪዎቹን $COUNT$ ትርጉሞች እየተጠቀምክ ነው። ላልተገደበ መዳረሻ ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "በዚህ ገጽ ላይ ማስኬድ አይቻልም",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI የሚሰራው በመደበኛ ድር ጣቢያዎች ላይ ብቻ ነው። በChrome ውስጣዊ ገጾች ላይ ማሄድ አይችልም።",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "የማይደገፍ የገጽ አይነት",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "የማይደገፉ ገጾች፡-",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAIን ለመጠቀም እንደ google.com ያለ መደበኛ ድር ጣቢያ ይክፈቱ",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ትርጉም ጀምር",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ሁሉንም አውርድ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ሌላ ፋይል ተርጉም።",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "አውርድ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ፋይል ስቀል",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "የዒላማ ቋንቋዎችን ይምረጡ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "የትርጉም ሁነታን ይምረጡ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "የ$COUNT$ ቁልፎች ተተርጉመዋል",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ትርጉም ተጠናቋል!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ጠቅላላ ሪፖርቶች",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ጉዳዮችን ይክፈቱ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ከፍተኛ ቅድሚያ",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ከDrive ጋር አስምር",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ከDrive አስምር",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ኤክሴል ወደ ውጪ ላክ",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ወደ ውጪ ላክ",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "መታወቂያ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ከባድነት",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ንጥረ ነገር",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ጉዳይ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "የተጠቆሙ መፍትሄዎች",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ይመልከቱ",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ኤክስፓት",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "የእይታ ቦታ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "የአሁኑ ቋንቋ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "ቁልፎች ተተርጉመዋል",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ጊዜ አልፏል",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "በመተርጎም ላይ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "የJSON ቋንቋ ፋይሎችን በGoogle ትርጉም ወይም AI ወደ ብዙ ቋንቋዎች መተርጎም",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ለመተርጎም አንድ ወይም ከዚያ በላይ ቋንቋዎችን ይምረጡ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ቅርጸት ተገኝቷል፡ $FORMAT$፣ ሁነታ፡ $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "ወደ $LANG$... ($CURRENT$/$TOTAL$ ቁልፎች) መተርጎም",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "የ$COUNT$ ለውጦችን ወደ ውጭ ላክ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "አርትዖቶችዎን ለትርጉም ቡድንዎ ለማጋራት ወደ ውጭ ይላኩ።",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV አውርድ",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON አውርድ",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "የ$COUNT$ ለውጦች ተቀምጠዋል። ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ።",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "የአርትዖት ሁነታን ለማንቃት ጠቅ ያድርጉ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "የአርትዖት ሁነታን ለማንቃት ጠቅ ያድርጉ። ለውጦችን አስቀምጠሃል። ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ።",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ምንም ጽሑፍ አልተመረጠም።",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "የ AI ጥቆማዎችን ለማግኘት ጽሑፍ ይምረጡ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ምንም ቋንቋዎች አልተገኙም።",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "መግባት አልተሳካም። እባክህ እንደገና ሞክር።",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "በተሳካ ሁኔታ ገብቷል!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "በተሳካ ሁኔታ ዘግተው ወጥተዋል።",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ማረጋገጥ አልተሳካም። እባክህ መሸጎጫውን አጽዳ እና እንደገና ለመግባት ሞክር።",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "መሸጎጫ በማጽዳት ላይ...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "መሸጎጫ ማጽዳት አልተሳካም።",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "የ Excel ቤተ-መጽሐፍት የለም። እባክዎ ገጹን እንደገና ይጫኑ።",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ለተሻለ አፈፃፀም ጊዜ በአንድ ጊዜ ከፍተኛው $ $MAX$ $ ቋንቋዎች.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ $ / $ $$MAX$$ $ ተመርጠዋል $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "የአይ ትርጉም ለመጠቀም እባክዎ ይግቡ",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "በተመጣጠነ መጠን ለፋይሎች ምርጥ.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "አዩ ሁኔታ: - ይህ ጥያቄዎችን የኤ.ፒ.አይ. ጥሪዎች ያደርግላቸዋል.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ይህ ትርጉም ኤ.ፒ.አይ. ጥሪዎች በግምት ይቁጠሩ. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "አዩ ሁኔታ በአንድ ጊዜ ከፍተኛ $ $MAX$ $ ቋንቋዎችን ይደግፋል.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "የትርጉም ዘዴ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ፍርይ",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ያልተገደበ",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ፈጣን",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ቋንቋዎች",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "በርካታ ቋንቋዎች ትርጉም ፕሪሚየም ይፈልጋል.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ምልክት ተደርጎበታል",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ፊደል አጻጻፍ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ሰዋስው",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ቅርጸት ቅርጸት",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ኦሪጅናል ጽሑፍ ምንም ችግሮች የለውም",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "የተረጋገጠ $ ቆጠራ $ የ $ Text ክፍሎች",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ለማስተካከል $ EXT $ essed አግኝቷል",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ምንም ስህተቶች የሉም!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "የጥራት ማረጋገጫ ዘገባ",
+    "description": "Quality check report title"
+  }
+}

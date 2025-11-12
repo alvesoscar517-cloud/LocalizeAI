@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI vertimo testavimo įrankis. Tiesioginė vertimas, klaidų pranešimas, pseudo-lokalizacija ir paketinis JSON vertimas.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Uždaryti",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Atšaukti",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Išsaugoti",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Ištrinti",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Eksportuoti",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Sinchronizavimas",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ŠALTINIS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "TAIKINYS",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Ieškoti kalbų...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automatiškai aptikta naršyklėje",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Kalbos perjungimas",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Perjungti originalų ir išverstą tekstą",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Kaip tai veikia: • Perjungti originalų ir išverstą tekstą • Vertimai kaupiami talpykloje, kad būtų galima greitai perjungti • Veikia su visu puslapio tekstu • Išvalyti talpyklą, kad būtų galima išversti iš naujo",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Originalus",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Išversta",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Paruošta versti",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Išvalyti talpyklą ir išversti iš naujo",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-lokalizacija",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Išbandykite vartotojo sąsają su ilgesniu tekstu, kad rastumėte perpildymo problemas",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Kaip tai veikia: • Pakeičia simbolius diakritiniais ženklais • Prideda 30–40 % ilgio išplėtimą • Apvynioja tekstą žymekliais [!!!... !!!] • Pavyzdys: „Nustatymai“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Užtepkite „Pseudo-Loc“",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Tiesioginio redagavimo režimas",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Spustelėkite bet kurį tekstą, kad galėtumėte redaguoti tiesiai puslapyje",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Kaip tai veikia: • Spustelėkite bet kurį teksto elementą, kad jį redaguotumėte • Pakeitimai stebimi realiuoju laiku • Eksportuokite pakeitimus JSON arba „Excel“ formatu • Paspauskite Ctrl+E, kad eksportuotumėte pakeitimus",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Įjungti tiesioginį redagavimą",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Dirbtinio intelekto funkcijos",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Dirbtinio intelekto valdomi vertimo įrankiai",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Papildomos funkcijos: • Dirbtiniu intelektu paremtas kontekstinis vertimas • Visų puslapių vertimas paketais • Vertimų kokybės patikra • Natūralios kalbos pasiūlymai",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Gaukite dirbtinio intelekto pasiūlymus",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Išmanusis paketinis vertimas",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Verčia VISĄ puslapio tekstą su dirbtinio intelekto kontekstu",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Patikrinkite vertimo kokybę",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Premium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON failų vertėjas",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON kalbos failų vertimas į kelias kalbas",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Kaip tai veikia: • Įkelti JSON kalbos failus • Pasirinkite tikslines kalbas • Versti naudodami „Google“ arba dirbtinį intelektą • Atsisiųsti išverstus failus",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Išversti JSON failą",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Pranešti apie problemą",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Pranešti apie teksto vertimo ir lokalizavimo problemas",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Kaip tai veikia: • Spustelėkite teksto elementus, kad praneštumėte apie problemas • Pridėkite aprašymus ir svarbos duomenis • Eksportuokite ataskaitas į „Excel“ arba JSON • Sinchronizuokite su „Google“ disku",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Pradėti ataskaitų teikimą",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Tvarkyti ataskaitas",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Paskyra",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Prisijungti naudojant „Google“",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Naujovinkite į Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informacija apie aukščiausios kokybės paslaugas",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Atsijungti",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Klaidų ataskaitos",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Paieškos ataskaitos...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Išvalyti viską",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Kol kas nėra klaidų pranešimų",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Norėdami sekti problemas, spustelėkite „Pradėti ataskaitų teikimą“",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nerasta jokių rezultatų",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Išbandykite skirtingus raktinius žodžius",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Peržiūrėti išsamią informaciją",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Pažymėti kaip išspręstą",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Atidaryti iš naujo",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Pranešimas apie klaidą #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Pagrindinė informacija",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Būsena",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kategorija",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Data",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elemento detalės",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Žymė",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Tekstas",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Parinkiklis",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Vertimo kontekstas",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Problemos aprašymas",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Puslapio informacija",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Pavadinimas",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Ištrinti ataskaitą",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Ar tikrai norite ištrinti ataskaitą #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Išvalyti visas ataskaitas",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Ištrinti VISAS klaidų ataskaitas? Šio veiksmo atšaukti negalima!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Ištrinti viską",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Eksportuoti klaidų ataskaitas",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Pasirinkite eksporto formatą:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Eksportuoti į „Excel“",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Eksportuoti į JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Sinchronizuoti su „Google“ disku",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Ataskaita #$ID$ pažymėta kaip $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Ataskaita Nr. $ID$ ištrinta",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Visos ataskaitos išvalytos",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Keisti tikslinę kalbą?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Šaltinio kalba pakeista į $SOURCE$. Ar norėtumėte versti į $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Taip, pakeisti",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Ne, laikyti aktualią",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "atviras",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "išspręsta",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Kaip tai veikia:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Aukščiausios kokybės funkcijos:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automatiškai aptikta: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Sinchronizuoti duomenis",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "Rasta $COUNT$ tekstų, kuriuos reikia išversti",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "pasirinktas",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ruošiama...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Užbaigta!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Pradedamas vertimas $COUNT$ kalboms...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ Užbaigtos $SUCCESS$/$TOTAL$ kalbos",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Talpykla išvalyta",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Nenurodyta",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Be pavadinimo puslapis",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Peržiūrėti",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Patvirtinti",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Gerai",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Išsamiai aprašykite problemą...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Aprašykite problemą",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Pirmiausia prisijunkite",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Patarimas: Norėdami eksportuoti pakeitimus, paspauskite Ctrl+E",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Spustelėkite, jei norite išjungti redagavimo režimą. Norėdami eksportuoti pakeitimus, paspauskite Ctrl+E.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "Nukopijuota į iškarpinę!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Patobulinimas pritaikytas!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Pritaikyta $COUNT$ patobulinimų!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Kokybės patikra atlikta",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Sinchronizuojama su „Google“ disku...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Sinchronizuota su „Google“ disku!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Disko sinchronizavimas nepavyko",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Prisijunkite, kad galėtumėte sinchronizuoti iš Disko",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Sinchronizuojama iš „Google“ disko...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Sinchronizuota $COUNT$ ataskaitų iš Disko!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Diske nerasta ataskaitų",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Ruošiamas „Excel“ failas...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Eksportuotas „Excel“ failas: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Klaida eksportuojant į „Excel“",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Eksportuotas JSON failas: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Klaida eksportuojant į JSON formatą",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Eksportuotas CSV failas: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Klaida eksportuojant į CSV failą",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Įkelkite galiojantį JSON failą",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Įkelta $COUNT$ vertimo raktų",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Neteisingas JSON failas",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Prašome atlikti visus veiksmus",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI vertimui reikalinga „Premium“.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Nepavyko išversti į $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Nepavyko atlikti jokių vertimų. Bandykite dar kartą.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Vertimas nepavyko. Bandykite dar kartą.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Sėkmingai išversta į $COUNT$ kalbas!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "Atsisiųstas failas $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Nuvilkite JSON failą čia arba spustelėkite, jei norite naršyti",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Palaiko: en.json, vi.json ir kt.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "„Google“ vertėjas",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Greitas ir nemokamas vertimas naudojant „Google Translate“ API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Dirbtinio intelekto vertimas",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Aukštos kokybės kontekstą įvertinantis vertimas naudojant dirbtinį intelektą",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Nemokama",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Greitas",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Kontekstinis",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Natūralus frazavimas",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Geriau tinka vartotojo sąsajos tekstui",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Išjungti tiesioginį redagavimą ($COUNT$ redagavimų)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Įjungti tiesioginį redagavimą (sutaupyta $COUNT$$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Pasirinktas tekstas ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Geresnės alternatyvos ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Naujovinkite į Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Atrakinkite visas dirbtinio intelekto funkcijas ir neribotą vertimų skaičių",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Išmanieji dirbtinio intelekto pasiūlymai",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Greitas paketinis vertimas",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatinis kokybės patikrinimas",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Prioritetinė parama",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Palaikomos visos kalbos",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Prenumeruokite dabar",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Premium sąskaita",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Aktyvi prenumerata",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Galiojimo data",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Likusios dienos",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Problemos tipas:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Neteisingas vertimas",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Teksto perpildymas",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Išdėstymas sugadintas",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Trūkstamas vertimas",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Formatavimo problema",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Kita",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Klaidų pranešimų tvarkyklė",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Tvarkykite ir eksportuokite lokalizacijos problemas",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Pradėkite pranešti apie problemas, kad galėtumėte sekti lokalizacijos problemas",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nėra ataskaitų, atitinkančių jūsų filtrus",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Visa būsena",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Visų sunkumo lygių",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Visos kategorijos",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Aukštas",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Vidutinis",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Žemas",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Puiku!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Patikrinta $COUNT$ teksto segmentų ir problemų nerasta.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Šaltinio kalba:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Tikslinė kalba:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Būtina prisijungti",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Norėdami naudotis vertimo funkcijomis, prisijunkite. Nemokami vartotojai gauna 10 vertimų.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "Liko $REMAINING$ iš $LIMIT$ vertimų",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Pasiekta naudojimo riba",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Pasiekėte savo naudojimo limitą.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Naujovinkite į Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Atraskite neribotą vertimų skaičių ir aukščiausios kokybės funkcijas",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per mėnesį",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Neriboti vertimai",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Galbūt vėliau",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Atšaukti bet kuriuo metu. Jokių klausimų.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Jūsų naudojimas",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "naudoti vertimai",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Prisijunkite, kad galėtumėte naudotis vertimo funkcijomis",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Liko nepakanka vertimų. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Naudojate visus likusius $COUNT$ vertimus.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Nepavyksta paleisti šiame puslapyje",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "„LocalizeAI“ veikia tik įprastose svetainėse. Ji negali veikti vidiniuose „Chrome“ puslapiuose.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nepalaikomas puslapio tipas",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Nepalaikomi puslapiai:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Atidarykite įprastą svetainę, pvz., google.com, kad galėtumėte naudoti „LocalizeAI“",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Pradėti vertimą",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Atsisiųsti viską",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Versti kitą failą",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Atsisiųsti",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Įkelti JSON failą",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Pasirinkite tikslines kalbas",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Pasirinkite vertimo režimą",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "Išversti $COUNT$ raktai",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Vertimas baigtas!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Iš viso ataskaitų",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Neapibrėžti klausimai",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Aukštas prioritetas",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Sinchronizuoti su Disku",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Sinchronizuoti iš Disko",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Eksportuoti į „Excel“",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Eksportuoti JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Sunkumas",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elementas",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Problema",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Siūlomi sprendimai",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Peržiūrėti HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Peržiūros sritis",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Dabartinė kalba",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Išversti raktai",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Praėjęs laikas",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Verčiama...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Išverskite JSON kalbos failus į kelias kalbas naudodami „Google Translate“ arba dirbtinį intelektą",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Pasirinkite vieną ar daugiau kalbų, į kurias norite versti",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Aptiktas formatas: $FORMAT$, režimas: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Verčiama į $LANG$... ($CURRENT$/$TOTAL$ raktai)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Eksportuoti $COUNT$ pakeitimų",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Eksportuokite pakeitimus, kad galėtumėte jais pasidalyti su vertimo komanda",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Atsisiųsti CSV failą",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Atsisiųsti JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Išsaugoti $COUNT$ pakeitimai. Paspauskite Ctrl+E, kad eksportuotumėte.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Spustelėkite, kad įjungtumėte redagavimo režimą",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Spustelėkite, kad įjungtumėte redagavimo režimą. Išsaugojote pakeitimus. Norėdami eksportuoti, paspauskite Ctrl+E.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nepasirinktas tekstas",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Pasirinkite tekstą, kad gautumėte dirbtinio intelekto pasiūlymus",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nerasta jokių kalbų",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Prisijungti nepavyko. Bandykite dar kartą.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Prisijungta sėkmingai!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Atsijungta sėkmingai",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Autentifikavimas nepavyko. Pabandykite išvalyti talpyklą ir prisijungti dar kartą.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Valoma talpykla...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Nepavyko išvalyti talpyklos",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "„Excel“ biblioteka nepasiekiama. Prašome įkelti puslapį iš naujo.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maksimalus $MAX$ kalbų vienu metu optimalus našumas.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "Pasirinkta $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Jei norite naudoti AI vertimą, prisijunkite",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Geriausiai tinka tinkamo dydžio failams.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI režimas: tai atliks $REQUESTS$ API skambučius. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Šis vertimas atliks maždaug $COUNT$ API iškvietimus.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI režimas vienu metu palaiko daugiausia $MAX$ kalbų.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Vertimo metodas",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Nemokama",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Neribota",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Greitai",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "kalbomis",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Vertimui į kelias kalbas reikalinga „Premium“.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Patikrinta:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Rašyba",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Gramatika",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatavimas",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originalus tekstas neturi jokių problemų",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Patikrinta <strong>$COUNT$</strong> teksto segmentų",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Rasta <strong>$COUNT$</strong> klaidų, kurias reikia ištaisyti",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Jokių klaidų!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Kokybės patikrinimo ataskaita",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "AI ترجمہ ٹیسٹنگ ٹول۔ براہ راست ترجمہ، بگ رپورٹنگ، سوڈو-لوکلائزیشن اور بیچ JSON ترجمہ۔",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "بند",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "منسوخ کریں۔",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "محفوظ کریں۔",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "حذف کریں۔",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "برآمد کریں۔",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "مطابقت پذیری",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ذریعہ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ہدف",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "زبانیں تلاش کریں...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "براؤزر سے خود بخود پتہ چلا",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "زبان ٹوگل",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "اصل اور ترجمہ شدہ متن کے درمیان سوئچ کریں۔",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "یہ کیسے کام کرتا ہے: • اصل اور ترجمہ شدہ متن کے درمیان ٹوگل کریں۔ • تیز رفتار سوئچنگ کے لیے ترجمے کیش کیے جاتے ہیں۔ • صفحہ پر موجود تمام متن کے ساتھ کام کرتا ہے۔ • دوبارہ ترجمہ کرنے کے لیے کیشے کو صاف کریں۔",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "اصل",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ترجمہ شدہ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ترجمہ کے لیے تیار ہیں۔",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "کیشے صاف کریں اور دوبارہ ترجمہ کریں۔",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "سیوڈو لوکلائزیشن",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "اوور فلو کے مسائل تلاش کرنے کے لیے طویل متن کے ساتھ UI کی جانچ کریں۔",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "یہ کیسے کام کرتا ہے: • حروف کو لہجے والے ورژن سے بدلتا ہے۔ • 30-40% لمبائی کی توسیع کا اضافہ کرتا ہے۔ • متن کو [!!!...!!!] مارکر • مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·!!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc کا اطلاق کریں۔",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "لائیو ایڈیٹ موڈ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "صفحہ پر براہ راست ترمیم کرنے کے لیے کسی بھی متن پر کلک کریں۔",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "یہ کیسے کام کرتا ہے: • کسی بھی متنی عنصر کو ترمیم کرنے کے لیے اس پر کلک کریں۔ • تبدیلیاں ریئل ٹائم میں ٹریک کی جاتی ہیں۔ • ترمیمات کو JSON یا Excel کے بطور برآمد کریں۔ • تبدیلیاں برآمد کرنے کے لیے Ctrl+E دبائیں۔",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "لائیو ترمیم کو فعال کریں۔",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "اے آئی کی خصوصیات",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "اے آئی سے چلنے والے ترجمے کے ٹولز",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "پریمیم خصوصیات: • AI سے چلنے والا سیاق و سباق سے آگاہ ترجمہ • بیچ پورے صفحات کا ترجمہ کرتا ہے۔ • ترجمہ کے لیے معیار کی جانچ قدرتی زبان کی تجاویز",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI تجاویز حاصل کریں۔",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "اسمارٹ بیچ ترجمہ",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "AI سیاق و سباق کے ساتھ صفحہ پر موجود تمام متن کا ترجمہ کرتا ہے۔",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ترجمہ کا معیار چیک کریں۔",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "پریمیم",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON فائل مترجم",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON زبان کی فائلوں کا متعدد زبانوں میں ترجمہ کریں۔",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "یہ کیسے کام کرتا ہے: JSON زبان کی فائلیں اپ لوڈ کریں۔ • ہدف کی زبانیں منتخب کریں۔ • Google یا AI کے ساتھ ترجمہ کریں۔ • ترجمہ شدہ فائلیں ڈاؤن لوڈ کریں۔",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON فائل کا ترجمہ کریں۔",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "رپورٹ ایشو",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "متن کے ترجمہ اور لوکلائزیشن کے مسائل کی اطلاع دیں۔",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "یہ کیسے کام کرتا ہے: • مسائل کی اطلاع دینے کے لیے ٹیکسٹ عناصر پر کلک کریں۔ • تفصیل اور شدت شامل کریں۔ • رپورٹیں ایکسل یا JSON میں برآمد کریں۔ • Google Drive کے ساتھ مطابقت پذیری کریں۔",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "رپورٹنگ شروع کریں۔",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "رپورٹس کا نظم کریں۔",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "اکاؤنٹ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "گوگل کے ساتھ سائن ان کریں۔",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "پریمیم میں اپ گریڈ کریں۔",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "پریمیم معلومات",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "سائن آؤٹ کریں۔",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "بگ رپورٹس",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "رپورٹس تلاش کریں...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "تمام صاف کریں۔",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ابھی تک کوئی بگ رپورٹ نہیں ہے۔",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "مسائل کو ٹریک کرنے کے لیے \"رپورٹنگ شروع کریں\" پر کلک کریں۔",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "کوئی نتیجہ نہیں ملا",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "مختلف کلیدی الفاظ آزمائیں۔",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "تفصیلات دیکھیں",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "بطور حل شدہ نشان زد کریں۔",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "دوبارہ کھولیں۔",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "بگ رپورٹ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "بنیادی معلومات",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "حیثیت",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "زمرہ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "تاریخ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "عنصر کی تفصیلات",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ٹیگ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "متن",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "سلیکٹر",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ترجمہ سیاق و سباق",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "مسئلہ کی تفصیل",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "صفحہ کی معلومات",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "عنوان",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "url",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "رپورٹ کو حذف کریں۔",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "کیا آپ واقعی رپورٹ #$ID$ کو حذف کرنا چاہتے ہیں؟",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "تمام رپورٹس کو صاف کریں۔",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "تمام بگ رپورٹس کو حذف کریں؟ اس کارروائی کو کالعدم نہیں کیا جا سکتا!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "سبھی کو حذف کریں۔",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "بگ رپورٹس برآمد کریں۔",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "برآمد کی شکل منتخب کریں:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ایکسل میں برآمد کریں۔",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON کو برآمد کریں۔",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "گوگل ڈرائیو سے مطابقت پذیری کریں۔",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "رپورٹ #$ $$STATUS$$ $ کو $ کی حیثیت کے بطور نشان زد کریں $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "رپورٹ #$ID$ حذف کر دی گئی۔",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "تمام رپورٹس کلیئر کر دی گئیں۔",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ہدف کی زبان تبدیل کریں؟",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ماخذ کی زبان $SOURCE$ میں بدل گئی۔ کیا آپ $TARGET$ میں ترجمہ کرنا چاہیں گے؟",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ہاں، تبدیلی",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "نہیں، کرنٹ رکھیں",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "کھلا",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "حل",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "یہ کیسے کام کرتا ہے:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "پریمیم خصوصیات:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "خود بخود پتہ چلا: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ڈیٹا کی مطابقت پذیری کریں۔",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ترجمہ کرنے کے لیے $COUNT$ متن ملے",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "منتخب",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "تیاری کر رہا ہے...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "مکمل!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ زبانوں کا ترجمہ شروع ہو رہا ہے...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ مکمل $ کامیابی $/$ کل $ زبانیں $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ سائز $ kb $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ وقت $ s $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "کیش صاف ہو گیا۔",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "متعین نہیں ہے۔",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "بلا عنوان صفحہ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "دیکھیں",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "تصدیق کریں۔",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ٹھیک ہے",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "تفصیل سے مسئلہ بیان کریں...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "براہ کرم مسئلہ بیان کریں۔",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "براہ کرم پہلے سائن ان کریں۔",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "مشورہ: اپنی تبدیلیاں برآمد کرنے کے لیے Ctrl+E دبائیں۔",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ایڈیٹنگ موڈ کو غیر فعال کرنے کے لیے کلک کریں۔ تبدیلیاں برآمد کرنے کے لیے Ctrl+E دبائیں۔",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "کلپ بورڈ پر کاپی ہو گیا!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "بہتری کا اطلاق!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "لاگو $COUNT$ بہتری!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "معیار کی جانچ مکمل",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive سے مطابقت پذیری ہو رہی ہے...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive میں مطابقت پذیر!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Drive کی مطابقت پذیری ناکام ہو گئی۔",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "براہ کرم Drive سے مطابقت پذیری کے لیے سائن ان کریں۔",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive سے مطابقت پذیری ہو رہی ہے...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive سے مطابقت پذیر $COUNT$ رپورٹس!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive میں کوئی رپورٹ نہیں ملی",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ایکسل فائل تیار ہو رہی ہے...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ایکسل فائل برآمد کی گئی: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel میں برآمد کرنے میں خرابی۔",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON فائل برآمد کی گئی: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON کو برآمد کرنے میں خرابی۔",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV فائل برآمد کی گئی: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV میں برآمد کرنے میں خرابی۔",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "براہ کرم ایک درست JSON فائل اپ لوڈ کریں۔",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ ترجمہ کیز لوڈ ہو گئیں۔",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "غلط JSON فائل",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "براہ کرم تمام مراحل مکمل کریں۔",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ترجمہ کے لیے پریمیم درکار ہے۔ براہ کرم اپ گریڈ کریں یا Google Translate استعمال کریں۔",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ میں ترجمہ کرنے میں ناکام",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "تمام تراجم ناکام ہو گئے۔ براہ کرم دوبارہ کوشش کریں۔",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ترجمہ ناکام ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "کامیابی کے ساتھ $COUNT$ زبانوں میں ترجمہ ہو گیا!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ڈاؤن لوڈ کیا گیا۔",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON فائل کو یہاں چھوڑیں یا براؤز کرنے کے لیے کلک کریں۔",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "سپورٹ کرتا ہے: en.json، vi.json، وغیرہ۔",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "گوگل ترجمہ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "گوگل ٹرانسلیٹ API کا استعمال کرتے ہوئے تیز اور مفت ترجمہ",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "اے آئی ترجمہ",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI کا استعمال کرتے ہوئے اعلیٰ معیار کے سیاق و سباق سے آگاہ ترجمہ",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "مفت",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "تیز",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "سیاق و سباق سے آگاہ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "فطری جملہ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI متن کے لیے بہتر ہے۔",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "لائیو ترمیم کو غیر فعال کریں ($COUNT$ ترمیمات)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "لائیو ترمیم کو فعال کریں ($COUNT$ محفوظ)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "منتخب متن ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "بہتر متبادل ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "پریمیم میں اپ گریڈ کریں۔",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "تمام AI خصوصیات اور لامحدود ترجمہ کو غیر مقفل کریں۔",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI سمارٹ تجاویز",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "تیز بیچ ترجمہ",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "آٹو کوالٹی چیک",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ترجیحی حمایت",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "تمام زبانیں سپورٹ کرتی ہیں۔",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ابھی سبسکرائب کریں۔",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "پریمیم اکاؤنٹ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "فعال سبسکرپشن",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "میعاد ختم ہونے کی تاریخ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "باقی دن",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "مسئلہ کی قسم:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "غلط ترجمہ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ٹیکسٹ اوور فلو",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "لے آؤٹ ٹوٹ گیا۔",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "غائب ترجمہ",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "فارمیٹنگ کا مسئلہ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "دیگر",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "بگ رپورٹ مینیجر",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "اپنے لوکلائزیشن کے مسائل کا نظم کریں اور برآمد کریں۔",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "لوکلائزیشن کے مسائل کو ٹریک کرنے کے لیے مسائل کی اطلاع دینا شروع کریں۔",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "کوئی رپورٹ آپ کے فلٹرز سے مماثل نہیں ہے۔",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "تمام حیثیت",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "تمام شدت",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "تمام زمرے",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "اعلی",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "درمیانہ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "کم",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "بہترین!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ٹیکسٹ سیگمنٹس کو چیک کیا اور کوئی مسئلہ نہیں ملا۔",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ماخذ کی زبان:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ہدف کی زبان:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "سائن ان کی ضرورت ہے۔",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ترجمہ کی خصوصیات استعمال کرنے کے لیے براہ کرم سائن ان کریں۔ مفت صارفین کو 10 ترجمے ملتے ہیں۔",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ از $LIMIT$ باقی ہیں۔",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "استعمال کی حد پہنچ گئی۔",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "آپ اپنے استعمال کی حد تک پہنچ گئے ہیں۔ لامحدود رسائی کے لیے پریمیم میں اپ گریڈ کریں۔",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "پریمیم میں اپ گریڈ کریں۔",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "لامحدود ترجمہ اور پریمیم خصوصیات کو غیر مقفل کریں۔",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "فی مہینہ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "لامحدود ترجمہ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "شاید بعد میں",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "کسی بھی وقت منسوخ کریں۔ کوئی سوال نہیں پوچھا۔",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "آپ کا استعمال",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ترجمہ استعمال کیا جاتا ہے",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ترجمہ کی خصوصیات استعمال کرنے کے لیے براہ کرم سائن ان کریں۔",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "کافی ترجمے باقی نہیں ہیں۔ آپ کے پاس $REMAINING$ باقی ہیں لیکن منتخب کردہ $SELECTED$ زبانیں ہیں۔ براہ کرم پریمیم میں اپ گریڈ کریں یا زبانیں کم کریں۔",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "آپ تمام $COUNT$ باقی ترجمے استعمال کر رہے ہیں۔ لامحدود رسائی کے لیے پریمیم میں اپ گریڈ کریں۔",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "اس صفحہ پر نہیں چل سکتا",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI صرف باقاعدہ ویب سائٹوں پر کام کرتا ہے۔ یہ کروم کے اندرونی صفحات پر نہیں چل سکتا۔",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "غیر تعاون یافتہ صفحہ کی قسم",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "غیر تعاون یافتہ صفحات:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI استعمال کرنے کے لیے google.com جیسی باقاعدہ ویب سائٹ کھولیں۔",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ترجمہ شروع کریں۔",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "تمام ڈاؤن لوڈ کریں۔",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "دوسری فائل کا ترجمہ کریں۔",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ڈاؤن لوڈ کریں۔",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON فائل اپ لوڈ کریں۔",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ہدف کی زبانیں منتخب کریں۔",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ترجمہ موڈ کا انتخاب کریں۔",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ کیز کا ترجمہ کیا گیا۔",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ترجمہ مکمل!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "کل رپورٹس",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "اوپن ایشوز",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "اعلیٰ ترجیح",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive سے مطابقت پذیری کریں۔",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Drive سے مطابقت پذیری کریں۔",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ایکسل برآمد کریں۔",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON برآمد کریں۔",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "شدت",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "عنصر",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "مسئلہ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "تجویز کردہ حل",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML دیکھیں",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "ایکس پاتھ",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ویو پورٹ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "موجودہ زبان",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "چابیاں ترجمہ شدہ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "وقت گزر گیا۔",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ترجمہ ہو رہا ہے...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate یا AI کے ساتھ JSON زبان کی فائلوں کا متعدد زبانوں میں ترجمہ کریں۔",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ترجمہ کرنے کے لیے ایک یا زیادہ زبانیں منتخب کریں۔",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "فارمیٹ کا پتہ چلا: $FORMAT$، موڈ: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ میں ترجمہ کیا جا رہا ہے... ($CURRENT$/$TOTAL$ کیز)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ تبدیلیاں برآمد کریں۔",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "اپنی ترجمے کی ٹیم کے ساتھ اشتراک کرنے کے لیے اپنی ترامیم برآمد کریں۔",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ڈاؤن لوڈ کریں۔",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ڈاؤن لوڈ کریں۔",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ تبدیلیاں محفوظ ہو گئیں۔ ایکسپورٹ کرنے کے لیے Ctrl+E دبائیں۔",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ایڈیٹنگ موڈ کو فعال کرنے کے لیے کلک کریں۔",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ایڈیٹنگ موڈ کو فعال کرنے کے لیے کلک کریں۔ آپ نے تبدیلیاں محفوظ کر لی ہیں۔ ایکسپورٹ کرنے کے لیے Ctrl+E دبائیں۔",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "کوئی متن منتخب نہیں کیا گیا۔",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI تجاویز حاصل کرنے کے لیے متن منتخب کریں۔",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "کوئی زبانیں نہیں ملی",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "سائن ان ناکام ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "کامیابی سے سائن ان ہو گیا!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "کامیابی سے سائن آؤٹ ہو گیا۔",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "تصدیق ناکام ہوگئی۔ براہ کرم کیش صاف کرنے اور دوبارہ سائن ان کرنے کی کوشش کریں۔",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "کیشے صاف ہو رہا ہے...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "کیشے صاف کرنے میں ناکام",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ایکسل لائبریری دستیاب نہیں ہے۔ براہ کرم صفحہ دوبارہ لوڈ کریں۔",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "زیادہ سے زیادہ کارکردگی کے لئے زیادہ سے زیادہ $ زیادہ سے زیادہ $ زبانیں۔ $MAX$",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ گنتی $ / $ زیادہ سے زیادہ $ منتخب کردہ $COUNT$ $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "براہ کرم AI ترجمہ استعمال کرنے کے لئے سائن ان کریں",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "مناسب سائز والی فائلوں کے لئے بہترین۔",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "اے آئی وضع: اس سے درخواستیں API کال کریں گی۔",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "اس ترجمہ سے تقریبا app API کالیں لگیں گی۔ $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI موڈ ایک ساتھ زیادہ سے زیادہ $ زیادہ سے زیادہ $ زبانوں کی حمایت کرتا ہے۔ $MAX$",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "ترجمہ کا طریقہ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "مفت",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "لامحدود",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "تیز",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "زبانیں",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "متعدد زبانوں کے ترجمے میں پریمیم کی ضرورت ہوتی ہے۔",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "چیک کیا:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ہجے",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "گرامر",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "فارمیٹنگ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "اصل متن میں کوئی مسئلہ نہیں ہے",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "چیک کیا $ گنتی $ ٹیکسٹ طبقات",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "فکس کرنے کے لئے $ گنتی $ غلطیاں ملی",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "کوئی غلطیاں نہیں!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "کوالٹی چیک رپورٹ",
+    "description": "Quality check report title"
+  }
+}

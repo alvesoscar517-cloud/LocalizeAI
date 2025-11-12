@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI翻譯測試工具。即時翻譯、錯誤報告、偽本地化和批次JSON翻譯。",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "關閉",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "儲存",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "刪除",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "匯出",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "同步",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "來源",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "目標",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "搜尋語言...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "瀏覽器自動偵測",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "語言切換",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "在原文和譯文之間切換",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "工作原理： • 在原文與譯文之間切換 • 譯文已緩存，可快速切換 • 適用於頁面上的所有文本 • 清除快取即可重新翻譯",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "原來的",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "翻譯",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "準備翻譯",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "清除快取並重新翻譯",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "偽定位",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "使用更長的文字測試使用者介面，以查找溢出問題。",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "工作原理： • 將字元替換為帶有重音符號的版本 • 增加 30-40% 的長度擴展 • 將文字換行到 [!!!... !!!] 標記中 • 例如：「設定」 → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "應用偽定位",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "即時編輯模式",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "點擊頁面上的任何文字即可直接編輯。",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "使用方法： • 點選任意文字元素進行編輯 • 即時追蹤更改 • 將編輯內容匯出為 JSON 或 Excel 文件 • 按 Ctrl+E 匯出更改",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "啟用即時編輯",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "人工智慧功能",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "人工智慧驅動的翻譯工具",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "進階功能： • AI 驅動的上下文感知翻譯 • 批次翻譯整個頁面 • 翻譯品質檢查 • 自然語言建議",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "取得人工智慧建議",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "智慧批量翻譯",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "利用人工智慧上下文翻譯頁面上的所有文本",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "檢查翻譯質量",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "高級",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON 檔案轉換器",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "將 JSON 語言檔案翻譯成多種語言",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "工作原理： • 上傳 JSON 語言文件 • 選擇目標語言 • 使用 Google 或 AI 進行翻譯 • 下載翻譯後的文件",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "翻譯 JSON 文件",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "報告問題",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "報告文字翻譯和在地化問題",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "使用方法： • 點選文字元素報告問題 • 增加描述和嚴重程度 • 將報表匯出為 Excel 或 JSON 格式 • 與 Google 雲端硬碟同步",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "開始報告",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "管理報告",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "帳戶",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "使用 Google 登入",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "升級至高級版",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "高級資訊",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "登出",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "錯誤報告",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "搜尋報告…",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "全部清除",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "目前還沒有錯誤報告。",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "點擊“開始報告”以追蹤問題",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "未找到結果",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "嘗試不同的關鍵字",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "看詳情",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "標記為已解決",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "重新開放",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "錯誤回報 #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "基本訊息",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "地位",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "類別",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "日期",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "元素詳情",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "標籤",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "文字",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "選擇器",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "翻譯情境",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "問題描述",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "頁面資訊",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "標題",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "網址",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "刪除報告",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "您確定要刪除報告 #$ID$ 嗎？",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "清除所有報告",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "刪除所有錯誤報告？此操作無法撤銷！",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "全部刪除",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "匯出錯誤報告",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "選擇導出格式：",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "匯出到 Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "導出為 JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "同步至 Google 雲端硬碟",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "報告 #$ID$ 標記為 $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "報表 #$ID$ 已刪除",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "所有報告均已通過。",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "更改目標語言？",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "來源語言已變更為 $SOURCE$。 您想翻譯成 $TARGET$ 嗎？",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "是的，改變",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "不，保持最新",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "打開",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "已解決",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "工作原理：",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "進階功能：",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "自動偵測到：$LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "同步數據",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "找到 $COUNT$ 條待翻譯文本",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "選定",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "準備中…",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "完成！",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "開始翻譯 $COUNT$ 種語言…",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ 已完成 $SUCCESS$/$TOTAL$ 語言",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "時代雜誌 $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "快取已清除",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "未指定",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "無標題頁面",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "檢視",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "確認",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "好的",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "請詳細描述問題…",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "請描述一下問題。",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "請先登入",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "提示：按 Ctrl+E 匯出更改",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "點選即可關閉編輯模式。按Ctrl+E匯出更改。",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "已複製到剪貼簿！",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "改進已生效！",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "應用了 $COUNT$ 項改進！",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "品質檢查完成",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "正在同步到 Google 雲端硬碟...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "已同步至 Google 雲端硬碟！",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "磁碟機同步失敗",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "請登入以從雲端硬碟同步。",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "正在從 Google 雲端硬碟同步...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "已從雲端硬碟同步 $COUNT$ 報告！",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "雲端硬碟中未找到任何報告。",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "正在準備Excel檔案…",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "匯出的 Excel 檔：$FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "匯出到 Excel 時出錯",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "匯出的 JSON 檔案：$FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "導出為 JSON 時出錯",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "匯出的 CSV 檔案：$FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "匯出到 CSV 檔案時出錯",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "請上傳有效的 JSON 文件",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "已載入 $COUNT$ 翻譯鍵",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "無效的 JSON 文件",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "請完成所有步驟",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI翻譯需要高級版功能。請升級或使用谷歌翻譯。",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "翻譯成 $LANG$ 失敗",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "所有翻譯均失敗，請重試。",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "翻譯失敗，請重試。",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "已成功翻譯成 $COUNT$ 種語言！",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "已下載 $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "將 JSON 檔案拖曳到此處或點擊瀏覽",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "支持：en.json、vi.json等",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google翻譯",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "使用 Google Translate API 進行快速免費翻譯",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "人工智慧翻譯",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "利用人工智慧實現高品質的上下文感知翻譯",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "免費",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "快速地",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "情境感知",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "自然的措辭",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "更適合使用者介面文本",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "停用即時編輯（$COUNT$ 次編輯）",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "啟用即時編輯（已節省$COUNT$）",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "選取文字（$LANG$）",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "更佳替代方案（$LANG$）",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "升級至高級版",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "解鎖所有人工智慧功能和無限翻譯",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "人工智慧智能建議",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "快速批量翻譯",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "自動品質檢查",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "優先支持",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "所有語言均支援",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "立即訂閱",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "進階帳戶",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "有效訂閱",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "到期日",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "剩餘天數",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "問題類型：",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "翻譯錯誤",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "文字溢出",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "佈局錯誤",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "缺失翻譯",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "格式問題",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "其他",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "錯誤報告管理器",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "管理和匯出您的本地化問題",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "開始報告問題以追蹤本地化問題",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "沒有符合您篩選條件的報告。",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "所有狀態",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "所有嚴重程度",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "所有類別",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "高的",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "中等的",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "低的",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "出色的！",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "檢查了 $COUNT$ 個文字段，未發現任何問題。",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "源語言：",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "目標語言：",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "需要登入",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "請登入以使用翻譯功能。免費用戶可翻譯 10 篇文字。",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "剩餘 $LIMIT$ 個翻譯 $REMAINING$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "使用次數已達上限",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "您的使用量已達上限。升級至高級版即可享受無限流量。",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "升級至高級版",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "解鎖無限翻譯和高級功能",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "每月",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "無限翻譯",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "也許以後",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "隨時可以取消，無需任何理由。",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "您的使用情況",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "使用的翻譯",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "請登入以使用翻譯功能",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "剩餘翻譯數量不足。您剩下 $REMAINING$ 個翻譯名額，但已選擇 $SELECTED$ 種語言。請升級至進階版或減少翻譯種數。",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "您已用完所有剩餘的 $COUNT$ 翻譯次數。升級到高級版即可享受無限翻譯次數。",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "此頁面無法運行",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI 僅適用於一般網站，無法在 Chrome 瀏覽器內嵌頁面上運作。",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "不支援的頁面類型",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "不支援的頁面：",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "開啟一個普通的網站，例如 google.com，即可使用 LocalizeAI。",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "開始翻譯",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "下載全部",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "翻譯另一個文件",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "下載",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "上傳 JSON 文件",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "選擇目標語言",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "選擇翻譯模式",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ 鍵已翻譯",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "翻譯完成！",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "報告總數",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "未解決的問題",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "高優先級",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "同步到硬碟",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "從雲端硬碟同步",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "匯出 Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "導出 JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "嚴重程度",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "元素",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "問題",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "建議的解決方案",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "檢視 HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "X路徑",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "視窗",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "目前語言",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "密鑰翻譯",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "時間流逝",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "正在翻譯…",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "使用谷歌翻譯或人工智慧將 JSON 語言檔案翻譯成多種語言。",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "選擇一種或多種要翻譯的語言",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "偵測到格式：$FORMAT$，模式：$MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "正在翻譯成 $LANG$... ($CURRENT$/$TOTAL$ 鍵)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "匯出 $COUNT$ 更改",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "匯出您的編輯內容，以便與您的翻譯團隊分享。",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "下載 CSV 文件",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "下載 JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "已儲存 $COUNT$ 項變更。按 Ctrl+E 匯出。",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "點選啟用編輯模式",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "點選啟用編輯模式。更改已儲存。按 Ctrl+E 匯出。",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "未選擇任何文字",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "選擇文字以取得 AI 建議",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "未找到任何語言",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "登入失敗，請重試。",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "登入成功！",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "已成功登出",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "身份驗證失敗。請嘗試清除快取並重新登入。",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "正在清除快取...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "清除快取失敗",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel庫不可用。請重新載入頁面。",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "為了獲得最佳性能，一次最多 $MAX$ 種語言。請分批翻譯。",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "已選擇 $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "請登入以使用 AI 翻譯",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "最適合大小合理的檔案。一次最多5種語言。",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI 模式：這將進行 $REQUESTS$ API 調用。最大值為 $MAX$。請減少文件大小或語言數量。",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "這將進行約$COUNT$次API呼叫。翻譯可能需要幾分鐘。請耐心等待。",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI 模式一次支持最多 $MAX$ 種語言。請減少您的選擇。",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "翻譯方法",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "自由的",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "無限",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "快速地",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "語言",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "多語言翻譯需要 Premium。免費用戶一次可以翻譯成一種語言。升級可同時翻譯為多種語言！",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "檢查：",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "拼寫",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "文法",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "格式化",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "原文沒有問題",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "已檢查 <strong>$COUNT$</strong> 個文本段",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "發現 <strong>$COUNT$</strong> 個錯誤需要修復",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "沒有錯誤！",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "質量檢查報告",
+    "description": "Quality check report title"
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI 번역 테스트 도구. 실시간 번역, 버그 보고, 의사 현지화 및 일괄 JSON 번역.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "닫다",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "취소",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "저장",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "삭제",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "내보내다",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "동기화",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "소스",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "목표",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "언어 검색...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "브라우저에서 자동 감지됨",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "언어 전환",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "원본 텍스트와 번역된 텍스트 간 전환",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "작동 방식: • 원문과 번역문 간 전환 • 빠른 전환을 위해 번역 내용이 캐시됩니다. • 페이지의 모든 텍스트에 적용 • 캐시를 삭제하여 다시 번역",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "원래의",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "번역됨",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "번역 준비 완료",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "캐시 지우기 및 다시 번역",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "의사 지역화",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "오버플로 문제를 찾기 위해 긴 텍스트로 UI 테스트",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "작동 방식: • 문자를 악센트 부호가 있는 문자로 바꿉니다. • 문자를 30~40% 길이로 확장합니다. • 텍스트를 [!!!... !!!] 마커로 감쌉니다. • 예: \"설정\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Pseudo-Loc 적용",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "라이브 편집 모드",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "페이지에서 직접 편집하려면 텍스트를 클릭하세요.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "작동 방식: • 텍스트 요소를 클릭하여 편집하세요. • 변경 사항은 실시간으로 추적됩니다. • 편집 내용을 JSON 또는 Excel로 내보내세요. • Ctrl+E를 눌러 변경 사항을 내보내세요.",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "라이브 편집 활성화",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "AI 기능",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "AI 기반 번역 도구",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "프리미엄 기능: • AI 기반 상황 인식 번역 • 전체 페이지 일괄 번역 • 번역 품질 검사 • 자연어 제안",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI 제안 받기",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "스마트 일괄 번역",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "AI 컨텍스트를 사용하여 페이지의 모든 텍스트를 번역합니다.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "번역 품질 확인",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "프리미엄",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON 파일 변환기",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON 언어 파일을 여러 언어로 번역",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "작동 방식: • JSON 언어 파일 업로드 • 대상 언어 선택 • Google 또는 AI로 번역 • 번역된 파일 다운로드",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON 파일 번역",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "문제 보고",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "텍스트 번역 및 현지화 문제 보고",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "작동 방식: • 텍스트 요소를 클릭하여 문제를 보고하세요. • 설명과 심각도를 추가하세요. • 보고서를 Excel 또는 JSON으로 내보내세요. • Google Drive와 동기화하세요.",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "보고 시작",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "보고서 관리",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "계정",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Google로 로그인",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "프리미엄으로 업그레이드",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "프리미엄 정보",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "로그아웃",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "버그 리포트",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "보고서 검색...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "모두 지우기",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "아직 버그 보고가 없습니다",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "문제를 추적하려면 \"신고 시작\"을 클릭하세요.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "검색 결과가 없습니다",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "다른 키워드를 시도해 보세요",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "자세한 내용 보기",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "해결됨으로 표시",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "다시 열다",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "버그 보고서 #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "기본 정보",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "상태",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "범주",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "날짜",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "요소 세부 정보",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "꼬리표",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "텍스트",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "선택자",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "번역 맥락",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "문제 설명",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "페이지 정보",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "제목",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "보고서 삭제",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "보고서 #$ID$를 삭제하시겠습니까?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "모든 보고서 지우기",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "모든 버그 보고서를 삭제하시겠습니까? 이 작업은 실행 취소할 수 없습니다!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "모두 삭제",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "버그 보고서 내보내기",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "내보내기 형식을 선택하세요:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Excel로 내보내기",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON으로 내보내기",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google 드라이브와 동기화",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "$STATUS$로 표시된 보고서 #$ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "보고서 #$ID$가 삭제되었습니다.",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "모든 보고서가 삭제되었습니다",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "대상 언어를 변경하시겠습니까?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "원본 언어가 $SOURCE$로 변경되었습니다. $TARGET$로 번역하시겠습니까?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "네, 변경합니다",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "아니요, 최신 상태를 유지하세요",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "열려 있는",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "해결됨",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "작동 원리:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "프리미엄 기능:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "자동 감지됨: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "데이터 동기화",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "번역할 $COUNT$개의 텍스트를 찾았습니다.",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "선택된",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "준비 중...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "완료!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$개 언어에 대한 번역을 시작합니다...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ $SUCCESS$/$TOTAL$ 언어를 완료했습니다.",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$초",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "캐시가 지워졌습니다",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "지정되지 않음",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "제목 없는 페이지",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "보다",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "확인하다",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "좋아요",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "문제를 자세히 설명해 주세요...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "문제를 설명해 주세요",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "먼저 로그인하세요",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "팁: Ctrl+E를 눌러 변경 사항을 내보냅니다.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "편집 모드를 비활성화하려면 클릭하세요. 변경 사항을 내보내려면 Ctrl+E를 누르세요.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "클립보드에 복사되었습니다!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "개선 사항이 적용되었습니다!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$개의 개선 사항이 적용되었습니다!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "품질 검사 완료",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive와 동기화 중...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Google Drive와 동기화되었습니다!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "드라이브 동기화에 실패했습니다",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Drive에서 동기화하려면 로그인하세요.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google Drive에서 동기화 중...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "Drive에서 $COUNT$개의 보고서를 동기화했습니다!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive에서 보고서를 찾을 수 없습니다.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel 파일을 준비 중입니다...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Excel 파일 내보내기: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Excel로 내보내는 중 오류가 발생했습니다.",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON 파일 내보내기: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON으로 내보내는 중 오류가 발생했습니다.",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV 파일 내보내기: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV로 내보내는 중 오류가 발생했습니다.",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "유효한 JSON 파일을 업로드해 주세요.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$개의 번역 키가 로드되었습니다.",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "잘못된 JSON 파일",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "모든 단계를 완료해 주세요",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI 번역을 사용하려면 프리미엄이 필요합니다. 업그레이드하거나 Google Translate를 사용하세요.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$로 번역하는 데 실패했습니다.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "모든 번역에 실패했습니다. 다시 시도해 주세요.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "번역에 실패했습니다. 다시 시도해 주세요.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$개 언어로 번역이 완료되었습니다!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$을 다운로드했습니다.",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON 파일을 여기에 놓거나 클릭하여 찾아보세요.",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "지원: en.json, vi.json 등",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "구글 번역",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Google Translate API를 이용한 빠르고 무료 번역",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "AI 번역",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI를 활용한 고품질 상황 인식 번역",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "무료",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "빠른",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "상황 인식",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "자연스러운 표현",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI 텍스트에 더 적합함",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "라이브 편집 비활성화($COUNT$개 편집)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "라이브 편집 활성화 ($COUNT$개 저장됨)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "선택한 텍스트 ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "더 나은 대안 ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "프리미엄으로 업그레이드",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "모든 AI 기능과 무제한 번역을 잠금 해제하세요",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI 스마트 제안",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "빠른 일괄 번역",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "자동 품질 검사",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "우선 지원",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "모든 언어 지원",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "지금 구독하세요",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "프리미엄 계정",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "활성 구독",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "만료일",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "남은 일수",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "문제 유형:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "잘못된 번역",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "텍스트 오버플로",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "레이아웃이 깨졌습니다",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "번역 누락",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "서식 문제",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "다른",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "버그 보고 관리자",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "현지화 문제를 관리하고 내보내세요",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "현지화 문제를 추적하기 위해 문제 보고를 시작하세요.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "필터와 일치하는 보고서가 없습니다.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "모든 상태",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "모든 심각도",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "모든 카테고리",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "높은",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "중간",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "낮은",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "훌륭한!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$개의 텍스트 세그먼트를 확인했지만 문제가 발견되지 않았습니다.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "원문 언어:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "대상 언어:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "로그인이 필요합니다",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "번역 기능을 사용하려면 로그인하세요. 무료 사용자는 10개의 번역을 받을 수 있습니다.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$개 중 $REMAINING$개의 번역이 남았습니다.",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "사용 한도에 도달했습니다",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "사용 한도에 도달했습니다. 무제한 이용을 원하시면 프리미엄으로 업그레이드하세요.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "프리미엄으로 업그레이드",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "무제한 번역 및 프리미엄 기능 잠금 해제",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "한 달에",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "무제한 번역",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "아마 나중에",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "언제든지 취소 가능합니다. 질문도 받지 않습니다.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "귀하의 사용",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "사용된 번역",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "번역 기능을 사용하려면 로그인하세요.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "남은 번역 수가 충분하지 않습니다. $REMAINING$개가 남았지만 $SELECTED$개의 언어를 선택했습니다. 프리미엄으로 업그레이드하거나 언어 수를 줄여주세요.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "남은 번역 $COUNT$개를 모두 사용하고 있습니다. 무제한으로 이용하려면 프리미엄으로 업그레이드하세요.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "이 페이지에서 실행할 수 없습니다",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI는 일반 웹사이트에서만 작동합니다. Chrome 내부 페이지에서는 실행할 수 없습니다.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "지원되지 않는 페이지 유형",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "지원되지 않는 페이지:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI를 사용하려면 google.com과 같은 일반 웹사이트를 엽니다.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "번역 시작",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "모두 다운로드",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "다른 파일 번역",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "다운로드",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON 파일 업로드",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "대상 언어 선택",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "번역 모드 선택",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$개의 키가 번역되었습니다.",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "번역이 완료되었습니다!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "총 보고서",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "미해결 문제",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "높은 우선순위",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "드라이브와 동기화",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "드라이브에서 동기화",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Excel 내보내기",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON 내보내기",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "심각성",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "요소",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "문제",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "제안된 솔루션",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML 보기",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "엑스패스",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "뷰포트",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "현재 언어",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "번역된 키",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "경과 시간",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "번역 중...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Google Translate 또는 AI를 사용하여 JSON 언어 파일을 여러 언어로 번역합니다.",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "번역할 하나 이상의 언어를 선택하세요",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "감지된 형식: $FORMAT$, 모드: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$... ($CURRENT$/$TOTAL$ 키)로 번역 중입니다.",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$개의 변경 사항 내보내기",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "번역 팀과 공유하기 위해 편집 내용을 내보내세요.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV 다운로드",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON 다운로드",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$개의 변경 사항이 저장되었습니다. Ctrl+E를 눌러 내보내세요.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "편집 모드를 활성화하려면 클릭하세요",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "편집 모드를 활성화하려면 클릭하세요. 변경 사항이 저장되었습니다. Ctrl+E를 눌러 내보내세요.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "선택된 텍스트가 없습니다",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI 제안을 받으려면 텍스트를 선택하세요",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "언어가 발견되지 않았습니다",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "로그인에 실패했습니다. 다시 시도해 주세요.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "성공적으로 로그인되었습니다!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "성공적으로 로그아웃되었습니다",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "인증에 실패했습니다. 캐시를 지우고 다시 로그인해 보세요.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "캐시를 지우는 중...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "캐시를 지우지 못했습니다",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel 라이브러리를 사용할 수 없습니다. 페이지를 새로 고침하세요.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "최적의 성능을 위해 한 번에 최대 $MAX$개 언어. 일괄 번역하세요.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ 선택됨",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "AI 번역을 사용하려면 로그인하세요",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "적당한 크기의 파일에 가장 적합합니다. 한 번에 최대 5개 언어.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI 모드: $REQUESTS$ API 호출을 수행합니다.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "약 $COUNT$번의 API 호출을 수행합니다. 번역에 몇 분이 걸릴 수 있습니다. 기다려 주세요.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI 모드는 한 번에 최대 $MAX$ 언어를 지원합니다.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "번역 방법",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "무료",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "제한 없는",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "빠른",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "언어",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "다국어 번역에는 프리미엄이 필요합니다.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "확인됨:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "철자",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "문법",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "서식 지정",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "원본 텍스트에는 문제가 없습니다.",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong>개의 텍스트 세그먼트를 확인했습니다.",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "수정할 오류 <strong>$COUNT$</strong>개를 찾았습니다.",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "오류가 없습니다!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "품질 점검 보고서",
+    "description": "Quality check report title"
+  }
+}

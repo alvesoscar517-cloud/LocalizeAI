@@ -1,0 +1,1408 @@
+{
+  "appDesc": {
+    "message": "Kayan gwajin fassarar AI. Fassarar kai tsaye, rahoton kuskure, pseudo-gida da fassarar JSON na rukuni.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Kusa",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Soke",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Ajiye",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Share",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "fitarwa",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Aiki tare",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "MAJIYA",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "MANUFI",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Bincika harsuna...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "An gano ta atomatik daga mai bincike",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Juya Harshe",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Canja tsakanin asali da rubutu da aka fassara",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Yadda yake aiki: • Canja tsakanin asali da rubutu da aka fassara • An adana fassarori don saurin sauyawa • Yana aiki tare da duk rubutu akan shafi • Share cache don sake fassarawa",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Na asali",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Fassara",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Shirye don fassara",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Share Cache & Sake Fassara",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Ƙwararren Ƙwararren Ƙaura",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Gwada UI tare da rubutu mai tsayi don nemo matsalolin ambaliya",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Yadda yake aiki:",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Aiwatar da Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Yanayin Gyara Rayuwa",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Danna kowane rubutu don gyara kai tsaye a shafi",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Yadda yake aiki: Danna kowane nau'in rubutu don gyara shi • Ana bin diddigin canje-canje a ainihin-lokaci • Fitar da gyare-gyare azaman JSON ko Excel Latsa Ctrl+E don fitarwa canje-canje",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Kunna Gyara Live",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Siffofin AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Kayan aikin fassara masu ƙarfin AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Fasali na Premium:",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Samu Shawarwari na AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Fassara Smart Batch",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "Yana Fassara DUK rubutu akan shafi tare da mahallin AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Duba Ingancin Fassara",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Kuɗin inshuwara na shekara-shekara",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Mai Fassarar Fayil na JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Fassara fayilolin JSON zuwa harsuna da yawa",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Yadda yake aiki: • Loda fayilolin yaren JSON • Zaɓi yaren da ake hari • Fassara da Google ko AI Zazzage fayilolin da aka fassara",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Fassara Fayil JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Batun Rahoto",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Bayar da rahoton fassarar rubutu da al'amurran da suka shafi yanki",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Yadda yake aiki: • Danna abubuwan rubutu don ba da rahoton al'amura • Ƙara bayani da tsanani • Fitar da rahotanni zuwa Excel ko JSON • Aiki tare da Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Fara Rahoto",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Sarrafa Rahotanni",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Asusu",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Shiga tare da Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Haɓakawa zuwa Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Premium Bayani",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Fita",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Rahoton Bug",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Bincike rahotanni...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Share Duk",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Babu rahoton kwaro tukuna",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Danna \"Fara Rahoto\" don bin diddigin batutuwa",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Ba a sami sakamako ba",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Gwada kalmomi daban-daban",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Duba cikakkun bayanai",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Yi alama kamar yadda aka warware",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Sake buɗewa",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Rahoton Bug #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Bayanan asali",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Matsayi",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Kashi",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Kwanan wata",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Cikakken Bayani",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Alama",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Rubutu",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Mai zaɓe",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Maganar Fassara",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Bayanin Batutuwa",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Bayanin Shafi",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Take",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Share Rahoton",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Shin kun tabbata kuna son share rahoton #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Share Dukkan Rahotanni",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Share DUK rahotannin kwaro? Ba za a iya soke wannan aikin ba!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Share Duk",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Fitar da Rahoton Bug",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Zaɓi tsarin fitarwa:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Fitarwa zuwa Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Fitarwa zuwa JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Daidaita zuwa Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Rahoton # $ $$STATUS$$ $ alama a matsayin $ matsayi $ $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "An goge rahoton #$ID$",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "An share duk rahotanni",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Canza Harshen Tarihi?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Harshen tushe ya canza zuwa $ SOURCE$. Kuna so a fassara zuwa $TARGET$? $SOURCE$",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ee, Canji",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "A'a, Ci gaba a halin yanzu",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "bude",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "warware",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Yadda yake aiki:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Fasali na Premium:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "An gano ta atomatik: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Daidaita bayanai",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "An samo rubutun $COUNT$ don fassarawa",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "zaba",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Ana shirya...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Kammala!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Fara fassara don $COUNT$ harsuna...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ kammala $ nasara $ / $ yawan $ yare $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$ Girma $ kb $SIZE$",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ Lokaci $ S $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "An share cache",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Ba a kayyade ba",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Shafi mara taken",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Duba",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Tabbatar",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "KO",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Yi bayanin lamarin daki-daki...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Da fatan za a bayyana batun",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Da fatan za a fara shiga",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Tukwici: Latsa Ctrl+E don fitar da canje-canjenku",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Danna don kashe yanayin gyarawa. Latsa Ctrl+E don fitarwa canje-canje.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "An kwafi zuwa allo!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "An yi amfani da haɓakawa!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "Aiwatar da haɓaka $COUNT$!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Tabbatar da inganci ya cika",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Ana daidaitawa zuwa Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "An daidaita zuwa Google Drive!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "An gaza daidaita aikin tuƙi",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Da fatan za a shiga don daidaitawa daga Drive",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Ana daidaitawa daga Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "An daidaita rahotanni $COUNT$ daga Drive!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Babu rahoton da aka samu a Drive",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Ana shirya fayil ɗin Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "An fitar da fayil ɗin Excel: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Kuskuren fitarwa zuwa Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "An fitar da fayil ɗin JSON: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Kuskuren fitarwa zuwa JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "An fitar da fayil ɗin CSV: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Kuskuren fitarwa zuwa CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Da fatan za a loda ingantaccen fayil na JSON",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Load da maɓallan fassarar $COUNT$",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fayil JSON mara inganci",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Da fatan za a kammala duk matakai",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "Fassarar AI na Musamman.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "An kasa fassara zuwa $LANG$",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Duk fassarorin sun kasa. Da fatan za a sake gwadawa.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Fassarar ta kasa. Da fatan za a sake gwadawa.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Anyi nasarar fassara zuwa harsuna $COUNT$!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "An sauke $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Ajiye fayil ɗin JSON anan ko danna don lilo",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Taimako: en.json, vi.json, da sauransu.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "fassarar Google",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Fassara mai sauri da kyauta ta amfani da Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Fassarar AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Fassara mai inganci mai inganci ta amfani da AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Kyauta",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Mai sauri",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Sanin yanayi",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Kalmomin dabi'a",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Mafi kyau ga rubutun UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "A kashe Gyara Live ($ $COUNT$$ gyara)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Kunna Gyara Live ($ $COUNT$$ an adana)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Rubutun da aka zaɓa ($ $LANG$$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Zaɓuɓɓuka mafi kyau ($ $LANG$$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Haɓakawa zuwa Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Buɗe duk fasalulluka na AI da fassarorin marasa iyaka",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "AI smart shawarwari",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Fassarar tsari mai sauri",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Duba ingancin atomatik",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Tallafin fifiko",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Duk harsuna suna tallafawa",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Yi rijista yanzu",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Asusun Premium",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Biyan kuɗi mai aiki",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Ranar Karewa",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Sauran Kwanaki",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Nau'in Batun:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Fassara mara kyau",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Rubutu ya cika",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Layout Karshe",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Fassarar Bace",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Batun Tsara",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Sauran",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Manajan Rahoton Bug",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Sarrafa da fitar da al'amurran keɓantawar ku",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Fara ba da rahoton al'amurra don bin diddigin matsalolin gida",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Babu rahotanni da suka dace da matatun ku",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Duk Matsayi",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Duk Tsanani",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Duk Categories",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Babban",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Matsakaici",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Ƙananan",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Madalla!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "An duba sassan rubutun $COUNT$ kuma ba a sami matsala ba.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Harshen Tushen:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Harshen manufa:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Ana Bukatar Shiga",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Da fatan za a shiga don amfani da fasalin fassarar. Masu amfani kyauta suna samun fassarori 10.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "REMAINING$ na $LIMIT$ fassarorin da suka rage $REMAINING$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Iyakar Amfani",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Kun isa iyakar amfanin ku.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Haɓakawa zuwa Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Buɗe fassarori marasa iyaka da fasalulluka masu ƙima",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "kowane wata",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Fassara mara iyaka",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Wataƙila daga baya",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Soke kowane lokaci. Babu tambayoyi da aka yi.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Amfanin ku",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "fassarorin da aka yi amfani da su",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Da fatan za a shiga don amfani da fasalin fassarar",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Babu isassun fassarorin da suka rage. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Kuna amfani da duk $ Crack $ Sauran fassara. $COUNT$",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "Ba za a iya Gudu akan Wannan Shafi ba",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI yana aiki ne kawai akan gidajen yanar gizo na yau da kullun. Ba zai iya gudana akan shafukan ciki na Chrome ba.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Nau'in shafi mara tallafi",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Shafukan da ba su da tallafi:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Bude gidan yanar gizo na yau da kullun kamar google.com don amfani da LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Fara Fassara",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Zazzage Duk",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Fassara Wani Fayil",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Zazzagewa",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Loda Fayil JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Zaɓi Harsunan Target",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Zaɓi Yanayin Fassara",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "An fassara maɓallan $COUNT$",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "An Kammala Fassara!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Jimlar Rahotanni",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Buɗe Batutuwa",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Babban fifiko",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Daidaita zuwa Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Aiki tare daga Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Fitar Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Fitar da JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Tsanani",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Abun ciki",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Batu",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Shawarwari Magani",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "Duba HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPAT",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Kallon kallo",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Harshen Yanzu",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Maɓallai Fassara",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Lokaci Ya Kure",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Fassara...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Fassara fayilolin JSON zuwa harsuna da yawa tare da Google Translate ko AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Zaɓi ɗaya ko fiye harsuna don fassara zuwa",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "An gano tsari: $ FORMAT$, Yanayin: $MODE$ $FORMAT$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Fassara zuwa $LANG$... ($ CURRENT$/$TOTAL$ maɓallan) $CURRENT$",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Canje-canje na fitarwa $COUNT$",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Fitar da gyare-gyarenku don rabawa tare da ƙungiyar fassarar ku",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "Zazzage CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "Zazzage JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ an adana canje-canje. Latsa Ctrl+E don fitarwa.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Danna don kunna yanayin gyarawa",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Danna don kunna yanayin gyarawa. Kun ajiye canje-canje. Latsa Ctrl+E don fitarwa.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Babu rubutu da aka zaɓa",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Zaɓi rubutu don samun shawarwarin AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Ba a sami yaruka ba",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Shiga ya kasa. Da fatan za a sake gwadawa.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Shiga cikin nasara!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "An fita cikin nasara",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "An gaza tantancewa. Da fatan za a gwada share cache da sake shiga.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Ana share cache...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "An kasa share cache",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Babu ɗakin karatu na Excel. Da fatan za a sake shigar da shafin.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Matsakaicin $ $MAX$ $ Harsuna A Sau ɗaya don ingantaccen aiki.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ K$$MAX$$aya $ / $ $$MAX$$ $ $ $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Da fatan za a shiga don amfani da fassarar AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Mafi kyau don fayiloli tare da girman m.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "Yanayin AI: Wannan zai sa buƙatun API ya kira.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Wannan fassarar za ta yi kusan kiran API. $COUNT$",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "Yanayin AI yana goyan bayan iyakar damar $ yaruka a lokaci ɗaya. $MAX$",
+    "description": "AI max languages exceeded message"
+  },
+  "translationMethod": {
+    "message": "Hanyar fassara",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Sakakke",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "Wanda ba a da iyaka",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Da sauri",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "yare",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Translationsararren yarukan da yawa na buƙatar Premium.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Duba:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Iyawar haruffan kalma",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Nahawu",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Tsari",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Rubutun asali bashi da matsala",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Duba $ kirga kashi na $ rubutun",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Ya sami Kuskuren $ Kewaya don Gyara",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Babu kurakurai!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Rahoton bincike mai inganci",
+    "description": "Quality check report title"
+  }
+}

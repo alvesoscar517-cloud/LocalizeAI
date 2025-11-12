@@ -1,0 +1,25 @@
+{
+  "name": "localizeai",
+  "version": "1.0.0",
+  "description": "AI-powered localization testing Chrome extension",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "zip": "node scripts/zip.js",
+    "deploy": "cd backend && gcloud run deploy localizeai-api --source .",
+    "validate": "node scripts/validate-and-fix-locales.js",
+    "fix-placeholders": "node scripts/auto-fix-placeholder-errors.js"
+  },
+  "keywords": [
+    "localization",
+    "i18n",
+    "l10n",
+    "chrome-extension",
+    "translation",
+    "testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "^6.0.1"
+  }
+}

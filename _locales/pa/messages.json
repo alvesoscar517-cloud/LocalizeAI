@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI ਅਨੁਵਾਦ ਟੈਸਟਿੰਗ ਟੂਲ। ਲਾਈਵ ਅਨੁਵਾਦ, ਬੱਗ ਰਿਪੋਰਟਿੰਗ, ਸੂਡੋ-ਸਥਾਨੀਕਰਨ ਅਤੇ ਬੈਚ JSON ਅਨੁਵਾਦ।",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ਬੰਦ ਕਰੋ",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ਰੱਦ ਕਰੋ",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "ਸੇਵ ਕਰੋ",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ਮਿਟਾਓ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ਸਿੰਕ ਕਰੋ",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "ਸਰੋਤ",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "ਟੀਚਾ",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ਭਾਸ਼ਾਵਾਂ ਖੋਜੋ...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ਬ੍ਰਾਊਜ਼ਰ ਤੋਂ ਸਵੈ-ਖੋਜਿਆ ਗਿਆ",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ਭਾਸ਼ਾ ਟੌਗਲ",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ਮੂਲ ਅਤੇ ਅਨੁਵਾਦਿਤ ਟੈਕਸਟ ਵਿਚਕਾਰ ਸਵਿਚ ਕਰੋ",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: • ਮੂਲ ਅਤੇ ਅਨੁਵਾਦਿਤ ਟੈਕਸਟ ਵਿਚਕਾਰ ਟੌਗਲ ਕਰੋ • ਅਨੁਵਾਦਾਂ ਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਬਦਲਣ ਲਈ ਕੈਸ਼ ਕੀਤਾ ਜਾਂਦਾ ਹੈ • ਪੰਨੇ 'ਤੇ ਸਾਰੇ ਟੈਕਸਟ ਨਾਲ ਕੰਮ ਕਰਦਾ ਹੈ • ਦੁਬਾਰਾ ਅਨੁਵਾਦ ਕਰਨ ਲਈ ਕੈਸ਼ ਸਾਫ਼ ਕਰੋ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ਅਸਲੀ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "ਅਨੁਵਾਦ ਕਰਨ ਲਈ ਤਿਆਰ",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ਕੈਸ਼ ਸਾਫ਼ ਕਰੋ ਅਤੇ ਮੁੜ ਅਨੁਵਾਦ ਕਰੋ",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "ਸੂਡੋ-ਸਥਾਨੀਕਰਨ",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ਓਵਰਫਲੋ ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਲੱਭਣ ਲਈ ਲੰਬੇ ਟੈਕਸਟ ਨਾਲ UI ਦੀ ਜਾਂਚ ਕਰੋ",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: • ਅੱਖਰਾਂ ਨੂੰ ਐਕਸੈਂਟ ਕੀਤੇ ਸੰਸਕਰਣਾਂ ਨਾਲ ਬਦਲਦਾ ਹੈ • 30-40% ਲੰਬਾਈ ਦਾ ਵਿਸਥਾਰ ਜੋੜਦਾ ਹੈ • [!!!... !!!] ਮਾਰਕਰਾਂ ਵਿੱਚ ਟੈਕਸਟ ਨੂੰ ਲਪੇਟਦਾ ਹੈ • ਉਦਾਹਰਣ: \"ਸੈਟਿੰਗਾਂ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "ਸੂਡੋ-ਲੋਕ ਲਾਗੂ ਕਰੋ",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "ਲਾਈਵ ਐਡਿਟ ਮੋਡ",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "ਪੰਨੇ 'ਤੇ ਸਿੱਧਾ ਸੰਪਾਦਿਤ ਕਰਨ ਲਈ ਕਿਸੇ ਵੀ ਟੈਕਸਟ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: • ਕਿਸੇ ਵੀ ਟੈਕਸਟ ਐਲੀਮੈਂਟ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ • ਤਬਦੀਲੀਆਂ ਨੂੰ ਅਸਲ-ਸਮੇਂ ਵਿੱਚ ਟਰੈਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ • ਸੰਪਾਦਨਾਂ ਨੂੰ JSON ਜਾਂ Excel ਦੇ ਰੂਪ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ • ਤਬਦੀਲੀਆਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰਨ ਲਈ Ctrl+E ਦਬਾਓ",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "ਲਾਈਵ ਸੰਪਾਦਨ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "ਏਆਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "ਏਆਈ-ਸੰਚਾਲਿਤ ਅਨੁਵਾਦ ਟੂਲ",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ: • ਏਆਈ-ਸੰਚਾਲਿਤ ਸੰਦਰਭ-ਜਾਗਰੂਕ ਅਨੁਵਾਦ • ਪੂਰੇ ਪੰਨਿਆਂ ਦਾ ਬੈਚ ਅਨੁਵਾਦ • ਅਨੁਵਾਦਾਂ ਲਈ ਗੁਣਵੱਤਾ ਜਾਂਚ • ਕੁਦਰਤੀ ਭਾਸ਼ਾ ਸੁਝਾਅ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "AI ਸੁਝਾਅ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ਸਮਾਰਟ ਬੈਚ ਅਨੁਵਾਦ",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "ਪੰਨੇ 'ਤੇ ਸਾਰੇ ਟੈਕਸਟ ਦਾ AI ਸੰਦਰਭ ਨਾਲ ਅਨੁਵਾਦ ਕਰਦਾ ਹੈ।",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ਅਨੁਵਾਦ ਗੁਣਵੱਤਾ ਦੀ ਜਾਂਚ ਕਰੋ",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "ਪ੍ਰੀਮੀਅਮ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ਫਾਈਲ ਅਨੁਵਾਦਕ",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ਭਾਸ਼ਾ ਫਾਈਲਾਂ ਦਾ ਕਈ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰੋ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: • JSON ਭਾਸ਼ਾ ਫਾਈਲਾਂ ਅੱਪਲੋਡ ਕਰੋ • ਟੀਚਾ ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ • Google ਜਾਂ AI ਨਾਲ ਅਨੁਵਾਦ ਕਰੋ • ਅਨੁਵਾਦ ਕੀਤੀਆਂ ਫਾਈਲਾਂ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ਫਾਈਲ ਦਾ ਅਨੁਵਾਦ ਕਰੋ",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "ਸਮੱਸਿਆ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ਟੈਕਸਟ ਅਨੁਵਾਦ ਅਤੇ ਸਥਾਨੀਕਰਨ ਸਮੱਸਿਆਵਾਂ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ: • ਸਮੱਸਿਆਵਾਂ ਦੀ ਰਿਪੋਰਟ ਕਰਨ ਲਈ ਟੈਕਸਟ ਐਲੀਮੈਂਟਸ 'ਤੇ ਕਲਿੱਕ ਕਰੋ • ਵਰਣਨ ਅਤੇ ਗੰਭੀਰਤਾ ਸ਼ਾਮਲ ਕਰੋ • ਰਿਪੋਰਟਾਂ ਨੂੰ ਐਕਸਲ ਜਾਂ JSON ਵਿੱਚ ਐਕਸਪੋਰਟ ਕਰੋ • Google ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕਰੋ",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "ਰਿਪੋਰਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ਰਿਪੋਰਟਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "ਖਾਤਾ",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "ਗੂਗਲ ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਜਾਣਕਾਰੀ",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ਸਾਇਨ ਆਉਟ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "ਬੱਗ ਰਿਪੋਰਟਾਂ",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ਰਿਪੋਰਟਾਂ ਖੋਜੋ...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ਸਭ ਸਾਫ਼ ਕਰੋ",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ਹਾਲੇ ਤੱਕ ਕੋਈ ਬੱਗ ਰਿਪੋਰਟ ਨਹੀਂ ਹੈ",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਟਰੈਕ ਕਰਨ ਲਈ \"ਰਿਪੋਰਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ\" 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "ਵੱਖਰੇ ਕੀਵਰਡਸ ਅਜ਼ਮਾਓ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ਵੇਰਵੇ ਵੇਖੋ",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ਹੱਲ ਕੀਤੇ ਵਜੋਂ ਨਿਸ਼ਾਨਦੇਹੀ ਕਰੋ",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ਦੁਬਾਰਾ ਖੋਲ੍ਹੋ",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "ਬੱਗ ਰਿਪੋਰਟ #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ਮੁੱਢਲੀ ਜਾਣਕਾਰੀ",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "ਸਥਿਤੀ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "ਸ਼੍ਰੇਣੀ",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "ਮਿਤੀ",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ਤੱਤ ਵੇਰਵੇ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "ਟੈਗ",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ਟੈਕਸਟ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ਚੋਣਕਾਰ",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "ਅਨੁਵਾਦ ਸੰਦਰਭ",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "ਮੁੱਦੇ ਦਾ ਵਰਣਨ",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ਪੰਨਾ ਜਾਣਕਾਰੀ",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ਟਾਈਟਲ",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "ਯੂਆਰਐਲ",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ਰਿਪੋਰਟ ਮਿਟਾਓ",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਰਿਪੋਰਟ #$ID$ ਨੂੰ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ਸਾਰੀਆਂ ਰਿਪੋਰਟਾਂ ਸਾਫ਼ ਕਰੋ",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ਕੀ ਸਾਰੀਆਂ ਬੱਗ ਰਿਪੋਰਟਾਂ ਮਿਟਾਉਣੀਆਂ ਹਨ? ਇਸ ਕਾਰਵਾਈ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ਸਭ ਮਿਟਾਓ",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ਬੱਗ ਰਿਪੋਰਟਾਂ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ਨਿਰਯਾਤ ਫਾਰਮੈਟ ਚੁਣੋ:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ਐਕਸਲ ਵਿੱਚ ਐਕਸਪੋਰਟ ਕਰੋ",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "JSON ਵਿੱਚ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Google ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕਰੋ",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "ਰਿਪੋਰਟ #$ID$ ਨੂੰ $STATUS$ ਵਜੋਂ ਚਿੰਨ੍ਹਿਤ ਕੀਤਾ ਗਿਆ ਹੈ",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "#$ID$ ਨੂੰ ਮਿਟਾਉਣ ਦੀ ਰਿਪੋਰਟ ਕਰੋ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ਸਾਰੀਆਂ ਰਿਪੋਰਟਾਂ ਸਾਫ਼ ਕੀਤੀਆਂ ਗਈਆਂ",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "ਕੀ ਟੀਚਾ ਭਾਸ਼ਾ ਬਦਲੀਏ?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "ਸਰੋਤ ਭਾਸ਼ਾ ਨੂੰ $SOURCE$ ਵਿੱਚ ਬਦਲ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਕੀ ਤੁਸੀਂ $TARGET$ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰਨਾ ਚਾਹੋਗੇ?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ਹਾਂ, ਬਦਲੋ",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ਨਹੀਂ, ਮੌਜੂਦਾ ਰੱਖੋ",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ਖੁੱਲ੍ਹਾ",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ਹੱਲ ਕੀਤਾ ਗਿਆ",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ਸਵੈ-ਖੋਜਿਆ ਗਿਆ: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "ਡਾਟਾ ਸਿੰਕ ਕਰੋ",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "ਅਨੁਵਾਦ ਕਰਨ ਲਈ $COUNT$ ਲਿਖਤਾਂ ਮਿਲੀਆਂ",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "ਚੁਣਿਆ ਗਿਆ",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "ਤਿਆਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "ਪੂਰਾ!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "$COUNT$ ਭਾਸ਼ਾਵਾਂ ਲਈ ਅਨੁਵਾਦ ਸ਼ੁਰੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ ਪੂਰੀਆਂ $SUCCESS$/$TOTAL$ ਭਾਸ਼ਾਵਾਂ",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$s",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ਕੈਸ਼ ਸਾਫ਼ ਕੀਤਾ ਗਿਆ",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "ਨਹੀ ਦੱਸਇਆ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "ਬਿਨਾਂ ਸਿਰਲੇਖ ਵਾਲਾ ਪੰਨਾ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ਵੇਖੋ",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ਪੁਸ਼ਟੀ ਕਰੋ",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ਠੀਕ ਹੈ",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "ਮੁੱਦੇ ਦਾ ਵਿਸਥਾਰ ਨਾਲ ਵਰਣਨ ਕਰੋ...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਸਮੱਸਿਆ ਦਾ ਵਰਣਨ ਕਰੋ।",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਸਾਈਨ ਇਨ ਕਰੋ।",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "ਸੁਝਾਅ: ਆਪਣੀਆਂ ਤਬਦੀਲੀਆਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰਨ ਲਈ Ctrl+E ਦਬਾਓ।",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "ਸੰਪਾਦਨ ਮੋਡ ਨੂੰ ਅਯੋਗ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਬਦਲਾਵਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰਨ ਲਈ Ctrl+E ਦਬਾਓ।",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ਸੁਧਾਰ ਲਾਗੂ ਕੀਤਾ ਗਿਆ!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ ਸੁਧਾਰ ਲਾਗੂ ਕੀਤੇ ਗਏ!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ਗੁਣਵੱਤਾ ਜਾਂਚ ਪੂਰੀ ਹੋਈ",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "ਗੂਗਲ ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਗਿਆ!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "ਡਰਾਈਵ ਸਿੰਕ ਅਸਫਲ ਰਿਹਾ",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਡਰਾਈਵ ਤੋਂ ਸਮਕਾਲੀਕਰਨ ਕਰਨ ਲਈ ਸਾਈਨ-ਇਨ ਕਰੋ",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Google ਡਰਾਈਵ ਤੋਂ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ਡਰਾਈਵ ਤੋਂ $COUNT$ ਰਿਪੋਰਟਾਂ ਸਿੰਕ ਕੀਤੀਆਂ ਗਈਆਂ!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ਡਰਾਈਵ ਵਿੱਚ ਕੋਈ ਰਿਪੋਰਟ ਨਹੀਂ ਮਿਲੀ",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "ਐਕਸਲ ਫਾਈਲ ਤਿਆਰ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ਐਕਸਲ ਫਾਈਲ ਨਿਰਯਾਤ ਕੀਤੀ ਗਈ: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "ਐਕਸਲ ਵਿੱਚ ਨਿਰਯਾਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "JSON ਫਾਈਲ ਨਿਰਯਾਤ ਕੀਤੀ ਗਈ: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "JSON ਵਿੱਚ ਨਿਰਯਾਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "CSV ਫਾਈਲ ਨਿਰਯਾਤ ਕੀਤੀ ਗਈ: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "CSV ਵਿੱਚ ਨਿਰਯਾਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੈਧ JSON ਫਾਈਲ ਅਪਲੋਡ ਕਰੋ।",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "$COUNT$ ਅਨੁਵਾਦ ਕੁੰਜੀਆਂ ਲੋਡ ਕੀਤੀਆਂ ਗਈਆਂ",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ਅਵੈਧ JSON ਫਾਈਲ",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਕਦਮ ਪੂਰੇ ਕਰੋ।",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI ਅਨੁਵਾਦ ਲਈ ਪ੍ਰੀਮੀਅਮ ਦੀ ਲੋੜ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ ਜਾਂ Google ਅਨੁਵਾਦ ਦੀ ਵਰਤੋਂ ਕਰੋ।",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰਨ ਵਿੱਚ ਅਸਫਲ ਰਿਹਾ।",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ਸਾਰੇ ਅਨੁਵਾਦ ਅਸਫਲ ਰਹੇ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "ਅਨੁਵਾਦ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "$COUNT$ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "$FILENAME$ ਡਾਊਨਲੋਡ ਕੀਤਾ ਗਿਆ",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ਫਾਈਲ ਇੱਥੇ ਸੁੱਟੋ ਜਾਂ ਬ੍ਰਾਊਜ਼ ਕਰਨ ਲਈ ਕਲਿੱਕ ਕਰੋ।",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "ਸਮਰਥਨ: en.json, vi.json, ਆਦਿ।",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "ਗੂਗਲ ਅਨੁਵਾਦ",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "ਗੂਗਲ ਟ੍ਰਾਂਸਲੇਟ ਏਪੀਆਈ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਤੇਜ਼ ਅਤੇ ਮੁਫ਼ਤ ਅਨੁਵਾਦ",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ਏਆਈ ਅਨੁਵਾਦ",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "AI ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋਏ ਉੱਚ-ਗੁਣਵੱਤਾ ਵਾਲੇ ਸੰਦਰਭ-ਜਾਗਰੂਕ ਅਨੁਵਾਦ",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ਮੁਫ਼ਤ",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "ਤੇਜ਼",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "ਸੰਦਰਭ-ਜਾਗਰੂਕ",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ਕੁਦਰਤੀ ਵਾਕਾਂਸ਼",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "UI ਟੈਕਸਟ ਲਈ ਬਿਹਤਰ",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ਲਾਈਵ ਸੰਪਾਦਨ ਨੂੰ ਅਯੋਗ ਕਰੋ ($COUNT$ ਸੰਪਾਦਨ)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ਲਾਈਵ ਐਡਿਟ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ ($COUNT$ ਬਚਾਇਆ ਗਿਆ)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ਚੁਣੀ ਗਈ ਲਿਖਤ ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ਬਿਹਤਰ ਵਿਕਲਪ ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ਸਾਰੀਆਂ AI ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਅਤੇ ਅਸੀਮਤ ਅਨੁਵਾਦਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰੋ",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "ਏਆਈ ਸਮਾਰਟ ਸੁਝਾਅ",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "ਤੇਜ਼ ਬੈਚ ਅਨੁਵਾਦ",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ਆਟੋ ਕੁਆਲਿਟੀ ਜਾਂਚ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "ਤਰਜੀਹੀ ਸਹਾਇਤਾ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ਸਾਰੀਆਂ ਭਾਸ਼ਾਵਾਂ ਦਾ ਸਮਰਥਨ",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "ਹੁਣੇ ਗਾਹਕ ਬਣੋ",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਖਾਤਾ",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "ਕਿਰਿਆਸ਼ੀਲ ਗਾਹਕੀ",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ਅੰਤ ਦੀ ਤਾਰੀਖ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "ਬਾਕੀ ਦਿਨ",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ਮੁੱਦੇ ਦੀ ਕਿਸਮ:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "ਗਲਤ ਅਨੁਵਾਦ",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ਟੈਕਸਟ ਓਵਰਫਲੋ",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "ਖਾਕਾ ਟੁੱਟ ਗਿਆ",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "ਅਨੁਵਾਦ ਗੁੰਮ ਹੈ",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ਫਾਰਮੈਟਿੰਗ ਸਮੱਸਿਆ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "ਹੋਰ",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ਬੱਗ ਰਿਪੋਰਟ ਮੈਨੇਜਰ",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "ਆਪਣੇ ਸਥਾਨੀਕਰਨ ਮੁੱਦਿਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਅਤੇ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ਸਥਾਨੀਕਰਨ ਸਮੱਸਿਆਵਾਂ ਨੂੰ ਟਰੈਕ ਕਰਨ ਲਈ ਸਮੱਸਿਆਵਾਂ ਦੀ ਰਿਪੋਰਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ਕੋਈ ਰਿਪੋਰਟ ਤੁਹਾਡੇ ਫਿਲਟਰਾਂ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ।",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ਸਾਰੀ ਸਥਿਤੀ",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ਸਾਰੀ ਗੰਭੀਰਤਾ",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ਸਾਰੇ ਵਰਗ",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "ਉੱਚ",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ਦਰਮਿਆਨਾ",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ਘੱਟ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ਸ਼ਾਨਦਾਰ!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "$COUNT$ ਟੈਕਸਟ ਸੈਗਮੈਂਟਾਂ ਦੀ ਜਾਂਚ ਕੀਤੀ ਅਤੇ ਕੋਈ ਸਮੱਸਿਆ ਨਹੀਂ ਮਿਲੀ।",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ਸਰੋਤ ਭਾਸ਼ਾ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ਟੀਚਾ ਭਾਸ਼ਾ:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "ਸਾਈਨ ਇਨ ਲੋੜੀਂਦਾ ਹੈ",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "ਅਨੁਵਾਦ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ। ਮੁਫ਼ਤ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ 10 ਅਨੁਵਾਦ ਮਿਲਦੇ ਹਨ।",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$LIMIT$ ਵਿੱਚੋਂ $REMAINING$ ਅਨੁਵਾਦ ਬਾਕੀ ਹਨ",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ਵਰਤੋਂ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "ਤੁਸੀਂ ਆਪਣੀ ਵਰਤੋਂ ਸੀਮਾ 'ਤੇ ਪਹੁੰਚ ਗਏ ਹੋ। ਅਸੀਮਤ ਪਹੁੰਚ ਲਈ ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ਅਸੀਮਤ ਅਨੁਵਾਦ ਅਤੇ ਪ੍ਰੀਮੀਅਮ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰੋ",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ਪ੍ਰਤੀ ਮਹੀਨਾ",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "ਅਸੀਮਤ ਅਨੁਵਾਦ",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "ਸ਼ਾਇਦ ਬਾਅਦ ਵਿੱਚ",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ਕਿਸੇ ਵੀ ਸਮੇਂ ਰੱਦ ਕਰੋ। ਕੋਈ ਸਵਾਲ ਨਹੀਂ ਪੁੱਛਿਆ ਗਿਆ।",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "ਤੁਹਾਡੀ ਵਰਤੋਂ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "ਅਨੁਵਾਦ ਵਰਤਿਆ ਗਿਆ",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "ਅਨੁਵਾਦ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ।",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "ਕਾਫ਼ੀ ਅਨੁਵਾਦ ਬਾਕੀ ਨਹੀਂ ਹਨ। ਤੁਹਾਡੇ ਕੋਲ $REMAINING$ ਬਾਕੀ ਹਨ ਪਰ $SELECTED$ ਭਾਸ਼ਾਵਾਂ ਚੁਣੀਆਂ ਹਨ। ਕਿਰਪਾ ਕਰਕੇ ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ ਜਾਂ ਭਾਸ਼ਾਵਾਂ ਘਟਾਓ।",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "ਤੁਸੀਂ ਬਾਕੀ ਸਾਰੇ $COUNT$ ਅਨੁਵਾਦ ਵਰਤ ਰਹੇ ਹੋ। ਅਸੀਮਤ ਪਹੁੰਚ ਲਈ ਪ੍ਰੀਮੀਅਮ 'ਤੇ ਅੱਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ਇਸ ਪੰਨੇ 'ਤੇ ਨਹੀਂ ਚੱਲ ਸਕਦਾ",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ਸਿਰਫ਼ ਨਿਯਮਤ ਵੈੱਬਸਾਈਟਾਂ 'ਤੇ ਕੰਮ ਕਰਦਾ ਹੈ। ਇਹ Chrome ਦੇ ਅੰਦਰੂਨੀ ਪੰਨਿਆਂ 'ਤੇ ਨਹੀਂ ਚੱਲ ਸਕਦਾ।",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ਅਸਮਰਥਿਤ ਪੰਨਾ ਕਿਸਮ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "ਅਸਮਰਥਿਤ ਪੰਨੇ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ google.com ਵਰਗੀ ਇੱਕ ਨਿਯਮਤ ਵੈੱਬਸਾਈਟ ਖੋਲ੍ਹੋ।",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "ਅਨੁਵਾਦ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ਸਭ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "ਇੱਕ ਹੋਰ ਫਾਈਲ ਦਾ ਅਨੁਵਾਦ ਕਰੋ",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ਡਾਊਨਲੋਡ",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ਫਾਈਲ ਅੱਪਲੋਡ ਕਰੋ",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "ਟੀਚਾ ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "ਅਨੁਵਾਦ ਮੋਡ ਚੁਣੋ",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ ਕੁੰਜੀਆਂ ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "ਅਨੁਵਾਦ ਪੂਰਾ!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ਕੁੱਲ ਰਿਪੋਰਟਾਂ",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ਖੁੱਲ੍ਹੇ ਮੁੱਦੇ",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ਉੱਚ ਤਰਜੀਹ",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕਰੋ",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ਡਰਾਈਵ ਤੋਂ ਸਿੰਕ ਕਰੋ",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ਐਕਸਲ ਐਕਸਪੋਰਟ ਕਰੋ",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "JSON ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ਆਈਡੀ",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ਗੰਭੀਰਤਾ",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ਤੱਤ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ਮੁੱਦਾ",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "ਸੁਝਾਏ ਗਏ ਹੱਲ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML ਵੇਖੋ",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPathName",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ਵਿਊਪੋਰਟ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ਮੌਜੂਦਾ ਭਾਸ਼ਾ",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "ਕੁੰਜੀਆਂ ਦਾ ਅਨੁਵਾਦ ਕੀਤਾ ਗਿਆ",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "ਸਮਾਂ ਬੀਤ ਗਿਆ",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "ਅਨੁਵਾਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "ਗੂਗਲ ਟ੍ਰਾਂਸਲੇਟ ਜਾਂ ਏਆਈ ਨਾਲ JSON ਭਾਸ਼ਾ ਫਾਈਲਾਂ ਦਾ ਕਈ ਭਾਸ਼ਾਵਾਂ ਵਿੱਚ ਅਨੁਵਾਦ ਕਰੋ",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "ਅਨੁਵਾਦ ਕਰਨ ਲਈ ਇੱਕ ਜਾਂ ਵੱਧ ਭਾਸ਼ਾਵਾਂ ਚੁਣੋ",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "ਫਾਰਮੈਟ ਖੋਜਿਆ ਗਿਆ: $FORMAT$, ਮੋਡ: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "$LANG$ ਵਿੱਚ ਅਨੁਵਾਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ... ($CURRENT$/$TOTAL$ ਕੁੰਜੀਆਂ)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ ਬਦਲਾਵਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ਆਪਣੀ ਅਨੁਵਾਦ ਟੀਮ ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਲਈ ਆਪਣੇ ਸੰਪਾਦਨਾਂ ਨੂੰ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ਬਦਲਾਅ ਸੁਰੱਖਿਅਤ ਕੀਤੇ ਗਏ। ਨਿਰਯਾਤ ਕਰਨ ਲਈ Ctrl+E ਦਬਾਓ।",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "ਸੰਪਾਦਨ ਮੋਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "ਸੰਪਾਦਨ ਮੋਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ। ਤੁਸੀਂ ਬਦਲਾਅ ਸੁਰੱਖਿਅਤ ਕਰ ਲਏ ਹਨ। ਨਿਰਯਾਤ ਕਰਨ ਲਈ Ctrl+E ਦਬਾਓ।",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ਕੋਈ ਲਿਖਤ ਨਹੀਂ ਚੁਣੀ ਗਈ",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "AI ਸੁਝਾਅ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਟੈਕਸਟ ਚੁਣੋ",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ਕੋਈ ਭਾਸ਼ਾਵਾਂ ਨਹੀਂ ਮਿਲੀਆਂ।",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "ਸਾਈਨ ਇਨ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ਸਫਲਤਾਪੂਰਵਕ ਸਾਈਨ ਇਨ ਕੀਤਾ ਗਿਆ!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ਸਫਲਤਾਪੂਰਵਕ ਸਾਈਨ ਆਊਟ ਕੀਤਾ ਗਿਆ",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ਪ੍ਰਮਾਣੀਕਰਨ ਅਸਫਲ ਰਿਹਾ। ਕਿਰਪਾ ਕਰਕੇ ਕੈਸ਼ ਸਾਫ਼ ਕਰਕੇ ਦੁਬਾਰਾ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ਕੈਸ਼ ਕਲੀਅਰ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ਕੈਸ਼ ਕਲੀਅਰ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ਐਕਸਲ ਲਾਇਬ੍ਰੇਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨੇ ਨੂੰ ਰੀਲੋਡ ਕਰੋ।",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "ਸਰਵੋਤਮ ਪ੍ਰਦਰਸ਼ਨ ਲਈ ਇੱਕ ਵਾਰ ਵਿੱਚ ਅਧਿਕਤਮ $MAX$ ਭਾਸ਼ਾਵਾਂ।",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$COUNT$ / $MAX$ ਚੁਣਿਆ ਗਿਆ",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ AI ਅਨੁਵਾਦ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "ਵਾਜਬ ਆਕਾਰ ਵਾਲੀਆਂ ਫਾਈਲਾਂ ਲਈ ਵਧੀਆ।",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI ਮੋਡ: ਇਹ $REQUESTS$ API ਕਾਲਾਂ ਕਰੇਗਾ। $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ਇਹ ਅਨੁਵਾਦ ਲਗਭਗ $COUNT$ API ਕਾਲਾਂ ਕਰੇਗਾ।",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI ਮੋਡ ਇੱਕ ਵਾਰ ਵਿੱਚ ਅਧਿਕਤਮ $MAX$ ਭਾਸ਼ਾਵਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ।",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "ਅਨੁਵਾਦ ਵਿਧੀ",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ਮੁਫ਼ਤ",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ਅਸੀਮਤ",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "ਤੇਜ਼",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ਭਾਸ਼ਾਵਾਂ",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "ਕਈ ਭਾਸ਼ਾਵਾਂ ਦੇ ਅਨੁਵਾਦ ਲਈ ਪ੍ਰੀਮੀਅਮ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ਜਾਂਚ ਕੀਤੀ:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "ਸਪੈਲਿੰਗ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ਵਿਆਕਰਣ",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ਫਾਰਮੈਟਿੰਗ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ਮੂਲ ਪਾਠ ਵਿੱਚ ਕੋਈ ਸਮੱਸਿਆ ਨਹੀਂ ਹੈ",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "<strong>$COUNT$</strong> ਟੈਕਸਟ ਖੰਡਾਂ ਦੀ ਜਾਂਚ ਕੀਤੀ ਗਈ",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ਠੀਕ ਕਰਨ ਲਈ <strong>$COUNT$</strong> ਤਰੁੱਟੀਆਂ ਲੱਭੀਆਂ",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ਕੋਈ ਗਲਤੀ ਨਹੀਂ!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ਗੁਣਵੱਤਾ ਜਾਂਚ ਰਿਪੋਰਟ",
+    "description": "Quality check report title"
+  }
+}

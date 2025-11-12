@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI თარგმნის ტესტირების ინსტრუმენტი. ცოცხალი თარგმანი, შეცდომების მოხსენება, ფსევდო-ლოკალიზაცია და ჯგუფური JSON თარგმანი.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "დახურვა",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "გაუქმება",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "შენახვა",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "წაშლა",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ექსპორტი",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "სინქრონიზაცია",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "წყარო",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "სამიზნე",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ენების ძიება...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ავტომატურად აღმოჩენილია ბრაუზერიდან",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "ენის გადართვა",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "ორიგინალურ და თარგმნილ ტექსტს შორის გადართვა",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "როგორ მუშაობს: • გადართვა ორიგინალურ და თარგმნილ ტექსტს შორის • თარგმანები ქეშირებულია სწრაფი გადართვისთვის • მუშაობს გვერდზე არსებულ ყველა ტექსტთან • ქეშის გასუფთავება ხელახლა თარგმნისთვის",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ორიგინალი",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "თარგმნილია",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "მზადაა თარგმნისთვის",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ქეშის გასუფთავება და ხელახლა თარგმნა",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "ფსევდოლოკალიზაცია",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "გადავსების პრობლემების აღმოსაჩენად, შეამოწმეთ ინტერფეისი უფრო გრძელი ტექსტით",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "როგორ მუშაობს: • ცვლის სიმბოლოებს აქცენტირებული ვერსიებით • ამატებს სიგრძის 30-40%-იან გაფართოებას • ტექსტს ახვევს [!!!... !!!] მარკერებში • მაგალითი: \"პარამეტრები\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "წაისვით ფსევდო-ლოკი",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "პირდაპირი რედაქტირების რეჟიმი",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "დააწკაპუნეთ ნებისმიერ ტექსტზე პირდაპირ გვერდზე რედაქტირებისთვის",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "როგორ მუშაობს: • დააწკაპუნეთ ნებისმიერ ტექსტურ ელემენტზე მისი რედაქტირებისთვის • ცვლილებები თვალყურს ადევნებთ რეალურ დროში • რედაქტირებების ექსპორტი JSON ან Excel ფორმატში • ცვლილებების ექსპორტისთვის დააჭირეთ Ctrl+E",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "პირდაპირი რედაქტირების ჩართვა",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "ხელოვნური ინტელექტის ფუნქციები",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "ხელოვნური ინტელექტით მართული თარგმანის ინსტრუმენტები",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "პრემიუმ ფუნქციები: • ხელოვნური ინტელექტით მართული კონტექსტის გათვალისწინებით თარგმნა • მთელი გვერდების ჯგუფური თარგმნა • თარგმანების ხარისხის შემოწმება • ბუნებრივი ენის შემოთავაზებები",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "მიიღეთ ხელოვნური ინტელექტის შემოთავაზებები",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "ჭკვიანი პაკეტური თარგმანი",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "თარგმნის გვერდზე არსებულ ყველა ტექსტს ხელოვნური ინტელექტის კონტექსტის გამოყენებით",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "შეამოწმეთ თარგმანის ხარისხი",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "პრემიუმ",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON ფაილების მთარგმნელი",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "JSON ენის ფაილების თარგმნა მრავალ ენაზე",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "როგორ მუშაობს: • ატვირთეთ JSON ენის ფაილები • აირჩიეთ სამიზნე ენები • თარგმნეთ Google-ის ან ხელოვნური ინტელექტის გამოყენებით • ჩამოტვირთეთ თარგმნილი ფაილები",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "JSON ფაილის თარგმნა",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "პრობლემის შესახებ შეტყობინება",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "ტექსტის თარგმნისა და ლოკალიზაციის პრობლემების შესახებ შეტყობინება",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "როგორ მუშაობს: • პრობლემების შესატყობინებლად დააწკაპუნეთ ტექსტურ ელემენტებზე • დაამატეთ აღწერილობები და სიმძიმე • ექსპორტი გაუკეთეთ ანგარიშებს Excel-ში ან JSON-ში • სინქრონიზაცია გაუკეთეთ Google Drive-ს",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "რეპორტინგის დაწყება",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "ანგარიშების მართვა",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "ანგარიში",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "შედით Google-ით",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "პრემიუმ ვერსიაზე გადასვლა",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "პრემიუმ ინფორმაცია",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "გასვლა",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "შეცდომების შესახებ ანგარიშები",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "ძიების ანგარიშები...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ყველას გასუფთავება",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "შეცდომების შესახებ ანგარიშები ჯერ არ არის",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "პრობლემების თვალყურის დევნებისთვის დააჭირეთ ღილაკს „შეტყობინების დაწყება“",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "შედეგები ვერ მოიძებნა",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "სცადეთ სხვადასხვა საკვანძო სიტყვები",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "დეტალების ნახვა",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "მონიშვნა, როგორც გადაჭრილი",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "ხელახლა გახსნა",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "შეცდომის ანგარიში #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ძირითადი ინფორმაცია",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "სტატუსი",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "კატეგორია",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "თარიღი",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "ელემენტის დეტალები",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "თეგი",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ტექსტი",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "სელექტორი",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "თარგმანის კონტექსტი",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "პრობლემის აღწერა",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "გვერდის ინფორმაცია",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "სათაური",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ანგარიშის წაშლა",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "დარწმუნებული ხართ, რომ გსურთ #$ID$ ანგარიშის წაშლა?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ყველა ანგარიშის გასუფთავება",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "წაიშალოს ყველა შეცდომის ანგარიში? ამ მოქმედების გაუქმება შეუძლებელია!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ყველას წაშლა",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "შეცდომების ანგარიშების ექსპორტი",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "ექსპორტის ფორმატის არჩევა:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ექსპორტი Excel-ში",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "ექსპორტი JSON-ში",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "სინქრონიზაცია Google Drive-თან",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "ანგარიში #$ID$ მონიშნულია როგორც $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "ანგარიში #$ID$ წაიშალა",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "ყველა ანგარიში გასუფთავებულია",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "სამიზნე ენის შეცვლა?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "საწყისი ენა შეიცვალა $SOURCE$-ით. გსურთ თარგმნა $TARGET$-ად?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "დიახ, შეცვლა",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "არა, განახლებული ვერსია",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "ღია",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "გადაწყვეტილია",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "როგორ მუშაობს:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "პრემიუმ მახასიათებლები:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ავტომატურად აღმოჩენილი: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "მონაცემების სინქრონიზაცია",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "სათარგმნად $COUNT$ ტექსტი მოიძებნა",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "არჩეული",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "მზადება...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "დასრულებულია!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "იწყება თარგმანი $COUNT$ ენაზე...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ დასრულებული $SUCCESS$/$TOTAL$ ენები",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ კბ",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$ წმ",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ქეში გასუფთავებულია",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "არ არის მითითებული",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "უსათაურო გვერდი",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ნახვა",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "დადასტურება",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "კარგი",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "დეტალურად აღწერეთ პრობლემა...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "გთხოვთ, აღწეროთ პრობლემა",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "გთხოვთ, ჯერ შეხვიდეთ სისტემაში",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "რჩევა: ცვლილებების ექსპორტისთვის დააჭირეთ Ctrl+E კლავიშებს.",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "დააწკაპუნეთ რედაქტირების რეჟიმის გამოსართავად. ცვლილებების ექსპორტისთვის დააჭირეთ Ctrl+E.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "კოპირებულია ბუფერში!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "გაუმჯობესება გამოყენებულია!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "გამოყენებულია $COUNT$ გაუმჯობესება!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ხარისხის შემოწმება დასრულებულია",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Google Drive-თან სინქრონიზაცია...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "სინქრონიზებულია Google Drive-თან!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "დისკის სინქრონიზაცია ვერ მოხერხდა",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "გთხოვთ, შეხვიდეთ Drive-დან სინქრონიზაციისთვის",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "სინქრონიზაცია Google Drive-დან...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "სინქრონიზებული $COUNT$ ანგარიში Drive-დან!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Drive-ში ანგარიშები ვერ მოიძებნა",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Excel ფაილის მომზადება...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ექსპორტირებულია Excel ფაილი: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "შეცდომა Excel-ში ექსპორტისას მოხდა. შეცდომა მოხდა Excel-ში ექსპორტის დროს.",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "ექსპორტირებულია JSON ფაილი: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "შეცდომა JSON-ში ექსპორტისას მოხდა. შეცდომა მოხდა JSON-ში ექსპორტისას.",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "ექსპორტირებულია CSV ფაილი: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "შეცდომა CSV ფორმატში ექსპორტისას მოხდა. მოხდა შეცდომა CSV ფორმატში ექსპორტის დროს.",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "გთხოვთ, ატვირთოთ ვალიდური JSON ფაილი",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "ჩაიტვირთა $COUNT$ თარგმანის გასაღებები",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "არასწორი JSON ფაილი",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "გთხოვთ, შეასრულოთ ყველა ნაბიჯი",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation მოითხოვს Premium-ს.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "$LANG$-ზე თარგმნა ვერ მოხერხდა",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "ყველა თარგმანი ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "თარგმნა ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "წარმატებით ითარგმნა $COUNT$ ენაზე!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "ჩამოტვირთულია $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "JSON ფაილი აქ ჩააგდეთ ან დასათვალიერებლად დააწკაპუნეთ",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "მხარს უჭერს: en.json, vi.json და ა.შ.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Translate",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "სწრაფი და უფასო თარგმანი Google Translate API-ის გამოყენებით",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "ხელოვნური ინტელექტის თარგმანი",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "მაღალი ხარისხის კონტექსტის გათვალისწინებით თარგმანი ხელოვნური ინტელექტის გამოყენებით",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "უფასო",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "სწრაფი",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "კონტექსტის გათვალისწინებით",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "ბუნებრივი ფრაზირება",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "უკეთესია UI ტექსტისთვის",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "პირდაპირი რედაქტირების გამორთვა ($COUNT$$ რედაქტირება)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "ჩართეთ პირდაპირი რედაქტირება (დაზოგილია $COUNT$$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "არჩეული ტექსტი ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "უკეთესი ალტერნატივები ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "პრემიუმ ვერსიაზე გადასვლა",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "განბლოკეთ ყველა ხელოვნური ინტელექტის ფუნქცია და შეუზღუდავი თარგმანები",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "ხელოვნური ინტელექტის ჭკვიანი შემოთავაზებები",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "სწრაფი პაკეტური თარგმანი",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "ავტომატური ხარისხის შემოწმება",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "პრიორიტეტული მხარდაჭერა",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "ყველა ენის მხარდაჭერა",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "გამოიწერეთ ახლავე",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "პრემიუმ ანგარიში",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "აქტიური გამოწერა",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "ვადის გასვლის თარიღი",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "დარჩენილი დღეები",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "პრობლემის ტიპი:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "არასწორი თარგმანი",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ტექსტის გადავსება",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "განლაგება გატეხილია",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "თარგმანი აკლია",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ფორმატირების პრობლემა",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "სხვა",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "შეცდომების შესახებ შეტყობინებების მენეჯერი",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "თქვენი ლოკალიზაციის პრობლემების მართვა და ექსპორტი",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "ლოკალიზაციის პრობლემების თვალყურის დევნების მიზნით, დაიწყეთ პრობლემების შესახებ ინფორმაციის მიწოდება",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "თქვენს ფილტრებს არცერთი ანგარიში არ შეესაბამება",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "ყველა სტატუსი",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ყველა სიმძიმის",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ყველა კატეგორია",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "მაღალი",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "საშუალო",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "დაბალი",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "შესანიშნავია!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "შემოწმდა $COUNT$ ტექსტის სეგმენტები და პრობლემები ვერ აღმოვაჩინე.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "წყაროს ენა:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "სამიზნე ენა:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "შესვლა სავალდებულოა",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "თარგმანის ფუნქციების გამოსაყენებლად, გთხოვთ, შეხვიდეთ სისტემაში. უფასო მომხმარებლები მიიღებენ 10 თარგმანს.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "დარჩენილია $REMAINING$ $LIMIT$ თარგმანიდან",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "გამოყენების ლიმიტი მიღწეულია",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "თქვენ მიაღწიეთ თქვენი გამოყენების ლიმიტს. შეუზღუდავი წვდომისთვის გადადით პრემიუმზე.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "პრემიუმ ვერსიაზე გადასვლა",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "განბლოკეთ შეუზღუდავი თარგმანები და პრემიუმ ფუნქციები",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "თვეში",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "შეუზღუდავი თარგმანები",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "შესაძლოა მოგვიანებით",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "გაუქმება ნებისმიერ დროს შეგიძლიათ. კითხვების გარეშე.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "თქვენი გამოყენება",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "გამოყენებული თარგმანები",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "თარგმანის ფუნქციების გამოსაყენებლად, გთხოვთ, შეხვიდეთ სისტემაში",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "საკმარისი თარგმანები არ არის დარჩენილი. თქვენ დაგრჩათ $REMAINING$, მაგრამ აირჩიეთ $SELECTED$ ენები. გთხოვთ, გადახვიდეთ პრემიუმზე ან შეამციროთ ენების რაოდენობა.",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "თქვენ იყენებთ ყველა დარჩენილ $COUNT$ თარგმანს.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ამ გვერდზე გაშვება შეუძლებელია",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI მხოლოდ ჩვეულებრივ ვებსაიტებზე მუშაობს. მისი გაშვება Chrome-ის შიდა გვერდებზე შეუძლებელია.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "გვერდის ტიპი მხარდაუჭერელია",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "მხარდაუჭერელი გვერდები:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "LocalizeAI-ის გამოსაყენებლად გახსენით ჩვეულებრივი ვებსაიტი, როგორიცაა google.com",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "თარგმანის დაწყება",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ყველას ჩამოტვირთვა",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "სხვა ფაილის თარგმნა",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ჩამოტვირთვა",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "JSON ფაილის ატვირთვა",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "სამიზნე ენების არჩევა",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "აირჩიეთ თარგმანის რეჟიმი",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ კლავიშები თარგმნილია",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "თარგმანი დასრულებულია!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "ანგარიშების ჯამი",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ღია საკითხები",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "მაღალი პრიორიტეტი",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Drive-თან სინქრონიზაცია",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "სინქრონიზაცია Drive-დან",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ექსპორტი Excel-ში",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "ექსპორტი JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "პირადობის მოწმობა",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "სიმძიმე",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "ელემენტი",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "საკითხი",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "შემოთავაზებული გადაწყვეტილებები",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML-ის ნახვა",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ხედვის არე",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "მიმდინარე ენა",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "კლავიშების თარგმნა",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "გასული დრო",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "თარგმნა...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "თარგმნეთ JSON ენის ფაილები მრავალ ენაზე Google Translate-ის ან ხელოვნური ინტელექტის გამოყენებით",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "აირჩიეთ ერთი ან მეტი ენა თარგმნისთვის",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "აღმოჩენილი ფორმატი: $FORMAT$, რეჟიმი: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "ითარგმნება $LANG$-ზე... ($CURRENT$/$TOTAL$ გასაღებები)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "$COUNT$ ცვლილებების ექსპორტი",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ექსპორტი გაუკეთეთ თქვენს რედაქტირებებს თქვენს მთარგმნელ გუნდთან გასაზიარებლად",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "ჩამოტვირთეთ CSV ფაილი",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "ჩამოტვირთეთ JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "$COUNT$ ცვლილება შენახულია. ექსპორტისთვის დააჭირეთ Ctrl+E.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "დააწკაპუნეთ რედაქტირების რეჟიმის ჩასართავად",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "დააწკაპუნეთ რედაქტირების რეჟიმის ჩასართავად. თქვენ შეინახეთ ცვლილებები. ექსპორტისთვის დააჭირეთ Ctrl+E.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ტექსტი არ არის არჩეული",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "აირჩიეთ ტექსტი ხელოვნური ინტელექტის შემოთავაზებების მისაღებად",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ენები ვერ მოიძებნა",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "შესვლა ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "წარმატებით შევედით სისტემაში!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "წარმატებით გამოხვედით",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "ავთენტიფიკაცია ვერ მოხერხდა. გთხოვთ, სცადოთ ქეშის გასუფთავება და ხელახლა შესვლა.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "ქეშის გაწმენდა...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ქეშის გასუფთავება ვერ მოხერხდა",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel-ის ბიბლიოთეკა მიუწვდომელია. გთხოვთ, ხელახლა ჩატვირთოთ გვერდი.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "მაქსიმუმ $MAX$ ენები ერთდროულად ოპტიმალური მუშაობისთვის.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "არჩეულია $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "გთხოვთ შეხვიდეთ AI თარგმანის გამოსაყენებლად",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "საუკეთესოა გონივრული ზომის ფაილებისთვის.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI რეჟიმი: ეს გამოიწვევს $REQUESTS$ API ზარებს. $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "ეს თარგმანი განახორციელებს დაახლოებით $COUNT$ API ზარს.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI რეჟიმი მხარს უჭერს მაქსიმუმ $MAX$ ენებს ერთდროულად.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "თარგმანის მეთოდი",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "უფასო",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "შეუზღუდავი",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "სწრაფი",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ენები",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "მრავალენოვანი თარგმანი მოითხოვს Premium-ს.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "შემოწმებულია:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "მართლწერა",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "გრამატიკა",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "ფორმატირება",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ორიგინალ ტექსტს პრობლემები არ აქვს",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "შეამოწმა <strong>$COUNT$</strong> ტექსტის სეგმენტები",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "ნაპოვნია <strong>$COUNT$</strong> შეცდომის გამოსწორება",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "არანაირი შეცდომები!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "ხარისხის შემოწმების ანგარიში",
+    "description": "Quality check report title"
+  }
+}

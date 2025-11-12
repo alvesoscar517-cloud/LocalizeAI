@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "AI翻译测试工具。实时翻译、错误报告、伪本地化和批量JSON翻译。",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "关闭",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "保存",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "删除",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "导出",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "同步",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "来源",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "目标",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "搜索语言...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "浏览器自动检测",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "语言切换",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "在原文和译文之间切换",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "工作原理： • 在原文和译文之间切换 • 译文已缓存，可快速切换 • 适用于页面上的所有文本 • 清除缓存即可重新翻译",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "原来的",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "翻译",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "准备翻译",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "清除缓存并重新翻译",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "伪定位",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "使用更长的文本测试用户界面，以查找溢出问题。",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "工作原理： • 将字符替换为带重音符号的版本 • 增加 30-40% 的长度扩展 • 将文本换行到 [!!!... !!!] 标记中 • 例如：“设置” → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "应用伪定位",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "实时编辑模式",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "点击页面上的任何文本即可直接编辑。",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "使用方法： • 点击任意文本元素进行编辑 • 实时跟踪更改 • 将编辑内容导出为 JSON 或 Excel 文件 • 按 Ctrl+E 导出更改",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "启用实时编辑",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "人工智能功能",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "人工智能驱动的翻译工具",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "高级功能： • AI 驱动的上下文感知翻译 • 批量翻译整个页面 • 翻译质量检查 • 自然语言建议",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "获取人工智能建议",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "智能批量翻译",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "利用人工智能上下文翻译页面上的所有文本",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "检查翻译质量",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "高级",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "JSON 文件转换器",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "将 JSON 语言文件翻译成多种语言",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "工作原理： • 上传 JSON 语言文件 • 选择目标语言 • 使用 Google 或 AI 进行翻译 • 下载翻译后的文件",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "翻译 JSON 文件",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "报告问题",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "报告文本翻译和本地化问题",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "使用方法： • 点击文本元素报告问题 • 添加描述和严重程度 • 将报告导出为 Excel 或 JSON 格式 • 与 Google 云端硬盘同步",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "开始报告",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "管理报告",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "帐户",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "使用 Google 登录",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "升级至高级版",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "高级信息",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "登出",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "错误报告",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "搜索报告……",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "全部清除",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "目前还没有错误报告。",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "点击“开始报告”以跟踪问题",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "未找到结果",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "尝试不同的关键词",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "查看详情",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "标记为已解决",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "重新开放",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "错误报告 #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "基本信息",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "地位",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "类别",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "日期",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "元素详情",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "标签",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "文本",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "选择器",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "翻译语境",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "问题描述",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "页面信息",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "标题",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "网址",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "删除报告",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "您确定要删除报告 #$ID$ 吗？",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "清除所有报告",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "删除所有错误报告？此操作无法撤销！",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "全部删除",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "导出错误报告",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "选择导出格式：",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "导出到 Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "导出为 JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "同步到 Google 云端硬盘",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "报告 #$ID$ 标记为 $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "报告 #$ID$ 已删除",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "所有报告均已通过。",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "更改目标语言？",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "源语言已更改为 $SOURCE$。 您想翻译成 $TARGET$ 吗？",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "是的，改变",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "不，保持最新",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "打开",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "已解决",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "工作原理：",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "高级功能：",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "自动检测到：$LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "同步数据",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "找到 $COUNT$ 条待翻译文本",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "选定",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "准备中……",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "完成！",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "开始翻译 $COUNT$ 种语言……",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ 已完成 $SUCCESS$/$TOTAL$ 语言",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$SIZE$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "时代周刊 $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "缓存已清除",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "未指定",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "无标题页面",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "查看",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "确认",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "好的",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "请详细描述问题……",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "请描述一下问题。",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "请先登录",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "提示：按 Ctrl+E 导出更改",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "点击即可关闭编辑模式。按Ctrl+E导出更改。",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "已复制到剪贴板！",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "改进已生效！",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "应用了 $COUNT$ 项改进！",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "质量检查完成",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "正在同步到 Google 云端硬盘...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "已同步到 Google 云端硬盘！",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "驱动器同步失败",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "请登录以从云端硬盘同步。",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "正在从 Google 云端硬盘同步...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "已从云端硬盘同步 $COUNT$ 报告！",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "云端硬盘中未找到任何报告。",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "正在准备Excel文件……",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "导出的 Excel 文件：$FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "导出到 Excel 时出错",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "导出的 JSON 文件：$FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "导出为 JSON 时出错",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "导出的 CSV 文件：$FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "导出到 CSV 文件时出错",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "请上传有效的 JSON 文件",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "已加载 $COUNT$ 翻译键",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "无效的 JSON 文件",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "请完成所有步骤",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI翻译需要高级版功能。请升级或使用谷歌翻译。",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "翻译成 $LANG$ 失败",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "所有翻译均失败，请重试。",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "翻译失败，请重试。",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "已成功翻译成 $COUNT$ 种语言！",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "已下载 $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "将 JSON 文件拖放到此处或点击浏览",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "支持：en.json、vi.json等",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "谷歌翻译",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "使用 Google Translate API 进行快速免费翻译",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "人工智能翻译",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "利用人工智能实现高质量的上下文感知翻译",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "免費",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "快速地",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "上下文感知",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "自然的措辞",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "更适合用户界面文本",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "禁用实时编辑（$COUNT$ 次编辑）",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "启用实时编辑（已节省$COUNT$）",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "选定文本（$LANG$）",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "更佳替代方案（$LANG$）",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "升级至高级版",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "解锁所有人工智能功能和无限翻译",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "人工智能智能建议",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "快速批量翻译",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "自动质量检查",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "优先支持",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "所有语言均支持",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "立即订阅",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "高级账户",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "有效订阅",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "到期日",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "剩余天数",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "问题类型：",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "翻译错误",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "文本溢出",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "布局错误",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "缺失翻译",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "格式问题",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "其他",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "错误报告管理器",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "管理和导出您的本地化问题",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "开始报告问题以跟踪本地化问题",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "没有符合您筛选条件的报告。",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "所有状态",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "所有严重程度",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "所有类别",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "高的",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "中等的",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "低的",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "出色的！",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "检查了 $COUNT$ 个文本段，未发现任何问题。",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "源语言：",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "目标语言：",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "需要登录",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "请登录以使用翻译功能。免费用户可翻译 10 篇文本。",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "剩余 $LIMIT$ 个翻译 $REMAINING$",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "使用次数已达上限",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "您的使用量已达上限。升级至高级版即可享受无限流量。",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "升级至高级版",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "解锁无限翻译和高级功能",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "每月",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "无限翻译",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "也许以后",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "随时可以取消，无需任何理由。",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "您的使用情况",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "使用的翻译",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "请登录以使用翻译功能",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "剩余翻译数量不足。您还剩 $REMAINING$ 个翻译名额，但已选择 $SELECTED$ 种语言。请升级至高级版或减少翻译种数。",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "您已用完所有剩余的 $COUNT$ 次翻译次数。升级到高级版即可享受无限翻译次数。",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "此页面无法运行",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI 仅适用于普通网站，无法在 Chrome 浏览器内嵌页面上运行。",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "不支持的页面类型",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "不支持的页面：",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "打开一个普通的网站，例如 google.com，即可使用 LocalizeAI。",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "开始翻译",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "下载全部",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "翻译另一个文件",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "下载",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "上传 JSON 文件",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "选择目标语言",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "选择翻译模式",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ 键已翻译",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "翻译完成！",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "报告总数",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "未解决的问题",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "高优先级",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "同步到硬盘",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "从云端硬盘同步",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "导出 Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "导出 JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "ID",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "严重程度",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "元素",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "问题",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "建议的解决方案",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "查看 HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "X路径",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "视口",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "当前语言",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "密钥翻译",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "时间流逝",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "正在翻译……",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "使用谷歌翻译或人工智能将 JSON 语言文件翻译成多种语言。",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "选择一种或多种要翻译的语言",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "检测到格式：$FORMAT$，模式：$MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "正在翻译成 $LANG$... ($CURRENT$/$TOTAL$ 键)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "导出 $COUNT$ 的更改",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "导出您的编辑内容，以便与您的翻译团队共享。",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "下载 CSV 文件",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "下载 JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "已保存 $COUNT$ 项更改。按 Ctrl+E 导出。",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "点击启用编辑模式",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "点击启用编辑模式。更改已保存。按 Ctrl+E 导出。",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "未选择任何文本",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "选择文本以获取 AI 建议",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "未找到任何语言",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "登录失败，请重试。",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "登录成功！",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "已成功登出",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "身份验证失败。请尝试清除缓存并重新登录。",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "正在清除缓存...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "清除缓存失败",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Excel库不可用。请重新加载页面。",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "为了获得最佳性能，一次最多 $MAX$ 种语言。请分批翻译。",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "已选择 $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "请登录以使用 AI 翻译",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "最适合大小合理的文件。一次最多5种语言。",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI 模式：这将进行 $REQUESTS$ API 调用。",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "这将进行约$COUNT$次API调用。翻译可能需要几分钟。请耐心等待。",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI 模式一次支持最多 $MAX$ 种语言。",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "翻译方法",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "自由的",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "无限",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "快速地",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "语言",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "多语言翻译需要 Premium。",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "检查：",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "拼写",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "语法",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "格式化",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "原文没有问题",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "已检查 <strong>$COUNT$</strong> 个文本段",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "发现 <strong>$COUNT$</strong> 个错误需要修复",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "没有错误！",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "质量检查报告",
+    "description": "Quality check report title"
+  }
+}

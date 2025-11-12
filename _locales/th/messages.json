@@ -1,0 +1,1410 @@
+{
+  "appDesc": {
+    "message": "เครื่องมือทดสอบการแปล AI การแปลสด การรายงานข้อบกพร่อง การแปลเป็นภาษาท้องถิ่นปลอม และการแปล JSON แบบกลุ่ม",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "ปิด",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "บันทึก",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "ลบ",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "ส่งออก",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "ซิงค์",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "แหล่งที่มา",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "เป้า",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "ค้นหาภาษา...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "ตรวจจับอัตโนมัติจากเบราว์เซอร์",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "สลับภาษา",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "สลับระหว่างข้อความต้นฉบับและข้อความแปล",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "วิธีการทำงาน: • สลับระหว่างข้อความต้นฉบับและข้อความแปล • คำแปลจะถูกแคชไว้เพื่อการสลับที่รวดเร็ว • ใช้งานได้กับข้อความทั้งหมดในหน้า • ล้างแคชเพื่อแปลซ้ำ",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "ต้นฉบับ",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "แปลแล้ว",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "พร้อมแปล",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "ล้างแคชและแปลใหม่",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "การแปลแบบหลอก",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "ทดสอบ UI ด้วยข้อความที่ยาวขึ้นเพื่อค้นหาปัญหาการล้น",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "วิธีการทำงาน: • แทนที่อักขระด้วยอักขระเน้นเสียง • เพิ่มความยาว 30-40% • ล้อมข้อความด้วยเครื่องหมาย [!!!... !!!] • ตัวอย่าง: \"การตั้งค่า\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "ใช้ Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "โหมดแก้ไขสด",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "คลิกข้อความใด ๆ เพื่อแก้ไขโดยตรงบนหน้า",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "วิธีการทำงาน: • คลิกองค์ประกอบข้อความใดๆ เพื่อแก้ไข • ติดตามการเปลี่ยนแปลงแบบเรียลไทม์ • ส่งออกการแก้ไขเป็น JSON หรือ Excel • กด Ctrl+E เพื่อส่งออกการเปลี่ยนแปลง",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "เปิดใช้งานการแก้ไขสด",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "คุณสมบัติ AI",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "เครื่องมือแปลภาษาที่ขับเคลื่อนด้วย AI",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "ฟีเจอร์พรีเมียม: • การแปลที่คำนึงถึงบริบทด้วย AI • แปลทั้งหน้าพร้อมกันเป็นชุด • ตรวจสอบคุณภาพการแปล • ให้คำแนะนำเกี่ยวกับภาษาธรรมชาติ",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "รับคำแนะนำจาก AI",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "การแปลแบบสมาร์ทแบทช์",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "แปลข้อความทั้งหมดบนหน้าด้วยบริบท AI",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "ตรวจสอบคุณภาพการแปล",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "พรีเมี่ยม",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "โปรแกรมแปลไฟล์ JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "แปลไฟล์ภาษา JSON เป็นภาษาต่างๆ",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "วิธีการทำงาน: • อัปโหลดไฟล์ภาษา JSON • เลือกภาษาเป้าหมาย • แปลด้วย Google หรือ AI • ดาวน์โหลดไฟล์ที่แปลแล้ว",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "แปลไฟล์ JSON",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "รายงานปัญหา",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "รายงานปัญหาการแปลและปรับภาษาข้อความ",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "วิธีการทำงาน: • คลิกองค์ประกอบข้อความเพื่อรายงานปัญหา • เพิ่มคำอธิบายและความรุนแรง • ส่งออกรายงานไปยัง Excel หรือ JSON • ซิงค์กับ Google Drive",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "เริ่มการรายงาน",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "จัดการรายงาน",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "บัญชี",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "ลงชื่อเข้าใช้ด้วย Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "อัพเกรดเป็นพรีเมี่ยม",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "ข้อมูลพรีเมี่ยม",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "ออกจากระบบ",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "รายงานจุดบกพร่อง",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "รายงานการค้นหา...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "ล้างทั้งหมด",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "ยังไม่มีรายงานข้อบกพร่อง",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "คลิก \"เริ่มรายงาน\" เพื่อติดตามปัญหา",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "ไม่พบผลลัพธ์",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "ลองใช้คำสำคัญอื่น ๆ",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "ดูรายละเอียด",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "ทำเครื่องหมายว่าได้รับการแก้ไขแล้ว",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "เปิดใหม่อีกครั้ง",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "รายงานจุดบกพร่อง #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "ข้อมูลพื้นฐาน",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "สถานะ",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "หมวดหมู่",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "วันที่",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "รายละเอียดองค์ประกอบ",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "แท็ก",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "ข้อความ",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "ตัวเลือก",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "บริบทการแปล",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "คำอธิบายปัญหา",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "ข้อมูลหน้า",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "ชื่อ",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "ลบรายงาน",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบรายงาน #$ID$?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "ล้างรายงานทั้งหมด",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "ลบรายงานข้อบกพร่องทั้งหมดใช่ไหม การดำเนินการนี้ไม่สามารถย้อนกลับได้!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "ลบทั้งหมด",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "ส่งออกรายงานข้อบกพร่อง",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "เลือกรูปแบบการส่งออก:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "ส่งออกไปยัง Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "ส่งออกเป็น JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "ซิงค์กับ Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "รายงาน #$ID$ ทำเครื่องหมายเป็น $STATUS$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "รายงาน #$ID$ ถูกลบ",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "รายงานทั้งหมดเคลียร์แล้ว",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "เปลี่ยนภาษาเป้าหมาย?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "เปลี่ยนภาษาต้นฉบับเป็น $SOURCE$ คุณต้องการแปลเป็น $TARGET$ หรือไม่",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "ใช่ การเปลี่ยนแปลง",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "ไม่ ให้คงความเป็นปัจจุบัน",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "เปิด",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "ได้รับการแก้ไขแล้ว",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "วิธีการทำงาน:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "คุณสมบัติพิเศษ:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "ตรวจจับอัตโนมัติ: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "การซิงค์ข้อมูล",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "พบข้อความ $COUNT$ ข้อที่ต้องแปล",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "เลือกแล้ว",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "กำลังเตรียมตัว...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "สมบูรณ์!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "กำลังเริ่มแปลสำหรับ $COUNT$ ภาษา...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "✓ สำเร็จภาษา $SUCCESS$/$TOTAL$ ภาษาแล้ว",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$ กิโลไบต์",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "ล้างแคชแล้ว",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "ไม่ระบุ",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "หน้าไม่มีชื่อ",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "ดู",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "ยืนยัน",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "ตกลง",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "อธิบายปัญหาโดยละเอียด...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "โปรดอธิบายปัญหา",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "กรุณาลงชื่อเข้าใช้ก่อน",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "เคล็ดลับ: กด Ctrl+E เพื่อส่งออกการเปลี่ยนแปลงของคุณ",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "คลิกเพื่อปิดใช้งานโหมดแก้ไข กด Ctrl+E เพื่อส่งออกการเปลี่ยนแปลง",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "คัดลอกไปยังคลิปบอร์ดแล้ว!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "ปรับปรุงแล้ว!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "นำการปรับปรุง $COUNT$ มาใช้แล้ว!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "ตรวจสอบคุณภาพเสร็จสิ้น",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "กำลังซิงค์ไปยัง Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "ซิงค์ไปยัง Google Drive แล้ว!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "การซิงค์ไดรฟ์ล้มเหลว",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "โปรดลงชื่อเข้าใช้เพื่อซิงค์จากไดรฟ์",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "กำลังซิงค์จาก Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "ซิงค์รายงาน $COUNT$ จากไดรฟ์แล้ว!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "ไม่พบรายงานในไดรฟ์",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "กำลังเตรียมไฟล์ Excel...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "ไฟล์ Excel ที่ส่งออก: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "เกิดข้อผิดพลาดในการส่งออกไปยัง Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "ไฟล์ JSON ที่ส่งออก: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "เกิดข้อผิดพลาดในการส่งออกเป็น JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "ไฟล์ CSV ที่ส่งออก: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "เกิดข้อผิดพลาดในการส่งออกเป็น CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "กรุณาอัปโหลดไฟล์ JSON ที่ถูกต้อง",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "โหลดคีย์การแปล $COUNT$ แล้ว",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "ไฟล์ JSON ไม่ถูกต้อง",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "กรุณาทำตามขั้นตอนทั้งหมดให้ครบถ้วน",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "การแปล AI ต้องใช้ระดับพรีเมียม",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "ไม่สามารถแปลเป็น $LANG$ ได้",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "การแปลทั้งหมดล้มเหลว โปรดลองอีกครั้ง",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "การแปลล้มเหลว กรุณาลองอีกครั้ง",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "แปลเป็น $COUNT$ ภาษาสำเร็จแล้ว!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "ดาวน์โหลด $FILENAME$",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "วางไฟล์ JSON ที่นี่หรือคลิกเพื่อเรียกดู",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "รองรับ: en.json, vi.json ฯลฯ",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google แปล",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "แปลอย่างรวดเร็วและฟรีโดยใช้ Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "การแปล AI",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "การแปลตามบริบทคุณภาพสูงโดยใช้ AI",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "ฟรี",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "เร็ว",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "คำนึงถึงบริบท",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "การเรียบเรียงถ้อยคำตามธรรมชาติ",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "ดีกว่าสำหรับข้อความ UI",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "ปิดใช้งานการแก้ไขสด (การแก้ไข $COUNT$ ครั้ง)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "เปิดใช้งานการแก้ไขสด (บันทึก $COUNT$)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "ข้อความที่เลือก ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "ทางเลือกที่ดีกว่า ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "อัพเกรดเป็นพรีเมี่ยม",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "ปลดล็อคฟีเจอร์ AI ทั้งหมดและการแปลไม่จำกัด",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "ข้อเสนอแนะอัจฉริยะ AI",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "การแปลแบบแบตช์อย่างรวดเร็ว",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "การตรวจสอบคุณภาพอัตโนมัติ",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "การสนับสนุนลำดับความสำคัญ",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "รองรับทุกภาษา",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "สมัครสมาชิกตอนนี้",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "บัญชีพรีเมี่ยม",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "การสมัครสมาชิกที่ใช้งานอยู่",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "วันหมดอายุ",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "วันที่เหลืออยู่",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "ประเภทปัญหา:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "การแปลผิด",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "ข้อความล้น",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "เค้าโครงเสียหาย",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "การแปลที่หายไป",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "ปัญหาการจัดรูปแบบ",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "อื่น",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "ผู้จัดการรายงานข้อผิดพลาด",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "จัดการและส่งออกปัญหาการแปลของคุณ",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "เริ่มรายงานปัญหาเพื่อติดตามปัญหาการแปล",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "ไม่มีรายงานที่ตรงกับตัวกรองของคุณ",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "สถานะทั้งหมด",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "ความรุนแรงทั้งหมด",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "ทุกหมวดหมู่",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "สูง",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "ปานกลาง",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "ต่ำ",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "ยอดเยี่ยม!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "ตรวจสอบกลุ่มข้อความ $COUNT$ กลุ่มแล้วไม่พบปัญหาใดๆ",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "ภาษาต้นฉบับ:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "ภาษาเป้าหมาย:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "จำเป็นต้องลงชื่อเข้าใช้",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "โปรดลงชื่อเข้าใช้เพื่อใช้ฟีเจอร์การแปล ผู้ใช้ฟรีจะได้รับคำแปล 10 รายการ",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "การแปลที่เหลืออยู่ $REMAINING$ จาก $LIMIT$ รายการ",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "ถึงขีดจำกัดการใช้งานแล้ว",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "คุณใช้งานถึงขีดจำกัดแล้ว อัปเกรดเป็นพรีเมียมเพื่อการเข้าถึงแบบไม่จำกัด",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "อัพเกรดเป็นพรีเมี่ยม",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "ปลดล็อคการแปลไม่จำกัดและคุณสมบัติพรีเมียม",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "ต่อเดือน",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "การแปลไม่จำกัด",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "บางทีภายหลัง",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "ยกเลิกได้ทุกเมื่อ ไม่ต้องถามคำถามใดๆ",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "การใช้งานของคุณ",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "การแปลที่ใช้",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "กรุณาลงชื่อเข้าใช้งานเพื่อใช้ฟีเจอร์การแปล",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "เหลือคำแปลไม่เพียงพอ $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "คุณกำลังใช้คำแปลที่เหลืออยู่ทั้งหมด $COUNT$ รายการ อัปเกรดเป็นพรีเมียมเพื่อการเข้าถึงแบบไม่จำกัด",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "ไม่สามารถรันบนหน้านี้ได้",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI ทำงานได้เฉพาะบนเว็บไซต์ทั่วไปเท่านั้น ไม่สามารถทำงานบนหน้าเว็บภายในของ Chrome ได้",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "ประเภทเพจที่ไม่รองรับ",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "หน้าที่ไม่รองรับ:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "เปิดเว็บไซต์ปกติเช่น google.com เพื่อใช้ LocalizeAI",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "เริ่มการแปล",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "ดาวน์โหลดทั้งหมด",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "แปลไฟล์อื่น",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "ดาวน์โหลด",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "อัพโหลดไฟล์ JSON",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "เลือกภาษาเป้าหมาย",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "เลือกโหมดการแปล",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ คีย์แปลแล้ว",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "แปลเสร็จสมบูรณ์!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "รายงานทั้งหมด",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "ปัญหาที่เปิดอยู่",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "ลำดับความสำคัญสูง",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "ซิงค์กับไดรฟ์",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "ซิงค์จากไดรฟ์",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "ส่งออก Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "ส่งออก JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "บัตรประจำตัว",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "ความรุนแรง",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "องค์ประกอบ",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "ปัญหา",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "วิธีแก้ปัญหาที่แนะนำ",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "ดู HTML",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "เอ็กซ์พาธ",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "ช่องมองภาพ",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "ภาษาปัจจุบัน",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "คีย์แปล",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "เวลาที่ผ่านไป",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "กำลังแปล...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "แปลไฟล์ภาษา JSON เป็นภาษาต่างๆ ด้วย Google Translate หรือ AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "เลือกภาษาหนึ่งภาษาหรือมากกว่าที่จะแปล",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "รูปแบบที่ตรวจพบ: $FORMAT$, โหมด: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "แปลเป็น $LANG$... (คีย์ $CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "ส่งออกการเปลี่ยนแปลง $COUNT$ รายการ",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "ส่งออกการแก้ไขของคุณเพื่อแบ่งปันกับทีมงานแปลของคุณ",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "ดาวน์โหลด CSV",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "ดาวน์โหลด JSON",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "บันทึกการเปลี่ยนแปลงแล้ว $COUNT$ รายการ กด Ctrl+E เพื่อส่งออก",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "คลิกเพื่อเปิดใช้งานโหมดแก้ไข",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "คลิกเพื่อเปิดใช้งานโหมดแก้ไข คุณได้บันทึกการเปลี่ยนแปลงแล้ว กด Ctrl+E เพื่อส่งออก",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "ไม่มีข้อความที่เลือก",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "เลือกข้อความเพื่อรับคำแนะนำ AI",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "ไม่พบภาษาใด",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "การลงชื่อเข้าใช้ล้มเหลว กรุณาลองอีกครั้ง",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "ลงชื่อเข้าใช้สำเร็จแล้ว!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "ออกจากระบบสำเร็จแล้ว",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "การตรวจสอบสิทธิ์ล้มเหลว โปรดลองล้างแคชและลงชื่อเข้าใช้ใหม่อีกครั้ง",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "กำลังล้างแคช...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "ไม่สามารถล้างแคชได้",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "ไลบรารี Excel ไม่พร้อมใช้งาน โปรดโหลดหน้าใหม่อีกครั้ง",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "สูงสุด $MAX$ ภาษาต่อครั้งเพื่อประสิทธิภาพที่ดีที่สุด กรุณาแปลเป็นชุด",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "เลือกแล้ว $COUNT$ / $MAX$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "กรุณาเข้าสู่ระบบเพื่อใช้การแปล AI",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "เหมาะสำหรับไฟล์ที่มีขนาดเหมาะสมที่สุด",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "โหมด AI: การดำเนินการนี้จะทำการเรียก $REQUESTS$ API $MAX$",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "requests": {
+        "content": "$1",
+        "example": "80"
+      },
+      "max": {
+        "content": "$2",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "การแปลนี้จะทำการเรียก API ประมาณ $COUNT$ ครั้ง",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "โหมด AI รองรับภาษาสูงสุด $MAX$ ในคราวเดียว",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "วิธีการแปล",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "ฟรี",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "ไม่จำกัด",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "เร็ว",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "ภาษา",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "การแปลหลายภาษาต้องใช้ระดับพรีเมียม",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "ตรวจสอบแล้ว:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "การสะกดคำ",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "ไวยากรณ์",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "การจัดรูปแบบ",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "ข้อความต้นฉบับไม่มีปัญหา",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "ตรวจสอบส่วนข้อความ <strong>$COUNT$</strong> แล้ว",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "พบข้อผิดพลาด <strong>$COUNT$</strong> ที่ต้องแก้ไข",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "ไม่มีข้อผิดพลาด!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "รายงานการตรวจสอบคุณภาพ",
+    "description": "Quality check report title"
+  }
+}

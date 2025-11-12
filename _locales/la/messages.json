@@ -1,0 +1,1414 @@
+{
+  "appDesc": {
+    "message": "Instrumentum probationis translationis AI. Translatio viva, relatio errorum, pseudo-localizatio et translatio JSON coacervata.",
+    "description": "Extension description"
+  },
+  "close": {
+    "message": "Claudere",
+    "description": "Close button"
+  },
+  "cancel": {
+    "message": "Abrogare",
+    "description": "Cancel button"
+  },
+  "save": {
+    "message": "Serva",
+    "description": "Save button"
+  },
+  "delete": {
+    "message": "Dele",
+    "description": "Delete button"
+  },
+  "export": {
+    "message": "Exportatio",
+    "description": "Export button"
+  },
+  "sync": {
+    "message": "Synchronizatio",
+    "description": "Sync button"
+  },
+  "source": {
+    "message": "FONS",
+    "description": "Source language label"
+  },
+  "target": {
+    "message": "SCOPUS",
+    "description": "Target language label"
+  },
+  "searchLanguages": {
+    "message": "Linguas quaere...",
+    "description": "Language search placeholder"
+  },
+  "autoDetected": {
+    "message": "Automate detectum ex navigatro",
+    "description": "Auto-detected language info"
+  },
+  "languageToggle": {
+    "message": "Lingua Commutatio",
+    "description": "Language toggle feature title"
+  },
+  "languageToggleDesc": {
+    "message": "Inter textum originalem et conversum commuta",
+    "description": "Language toggle description"
+  },
+  "languageToggleInfo": {
+    "message": "Quomodo operatur: • Inter textum originalem et translatum alternat • Translationes in memoria celatae servantur ad celerem commutationem • Cum omni textu in pagina operatur • Memoria celata purganda est ad retradendum",
+    "description": "Language toggle tooltip"
+  },
+  "original": {
+    "message": "Originale",
+    "description": "Original text button"
+  },
+  "translated": {
+    "message": "Translatum",
+    "description": "Translated text button"
+  },
+  "readyToTranslate": {
+    "message": "Paratus ad interpretandum",
+    "description": "Translation status message"
+  },
+  "clearCacheRetranslate": {
+    "message": "Purgatio Repositorii et Revertetio",
+    "description": "Clear cache button"
+  },
+  "pseudoLocalization": {
+    "message": "Pseudo-Localisatio",
+    "description": "Pseudo-localization feature title"
+  },
+  "pseudoLocalizationDesc": {
+    "message": "Experire interfaciem usoris cum textu longiore ut problemata redundantiae invenias.",
+    "description": "Pseudo-localization description"
+  },
+  "pseudoLocalizationInfo": {
+    "message": "Quomodo operatur: • Litteras cum versionibus accentuatis substituit • Expansionem longitudinis 30-40% addit • Textum in signis [!!!... !!!] includit • Exemplum: \"Optiones\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "description": "Pseudo-localization tooltip"
+  },
+  "applyPseudoLoc": {
+    "message": "Applica Pseudo-Loc",
+    "description": "Apply pseudo-localization button"
+  },
+  "liveEditMode": {
+    "message": "Modus Editionis Vivae",
+    "description": "Live edit feature title"
+  },
+  "liveEditModeDesc": {
+    "message": "Preme quemlibet textum ut directe in pagina emendes.",
+    "description": "Live edit description"
+  },
+  "liveEditModeInfo": {
+    "message": "Quomodo operatur: • Elementum textus quodlibet preme ut id emendes • Mutationes in tempore reali notantur • Mutationes ut JSON vel Excel exporta • Ctrl+E preme ut mutationes exportes",
+    "description": "Live edit tooltip"
+  },
+  "enableLiveEdit": {
+    "message": "Editio in Tempore Activa",
+    "description": "Enable live edit button"
+  },
+  "aiFeatures": {
+    "message": "Proprietates Intellegentiae Artificialis",
+    "description": "AI features section title"
+  },
+  "aiFeaturesDesc": {
+    "message": "Instrumenta translationis ab intellegentia artificiali impulsa",
+    "description": "AI features description"
+  },
+  "aiFeaturesInfo": {
+    "message": "Proprietates Praecipuae: • Interpretatio contextu conscia, ab intelligentia artificiali impulsa • Interpretatio paginarum integrarum per seriem • Examen qualitatis interpretationum • Suggestiones linguae naturalis",
+    "description": "AI features tooltip"
+  },
+  "getAISuggestions": {
+    "message": "Accipe Suggestiones Intellegentiae Artificialis",
+    "description": "AI suggestions button"
+  },
+  "smartBatchTranslate": {
+    "message": "Interpretatio Percursa Intelligentis",
+    "description": "Smart batch translate button"
+  },
+  "smartBatchTranslateInfo": {
+    "message": "OMNEM textum in pagina contextu intellegentiae artificialis interpretatur.",
+    "description": "Smart batch translate info"
+  },
+  "checkTranslationQuality": {
+    "message": "Qualitatem Translationis Inspice",
+    "description": "Quality check button"
+  },
+  "premium": {
+    "message": "Praemium",
+    "description": "Premium badge"
+  },
+  "jsonFileTranslator": {
+    "message": "Interpres fasciculorum JSON",
+    "description": "JSON translator feature title"
+  },
+  "jsonFileTranslatorDesc": {
+    "message": "Fasciculos linguarum JSON in plures linguas convertere",
+    "description": "JSON translator description"
+  },
+  "jsonFileTranslatorInfo": {
+    "message": "Quomodo operatur: • Fasciculos linguae JSON impone • Linguas destinatas elige • Google vel AI verte • Fasciculos conversos extrahe",
+    "description": "JSON translator tooltip"
+  },
+  "translateJSONFile": {
+    "message": "Limam JSON convertere",
+    "description": "Translate JSON file button"
+  },
+  "reportIssue": {
+    "message": "Nuntia Problema",
+    "description": "Bug report feature title"
+  },
+  "reportIssueDesc": {
+    "message": "Difficultates translationis et localizationis textus nuntia.",
+    "description": "Bug report description"
+  },
+  "reportIssueInfo": {
+    "message": "Quomodo operatur: • Elementa textus preme ut problemata referas • Descriptiones et gravitatem adde • Relationes in Excel vel JSON exporta • Cum Google Drive synchroniza",
+    "description": "Bug report tooltip"
+  },
+  "startReporting": {
+    "message": "Incipe Nuntiare",
+    "description": "Start bug reporting button"
+  },
+  "manageReports": {
+    "message": "Relationes Administrare",
+    "description": "Manage reports button"
+  },
+  "account": {
+    "message": "Ratio",
+    "description": "Account section title"
+  },
+  "signInWithGoogle": {
+    "message": "Intra cum Google",
+    "description": "Sign in button"
+  },
+  "upgradeToPremium": {
+    "message": "Phasellus ut Premium",
+    "description": "Upgrade button"
+  },
+  "premiumInfo": {
+    "message": "Informationes Praemiales",
+    "description": "Premium info button"
+  },
+  "signOut": {
+    "message": "Exire",
+    "description": "Sign out button"
+  },
+  "bugReports": {
+    "message": "Relationes Errorum",
+    "description": "Bug reports title"
+  },
+  "searchReports": {
+    "message": "Relationes investigationis...",
+    "description": "Search reports placeholder"
+  },
+  "clearAll": {
+    "message": "Omnia Dele",
+    "description": "Clear all button"
+  },
+  "noBugReportsYet": {
+    "message": "Nullae adhuc relationes errorum",
+    "description": "Empty state title"
+  },
+  "clickStartReporting": {
+    "message": "Preme \"Incipe Nuntiare\" ut problemata indages.",
+    "description": "Empty state description"
+  },
+  "noResultsFound": {
+    "message": "Nullae conclusiones inventae",
+    "description": "No search results title"
+  },
+  "tryDifferentKeywords": {
+    "message": "Verba clavis diversa experire",
+    "description": "No search results description"
+  },
+  "viewDetails": {
+    "message": "Vide singula",
+    "description": "View details tooltip"
+  },
+  "markAsResolved": {
+    "message": "Nota ut solutum",
+    "description": "Mark as resolved tooltip"
+  },
+  "reopen": {
+    "message": "Reaperire",
+    "description": "Reopen tooltip"
+  },
+  "bugReportDetails": {
+    "message": "Relatio Erroris #$ID$",
+    "description": "Bug report details title",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "basicInfo": {
+    "message": "Informationes Fundamentales",
+    "description": "Basic info section"
+  },
+  "status": {
+    "message": "Status",
+    "description": "Status label"
+  },
+  "category": {
+    "message": "Categoria",
+    "description": "Category label"
+  },
+  "date": {
+    "message": "Dies",
+    "description": "Date label"
+  },
+  "elementDetails": {
+    "message": "Elementorum Detalia",
+    "description": "Element details section"
+  },
+  "tag": {
+    "message": "Insigne",
+    "description": "Tag label"
+  },
+  "text": {
+    "message": "Textus",
+    "description": "Text label"
+  },
+  "selector": {
+    "message": "Elector",
+    "description": "Selector label"
+  },
+  "translationContext": {
+    "message": "Contextus Translationis",
+    "description": "Translation context section"
+  },
+  "issueDescription": {
+    "message": "Descriptio Problematis",
+    "description": "Issue description section"
+  },
+  "pageInfo": {
+    "message": "Notitiae Paginae",
+    "description": "Page info section"
+  },
+  "title": {
+    "message": "Titulus",
+    "description": "Title label"
+  },
+  "url": {
+    "message": "URL",
+    "description": "URL label"
+  },
+  "deleteReport": {
+    "message": "Relationem Delere",
+    "description": "Delete report dialog title"
+  },
+  "deleteReportConfirm": {
+    "message": "Certe relationem #$ID$ delere vis?",
+    "description": "Delete report confirmation",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "clearAllReports": {
+    "message": "Omnes Relationes Dele",
+    "description": "Clear all reports dialog title"
+  },
+  "clearAllReportsConfirm": {
+    "message": "Omnes relationes errorum delere? Haec actio non potest revocari!",
+    "description": "Clear all reports confirmation"
+  },
+  "deleteAll": {
+    "message": "Omnia Delere",
+    "description": "Delete all button"
+  },
+  "exportBugReports": {
+    "message": "Exporta Relationes Errorum",
+    "description": "Export dialog title"
+  },
+  "chooseExportFormat": {
+    "message": "Formam exportationis elige:",
+    "description": "Export format prompt"
+  },
+  "exportToExcel": {
+    "message": "Exportare ad Excel",
+    "description": "Export to Excel button"
+  },
+  "exportToJSON": {
+    "message": "Exportare ad JSON",
+    "description": "Export to JSON button"
+  },
+  "syncToGoogleDrive": {
+    "message": "Synchroniza cum Google Drive",
+    "description": "Sync to Drive button"
+  },
+  "reportMarkedAs": {
+    "message": "Report # $ $$STATUS$$ $ quod ut $ Status $ $ID$",
+    "description": "Report status changed notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      },
+      "status": {
+        "content": "$2",
+        "example": "resolved"
+      }
+    }
+  },
+  "reportDeleted": {
+    "message": "Relatio #$ID$ deletus est",
+    "description": "Report deleted notification",
+    "placeholders": {
+      "id": {
+        "content": "$1",
+        "example": "123"
+      }
+    }
+  },
+  "allReportsCleared": {
+    "message": "Omnes relationes purgatae",
+    "description": "All reports cleared notification"
+  },
+  "changeTargetLanguage": {
+    "message": "Linguam Destinatam Mutare?",
+    "description": "Change target language dialog title"
+  },
+  "sourceLanguageChanged": {
+    "message": "Lingua originalis mutata est ad $SOURCE$. Visne interpretari ad $TARGET$?",
+    "description": "Source language changed prompt",
+    "placeholders": {
+      "source": {
+        "content": "$1",
+        "example": "English"
+      },
+      "target": {
+        "content": "$2",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "yesChange": {
+    "message": "Ita, Mutatio",
+    "description": "Yes change button"
+  },
+  "noKeepCurrent": {
+    "message": "Non, Recens Mane",
+    "description": "No keep current button"
+  },
+  "open": {
+    "message": "apertum",
+    "description": "Open status"
+  },
+  "resolved": {
+    "message": "solutum",
+    "description": "Resolved status"
+  },
+  "howItWorks": {
+    "message": "Quomodo operatur:",
+    "description": "How it works label"
+  },
+  "premiumFeatures": {
+    "message": "Proprietates Praecipuae:",
+    "description": "Premium features label"
+  },
+  "autoDetectedInfo": {
+    "message": "Automate detectum: $LANG$",
+    "description": "Auto-detected language pair info",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English → Vietnamese"
+      }
+    }
+  },
+  "syncData": {
+    "message": "Synchroniza data",
+    "description": "Sync data tooltip"
+  },
+  "foundTextsToTranslate": {
+    "message": "$COUNT$ textus ad convertendum inventa sunt.",
+    "description": "Found texts count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "selected": {
+    "message": "selectus",
+    "description": "Selected label"
+  },
+  "preparing": {
+    "message": "Parando...",
+    "description": "Preparing status"
+  },
+  "complete": {
+    "message": "Completum!",
+    "description": "Complete status"
+  },
+  "startingTranslation": {
+    "message": "Incipitur interpretatio pro $COUNT$ linguis...",
+    "description": "Starting translation message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "completedLanguages": {
+    "message": "Completur $ SECUNDUM $/$ TOTAL$ linguarum $SUCCESS$ $TOTAL$",
+    "description": "Completed languages message",
+    "placeholders": {
+      "success": {
+        "content": "$1",
+        "example": "5"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "kbSize": {
+    "message": "$$SIZE$$ KB",
+    "description": "File size in KB",
+    "placeholders": {
+      "size": {
+        "content": "$1",
+        "example": "12.5"
+      }
+    }
+  },
+  "timeElapsed": {
+    "message": "$ TEMPUS $ s * $TIME$",
+    "description": "Time elapsed in seconds",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "45"
+      }
+    }
+  },
+  "cacheCleared": {
+    "message": "Celula celata purgata est",
+    "description": "Cache cleared message"
+  },
+  "notSpecified": {
+    "message": "Non specificatum",
+    "description": "Not specified label"
+  },
+  "untitledPage": {
+    "message": "Pagina sine titulo",
+    "description": "Untitled page label"
+  },
+  "view": {
+    "message": "Visus",
+    "description": "View button"
+  },
+  "confirm": {
+    "message": "Confirma",
+    "description": "Confirm button"
+  },
+  "ok": {
+    "message": "Bene",
+    "description": "OK button"
+  },
+  "describeIssue": {
+    "message": "Quaestionem accurate describe...",
+    "description": "Bug report description placeholder"
+  },
+  "pleaseDescribeIssue": {
+    "message": "Quaeso, quaestionem describe.",
+    "description": "Please describe issue message"
+  },
+  "pleaseSignInFirst": {
+    "message": "Quaeso primum initium sessionis fac.",
+    "description": "Please sign in first message"
+  },
+  "tipPressCtrlE": {
+    "message": "Consilium: Preme Ctrl+E ut mutationes tuas exportes",
+    "description": "Tip message for Ctrl+E"
+  },
+  "clickToDisableEditing": {
+    "message": "Preme ut modum edendi inhibeas. Preme Ctrl+E ut mutationes exportes.",
+    "description": "Live edit button tooltip"
+  },
+  "copiedToClipboard": {
+    "message": "In tabulam excerptam!",
+    "description": "Copied to clipboard message"
+  },
+  "improvementApplied": {
+    "message": "Emendatio adhibita!",
+    "description": "Improvement applied message"
+  },
+  "appliedImprovements": {
+    "message": "$COUNT$ emendationes adhibitae sunt!",
+    "description": "Applied improvements message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "qualityCheckComplete": {
+    "message": "Qualitatis probatio completa",
+    "description": "Quality check complete message"
+  },
+  "syncingToGoogleDrive": {
+    "message": "Synchronizatio cum Google Drive...",
+    "description": "Syncing to Drive message"
+  },
+  "syncedToGoogleDrive": {
+    "message": "Cum Google Drive synchronizatum!",
+    "description": "Synced to Drive message"
+  },
+  "driveSyncFailed": {
+    "message": "Synchronizatio disci defecit",
+    "description": "Drive sync failed message"
+  },
+  "pleaseSignInToSync": {
+    "message": "Quaeso, rationem tuam ini ut ex Drive synchronizes.",
+    "description": "Please sign in to sync message"
+  },
+  "syncingFromGoogleDrive": {
+    "message": "Synchronizatio ex Google Drive...",
+    "description": "Syncing from Drive message"
+  },
+  "syncedReportsFromDrive": {
+    "message": "$COUNT$ relationes ex Drive synchronizatae sunt!",
+    "description": "Synced reports from Drive message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "10"
+      }
+    }
+  },
+  "noReportsFoundInDrive": {
+    "message": "Nullae relationes in Drive inventae.",
+    "description": "No reports in Drive message"
+  },
+  "preparingExcelFile": {
+    "message": "Fasciculus Excel paratur...",
+    "description": "Preparing Excel message"
+  },
+  "excelFileExported": {
+    "message": "Fasciculus Excel exportatus: $FILENAME$",
+    "description": "Excel exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.xlsx"
+      }
+    }
+  },
+  "errorExportingToExcel": {
+    "message": "Error educendi ad Excel",
+    "description": "Error exporting Excel message"
+  },
+  "jsonFileExported": {
+    "message": "Fasciculus JSON exportatus: $FILENAME$",
+    "description": "JSON exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.json"
+      }
+    }
+  },
+  "errorExportingToJSON": {
+    "message": "Error educendi ad JSON",
+    "description": "Error exporting JSON message"
+  },
+  "csvFileExported": {
+    "message": "Fasciculus CSV exportatus: $FILENAME$",
+    "description": "CSV exported message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "report.csv"
+      }
+    }
+  },
+  "errorExportingToCSV": {
+    "message": "Error educendi ad CSV",
+    "description": "Error exporting CSV message"
+  },
+  "pleaseUploadValidJSON": {
+    "message": "Quaeso fasciculum JSON validum impone.",
+    "description": "Please upload valid JSON message"
+  },
+  "loadedTranslationKeys": {
+    "message": "Claves translationis $COUNT$ impositae sunt.",
+    "description": "Loaded keys message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "invalidJSONFile": {
+    "message": "Fasciculus JSON invalidus",
+    "description": "Invalid JSON message"
+  },
+  "pleaseCompleteAllSteps": {
+    "message": "Quaeso omnia gradus perfice.",
+    "description": "Please complete steps message"
+  },
+  "aiTranslationRequiresPremium": {
+    "message": "AI Translation requirit Premium.",
+    "description": "AI translation premium message"
+  },
+  "failedToTranslateTo": {
+    "message": "Vertere in linguam $LANG$ non potui.",
+    "description": "Failed to translate message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      }
+    }
+  },
+  "allTranslationsFailed": {
+    "message": "Omnes interpretationes defecerunt. Quaeso, iterum conare.",
+    "description": "All translations failed message"
+  },
+  "translationFailed": {
+    "message": "Conversio fefellit. Quaeso, iterum conare.",
+    "description": "Translation failed message"
+  },
+  "successfullyTranslatedTo": {
+    "message": "Feliciter in $COUNT$ linguas translatum est!",
+    "description": "Successfully translated message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "downloaded": {
+    "message": "`$FILENAME$` receptum est",
+    "description": "Downloaded file message",
+    "placeholders": {
+      "filename": {
+        "content": "$1",
+        "example": "vi.json"
+      }
+    }
+  },
+  "dropJSONFileHere": {
+    "message": "Depone hic fasciculum JSON vel preme ut perlegas.",
+    "description": "Drop JSON file message"
+  },
+  "supportsJSONFiles": {
+    "message": "Sustinet: en.json, vi.json, etc.",
+    "description": "Supports JSON files message"
+  },
+  "googleTranslate": {
+    "message": "Google Interpretem",
+    "description": "Google Translate label"
+  },
+  "fastAndFreeTranslation": {
+    "message": "Conversio celeris et gratuita utens Google Translate API",
+    "description": "Google Translate description"
+  },
+  "aiTranslation": {
+    "message": "Interpretatio Intellegentiae Artificialis",
+    "description": "AI Translation label"
+  },
+  "highQualityTranslation": {
+    "message": "Interpretatio contextu conscia altae qualitatis per intelligentiam artificialem (IA)",
+    "description": "AI Translation description"
+  },
+  "free": {
+    "message": "Liber",
+    "description": "Free label"
+  },
+  "fast": {
+    "message": "Celer",
+    "description": "Fast label"
+  },
+  "contextAware": {
+    "message": "Contextu conscius",
+    "description": "Context-aware label"
+  },
+  "naturalPhrasing": {
+    "message": "Phrasis naturalis",
+    "description": "Natural phrasing label"
+  },
+  "betterForUIText": {
+    "message": "Melius pro textu interfaciei usoris",
+    "description": "Better for UI text label"
+  },
+  "disableLiveEdit": {
+    "message": "Mutationem in Tempore Inactivare ($COUNT$ mutationes)",
+    "description": "Disable live edit button",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "enableLiveEditSaved": {
+    "message": "Mutationem in Tempore Activa ($COUNT$ servata)",
+    "description": "Enable live edit with saved changes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "selectedText": {
+    "message": "Textus Selectus ($LANG$)",
+    "description": "Selected text label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "betterAlternatives": {
+    "message": "Meliores Alternativae ($LANG$)",
+    "description": "Better alternatives label",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "English"
+      }
+    }
+  },
+  "upgradeToPremiumTitle": {
+    "message": "Phasellus ut Premium",
+    "description": "Upgrade to premium title"
+  },
+  "unlockAllFeatures": {
+    "message": "Omnes functiones intellegentiae artificialis et translationes infinitas resera.",
+    "description": "Unlock features subtitle"
+  },
+  "aiSmartSuggestions": {
+    "message": "Suggestiones callidae intellegentiae artificialis",
+    "description": "AI smart suggestions feature"
+  },
+  "fastBatchTranslation": {
+    "message": "Celeris conversio per seriem",
+    "description": "Fast batch translation feature"
+  },
+  "autoQualityCheck": {
+    "message": "Automatica qualitatis probatio",
+    "description": "Auto quality check feature"
+  },
+  "prioritySupport": {
+    "message": "Auxilium prioritatis",
+    "description": "Priority support feature"
+  },
+  "allLanguagesSupport": {
+    "message": "Omnes linguae sustentantur",
+    "description": "All languages support feature"
+  },
+  "subscribeNow": {
+    "message": "Subscribe nunc",
+    "description": "Subscribe now button"
+  },
+  "premiumAccount": {
+    "message": "Ratio Praemii",
+    "description": "Premium account title"
+  },
+  "activeSubscription": {
+    "message": "Subscriptio Activa",
+    "description": "Active subscription badge"
+  },
+  "expiryDate": {
+    "message": "Dies Expirationis",
+    "description": "Expiry date label"
+  },
+  "daysRemaining": {
+    "message": "Dies Reliqui",
+    "description": "Days remaining label"
+  },
+  "issueType": {
+    "message": "Genus Problematis:",
+    "description": "Issue type label"
+  },
+  "wrongTranslation": {
+    "message": "Falsa Interpretatio",
+    "description": "Wrong translation option"
+  },
+  "textOverflow": {
+    "message": "Textus Exuberantia",
+    "description": "Text overflow option"
+  },
+  "layoutBroken": {
+    "message": "Dispositio Fracta",
+    "description": "Layout broken option"
+  },
+  "missingTranslation": {
+    "message": "Interpretatio Desiderata",
+    "description": "Missing translation option"
+  },
+  "formattingIssue": {
+    "message": "Quaestio Formatationis",
+    "description": "Formatting issue option"
+  },
+  "other": {
+    "message": "Alia",
+    "description": "Other option"
+  },
+  "bugReportManager": {
+    "message": "Administrator Relationum Errorum",
+    "description": "Bug report manager title"
+  },
+  "manageAndExportIssues": {
+    "message": "Difficultates tuas localizationis administra et exporta",
+    "description": "Manage and export subtitle"
+  },
+  "startReportingIssues": {
+    "message": "Incipe problemata nuntiare ut difficultates localizationis indages.",
+    "description": "Start reporting message"
+  },
+  "noReportsMatchFilters": {
+    "message": "Nullae relationes filtris tuis congruunt.",
+    "description": "No reports match filters message"
+  },
+  "allStatus": {
+    "message": "Omnes Status",
+    "description": "All status filter option"
+  },
+  "allSeverity": {
+    "message": "Omnis Severitas",
+    "description": "All severity filter option"
+  },
+  "allCategories": {
+    "message": "Omnes Categoriae",
+    "description": "All categories filter option"
+  },
+  "high": {
+    "message": "Altus",
+    "description": "High severity"
+  },
+  "medium": {
+    "message": "Medium",
+    "description": "Medium severity"
+  },
+  "low": {
+    "message": "Humilis",
+    "description": "Low severity"
+  },
+  "excellent": {
+    "message": "Excellens! (or) Praeclare!",
+    "description": "Excellent message"
+  },
+  "checkedTextsNoIssues": {
+    "message": "Segmenta textus $COUNT$ examinavi et nulla problemata inveni.",
+    "description": "Checked texts no issues message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "sourceLanguage": {
+    "message": "Lingua Originalis:",
+    "description": "Source language label"
+  },
+  "targetLanguage": {
+    "message": "Lingua Destinata:",
+    "description": "Target language label"
+  },
+  "signInRequired": {
+    "message": "Initium Sessionis Requiritur",
+    "description": "Sign in required title"
+  },
+  "signInToUseTranslation": {
+    "message": "Quaeso, rationem tuam ini ut facultatibus interpretationis utaris. Usuarii gratuiti decem interpretationes accipiunt.",
+    "description": "Sign in to use translation message"
+  },
+  "usageRemaining": {
+    "message": "$REMAINING$ ex $LIMIT$ translationibus restantibus",
+    "description": "Usage remaining message",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "5"
+      },
+      "limit": {
+        "content": "$2",
+        "example": "10"
+      }
+    }
+  },
+  "usageLimitReached": {
+    "message": "Limite Usus Perventum",
+    "description": "Usage limit reached title"
+  },
+  "upgradeToContinue": {
+    "message": "Pervenisti tuo usu terminum.",
+    "description": "Upgrade to continue message"
+  },
+  "upgradeToPremiumHeader": {
+    "message": "Phasellus ut Premium",
+    "description": "Upgrade to premium modal header"
+  },
+  "unlockUnlimitedAccess": {
+    "message": "Interpretationes infinitas et functiones praestantes resera.",
+    "description": "Unlock unlimited access subtitle"
+  },
+  "perMonth": {
+    "message": "per mensem",
+    "description": "Per month pricing label"
+  },
+  "unlimitedTranslations": {
+    "message": "Translationes illimitatae",
+    "description": "Unlimited translations feature"
+  },
+  "maybeLater": {
+    "message": "Forsitan postea",
+    "description": "Maybe later button"
+  },
+  "cancelAnytime": {
+    "message": "Quandolibet abroga. Nullae quaestiones rogantur.",
+    "description": "Cancel anytime note"
+  },
+  "yourUsage": {
+    "message": "Usus Tuus",
+    "description": "Your usage label"
+  },
+  "translationsUsed": {
+    "message": "interpretationes adhibitae",
+    "description": "Translations used label"
+  },
+  "pleaseSignInToTranslate": {
+    "message": "Quaeso, rationem tuam ini ut facultatibus translationis utaris.",
+    "description": "Please sign in to translate status message"
+  },
+  "notEnoughUsageForLanguages": {
+    "message": "Non satis translationes reliquiae. $REMAINING$ $SELECTED$",
+    "description": "Not enough usage for selected languages",
+    "placeholders": {
+      "remaining": {
+        "content": "$1",
+        "example": "3"
+      },
+      "selected": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "usingAllRemainingTranslations": {
+    "message": "Reliquas translationes omnes $COUNT$ es.",
+    "description": "Using all remaining translations warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "unsupportedPage": {
+    "message": "In hac pagina currere non potest",
+    "description": "Unsupported page notification title"
+  },
+  "unsupportedPageMessage": {
+    "message": "LocalizeAI solum in paginis interretialibus communibus operatur. In paginis internis Chrome currere non potest.",
+    "description": "Unsupported page notification message"
+  },
+  "unsupportedPageSubtitle": {
+    "message": "Typus paginae non sustinetur",
+    "description": "Unsupported page subtitle"
+  },
+  "unsupportedPagesTitle": {
+    "message": "Paginae non sustentatae:",
+    "description": "Unsupported pages list title"
+  },
+  "unsupportedPageFooter": {
+    "message": "Aperi locum interretialem communem, velut google.com, ut LocalizeAI utaris.",
+    "description": "Unsupported page footer message"
+  },
+  "startTranslation": {
+    "message": "Incipe Interpretationem",
+    "description": "Start translation button"
+  },
+  "downloadAll": {
+    "message": "Omnia Deprime",
+    "description": "Download all button"
+  },
+  "translateAnotherFile": {
+    "message": "Aliud Limam Vertere",
+    "description": "Translate another file button"
+  },
+  "download": {
+    "message": "Deprime",
+    "description": "Download button"
+  },
+  "uploadJSONFile": {
+    "message": "Fasciculum JSON imponere",
+    "description": "Upload JSON file step title"
+  },
+  "selectTargetLanguages": {
+    "message": "Linguas Destinatas Elige",
+    "description": "Select target languages step title"
+  },
+  "chooseTranslationMode": {
+    "message": "Modum Translationis Elige",
+    "description": "Choose translation mode step title"
+  },
+  "keysTranslated": {
+    "message": "$COUNT$ claves translatae",
+    "description": "Keys translated count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "50"
+      }
+    }
+  },
+  "translationComplete": {
+    "message": "Conversio perfecta!",
+    "description": "Translation complete message"
+  },
+  "totalReports": {
+    "message": "Relationes Totales",
+    "description": "Total reports label"
+  },
+  "openIssues": {
+    "message": "Quaestiones Apertae",
+    "description": "Open issues label"
+  },
+  "highPriority": {
+    "message": "Alta Prioritas",
+    "description": "High priority label"
+  },
+  "syncToDrive": {
+    "message": "Synchroniza cum Drive",
+    "description": "Sync to Drive button"
+  },
+  "syncFromDrive": {
+    "message": "Synchroniza ex Drive",
+    "description": "Sync from Drive button"
+  },
+  "exportExcel": {
+    "message": "Exporta Excel",
+    "description": "Export Excel button"
+  },
+  "exportJSON": {
+    "message": "Exporta JSON",
+    "description": "Export JSON button"
+  },
+  "id": {
+    "message": "Identificatio",
+    "description": "ID label"
+  },
+  "severity": {
+    "message": "Gravitas",
+    "description": "Severity label"
+  },
+  "element": {
+    "message": "Elementum",
+    "description": "Element label"
+  },
+  "issue": {
+    "message": "Quaestio",
+    "description": "Issue label"
+  },
+  "suggestedSolutions": {
+    "message": "Solutiones Suggestae",
+    "description": "Suggested solutions section title"
+  },
+  "viewHTML": {
+    "message": "HTML inspicere",
+    "description": "View HTML button"
+  },
+  "xpath": {
+    "message": "XPath",
+    "description": "XPath label"
+  },
+  "viewport": {
+    "message": "Fenestra",
+    "description": "Viewport label"
+  },
+  "currentLanguage": {
+    "message": "Lingua Praesens",
+    "description": "Current language label"
+  },
+  "keysProgress": {
+    "message": "Claves Translatae",
+    "description": "Keys progress label"
+  },
+  "timeElapsedLabel": {
+    "message": "Tempus Elapsum",
+    "description": "Time elapsed label"
+  },
+  "translating": {
+    "message": "Vertens...",
+    "description": "Translating status"
+  },
+  "translateJSONFilesDesc": {
+    "message": "Converte fasciculos linguarum JSON in plures linguas cum Google Translate vel AI",
+    "description": "JSON file translator description"
+  },
+  "selectOneOrMore": {
+    "message": "Unam vel plures linguas elige ad quas vertendum sit.",
+    "description": "Select languages hint"
+  },
+  "formatDetected": {
+    "message": "Forma detecta: $FORMAT$, Modus: $MODE$",
+    "description": "Format detected message",
+    "placeholders": {
+      "format": {
+        "content": "$1",
+        "example": "nested"
+      },
+      "mode": {
+        "content": "$2",
+        "example": "auto"
+      }
+    }
+  },
+  "translatingTo": {
+    "message": "Vertens ad $LANG$... claves ($CURRENT$/$TOTAL$)",
+    "description": "Translating progress message",
+    "placeholders": {
+      "lang": {
+        "content": "$1",
+        "example": "Vietnamese"
+      },
+      "current": {
+        "content": "$2",
+        "example": "25"
+      },
+      "total": {
+        "content": "$3",
+        "example": "50"
+      }
+    }
+  },
+  "exportChanges": {
+    "message": "Exporta $COUNT$ Mutationes",
+    "description": "Export changes dialog title",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "exportEditsDesc": {
+    "message": "Emendationes tuas exporta ut cum turma translationum communices.",
+    "description": "Export edits description"
+  },
+  "downloadCSV": {
+    "message": "CSV extrahe",
+    "description": "Download CSV button"
+  },
+  "downloadJSON": {
+    "message": "JSON detrahe",
+    "description": "Download JSON button"
+  },
+  "changesSaved": {
+    "message": "Mutationes \"$COUNT$\" servatae sunt. Preme Ctrl+E ut exportentur.",
+    "description": "Changes saved message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "clickToEnableEditing": {
+    "message": "Preme ut modum edendi actives.",
+    "description": "Click to enable editing tooltip"
+  },
+  "clickToEnableEditingWithChanges": {
+    "message": "Preme ut modum edendi permittas. Mutationes servasti. Preme Ctrl+E ut exportes.",
+    "description": "Click to enable editing with changes tooltip"
+  },
+  "noTextSelected": {
+    "message": "Nullum textum selectum est",
+    "description": "No text selected message"
+  },
+  "selectTextForSuggestions": {
+    "message": "Textum elige ut suggestiones intellegentiae artificialis accipias.",
+    "description": "Select text for suggestions hint"
+  },
+  "noLanguagesFound": {
+    "message": "Nullae linguae inventae",
+    "description": "No languages found in search"
+  },
+  "signInFailed": {
+    "message": "Initium sessionis fefellit. Iterum conare.",
+    "description": "Sign in failed message"
+  },
+  "signedInSuccessfully": {
+    "message": "Feliciter ingressus! (or) Initium sessionis feliciter factum!",
+    "description": "Signed in successfully message"
+  },
+  "signedOutSuccessfully": {
+    "message": "Sessio feliciter exiit",
+    "description": "Signed out successfully message"
+  },
+  "authenticationFailed": {
+    "message": "Authenticatio defecit. Quaeso, experire purgare memoriam celatam et iterum initium sessionis facere.",
+    "description": "Authentication failed message"
+  },
+  "clearingCache": {
+    "message": "Purgatio memoriae celatae...",
+    "description": "Clearing cache message"
+  },
+  "failedToClearCache": {
+    "message": "Defecit purgare celarium",
+    "description": "Failed to clear cache message"
+  },
+  "excelLibraryNotAvailable": {
+    "message": "Bibliotheca Excel non praesto est. Paginam denuo onerare quaeso.",
+    "description": "Excel library not available message"
+  },
+  "maxLanguagesReached": {
+    "message": "Maximum $MAX$ linguas statim ad optimas res gerendas.",
+    "description": "Maximum languages limit reached message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "20"
+      }
+    }
+  },
+  "languageCountWithMax": {
+    "message": "$ $$MAX$$$ / $ $$MAX$$ $ delecti $COUNT$",
+    "description": "Language count with maximum",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "15"
+      },
+      "max": {
+        "content": "$2",
+        "example": "20"
+      }
+    }
+  },
+  "pleaseSignInForAI": {
+    "message": "Please sign in to use AI translation",
+    "description": "Please sign in for AI translation message"
+  },
+  "aiLimitInfo": {
+    "message": "Optimus pro lima cum rationabili magnitudine.",
+    "description": "AI translation limit info"
+  },
+  "aiTooManyRequests": {
+    "message": "AI modus: API ROGA DABIT HIC VOCATUR.",
+    "description": "AI too many requests message",
+    "placeholders": {
+      "keys": {
+        "content": "$1",
+        "example": "200"
+      },
+      "langs": {
+        "content": "$2",
+        "example": "5"
+      },
+      "max": {
+        "content": "$3",
+        "example": "100"
+      }
+    }
+  },
+  "aiLargeTranslationWarning": {
+    "message": "Haec translatio circiter $COUNT$ API faciet vocat.",
+    "description": "AI large translation warning",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "80"
+      }
+    }
+  },
+  "aiMaxLanguagesExceeded": {
+    "message": "AI modus maximam linguas $MAX$ simul sustinet.",
+    "description": "AI max languages exceeded message",
+    "placeholders": {
+      "max": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "translationMethod": {
+    "message": "Methodus translationis",
+    "description": "Translation method title"
+  },
+  "freeLabel": {
+    "message": "Free",
+    "description": "Free label"
+  },
+  "unlimitedLabel": {
+    "message": "illimitatus",
+    "description": "Unlimited label"
+  },
+  "fastLabel": {
+    "message": "Ieiunium",
+    "description": "Fast label"
+  },
+  "languagesLabel": {
+    "message": "linguarum",
+    "description": "Languages label"
+  },
+  "jsonMultiLanguageRequiresPremium": {
+    "message": "Multiplices linguae translationem Premium requirit.",
+    "description": "JSON multi-language requires premium message"
+  },
+  "checkedLabel": {
+    "message": "Sedatus:",
+    "description": "Checked label in quality report"
+  },
+  "spelling": {
+    "message": "Orthographia",
+    "description": "Spelling check label"
+  },
+  "grammar": {
+    "message": "Grammatica",
+    "description": "Grammar check label"
+  },
+  "formatting": {
+    "message": "Formatting",
+    "description": "Formatting check label"
+  },
+  "noIssuesInOriginalText": {
+    "message": "Originale illud non habet quaestiones",
+    "description": "No issues message"
+  },
+  "checkedTextsWithCount": {
+    "message": "Sedatus $ COUNT $ text segmentis",
+    "description": "Checked texts count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "150"
+      }
+    }
+  },
+  "foundErrorsCount": {
+    "message": "Inventus $ COUNT $ errores ut fix",
+    "description": "Found errors count",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  },
+  "noErrors": {
+    "message": "Nulli errores!",
+    "description": "No errors message"
+  },
+  "qualityCheckReport": {
+    "message": "Qualis Reprehendo Report",
+    "description": "Quality check report title"
+  }
+}
