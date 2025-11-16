@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Як це працює: • Перемикання між оригінальним та перекладеним текстом • Переклади кешуються для швидкого перемикання • Працює з усім текстом на сторінці • Очищення кешу для повторного перекладу",
+    "message": "Як це працює:\n• Перемикання між оригінальним та перекладеним текстом\n• Переклади кешуються для швидкого перемикання\n• Працює з усім текстом на сторінці\n• Очищення кешу для повторного перекладу",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Як це працює: • Замінює символи на діакритичні версії • Додає розширення довжини на 30-40% • Переносить текст у маркери [!!!... !!!] • Приклад: \"Налаштування\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Як це працює:\n• Замінює символи на діакритичні версії\n• Додає розширення довжини на 30-40%\n• Переносить текст у маркери [!!!... !!!]\n• Приклад: \"Налаштування\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Як це працює: • Натисніть будь-який текстовий елемент, щоб редагувати його • Зміни відстежуються в режимі реального часу • Експортуйте зміни у форматі JSON або Excel • Натисніть Ctrl+E, щоб експортувати зміни",
+    "message": "Як це працює:\n• Натисніть будь-який текстовий елемент, щоб редагувати його\n• Зміни відстежуються в режимі реального часу\n• Експортуйте зміни у форматі JSON або Excel\n• Натисніть Ctrl+E, щоб експортувати зміни",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Преміум-функції: • Контекстно-залежний переклад на основі штучного інтелекту • Пакетний переклад цілих сторінок • Перевірка якості перекладів • Пропозиції природною мовою",
+    "message": "Преміум-функції:\n• Контекстно-залежний переклад на основі штучного інтелекту\n• Пакетний переклад цілих сторінок\n• Перевірка якості перекладів\n• Пропозиції природною мовою",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Як це працює: • Завантаження мовних файлів JSON • Вибір цільових мов • Переклад за допомогою Google або штучного інтелекту • Завантаження перекладених файлів",
+    "message": "Як це працює:\n• Завантаження мовних файлів JSON\n• Вибір цільових мов\n• Переклад за допомогою Google або штучного інтелекту\n• Завантаження перекладених файлів",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Як це працює: • Натисніть на текстові елементи, щоб повідомити про проблеми • Додайте описи та інформацію про серйозність • Експортуйте звіти в Excel або JSON • Синхронізуйте з Google Диском",
+    "message": "Як це працює:\n• Натисніть на текстові елементи, щоб повідомити про проблеми\n• Додайте описи та інформацію про серйозність\n• Експортуйте звіти в Excel або JSON\n• Синхронізуйте з Google Диском",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Увійдіть, щоб використовувати переклад AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Найкраще для файлів розумного розміру.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Звіт про перевірку якості",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Згорнути бічну панель",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Натисніть, щоб розгорнути",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Видалити Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Режим живого редагування активний: усі посилання та кнопки заблоковано. Натисніть на текст для редагування.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Зупинити звітування",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "тексти",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "поточний",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Запропоновано",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Застосувати виправлення",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Застосувати все",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Прикладний",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Застосовано $COUNT$ виправлень",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Синхронізація з Диска",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Поточна сторінка",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Показ оригінального тексту",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Застосування псевдолокалізації...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Перемикання режиму редагування в реальному часі...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Перемикання режиму звіту про помилку...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Відкриття перекладача JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Клієнт перекладу не ініціалізовано",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Спочатку виділіть текст на сторінці",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Не вдалося запустити перевірку якості. Будь ласка, оновіть сторінку.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Не вдалося почати переклад. Будь ласка, оновіть сторінку.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Не вдалося отримати звіти зі сторінки. Будь ласка, оновіть.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Служба синхронізації Диска недоступна",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Помилка синхронізації: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Не вдалося зв’язатися зі сторінкою. Спробуйте освіжити.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Не вдалося показати деталі помилки. Будь ласка, оновіть сторінку.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Не вдалося експортувати в Excel. Спробуйте ще раз.",
+    "description": "Error when Excel export fails"
   }
 }

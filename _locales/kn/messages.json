@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಮೂಲ ಮತ್ತು ಅನುವಾದಿತ ಪಠ್ಯದ ನಡುವೆ ಟಾಗಲ್ ಮಾಡಿ • ಅನುವಾದಗಳನ್ನು ವೇಗವಾಗಿ ಬದಲಾಯಿಸಲು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ • ಪುಟದಲ್ಲಿನ ಎಲ್ಲಾ ಪಠ್ಯದೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ • ಮರುಅನುವಾದಿಸಲು ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ:\n• ಮೂಲ ಮತ್ತು ಅನುವಾದಿತ ಪಠ್ಯದ ನಡುವೆ ಟಾಗಲ್ ಮಾಡಿ\n• ಅನುವಾದಗಳನ್ನು ವೇಗವಾಗಿ ಬದಲಾಯಿಸಲು ಸಂಗ್ರಹಿಸಲಾಗಿದೆ\n• ಪುಟದಲ್ಲಿನ ಎಲ್ಲಾ ಪಠ್ಯದೊಂದಿಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ\n• ಮರುಅನುವಾದಿಸಲು ಸಂಗ್ರಹವನ್ನು ತೆರವುಗೊಳಿಸಿ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಅಕ್ಷರಗಳನ್ನು ಉಚ್ಚಾರಣಾ ಆವೃತ್ತಿಗಳೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ • 30-40% ಉದ್ದ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸುತ್ತದೆ • [!!!... !!!] ಮಾರ್ಕರ್‌ಗಳಲ್ಲಿ ಪಠ್ಯವನ್ನು ಸುತ್ತುತ್ತದೆ • ಉದಾಹರಣೆ: \"ಸೆಟ್ಟಿಂಗ್‌ಗಳು\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ:\n• ಅಕ್ಷರಗಳನ್ನು ಉಚ್ಚಾರಣಾ ಆವೃತ್ತಿಗಳೊಂದಿಗೆ ಬದಲಾಯಿಸುತ್ತದೆ\n• 30-40% ಉದ್ದ ವಿಸ್ತರಣೆಯನ್ನು ಸೇರಿಸುತ್ತದೆ\n• [!!!... !!!] ಮಾರ್ಕರ್‌ಗಳಲ್ಲಿ ಪಠ್ಯವನ್ನು ಸುತ್ತುತ್ತದೆ\n• ಉದಾಹರಣೆ: \"ಸೆಟ್ಟಿಂಗ್‌ಗಳು\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಯಾವುದೇ ಪಠ್ಯ ಅಂಶವನ್ನು ಸಂಪಾದಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ • ಬದಲಾವಣೆಗಳನ್ನು ನೈಜ ಸಮಯದಲ್ಲಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ • ಸಂಪಾದನೆಗಳನ್ನು JSON ಅಥವಾ Excel ಆಗಿ ರಫ್ತು ಮಾಡಿ • ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ",
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ:\n• ಯಾವುದೇ ಪಠ್ಯ ಅಂಶವನ್ನು ಸಂಪಾದಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ\n• ಬದಲಾವಣೆಗಳನ್ನು ನೈಜ ಸಮಯದಲ್ಲಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ\n• ಸಂಪಾದನೆಗಳನ್ನು JSON ಅಥವಾ Excel ಆಗಿ ರಫ್ತು ಮಾಡಿ\n• ಬದಲಾವಣೆಗಳನ್ನು ರಫ್ತು ಮಾಡಲು Ctrl+E ಒತ್ತಿರಿ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳು: • AI-ಚಾಲಿತ ಸಂದರ್ಭ-ಅರಿವು ಅನುವಾದ • ಸಂಪೂರ್ಣ ಪುಟಗಳನ್ನು ಬ್ಯಾಚ್ ಅನುವಾದ • ಅನುವಾದಗಳಿಗಾಗಿ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ • ನೈಸರ್ಗಿಕ ಭಾಷಾ ಸಲಹೆಗಳು",
+    "message": "ಪ್ರೀಮಿಯಂ ವೈಶಿಷ್ಟ್ಯಗಳು:\n• AI-ಚಾಲಿತ ಸಂದರ್ಭ-ಅರಿವು ಅನುವಾದ\n• ಸಂಪೂರ್ಣ ಪುಟಗಳನ್ನು ಬ್ಯಾಚ್ ಅನುವಾದ\n• ಅನುವಾದಗಳಿಗಾಗಿ ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ\n• ನೈಸರ್ಗಿಕ ಭಾಷಾ ಸಲಹೆಗಳು",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • JSON ಭಾಷಾ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ • ಗುರಿ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ • Google ಅಥವಾ AI ಬಳಸಿ ಅನುವಾದಿಸಿ • ಅನುವಾದಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ:\n• JSON ಭಾಷಾ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ\n• ಗುರಿ ಭಾಷೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ\n• Google ಅಥವಾ AI ಬಳಸಿ ಅನುವಾದಿಸಿ\n• ಅನುವಾದಿಸಿದ ಫೈಲ್‌ಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ: • ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ಪಠ್ಯ ಅಂಶಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ • ವಿವರಣೆಗಳು ಮತ್ತು ತೀವ್ರತೆಯನ್ನು ಸೇರಿಸಿ • ವರದಿಗಳನ್ನು ಎಕ್ಸೆಲ್ ಅಥವಾ JSON ಗೆ ರಫ್ತು ಮಾಡಿ • Google ಡ್ರೈವ್‌ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಿ",
+    "message": "ಇದು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ:\n• ಸಮಸ್ಯೆಗಳನ್ನು ವರದಿ ಮಾಡಲು ಪಠ್ಯ ಅಂಶಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ\n• ವಿವರಣೆಗಳು ಮತ್ತು ತೀವ್ರತೆಯನ್ನು ಸೇರಿಸಿ\n• ವರದಿಗಳನ್ನು ಎಕ್ಸೆಲ್ ಅಥವಾ JSON ಗೆ ರಫ್ತು ಮಾಡಿ\n• Google ಡ್ರೈವ್‌ನೊಂದಿಗೆ ಸಿಂಕ್ ಮಾಡಿ",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI ಅನುವಾದವನ್ನು ಬಳಸಲು ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ಸಮಂಜಸವಾದ ಗಾತ್ರದೊಂದಿಗೆ ಫೈಲ್‌ಗಳಿಗೆ ಉತ್ತಮವಾಗಿದೆ.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "ಗುಣಮಟ್ಟ ಪರಿಶೀಲನೆ ವರದಿ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ಸೈಡ್‌ಬಾರ್ ಅನ್ನು ಸಂಕುಚಿಸಿ",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ವಿಸ್ತರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "ಸ್ಯೂಡೋ-ಲೋಕವನ್ನು ತೆಗೆದುಹಾಕಿ",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಮೋಡ್ ಸಕ್ರಿಯವಾಗಿದೆ: ಎಲ್ಲಾ ಲಿಂಕ್‌ಗಳು ಮತ್ತು ಬಟನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ. ಸಂಪಾದಿಸಲು ಪಠ್ಯದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "ವರದಿ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸಿ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ಪಠ್ಯಗಳು",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ಪ್ರಸ್ತುತ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "ಸೂಚಿಸಲಾಗಿದೆ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ಪರಿಹಾರವನ್ನು ಅನ್ವಯಿಸಿ",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "ಎಲ್ಲವನ್ನೂ ಅನ್ವಯಿಸಿ",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ ಪರಿಹಾರಗಳನ್ನು ಅನ್ವಯಿಸಲಾಗಿದೆ",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ಡ್ರೈವ್‌ನಿಂದ ಸಿಂಕ್ ಮಾಡಿ",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "ಪ್ರಸ್ತುತ ಪುಟ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "ಮೂಲ ಪಠ್ಯವನ್ನು ತೋರಿಸಲಾಗುತ್ತಿದೆ",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "ಹುಸಿ ಸ್ಥಳೀಕರಣವನ್ನು ಅನ್ವಯಿಸಲಾಗುತ್ತಿದೆ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "ಲೈವ್ ಎಡಿಟ್ ಮೋಡ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ಬಗ್ ವರದಿ ಮೋಡ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲಾಗುತ್ತಿದೆ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON ಅನುವಾದಕವನ್ನು ತೆರೆಯಲಾಗುತ್ತಿದೆ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ಅನುವಾದ ಕ್ಲೈಂಟ್ ಅನ್ನು ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ದಯವಿಟ್ಟು ಮೊದಲು ಪುಟದಲ್ಲಿರುವ ಪಠ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ಗುಣಮಟ್ಟದ ಪರಿಶೀಲನೆಯನ್ನು ರನ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ಅನುವಾದವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ಪುಟದಿಂದ ವರದಿಗಳನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ಡ್ರೈವ್ ಸಿಂಕ್ ಸೇವೆ ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "ಸಿಂಕ್ ವಿಫಲವಾಗಿದೆ: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ಪುಟದೊಂದಿಗೆ ಸಂವಹನ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ರಿಫ್ರೆಶ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ದೋಷ ವಿವರಗಳನ್ನು ತೋರಿಸಲಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಪುಟವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಿ.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel ಗೆ ರಫ್ತು ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+    "description": "Error when Excel export fails"
   }
 }

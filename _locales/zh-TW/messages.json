@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "工作原理： • 在原文與譯文之間切換 • 譯文已緩存，可快速切換 • 適用於頁面上的所有文本 • 清除快取即可重新翻譯",
+    "message": "• 在原文與譯文之間切換\n• 譯文已緩存，可快速切換\n• 適用於頁面上的所有文本\n• 清除快取即可重新翻譯",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "工作原理： • 將字元替換為帶有重音符號的版本 • 增加 30-40% 的長度擴展 • 將文字換行到 [!!!... !!!] 標記中 • 例如：「設定」 → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "• 將字元替換為帶有重音符號的版本\n• 增加 30-40% 的長度擴展\n• 將文字換行到 [!!!... !!!] 標記中\n• 例如：「設定」 → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "使用方法： • 點選任意文字元素進行編輯 • 即時追蹤更改 • 將編輯內容匯出為 JSON 或 Excel 文件 • 按 Ctrl+E 匯出更改",
+    "message": "使用方法：\n• 點選任意文字元素進行編輯\n• 即時追蹤更改\n• 將編輯內容匯出為 JSON 或 Excel 文件\n• 按 Ctrl+E 匯出更改",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "進階功能： • AI 驅動的上下文感知翻譯 • 批次翻譯整個頁面 • 翻譯品質檢查 • 自然語言建議",
+    "message": "進階功能：\n• AI 驅動的上下文感知翻譯\n• 批次翻譯整個頁面\n• 翻譯品質檢查\n• 自然語言建議",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "工作原理： • 上傳 JSON 語言文件 • 選擇目標語言 • 使用 Google 或 AI 進行翻譯 • 下載翻譯後的文件",
+    "message": "• 上傳 JSON 語言文件\n• 選擇目標語言\n• 使用 Google 或 AI 進行翻譯\n• 下載翻譯後的文件",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "使用方法： • 點選文字元素報告問題 • 增加描述和嚴重程度 • 將報表匯出為 Excel 或 JSON 格式 • 與 Google 雲端硬碟同步",
+    "message": "使用方法：\n• 點選文字元素報告問題\n• 增加描述和嚴重程度\n• 將報表匯出為 Excel 或 JSON 格式\n• 與 Google 雲端硬碟同步",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "請登入以使用 AI 翻譯",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "最適合大小合理的檔案。一次最多5種語言。",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "質量檢查報告",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "折疊側邊欄",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "點擊展開",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "刪除偽 Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "實時編輯模式激活：所有鏈接和按鈕都被阻止。單擊文本進行編輯。",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "停止舉報",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "文字",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "當前的",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "建議",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "應用修復",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "全部申請",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "應用",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "已應用 $COUNT$ 個修復",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "從雲端硬盤同步",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "當前頁面",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "顯示原文",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "應用偽本地化...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "切換實時編輯模式...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "正在切換錯誤報告模式...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "打開 JSON 翻譯器...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "翻譯客戶端未初始化",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "請先選擇頁面上的文字",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "無法運行質量檢查。請刷新頁面。",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "無法開始翻譯。請刷新頁面。",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "無法從頁面獲取報告。請刷新。",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "雲端硬盤同步服務不可用",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "同步失敗：$ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "無法與頁面通信。嘗試清爽一下。",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "無法顯示錯誤詳細信息。請刷新頁面。",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "無法導出到 Excel。請再試一次。",
+    "description": "Error when Excel export fails"
   }
 }

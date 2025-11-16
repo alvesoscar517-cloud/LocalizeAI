@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Cum funcționează: • Comutare între textul original și cel tradus • Traducerile sunt stocate în memoria cache pentru comutare rapidă • Funcționează cu tot textul de pe pagină • Ștergere memorie cache pentru retraducere",
+    "message": "Cum funcționează:\n• Comutare între textul original și cel tradus\n• Traducerile sunt stocate în memoria cache pentru comutare rapidă\n• Funcționează cu tot textul de pe pagină\n• Ștergere memorie cache pentru retraducere",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Cum funcționează: • Înlocuiește caracterele cu versiuni accentuate • Adaugă o extindere a lungimii de 30-40% • Încadrează textul în markeri [!!!... !!!] • Exemplu: „Setări” → „[!!! Şḗŧŧīƞɠş·· !!!]”",
+    "message": "Cum funcționează:\n• Înlocuiește caracterele cu versiuni accentuate\n• Adaugă o extindere a lungimii de 30-40%\n• Încadrează textul în markeri [!!!... !!!]\n• Exemplu: „Setări” → „[!!! Şḗŧŧīƞɠş·· !!!]”",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Cum funcționează: • Faceți clic pe orice element de text pentru a-l edita • Modificările sunt urmărite în timp real • Exportați modificările ca JSON sau Excel • Apăsați Ctrl+E pentru a exporta modificările",
+    "message": "Cum funcționează:\n• Faceți clic pe orice element de text pentru a-l edita\n• Modificările sunt urmărite în timp real\n• Exportați modificările ca JSON sau Excel\n• Apăsați Ctrl+E pentru a exporta modificările",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Cum funcționează: • Încărcați fișiere JSON în limbaj • Selectați limbile țintă • Traduceți cu Google sau inteligența artificială • Descărcați fișierele traduse",
+    "message": "Cum funcționează:\n• Încărcați fișiere JSON în limbaj\n• Selectați limbile țintă\n• Traduceți cu Google sau inteligența artificială\n• Descărcați fișierele traduse",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Cum funcționează: • Faceți clic pe elemente de text pentru a raporta probleme • Adăugați descrieri și informații despre gravitate • Exportați rapoarte în Excel sau JSON • Sincronizați cu Google Drive",
+    "message": "Cum funcționează:\n• Faceți clic pe elemente de text pentru a raporta probleme\n• Adăugați descrieri și informații despre gravitate\n• Exportați rapoarte în Excel sau JSON\n• Sincronizați cu Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Conectați-vă pentru a utiliza traducerea AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Cel mai bun pentru fișiere cu dimensiuni rezonabile.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Raport de verificare a calității",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Restrângeți bara laterală",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Faceți clic pentru a extinde",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Eliminați Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mod Live Edit Active: Toate linkurile și butoanele sunt blocate. Faceți clic pe text pentru a edita.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Nu mai raportați",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "textele",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Actual",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Sugerat",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplicați remedierea",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplicați toate",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplicat",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "S-au aplicat $COUNT$ remedieri",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sincronizare din Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Pagina curentă",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Se afișează textul original",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Se aplică pseudo-localizare...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Se comută în modul de editare live...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Se comută modul de raportare a erorilor...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Se deschide traducătorul JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Clientul de traducere nu a fost inițializat",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Vă rugăm să selectați mai întâi textul de pe pagină",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nu s-a putut executa verificarea calității. Vă rugăm să reîmprospătați pagina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Traducerea nu a putut fi începută. Vă rugăm să reîmprospătați pagina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nu s-au putut obține rapoarte de pe pagină. Vă rugăm să reîmprospătați.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Serviciul de sincronizare Drive nu este disponibil",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sincronizarea a eșuat: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Nu s-a putut comunica cu pagina. Încercați să vă împrospătați.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Nu s-au putut afișa detaliile despre eroare. Vă rugăm să reîmprospătați pagina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Exportul în Excel eșuat. Vă rugăm să încercați din nou.",
+    "description": "Error when Excel export fails"
   }
 }

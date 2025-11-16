@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Энэ нь хэрхэн ажилладаг вэ: • Эх болон орчуулсан текстийн хооронд шилжих • Орчуулга нь хурдан шилжихийн тулд кэшд хадгалагддаг • Хуудасны бүх тексттэй ажиллана • Дахин орчуулахын тулд кэшийг цэвэрлэ",
+    "message": "Энэ нь хэрхэн ажилладаг вэ:\n• Эх болон орчуулсан текстийн хооронд шилжих\n• Орчуулга нь хурдан шилжихийн тулд кэшд хадгалагддаг\n• Хуудасны бүх тексттэй ажиллана\n• Дахин орчуулахын тулд кэшийг цэвэрлэ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Энэ нь хэрхэн ажилладаг вэ: • Тэмдэгтүүдийг өргөлттэй хувилбараар солино • 30-40% уртын өргөтгөл нэмнэ • Текстийг [!!!... !!!] тэмдэглэгээ • Жишээ: \"Тохиргоо\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Энэ нь хэрхэн ажилладаг вэ:\n• Тэмдэгтүүдийг өргөлттэй хувилбараар солино\n• 30-40% уртын өргөтгөл нэмнэ\n• Текстийг [!!!... !!!] тэмдэглэгээ\n• Жишээ: \"Тохиргоо\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Энэ нь хэрхэн ажилладаг вэ: • Аливаа текстийн элементийг засахын тулд дарна уу • Өөрчлөлтийг цаг тухайд нь хянадаг • Засваруудыг JSON эсвэл Excel хэлбэрээр экспортлох • Өөрчлөлтүүдийг экспортлохын тулд Ctrl+E товчийг дарна уу",
+    "message": "Энэ нь хэрхэн ажилладаг вэ:\n• Аливаа текстийн элементийг засахын тулд дарна уу\n• Өөрчлөлтийг цаг тухайд нь хянадаг\n• Засваруудыг JSON эсвэл Excel хэлбэрээр экспортлох\n• Өөрчлөлтүүдийг экспортлохын тулд Ctrl+E товчийг дарна уу",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Дээд зэрэглэлийн онцлогууд: • Хиймэл оюун ухаанаар ажилладаг контекстэд нийцсэн орчуулга • Хуудсуудыг бүхэлд нь багцлан орчуулах • Орчуулгын чанарыг шалгах • Байгалийн хэлний санал",
+    "message": "Дээд зэрэглэлийн онцлогууд:\n• Хиймэл оюун ухаанаар ажилладаг контекстэд нийцсэн орчуулга\n• Хуудсуудыг бүхэлд нь багцлан орчуулах\n• Орчуулгын чанарыг шалгах\n• Байгалийн хэлний санал",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Энэ нь хэрхэн ажилладаг вэ: • JSON хэлний файлуудыг байршуулах • Зорилтот хэлээ сонгоно уу • Google эсвэл AI ашиглан орчуулах • Орчуулсан файлуудыг татаж авах",
+    "message": "Энэ нь хэрхэн ажилладаг вэ:\n• JSON хэлний файлуудыг байршуулах\n• Зорилтот хэлээ сонгоно уу\n• Google эсвэл AI ашиглан орчуулах\n• Орчуулсан файлуудыг татаж авах",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Энэ нь хэрхэн ажилладаг вэ: • Асуудлыг мэдээлэхийн тулд текстийн элементүүд дээр дарна уу • Тодорхойлолт болон ноцтой байдлыг нэмнэ үү • Тайланг Excel эсвэл JSON руу экспортлох • Google Drive-тай синк хийх",
+    "message": "Энэ нь хэрхэн ажилладаг вэ:\n• Асуудлыг мэдээлэхийн тулд текстийн элементүүд дээр дарна уу\n• Тодорхойлолт болон ноцтой байдлыг нэмнэ үү\n• Тайланг Excel эсвэл JSON руу экспортлох\n• Google Drive-тай синк хийх",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI орчуулгыг ашиглахын тулд нэвтэрч орно уу",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Боломжийн хэмжээтэй файлуудын хувьд хамгийн сайн.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Чанарын шалгах тайлан",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Хажуугийн самбар",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Өргөтгөх бол дарна уу",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Псевдо-байрыг хас",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Шууд засварлах горим идэвхтэй байна: Бүх холбоос, товчлуурууд хаагдсан байна. Засахын тулд текст дээр дарна уу.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Тайлагнахаа болих",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Т Надад байхгүй байна",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Урсгал",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Санал болгосон",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Засах",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Бүгдийг хэрэглээрэй",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Хэрэгл өргөдөл",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Хэрэглэсэн $ тоолох $ засварууд",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Жолоодлогоос синк хийх",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Одоогийн хуудас",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Анхны текстийг харуулж байна",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Псевдо нутагшуулалтыг ашиглах ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Live Edit горим руу шилжих ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Bugling Bug тайлангийн горим ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON орчуулагч нээх ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Орчуулгын үйлчлүүлэгч эхлүүлээгүй байна",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Эхлээд хуудсан дээрх текстийг сонгоно уу",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Чанарын шалгалтыг ажиллуулж чадахгүй байна. Хуудсыг сэргээнэ үү.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Орчуулгыг эхлүүлж чадахгүй байна. Хуудсыг сэргээнэ үү.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Хуудаснаас тайлан авч чадахгүй байна. Сэргээнэ үү.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync үйлчилгээг ашиглах боломжгүй байна",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Синк амжилтгүй боллоо: $ алдаа $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Хуудастай харилцаж чадсангүй. Сэргээхийг хичээ.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "БИДНИЙ НЭГДСЭН НЭГДСЭН НЭГДСЭН. Хуудсыг сэргээнэ үү.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel руу экспортолж чадсангүй. Дахин оролдоно уу.",
+    "description": "Error when Excel export fails"
   }
 }

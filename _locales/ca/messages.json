@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Com funciona: • Alterna entre el text original i el traduït • Les traduccions s'emmagatzemen a la memòria cau per a un canvi ràpid • Funciona amb tot el text de la pàgina • Esborra la memòria cau per tornar a traduir",
+    "message": "Com funciona:\n• Alterna entre el text original i el traduït\n• Les traduccions s'emmagatzemen a la memòria cau per a un canvi ràpid\n• Funciona amb tot el text de la pàgina\n• Esborra la memòria cau per tornar a traduir",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Com funciona: • Substitueix els caràcters per versions accentuades • Afegeix una expansió de longitud del 30-40% • Ajusta el text entre marcadors [!!!... !!!] • Exemple: \"Configuració\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Com funciona:\n• Substitueix els caràcters per versions accentuades\n• Afegeix una expansió de longitud del 30-40%\n• Ajusta el text entre marcadors [!!!... !!!]\n• Exemple: \"Configuració\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Com funciona: • Feu clic a qualsevol element de text per editar-lo • Els canvis es controlen en temps real • Exporteu les edicions com a JSON o Excel • Premeu Ctrl+E per exportar els canvis",
+    "message": "Com funciona:\n• Feu clic a qualsevol element de text per editar-lo\n• Els canvis es controlen en temps real\n• Exporteu les edicions com a JSON o Excel\n• Premeu Ctrl+E per exportar els canvis",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Com funciona: • Puja fitxers d'idioma JSON • Selecciona els idiomes de destinació • Tradueix amb Google o IA • Descarrega els fitxers traduïts",
+    "message": "Com funciona:\n• Puja fitxers d'idioma JSON\n• Selecciona els idiomes de destinació\n• Tradueix amb Google o IA\n• Descarrega els fitxers traduïts",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Com funciona: • Feu clic als elements de text per informar de problemes • Afegiu descripcions i la seva gravetat • Exporteu informes a Excel o JSON • Sincronitzeu amb Google Drive",
+    "message": "Com funciona:\n• Feu clic als elements de text per informar de problemes\n• Afegiu descripcions i la seva gravetat\n• Exporteu informes a Excel o JSON\n• Sincronitzeu amb Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Si us plau, inicieu la sessió per utilitzar la traducció d'AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "El millor per a fitxers amb una mida raonable.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Informe de control de qualitat",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Replega la barra lateral",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Feu clic per ampliar",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Elimina Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mode d'edició en directe actiu: tots els enllaços i botons estan bloquejats. Feu clic al text per editar.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Deixa d'informar",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "textos",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Actual",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Suggerit",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplicar la correcció",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplica-ho tot",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplicat",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "S'han aplicat $COUNT$ correccions",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sincronitza des de Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Pàgina actual",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Mostrant el text original",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "S'està aplicant la pseudolocalització...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "S'està canviant el mode d'edició en directe...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "S'està canviant el mode d'informe d'errors...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "S'està obrint el traductor JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "El client de traducció no s'ha inicialitzat",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Seleccioneu primer el text de la pàgina",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "No s'ha pogut executar la comprovació de qualitat. Si us plau, actualitzeu la pàgina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "No s'ha pogut iniciar la traducció. Si us plau, actualitzeu la pàgina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "No s'han pogut obtenir informes de la pàgina. Si us plau, actualitzeu.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "El servei de sincronització de Drive no està disponible",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "La sincronització ha fallat: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "No s'ha pogut comunicar amb la pàgina. Prova de refrescar.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "No s'han pogut mostrar els detalls de l'error. Si us plau, actualitzeu la pàgina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "No s'ha pogut exportar a Excel. Si us plau, torna-ho a provar.",
+    "description": "Error when Excel export fails"
   }
 }

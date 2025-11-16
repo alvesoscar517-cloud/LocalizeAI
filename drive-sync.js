@@ -132,7 +132,6 @@ window.DriveSyncService = class DriveSyncService {
       const data = await response.json();
 
       if (!data.files || data.files.length === 0) {
-        console.log('No reports found in Drive');
         return null;
       }
 
@@ -160,16 +159,13 @@ window.DriveSyncService = class DriveSyncService {
   // Sync: Upload local reports to Drive
   async syncToCloud(reports) {
     if (this.syncInProgress) {
-      console.log('Sync already in progress');
       return;
     }
 
     this.syncInProgress = true;
 
     try {
-      console.log('Syncing to Drive...', reports.length, 'reports');
       await this.uploadReports(reports);
-      console.log('Sync to Drive completed');
     } catch (error) {
       console.error('Sync to Drive failed:', error);
       throw error;
@@ -181,18 +177,15 @@ window.DriveSyncService = class DriveSyncService {
   // Sync: Download from Drive and merge with local
   async syncFromCloud() {
     if (this.syncInProgress) {
-      console.log('Sync already in progress');
       return;
     }
 
     this.syncInProgress = true;
 
     try {
-      console.log('Syncing from Drive...');
       const cloudReports = await this.downloadReports();
 
       if (!cloudReports) {
-        console.log('No cloud reports to sync');
         return [];
       }
 
@@ -202,7 +195,6 @@ window.DriveSyncService = class DriveSyncService {
       // Merge reports (cloud takes precedence for conflicts)
       const merged = this.mergeReports(localReports, cloudReports);
 
-      console.log('Sync from Drive completed:', merged.length, 'reports');
       return merged;
     } catch (error) {
       console.error('Sync from Drive failed:', error);

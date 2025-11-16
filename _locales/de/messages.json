@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "So funktioniert es: • Zwischen Originaltext und Übersetzung wechseln • Übersetzungen werden für schnelles Umschalten zwischengespeichert • Funktioniert mit dem gesamten Text auf der Seite • Cache leeren, um neu zu übersetzen",
+    "message": "So funktioniert es:\n• Zwischen Originaltext und Übersetzung wechseln\n• Übersetzungen werden für schnelles Umschalten zwischengespeichert\n• Funktioniert mit dem gesamten Text auf der Seite\n• Cache leeren, um neu zu übersetzen",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "So funktioniert es: • Ersetzt Zeichen durch Varianten mit Akzenten • Fügt eine Längenerweiterung von 30–40 % hinzu • Setzt den Text in [!!!... !!!]-Markierungen • Beispiel: „Einstellungen“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "So funktioniert es:\n• Ersetzt Zeichen durch Varianten mit Akzenten\n• Fügt eine Längenerweiterung von 30–40 % hinzu\n• Setzt den Text in [!!!... !!!]-Markierungen\n• Beispiel: „Einstellungen“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "So funktioniert es: • Klicken Sie auf ein beliebiges Textelement, um es zu bearbeiten. • Änderungen werden in Echtzeit verfolgt. • Exportieren Sie die Änderungen als JSON oder Excel-Datei. Drücken Sie Strg+E, um die Änderungen zu exportieren.",
+    "message": "So funktioniert es:\n• Klicken Sie auf ein beliebiges Textelement, um es zu bearbeiten.\n• Änderungen werden in Echtzeit verfolgt.\n• Exportieren Sie die Änderungen als JSON oder Excel-Datei. Drücken Sie Strg+E, um die Änderungen zu exportieren.",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "So funktioniert es: • JSON-Sprachdateien hochladen • Zielsprachen auswählen • Mit Google Translate oder KI übersetzen • Übersetzte Dateien herunterladen",
+    "message": "So funktioniert es:\n• JSON-Sprachdateien hochladen\n• Zielsprachen auswählen\n• Mit Google Translate oder KI übersetzen\n• Übersetzte Dateien herunterladen",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "So funktioniert es: • Klicken Sie auf Textelemente, um Probleme zu melden. • Fügen Sie Beschreibungen und den Schweregrad hinzu. • Exportieren Sie Berichte nach Excel oder JSON. Synchronisieren Sie mit Google Drive.",
+    "message": "So funktioniert es:\n• Klicken Sie auf Textelemente, um Probleme zu melden.\n• Fügen Sie Beschreibungen und den Schweregrad hinzu.\n• Exportieren Sie Berichte nach Excel oder JSON. Synchronisieren Sie mit Google Drive.",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Bitte melden Sie sich an, um KI-Übersetzung zu verwenden",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Am besten für Dateien mit angemessener Größe. Maximal 5 Sprachen gleichzeitig.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Qualitätskontrollbericht",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Seitenleiste einklappen",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klicken Sie zum Erweitern",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc entfernen",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live-Edit-Modus aktiv: Alle Links und Schaltflächen sind blockiert. Klicken Sie zum Bearbeiten auf den Text.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Hören Sie auf zu berichten",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Texte",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Aktuell",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Empfohlen",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Fix anwenden",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Alles anwenden",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Angewandt",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ Korrekturen angewendet",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Von Drive synchronisieren",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Aktuelle Seite",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Originaltext wird angezeigt",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudolokalisierung anwenden...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Live-Bearbeitungsmodus umschalten...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Fehlerberichtsmodus umschalten...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON-Übersetzer wird geöffnet...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Übersetzungsclient nicht initialisiert",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Bitte wählen Sie zuerst Text auf der Seite aus",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Qualitätsprüfung konnte nicht ausgeführt werden. Bitte aktualisieren Sie die Seite.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Die Übersetzung konnte nicht gestartet werden. Bitte aktualisieren Sie die Seite.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Es konnten keine Berichte von der Seite abgerufen werden. Bitte aktualisieren.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Der Laufwerkssynchronisierungsdienst ist nicht verfügbar",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synchronisierung fehlgeschlagen: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Kommunikation mit der Seite fehlgeschlagen. Versuchen Sie es mit einer Erfrischung.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Fehlerdetails konnten nicht angezeigt werden. Bitte aktualisieren Sie die Seite.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Export nach Excel fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "description": "Error when Excel export fails"
   }
 }

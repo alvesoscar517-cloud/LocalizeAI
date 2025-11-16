@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Si funksionon: • Kaloni midis tekstit origjinal dhe atij të përkthyer • Përkthimet ruhen në memorje për ndërrim të shpejtë • Funksionon me të gjithë tekstin në faqe • Fshini memorjen e përkohshme për ta ripërkthyer",
+    "message": "Si funksionon:\n• Kaloni midis tekstit origjinal dhe atij të përkthyer\n• Përkthimet ruhen në memorje për ndërrim të shpejtë\n• Funksionon me të gjithë tekstin në faqe\n• Fshini memorjen e përkohshme për ta ripërkthyer",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Si funksionon: • Zëvendëson karakteret me versione me theks • Shton zgjerim gjatësie prej 30-40% • Mbështjell tekstin në shënjues [!!!... !!!] • Shembull: \"Cilësimet\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Si funksionon:\n• Zëvendëson karakteret me versione me theks\n• Shton zgjerim gjatësie prej 30-40%\n• Mbështjell tekstin në shënjues [!!!... !!!]\n• Shembull: \"Cilësimet\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Si funksionon: • Klikoni çdo element teksti për ta modifikuar • Ndryshimet gjurmohen në kohë reale • Eksportoni modifikimet si JSON ose Excel • Shtypni Ctrl+E për të eksportuar ndryshimet",
+    "message": "Si funksionon:\n• Klikoni çdo element teksti për ta modifikuar\n• Ndryshimet gjurmohen në kohë reale\n• Eksportoni modifikimet si JSON ose Excel\n• Shtypni Ctrl+E për të eksportuar ndryshimet",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Si funksionon: • Ngarko skedarë gjuhësorë JSON • Zgjidh gjuhët e synuara • Përkthe me Google ose AI • Shkarko skedarë të përkthyer",
+    "message": "Si funksionon:\n• Ngarko skedarë gjuhësorë JSON\n• Zgjidh gjuhët e synuara\n• Përkthe me Google ose AI\n• Shkarko skedarë të përkthyer",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Si funksionon: • Klikoni elementët e tekstit për të raportuar problemet • Shtoni përshkrime dhe ashpërsi • Eksportoni raportet në Excel ose JSON • Sinkronizoni me Google Drive",
+    "message": "Si funksionon:\n• Klikoni elementët e tekstit për të raportuar problemet\n• Shtoni përshkrime dhe ashpërsi\n• Eksportoni raportet në Excel ose JSON\n• Sinkronizoni me Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Identifikohu për të përdorur përkthimin e AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Më e mira për skedarë me madhësi të arsyeshme.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Raporti i kontrollit të cilësisë",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Palos shiritin anësor",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kliko për të zgjeruar",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Hiq Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Modaliteti i modifikimit të drejtpërdrejtë aktiv: Të gjitha lidhjet dhe butonat janë të bllokuara. Klikoni në tekst për të redaktuar.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Ndalo raportimin",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekste",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Aktuale",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Sugjeruar",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplikoni rregullimin",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplikoni të gjitha",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplikuar",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "U zbatuan $COUNT$ rregullime",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinkronizoni nga \"Disku\".",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Faqja aktuale",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Duke shfaqur tekstin origjinal",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Po aplikohet pseudo-lokalizimi...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Po ndërron modalitetin e modifikimit të drejtpërdrejtë...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Po ndërron modalitetin e raportimit të defekteve në kod...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Po hapet përkthyesi JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Klienti i përkthimit nuk është inicializuar",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Së pari, zgjidhni tekstin në faqe",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kontrolli i cilësisë nuk mund të ekzekutohej. Ju lutemi rifreskoni faqen.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Përkthimi nuk mund të fillonte. Ju lutemi rifreskoni faqen.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nuk mund të merrja raporte nga faqja. Ju lutemi rifreskojeni.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Shërbimi i sinkronizimit të diskut nuk ofrohet",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinkronizimi dështoi: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Komunikimi me faqen dështoi. Provoni të freskoni.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Detajet e defektit nuk mund të shfaqen. Ju lutemi rifreskoni faqen.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Eksportimi në Excel dështoi. Ju lutemi provoni përsëri.",
+    "description": "Error when Excel export fails"
   }
 }

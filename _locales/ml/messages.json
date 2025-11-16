@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • യഥാർത്ഥ വാചകവും വിവർത്തനം ചെയ്ത വാചകവും തമ്മിൽ ടോഗിൾ ചെയ്യുക • വേഗത്തിൽ മാറുന്നതിനായി വിവർത്തനങ്ങൾ കാഷെ ചെയ്‌തിരിക്കുന്നു • പേജിലെ എല്ലാ വാചകങ്ങളുമായും പ്രവർത്തിക്കുന്നു • വീണ്ടും വിവർത്തനം ചെയ്യാൻ കാഷെ മായ്‌ക്കുക",
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:\n• യഥാർത്ഥ വാചകവും വിവർത്തനം ചെയ്ത വാചകവും തമ്മിൽ ടോഗിൾ ചെയ്യുക\n• വേഗത്തിൽ മാറുന്നതിനായി വിവർത്തനങ്ങൾ കാഷെ ചെയ്‌തിരിക്കുന്നു\n• പേജിലെ എല്ലാ വാചകങ്ങളുമായും പ്രവർത്തിക്കുന്നു\n• വീണ്ടും വിവർത്തനം ചെയ്യാൻ കാഷെ മായ്‌ക്കുക",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • പ്രതീകങ്ങളെ ആക്‌സന്റഡ് പതിപ്പുകൾ ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു • 30-40% നീളമുള്ള വിപുലീകരണം ചേർക്കുന്നു • [!!!... !!!] മാർക്കറുകളിൽ വാചകം പൊതിയുന്നു • ഉദാഹരണം: \"ക്രമീകരണങ്ങൾ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:\n• പ്രതീകങ്ങളെ ആക്‌സന്റഡ് പതിപ്പുകൾ ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു\n• 30-40% നീളമുള്ള വിപുലീകരണം ചേർക്കുന്നു\n• [!!!... !!!] മാർക്കറുകളിൽ വാചകം പൊതിയുന്നു\n• ഉദാഹരണം: \"ക്രമീകരണങ്ങൾ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • എഡിറ്റ് ചെയ്യാൻ ഏതെങ്കിലും ടെക്സ്റ്റ് എലമെന്റിൽ ക്ലിക്ക് ചെയ്യുക • മാറ്റങ്ങൾ തത്സമയം ട്രാക്ക് ചെയ്യപ്പെടും • എഡിറ്റുകൾ JSON അല്ലെങ്കിൽ Excel ആയി എക്സ്പോർട്ട് ചെയ്യുക • മാറ്റങ്ങൾ എക്സ്പോർട്ട് ചെയ്യാൻ Ctrl+E അമർത്തുക",
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:\n• എഡിറ്റ് ചെയ്യാൻ ഏതെങ്കിലും ടെക്സ്റ്റ് എലമെന്റിൽ ക്ലിക്ക് ചെയ്യുക\n• മാറ്റങ്ങൾ തത്സമയം ട്രാക്ക് ചെയ്യപ്പെടും\n• എഡിറ്റുകൾ JSON അല്ലെങ്കിൽ Excel ആയി എക്സ്പോർട്ട് ചെയ്യുക\n• മാറ്റങ്ങൾ എക്സ്പോർട്ട് ചെയ്യാൻ Ctrl+E അമർത്തുക",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "പ്രീമിയം സവിശേഷതകൾ: • AI-അധിഷ്ഠിത സന്ദർഭ-അവബോധ വിവർത്തനം • മുഴുവൻ പേജുകളുടെയും ബാച്ച് വിവർത്തനം • വിവർത്തനങ്ങൾക്കായുള്ള ഗുണനിലവാര പരിശോധന • സ്വാഭാവിക ഭാഷാ നിർദ്ദേശങ്ങൾ",
+    "message": "പ്രീമിയം സവിശേഷതകൾ:\n• AI-അധിഷ്ഠിത സന്ദർഭ-അവബോധ വിവർത്തനം\n• മുഴുവൻ പേജുകളുടെയും ബാച്ച് വിവർത്തനം\n• വിവർത്തനങ്ങൾക്കായുള്ള ഗുണനിലവാര പരിശോധന\n• സ്വാഭാവിക ഭാഷാ നിർദ്ദേശങ്ങൾ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • JSON ഭാഷാ ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യുക • ലക്ഷ്യ ഭാഷകൾ തിരഞ്ഞെടുക്കുക • Google അല്ലെങ്കിൽ AI ഉപയോഗിച്ച് വിവർത്തനം ചെയ്യുക • വിവർത്തനം ചെയ്ത ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുക",
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:\n• JSON ഭാഷാ ഫയലുകൾ അപ്‌ലോഡ് ചെയ്യുക\n• ലക്ഷ്യ ഭാഷകൾ തിരഞ്ഞെടുക്കുക\n• Google അല്ലെങ്കിൽ AI ഉപയോഗിച്ച് വിവർത്തനം ചെയ്യുക\n• വിവർത്തനം ചെയ്ത ഫയലുകൾ ഡൗൺലോഡ് ചെയ്യുക",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു: • പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ ടെക്സ്റ്റ് ഘടകങ്ങളിൽ ക്ലിക്ക് ചെയ്യുക • വിവരണങ്ങളും തീവ്രതയും ചേർക്കുക • Excel അല്ലെങ്കിൽ JSON-ലേക്ക് റിപ്പോർട്ടുകൾ എക്സ്പോർട്ട് ചെയ്യുക • Google ഡ്രൈവുമായി സമന്വയിപ്പിക്കുക",
+    "message": "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു:\n• പ്രശ്നങ്ങൾ റിപ്പോർട്ട് ചെയ്യാൻ ടെക്സ്റ്റ് ഘടകങ്ങളിൽ ക്ലിക്ക് ചെയ്യുക\n• വിവരണങ്ങളും തീവ്രതയും ചേർക്കുക\n• Excel അല്ലെങ്കിൽ JSON-ലേക്ക് റിപ്പോർട്ടുകൾ എക്സ്പോർട്ട് ചെയ്യുക\n• Google ഡ്രൈവുമായി സമന്വയിപ്പിക്കുക",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI വിവർത്തനം ഉപയോഗിക്കുന്നതിന് ദയവായി സൈൻ ഇൻ ചെയ്യുക",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ന്യായമായ വലിപ്പമുള്ള ഫയലുകൾക്ക് മികച്ചത്.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "ഗുണനിലവാര പരിശോധന റിപ്പോർട്ട്",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "സൈഡ്‌ബാർ ചുരുക്കുക",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "വിപുലീകരിക്കാൻ ക്ലിക്ക് ചെയ്യുക",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc നീക്കം ചെയ്യുക",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "തത്സമയ എഡിറ്റ് മോഡ് സജീവം: എല്ലാ ലിങ്കുകളും ബട്ടണുകളും തടഞ്ഞു. എഡിറ്റ് ചെയ്യാൻ ടെക്സ്റ്റിൽ ക്ലിക്ക് ചെയ്യുക.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "റിപ്പോർട്ട് ചെയ്യുന്നത് നിർത്തുക",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "വാചകങ്ങൾ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "നിലവിലുള്ളത്",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "നിർദ്ദേശിച്ചു",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "പരിഹാരം പ്രയോഗിക്കുക",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "എല്ലാം പ്രയോഗിക്കുക",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "പ്രയോഗിച്ചു",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ പരിഹാരങ്ങൾ പ്രയോഗിച്ചു",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ഡ്രൈവിൽ നിന്ന് സമന്വയിപ്പിക്കുക",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "നിലവിലെ പേജ്",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "യഥാർത്ഥ വാചകം കാണിക്കുന്നു",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "വ്യാജ-പ്രാദേശികവൽക്കരണം പ്രയോഗിക്കുന്നു...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "തത്സമയ എഡിറ്റ് മോഡ് ടോഗിൾ ചെയ്യുന്നു...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ബഗ് റിപ്പോർട്ട് മോഡ് ടോഗിൾ ചെയ്യുന്നു...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON വിവർത്തകൻ തുറക്കുന്നു...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "വിവർത്തന ക്ലയൻ്റ് ആരംഭിച്ചിട്ടില്ല",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ആദ്യം പേജിലെ വാചകം തിരഞ്ഞെടുക്കുക",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ഗുണനിലവാര പരിശോധന നടത്താനായില്ല. ദയവായി പേജ് പുതുക്കുക.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "വിവർത്തനം ആരംഭിക്കാൻ കഴിഞ്ഞില്ല. ദയവായി പേജ് പുതുക്കുക.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "പേജിൽ നിന്ന് റിപ്പോർട്ടുകൾ നേടാനായില്ല. ദയവായി പുതുക്കുക.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ഡ്രൈവ് സമന്വയ സേവനം ലഭ്യമല്ല",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "സമന്വയം പരാജയപ്പെട്ടു: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "പേജുമായി ആശയവിനിമയം നടത്തുന്നതിൽ പരാജയപ്പെട്ടു. പുതുക്കാൻ ശ്രമിക്കുക.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ബഗ് വിശദാംശങ്ങൾ കാണിക്കാൻ കഴിഞ്ഞില്ല. ദയവായി പേജ് പുതുക്കുക.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel-ലേക്ക് കയറ്റുമതി ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക.",
+    "description": "Error when Excel export fails"
   }
 }

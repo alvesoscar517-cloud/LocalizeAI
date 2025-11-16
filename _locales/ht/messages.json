@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kijan li fonksyone: • Chanje ant tèks orijinal la ak tèks tradui a • Tradiksyon yo estoke nan kach pou chanjman rapid • Fonksyone ak tout tèks ki sou paj la • Vide kach la pou retradui",
+    "message": "Kijan li fonksyone:\n• Chanje ant tèks orijinal la ak tèks tradui a\n• Tradiksyon yo estoke nan kach pou chanjman rapid\n• Fonksyone ak tout tèks ki sou paj la\n• Vide kach la pou retradui",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kijan li fonksyone: • Ranplase karaktè yo ak vèsyon aksan • Ajoute yon ekspansyon longè 30-40% • Vlope tèks la nan makè [!!!... !!!] • Egzanp: \"Paramèt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Kijan li fonksyone:\n• Ranplase karaktè yo ak vèsyon aksan\n• Ajoute yon ekspansyon longè 30-40%\n• Vlope tèks la nan makè [!!!... !!!]\n• Egzanp: \"Paramèt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kijan li fonksyone: • Klike sou nenpòt eleman tèks pou modifye li • Chanjman yo swiv an tan reyèl • Ekspòte modifikasyon yo kòm JSON oswa Excel • Peze Ctrl+E pou ekspòte chanjman yo",
+    "message": "Kijan li fonksyone:\n• Klike sou nenpòt eleman tèks pou modifye li\n• Chanjman yo swiv an tan reyèl\n• Ekspòte modifikasyon yo kòm JSON oswa Excel\n• Peze Ctrl+E pou ekspòte chanjman yo",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kijan li fonksyone: • Telechaje fichye lang JSON yo • Chwazi lang sib yo • Tradui ak Google oswa IA • Telechaje fichye tradui yo",
+    "message": "Kijan li fonksyone:\n• Telechaje fichye lang JSON yo\n• Chwazi lang sib yo\n• Tradui ak Google oswa IA\n• Telechaje fichye tradui yo",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kijan li fonksyone: • Klike sou eleman tèks yo pou rapòte pwoblèm yo • Ajoute deskripsyon ak gravite yo • Ekspòte rapò yo an Excel oswa JSON • Senkronize ak Google Drive",
+    "message": "Kijan li fonksyone:\n• Klike sou eleman tèks yo pou rapòte pwoblèm yo\n• Ajoute deskripsyon ak gravite yo\n• Ekspòte rapò yo an Excel oswa JSON\n• Senkronize ak Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Tanpri konekte pou itilize tradiksyon AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Pi bon pou dosye ak gwosè rezonab.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Rapò Tcheke Kalite",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Tonbe bò kote",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klike pou elaji",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Retire Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit Mode Aktif: Tout lyen ak bouton yo bloke. Klike sou tèks pou edite.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Sispann Rapòte",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tèks yo",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Kouran",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Sijere",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplike ranje",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplike tout",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplike",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Aplike $COUNT$ ranje",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Senkronize soti nan Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Paj aktyèl la",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Montre tèks orijinal la",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Ap aplike pseudo-lokalizasyon...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Aktivite mòd modifikasyon an dirèk...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Aktivite mòd rapò ensèk...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Louvri JSON tradiktè...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Kliyan tradiksyon pa inisyalize",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Tanpri chwazi tèks sou paj la an premye",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Pa t 'kapab kouri tcheke bon jan kalite. Tanpri rafrechi paj la.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Pa t 'kapab kòmanse tradiksyon. Tanpri rafrechi paj la.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Pa t 'kapab jwenn rapò ki soti nan paj la. Tanpri rafrechi.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Sèvis senkronizasyon kondwi pa disponib",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Senkronizasyon echwe: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Echwe pou kominike ak paj la. Eseye entérésan.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Pa t 'kapab montre detay ensèk yo. Tanpri rafrechi paj la.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Echwe pou ekspòte nan Excel. Tanpri eseye ankò.",
+    "description": "Error when Excel export fails"
   }
 }

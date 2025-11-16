@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "작동 방식: • 원문과 번역문 간 전환 • 빠른 전환을 위해 번역 내용이 캐시됩니다. • 페이지의 모든 텍스트에 적용 • 캐시를 삭제하여 다시 번역",
+    "message": "작동 방식:\n• 원문과 번역문 간 전환\n• 빠른 전환을 위해 번역 내용이 캐시됩니다.\n• 페이지의 모든 텍스트에 적용\n• 캐시를 삭제하여 다시 번역",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "작동 방식: • 문자를 악센트 부호가 있는 문자로 바꿉니다. • 문자를 30~40% 길이로 확장합니다. • 텍스트를 [!!!... !!!] 마커로 감쌉니다. • 예: \"설정\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "작동 방식:\n• 문자를 악센트 부호가 있는 문자로 바꿉니다.\n• 문자를 30~40% 길이로 확장합니다.\n• 텍스트를 [!!!... !!!] 마커로 감쌉니다.\n• 예: \"설정\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "작동 방식: • 텍스트 요소를 클릭하여 편집하세요. • 변경 사항은 실시간으로 추적됩니다. • 편집 내용을 JSON 또는 Excel로 내보내세요. • Ctrl+E를 눌러 변경 사항을 내보내세요.",
+    "message": "작동 방식:\n• 텍스트 요소를 클릭하여 편집하세요.\n• 변경 사항은 실시간으로 추적됩니다.\n• 편집 내용을 JSON 또는 Excel로 내보내세요.\n• Ctrl+E를 눌러 변경 사항을 내보내세요.",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "프리미엄 기능: • AI 기반 상황 인식 번역 • 전체 페이지 일괄 번역 • 번역 품질 검사 • 자연어 제안",
+    "message": "프리미엄 기능:\n• AI 기반 상황 인식 번역\n• 전체 페이지 일괄 번역\n• 번역 품질 검사\n• 자연어 제안",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "작동 방식: • JSON 언어 파일 업로드 • 대상 언어 선택 • Google 또는 AI로 번역 • 번역된 파일 다운로드",
+    "message": "작동 방식:\n• JSON 언어 파일 업로드\n• 대상 언어 선택\n• Google 또는 AI로 번역\n• 번역된 파일 다운로드",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "작동 방식: • 텍스트 요소를 클릭하여 문제를 보고하세요. • 설명과 심각도를 추가하세요. • 보고서를 Excel 또는 JSON으로 내보내세요. • Google Drive와 동기화하세요.",
+    "message": "작동 방식:\n• 텍스트 요소를 클릭하여 문제를 보고하세요.\n• 설명과 심각도를 추가하세요.\n• 보고서를 Excel 또는 JSON으로 내보내세요.\n• Google Drive와 동기화하세요.",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI 번역을 사용하려면 로그인하세요",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "적당한 크기의 파일에 가장 적합합니다. 한 번에 최대 5개 언어.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "품질 점검 보고서",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "사이드바 접기",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "펼치려면 클릭하세요.",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc 제거",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "실시간 편집 모드 활성: 모든 링크와 버튼이 차단됩니다. 편집하려면 텍스트를 클릭하세요.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "보고 중지",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "텍스트",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "현재의",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "제안",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "수정사항 적용",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "모두 적용",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "적용된",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ 수정사항 적용됨",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "드라이브에서 동기화",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "현재 페이지",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "원본 텍스트 표시 중",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "의사 현지화 적용 중...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "실시간 편집 모드 전환 중...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "버그 신고 모드 전환 중...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON 번역기를 여는 중...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "번역 클라이언트가 초기화되지 않았습니다.",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "먼저 페이지에서 텍스트를 선택하세요.",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "품질 검사를 실행할 수 없습니다. 페이지를 새로고침하세요.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "번역을 시작할 수 없습니다. 페이지를 새로고침하세요.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "페이지에서 보고서를 가져올 수 없습니다. 새로고침하세요.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "드라이브 동기화 서비스를 사용할 수 없습니다.",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "동기화 실패: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "페이지와 통신하지 못했습니다. 새로고침해 보세요.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "버그 세부정보를 표시할 수 없습니다. 페이지를 새로고침하세요.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel로 내보내지 못했습니다. 다시 시도해 주세요.",
+    "description": "Error when Excel export fails"
   }
 }

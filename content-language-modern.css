@@ -1,20 +1,18 @@
-/* Modern Language Selector Styles */
+/* Modern Language Selector Styles - Simplified */
 
 .language-settings {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  padding: 20px 16px;
-  background: linear-gradient(135deg, #f8f9ff 0%, #fafbff 100%);
+  gap: 12px;
+  padding: 16px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
   border-radius: 12px;
   margin-bottom: 20px;
-  border: 1px solid #e8e9ff;
+  border: 1px solid #dbeafe;
 }
 
 .lang-select-modern {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  position: relative;
 }
 
 .lang-label {
@@ -23,14 +21,15 @@
   gap: 6px;
   font-size: 10px;
   font-weight: 600;
-  color: #667eea;
+  color: #3b82f6;
   text-transform: uppercase;
   letter-spacing: 0.8px;
+  margin-bottom: 8px;
 }
 
 .lang-label img {
   opacity: 0.8;
-  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(223deg) brightness(97%) contrast(91%);
+  filter: brightness(0) saturate(100%) invert(42%) sepia(93%) saturate(1352%) hue-rotate(200deg) brightness(97%) contrast(91%);
 }
 
 .lang-dropdown-wrapper {
@@ -54,14 +53,14 @@
 }
 
 .lang-selected-btn:hover {
-  border-color: #667eea;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+  border-color: #3b82f6;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
 }
 
 .lang-selected-btn.active {
-  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
-  border-color: #81c784;
-  box-shadow: 0 0 0 3px rgba(129, 199, 132, 0.1);
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .lang-native {
@@ -96,15 +95,13 @@
   left: 0;
   right: 0;
   background: white;
-  border: 2px solid #e0e0e0;
-  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   z-index: 10000;
   max-height: 320px;
-  display: flex;
-  flex-direction: column;
+  overflow: hidden;
   animation: dropdownSlide 0.2s ease-out;
-  pointer-events: auto;
 }
 
 @keyframes dropdownSlide {
@@ -122,11 +119,10 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 12px;
+  padding: 12px 14px;
   border-bottom: 1px solid #f0f0f0;
   background: #fafafa;
-  flex-shrink: 0;
-  border-radius: 10px 10px 0 0;
+  border-radius: 12px 12px 0 0;
 }
 
 .lang-search-box img {
@@ -148,23 +144,16 @@
 }
 
 .lang-list {
-  flex: 1;
   max-height: 280px;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 4px;
-  border-radius: 0 0 10px 10px;
+  padding: 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-/* Hide Scrollbar */
 .lang-list::-webkit-scrollbar {
-  width: 0;
   display: none;
-}
-
-.lang-list {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
 }
 
 /* Language Item */
@@ -172,29 +161,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  padding: 8px 12px;
+  gap: 12px;
+  padding: 10px 12px;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.15s ease;
-  margin-bottom: 1px;
-  height: 36px;
-  pointer-events: auto;
+  transition: background 0.15s ease;
+  margin-bottom: 2px;
   user-select: none;
 }
 
 .lang-item:hover {
-  background: #f8f9ff;
+  background: #eff6ff;
 }
 
 .lang-item:active {
-  background: #e8e9ff;
+  background: #dbeafe;
 }
 
 .lang-item.selected {
-  background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
-  border-left: 3px solid #667eea;
-  padding-left: 9px;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(59, 130, 246, 0.12) 100%);
 }
 
 .lang-item-name {
@@ -202,7 +187,6 @@
   font-size: 13px;
   font-weight: 500;
   color: #1a1a1a;
-  line-height: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -210,19 +194,18 @@
 
 .lang-item-code {
   font-size: 10px;
-  color: #667eea;
-  background: #667eea15;
-  padding: 4px 7px;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.08);
+  padding: 4px 8px;
   border-radius: 6px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-weight: 700;
   flex-shrink: 0;
-  line-height: 1;
 }
 
 .lang-item.selected .lang-item-code {
-  background: #667eea;
+  background: #3b82f6;
   color: white;
 }
 
@@ -259,6 +242,5 @@
 @media (max-width: 400px) {
   .language-settings {
     grid-template-columns: 1fr;
-    gap: 12px;
   }
 }

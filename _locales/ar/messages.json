@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "كيفية العمل: • التبديل بين النص الأصلي والمترجم • يتم تخزين الترجمات مؤقتًا للتبديل السريع • يعمل مع جميع النصوص في الصفحة • مسح ذاكرة التخزين المؤقت لإعادة الترجمة",
+    "message": "كيفية العمل:\n• التبديل بين النص الأصلي والمترجم\n• يتم تخزين الترجمات مؤقتًا للتبديل السريع\n• يعمل مع جميع النصوص في الصفحة\n• مسح ذاكرة التخزين المؤقت لإعادة الترجمة",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "طريقة العمل: • استبدال الأحرف بنسخ مُعَلَّمة • إضافة امتداد للطول بنسبة ٣٠-٤٠٪ • لف النص بعلامات [!!!... !!!] • مثال: \"الإعدادات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "طريقة العمل:\n• استبدال الأحرف بنسخ مُعَلَّمة\n• إضافة امتداد للطول بنسبة ٣٠-٤٠٪\n• لف النص بعلامات [!!!... !!!]\n• مثال: \"الإعدادات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "كيفية العمل: • انقر على أي عنصر نصي لتحريره. • يتم تتبع التغييرات فورًا. • تصدير التعديلات بصيغة JSON أو Excel. • اضغط على Ctrl+E لتصدير التغييرات.",
+    "message": "كيفية العمل:\n• انقر على أي عنصر نصي لتحريره.\n• يتم تتبع التغييرات فورًا.\n• تصدير التعديلات بصيغة JSON أو Excel.\n• اضغط على Ctrl+E لتصدير التغييرات.",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "الميزات المميزة: • ترجمة سياقية مدعومة بالذكاء الاصطناعي • ترجمة دفعية لصفحات كاملة • فحص جودة الترجمات • اقتراحات بلغة طبيعية",
+    "message": "الميزات المميزة:\n• ترجمة سياقية مدعومة بالذكاء الاصطناعي\n• ترجمة دفعية لصفحات كاملة\n• فحص جودة الترجمات\n• اقتراحات بلغة طبيعية",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "كيفية العمل: • تحميل ملفات لغة JSON • اختيار اللغات المستهدفة • الترجمة باستخدام جوجل أو الذكاء الاصطناعي • تنزيل الملفات المترجمة",
+    "message": "كيفية العمل:\n• تحميل ملفات لغة JSON\n• اختيار اللغات المستهدفة\n• الترجمة باستخدام جوجل أو الذكاء الاصطناعي\n• تنزيل الملفات المترجمة",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "كيفية العمل: • انقر على عناصر النص للإبلاغ عن المشكلات. • أضف الأوصاف ودرجة الخطورة. • صدّر التقارير إلى Excel أو JSON. • مزامنة مع Google Drive.",
+    "message": "كيفية العمل:\n• انقر على عناصر النص للإبلاغ عن المشكلات.\n• أضف الأوصاف ودرجة الخطورة.\n• صدّر التقارير إلى Excel أو JSON.\n• مزامنة مع Google Drive.",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "يرجى تسجيل الدخول لاستخدام ترجمة الذكاء الاصطناعي",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "الأفضل للملفات ذات الحجم المعقول.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "تقرير فحص الجودة",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "طي الشريط الجانبي",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "انقر للتوسيع",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "إزالة Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "وضع التحرير المباشر نشط: يتم حظر جميع الروابط والأزرار. انقر على النص لتحريره.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "توقف عن الإبلاغ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "النصوص",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "حاضِر",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "مقترح",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "تطبيق الإصلاح",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "تطبيق الكل",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "مُطبَّق",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "تم تطبيق $COUNT$ من الإصلاحات",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "المزامنة من Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "الصفحة الحالية",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "إظهار النص الأصلي",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "تطبيق التوطين الزائف...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "جارٍ تبديل وضع التحرير المباشر...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "جارٍ تبديل وضع الإبلاغ عن الأخطاء...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "جارٍ فتح مترجم JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "لم تتم تهيئة عميل الترجمة",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "الرجاء تحديد النص الموجود على الصفحة أولاً",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "لا يمكن تشغيل فحص الجودة. يرجى تحديث الصفحة.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "لا يمكن بدء الترجمة. يرجى تحديث الصفحة.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "تعذر الحصول على التقارير من الصفحة. يرجى التحديث.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "خدمة مزامنة Drive غير متوفرة",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "فشلت المزامنة: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "فشل التواصل مع الصفحة. حاول التحديث.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "لا يمكن إظهار تفاصيل الخطأ. يرجى تحديث الصفحة.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "فشل التصدير إلى Excel. يرجى المحاولة مرة أخرى.",
+    "description": "Error when Excel export fails"
   }
 }

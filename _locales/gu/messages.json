@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "તે કેવી રીતે કાર્ય કરે છે: • મૂળ અને અનુવાદિત ટેક્સ્ટ વચ્ચે ટૉગલ કરો • ઝડપી સ્વિચિંગ માટે અનુવાદો કેશ કરવામાં આવે છે • પૃષ્ઠ પરના બધા ટેક્સ્ટ સાથે કાર્ય કરે છે • ફરીથી અનુવાદ કરવા માટે કેશ સાફ કરો",
+    "message": "તે કેવી રીતે કાર્ય કરે છે:\n• મૂળ અને અનુવાદિત ટેક્સ્ટ વચ્ચે ટૉગલ કરો\n• ઝડપી સ્વિચિંગ માટે અનુવાદો કેશ કરવામાં આવે છે\n• પૃષ્ઠ પરના બધા ટેક્સ્ટ સાથે કાર્ય કરે છે\n• ફરીથી અનુવાદ કરવા માટે કેશ સાફ કરો",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "તે કેવી રીતે કાર્ય કરે છે: • અક્ષરોને ઉચ્ચારિત સંસ્કરણો સાથે બદલે છે • 30-40% લંબાઈ વિસ્તરણ ઉમેરે છે • [!!!... !!!] માર્કર્સમાં ટેક્સ્ટને લપેટે છે • ઉદાહરણ: \"સેટિંગ્સ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "તે કેવી રીતે કાર્ય કરે છે:\n• અક્ષરોને ઉચ્ચારિત સંસ્કરણો સાથે બદલે છે\n• 30-40% લંબાઈ વિસ્તરણ ઉમેરે છે\n• [!!!... !!!] માર્કર્સમાં ટેક્સ્ટને લપેટે છે\n• ઉદાહરણ: \"સેટિંગ્સ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "તે કેવી રીતે કાર્ય કરે છે: • કોઈપણ ટેક્સ્ટ ઘટકને સંપાદિત કરવા માટે તેને ક્લિક કરો • ફેરફારો રીઅલ-ટાઇમમાં ટ્રેક થાય છે • JSON અથવા Excel તરીકે સંપાદન નિકાસ કરો • ફેરફારો નિકાસ કરવા માટે Ctrl+E દબાવો",
+    "message": "તે કેવી રીતે કાર્ય કરે છે:\n• કોઈપણ ટેક્સ્ટ ઘટકને સંપાદિત કરવા માટે તેને ક્લિક કરો\n• ફેરફારો રીઅલ-ટાઇમમાં ટ્રેક થાય છે\n• JSON અથવા Excel તરીકે સંપાદન નિકાસ કરો\n• ફેરફારો નિકાસ કરવા માટે Ctrl+E દબાવો",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "પ્રીમિયમ સુવિધાઓ: • AI-સંચાલિત સંદર્ભ-જાગૃત અનુવાદ • બેચમાં સમગ્ર પૃષ્ઠોનો અનુવાદ • અનુવાદો માટે ગુણવત્તા તપાસ • કુદરતી ભાષા સૂચનો",
+    "message": "પ્રીમિયમ સુવિધાઓ:\n• AI-સંચાલિત સંદર્ભ-જાગૃત અનુવાદ\n• બેચમાં સમગ્ર પૃષ્ઠોનો અનુવાદ\n• અનુવાદો માટે ગુણવત્તા તપાસ\n• કુદરતી ભાષા સૂચનો",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "તે કેવી રીતે કાર્ય કરે છે: • JSON ભાષા ફાઇલો અપલોડ કરો • લક્ષ્ય ભાષાઓ પસંદ કરો • Google અથવા AI સાથે અનુવાદ કરો • અનુવાદિત ફાઇલો ડાઉનલોડ કરો",
+    "message": "તે કેવી રીતે કાર્ય કરે છે:\n• JSON ભાષા ફાઇલો અપલોડ કરો\n• લક્ષ્ય ભાષાઓ પસંદ કરો\n• Google અથવા AI સાથે અનુવાદ કરો\n• અનુવાદિત ફાઇલો ડાઉનલોડ કરો",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "તે કેવી રીતે કાર્ય કરે છે: • સમસ્યાઓની જાણ કરવા માટે ટેક્સ્ટ તત્વો પર ક્લિક કરો • વર્ણનો અને ગંભીરતા ઉમેરો • એક્સેલ અથવા JSON માં રિપોર્ટ્સ નિકાસ કરો • Google ડ્રાઇવ સાથે સમન્વયિત કરો",
+    "message": "તે કેવી રીતે કાર્ય કરે છે:\n• સમસ્યાઓની જાણ કરવા માટે ટેક્સ્ટ તત્વો પર ક્લિક કરો\n• વર્ણનો અને ગંભીરતા ઉમેરો\n• એક્સેલ અથવા JSON માં રિપોર્ટ્સ નિકાસ કરો\n• Google ડ્રાઇવ સાથે સમન્વયિત કરો",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI અનુવાદનો ઉપયોગ કરવા માટે કૃપા કરીને સાઇન ઇન કરો",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "વાજબી કદ સાથે ફાઇલો માટે શ્રેષ્ઠ.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "ગુણવત્તા તપાસ અહેવાલ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "સાઇડબારને સંકુચિત કરો",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "વિસ્તૃત કરવા માટે ક્લિક કરો",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "સ્યુડો-લોક દૂર કરો",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "જીવંત સંપાદન મોડ સક્રિય: બધી લિંક્સ અને બટનો અવરોધિત છે. સંપાદિત કરવા માટે ટેક્સ્ટ પર ક્લિક કરો.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "જાણ કરવાનું બંધ કરો",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "પાઠો",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "વર્તમાન",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "સૂચવ્યું",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ફિક્સ લાગુ કરો",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "બધા લાગુ કરો",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "લાગુ",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ સુધારા લાગુ કર્યા",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ડ્રાઇવમાંથી સમન્વયન",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "વર્તમાન પૃષ્ઠ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "મૂળ લખાણ બતાવી રહ્યું છે",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "સ્યુડો-સ્થાનિકીકરણ લાગુ કરી રહ્યું છે...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "લાઇવ એડિટ મોડને ટૉગલ કરી રહ્યાં છીએ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "બગ રિપોર્ટ મોડને ટૉગલ કરી રહ્યાં છીએ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON અનુવાદક ખોલી રહ્યું છે...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "અનુવાદ ક્લાયંટ પ્રારંભ થયો નથી",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "કૃપા કરીને પહેલા પૃષ્ઠ પર ટેક્સ્ટ પસંદ કરો",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ગુણવત્તા તપાસ ચલાવી શકાઈ નથી. કૃપા કરીને પૃષ્ઠ તાજું કરો.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "અનુવાદ શરૂ કરી શકાયો નથી. કૃપા કરીને પૃષ્ઠ તાજું કરો.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "પૃષ્ઠ પરથી અહેવાલો મેળવી શક્યા નથી. કૃપા કરીને તાજું કરો.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ડ્રાઇવ સમન્વયન સેવા ઉપલબ્ધ નથી",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "સમન્વયન નિષ્ફળ થયું: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "પૃષ્ઠ સાથે વાતચીત કરવામાં નિષ્ફળ. તાજું કરવાનો પ્રયાસ કરો.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "બગ વિગતો બતાવી શકાઈ નથી. કૃપા કરીને પૃષ્ઠ તાજું કરો.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel માં નિકાસ કરવામાં નિષ્ફળ. કૃપા કરીને ફરી પ્રયાસ કરો.",
+    "description": "Error when Excel export fails"
   }
 }

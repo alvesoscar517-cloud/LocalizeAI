@@ -1,13 +1,28 @@
 // Bug Report Sidebar - Modern, Clean UI
 async function showBugReportSidebar() {
+  // Bug Report Sidebar can be shown IN PANEL (it's a list view, suitable for panel)
   // Hide main sidebar
   const mainSidebar = document.querySelector('.localizeai-sidebar');
   if (mainSidebar) {
     mainSidebar.style.display = 'none';
   }
   
-  // Get reports
-  const reports = await bugReportDB.getAllReports();
+  // Get reports - if in panel, get from page; otherwise get locally
+  let reports = [];
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    // In panel - get reports from page
+    try {
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      const response = await chrome.tabs.sendMessage(tab.id, { action: 'getBugReports' });
+      reports = response.reports || [];
+    } catch (error) {
+      console.error('Failed to get reports from page:', error);
+      reports = [];
+    }
+  } else {
+    // On page - get reports locally
+    reports = await bugReportDB.getAllReports();
+  }
   
   // Sort by timestamp descending
   reports.sort((a, b) => b.timestamp - a.timestamp);
@@ -198,8 +213,24 @@ function createBugCard(report, searchTerm = '') {
 }
 
 async function viewBugDetails(id) {
-  const report = await bugReportDB.getReportById(id);
+  const report = await getBugReportById(id);
   if (!report) return;
+  
+  // LARGE DIALOG - Show on page (full screen with overlay) for better viewing
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    try {
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      await chrome.tabs.sendMessage(tab.id, { 
+        action: 'showBugDetails', 
+        report: report 
+      });
+      return; // Don't show fallback in panel
+    } catch (error) {
+      console.error('Failed to show bug details on page:', error);
+      showNotification(i18n('bugDetailsError'), 'alert-triangle');
+      return; // Don't show fallback
+    }
+  }
   
   const dialog = document.createElement('div');
   dialog.className = 'localizeai-dialog';
@@ -321,7 +352,20 @@ async function viewBugDetails(id) {
 
 // Refresh bug list without recreating entire sidebar (prevents flash)
 async function refreshBugList() {
-  const reports = await bugReportDB.getAllReports();
+  // Get reports - if in panel, get from page; otherwise get locally
+  let reports = [];
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    try {
+      const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+      const response = await chrome.tabs.sendMessage(tab.id, { action: 'getBugReports' });
+      reports = response.reports || [];
+    } catch (error) {
+      console.error('Failed to get reports from page:', error);
+      reports = [];
+    }
+  } else {
+    reports = await bugReportDB.getAllReports();
+  }
   reports.sort((a, b) => b.timestamp - a.timestamp);
   
   const container = document.getElementById('bug-cards-container');
@@ -338,10 +382,10 @@ async function refreshBugList() {
 }
 
 async function toggleBugStatus(id) {
-  const report = await bugReportDB.getReportById(id);
+  const report = await getBugReportById(id);
   const newStatus = report.status === 'open' ? 'resolved' : 'open';
   
-  await bugReportDB.updateReport(id, { status: newStatus });
+  await updateBugReportStatus(id, { status: newStatus });
   showNotification(i18n('reportMarkedAs', id, newStatus), 'check-circle');
   
   // Refresh list smoothly instead of recreating sidebar
@@ -359,7 +403,7 @@ async function deleteBug(id) {
   
   if (!confirmed) return;
   
-  await bugReportDB.deleteReport(id);
+  await deleteBugReportById(id);
   showNotification(i18n('reportDeleted', id), 'trash-2');
   
   // Refresh list smoothly instead of recreating sidebar
@@ -378,7 +422,7 @@ async function clearAllBugs() {
   
   if (!confirmed) return;
   
-  await bugReportDB.clearAll();
+  await clearAllBugReports();
   showNotification(i18n('allReportsCleared'), 'trash-2');
   
   // Refresh list smoothly instead of recreating sidebar
@@ -430,7 +474,7 @@ function exportBugsMenu(reports) {
       await exportToExcel(reports);
     } catch (error) {
       console.error('Export to Excel failed:', error);
-      showNotification('Failed to export to Excel. Please try again.', 'x-circle');
+      showNotification(i18n('excelExportError'), 'x-circle');
     }
     dialog.remove();
   });
@@ -450,4 +494,44 @@ function exportBugsMenu(reports) {
   dialog.addEventListener('click', (e) => {
     if (e.target === dialog) dialog.remove();
   });
+}
+
+
+// Helper functions to work with bug reports (panel-aware)
+async function getBugReportById(id) {
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    const response = await chrome.tabs.sendMessage(tab.id, { action: 'getBugReports' });
+    const reports = response.reports || [];
+    return reports.find(r => r.id === id);
+  } else {
+    return await bugReportDB.getReportById(id);
+  }
+}
+
+async function updateBugReportStatus(id, updates) {
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    await chrome.tabs.sendMessage(tab.id, { action: 'updateBugReport', id: id, updates: updates });
+  } else {
+    await bugReportDB.updateReport(id, updates);
+  }
+}
+
+async function deleteBugReportById(id) {
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    await chrome.tabs.sendMessage(tab.id, { action: 'deleteBugReport', id: id });
+  } else {
+    await bugReportDB.deleteReport(id);
+  }
+}
+
+async function clearAllBugReports() {
+  if (typeof isInSidePanel !== 'undefined' && isInSidePanel) {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    await chrome.tabs.sendMessage(tab.id, { action: 'clearAllBugReports' });
+  } else {
+    await bugReportDB.clearAll();
+  }
 }

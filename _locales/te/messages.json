@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ఇది ఎలా పనిచేస్తుంది: • అసలు మరియు అనువదించబడిన వచనాల మధ్య టోగుల్ చేయండి • అనువాదాలు వేగంగా మారడానికి కాష్ చేయబడతాయి • పేజీలోని అన్ని వచనాలతో పనిచేస్తుంది • తిరిగి అనువదించడానికి కాష్‌ను క్లియర్ చేయండి",
+    "message": "ఇది ఎలా పనిచేస్తుంది:\n• అసలు మరియు అనువదించబడిన వచనాల మధ్య టోగుల్ చేయండి\n• అనువాదాలు వేగంగా మారడానికి కాష్ చేయబడతాయి\n• పేజీలోని అన్ని వచనాలతో పనిచేస్తుంది\n• తిరిగి అనువదించడానికి కాష్‌ను క్లియర్ చేయండి",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "ఇది ఎలా పనిచేస్తుంది: • అక్షరాలను యాక్సెంట్ వెర్షన్‌లతో భర్తీ చేస్తుంది • 30-40% పొడవు విస్తరణను జోడిస్తుంది • [!!!... !!!] మార్కర్‌లలో వచనాన్ని చుట్టేస్తుంది • ఉదాహరణ: \"సెట్టింగ్‌లు\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "ఇది ఎలా పనిచేస్తుంది:\n• అక్షరాలను యాక్సెంట్ వెర్షన్‌లతో భర్తీ చేస్తుంది\n• 30-40% పొడవు విస్తరణను జోడిస్తుంది\n• [!!!... !!!] మార్కర్‌లలో వచనాన్ని చుట్టేస్తుంది\n• ఉదాహరణ: \"సెట్టింగ్‌లు\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ఇది ఎలా పనిచేస్తుంది: • ఏదైనా టెక్స్ట్ ఎలిమెంట్‌ను సవరించడానికి దానిపై క్లిక్ చేయండి • మార్పులు నిజ సమయంలో ట్రాక్ చేయబడతాయి • సవరణలను JSON లేదా Excelగా ఎగుమతి చేయండి • మార్పులను ఎగుమతి చేయడానికి Ctrl+E నొక్కండి",
+    "message": "ఇది ఎలా పనిచేస్తుంది:\n• ఏదైనా టెక్స్ట్ ఎలిమెంట్‌ను సవరించడానికి దానిపై క్లిక్ చేయండి\n• మార్పులు నిజ సమయంలో ట్రాక్ చేయబడతాయి\n• సవరణలను JSON లేదా Excelగా ఎగుమతి చేయండి\n• మార్పులను ఎగుమతి చేయడానికి Ctrl+E నొక్కండి",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ప్రీమియం ఫీచర్లు: • AI-ఆధారిత సందర్భోచిత అనువాదం • మొత్తం పేజీలను బ్యాచ్‌గా అనువదించండి • అనువాదాల కోసం నాణ్యత తనిఖీ • సహజ భాషా సూచనలు",
+    "message": "ప్రీమియం ఫీచర్లు:\n• AI-ఆధారిత సందర్భోచిత అనువాదం\n• మొత్తం పేజీలను బ్యాచ్‌గా అనువదించండి\n• అనువాదాల కోసం నాణ్యత తనిఖీ\n• సహజ భాషా సూచనలు",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ఇది ఎలా పనిచేస్తుంది: • JSON భాషా ఫైళ్లను అప్‌లోడ్ చేయండి • లక్ష్య భాషలను ఎంచుకోండి • Google లేదా AIతో అనువదించండి • అనువదించబడిన ఫైళ్లను డౌన్‌లోడ్ చేయండి",
+    "message": "ఇది ఎలా పనిచేస్తుంది:\n• JSON భాషా ఫైళ్లను అప్‌లోడ్ చేయండి\n• లక్ష్య భాషలను ఎంచుకోండి\n• Google లేదా AIతో అనువదించండి\n• అనువదించబడిన ఫైళ్లను డౌన్‌లోడ్ చేయండి",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ఇది ఎలా పనిచేస్తుంది: • సమస్యలను నివేదించడానికి టెక్స్ట్ ఎలిమెంట్‌లను క్లిక్ చేయండి • వివరణలు మరియు తీవ్రతను జోడించండి • నివేదికలను Excel లేదా JSONకి ఎగుమతి చేయండి • Google డిస్క్‌తో సమకాలీకరించండి",
+    "message": "ఇది ఎలా పనిచేస్తుంది:\n• సమస్యలను నివేదించడానికి టెక్స్ట్ ఎలిమెంట్‌లను క్లిక్ చేయండి\n• వివరణలు మరియు తీవ్రతను జోడించండి\n• నివేదికలను Excel లేదా JSONకి ఎగుమతి చేయండి\n• Google డిస్క్‌తో సమకాలీకరించండి",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "దయచేసి AI అనువాదాన్ని ఉపయోగించడానికి సైన్ ఇన్ చేయండి",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "సహేతుకమైన పరిమాణం ఉన్న ఫైల్‌లకు ఉత్తమమైనది.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "నాణ్యత తనిఖీ నివేదిక",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "సైడ్‌బార్‌ను కుదించు",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "విస్తరించడానికి క్లిక్ చేయండి",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "సూడో-లోక్‌ని తీసివేయండి",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ప్రత్యక్ష సవరణ మోడ్ సక్రియం: అన్ని లింక్‌లు మరియు బటన్‌లు బ్లాక్ చేయబడ్డాయి. సవరించడానికి టెక్స్ట్‌పై క్లిక్ చేయండి.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "నివేదించడం ఆపు",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "గ్రంథాలు",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ప్రస్తుత",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "సూచించారు",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "పరిష్కారాన్ని వర్తించండి",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "అన్నీ వర్తించు",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "దరఖాస్తు చేసుకున్నారు",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ పరిష్కారాలు వర్తింపజేయబడ్డాయి",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "డిస్క్ నుండి సమకాలీకరించండి",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "ప్రస్తుత పేజీ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "అసలు వచనాన్ని చూపుతోంది",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "నకిలీ స్థానికీకరణను వర్తింపజేస్తోంది...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "ప్రత్యక్ష సవరణ మోడ్‌ని టోగుల్ చేస్తోంది...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "బగ్ రిపోర్ట్ మోడ్‌ని టోగుల్ చేస్తోంది...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON అనువాదకుడిని తెరుస్తోంది...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "అనువాద క్లయింట్ ప్రారంభించబడలేదు",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "దయచేసి ముందుగా పేజీలోని వచనాన్ని ఎంచుకోండి",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "నాణ్యత తనిఖీని అమలు చేయడం సాధ్యపడలేదు. దయచేసి పేజీని రిఫ్రెష్ చేయండి.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "అనువాదాన్ని ప్రారంభించడం సాధ్యపడలేదు. దయచేసి పేజీని రిఫ్రెష్ చేయండి.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "పేజీ నుండి నివేదికలను పొందడం సాధ్యపడలేదు. దయచేసి రిఫ్రెష్ చేయండి.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "డ్రైవ్ సమకాలీకరణ సేవ అందుబాటులో లేదు",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "సమకాలీకరణ విఫలమైంది: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "పేజీతో కమ్యూనికేట్ చేయడంలో విఫలమైంది. రిఫ్రెష్ చేయడానికి ప్రయత్నించండి.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "బగ్ వివరాలను చూపడం సాధ్యపడలేదు. దయచేసి పేజీని రిఫ్రెష్ చేయండి.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelకి ఎగుమతి చేయడంలో విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+    "description": "Error when Excel export fails"
   }
 }

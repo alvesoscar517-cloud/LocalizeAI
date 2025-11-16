@@ -404,7 +404,7 @@ app.post('/api/quality-check', async (req, res) => {
 // Smart Batch Translate (Premium feature)
 app.post('/api/smart-translate', async (req, res) => {
   try {
-    const { texts, targetLang, glossary } = req.body;
+    const { texts, sourceLang, targetLang, glossary } = req.body;
     const apiKey = req.headers.authorization?.replace('Bearer ', '');
 
     // Check premium access
@@ -418,7 +418,7 @@ app.post('/api/smart-translate', async (req, res) => {
     }
 
     // Smart translate with context
-    const translationResults = await smartTranslateWithContext(texts, targetLang, glossary);
+    const translationResults = await smartTranslateWithContext(texts, sourceLang, targetLang, glossary);
 
     // Return full translation objects with metadata
     const translations = translationResults
@@ -1428,7 +1428,117 @@ Return ONLY a valid JSON array:
   }
 }
 
-async function smartTranslateWithContext(texts, targetLang, glossary = {}) {
+// Helper: Get language name from code
+function getLanguageName(code) {
+  const languages = {
+    'en': 'English',
+    'es': 'Spanish (Español)',
+    'fr': 'French (Français)',
+    'de': 'German (Deutsch)',
+    'it': 'Italian (Italiano)',
+    'pt': 'Portuguese (Português)',
+    'ru': 'Russian (Русский)',
+    'ja': 'Japanese (日本語)',
+    'ko': 'Korean (한국어)',
+    'zh': 'Chinese Simplified (简体中文)',
+    'zh-CN': 'Chinese Simplified (简体中文)',
+    'zh-TW': 'Chinese Traditional (繁體中文)',
+    'ar': 'Arabic (العربية)',
+    'hi': 'Hindi (हिन्दी)',
+    'vi': 'Vietnamese (Tiếng Việt)',
+    'th': 'Thai (ไทย)',
+    'tr': 'Turkish (Türkçe)',
+    'pl': 'Polish (Polski)',
+    'nl': 'Dutch (Nederlands)',
+    'sv': 'Swedish (Svenska)',
+    'da': 'Danish (Dansk)',
+    'fi': 'Finnish (Suomi)',
+    'no': 'Norwegian (Norsk)',
+    'cs': 'Czech (Čeština)',
+    'hu': 'Hungarian (Magyar)',
+    'ro': 'Romanian (Română)',
+    'uk': 'Ukrainian (Українська)',
+    'el': 'Greek (Ελληνικά)',
+    'he': 'Hebrew (עברית)',
+    'id': 'Indonesian (Bahasa Indonesia)',
+    'ms': 'Malay (Bahasa Melayu)',
+    'auto': 'Auto-detect'
+  };
+  return languages[code] || code.toUpperCase();
+}
+
+// Helper: Get translation examples for target language
+function getTranslationExamples(targetLang) {
+  const examples = {
+    'es': `- "Login" → "Iniciar sesión"
+- "Submit" → "Enviar"
+- "Cancel" → "Cancelar"
+- "Save" → "Guardar"
+- "Delete" → "Eliminar"
+- "Edit" → "Editar"
+- "Search" → "Buscar"
+- "Welcome" → "Bienvenido"
+- "Learn more" → "Más información"`,
+    'fr': `- "Login" → "Connexion"
+- "Submit" → "Soumettre"
+- "Cancel" → "Annuler"
+- "Save" → "Enregistrer"
+- "Delete" → "Supprimer"
+- "Edit" → "Modifier"
+- "Search" → "Rechercher"
+- "Welcome" → "Bienvenue"
+- "Learn more" → "En savoir plus"`,
+    'de': `- "Login" → "Anmelden"
+- "Submit" → "Absenden"
+- "Cancel" → "Abbrechen"
+- "Save" → "Speichern"
+- "Delete" → "Löschen"
+- "Edit" → "Bearbeiten"
+- "Search" → "Suchen"
+- "Welcome" → "Willkommen"
+- "Learn more" → "Mehr erfahren"`,
+    'vi': `- "Login" → "Đăng nhập"
+- "Submit" → "Gửi"
+- "Cancel" → "Hủy"
+- "Save" → "Lưu"
+- "Delete" → "Xóa"
+- "Edit" → "Sửa"
+- "Search" → "Tìm kiếm"
+- "Welcome" → "Chào mừng"
+- "Learn more" → "Tìm hiểu thêm"`,
+    'ja': `- "Login" → "ログイン"
+- "Submit" → "送信"
+- "Cancel" → "キャンセル"
+- "Save" → "保存"
+- "Delete" → "削除"
+- "Edit" → "編集"
+- "Search" → "検索"
+- "Welcome" → "ようこそ"
+- "Learn more" → "詳細を見る"`,
+    'zh': `- "Login" → "登录"
+- "Submit" → "提交"
+- "Cancel" → "取消"
+- "Save" → "保存"
+- "Delete" → "删除"
+- "Edit" → "编辑"
+- "Search" → "搜索"
+- "Welcome" → "欢迎"
+- "Learn more" → "了解更多"`,
+    'ko': `- "Login" → "로그인"
+- "Submit" → "제출"
+- "Cancel" → "취소"
+- "Save" → "저장"
+- "Delete" → "삭제"
+- "Edit" → "편집"
+- "Search" → "검색"
+- "Welcome" → "환영합니다"
+- "Learn more" → "자세히 알아보기"`
+  };
+  
+  return examples[targetLang] || examples['es']; // Default to Spanish examples
+}
+
+async function smartTranslateWithContext(texts, sourceLang, targetLang, glossary = {}) {
   try {
     const { VertexAI } = require('@google-cloud/vertexai');
     const vertexAI = new VertexAI({ 
@@ -1449,39 +1559,75 @@ async function smartTranslateWithContext(texts, targetLang, glossary = {}) {
       ? `\n\nGlossary (use these exact translations):\n${Object.entries(glossary).map(([k, v]) => `"${k}" → "${v}"`).join('\n')}`
       : '';
 
-    const prompt = `You are a professional UI/UX localization expert. Translate these UI elements to ${targetLang}.
+    // Determine source language for prompt
+    const sourceLanguageText = sourceLang && sourceLang !== 'auto' 
+      ? `from ${getLanguageName(sourceLang)} ` 
+      : '';
+    
+    const targetLanguageName = getLanguageName(targetLang);
 
-IMPORTANT: These are UI elements from the SAME web page. You must maintain consistency across all translations.
+    const prompt = `You are a professional translator. Your task is to translate UI text ${sourceLanguageText}to ${targetLanguageName}.
 
-Elements to translate:
+SOURCE LANGUAGE: ${sourceLang || 'auto-detect'}
+TARGET LANGUAGE: ${targetLang}
+
+UI ELEMENTS TO TRANSLATE:
 ${textList}${glossaryText}
 
-CRITICAL REQUIREMENTS:
-1. **Consistency**: If the same word appears multiple times (e.g., "Login"), translate it the SAME way every time
-2. **Element-aware**: 
-   - Buttons/links: Very short (1-3 words max)
-   - Labels: Concise (2-5 words)
-   - Paragraphs: Natural and readable
-3. **Length control**: Translated text should be ≤150% of original length to avoid UI overflow
-4. **Formality**: Use appropriate formality for UI (usually semi-formal)
-5. **Preserve**: Keep HTML entities, numbers, special characters unchanged
-6. **Natural**: Sound like a native speaker wrote it, not a machine
+TRANSLATION RULES:
+1. ⚠️ CRITICAL: You MUST translate EVERY text to ${targetLanguageName}. NEVER return the original English text.
+2. ⚠️ If a text is already in ${targetLanguageName}, still include it in the output (keep it as-is).
+3. Keep translations SHORT and NATURAL for UI context:
+   - Buttons: 1-3 words maximum
+   - Links: 2-4 words maximum  
+   - Labels: 2-5 words maximum
+   - Paragraphs: Natural sentences
+4. Maintain CONSISTENCY: Same word = same translation throughout
+5. Preserve: Numbers, HTML entities, special characters, brand names
+6. Use appropriate formality level for UI (semi-formal)
 
-EXAMPLES (for Vietnamese):
-- button "Login" → "Đăng nhập" (NOT "Đăng nhập vào hệ thống")
-- button "Submit" → "Gửi" (NOT "Gửi đi")
-- link "Learn more" → "Tìm hiểu thêm"
-- p "Welcome to our platform" → "Chào mừng bạn đến với nền tảng của chúng tôi"
+TRANSLATION EXAMPLES FOR ${targetLanguageName}:
+${getTranslationExamples(targetLang)}
 
-Return ONLY a valid JSON array with this exact format (no markdown, no explanation):
+OUTPUT FORMAT:
+Return ONLY a valid JSON array. No markdown, no code blocks, no explanations.
+Each object must have: index, original, translated
+
+Example output:
 [
-  {"index": 0, "original": "Login", "translated": "Đăng nhập"},
-  {"index": 1, "original": "Submit", "translated": "Gửi"}
-]`;
+  {"index": 0, "original": "Login", "translated": "Iniciar sesión"},
+  {"index": 1, "original": "Submit", "translated": "Enviar"},
+  {"index": 2, "original": "Welcome", "translated": "Bienvenido"}
+]
+
+NOW TRANSLATE ALL ${texts.length} ELEMENTS TO ${targetLanguageName}:`;
+
+    console.log('[SmartTranslate] Translating', texts.length, 'texts from', sourceLang || 'auto', 'to', targetLang);
+    console.log('[SmartTranslate] First 3 texts:', texts.slice(0, 3).map(t => t.text));
 
     const result = await model.generateContent(prompt);
     const response = result.response;
-    const text = response.text().trim();
+    
+    // Get text from response - handle different SDK versions
+    let text;
+    if (typeof response.text === 'function') {
+      text = response.text().trim();
+    } else if (response.candidates && response.candidates[0]) {
+      // Fallback for different SDK version
+      const candidate = response.candidates[0];
+      if (candidate.content && candidate.content.parts) {
+        text = candidate.content.parts.map(part => part.text).join('').trim();
+      } else {
+        console.error('[SmartTranslate] Unable to extract text from candidate:', JSON.stringify(candidate, null, 2));
+        throw new Error('Unable to extract text from AI response');
+      }
+    } else {
+      console.error('[SmartTranslate] Invalid response format:', JSON.stringify(response, null, 2));
+      throw new Error('Invalid AI response format');
+    }
+    
+    console.log('[SmartTranslate] AI response length:', text.length);
+    console.log('[SmartTranslate] AI response preview:', text.substring(0, 500));
     
     // Parse JSON response
     let jsonMatch = text.match(/\[[\s\S]*\]/);
@@ -1494,31 +1640,46 @@ Return ONLY a valid JSON array with this exact format (no markdown, no explanati
     
     if (jsonMatch) {
       const translations = JSON.parse(jsonMatch[0]);
+      console.log('[SmartTranslate] Parsed', translations.length, 'translations');
+      console.log('[SmartTranslate] First 3 translations:', translations.slice(0, 3));
+      
+      // Check if AI actually translated (not just returning original)
+      const notTranslatedCount = translations.filter(t => {
+        const original = texts[t.index]?.text || '';
+        return t.translated === original;
+      }).length;
+      
+      const notTranslatedPercent = (notTranslatedCount / translations.length) * 100;
+      console.log('[SmartTranslate] Not translated:', notTranslatedCount, '/', translations.length, `(${notTranslatedPercent.toFixed(1)}%)`);
+      
+      if (notTranslatedPercent > 80) {
+        console.warn('[SmartTranslate] AI did not translate (>80% same as original)');
+      }
+      
       return translations.filter(t => t.translated);
     }
     
-    // Fallback: use Google Translate
-    console.log('AI translation failed, falling back to Google Translate');
-    return await fallbackTranslate(texts, targetLang);
+    console.error('[SmartTranslate] Failed to parse JSON from AI response');
+    
+    // Return original texts if AI fails
+    return texts.map((text, index) => ({
+      index,
+      original: text.text || text,
+      translated: text.text || text
+    }));
   } catch (error) {
     console.error('Smart translate error:', error);
     
-    // Fallback to Google Translate
-    return await fallbackTranslate(texts, targetLang);
+    // Return original texts if AI fails
+    return texts.map((text, index) => ({
+      index,
+      original: text.text || text,
+      translated: text.text || text
+    }));
   }
 }
 
-// ⚠️ REMOVED: Fallback translation removed - use client-side translation instead
-// This function is no longer needed as translation runs on client-side
-async function fallbackTranslate(texts, targetLang) {
-  console.warn('[DEPRECATED] fallbackTranslate called - translation should run client-side');
-  // Return original texts - client should handle translation
-  return texts.map((text, index) => ({
-    index,
-    original: text.text || text,
-    translated: text.text || text
-  }));
-}
+
 
 async function verifyGoogleToken(token) {
   try {

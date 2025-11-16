@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Nola funtzionatzen duen: • Jatorrizko testuaren eta itzulitakoaren artean txandakatu • Itzulpenak cachean gordetzen dira aldaketa azkarra ahalbidetzeko • Orrialdeko testu guztiarekin funtzionatzen du • Garbitu cachea berriro itzultzeko",
+    "message": "Nola funtzionatzen duen:\n• Jatorrizko testuaren eta itzulitakoaren artean txandakatu\n• Itzulpenak cachean gordetzen dira aldaketa azkarra ahalbidetzeko\n• Orrialdeko testu guztiarekin funtzionatzen du\n• Garbitu cachea berriro itzultzeko",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Nola funtzionatzen duen: • Karaktereak azentudun bertsioekin ordezkatzen ditu • % 30-40ko luzera-hedapena gehitzen du • Testua [!!!... !!!] markatzaileetan biltzen du • Adibidea: \"Ezarpenak\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Nola funtzionatzen duen:\n• Karaktereak azentudun bertsioekin ordezkatzen ditu\n• % 30-40ko luzera-hedapena gehitzen du\n• Testua [!!!... !!!] markatzaileetan biltzen du\n• Adibidea: \"Ezarpenak\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Nola funtzionatzen duen: • Egin klik edozein testu-elementu editatzeko • Aldaketak denbora errealean jarraitzen dira • Esportatu edizioak JSON edo Excel gisa • Sakatu Ctrl+E aldaketak esportatzeko",
+    "message": "Nola funtzionatzen duen:\n• Egin klik edozein testu-elementu editatzeko\n• Aldaketak denbora errealean jarraitzen dira\n• Esportatu edizioak JSON edo Excel gisa\n• Sakatu Ctrl+E aldaketak esportatzeko",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Ezaugarri Premiumak: • Adimen Artifizialaren bidezko testuinguruaren araberako itzulpena • Orrialde osoak multzoka itzuli • Itzulpenen kalitate-egiaztapena • Hizkuntza naturaleko iradokizunak",
+    "message": "Ezaugarri Premiumak:\n• Adimen Artifizialaren bidezko testuinguruaren araberako itzulpena\n• Orrialde osoak multzoka itzuli\n• Itzulpenen kalitate-egiaztapena\n• Hizkuntza naturaleko iradokizunak",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Nola funtzionatzen duen: • JSON hizkuntza fitxategiak igo • Helburu hizkuntzak hautatu • Google edo AI erabiliz itzuli • Itzulitako fitxategiak deskargatu",
+    "message": "Nola funtzionatzen duen:\n• JSON hizkuntza fitxategiak igo\n• Helburu hizkuntzak hautatu\n• Google edo AI erabiliz itzuli\n• Itzulitako fitxategiak deskargatu",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Nola funtzionatzen duen: • Egin klik testu elementuetan arazoak salatzeko • Gehitu deskribapenak eta larritasuna • Esportatu txostenak Excel edo JSON formatuan • Sinkronizatu Google Drive-rekin",
+    "message": "Nola funtzionatzen duen:\n• Egin klik testu elementuetan arazoak salatzeko\n• Gehitu deskribapenak eta larritasuna\n• Esportatu txostenak Excel edo JSON formatuan\n• Sinkronizatu Google Drive-rekin",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Mesedez, hasi saioa AI itzulpena erabiltzeko",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Onena zentzuzko tamaina duten fitxategietarako.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kalitate Kontrolaren Txostena",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Tolestu alboko barra",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Egin klik zabaltzeko",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Kendu Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Zuzeneko edizio modua aktiboa: esteka eta botoi guztiak blokeatuta daude. Egin klik testuan editatzeko.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Utzi salaketa egitea",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "testuak",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Oraingoa",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Iradokitakoa",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplikatu konponketa",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplikatu guztiak",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplikatua",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ konponketak aplikatu dira",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinkronizatu Drive-tik",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Uneko Orria",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Jatorrizko testua erakusten",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Sasi-lokalizazioa aplikatzen...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Zuzeneko edizio modua aldatzen...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Akatsen berri emateko modua aldatzen...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON itzultzailea irekitzen...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Itzulpen-bezeroa ez da hasieratu",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Mesedez, hautatu testua orrialdeko lehenik",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ezin izan da kalitate-egiaztapena exekutatu. Mesedez, freskatu orria.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ezin izan da itzulpena hasi. Mesedez, freskatu orria.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ezin izan dira orrialdetik txostenak lortu. Mesedez, freskatu.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive sinkronizazio zerbitzua ez dago erabilgarri",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinkronizazioak huts egin du: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ezin izan da orrialdearekin komunikatu. Saiatu freskatzen.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ezin izan dira akatsen xehetasunak erakutsi. Mesedez, freskatu orria.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ezin izan da esportatu Excel-era. Mesedez, saiatu berriro.",
+    "description": "Error when Excel export fails"
   }
 }

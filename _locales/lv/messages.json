@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kā tas darbojas: • Pārslēgties starp oriģinālo un tulkoto tekstu • Tulkojumi tiek saglabāti kešatmiņā, lai varētu ātri pārslēgties • Darbojas ar visu lapas tekstu • Notīrīt kešatmiņu, lai atkārtoti tulkotu",
+    "message": "Kā tas darbojas:\n• Pārslēgties starp oriģinālo un tulkoto tekstu\n• Tulkojumi tiek saglabāti kešatmiņā, lai varētu ātri pārslēgties\n• Darbojas ar visu lapas tekstu\n• Notīrīt kešatmiņu, lai atkārtoti tulkotu",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kā tas darbojas: • Aizvieto rakstzīmes ar diakritiskajām rakstzīmēm • Pievieno 30–40 % garuma paplašinājumu • Aptin tekstu ar [!!!... !!!] marķieriem • Piemērs: \"Iestatījumi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Kā tas darbojas:\n• Aizvieto rakstzīmes ar diakritiskajām rakstzīmēm\n• Pievieno 30–40 % garuma paplašinājumu\n• Aptin tekstu ar [!!!... !!!] marķieriem\n• Piemērs: \"Iestatījumi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kā tas darbojas: • Noklikšķiniet uz jebkura teksta elementa, lai to rediģētu • Izmaiņas tiek izsekotas reāllaikā • Eksportējiet labojumus JSON vai Excel formātā • Nospiediet taustiņu kombināciju Ctrl+E, lai eksportētu izmaiņas",
+    "message": "Kā tas darbojas:\n• Noklikšķiniet uz jebkura teksta elementa, lai to rediģētu\n• Izmaiņas tiek izsekotas reāllaikā\n• Eksportējiet labojumus JSON vai Excel formātā\n• Nospiediet taustiņu kombināciju Ctrl+E, lai eksportētu izmaiņas",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kā tas darbojas: • JSON valodas failu augšupielāde • Mērķa valodu atlasīšana • Tulkošana, izmantojot Google vai mākslīgo intelektu • Tulkoto failu lejupielāde",
+    "message": "Kā tas darbojas:\n• JSON valodas failu augšupielāde\n• Mērķa valodu atlasīšana\n• Tulkošana, izmantojot Google vai mākslīgo intelektu\n• Tulkoto failu lejupielāde",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kā tas darbojas: • Noklikšķiniet uz teksta elementiem, lai ziņotu par problēmām • Pievienojiet aprakstus un to nopietnību • Eksportējiet ziņojumus uz Excel vai JSON • Sinhronizējiet ar Google disku",
+    "message": "Kā tas darbojas:\n• Noklikšķiniet uz teksta elementiem, lai ziņotu par problēmām\n• Pievienojiet aprakstus un to nopietnību\n• Eksportējiet ziņojumus uz Excel vai JSON\n• Sinhronizējiet ar Google disku",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Lūdzu, pierakstieties, lai izmantotu AI tulkojumu",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Vispiemērotākais failiem ar saprātīgu izmēru.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kvalitātes pārbaudes ziņojums",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sakļaut sānjoslu",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Noklikšķiniet, lai izvērstu",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Noņemiet Pseido-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Tiešraides rediģēšanas režīms ir aktīvs: visas saites un pogas ir bloķētas. Noklikšķiniet uz teksta, lai rediģētu.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Pārtraukt ziņošanu",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekstiem",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Pašreizējais",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Ieteikts",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Lietot labojumu",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Lietot visu",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Pielietots",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Lietoti $COUNT$ labojumi",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinhronizēt no Diska",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Pašreizējā lapa",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Tiek rādīts oriģinālais teksts",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Notiek pseidolokalizācijas lietošana...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Notiek reāllaika rediģēšanas režīma pārslēgšana...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Notiek kļūdu ziņošanas režīma pārslēgšana...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Notiek JSON tulkotāja atvēršana...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Tulkošanas klients nav inicializēts",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Lūdzu, vispirms atlasiet tekstu lapā",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nevarēja palaist kvalitātes pārbaudi. Lūdzu, atsvaidziniet lapu.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Nevarēja sākt tulkošanu. Lūdzu, atsvaidziniet lapu.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nevarēja iegūt pārskatus no lapas. Lūdzu, atsvaidziniet.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Diska sinhronizācijas pakalpojums nav pieejams",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinhronizācija neizdevās: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Neizdevās sazināties ar lapu. Mēģiniet atsvaidzināt.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Nevarēja parādīt informāciju par kļūdu. Lūdzu, atsvaidziniet lapu.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Neizdevās eksportēt uz Excel. Lūdzu, mēģiniet vēlreiz.",
+    "description": "Error when Excel export fails"
   }
 }

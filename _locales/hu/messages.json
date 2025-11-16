@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Hogyan működik: • Váltás az eredeti és a fordított szöveg között • A fordítások gyorsítótárazva vannak a gyors váltás érdekében • Az oldalon található összes szöveggel működik • A gyorsítótár törlése az újrafordításhoz",
+    "message": "Hogyan működik:\n• Váltás az eredeti és a fordított szöveg között\n• A fordítások gyorsítótárazva vannak a gyors váltás érdekében\n• Az oldalon található összes szöveggel működik\n• A gyorsítótár törlése az újrafordításhoz",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Hogyan működik: • Ékezetes karaktereket cserél le • 30-40%-os hosszbővítést ad hozzá • A szöveget [!!!... !!!] jelölők közé töri • Példa: \"Beállítások\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Hogyan működik:\n• Ékezetes karaktereket cserél le\n• 30-40%-os hosszbővítést ad hozzá\n• A szöveget [!!!... !!!] jelölők közé töri\n• Példa: \"Beállítások\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Prémium funkciók: • Mesterséges intelligencia által vezérelt, kontextus-érzékeny fordítás • Teljes oldalak kötegelt fordítása • Fordítások minőségellenőrzése • Természetes nyelvi javaslatok",
+    "message": "Prémium funkciók:\n• Mesterséges intelligencia által vezérelt, kontextus-érzékeny fordítás\n• Teljes oldalak kötegelt fordítása\n• Fordítások minőségellenőrzése\n• Természetes nyelvi javaslatok",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Hogyan működik: • JSON nyelvi fájlok feltöltése • Célnyelvek kiválasztása • Fordítás Google-lel vagy mesterséges intelligenciával • Lefordított fájlok letöltése",
+    "message": "Hogyan működik:\n• JSON nyelvi fájlok feltöltése\n• Célnyelvek kiválasztása\n• Fordítás Google-lel vagy mesterséges intelligenciával\n• Lefordított fájlok letöltése",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -1297,6 +1297,10 @@
     "message": "Jelentkezzen be az AI fordítás használatához",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "A legjobb ésszerű méretű fájlokhoz.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Minőség-ellenőrzési jelentés",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Oldalsáv összecsukása",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kattintson a kibontáshoz",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Távolítsa el a Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Élő szerkesztés mód aktív: Minden hivatkozás és gomb le van tiltva. Kattintson a szövegre a szerkesztéshez.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Állítsa le a jelentést",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "szövegek",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Jelenlegi",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Javasolt",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Javítás alkalmazása",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Az összes alkalmazása",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Alkalmazott",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ javítást alkalmazva",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Szinkronizálás a Drive-ról",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Aktuális oldal",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Eredeti szöveg megjelenítése",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pszeudolokalizáció alkalmazása...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Élő szerkesztés mód váltása...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Hibajelentési mód váltása...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON-fordító megnyitása...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "A fordítókliens nincs inicializálva",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Kérjük, először válassza ki a szöveget az oldalon",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nem sikerült lefuttatni a minőségellenőrzést. Kérjük, frissítse az oldalt.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Nem sikerült elindítani a fordítást. Kérjük, frissítse az oldalt.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nem sikerült lekérni a jelentéseket az oldalról. Kérjük, frissítse.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "A meghajtószinkronizálási szolgáltatás nem érhető el",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "A szinkronizálás sikertelen: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Nem sikerült kommunikálni az oldallal. Próbálja meg frissíteni.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Nem sikerült megjeleníteni a hiba részleteit. Kérjük, frissítse az oldalt.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Nem sikerült exportálni Excelbe. Kérjük, próbálja újra.",
+    "description": "Error when Excel export fails"
   }
 }

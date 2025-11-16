@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Ingaba isebenza kanjani: • Guqula phakathi kombhalo wokuqala kunye noguquliweyo • Iinguqulelo zigcinelwe ukutshintshwa ngokukhawuleza • Isebenza ngawo onke amagama ephepha • Cima i-cache ukuze uguqulelwe kwakhona",
+    "message": "Ingaba isebenza kanjani:\n• Guqula phakathi kombhalo wokuqala kunye noguquliweyo\n• Iinguqulelo zigcinelwe ukutshintshwa ngokukhawuleza\n• Isebenza ngawo onke amagama ephepha\n• Cima i-cache ukuze uguqulelwe kwakhona",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Ingaba isebenza kanjani: • Beka endaweni yoonobumba ngeenguqulelo ze-accented • Yongeza ubude be-30-40%. • Usonga isicatshulwa kwi [!!!... !!!] abamakishi • Umzekelo: \"Iisetingi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Ingaba isebenza kanjani:\n• Beka endaweni yoonobumba ngeenguqulelo ze-accented\n• Yongeza ubude be-30-40%.\n• Usonga isicatshulwa kwi [!!!... !!!] abamakishi\n• Umzekelo: \"Iisetingi\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Ingaba isebenza kanjani: • Cofa nayiphi na into yokubhaliweyo ukuyihlela • Utshintsho lulandelelwa ngexesha lokwenyani • Thumela ukuhlelwa ngaphandle njenge-JSON okanye i-Excel • Cofa u-Ctrl+E ukuthumela utshintsho ngaphandle",
+    "message": "Ingaba isebenza kanjani:\n• Cofa nayiphi na into yokubhaliweyo ukuyihlela\n• Utshintsho lulandelelwa ngexesha lokwenyani\n• Thumela ukuhlelwa ngaphandle njenge-JSON okanye i-Excel\n• Cofa u-Ctrl+E ukuthumela utshintsho ngaphandle",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Iimpawu eziphambili: • Uguqulo lokuqonda umxholo olunikwe amandla nge-AI • Ibhetshi iguqulela onke amaphepha • Ukukhangela umgangatho weenguqulelo • Iingcebiso ngolwimi lwendalo",
+    "message": "Iimpawu eziphambili:\n• Uguqulo lokuqonda umxholo olunikwe amandla nge-AI\n• Ibhetshi iguqulela onke amaphepha\n• Ukukhangela umgangatho weenguqulelo\n• Iingcebiso ngolwimi lwendalo",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Ingaba isebenza kanjani: • Layisha iifayile zolwimi lwe-JSON • Khetha iilwimi ekujoliswe kuzo • Guqulela ngoGoogle okanye ngeAI • Khuphela iifayile eziguqulelweyo",
+    "message": "Ingaba isebenza kanjani:\n• Layisha iifayile zolwimi lwe-JSON\n• Khetha iilwimi ekujoliswe kuzo\n• Guqulela ngoGoogle okanye ngeAI\n• Khuphela iifayile eziguqulelweyo",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Ingaba isebenza kanjani: • Cofa izinto ezibhaliweyo ukuxela imiba • Yongeza iinkcazelo kunye nobungqongqo • Thumela iingxelo ku-Excel okanye kwi-JSON • Ngqamanisa ne-Google Drive",
+    "message": "Ingaba isebenza kanjani:\n• Cofa izinto ezibhaliweyo ukuxela imiba\n• Yongeza iinkcazelo kunye nobungqongqo\n• Thumela iingxelo ku-Excel okanye kwi-JSON\n• Ngqamanisa ne-Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Nceda ungene ungene ukuze usebenzise uguqulelo lwe-AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Eyona nto ilungele iifayile ngobukhulu obufanelekileyo.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Ingxelo yokujonga esemgangathweni",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Ukuwa ecaleni kwecala",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Cofa ukuze wandise",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Susa i-pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Imodi yokuhlela esebenzayo: Onke amakhonkco kunye namaqhosha avaliweyo. Cofa kwisicatshulwa ozahlela.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Yeka ingxelo",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Izicatshulwa",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Okwangoku",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Iphakanyisiwe",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Faka isicelo",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Faka isicelo",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Isetyenzisiwe",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Faka isicelo se- $",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Vumelanisa kwi-drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Iphepha langoku",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Ibonisa isicatshulwa sasekuqaleni",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "UKUSETYENZISWA KOMSEBENZI WOKUFAKA IXESHA LOKUGQIBELA ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Imowudi yokuthintela i-Totggy ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Imowudi yeNgxelo yeBug",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Ukuvula uMguquleli weJSON ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Umxhasi wokuguqulela akaqalanga",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Nceda ukhethe itekisi kwiphepha lokuqala",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ayikwazanga ukuqhuba ukujonga umgangatho. Nceda uhlaziye iphepha.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ayikwazanga ukuqalisa ukuguqulela. Nceda uhlaziye iphepha.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ayikwazanga ukufumana iingxelo ezivela kwiphepha. Nceda uhlaziye.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Inkonzo yokuvumelanisa i-Sync ayifumaneki",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "I-Sync ayiphumelelanga: $ Impazamo $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ayiphumelelanga ukunxibelelana nephepha. Zama ukuhlaziya.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ayikwazanga ukubonisa iinkcukacha zebug. Nceda uhlaziye iphepha.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ayiphumelelanga ukuthumela kwelinye ilizwe ukuba iphumelele. Nceda zama kwakhona.",
+    "description": "Error when Excel export fails"
   }
 }

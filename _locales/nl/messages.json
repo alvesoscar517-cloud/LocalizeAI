@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Hoe het werkt: • Schakel tussen originele en vertaalde tekst • Vertalingen worden in de cache opgeslagen voor snelle omschakeling • Werkt met alle tekst op de pagina • Wis de cache om opnieuw te vertalen",
+    "message": "Hoe het werkt:\n• Schakel tussen originele en vertaalde tekst\n• Vertalingen worden in de cache opgeslagen voor snelle omschakeling\n• Werkt met alle tekst op de pagina\n• Wis de cache om opnieuw te vertalen",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Hoe het werkt: • Vervangt tekens door geaccentueerde versies • Voegt 30-40% lengte-uitbreiding toe • Plaatst tekst tussen [!!!... !!!] markeringen • Voorbeeld: \"Instellingen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Hoe het werkt:\n• Vervangt tekens door geaccentueerde versies\n• Voegt 30-40% lengte-uitbreiding toe\n• Plaatst tekst tussen [!!!... !!!] markeringen\n• Voorbeeld: \"Instellingen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Hoe het werkt: • Klik op een tekstelement om het te bewerken • Wijzigingen worden in realtime bijgehouden • Exporteer bewerkingen als JSON of Excel • Druk op Ctrl+E om wijzigingen te exporteren",
+    "message": "Hoe het werkt:\n• Klik op een tekstelement om het te bewerken\n• Wijzigingen worden in realtime bijgehouden\n• Exporteer bewerkingen als JSON of Excel\n• Druk op Ctrl+E om wijzigingen te exporteren",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Premiumfuncties: • Contextbewuste vertaling op basis van AI • Volledige pagina's batchgewijs vertalen • Kwaliteitscontrole voor vertalingen • Suggesties voor natuurlijke taal",
+    "message": "Premiumfuncties:\n• Contextbewuste vertaling op basis van AI\n• Volledige pagina's batchgewijs vertalen\n• Kwaliteitscontrole voor vertalingen\n• Suggesties voor natuurlijke taal",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Hoe het werkt: • Klik op tekstelementen om problemen te melden • Voeg beschrijvingen en ernst toe • Exporteer rapporten naar Excel of JSON • Synchroniseer met Google Drive",
+    "message": "Hoe het werkt:\n• Klik op tekstelementen om problemen te melden\n• Voeg beschrijvingen en ernst toe\n• Exporteer rapporten naar Excel of JSON\n• Synchroniseer met Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Log in om AI-vertaling te gebruiken",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Het beste voor bestanden met een redelijke grootte.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kwaliteitscontrolerapport",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Zijbalk samenvouwen",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klik om uit te vouwen",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Verwijder Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit-modus Actief: Alle links en knoppen zijn geblokkeerd. Klik op de tekst om te bewerken.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Stop met rapporteren",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "teksten",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Huidig",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Voorgesteld",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Correctie toepassen",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Alles toepassen",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Toegepast",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$-oplossingen toegepast",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synchroniseren vanuit Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Huidige pagina",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Originele tekst weergeven",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudo-lokalisatie toepassen...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Live bewerkingsmodus omschakelen...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Bugrapportmodus omschakelen...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON-vertaler openen...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Vertaalclient niet geïnitialiseerd",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Selecteer eerst de tekst op de pagina",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kan de kwaliteitscontrole niet uitvoeren. Vernieuw de pagina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Kan de vertaling niet starten. Vernieuw de pagina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Kan geen rapporten van de pagina ophalen. Vernieuw alstublieft.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive-synchronisatieservice niet beschikbaar",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synchronisatie mislukt: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Kan niet communiceren met de pagina. Probeer te vernieuwen.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Kon de bugdetails niet tonen. Vernieuw de pagina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Kan niet exporteren naar Excel. Probeer het opnieuw.",
+    "description": "Error when Excel export fails"
   }
 }

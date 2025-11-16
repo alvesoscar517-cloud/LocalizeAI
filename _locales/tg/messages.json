@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Чӣ тавр он кор мекунад: • Гузариш байни матни аслӣ ва тарҷумашуда • Тарҷумаҳо барои гузариш зуд кэш карда мешаванд • Бо тамоми матни саҳифа кор мекунад • Тоза кардани кэш барои дубора тарҷума кардан",
+    "message": "Чӣ тавр он кор мекунад:\n• Гузариш байни матни аслӣ ва тарҷумашуда\n• Тарҷумаҳо барои гузариш зуд кэш карда мешаванд\n• Бо тамоми матни саҳифа кор мекунад\n• Тоза кардани кэш барои дубора тарҷума кардан",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Чӣ тавр он кор мекунад: • Аломатҳоро бо версияҳои аксентӣ иваз мекунад • 30-40% дарозии дарозро илова мекунад • Матнро дар [!!!... !!!] нишонгузорҳо • Мисол: \"Танзимот\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Чӣ тавр он кор мекунад:\n• Аломатҳоро бо версияҳои аксентӣ иваз мекунад\n• 30-40% дарозии дарозро илова мекунад\n• Матнро дар [!!!... !!!] нишонгузорҳо\n• Мисол: \"Танзимот\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Чӣ тавр он кор мекунад: • Барои таҳрир кардани он ягон унсури матниро клик кунед • Тағйирот дар вақти воқеӣ пайгирӣ карда мешаванд • Таҳрирҳоро ҳамчун JSON ё Excel содир кунед • Барои содироти тағирот Ctrl+E -ро пахш кунед",
+    "message": "Чӣ тавр он кор мекунад:\n• Барои таҳрир кардани он ягон унсури матниро клик кунед\n• Тағйирот дар вақти воқеӣ пайгирӣ карда мешаванд\n• Таҳрирҳоро ҳамчун JSON ё Excel содир кунед\n• Барои содироти тағирот Ctrl+E -ро пахш кунед",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Чӣ тавр он кор мекунад: • Файлҳои забони JSON-ро бор кунед • Забонҳои мавриди ҳадафро интихоб кунед • Бо Google ё AI тарҷума кунед • Файлҳои тарҷумашударо зеркашӣ кунед",
+    "message": "Чӣ тавр он кор мекунад:\n• Файлҳои забони JSON-ро бор кунед\n• Забонҳои мавриди ҳадафро интихоб кунед\n• Бо Google ё AI тарҷума кунед\n• Файлҳои тарҷумашударо зеркашӣ кунед",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Чӣ тавр он кор мекунад: • Барои гузориш додани мушкилот, унсурҳои матнро клик кунед • Илова кардани тавсиф ва шиддат • Ҳисоботҳоро ба Excel ё JSON содир кунед • Ҳамоҳангсозӣ бо Google Drive",
+    "message": "Чӣ тавр он кор мекунад:\n• Барои гузориш додани мушкилот, унсурҳои матнро клик кунед\n• Илова кардани тавсиф ва шиддат\n• Ҳисоботҳоро ба Excel ё JSON содир кунед\n• Ҳамоҳангсозӣ бо Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Лутфан барои истифодаи тарҷумаи AI ворид шавед",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Беҳтарин барои файлҳо бо андозаи оқилона.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Ҳисоботи санҷиши сифат",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Пайвасти паҳлӯ",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Барои васеъ кардани васеъ клик кунед",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "PSEDO-LOP",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Таҳрири Live Edition фаъол: Ҳама пайвандҳо ва тугмаҳо баста мешаванд. Барои таҳрир кардани матн клик кунед.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Ҳисоботро бас кунед",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "матнҳо",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Ҷорӣ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Пешниҳод кард",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Таъсирро истифода баред",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Ҳамаашро татбиқ кунед",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Татбиқ карда мешавад",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Action $ states",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Ҳамоҳангсозӣ аз диски",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Саҳифаи ҷорӣ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Нишон додани матни аслӣ",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Истифодабарии маҳаллигардонии псевдо ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Ҳолати таҳриркунии Live World ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Табдил додани ҳолати гузоришҳои хатогӣ ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Кушодани тарҷумони Ҷсон ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Мизоҷи тарҷума оғоз ёфт",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Лутфан аввал матнро дар сафҳа интихоб кунед",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Санҷиши сифатро идора карда наметавонист. Лутфан саҳифаро тароват кунед.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Тарҷумаро оғоз накард. Лутфан саҳифаро тароват кунед.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ҳисоботро аз саҳифа гирифта наметавонист. Лутфан тароват гиред.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Хидмати ҳамоҳангсозӣ дастрас нест",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Ҳамоҳангсозӣ ноком: $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Муошират бо саҳифа. Санҷед.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Тафсилоти ишқро нишон дода натавонист. Лутфан саҳифаро тароват кунед.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Натавонист содирот ба Excel. Лутфан бори дигар кӯшиш кунед.",
+    "description": "Error when Excel export fails"
   }
 }

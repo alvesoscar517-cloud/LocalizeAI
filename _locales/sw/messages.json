@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Jinsi inavyofanya kazi: • Geuza kati ya maandishi asilia na yaliyotafsiriwa • Tafsiri zimehifadhiwa kwa ajili ya kubadili haraka • Hufanya kazi na maandishi yote kwenye ukurasa • Futa akiba ili kutafsiri upya",
+    "message": "Jinsi inavyofanya kazi:\n• Geuza kati ya maandishi asilia na yaliyotafsiriwa\n• Tafsiri zimehifadhiwa kwa ajili ya kubadili haraka\n• Hufanya kazi na maandishi yote kwenye ukurasa\n• Futa akiba ili kutafsiri upya",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Jinsi inavyofanya kazi: • Hubadilisha herufi na matoleo yenye lafudhi • Huongeza upanuzi wa urefu wa 30-40%. • Hufunga maandishi kwa [!!!... !!!] alama • Mfano: \"Mipangilio\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Jinsi inavyofanya kazi:\n• Hubadilisha herufi na matoleo yenye lafudhi\n• Huongeza upanuzi wa urefu wa 30-40%.\n• Hufunga maandishi kwa [!!!... !!!] alama\n• Mfano: \"Mipangilio\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Jinsi inavyofanya kazi: • Bofya kipengele chochote cha maandishi ili kuhariri • Mabadiliko yanafuatiliwa katika muda halisi • Hamisha mabadiliko kama JSON au Excel • Bonyeza Ctrl+E ili kuhamisha mabadiliko",
+    "message": "Jinsi inavyofanya kazi:\n• Bofya kipengele chochote cha maandishi ili kuhariri\n• Mabadiliko yanafuatiliwa katika muda halisi\n• Hamisha mabadiliko kama JSON au Excel\n• Bonyeza Ctrl+E ili kuhamisha mabadiliko",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Vipengele vya Kulipiwa: • Tafsiri inayozingatia muktadha inayoendeshwa na AI • Kundi kutafsiri kurasa nzima • Angalia ubora wa tafsiri • Mapendekezo ya lugha asilia",
+    "message": "Vipengele vya Kulipiwa:\n• Tafsiri inayozingatia muktadha inayoendeshwa na AI\n• Kundi kutafsiri kurasa nzima\n• Angalia ubora wa tafsiri\n• Mapendekezo ya lugha asilia",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Jinsi inavyofanya kazi: • Pakia faili za lugha za JSON • Chagua lugha lengwa • Tafsiri ukitumia Google au AI • Pakua faili zilizotafsiriwa",
+    "message": "Jinsi inavyofanya kazi:\n• Pakia faili za lugha za JSON\n• Chagua lugha lengwa\n• Tafsiri ukitumia Google au AI\n• Pakua faili zilizotafsiriwa",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Jinsi inavyofanya kazi: • Bofya vipengele vya maandishi ili kuripoti matatizo • Ongeza maelezo na ukali • Hamisha ripoti kwa Excel au JSON • Sawazisha na Hifadhi ya Google",
+    "message": "Jinsi inavyofanya kazi:\n• Bofya vipengele vya maandishi ili kuripoti matatizo\n• Ongeza maelezo na ukali\n• Hamisha ripoti kwa Excel au JSON\n• Sawazisha na Hifadhi ya Google",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Tafadhali ingia ili utumie tafsiri ya AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Bora kwa faili zilizo na saizi nzuri.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Ripoti ya ukaguzi wa ubora",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Kuanguka kwa pembeni",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Bonyeza kupanua",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Ondoa pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Njia ya hariri ya moja kwa moja inayotumika: Viungo vyote na vifungo vimezuiwa. Bonyeza kwa maandishi kuhariri.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Acha kuripoti",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Maandishi",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Sasa",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Alipendekeza",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Omba fix",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Tumia yote",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Kutumika",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Kutumika $ hesabu $ fixes",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Kusawazisha kutoka kwa gari",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Ukurasa wa sasa",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Kuonyesha maandishi ya asili",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Kutumia ujanibishaji wa ujamaa ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Kuingiza hali ya hariri ya moja kwa moja ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Njia ya ripoti ya mdudu ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Ufunguzi wa JSON ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Mteja wa tafsiri hakuanzishwa",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Tafadhali chagua maandishi kwenye ukurasa kwanza",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Haikuweza kuendesha ukaguzi wa ubora. Tafadhali furahisha ukurasa.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Haikuweza kuanza tafsiri. Tafadhali furahisha ukurasa.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Haikuweza kupata ripoti kutoka ukurasa. Tafadhali furahisha.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Huduma ya Usawazishaji ya Hifadhi haipatikani",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Usawazishaji umeshindwa: $ kosa $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Imeshindwa kuwasiliana na ukurasa. Jaribu kuburudisha.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Haikuweza kuonyesha maelezo ya mdudu. Tafadhali furahisha ukurasa.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Imeshindwa kuuza nje kwa Excel. Tafadhali jaribu tena.",
+    "description": "Error when Excel export fails"
   }
 }

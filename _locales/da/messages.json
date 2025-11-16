@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Sådan fungerer det: • Skift mellem original og oversat tekst • Oversættelser cachelagres for hurtig skift • Fungerer med al tekst på siden • Ryd cachen for at genoversætte",
+    "message": "Sådan fungerer det:\n• Skift mellem original og oversat tekst\n• Oversættelser cachelagres for hurtig skift\n• Fungerer med al tekst på siden\n• Ryd cachen for at genoversætte",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Sådan fungerer det: • Erstatter tegn med accenttegn • Tilføjer 30-40% længdeudvidelse • Ombryder tekst i [!!!... !!!] markører • Eksempel: \"Indstillinger\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Sådan fungerer det:\n• Erstatter tegn med accenttegn\n• Tilføjer 30-40% længdeudvidelse\n• Ombryder tekst i [!!!... !!!] markører\n• Eksempel: \"Indstillinger\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Sådan fungerer det: • Klik på et tekstelement for at redigere det • Ændringer spores i realtid • Eksporter redigeringer som JSON eller Excel • Tryk på Ctrl+E for at eksportere ændringer",
+    "message": "Sådan fungerer det:\n• Klik på et tekstelement for at redigere det\n• Ændringer spores i realtid\n• Eksporter redigeringer som JSON eller Excel\n• Tryk på Ctrl+E for at eksportere ændringer",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Sådan fungerer det: • Klik på tekstelementer for at rapportere problemer • Tilføj beskrivelser og alvorlighedsgrad • Eksporter rapporter til Excel eller JSON • Synkroniser med Google Drev",
+    "message": "Sådan fungerer det:\n• Klik på tekstelementer for at rapportere problemer\n• Tilføj beskrivelser og alvorlighedsgrad\n• Eksporter rapporter til Excel eller JSON\n• Synkroniser med Google Drev",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Log ind for at bruge AI-oversættelse",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Bedst til filer med rimelig størrelse.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kvalitetstjek rapport",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Skjul sidebjælken",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klik for at udvide",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Fjern Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live redigeringstilstand aktiv: Alle links og knapper er blokeret. Klik på teksten for at redigere.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Stop rapportering",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekster",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Strøm",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Foreslået",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Anvend rettelse",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Anvend alle",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Anvendt",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Anvendte $COUNT$ rettelser",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synkroniser fra Drev",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Nuværende side",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Viser original tekst",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Anvender pseudo-lokalisering...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Skifter liveredigeringstilstand...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Skifter fejlrapporteringstilstand...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Åbner JSON-oversætter...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Oversættelsesklienten er ikke initialiseret",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Vælg venligst tekst på siden først",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kunne ikke køre kvalitetstjek. Opdater venligst siden.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Kunne ikke starte oversættelsen. Opdater venligst siden.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Kunne ikke hente rapporter fra siden. Opdater venligst.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drev-synkroniseringstjeneste er ikke tilgængelig",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synkronisering mislykkedes: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Kunne ikke kommunikere med siden. Prøv at opdatere.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Kunne ikke vise fejldetaljer. Opdater venligst siden.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Kunne ikke eksportere til Excel. Prøv venligst igen.",
+    "description": "Error when Excel export fails"
   }
 }

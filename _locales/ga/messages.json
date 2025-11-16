@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Conas a oibríonn sé: • Athraigh idir an téacs bunaidh agus an téacs aistrithe • Cuirtear aistriúcháin i dtaisce le haghaidh aistriú tapa • Oibríonn sé le gach téacs ar an leathanach • Glan an taisce le hathaistriú",
+    "message": "Conas a oibríonn sé:\n• Athraigh idir an téacs bunaidh agus an téacs aistrithe\n• Cuirtear aistriúcháin i dtaisce le haghaidh aistriú tapa\n• Oibríonn sé le gach téacs ar an leathanach\n• Glan an taisce le hathaistriú",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Conas a oibríonn sé: • Cuireann sé leaganacha béime in ionad carachtair • Cuireann sé leathnú faid 30-40% leis • Fillteann sé téacs i marcóirí [!!!... !!!] • Sampla: \"Socruithe\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Conas a oibríonn sé:\n• Cuireann sé leaganacha béime in ionad carachtair\n• Cuireann sé leathnú faid 30-40% leis\n• Fillteann sé téacs i marcóirí [!!!... !!!]\n• Sampla: \"Socruithe\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Conas a oibríonn sé: • Cliceáil ar aon eilimint téacs chun é a chur in eagar • Déantar athruithe a rianú i bhfíor-am • Easpórtáil eagarthóireachtaí mar JSON nó Excel • Brúigh Ctrl+E chun athruithe a easpórtáil",
+    "message": "Conas a oibríonn sé:\n• Cliceáil ar aon eilimint téacs chun é a chur in eagar\n• Déantar athruithe a rianú i bhfíor-am\n• Easpórtáil eagarthóireachtaí mar JSON nó Excel\n• Brúigh Ctrl+E chun athruithe a easpórtáil",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Gnéithe Préimhe: • Aistriúchán comhthéacsúil faoi thiomáint na hintleachta saorga • Aistriúchán baisce ar leathanaigh iomlána • Seiceáil cáilíochta ar aistriúcháin • Moltaí teanga nádúrtha",
+    "message": "Gnéithe Préimhe:\n• Aistriúchán comhthéacsúil faoi thiomáint na hintleachta saorga\n• Aistriúchán baisce ar leathanaigh iomlána\n• Seiceáil cáilíochta ar aistriúcháin\n• Moltaí teanga nádúrtha",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Conas a oibríonn sé: • Uaslódáil comhaid teanga JSON • Roghnaigh teangacha sprice • Aistrigh le Google nó le hintleacht shaorga • Íoslódáil comhaid aistrithe",
+    "message": "Conas a oibríonn sé:\n• Uaslódáil comhaid teanga JSON\n• Roghnaigh teangacha sprice\n• Aistrigh le Google nó le hintleacht shaorga\n• Íoslódáil comhaid aistrithe",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Conas a oibríonn sé: • Cliceáil ar eilimintí téacs chun fadhbanna a thuairisciú • Cuir tuairiscí agus déine leis • Easpórtáil tuarascálacha chuig Excel nó JSON • Sioncrónaigh le Google Drive",
+    "message": "Conas a oibríonn sé:\n• Cliceáil ar eilimintí téacs chun fadhbanna a thuairisciú\n• Cuir tuairiscí agus déine leis\n• Easpórtáil tuarascálacha chuig Excel nó JSON\n• Sioncrónaigh le Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Sínigh isteach chun aistriúchán AI a úsáid",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Is fearr le haghaidh comhaid le méid réasúnta.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Tuarascáil Seiceála Cáilíochta",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Laghdaigh an barra taoibh",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Cliceáil le leathnú",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Bain Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mód Eagar Beo Gníomhach: Tá gach nasc agus cnaipe bactha. Cliceáil ar an téacs chun é a chur in eagar.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Stop Tuairisciú",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "téacsanna",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Reatha",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Molta",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Déan iarratas a shocrú",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Déan iarratas ar fad",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Fheidhmeach",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Ceartúcháin $COUNT$ curtha i bhfeidhm",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sioncronaigh ó Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Leathanach Reatha",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Téacs bunaidh á thaispeáint",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Áitiúchán bréige á chur i bhfeidhm...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Mód eagarthóireachta beo á scor...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Mód tuairiscithe fabht á scor...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Aistritheoir JSON á oscailt...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Níor cuireadh tús leis an gcliant aistriúcháin",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Roghnaigh téacs ar an leathanach ar dtús",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Níorbh fhéidir seiceáil cáilíochta a rith. Athnuaigh an leathanach le do thoil.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Níorbh fhéidir an t-aistriúchán a thosú. Athnuaigh an leathanach le do thoil.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Níorbh fhéidir tuairiscí a fháil ón leathanach. Athnuaigh le do thoil.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Níl seirbhís sioncronaithe tiomántán ar fáil",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Theip ar shioncronú: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Theip ar chumarsáid leis an leathanach. Bain triail as athnuachan.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Níorbh fhéidir sonraí fabht a thaispeáint. Athnuaigh an leathanach le do thoil.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Theip ar easpórtáil go Excel. Bain triail eile as.",
+    "description": "Error when Excel export fails"
   }
 }

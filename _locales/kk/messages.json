@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Ол қалай жұмыс істейді: • Түпнұсқа мен аударылған мәтін арасында ауысу • Жылдам ауысу үшін аудармалар кэштелген • Беттегі барлық мәтінмен жұмыс істейді • Қайта аудару үшін кэшті тазалаңыз",
+    "message": "Ол қалай жұмыс істейді:\n• Түпнұсқа мен аударылған мәтін арасында ауысу\n• Жылдам ауысу үшін аудармалар кэштелген\n• Беттегі барлық мәтінмен жұмыс істейді\n• Қайта аудару үшін кэшті тазалаңыз",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Ол қалай жұмыс істейді: • Таңбаларды екпінді нұсқалармен ауыстырады • 30-40% ұзындықты кеңейтеді • Мәтінді [!!!... !!!] маркерлер • Мысалы: \"Параметрлер\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Ол қалай жұмыс істейді:\n• Таңбаларды екпінді нұсқалармен ауыстырады\n• 30-40% ұзындықты кеңейтеді\n• Мәтінді [!!!... !!!] маркерлер\n• Мысалы: \"Параметрлер\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Ол қалай жұмыс істейді: • Кез келген мәтін элементін өңдеу үшін басыңыз • Өзгерістер нақты уақытта бақыланады • Өңдеулерді JSON немесе Excel ретінде экспорттау • Өзгерістерді экспорттау үшін Ctrl+E пернелер тіркесімін басыңыз",
+    "message": "Ол қалай жұмыс істейді:\n• Кез келген мәтін элементін өңдеу үшін басыңыз\n• Өзгерістер нақты уақытта бақыланады\n• Өңдеулерді JSON немесе Excel ретінде экспорттау\n• Өзгерістерді экспорттау үшін Ctrl+E пернелер тіркесімін басыңыз",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Премиум мүмкіндіктері: • Жасанды интеллектпен жұмыс істейтін мәтінмәнді ескеретін аударма • Бүкіл беттерді пакеттік аудару • Аудармалардың сапасын тексеру • Табиғи тіл бойынша ұсыныстар",
+    "message": "Премиум мүмкіндіктері:\n• Жасанды интеллектпен жұмыс істейтін мәтінмәнді ескеретін аударма\n• Бүкіл беттерді пакеттік аудару\n• Аудармалардың сапасын тексеру\n• Табиғи тіл бойынша ұсыныстар",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Ол қалай жұмыс істейді: • JSON тіл файлдарын жүктеп салыңыз • Мақсатты тілдерді таңдаңыз • Google немесе AI көмегімен аудару • Аударылған файлдарды жүктеп алыңыз",
+    "message": "Ол қалай жұмыс істейді:\n• JSON тіл файлдарын жүктеп салыңыз\n• Мақсатты тілдерді таңдаңыз\n• Google немесе AI көмегімен аудару\n• Аударылған файлдарды жүктеп алыңыз",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Ол қалай жұмыс істейді: • Мәселелерді хабарлау үшін мәтін элементтерін басыңыз • Сипаттамалар мен қатаңдықты қосыңыз • Есептерді Excel немесе JSON файлына экспорттау • Google Drive-пен синхрондау",
+    "message": "Ол қалай жұмыс істейді:\n• Мәселелерді хабарлау үшін мәтін элементтерін басыңыз\n• Сипаттамалар мен қатаңдықты қосыңыз\n• Есептерді Excel немесе JSON файлына экспорттау\n• Google Drive-пен синхрондау",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI аудармасын пайдалану үшін кіріңіз",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Ақылға қонымды мөлшері бар файлдар үшін жақсы.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Сапаны тексеру есебі",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Бүйірлік тақтаны тасалау",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Кеңейту үшін нұқыңыз",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Псевдо-локты алып тастаңыз",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Тікелей өңдеу режимі Белсенді: Барлық сілтемелер мен түймелер бұғатталған. Өңдеу үшін мәтінді нұқыңыз.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Есеп беруді тоқтату",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "мәтіндер",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Ағымдағы",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Ұсынылған",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Түзету",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Барлығын қолданыңыз",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Өтініш",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Қолданған $ санын $ түзету",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Дисктан синхрондау",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Ағымдағы бет",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Түпнұсқа мәтінді көрсету",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Псевдо-локализацияны қолдану ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Тікелей өңдеу режимі ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Қате туралы есеп беру режимі ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON аудармашысы ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Аударма клиенті іске қосылмаған",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Алдымен парақтағы мәтінді таңдаңыз",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Сапаны тексеру мүмкін емес. Бетті жаңартыңыз.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Аударманы бастай алмады. Бетті жаңартыңыз.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Беттерден есеп алу мүмкін болмады. Жаңартыңыз.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync Service қол жетімді емес",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Синхрондау сәтсіз аяқталды: $ қате $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Парақпен байланыса алмады. Сергітуді байқап көріңіз.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Қате туралы мәліметтерді көрсете алмады. Бетті жаңартыңыз.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel-ге экспорттай алмады. Қайталап көріңіз.",
+    "description": "Error when Excel export fails"
   }
 }

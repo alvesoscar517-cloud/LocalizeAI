@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Wéi et funktionéiert: • Wiesselt tëscht dem Original- an dem iwwersaten Text • Iwwersetzunge ginn am Cache gespäichert fir e séieren Wiessel • Funktionéiert mat all Text op der Säit • Läscht de Cache fir nei ze iwwersetzen",
+    "message": "Wéi et funktionéiert:\n• Wiesselt tëscht dem Original- an dem iwwersaten Text\n• Iwwersetzunge ginn am Cache gespäichert fir e séieren Wiessel\n• Funktionéiert mat all Text op der Säit\n• Läscht de Cache fir nei ze iwwersetzen",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Wéi et funktionéiert: • Ersetzt Zeechen duerch Versiounen mat Akzenter • Füügt eng Längterweiterung vun 30-40% bäi • Wéckelt den Text an [!!!... !!!] Markéierungen • Beispill: \"Astellungen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Wéi et funktionéiert:\n• Ersetzt Zeechen duerch Versiounen mat Akzenter\n• Füügt eng Längterweiterung vun 30-40% bäi\n• Wéckelt den Text an [!!!... !!!] Markéierungen\n• Beispill: \"Astellungen\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Wéi et funktionéiert: • JSON-Sproochdateien eroplueden • Zilsproochen auswielen • Mat Google oder KI iwwersetzen • Iwwersat Dateien eroflueden",
+    "message": "Wéi et funktionéiert:\n• JSON-Sproochdateien eroplueden\n• Zilsproochen auswielen\n• Mat Google oder KI iwwersetzen\n• Iwwersat Dateien eroflueden",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -1297,6 +1297,10 @@
     "message": "Mellt Iech w.e.g. un fir AI Iwwersetzung ze benotzen",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Bescht fir Dateien mat raisonnabel Gréisst.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Qualitéit Check Rapport",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sidebar zesummeklappen",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klickt fir auszebauen",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Ewechzehuelen Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit Modus Aktiv: All Linken a Knäpper sinn gespaart. Klickt op den Text fir z'änneren.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Stop Bericht",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Texter",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Aktuell",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "proposéiert",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Fix fixéieren",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Gëlle all",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "ugewannt",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Ugewannt $COUNT$ Fixer",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synchroniséiert vum Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Aktuell Säit",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Originaltext weisen",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudo-Lokaliséierung uwenden ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Wiesselt de Live Edit Modus ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "De Fehlerberichtmodus wiesselen ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON Iwwersetzer opmaachen ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Iwwersetzungsclient net initialiséiert",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Wielt w.e.g. Text op der Säit als éischt",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Konnt d'Qualitéitskontroll net ausféieren. Erfrëscht w.e.g. d'Säit.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Konnt d'Iwwersetzung net starten. Erfrëscht w.e.g. d'Säit.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Konnt keng Berichter vun der Säit kréien. Weg erfrëschen.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync Service net verfügbar",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synchronisatioun gescheitert: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Konnt net mat der Säit kommunizéieren. Probéiert erfrëschend.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Konnt keng Käferdetailer weisen. Erfrëscht w.e.g. d'Säit.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ausgefall op Excel exportéieren. Probéiert w.e.g. nach eng Kéier.",
+    "description": "Error when Excel export fails"
   }
 }

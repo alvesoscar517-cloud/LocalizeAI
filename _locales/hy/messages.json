@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Ինչպես է այն աշխատում. • Անջատել բնօրինակ և թարգմանված տեքստի միջև • Թարգմանությունները պահվում են քեշում՝ արագ անցման համար • Աշխատում է էջի բոլոր տեքստերի հետ • Մաքրել քեշը՝ վերաթարգմանելու համար",
+    "message": "Ինչպես է այն աշխատում.\n• Անջատել բնօրինակ և թարգմանված տեքստի միջև\n• Թարգմանությունները պահվում են քեշում՝ արագ անցման համար\n• Աշխատում է էջի բոլոր տեքստերի հետ\n• Մաքրել քեշը՝ վերաթարգմանելու համար",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Ինչպես է այն աշխատում. • Փոխարինում է նիշերը շեշտադրված տարբերակներով • Ավելացնում է երկարության 30-40% ընդլայնում • Տեքստը փաթաթում է [!!!... !!!] նշիչներով • Օրինակ՝ \"Կարգավորումներ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Ինչպես է այն աշխատում.\n• Փոխարինում է նիշերը շեշտադրված տարբերակներով\n• Ավելացնում է երկարության 30-40% ընդլայնում\n• Տեքստը փաթաթում է [!!!... !!!] նշիչներով\n• Օրինակ՝ \"Կարգավորումներ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Ինչպես է այն աշխատում. • Սեղմեք ցանկացած տեքստային տարր՝ այն խմբագրելու համար • Փոփոխությունները հետևվում են իրական ժամանակում • Արտահանեք խմբագրումները որպես JSON կամ Excel • Սեղմեք Ctrl+E՝ փոփոխությունները արտահանելու համար",
+    "message": "Ինչպես է այն աշխատում.\n• Սեղմեք ցանկացած տեքստային տարր՝ այն խմբագրելու համար\n• Փոփոխությունները հետևվում են իրական ժամանակում\n• Արտահանեք խմբագրումները որպես JSON կամ Excel\n• Սեղմեք Ctrl+E՝ փոփոխությունները արտահանելու համար",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Պրեմիում հնարավորություններ՝ • Արհեստական բանականության միջոցով համատեքստից կախված թարգմանություն • Ամբողջ էջերի խմբաքանակային թարգմանություն • Թարգմանությունների որակի ստուգում • Բնական լեզվի առաջարկներ",
+    "message": "Պրեմիում հնարավորություններ՝\n• Արհեստական բանականության միջոցով համատեքստից կախված թարգմանություն\n• Ամբողջ էջերի խմբաքանակային թարգմանություն\n• Թարգմանությունների որակի ստուգում\n• Բնական լեզվի առաջարկներ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Ինչպես է այն աշխատում. • JSON լեզվի ֆայլերի վերբեռնում • Նպատակային լեզուների ընտրություն • Թարգմանություն Google-ի կամ արհեստական բանականության միջոցով • Թարգմանված ֆայլերի ներբեռնում",
+    "message": "Ինչպես է այն աշխատում.\n• JSON լեզվի ֆայլերի վերբեռնում\n• Նպատակային լեզուների ընտրություն\n• Թարգմանություն Google-ի կամ արհեստական բանականության միջոցով\n• Թարգմանված ֆայլերի ներբեռնում",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Ինչպես է այն աշխատում. • Սեղմեք տեքստային տարրերի վրա՝ խնդիրների մասին հաղորդելու համար • Ավելացրեք նկարագրություններ և լրջության աստիճան • Արտահանեք հաշվետվությունները Excel կամ JSON ձևաչափով • Համաժամեցրեք Google Drive-ի հետ",
+    "message": "Ինչպես է այն աշխատում.\n• Սեղմեք տեքստային տարրերի վրա՝ խնդիրների մասին հաղորդելու համար\n• Ավելացրեք նկարագրություններ և լրջության աստիճան\n• Արտահանեք հաշվետվությունները Excel կամ JSON ձևաչափով\n• Համաժամեցրեք Google Drive-ի հետ",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Խնդրում ենք մուտք գործել՝ AI թարգմանությունն օգտագործելու համար",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Լավագույնը ողջամիտ չափերով ֆայլերի համար:",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Որակի ստուգման հաշվետվություն",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Ծալել կողագոտին",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Սեղմեք ընդլայնելու համար",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Հեռացնել Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit Mode Active. Բոլոր հղումներն ու կոճակներն արգելափակված են: Սեղմեք տեքստի վրա՝ խմբագրելու համար:",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Դադարեցնել հաշվետվությունը",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "տեքստեր",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Ընթացիկ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Առաջարկվում է",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Կիրառել ամրագրումը",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Կիրառել բոլորը",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Կիրառվել է",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Կիրառվել է $COUNT$ ուղղում",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Համաժամեցեք Drive-ից",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Ընթացիկ էջ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Ցուցադրվում է բնօրինակ տեքստը",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Կիրառվում է կեղծ տեղայնացում...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Կենդանի խմբագրման ռեժիմի անջատում...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Սխալների հաշվետվության ռեժիմի անջատում...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON թարգմանչի բացում...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Թարգմանության հաճախորդը նախաստորագրված չէ",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Խնդրում ենք սկզբում ընտրել էջի տեքստը",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Չհաջողվեց կատարել որակի ստուգում: Խնդրում ենք թարմացնել էջը։",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Չհաջողվեց սկսել թարգմանությունը: Խնդրում ենք թարմացնել էջը։",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Չհաջողվեց ստանալ հաշվետվություններ էջից: Խնդրում ենք թարմացնել:",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive-ի համաժամացման ծառայությունը հասանելի չէ",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Համաժամացումը ձախողվեց՝ $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Չհաջողվեց կապ հաստատել էջի հետ: Փորձեք թարմացնել:",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Չհաջողվեց ցույց տալ վրիպակի մանրամասները: Խնդրում ենք թարմացնել էջը։",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Չհաջողվեց արտահանել Excel: Խնդրում ենք կրկին փորձել:",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "यह कैसे काम करता है: • मूल और अनुवादित पाठ के बीच टॉगल करें • अनुवादों को तेज़ी से बदलने के लिए कैश किया जाता है • पृष्ठ पर सभी पाठ के साथ काम करता है • पुनः अनुवाद करने के लिए कैश साफ़ करें",
+    "message": "यह कैसे काम करता है:\n• मूल और अनुवादित पाठ के बीच टॉगल करें\n• अनुवादों को तेज़ी से बदलने के लिए कैश किया जाता है\n• पृष्ठ पर सभी पाठ के साथ काम करता है\n• पुनः अनुवाद करने के लिए कैश साफ़ करें",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "यह कैसे काम करता है: • वर्णों को उच्चारण वाले संस्करणों से बदलता है • लंबाई में 30-40% विस्तार जोड़ता है • टेक्स्ट को [!!!... !!!] मार्करों में लपेटता है • उदाहरण: \"सेटिंग्स\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "यह कैसे काम करता है:\n• वर्णों को उच्चारण वाले संस्करणों से बदलता है\n• लंबाई में 30-40% विस्तार जोड़ता है\n• टेक्स्ट को [!!!... !!!] मार्करों में लपेटता है\n• उदाहरण: \"सेटिंग्स\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "यह कैसे काम करता है: • किसी भी टेक्स्ट एलिमेंट को संपादित करने के लिए उस पर क्लिक करें • परिवर्तनों को रीयल-टाइम में ट्रैक किया जाता है • संपादनों को JSON या Excel के रूप में निर्यात करें • परिवर्तनों को निर्यात करने के लिए Ctrl+E दबाएँ",
+    "message": "यह कैसे काम करता है:\n• किसी भी टेक्स्ट एलिमेंट को संपादित करने के लिए उस पर क्लिक करें\n• परिवर्तनों को रीयल-टाइम में ट्रैक किया जाता है\n• संपादनों को JSON या Excel के रूप में निर्यात करें\n• परिवर्तनों को निर्यात करने के लिए Ctrl+E दबाएँ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "प्रीमियम सुविधाएँ: • AI-संचालित संदर्भ-जागरूक अनुवाद • संपूर्ण पृष्ठों का बैच अनुवाद • अनुवादों की गुणवत्ता जाँच • प्राकृतिक भाषा सुझाव",
+    "message": "प्रीमियम सुविधाएँ:\n• AI-संचालित संदर्भ-जागरूक अनुवाद\n• संपूर्ण पृष्ठों का बैच अनुवाद\n• अनुवादों की गुणवत्ता जाँच\n• प्राकृतिक भाषा सुझाव",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "यह कैसे काम करता है: • JSON भाषा फ़ाइलें अपलोड करें • लक्षित भाषाएँ चुनें • Google या AI के साथ अनुवाद करें • अनुवादित फ़ाइलें डाउनलोड करें",
+    "message": "यह कैसे काम करता है:\n• JSON भाषा फ़ाइलें अपलोड करें\n• लक्षित भाषाएँ चुनें\n• Google या AI के साथ अनुवाद करें\n• अनुवादित फ़ाइलें डाउनलोड करें",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "यह कैसे काम करता है: • समस्याओं की रिपोर्ट करने के लिए टेक्स्ट एलिमेंट पर क्लिक करें • विवरण और गंभीरता जोड़ें • रिपोर्ट को Excel या JSON में निर्यात करें • Google Drive के साथ सिंक करें",
+    "message": "यह कैसे काम करता है:\n• समस्याओं की रिपोर्ट करने के लिए टेक्स्ट एलिमेंट पर क्लिक करें\n• विवरण और गंभीरता जोड़ें\n• रिपोर्ट को Excel या JSON में निर्यात करें\n• Google Drive के साथ सिंक करें",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI अनुवाद का उपयोग करने के लिए कृपया साइन इन करें",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "उचित आकार वाली फ़ाइलों के लिए सर्वोत्तम।",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "गुणवत्ता जांच रिपोर्ट",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "साइडबार को संक्षिप्त करें",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "विस्तार करने के लिए क्लिक करें",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "स्यूडो-लोक हटाएं",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "लाइव संपादन मोड सक्रिय: सभी लिंक और बटन अवरुद्ध हैं। संपादित करने के लिए टेक्स्ट पर क्लिक करें.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "रिपोर्टिंग बंद करो",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ग्रंथों",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "मौजूदा",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "सुझाव दिया",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "फिक्स लागू करें",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "सभी लागू करें",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "लागू",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ सुधार लागू किए गए",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ड्राइव से सिंक करें",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "वर्तमान पृष्ठ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "मूल पाठ दिखाया जा रहा है",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "छद्म-स्थानीयकरण लागू करना...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "लाइव संपादन मोड टॉगल किया जा रहा है...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "बग रिपोर्ट मोड टॉगल किया जा रहा है...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON अनुवादक खोला जा रहा है...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "अनुवाद क्लाइंट प्रारंभ नहीं किया गया",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "कृपया पहले पृष्ठ पर पाठ का चयन करें",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "गुणवत्ता जांच नहीं चल सकी. कृपया पृष्ठ को ताज़ा करें.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "अनुवाद प्रारंभ नहीं हो सका. कृपया पृष्ठ को ताज़ा करें.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "पेज से रिपोर्ट नहीं मिल सकीं. कृपया ताज़ा करें.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ड्राइव सिंक सेवा उपलब्ध नहीं है",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "समन्वयन विफल: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "पेज के साथ संचार करने में विफल. ताज़ा करने का प्रयास करें.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "बग विवरण नहीं दिखाया जा सका. कृपया पृष्ठ को ताज़ा करें.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel में निर्यात करने में विफल. कृपया पुन: प्रयास करें।",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ଏହା କିପରି କାମ କରେ: • ମୂଳ ଏବଂ ଅନୁବାଦିତ ପାଠ୍ୟ ମଧ୍ୟରେ ଟଗଲ୍ କରନ୍ତୁ • ଦ୍ରୁତ ସୁଇଚ୍ ପାଇଁ ଅନୁବାଦଗୁଡ଼ିକୁ କ୍ୟାଶ୍ କରାଯାଏ • ପୃଷ୍ଠାରେ ଥିବା ସମସ୍ତ ପାଠ୍ୟ ସହିତ କାମ କରେ • ପୁନଃଅନୁବାଦ କରିବାକୁ କ୍ୟାଶ୍ ଖାଲି କରନ୍ତୁ",
+    "message": "ଏହା କିପରି କାମ କରେ:\n• ମୂଳ ଏବଂ ଅନୁବାଦିତ ପାଠ୍ୟ ମଧ୍ୟରେ ଟଗଲ୍ କରନ୍ତୁ\n• ଦ୍ରୁତ ସୁଇଚ୍ ପାଇଁ ଅନୁବାଦଗୁଡ଼ିକୁ କ୍ୟାଶ୍ କରାଯାଏ\n• ପୃଷ୍ଠାରେ ଥିବା ସମସ୍ତ ପାଠ୍ୟ ସହିତ କାମ କରେ\n• ପୁନଃଅନୁବାଦ କରିବାକୁ କ୍ୟାଶ୍ ଖାଲି କରନ୍ତୁ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "ଏହା କିପରି କାମ କରେ: • ଉଚ୍ଚାରଣିତ ସଂସ୍କରଣ ସହିତ ଅକ୍ଷରଗୁଡ଼ିକୁ ବଦଳାଇଥାଏ • 30-40% ଲମ୍ବ ବିସ୍ତାର ଯୋଡେ • [!!!... !!!] ମାର୍କରରେ ପାଠ୍ୟକୁ ଗୁଡ଼ାଏ • ଉଦାହରଣ: \"ସେଟିଂସ୍\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "ଏହା କିପରି କାମ କରେ:\n• ଉଚ୍ଚାରଣିତ ସଂସ୍କରଣ ସହିତ ଅକ୍ଷରଗୁଡ଼ିକୁ ବଦଳାଇଥାଏ\n• 30-40% ଲମ୍ବ ବିସ୍ତାର ଯୋଡେ\n• [!!!... !!!] ମାର୍କରରେ ପାଠ୍ୟକୁ ଗୁଡ଼ାଏ\n• ଉଦାହରଣ: \"ସେଟିଂସ୍\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ଏହା କିପରି କାମ କରେ: • ଯେକୌଣସି ଟେକ୍ସଟ୍ ଉପାଦାନକୁ ସମ୍ପାଦନ କରିବା ପାଇଁ କ୍ଲିକ୍ କରନ୍ତୁ • ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରିଅଲ୍-ଟାଇମ୍‌ରେ ଟ୍ରାକ୍ କରାଯାଏ • ସମ୍ପାଦନଗୁଡ଼ିକୁ JSON କିମ୍ବା Excel ଭାବରେ ରପ୍ତାନି କରନ୍ତୁ • ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରପ୍ତାନି କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ",
+    "message": "ଏହା କିପରି କାମ କରେ:\n• ଯେକୌଣସି ଟେକ୍ସଟ୍ ଉପାଦାନକୁ ସମ୍ପାଦନ କରିବା ପାଇଁ କ୍ଲିକ୍ କରନ୍ତୁ\n• ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରିଅଲ୍-ଟାଇମ୍‌ରେ ଟ୍ରାକ୍ କରାଯାଏ\n• ସମ୍ପାଦନଗୁଡ଼ିକୁ JSON କିମ୍ବା Excel ଭାବରେ ରପ୍ତାନି କରନ୍ତୁ\n• ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ରପ୍ତାନି କରିବାକୁ Ctrl+E ଦବାନ୍ତୁ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ: • AI-ଚାଳିତ ପ୍ରସଙ୍ଗ-ସଚେତନ ଅନୁବାଦ • ସମଗ୍ର ପୃଷ୍ଠାଗୁଡ଼ିକୁ ବ୍ୟାଚ୍ ଅନୁବାଦ • ଅନୁବାଦ ପାଇଁ ଗୁଣବତ୍ତା ଯାଞ୍ଚ • ପ୍ରାକୃତିକ ଭାଷା ପରାମର୍ଶ",
+    "message": "ପ୍ରିମିୟମ୍ ବୈଶିଷ୍ଟ୍ୟଗୁଡ଼ିକ:\n• AI-ଚାଳିତ ପ୍ରସଙ୍ଗ-ସଚେତନ ଅନୁବାଦ\n• ସମଗ୍ର ପୃଷ୍ଠାଗୁଡ଼ିକୁ ବ୍ୟାଚ୍ ଅନୁବାଦ\n• ଅନୁବାଦ ପାଇଁ ଗୁଣବତ୍ତା ଯାଞ୍ଚ\n• ପ୍ରାକୃତିକ ଭାଷା ପରାମର୍ଶ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ଏହା କିପରି କାମ କରେ: • JSON ଭାଷା ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ • ଟାର୍ଗେଟ୍ ଭାଷା ଚୟନ କରନ୍ତୁ • Google କିମ୍ବା AI ସହିତ ଅନୁବାଦ କରନ୍ତୁ • ଅନୁବାଦିତ ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
+    "message": "ଏହା କିପରି କାମ କରେ:\n• JSON ଭାଷା ଫାଇଲ୍ ଅପଲୋଡ୍ କରନ୍ତୁ\n• ଟାର୍ଗେଟ୍ ଭାଷା ଚୟନ କରନ୍ତୁ\n• Google କିମ୍ବା AI ସହିତ ଅନୁବାଦ କରନ୍ତୁ\n• ଅନୁବାଦିତ ଫାଇଲ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ଏହା କିପରି କାମ କରେ: • ସମସ୍ୟା ରିପୋର୍ଟ କରିବାକୁ ଟେକ୍ସଟ୍ ଉପାଦାନଗୁଡ଼ିକରେ କ୍ଲିକ୍ କରନ୍ତୁ • ବର୍ଣ୍ଣନା ଏବଂ ଗମ୍ଭୀରତା ଯୋଗ କରନ୍ତୁ • Excel କିମ୍ବା JSONକୁ ରିପୋର୍ଟଗୁଡ଼ିକ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ • Google Drive ସହିତ ସିଙ୍କ୍ କରନ୍ତୁ",
+    "message": "ଏହା କିପରି କାମ କରେ:\n• ସମସ୍ୟା ରିପୋର୍ଟ କରିବାକୁ ଟେକ୍ସଟ୍ ଉପାଦାନଗୁଡ଼ିକରେ କ୍ଲିକ୍ କରନ୍ତୁ\n• ବର୍ଣ୍ଣନା ଏବଂ ଗମ୍ଭୀରତା ଯୋଗ କରନ୍ତୁ\n• Excel କିମ୍ବା JSONକୁ ରିପୋର୍ଟଗୁଡ଼ିକ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ\n• Google Drive ସହିତ ସିଙ୍କ୍ କରନ୍ତୁ",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI ଅନୁବାଦ ବ୍ୟବହାର କରିବାକୁ ଦୟାକରି ସାଇନ୍ ଇନ୍ କରନ୍ତୁ |",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ଯୁକ୍ତିଯୁକ୍ତ ଆକାର ଥିବା ଫାଇଲଗୁଡ଼ିକ ପାଇଁ ସର୍ବୋତ୍ତମ |",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "ଗୁଣବତ୍ତା ଯାଞ୍ଚ ରିପୋର୍ଟ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ପାର୍ଶ୍ୱ ପଟି ଭୁଶୁଡ଼ନ୍ତୁ |",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ବିସ୍ତାର କରିବାକୁ କ୍ଲିକ୍ କରନ୍ତୁ |",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "ସିଉଡୋ-ଲୋକ ଅପସାରଣ କରନ୍ତୁ |",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ଲାଇଭ୍ ଏଡିଟ୍ ମୋଡ୍ ଆକ୍ଟିଭ୍: ସମସ୍ତ ଲିଙ୍କ୍ ଏବଂ ବଟନ୍ ଗୁଡିକ ଅବରୋଧିତ ହୋଇଛି | ସମ୍ପାଦନ କରିବାକୁ ପାଠ୍ୟ ଉପରେ କ୍ଲିକ୍ କରନ୍ତୁ |",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "ରିପୋର୍ଟ କରିବା ବନ୍ଦ କରନ୍ତୁ |",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ପାଠ୍ୟ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ସାମ୍ପ୍ରତିକ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "ପ୍ରସ୍ତାବିତ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ଫିକ୍ସ ପ୍ରୟୋଗ କରନ୍ତୁ |",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "ସମସ୍ତ ପ୍ରୟୋଗ କରନ୍ତୁ |",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "ପ୍ରୟୋଗ |",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "ପ୍ରୟୋଗ $ COUNT $ ଫିକ୍ସ |",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ଡ୍ରାଇଭରୁ ସିଙ୍କ୍ କରନ୍ତୁ |",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "ସାମ୍ପ୍ରତିକ ପୃଷ୍ଠା |",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "ମୂଳ ପାଠ ଦେଖାଉଛି |",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "ଛଉ-ଲୋକାଲାଇଜେସନ୍ ପ୍ରୟୋଗ ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "ଲାଇଭ୍ ଏଡିଟ୍ ମୋଡ୍ ଟୋଗଲ୍ କରିବା ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ବଗ୍ ରିପୋର୍ଟ ମୋଡ୍ ଟୋଗଲ୍ କରୁଛି ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON ଅନୁବାଦକ ଖୋଲିବା ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ଅନୁବାଦ କ୍ଲାଏଣ୍ଟ ପ୍ରାରମ୍ଭ ହୋଇନାହିଁ |",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ଦୟାକରି ପ୍ରଥମେ ପୃଷ୍ଠାରେ ପାଠ ଚୟନ କରନ୍ତୁ |",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ଗୁଣାତ୍ମକ ଯାଞ୍ଚ ଚଲାଇ ପାରିଲା ନାହିଁ | ଦୟାକରି ପୃଷ୍ଠା ସତେଜ କରନ୍ତୁ |",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ଅନୁବାଦ ଆରମ୍ଭ କରିପାରିଲା ନାହିଁ | ଦୟାକରି ପୃଷ୍ଠା ସତେଜ କରନ୍ତୁ |",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ପୃଷ୍ଠାରୁ ରିପୋର୍ଟ ପାଇପାରିଲା ନାହିଁ | ଦୟାକରି ସତେଜ କରନ୍ତୁ |",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ଡ୍ରାଇଭ୍ ସିଙ୍କ ସେବା ଉପଲବ୍ଧ ନାହିଁ |",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "ସିଙ୍କ ବିଫଳ ହେଲା: $ ତ୍ରୁଟି $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ପୃଷ୍ଠା ସହିତ ଯୋଗାଯୋଗ କରିବାରେ ବିଫଳ | ସତେଜ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ |",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ତ୍ରୁଟି ବିବରଣୀ ଦେଖାଇ ପାରିଲା ନାହିଁ | ଦୟାକରି ପୃଷ୍ଠା ସତେଜ କରନ୍ତୁ |",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel କୁ ରପ୍ତାନି କରିବାରେ ବିଫଳ | ଦୟାକରି ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ |",
+    "description": "Error when Excel export fails"
   }
 }

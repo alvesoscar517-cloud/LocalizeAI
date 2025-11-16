@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Како функционише: • Пребацивање између оригиналног и преведеног текста • Преводи се кеширају ради брзог пребацивања • Ради са свим текстом на страници • Обришите кеш меморију да бисте поново превели",
+    "message": "Како функционише:\n• Пребацивање између оригиналног и преведеног текста\n• Преводи се кеширају ради брзог пребацивања\n• Ради са свим текстом на страници\n• Обришите кеш меморију да бисте поново превели",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Како функционише: • Замењује знакове верзијама са акценатима • Додаје проширење дужине од 30-40% • Прелама текст у маркере [!!!... !!!] • Пример: „Подешавања“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "Како функционише:\n• Замењује знакове верзијама са акценатима\n• Додаје проширење дужине од 30-40%\n• Прелама текст у маркере [!!!... !!!]\n• Пример: „Подешавања“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Како функционише: • Кликните на било који текстуални елемент да бисте га изменили • Промене се прате у реалном времену • Извезите измене као JSON или Excel • Притисните Ctrl+E да бисте извезли измене",
+    "message": "Како функционише:\n• Кликните на било који текстуални елемент да бисте га изменили\n• Промене се прате у реалном времену\n• Извезите измене као JSON или Excel\n• Притисните Ctrl+E да бисте извезли измене",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Премијум функције: • Превод заснован на контексту помоћу вештачке интелигенције • Групно превођење целих страница • Провера квалитета превода • Предлози за природни језик",
+    "message": "Премијум функције:\n• Превод заснован на контексту помоћу вештачке интелигенције\n• Групно превођење целих страница\n• Провера квалитета превода\n• Предлози за природни језик",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Како функционише: • Отпремите JSON језичке датотеке • Изаберите циљне језике • Преведите помоћу Google-а или вештачке интелигенције • Преузмите преведене датотеке",
+    "message": "Како функционише:\n• Отпремите JSON језичке датотеке\n• Изаберите циљне језике\n• Преведите помоћу Google-а или вештачке интелигенције\n• Преузмите преведене датотеке",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Како функционише: • Кликните на текстуалне елементе да бисте пријавили проблеме • Додајте описе и озбиљност • Извезите извештаје у Excel или JSON • Синхронизујте са Google диском",
+    "message": "Како функционише:\n• Кликните на текстуалне елементе да бисте пријавили проблеме\n• Додајте описе и озбиљност\n• Извезите извештаје у Excel или JSON\n• Синхронизујте са Google диском",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Пријавите се да бисте користили АИ превод",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Најбоље за датотеке разумне величине.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Извештај о провери квалитета",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Скупи бочну траку",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Кликните да бисте проширили",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Уклоните Псеудо-Лоц",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Активан режим уређивања уживо: Све везе и дугмад су блокирани. Кликните на текст за уређивање.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Престаните са извештавањем",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "текстови",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Цуррент",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Предложено",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Примени поправку",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Примени све",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Примењено",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Примењено је $ЦОУНТ$ исправки",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Синхронизација са Диска",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Цуррент Паге",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Приказ оригиналног текста",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Примењује се псеудо-локализација...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Укључује се режим уређивања уживо...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Укључује се режим извештаја о грешкама...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Отварање ЈСОН преводиоца...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Клијент за превођење није иницијализован",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Прво изаберите текст на страници",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Провера квалитета није успела. Освежите страницу.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Није могуће започети превод. Освежите страницу.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Није могуће преузети извештаје са странице. Освежите.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Услуга синхронизације диска није доступна",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Синхронизација није успела: $ЕРРОР$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Комуникација са страницом није успела. Покушајте да освежите.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Није могуће приказати детаље о грешци. Освежите страницу.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Извоз у Екцел није успео. Покушајте поново.",
+    "description": "Error when Excel export fails"
   }
 }

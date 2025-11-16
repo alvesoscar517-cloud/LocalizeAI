@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Како функционира: • Префрлување помеѓу оригиналниот и преведениот текст • Преводите се кешираат за брзо префрлување • Работи со целиот текст на страницата • Исчистете го кешот за повторно преведување",
+    "message": "Како функционира:\n• Префрлување помеѓу оригиналниот и преведениот текст\n• Преводите се кешираат за брзо префрлување\n• Работи со целиот текст на страницата\n• Исчистете го кешот за повторно преведување",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Како функционира: • Ги заменува знаците со акцентирани верзии • Додава проширување на должината од 30-40% • Го обвиткува текстот во маркери [!!!... !!!] • Пример: „Поставки“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "Како функционира:\n• Ги заменува знаците со акцентирани верзии\n• Додава проширување на должината од 30-40%\n• Го обвиткува текстот во маркери [!!!... !!!]\n• Пример: „Поставки“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Како функционира: • Кликнете на кој било текстуален елемент за да го уредите • Промените се следат во реално време • Извезете ги измените како JSON или Excel • Притиснете Ctrl+E за да ги извезете промените",
+    "message": "Како функционира:\n• Кликнете на кој било текстуален елемент за да го уредите\n• Промените се следат во реално време\n• Извезете ги измените како JSON или Excel\n• Притиснете Ctrl+E за да ги извезете промените",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Премиум функции: • Превод со вештачка интелигенција кој е свесен за контекстот • Групно преведување на цели страници • Проверка на квалитетот на преводите • Предлози за природен јазик",
+    "message": "Премиум функции:\n• Превод со вештачка интелигенција кој е свесен за контекстот\n• Групно преведување на цели страници\n• Проверка на квалитетот на преводите\n• Предлози за природен јазик",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Како функционира: • Поставете JSON јазични датотеки • Изберете целни јазици • Преведувајте со Google или AI • Преземајте преведени датотеки",
+    "message": "Како функционира:\n• Поставете JSON јазични датотеки\n• Изберете целни јазици\n• Преведувајте со Google или AI\n• Преземајте преведени датотеки",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Како функционира: • Кликнете на текстуални елементи за да пријавите проблеми • Додадете описи и сериозност • Извезете извештаи во Excel или JSON • Синхронизирајте со Google Drive",
+    "message": "Како функционира:\n• Кликнете на текстуални елементи за да пријавите проблеми\n• Додадете описи и сериозност\n• Извезете извештаи во Excel или JSON\n• Синхронизирајте со Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Ве молиме најавете се за да користите превод со вештачка интелигенција",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Најдобро за датотеки со разумна големина.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Извештај за проверка на квалитет",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Собери ја страничната лента",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Кликнете за проширување",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Отстрани Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Активен режим на уредување во живо: сите врски и копчиња се блокирани. Кликнете на текстот за уредување.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Стоп за известување",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "текстови",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Актуелно",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Предложено",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Примени поправка",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Примени ги сите",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Применета",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Применети $COUNT$ поправки",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Синхронизирај од Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Тековна страница",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Се прикажува оригиналниот текст",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Примена на псевдолокализација...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Вклучување режим на уредување во живо...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Вклучување на режимот за известување за грешки...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Се отвора JSON преведувач...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Клиентот за превод не е иницијализиран",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Прво изберете текст на страницата",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Не може да се изврши проверка на квалитетот. Ве молиме освежете ја страницата.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Не може да започне преводот. Ве молиме освежете ја страницата.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Не може да се добијат извештаи од страницата. Ве молиме освежете се.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Услугата за синхронизација на дискот не е достапна",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Синхронизацијата не успеа: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Не успеа да се комуницира со страницата. Обидете се со освежување.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Не може да се прикажат деталите за грешката. Ве молиме освежете ја страницата.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Не успеа да се извезе во Excel. Ве молиме обидете се повторно.",
+    "description": "Error when Excel export fails"
   }
 }

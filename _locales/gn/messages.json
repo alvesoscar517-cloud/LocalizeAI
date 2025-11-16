@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Mba’éichapa omba’apo: • Ombohasa jehaipyre ypykue ha oñembohasáva apytépe • Umi ñe’ẽasa oñeñongatu caché-pe oñembohasa pya’e hag̃ua • Omba’apo opaite jehaipyre ndive oĩva página-pe • Oñemopotĩ caché oñembohasa jey hag̃ua",
+    "message": "Mba’éichapa omba’apo:\n• Ombohasa jehaipyre ypykue ha oñembohasáva apytépe\n• Umi ñe’ẽasa oñeñongatu caché-pe oñembohasa pya’e hag̃ua\n• Omba’apo opaite jehaipyre ndive oĩva página-pe\n• Oñemopotĩ caché oñembohasa jey hag̃ua",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Mba’éichapa omba’apo: • Omyengovia umi karameg̃ua umi versión acentuada reheve • Ombojoapy 30-40% ipukukue ñembotuichave • Ombojere jehaipyre [!!!... !!!] marcador-kuéra • Techapyrã: \"Ñemboheko\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Mba’éichapa omba’apo:\n• Omyengovia umi karameg̃ua umi versión acentuada reheve\n• Ombojoapy 30-40% ipukukue ñembotuichave\n• Ombojere jehaipyre [!!!... !!!] marcador-kuéra\n• Techapyrã: \"Ñemboheko\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Mba’éichapa omba’apo: • Jaikutu oimeraẽva elemento jehaipyre rehegua ñamohenda hag̃ua • Ojesareko umi ñemoambue rehe tiempo real-pe • Eguerahauka umi ñemboheko JSON térã Excel ramo • Jaikutu Ctrl+E jaguerahauka hag̃ua umi ñemoambue",
+    "message": "Mba’éichapa omba’apo:\n• Jaikutu oimeraẽva elemento jehaipyre rehegua ñamohenda hag̃ua\n• Ojesareko umi ñemoambue rehe tiempo real-pe\n• Eguerahauka umi ñemboheko JSON térã Excel ramo\n• Jaikutu Ctrl+E jaguerahauka hag̃ua umi ñemoambue",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Mba’éichapa omba’apo: • Emboguejy JSON ñe’ẽ rembiapokue • Eiporavo umi ñe’ẽ ojehekahápe • Ombohasa Google térã AI rupive • Emboguejy umi archivo oñembohasáva",
+    "message": "Mba’éichapa omba’apo:\n• Emboguejy JSON ñe’ẽ rembiapokue\n• Eiporavo umi ñe’ẽ ojehekahápe\n• Ombohasa Google térã AI rupive\n• Emboguejy umi archivo oñembohasáva",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Mba’éichapa omba’apo: • Emboguejy umi elemento jehaipyre rehegua emombe’u hag̃ua umi mba’e oikóva • Oñemoĩve ñemombe’u ha mba’éichapa hasy • Eguerahauka marandu Excel térã JSON-pe • Oñembojoaju Google Drive ndive",
+    "message": "Mba’éichapa omba’apo:\n• Emboguejy umi elemento jehaipyre rehegua emombe’u hag̃ua umi mba’e oikóva\n• Oñemoĩve ñemombe’u ha mba’éichapa hasy\n• Eguerahauka marandu Excel térã JSON-pe\n• Oñembojoaju Google Drive ndive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Eike eipuru hag̃ua AI ñe'ẽasa.",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Iporãvéva umi archivo orekóva tamaño razonable.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Informe de Cheque de Calidad rehegua .",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Barra lateral de colapso rehegua .",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Emboguejy hag̃ua eñembotuichave hag̃ua .",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Ojepe’a Pseudo-LOC .",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Modo de edición en vivo Activo: Opaite enlace ha botón ojejoko. Emboguejy jehaipyre emohenda hag̃ua.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Anive remombe’u .",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Ñe’ẽryru .",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Ko'ag̃agua",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "oñesugeríva .",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Emoĩ fix .",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplicado opavave .",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Ojeporu va’ekue .",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Aplicado $Count$ Ñemyatyrõ .",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sincronización de conducción .",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Página ko’áĝagua .",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Ohechauka jehaipyre ypykue .",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Ojeporu haguã pseudo-localización...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Ojegueraha haguã Modo de edición en vivo...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Modo de informe de insectos de toggling...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Openávo JSON Ñe'ẽasahára...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Cliente de traducción no inicializado .",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Eiporavo raẽ jehaipyre pe páhinape .",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ndikatúi omotenonde cheque de calidad. Embopyahu pe páhina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ndaikatúi oñepyrũ ñe’ẽasa. Embopyahu pe páhina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ndaikatúi ohupyty marandu página guive. Por favor, embopyahu.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Servicio de sincronización de conducción ndojeguerekói .",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sincronización ndoikói: $Error$ .",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ndojekuaaukái Page ndive. Eñeha’ã embopyahu.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ndaikatúi ohechauka umi detalle de bug. Embopyahu pe páhina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ndojeguerahái exportación Excel-pe. Eñeha'ã jey.",
+    "description": "Error when Excel export fails"
   }
 }

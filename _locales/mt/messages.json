@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kif jaħdem: • Ibdel bejn it-test oriġinali u dak tradott • It-traduzzjonijiet jiġu ssejvjati fil-cache għal bdil rapidu • Jaħdem mat-test kollu fuq il-paġna • Neħħi l-cache biex terġa' tittraduċi",
+    "message": "Kif jaħdem:\n• Ibdel bejn it-test oriġinali u dak tradott\n• It-traduzzjonijiet jiġu ssejvjati fil-cache għal bdil rapidu\n• Jaħdem mat-test kollu fuq il-paġna\n• Neħħi l-cache biex terġa' tittraduċi",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kif jaħdem: • Ikklikkja fuq kwalunkwe element tat-test biex teditjah • Il-bidliet jiġu traċċati f'ħin reali • Esporta l-modifiki bħala JSON jew Excel • Agħfas Ctrl+E biex tesporta l-bidliet",
+    "message": "Kif jaħdem:\n• Ikklikkja fuq kwalunkwe element tat-test biex teditjah\n• Il-bidliet jiġu traċċati f'ħin reali\n• Esporta l-modifiki bħala JSON jew Excel\n• Agħfas Ctrl+E biex tesporta l-bidliet",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kif jaħdem: • Tella' fajls tal-lingwa JSON • Agħżel il-lingwi fil-mira • Ittraduċi bil-Google jew bl-AI • Niżżel fajls tradotti",
+    "message": "Kif jaħdem:\n• Tella' fajls tal-lingwa JSON\n• Agħżel il-lingwi fil-mira\n• Ittraduċi bil-Google jew bl-AI\n• Niżżel fajls tradotti",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kif jaħdem: • Ikklikkja elementi tat-test biex tirrapporta kwistjonijiet • Żid deskrizzjonijiet u s-severità • Esporta rapporti għal Excel jew JSON • Sinkronizza ma' Google Drive",
+    "message": "Kif jaħdem:\n• Ikklikkja elementi tat-test biex tirrapporta kwistjonijiet\n• Żid deskrizzjonijiet u s-severità\n• Esporta rapporti għal Excel jew JSON\n• Sinkronizza ma' Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Jekk jogħġbok idħol biex tuża t-traduzzjoni AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "L-aħjar għal fajls b'daqs raġonevoli.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Rapport tal-Kontroll tal-Kwalità",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Kollass sidebar",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Ikklikkja biex tespandi",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Neħħi Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Modalità Live Edit Attiva: Il-links u l-buttuni kollha huma mblukkati. Ikklikkja fuq it-test biex teditja.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Waqqaf Rappurtar",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "testi",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Kurrenti",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Issuġġerit",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Applika tiffissa",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Applika kollha",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Applikata",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Applikati $COUNT$ fissi",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Issinkronizza minn Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Paġna kurrenti",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Li juri test oriġinali",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Qed tapplika psewdolokalizzazzjoni...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Qed naqleb il-mod ta' editjar dirett...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Qed naqleb il-mod ta' rapport ta' bug...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Niftaħ it-traduttur JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Klijent tat-traduzzjoni mhux inizjalizzat",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Jekk jogħġbok agħżel it-test fuq il-paġna l-ewwel",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ma setgħetx tmexxi kontroll tal-kwalità. Jekk jogħġbok aġġorna l-paġna.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ma setgħetx tibda t-traduzzjoni. Jekk jogħġbok aġġorna l-paġna.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ma setgħetx tikseb rapporti mill-paġna. Jekk jogħġbok aġġorna.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Servizz tas-sinkronizzazzjoni tas-sewqan mhux disponibbli",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Is-sinkronizzazzjoni falliet: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Naqas milli jikkomunika mal-paġna. Ipprova iġjeniċi.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ma setgħetx turi d-dettalji tal-bug. Jekk jogħġbok aġġorna l-paġna.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Naqas milli jesporta lejn Excel. Jekk jogħġbok erġa' pprova.",
+    "description": "Error when Excel export fails"
   }
 }

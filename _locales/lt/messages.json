@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kaip tai veikia: • Perjungti originalų ir išverstą tekstą • Vertimai kaupiami talpykloje, kad būtų galima greitai perjungti • Veikia su visu puslapio tekstu • Išvalyti talpyklą, kad būtų galima išversti iš naujo",
+    "message": "Kaip tai veikia:\n• Perjungti originalų ir išverstą tekstą\n• Vertimai kaupiami talpykloje, kad būtų galima greitai perjungti\n• Veikia su visu puslapio tekstu\n• Išvalyti talpyklą, kad būtų galima išversti iš naujo",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kaip tai veikia: • Pakeičia simbolius diakritiniais ženklais • Prideda 30–40 % ilgio išplėtimą • Apvynioja tekstą žymekliais [!!!... !!!] • Pavyzdys: „Nustatymai“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "Kaip tai veikia:\n• Pakeičia simbolius diakritiniais ženklais\n• Prideda 30–40 % ilgio išplėtimą\n• Apvynioja tekstą žymekliais [!!!... !!!]\n• Pavyzdys: „Nustatymai“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kaip tai veikia: • Spustelėkite bet kurį teksto elementą, kad jį redaguotumėte • Pakeitimai stebimi realiuoju laiku • Eksportuokite pakeitimus JSON arba „Excel“ formatu • Paspauskite Ctrl+E, kad eksportuotumėte pakeitimus",
+    "message": "Kaip tai veikia:\n• Spustelėkite bet kurį teksto elementą, kad jį redaguotumėte\n• Pakeitimai stebimi realiuoju laiku\n• Eksportuokite pakeitimus JSON arba „Excel“ formatu\n• Paspauskite Ctrl+E, kad eksportuotumėte pakeitimus",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Papildomos funkcijos: • Dirbtiniu intelektu paremtas kontekstinis vertimas • Visų puslapių vertimas paketais • Vertimų kokybės patikra • Natūralios kalbos pasiūlymai",
+    "message": "Papildomos funkcijos:\n• Dirbtiniu intelektu paremtas kontekstinis vertimas\n• Visų puslapių vertimas paketais\n• Vertimų kokybės patikra\n• Natūralios kalbos pasiūlymai",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kaip tai veikia: • Įkelti JSON kalbos failus • Pasirinkite tikslines kalbas • Versti naudodami „Google“ arba dirbtinį intelektą • Atsisiųsti išverstus failus",
+    "message": "Kaip tai veikia:\n• Įkelti JSON kalbos failus\n• Pasirinkite tikslines kalbas\n• Versti naudodami „Google“ arba dirbtinį intelektą\n• Atsisiųsti išverstus failus",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kaip tai veikia: • Spustelėkite teksto elementus, kad praneštumėte apie problemas • Pridėkite aprašymus ir svarbos duomenis • Eksportuokite ataskaitas į „Excel“ arba JSON • Sinchronizuokite su „Google“ disku",
+    "message": "Kaip tai veikia:\n• Spustelėkite teksto elementus, kad praneštumėte apie problemas\n• Pridėkite aprašymus ir svarbos duomenis\n• Eksportuokite ataskaitas į „Excel“ arba JSON\n• Sinchronizuokite su „Google“ disku",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Jei norite naudoti AI vertimą, prisijunkite",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Geriausiai tinka tinkamo dydžio failams.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kokybės patikrinimo ataskaita",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sutraukti šoninę juostą",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Spustelėkite norėdami išplėsti",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pašalinti Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Tiesioginio redagavimo režimas aktyvus: visos nuorodos ir mygtukai yra užblokuoti. Norėdami redaguoti, spustelėkite tekstą.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Nustokite teikti ataskaitas",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekstų",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Dabartinė",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Siūloma",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Taikyti pataisą",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Taikyti viską",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Taikoma",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Pritaikyti $COUNT$ pataisymai",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinchronizuoti iš Disko",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Dabartinis puslapis",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Rodomas originalus tekstas",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Taikoma pseudolokalizacija...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Perjungiamas tiesioginio redagavimo režimas...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Perjungiamas pranešimo apie riktą režimas...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Atidaromas JSON vertėjas...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Vertimo klientas nėra inicijuotas",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Pirmiausia puslapyje pasirinkite tekstą",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nepavyko atlikti kokybės patikros. Atnaujinkite puslapį.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Nepavyko pradėti vertimo. Atnaujinkite puslapį.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nepavyko gauti ataskaitų iš puslapio. Prašome atnaujinti.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Disko sinchronizavimo paslauga nepasiekiama",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Nepavyko sinchronizuoti: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Nepavyko susisiekti su puslapiu. Pabandykite atnaujinti.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Nepavyko parodyti informacijos apie riktą. Atnaujinkite puslapį.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Nepavyko eksportuoti į „Excel“. Bandykite dar kartą.",
+    "description": "Error when Excel export fails"
   }
 }

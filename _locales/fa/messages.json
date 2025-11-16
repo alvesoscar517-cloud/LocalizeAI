@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "نحوه کار: • جابجایی بین متن اصلی و ترجمه شده • ترجمه‌ها برای جابجایی سریع ذخیره می‌شوند • با تمام متن موجود در صفحه کار می‌کند • برای ترجمه مجدد، حافظه پنهان را پاک کنید",
+    "message": "نحوه کار:\n• جابجایی بین متن اصلی و ترجمه شده\n• ترجمه‌ها برای جابجایی سریع ذخیره می‌شوند\n• با تمام متن موجود در صفحه کار می‌کند\n• برای ترجمه مجدد، حافظه پنهان را پاک کنید",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "نحوه کار: • کاراکترها را با نسخه‌های دارای لهجه جایگزین می‌کند • 30-40٪ گسترش طول اضافه می‌کند • متن را در نشانگرهای [!!!... !!!] قرار می‌دهد • مثال: \"تنظیمات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "نحوه کار:\n• کاراکترها را با نسخه‌های دارای لهجه جایگزین می‌کند\n• 30-40٪ گسترش طول اضافه می‌کند\n• متن را در نشانگرهای [!!!... !!!] قرار می‌دهد\n• مثال: \"تنظیمات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "نحوه کار: • برای ویرایش هر عنصر متنی، روی آن کلیک کنید • تغییرات به صورت آنی ردیابی می‌شوند • ویرایش‌ها را به صورت JSON یا Excel صادر کنید • برای صادر کردن تغییرات، Ctrl+E را فشار دهید",
+    "message": "نحوه کار:\n• برای ویرایش هر عنصر متنی، روی آن کلیک کنید\n• تغییرات به صورت آنی ردیابی می‌شوند\n• ویرایش‌ها را به صورت JSON یا Excel صادر کنید\n• برای صادر کردن تغییرات، Ctrl+E را فشار دهید",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ویژگی‌های پریمیوم: • ترجمه متن-آگاه با هوش مصنوعی • ترجمه دسته‌ای کل صفحات • بررسی کیفیت ترجمه‌ها • پیشنهاد زبان طبیعی",
+    "message": "ویژگی‌های پریمیوم:\n• ترجمه متن-آگاه با هوش مصنوعی\n• ترجمه دسته‌ای کل صفحات\n• بررسی کیفیت ترجمه‌ها\n• پیشنهاد زبان طبیعی",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "نحوه کار: • آپلود فایل‌های زبان JSON • انتخاب زبان‌های هدف • ترجمه با گوگل یا هوش مصنوعی • دانلود فایل‌های ترجمه شده",
+    "message": "نحوه کار:\n• آپلود فایل‌های زبان JSON\n• انتخاب زبان‌های هدف\n• ترجمه با گوگل یا هوش مصنوعی\n• دانلود فایل‌های ترجمه شده",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "نحوه کار: • برای گزارش مشکلات، روی عناصر متن کلیک کنید • توضیحات و شدت را اضافه کنید • گزارش‌ها را به اکسل یا JSON صادر کنید • با Google Drive همگام‌سازی کنید",
+    "message": "نحوه کار:\n• برای گزارش مشکلات، روی عناصر متن کلیک کنید\n• توضیحات و شدت را اضافه کنید\n• گزارش‌ها را به اکسل یا JSON صادر کنید\n• با Google Drive همگام‌سازی کنید",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "لطفاً برای استفاده از ترجمه هوش مصنوعی وارد شوید",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "بهترین برای فایل هایی با اندازه معقول.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "گزارش بررسی کیفیت",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "کوچک کردن نوار کناری",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "برای گسترش کلیک کنید",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc را حذف کنید",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "حالت ویرایش زنده فعال: همه پیوندها و دکمه ها مسدود هستند. برای ویرایش روی متن کلیک کنید.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "توقف گزارش",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "متن ها",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "فعلی",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "پیشنهاد شده است",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "رفع مشکل را اعمال کنید",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "همه را اعمال کنید",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "اعمال شد",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "رفع $COUNT$ اعمال شد",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "همگام سازی از Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "صفحه فعلی",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "نمایش متن اصلی",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "اعمال شبه بومی سازی...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "در حال تغییر حالت ویرایش زنده...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "تغییر حالت گزارش اشکال...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "باز کردن مترجم JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "مشتری ترجمه مقداردهی اولیه نشده است",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "لطفا ابتدا متن صفحه را انتخاب کنید",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "بررسی کیفیت اجرا نشد. لطفا صفحه را رفرش کنید",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ترجمه شروع نشد. لطفا صفحه را رفرش کنید",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "گزارش از صفحه دریافت نشد. لطفا رفرش کنید.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "سرویس همگام سازی Drive در دسترس نیست",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "همگام‌سازی انجام نشد: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "برقراری ارتباط با صفحه انجام نشد. تازه کردن را امتحان کنید.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "جزئیات اشکال نمایش داده نشد. لطفا صفحه را رفرش کنید",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "صادر کردن به اکسل انجام نشد. لطفا دوباره امتحان کنید.",
+    "description": "Error when Excel export fails"
   }
 }

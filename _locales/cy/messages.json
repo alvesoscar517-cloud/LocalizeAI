@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Sut mae'n gweithio: • Newid rhwng testun gwreiddiol a chyfieithiad • Mae cyfieithiadau wedi'u storio yn y storfa er mwyn newid yn gyflym • Yn gweithio gyda'r holl destun ar y dudalen • Clirio'r storfa i ailgyfieithu",
+    "message": "Sut mae'n gweithio:\n• Newid rhwng testun gwreiddiol a chyfieithiad\n• Mae cyfieithiadau wedi'u storio yn y storfa er mwyn newid yn gyflym\n• Yn gweithio gyda'r holl destun ar y dudalen\n• Clirio'r storfa i ailgyfieithu",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Sut mae'n gweithio: • Yn disodli nodau gyda fersiynau acennog • Yn ychwanegu ehangu hyd o 30-40% • Yn lapio testun mewn marcwyr [!!!... !!!] • Enghraifft: \"Gosodiadau\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Sut mae'n gweithio:\n• Yn disodli nodau gyda fersiynau acennog\n• Yn ychwanegu ehangu hyd o 30-40%\n• Yn lapio testun mewn marcwyr [!!!... !!!]\n• Enghraifft: \"Gosodiadau\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Sut mae'n gweithio: • Cliciwch ar unrhyw elfen destun i'w golygu • Caiff newidiadau eu holrhain mewn amser real • Allforio golygiadau fel JSON neu Excel • Pwyswch Ctrl+E i allforio newidiadau",
+    "message": "Sut mae'n gweithio:\n• Cliciwch ar unrhyw elfen destun i'w golygu\n• Caiff newidiadau eu holrhain mewn amser real\n• Allforio golygiadau fel JSON neu Excel\n• Pwyswch Ctrl+E i allforio newidiadau",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Nodweddion Premiwm: • Cyfieithu ymwybodol o gyd-destun wedi'i bweru gan AI • Cyfieithu tudalennau cyfan mewn swp • Gwirio ansawdd ar gyfer cyfieithiadau • Awgrymiadau iaith naturiol",
+    "message": "Nodweddion Premiwm:\n• Cyfieithu ymwybodol o gyd-destun wedi'i bweru gan AI\n• Cyfieithu tudalennau cyfan mewn swp\n• Gwirio ansawdd ar gyfer cyfieithiadau\n• Awgrymiadau iaith naturiol",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Sut mae'n gweithio: • Uwchlwytho ffeiliau iaith JSON • Dewis ieithoedd targed • Cyfieithu gyda Google neu AI • Lawrlwytho ffeiliau wedi'u cyfieithu",
+    "message": "Sut mae'n gweithio:\n• Uwchlwytho ffeiliau iaith JSON\n• Dewis ieithoedd targed\n• Cyfieithu gyda Google neu AI\n• Lawrlwytho ffeiliau wedi'u cyfieithu",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Sut mae'n gweithio: • Cliciwch ar elfennau testun i roi gwybod am broblemau • Ychwanegu disgrifiadau a difrifoldeb • Allforio adroddiadau i Excel neu JSON • Cysoni â Google Drive",
+    "message": "Sut mae'n gweithio:\n• Cliciwch ar elfennau testun i roi gwybod am broblemau\n• Ychwanegu disgrifiadau a difrifoldeb\n• Allforio adroddiadau i Excel neu JSON\n• Cysoni â Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Mewngofnodwch i ddefnyddio cyfieithiad AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Gorau ar gyfer ffeiliau gyda maint rhesymol.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Adroddiad Gwirio Ansawdd",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Crebachu bar ochr",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Cliciwch i ehangu",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Dileu Ffug-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Modd Golygu Byw yn Actif: Mae'r holl ddolenni a botymau wedi'u rhwystro. Cliciwch ar destun i olygu.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Rhoi'r Gorau i Adrodd",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "testunau",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Cyfredol",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Awgrymir",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Gwneud cais atgyweiria",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Gwnewch gais i gyd",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Cymhwysol",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Cymhwyswyd $COUNT$ atgyweiriadau",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Cysoni o Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Tudalen Bresennol",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Yn dangos testun gwreiddiol",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Wrthi'n defnyddio ffug-leoli...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Wrthi'n toglo modd golygu byw...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Wrthi'n toglo modd adrodd nam...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Wrthi'n agor cyfieithydd JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Cleient cyfieithu heb ei gychwyn",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Dewiswch destun ar y dudalen yn gyntaf",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Methu rhedeg gwiriad ansawdd. Adnewyddwch y dudalen os gwelwch yn dda.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Methu dechrau cyfieithu. Adnewyddwch y dudalen os gwelwch yn dda.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Methu cael adroddiadau o'r dudalen. Adnewyddwch os gwelwch yn dda.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Nid yw gwasanaeth cysoni Drive ar gael",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Methodd cysoni: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Wedi methu cyfathrebu â'r dudalen. Ceisiwch adfywio.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Methu â dangos manylion nam. Adnewyddwch y dudalen os gwelwch yn dda.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Wedi methu ag allforio i Excel. Ceisiwch eto.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="content.css">
+  <link rel="stylesheet" href="content-language-modern.css">
+  <link rel="stylesheet" href="content-modal-modern.css">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    /* Adapt sidebar for panel */
+    #localizeai-panel {
+      position: static !important;
+      width: 100% !important;
+      height: 100% !important;
+      box-shadow: none !important;
+      display: block !important;
+      transform: none !important;
+    }
+    
+    /* Hide header completely in panel (Chrome already has title and close button) */
+    .sidebar-header {
+      display: none !important;
+    }
+    
+    /* Hide collapse button and indicator */
+    #localizeai-collapse,
+    .collapsed-indicator {
+      display: none !important;
+    }
+    
+    /* Adjust sidebar content to fill space */
+    .localizeai-sidebar {
+      padding-top: 0 !important;
+    }
+    
+    .sidebar-content {
+      padding-top: 20px !important;
+    }
+    
+    /* Notification in panel - position at bottom center */
+    .localizeai-notification {
+      position: fixed !important;
+      bottom: 20px !important;
+      left: 50% !important;
+      right: auto !important;
+      max-width: 90% !important;
+      z-index: 10000 !important;
+    }
+    
+    /* Override transform for show state in panel */
+    .localizeai-notification.show {
+      transform: translateX(-50%) translateY(0) !important;
+    }
+    
+    /* Initial state for animation */
+    .localizeai-notification:not(.show) {
+      transform: translateX(-50%) translateY(20px) !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="localizeai-panel"></div>
+  
+  <!-- Load all required scripts -->
+  <script src="lottie.min.js"></script>
+  <script src="xlsx.full.min.js"></script>
+  <script src="i18n-helper.js"></script>
+  <script src="languages-config.js"></script>
+  <script src="translate-client.js"></script>
+  <script src="bug-report-db.js"></script>
+  <script src="bug-report-export.js"></script>
+  <script src="drive-sync.js"></script>
+  <script src="bug-report-manager.js"></script>
+  <script src="bug-report-sidebar.js"></script>
+  <script src="json-translator.js"></script>
+  <script src="confirm-dialog.js"></script>
+  <script src="text-shimmer.js"></script>
+  <script src="content.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>

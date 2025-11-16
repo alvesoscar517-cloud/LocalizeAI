@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Quomodo operatur: • Inter textum originalem et translatum alternat • Translationes in memoria celatae servantur ad celerem commutationem • Cum omni textu in pagina operatur • Memoria celata purganda est ad retradendum",
+    "message": "Quomodo operatur:\n• Inter textum originalem et translatum alternat\n• Translationes in memoria celatae servantur ad celerem commutationem\n• Cum omni textu in pagina operatur\n• Memoria celata purganda est ad retradendum",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Quomodo operatur: • Litteras cum versionibus accentuatis substituit • Expansionem longitudinis 30-40% addit • Textum in signis [!!!... !!!] includit • Exemplum: \"Optiones\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Quomodo operatur:\n• Litteras cum versionibus accentuatis substituit\n• Expansionem longitudinis 30-40% addit\n• Textum in signis [!!!... !!!] includit\n• Exemplum: \"Optiones\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Quomodo operatur: • Elementum textus quodlibet preme ut id emendes • Mutationes in tempore reali notantur • Mutationes ut JSON vel Excel exporta • Ctrl+E preme ut mutationes exportes",
+    "message": "Quomodo operatur:\n• Elementum textus quodlibet preme ut id emendes\n• Mutationes in tempore reali notantur\n• Mutationes ut JSON vel Excel exporta\n• Ctrl+E preme ut mutationes exportes",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Proprietates Praecipuae: • Interpretatio contextu conscia, ab intelligentia artificiali impulsa • Interpretatio paginarum integrarum per seriem • Examen qualitatis interpretationum • Suggestiones linguae naturalis",
+    "message": "Proprietates Praecipuae:\n• Interpretatio contextu conscia, ab intelligentia artificiali impulsa\n• Interpretatio paginarum integrarum per seriem\n• Examen qualitatis interpretationum\n• Suggestiones linguae naturalis",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Quomodo operatur: • Fasciculos linguae JSON impone • Linguas destinatas elige • Google vel AI verte • Fasciculos conversos extrahe",
+    "message": "Quomodo operatur:\n• Fasciculos linguae JSON impone\n• Linguas destinatas elige\n• Google vel AI verte\n• Fasciculos conversos extrahe",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Quomodo operatur: • Elementa textus preme ut problemata referas • Descriptiones et gravitatem adde • Relationes in Excel vel JSON exporta • Cum Google Drive synchroniza",
+    "message": "Quomodo operatur:\n• Elementa textus preme ut problemata referas\n• Descriptiones et gravitatem adde\n• Relationes in Excel vel JSON exporta\n• Cum Google Drive synchroniza",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Please sign in to use AI translation",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Optimus pro lima cum rationabili magnitudine.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Qualis Reprehendo Report",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Collapse pars",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Click to expand",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Remove Pseudo-Lo",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Vive Edit Modus Active: omnes nexus et globulis obstruuntur. Click in textum ad edit.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Subsisto Opinio",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "texts",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Current",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Suggessit",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Applicare fix",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Applicare omnia",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "applicata",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "De $ COUNT $ constituit",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sync de Coegi",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Current Page",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Ostendens original text",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Adicio pseudo-localization...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Vivamus toggling edit modum...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Toggling cimex fama modus ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Opening JSON interpres...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Translation client non initialized",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Placere eligere textum paginae primae",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Non potuit currere qualitas reprehendo. Quaeso refice paginam.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Interpretatio incipere non potuit. Quaeso refice paginam.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Renuntiationes ex pagina non potui. Refice quaeso.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Sync ministerium eiciam non available",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync defecit: $ ERROR $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Communicare pagina neglexit. Conare refrigerium.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Non poterat ostendere cimex singula. Quaeso refice paginam.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Defecit exportare ad Excel. Quaeso, iterum conare.",
+    "description": "Error when Excel export fails"
   }
 }

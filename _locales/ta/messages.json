@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "இது எவ்வாறு செயல்படுகிறது: • அசல் மற்றும் மொழிபெயர்க்கப்பட்ட உரைக்கு இடையில் மாறுதல் • மொழிபெயர்ப்புகள் வேகமாக மாறுவதற்கு தற்காலிகமாக சேமிக்கப்படுகின்றன • பக்கத்தில் உள்ள அனைத்து உரையுடனும் வேலை செய்கிறது • மீண்டும் மொழிபெயர்க்க தற்காலிக சேமிப்பை அழிக்கவும்",
+    "message": "இது எவ்வாறு செயல்படுகிறது:\n• அசல் மற்றும் மொழிபெயர்க்கப்பட்ட உரைக்கு இடையில் மாறுதல்\n• மொழிபெயர்ப்புகள் வேகமாக மாறுவதற்கு தற்காலிகமாக சேமிக்கப்படுகின்றன\n• பக்கத்தில் உள்ள அனைத்து உரையுடனும் வேலை செய்கிறது\n• மீண்டும் மொழிபெயர்க்க தற்காலிக சேமிப்பை அழிக்கவும்",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "இது எவ்வாறு செயல்படுகிறது: • உச்சரிக்கப்பட்ட பதிப்புகளுடன் எழுத்துக்களை மாற்றுகிறது • 30-40% நீள விரிவாக்கத்தைச் சேர்க்கிறது • [!!!... !!!] குறிப்பான்களில் உரையை மடிக்கிறது • எடுத்துக்காட்டு: \"அமைப்புகள்\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "இது எவ்வாறு செயல்படுகிறது:\n• உச்சரிக்கப்பட்ட பதிப்புகளுடன் எழுத்துக்களை மாற்றுகிறது\n• 30-40% நீள விரிவாக்கத்தைச் சேர்க்கிறது\n• [!!!... !!!] குறிப்பான்களில் உரையை மடிக்கிறது\n• எடுத்துக்காட்டு: \"அமைப்புகள்\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "இது எவ்வாறு செயல்படுகிறது: • எந்த உரை உறுப்பையும் திருத்த கிளிக் செய்யவும் • மாற்றங்கள் நிகழ்நேரத்தில் கண்காணிக்கப்படும் • திருத்தங்களை JSON அல்லது Excel ஆக ஏற்றுமதி செய்யவும் • மாற்றங்களை ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்",
+    "message": "இது எவ்வாறு செயல்படுகிறது:\n• எந்த உரை உறுப்பையும் திருத்த கிளிக் செய்யவும்\n• மாற்றங்கள் நிகழ்நேரத்தில் கண்காணிக்கப்படும்\n• திருத்தங்களை JSON அல்லது Excel ஆக ஏற்றுமதி செய்யவும்\n• மாற்றங்களை ஏற்றுமதி செய்ய Ctrl+E ஐ அழுத்தவும்",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "பிரீமியம் அம்சங்கள்: • AI-இயக்கப்படும் சூழல்-விழிப்புணர்வு மொழிபெயர்ப்பு • முழு பக்கங்களையும் தொகுதியாக மொழிபெயர்க்கவும் • மொழிபெயர்ப்புகளுக்கான தர சரிபார்ப்பு • இயற்கை மொழி பரிந்துரைகள்",
+    "message": "பிரீமியம் அம்சங்கள்:\n• AI-இயக்கப்படும் சூழல்-விழிப்புணர்வு மொழிபெயர்ப்பு\n• முழு பக்கங்களையும் தொகுதியாக மொழிபெயர்க்கவும்\n• மொழிபெயர்ப்புகளுக்கான தர சரிபார்ப்பு\n• இயற்கை மொழி பரிந்துரைகள்",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "இது எவ்வாறு செயல்படுகிறது: • JSON மொழி கோப்புகளைப் பதிவேற்றவும் • இலக்கு மொழிகளைத் தேர்ந்தெடுக்கவும் • Google அல்லது AI மூலம் மொழிபெயர்க்கவும் • மொழிபெயர்க்கப்பட்ட கோப்புகளைப் பதிவிறக்கவும்",
+    "message": "இது எவ்வாறு செயல்படுகிறது:\n• JSON மொழி கோப்புகளைப் பதிவேற்றவும்\n• இலக்கு மொழிகளைத் தேர்ந்தெடுக்கவும்\n• Google அல்லது AI மூலம் மொழிபெயர்க்கவும்\n• மொழிபெயர்க்கப்பட்ட கோப்புகளைப் பதிவிறக்கவும்",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "இது எவ்வாறு செயல்படுகிறது: • சிக்கல்களைப் புகாரளிக்க உரை கூறுகளைக் கிளிக் செய்யவும் • விளக்கங்களையும் தீவிரத்தையும் சேர்க்கவும் • அறிக்கைகளை Excel அல்லது JSON க்கு ஏற்றுமதி செய்யவும் • Google Drive உடன் ஒத்திசைக்கவும்",
+    "message": "இது எவ்வாறு செயல்படுகிறது:\n• சிக்கல்களைப் புகாரளிக்க உரை கூறுகளைக் கிளிக் செய்யவும்\n• விளக்கங்களையும் தீவிரத்தையும் சேர்க்கவும்\n• அறிக்கைகளை Excel அல்லது JSON க்கு ஏற்றுமதி செய்யவும்\n• Google Drive உடன் ஒத்திசைக்கவும்",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI மொழிபெயர்ப்பைப் பயன்படுத்த உள்நுழையவும்",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "நியாயமான அளவு கொண்ட கோப்புகளுக்கு சிறந்தது.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "தர சோதனை அறிக்கை",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "பக்கப்பட்டியைச் சுருக்கவும்",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "விரிவாக்க கிளிக் செய்யவும்",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc ஐ அகற்று",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "லைவ் எடிட் பயன்முறை செயலில் உள்ளது: அனைத்து இணைப்புகளும் பொத்தான்களும் தடுக்கப்பட்டுள்ளன. திருத்த உரையை கிளிக் செய்யவும்.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "புகாரளிப்பதை நிறுத்து",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "நூல்கள்",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "தற்போதைய",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "பரிந்துரைக்கப்பட்டது",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "சரிசெய்தலுக்கு விண்ணப்பிக்கவும்",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "அனைத்தையும் விண்ணப்பிக்கவும்",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "விண்ணப்பிக்கப்பட்டது",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ திருத்தங்கள் பயன்படுத்தப்பட்டன",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "இயக்ககத்தில் இருந்து ஒத்திசைக்கவும்",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "தற்போதைய பக்கம்",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "அசல் உரையைக் காட்டுகிறது",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "போலி உள்ளூர்மயமாக்கலைப் பயன்படுத்துகிறது...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "லைவ் எடிட் பயன்முறையை நிலைமாற்றுகிறது...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "பிழை அறிக்கை பயன்முறையை மாற்றுகிறது...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON மொழிபெயர்ப்பாளரை திறக்கிறது...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "மொழிபெயர்ப்பு கிளையன்ட் துவக்கப்படவில்லை",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "முதலில் பக்கத்தில் உள்ள உரையைத் தேர்ந்தெடுக்கவும்",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "தரச் சரிபார்ப்பை இயக்க முடியவில்லை. பக்கத்தைப் புதுப்பிக்கவும்.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "மொழிபெயர்ப்பைத் தொடங்க முடியவில்லை. பக்கத்தைப் புதுப்பிக்கவும்.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "பக்கத்திலிருந்து அறிக்கைகளைப் பெற முடியவில்லை. புதுப்பிக்கவும்.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "இயக்கக ஒத்திசைவு சேவை கிடைக்கவில்லை",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "ஒத்திசைவு தோல்வி: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "பக்கத்துடன் தொடர்பு கொள்ள முடியவில்லை. புதுப்பித்து முயற்சிக்கவும்.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "பிழை விவரங்களைக் காட்ட முடியவில்லை. பக்கத்தைப் புதுப்பிக்கவும்.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel க்கு ஏற்றுமதி செய்ய முடியவில்லை. மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error when Excel export fails"
   }
 }

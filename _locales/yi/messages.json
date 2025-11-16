@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ווי עס אַרבעט: • טוישן צווישן אָריגינעלן און איבערגעזעצטן טעקסט • איבערזעצונגען ווערן געקעשט פֿאַר שנעלן וועקסל • אַרבעט מיט אַלע טעקסט אויף דער בלאַט • רייניקן קעש צו איבערזעצן ווידער",
+    "message": "ווי עס אַרבעט:\n• טוישן צווישן אָריגינעלן און איבערגעזעצטן טעקסט\n• איבערזעצונגען ווערן געקעשט פֿאַר שנעלן וועקסל\n• אַרבעט מיט אַלע טעקסט אויף דער בלאַט\n• רייניקן קעש צו איבערזעצן ווידער",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "ווי אזוי עס ארבעט: • פארטרעט אותיות מיט אקצענטירטע ווערסיעס • לייגט צו 30-40% לענג אויסברייטערונג • איינוויקלט טעקסט אין [!!!... !!!] מארקערס • ביישפיל: \"סעטטינגס\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "ווי אזוי עס ארבעט:\n• פארטרעט אותיות מיט אקצענטירטע ווערסיעס\n• לייגט צו 30-40% לענג אויסברייטערונג\n• איינוויקלט טעקסט אין [!!!... !!!] מארקערס\n• ביישפיל: \"סעטטינגס\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ווי אזוי עס ארבעט: • דריקט אויף יעדן טעקסט עלעמענט צו עס רעדאַקטירן • ענדערונגען ווערן נאכגעפאלגט אין רעאל-צייט • עקספארטירט ענדערונגען אלס JSON אדער עקסעל • דריקט Ctrl+E צו עקספארטירן ענדערונגען",
+    "message": "ווי אזוי עס ארבעט:\n• דריקט אויף יעדן טעקסט עלעמענט צו עס רעדאַקטירן\n• ענדערונגען ווערן נאכגעפאלגט אין רעאל-צייט\n• עקספארטירט ענדערונגען אלס JSON אדער עקסעל\n• דריקט Ctrl+E צו עקספארטירן ענדערונגען",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "פּרעמיע פֿעיִטשערז: • קינסטלעך-אינטעליגענטע (AI) געטריבענע קאָנטעקסט-באַוואוסטזיניקע איבערזעצונג • גרופּע איבערזעצן גאַנצע בלעטער • קוואַליטעט קאָנטראָל פֿאַר איבערזעצונגען • פֿאָרשלאָגן פֿאַר נאַטירלעכע שפּראַך",
+    "message": "פּרעמיע פֿעיִטשערז:\n• קינסטלעך-אינטעליגענטע (AI) געטריבענע קאָנטעקסט-באַוואוסטזיניקע איבערזעצונג\n• גרופּע איבערזעצן גאַנצע בלעטער\n• קוואַליטעט קאָנטראָל פֿאַר איבערזעצונגען\n• פֿאָרשלאָגן פֿאַר נאַטירלעכע שפּראַך",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ווי אזוי עס ארבעט: • ארויפלאדן JSON שפראך טעקעס • אויסקלויבן ציל שפראכן • איבערזעצן מיט גוגל אדער קינסטלעכע אינטעליגענץ • אראפלאדן איבערגעזעצטע טעקעס",
+    "message": "ווי אזוי עס ארבעט:\n• ארויפלאדן JSON שפראך טעקעס\n• אויסקלויבן ציל שפראכן\n• איבערזעצן מיט גוגל אדער קינסטלעכע אינטעליגענץ\n• אראפלאדן איבערגעזעצטע טעקעס",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ווי אזוי עס ארבעט: • דריקט אויף טעקסט עלעמענטן צו מעלדן פראבלעמען • לייג צו באשרייבונגען און ערנסטקייט • עקספארטירן באריכטן צו עקסעל אדער דזשעי-ען • סינקראניזירן מיט גוגל דרייוו",
+    "message": "ווי אזוי עס ארבעט:\n• דריקט אויף טעקסט עלעמענטן צו מעלדן פראבלעמען\n• לייג צו באשרייבונגען און ערנסטקייט\n• עקספארטירן באריכטן צו עקסעל אדער דזשעי-ען\n• סינקראניזירן מיט גוגל דרייוו",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "ביטע קלאָץ אין צו נוצן אַי איבערזעצונג",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "בעסטער פֿאַר טעקעס מיט אַ גלייַך גרייס.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "קוואַליטי טשעק באריכט",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ייַנבראָך סיידבאַר",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "דריקט צו יקספּאַנד",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "אַראָפּנעמען Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "לעבן עדיט מאָדע אַקטיוו: אַלע לינקס און קנעפּלעך זענען אפגעשטעלט. דריקט אויף טעקסט צו רעדאַגירן.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "האַלטן ריפּאָרטינג",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "טעקסטן",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "קראַנט",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "סאַגדזשעסטיד",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "צולייגן פאַרריכטן",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "צולייגן אַלע",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "געווענדט",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "אַפּלייינג $COUNT$ פיקסיז",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "סינק פֿון דרייוו",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "קראַנט בלאַט",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "ווייזן אָריגינעל טעקסט",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "אַפּלייינג פּסעוודאָ-לאָוקאַלאַזיישאַן ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "טוישן די לעבן רעדאַגירן מאָדע ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "באַשטימען זשוק באַריכט מאָדע ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "עפֿענען JSON איבערזעצער...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "איבערזעצונג קליענט איז נישט יניטיאַלייזד",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ביטע אויסקלייַבן טעקסט אויף די בלאַט ערשטער",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "קען נישט לויפן קוואַליטעט טשעק. ביטע דערפרישן דעם בלאט.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "קען נישט אָנהייבן איבערזעצונג. ביטע דערפרישן דעם בלאט.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "קען נישט באַקומען ריפּאָרץ פון בלאַט. ביטע דערפרישן.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "דרייוו סינק סערוויס איז ניט בנימצא",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "סינק ניט אַנדערש: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ניט אַנדערש צו יבערגעבן מיט בלאַט. פּרוּווט רעפרעשינג.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "קען נישט ווייַזן זשוק דעטאַילס. ביטע דערפרישן דעם בלאט.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ניט אַנדערש צו אַרויספירן צו עקססעל. ביטע פּרוּווט ווידער.",
+    "description": "Error when Excel export fails"
   }
 }

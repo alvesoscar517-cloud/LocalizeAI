@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Cara ia berfungsi: • Togol antara teks asal dan teks terjemahan • Terjemahan dicache untuk penukaran pantas • Berfungsi dengan semua teks pada halaman • Kosongkan cache untuk menterjemah semula",
+    "message": "Cara ia berfungsi:\n• Togol antara teks asal dan teks terjemahan\n• Terjemahan dicache untuk penukaran pantas\n• Berfungsi dengan semua teks pada halaman\n• Kosongkan cache untuk menterjemah semula",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Cara ia berfungsi: • Menggantikan aksara dengan versi beraksen • Menambah pengembangan panjang 30-40%. • Balut teks dalam [!!!... !!!] penanda • Contoh: \"Tetapan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Cara ia berfungsi:\n• Menggantikan aksara dengan versi beraksen\n• Menambah pengembangan panjang 30-40%.\n• Balut teks dalam [!!!... !!!] penanda\n• Contoh: \"Tetapan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Cara ia berfungsi: • Klik mana-mana elemen teks untuk mengeditnya • Perubahan dijejaki dalam masa nyata • Eksport suntingan sebagai JSON atau Excel • Tekan Ctrl+E untuk mengeksport perubahan",
+    "message": "Cara ia berfungsi:\n• Klik mana-mana elemen teks untuk mengeditnya\n• Perubahan dijejaki dalam masa nyata\n• Eksport suntingan sebagai JSON atau Excel\n• Tekan Ctrl+E untuk mengeksport perubahan",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Cara ia berfungsi: • Muat naik fail bahasa JSON • Pilih bahasa sasaran • Terjemah dengan Google atau AI • Muat turun fail terjemahan",
+    "message": "Cara ia berfungsi:\n• Muat naik fail bahasa JSON\n• Pilih bahasa sasaran\n• Terjemah dengan Google atau AI\n• Muat turun fail terjemahan",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Cara ia berfungsi: • Klik elemen teks untuk melaporkan isu • Tambahkan penerangan dan keterukan • Eksport laporan ke Excel atau JSON • Segerakkan dengan Google Drive",
+    "message": "Cara ia berfungsi:\n• Klik elemen teks untuk melaporkan isu\n• Tambahkan penerangan dan keterukan\n• Eksport laporan ke Excel atau JSON\n• Segerakkan dengan Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Sila masuk untuk menggunakan terjemahan AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Terbaik untuk fail dengan saiz yang munasabah.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Laporan cek berkualiti",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sidebar runtuh",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klik untuk berkembang",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Keluarkan pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mod Edit Live Aktif: Semua pautan dan butang disekat. Klik pada teks untuk diedit.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Berhenti melaporkan",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "teks",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Semasa",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Dicadangkan",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Sapukan Betulkan",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Memohon semua",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Digunakan",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Applied $ Count $ fixes",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Segerakkan dari pemacu",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Halaman semasa",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Menunjukkan teks asal",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Memohon pseudo-lokalisasi ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Menukar mod edit langsung ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Mod Laporan Bug Toggling ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Pembukaan JSON Penterjemah ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Pelanggan Terjemahan tidak dimulakan",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Sila pilih teks pada halaman terlebih dahulu",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Tidak dapat menjalankan pemeriksaan berkualiti. Sila muat semula halaman.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Tidak dapat memulakan terjemahan. Sila muat semula halaman.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Tidak dapat mendapatkan laporan dari Page. Sila muat semula.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Perkhidmatan penyegerakan memandu tidak tersedia",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync gagal: $ ralat $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Gagal berkomunikasi dengan Page. Cuba menyegarkan.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Tidak dapat menunjukkan butiran pepijat. Sila muat semula halaman.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Gagal mengeksport ke Excel. Sila cuba lagi.",
+    "description": "Error when Excel export fails"
   }
 }

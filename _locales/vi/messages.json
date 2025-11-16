@@ -60,7 +60,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Cách thức hoạt động: • Chuyển đổi giữa văn bản gốc và văn bản đã dịch • Bản dịch được lưu vào bộ nhớ đệm để chuyển đổi nhanh chóng • Hoạt động với toàn bộ văn bản trên trang • Xóa bộ nhớ đệm để dịch lại",
+    "message": "• Chuyển đổi giữa văn bản gốc và văn bản đã dịch\n• Bản dịch được lưu vào bộ nhớ đệm để chuyển đổi nhanh\n• Hoạt động với toàn bộ văn bản trên trang\n• Xóa bộ nhớ đệm để dịch lại",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -88,12 +88,16 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Cách thức hoạt động: • Thay thế các ký tự có dấu • Tăng độ dài thêm 30-40% • Ngắt dòng văn bản trong dấu [!!!... !!!] • Ví dụ: \"Cài đặt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "• Thay thế các ký tự có dấu\n• Tăng độ dài thêm 30-40%\n• Ngắt dòng văn bản trong dấu [!!!... !!!]\n• Ví dụ: \"Cài đặt\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
     "message": "Áp dụng Pseudo-Loc",
     "description": "Apply pseudo-localization button"
+  },
+  "removePseudoLoc": {
+    "message": "Hủy Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
   },
   "liveEditMode": {
     "message": "Chế độ chỉnh sửa trực tiếp",
@@ -104,12 +108,16 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Cách thức hoạt động: • Nhấp vào bất kỳ phần tử văn bản nào để chỉnh sửa • Các thay đổi được theo dõi theo thời gian thực • Xuất các chỉnh sửa dưới dạng JSON hoặc Excel • Nhấn Ctrl+E để xuất các thay đổi",
+    "message": "• Nhấp vào bất kỳ phần tử văn bản nào để chỉnh sửa\n• Các thay đổi được theo dõi theo thời gian thực\n• Xuất các chỉnh sửa dưới dạng JSON hoặc Excel\n• Nhấn Ctrl+E để xuất các thay đổi",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
     "message": "Bật Chỉnh sửa trực tiếp",
     "description": "Enable live edit button"
+  },
+  "liveEditModeActive": {
+    "message": "Chế độ Chỉnh sửa trực tiếp đã bật: Tất cả các liên kết và nút bấm đã bị chặn. Nhấp vào văn bản để chỉnh sửa.",
+    "description": "Live edit mode active notification"
   },
   "aiFeatures": {
     "message": "Tính năng AI",
@@ -120,7 +128,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Tính năng cao cấp: • Dịch thuật theo ngữ cảnh bằng AI • Dịch hàng loạt toàn bộ trang • Kiểm tra chất lượng bản dịch • Đề xuất ngôn ngữ tự nhiên",
+    "message": "• Dịch thuật theo ngữ cảnh bằng AI\n• Dịch hàng loạt toàn bộ trang\n• Kiểm tra chất lượng bản dịch\n• Đề xuất ngôn ngữ tự nhiên",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -152,7 +160,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Cách thức hoạt động: • Tải lên tệp ngôn ngữ JSON • Chọn ngôn ngữ đích • Dịch bằng Google hoặc AI • Tải xuống tệp đã dịch",
+    "message": "• Tải lên tệp ngôn ngữ JSON\n• Chọn ngôn ngữ đích\n• Dịch bằng Google hoặc AI\n• Tải xuống tệp đã dịch",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -168,12 +176,16 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Cách thức hoạt động: • Nhấp vào các thành phần văn bản để báo cáo sự cố • Thêm mô tả và mức độ nghiêm trọng • Xuất báo cáo sang Excel hoặc JSON • Đồng bộ hóa với Google Drive",
+    "message": "• Nhấp vào các thành phần văn bản để báo cáo sự cố\n• Thêm mô tả và mức độ nghiêm trọng\n• Xuất báo cáo sang Excel hoặc JSON\n• Đồng bộ hóa với Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
     "message": "Bắt đầu báo cáo",
     "description": "Start bug reporting button"
+  },
+  "stopReporting": {
+    "message": "Dừng báo cáo",
+    "description": "Stop bug reporting button"
   },
   "manageReports": {
     "message": "Quản lý báo cáo",
@@ -453,6 +465,10 @@
     "message": "Hoàn thành!",
     "description": "Complete status"
   },
+  "texts": {
+    "message": "văn bản",
+    "description": "Texts label"
+  },
   "startingTranslation": {
     "message": "Đang bắt đầu dịch cho $COUNT$ ngôn ngữ...",
     "description": "Starting translation message",
@@ -562,6 +578,36 @@
   "qualityCheckComplete": {
     "message": "Kiểm tra chất lượng hoàn tất",
     "description": "Quality check complete message"
+  },
+  "current": {
+    "message": "Hiện tại",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Đề xuất",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Áp dụng",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Áp dụng tất cả",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Đã áp dụng",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Đã áp dụng $COUNT$ sửa đổi",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
   },
   "syncingToGoogleDrive": {
     "message": "Đang đồng bộ hóa với Google Drive...",
@@ -1149,7 +1195,6 @@
     "message": "Đồng bộ từ Drive",
     "description": "Sync from Drive button"
   },
-
   "exportExcel": {
     "message": "Xuất Excel",
     "description": "Export Excel button"
@@ -1354,6 +1399,10 @@
     "message": "Vui lòng đăng nhập để sử dụng dịch AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Vui lòng đăng nhập để dịch file JSON",
+    "description": "Please sign in to translate JSON message"
+  },
   "translationMethod": {
     "message": "Phương thức dịch",
     "description": "Translation method title"
@@ -1415,5 +1464,79 @@
         "example": "3"
       }
     }
+  },
+  "currentPage": {
+    "message": "Trang hiện tại",
+    "description": "Current page indicator label"
+  },
+  "syncFromDriveOld": {
+    "message": "Đồng bộ hóa từ Drive",
+    "description": "Sync from Drive button"
+  },
+  "showingOriginalText": {
+    "message": "Hiển thị văn bản gốc",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Áp dụng bản địa hóa giả...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Đang chuyển đổi chế độ chỉnh sửa trực tiếp...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Đang chuyển đổi chế độ báo cáo lỗi...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Đang mở trình dịch JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Ứng dụng dịch thuật chưa được khởi tạo",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Vui lòng chọn văn bản trên trang trước",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Không thể chạy kiểm tra chất lượng. Vui lòng làm mới trang.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Không thể bắt đầu dịch. Vui lòng làm mới trang.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Không thể nhận được báo cáo từ trang. Hãy làm mới.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Dịch vụ đồng bộ hóa Drive không khả dụng",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Đồng bộ hóa không thành công: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Không thể liên lạc với trang. Hãy thử làm mới.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Không thể hiển thị chi tiết lỗi. Vui lòng làm mới trang.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Không thể xuất sang Excel. Vui lòng thử lại.",
+    "description": "Error when Excel export fails"
   }
 }

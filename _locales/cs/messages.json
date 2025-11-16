@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Jak to funguje: • Přepínání mezi původním a přeloženým textem • Překlady se ukládají do mezipaměti pro rychlé přepínání • Funguje s veškerým textem na stránce • Vymazání mezipaměti pro opětovný překlad",
+    "message": "Jak to funguje:\n• Přepínání mezi původním a přeloženým textem\n• Překlady se ukládají do mezipaměti pro rychlé přepínání\n• Funguje s veškerým textem na stránce\n• Vymazání mezipaměti pro opětovný překlad",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Jak to funguje: • Nahrazuje znaky verzemi s diakritikou • Přidává 30–40% rozšíření délky • Zalamuje text do značek [!!!... !!!] • Příklad: „Nastavení“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "Jak to funguje:\n• Nahrazuje znaky verzemi s diakritikou\n• Přidává 30–40% rozšíření délky\n• Zalamuje text do značek [!!!... !!!]\n• Příklad: „Nastavení“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Prémiové funkce: • Kontextový překlad s využitím umělé inteligence • Hromadný překlad celých stránek • Kontrola kvality překladů • Návrhy v přirozeném jazyce",
+    "message": "Prémiové funkce:\n• Kontextový překlad s využitím umělé inteligence\n• Hromadný překlad celých stránek\n• Kontrola kvality překladů\n• Návrhy v přirozeném jazyce",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Jak to funguje: • Nahrávání jazykových souborů JSON • Výběr cílových jazyků • Překlad pomocí Googlu nebo umělé inteligence • Stahování přeložených souborů",
+    "message": "Jak to funguje:\n• Nahrávání jazykových souborů JSON\n• Výběr cílových jazyků\n• Překlad pomocí Googlu nebo umělé inteligence\n• Stahování přeložených souborů",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Jak to funguje: • Kliknutím na textové prvky nahlaste problémy • Přidejte popisy a závažnost • Exportujte zprávy do Excelu nebo JSON • Synchronizujte s Diskem Google",
+    "message": "Jak to funguje:\n• Kliknutím na textové prvky nahlaste problémy\n• Přidejte popisy a závažnost\n• Exportujte zprávy do Excelu nebo JSON\n• Synchronizujte s Diskem Google",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Přihlaste se pro použití AI překladu",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Nejlepší pro soubory s rozumnou velikostí.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Zpráva o kontrole kvality",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sbalit postranní panel",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kliknutím rozbalíte",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Odebrat Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Režim Live Edit Active: Všechny odkazy a tlačítka jsou blokovány. Klikněte na text pro úpravu.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Zastavit hlášení",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "texty",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Proud",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Doporučeno",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Použít opravu",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Použít vše",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplikovaný",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Bylo použito $COUNT$ oprav",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synchronizovat z Disku",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Aktuální stránka",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Zobrazuje se původní text",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Používá se pseudo-lokalizace...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Přepínání režimu živých úprav...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Přepínání režimu hlášení chyby...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Otevírání překladače JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Překladový klient není inicializován",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Nejprve vyberte text na stránce",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nelze spustit kontrolu kvality. Obnovte prosím stránku.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Překlad nelze spustit. Obnovte prosím stránku.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nelze získat přehledy ze stránky. Prosím obnovte.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Služba synchronizace disku není k dispozici",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synchronizace se nezdařila: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Komunikace se stránkou se nezdařila. Zkuste se osvěžit.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Podrobnosti o chybě nelze zobrazit. Obnovte prosím stránku.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Export do Excelu se nezdařil. Zkuste to prosím znovu.",
+    "description": "Error when Excel export fails"
   }
 }

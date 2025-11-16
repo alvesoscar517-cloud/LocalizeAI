@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Bi o ṣe n ṣiṣẹ: • Yi laarin atilẹba ati ọrọ ti a tumọ • Awọn itumọ ti wa ni ipamọ fun yiyipada yarayara • Ṣiṣẹ pẹlu gbogbo ọrọ lori oju-iwe naa Ko kaṣe kuro lati tuntumọ",
+    "message": "Bi o ṣe n ṣiṣẹ:\n• Yi laarin atilẹba ati ọrọ ti a tumọ\n• Awọn itumọ ti wa ni ipamọ fun yiyipada yarayara\n• Ṣiṣẹ pẹlu gbogbo ọrọ lori oju-iwe naa Ko kaṣe kuro lati tuntumọ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Bi o ṣe n ṣiṣẹ: Rọpo awọn kikọ pẹlu awọn ẹya asẹnti • Ṣe afikun 30-40% imugboroosi ipari • Mu ọrọ sinu [!!!... !!!] asami • Apeere: \"Eto\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Bi o ṣe n ṣiṣẹ: Rọpo awọn kikọ pẹlu awọn ẹya asẹnti\n• Ṣe afikun 30-40% imugboroosi ipari\n• Mu ọrọ sinu [!!!... !!!] asami\n• Apeere: \"Eto\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Bi o ṣe n ṣiṣẹ: Tẹ eyikeyi nkan ọrọ lati ṣatunkọ rẹ • Awọn ayipada ti wa ni tọpinpin ni akoko gidi • Awọn atunṣe okeere bi JSON tabi Tayo Tẹ Konturolu+E lati okeere awọn ayipada",
+    "message": "Bi o ṣe n ṣiṣẹ: Tẹ eyikeyi nkan ọrọ lati ṣatunkọ rẹ\n• Awọn ayipada ti wa ni tọpinpin ni akoko gidi\n• Awọn atunṣe okeere bi JSON tabi Tayo Tẹ Konturolu+E lati okeere awọn ayipada",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Awọn ẹya Ere: • Itumọ ọrọ-ọrọ ti o ni agbara AI Batch tumọ gbogbo awọn oju-iwe Ṣayẹwo didara fun awọn itumọ • Awọn imọran ede adayeba",
+    "message": "Awọn ẹya Ere:\n• Itumọ ọrọ-ọrọ ti o ni agbara AI Batch tumọ gbogbo awọn oju-iwe Ṣayẹwo didara fun awọn itumọ\n• Awọn imọran ede adayeba",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -1297,6 +1297,10 @@
     "message": "Jọwọ Wọle lati Lo Itumọ Ai",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Dara julọ fun awọn faili pẹlu iwọn to bojumu.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Iroyin ayẹwo didara",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Clupse ẹgbẹ",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Tẹ lati faagun",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Yọ Pseudo-I",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Ipo ṣiṣatunkọ ifiwe lọwọ: Gbogbo awọn ọna asopọ ati awọn bọtini ti dina. Tẹ ọrọ lati satunkọ.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Duro ijabọ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Awọn ọrọ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Lọwọlọwọ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Daba",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Lo atunṣe",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Lo gbogbo",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Lo",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Lo awọn atunṣe $ $ $",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sync lati inu",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Oju-iwe lọwọlọwọ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Fifihan ọrọ atilẹba",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Lilo pseudo-lonasization ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Toggling Live Stning Ipo ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Ipo ti o fẹ lati sọ ipo ijabọ",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Ṣii KRIN Kons ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Itumọ ibaraẹnisọrọ ko ni ipilẹṣẹ",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Jọwọ yan ọrọ lori oju-iwe akọkọ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ko le ṣiṣe ayẹwo didara. Jọwọ sọ oju-iwe sọ.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ko le bẹrẹ itumọ. Jọwọ sọ oju-iwe sọ.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ko le gba awọn ijabọ lati oju-iwe. Jọwọ dinku.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Wakọ Sync Sync ko si",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync kuna: $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "O kuna lati baraẹnisọrọ pẹlu oju-iwe. Gbiyanju itutu.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ko le fi awọn alaye kokoro han. Jọwọ sọ oju-iwe sọ.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "O kuna lati ṣe okeere si tayo. Jọwọ gbiyanju lẹẹkansi.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kuidas see toimib: • Lülitage originaal- ja tõlgitud teksti vahel • Tõlked salvestatakse vahemällu kiireks vahetamiseks • Töötab kogu lehel oleva tekstiga • Tühjendage vahemälu uuesti tõlkimiseks",
+    "message": "Kuidas see toimib:\n• Lülitage originaal- ja tõlgitud teksti vahel\n• Tõlked salvestatakse vahemällu kiireks vahetamiseks\n• Töötab kogu lehel oleva tekstiga\n• Tühjendage vahemälu uuesti tõlkimiseks",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kuidas see toimib: • Asendab tähemärke rõhumärkidega versioonidega • Lisab 30–40% pikkuse laienduse • Murrab teksti [!!!... !!!] markerite vahel • Näide: \"Seaded\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Kuidas see toimib:\n• Asendab tähemärke rõhumärkidega versioonidega\n• Lisab 30–40% pikkuse laienduse\n• Murrab teksti [!!!... !!!] markerite vahel\n• Näide: \"Seaded\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kuidas see toimib: • Klõpsake mis tahes tekstielemendil selle muutmiseks • Muudatusi jälgitakse reaalajas • Ekspordi muudatused JSON- või Exceli-vormingus • Muudatuste eksportimiseks vajutage Ctrl+E",
+    "message": "Kuidas see toimib:\n• Klõpsake mis tahes tekstielemendil selle muutmiseks\n• Muudatusi jälgitakse reaalajas\n• Ekspordi muudatused JSON- või Exceli-vormingus\n• Muudatuste eksportimiseks vajutage Ctrl+E",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Lisafunktsioonid: • Tehisintellektil põhinev kontekstipõhine tõlge • Tervete lehtede partiitõlge • Tõlgete kvaliteedikontroll • Loomuliku keele soovitused",
+    "message": "Lisafunktsioonid:\n• Tehisintellektil põhinev kontekstipõhine tõlge\n• Tervete lehtede partiitõlge\n• Tõlgete kvaliteedikontroll\n• Loomuliku keele soovitused",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kuidas see toimib: • Laadi üles JSON-keelefaile • Vali sihtkeeled • Tõlgi Google'i või tehisintellekti abil • Laadi alla tõlgitud failid",
+    "message": "Kuidas see toimib:\n• Laadi üles JSON-keelefaile\n• Vali sihtkeeled\n• Tõlgi Google'i või tehisintellekti abil\n• Laadi alla tõlgitud failid",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kuidas see toimib: • Probleemidest teatamiseks klõpsake tekstielementidel • Lisage kirjeldused ja raskusaste • Ekspordi aruanded Exceli või JSON-i • Sünkroonige Google Drive'iga",
+    "message": "Kuidas see toimib:\n• Probleemidest teatamiseks klõpsake tekstielementidel\n• Lisage kirjeldused ja raskusaste\n• Ekspordi aruanded Exceli või JSON-i\n• Sünkroonige Google Drive'iga",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI-tõlke kasutamiseks logige sisse",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Parim mõistliku suurusega failide jaoks.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kvaliteedikontrolli aruanne",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Ahenda külgriba",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klõpsake laiendamiseks",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Eemaldage Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Reaalajas redigeerimisrežiim aktiivne: kõik lingid ja nupud on blokeeritud. Muutmiseks klõpsake tekstil.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Lõpetage aruandlus",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekstid",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Praegune",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Soovitatud",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Rakenda parandus",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Rakenda kõik",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Rakendatud",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Rakendatud $COUNT$ parandused",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sünkrooni Drive'ist",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Praegune leht",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Kuvatakse originaaltekst",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudolokaliseerimise rakendamine...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Reaalajas redigeerimisrežiimi sisse- ja väljalülitamine...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Veaaruande režiimi sisse- ja väljalülitamine...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON-i tõlkija avamine...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Tõlkeklienti pole lähtestatud",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Valige kõigepealt lehel tekst",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kvaliteedikontrolli ei saanud käivitada. Palun värskendage lehte.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Tõlkimist ei saanud alustada. Palun värskendage lehte.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ei saanud lehelt aruandeid. Palun värskendage.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Draivi sünkroonimisteenus pole saadaval",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sünkroonimine ebaõnnestus: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Lehega suhtlemine ebaõnnestus. Proovige värskendada.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Vea üksikasju ei saanud kuvada. Palun värskendage lehte.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelisse eksportimine ebaõnnestus. Palun proovi uuesti.",
+    "description": "Error when Excel export fails"
   }
 }

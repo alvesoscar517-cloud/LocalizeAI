@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Slik fungerer det: • Veksle mellom original og oversatt tekst • Oversettelser lagres i mellomlagre for rask veksling • Fungerer med all tekst på siden • Tøm mellomlagre for å oversette på nytt",
+    "message": "Slik fungerer det:\n• Veksle mellom original og oversatt tekst\n• Oversettelser lagres i mellomlagre for rask veksling\n• Fungerer med all tekst på siden\n• Tøm mellomlagre for å oversette på nytt",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Slik fungerer det: • Erstatter tegn med aksenttegn • Legger til 30–40 % lengdeutvidelse • Bryter tekst i [!!!... !!!]-markører • Eksempel: «Innstillinger» → «[!!! Şḗŧŧīƞɠş·· !!!]»",
+    "message": "Slik fungerer det:\n• Erstatter tegn med aksenttegn\n• Legger til 30–40 % lengdeutvidelse\n• Bryter tekst i [!!!... !!!]-markører\n• Eksempel: «Innstillinger» → «[!!! Şḗŧŧīƞɠş·· !!!]»",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Slik fungerer det: • Klikk på et hvilket som helst tekstelement for å redigere det • Endringer spores i sanntid • Eksporter redigeringer som JSON eller Excel • Trykk Ctrl+E for å eksportere endringer",
+    "message": "Slik fungerer det:\n• Klikk på et hvilket som helst tekstelement for å redigere det\n• Endringer spores i sanntid\n• Eksporter redigeringer som JSON eller Excel\n• Trykk Ctrl+E for å eksportere endringer",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Premiumfunksjoner: • AI-drevet kontekstbevisst oversettelse • Batchoversettelse av hele sider • Kvalitetskontroll for oversettelser • Forslag til naturlige språk",
+    "message": "Premiumfunksjoner:\n• AI-drevet kontekstbevisst oversettelse\n• Batchoversettelse av hele sider\n• Kvalitetskontroll for oversettelser\n• Forslag til naturlige språk",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Slik fungerer det: • Last opp JSON-språkfiler • Velg målspråk • Oversett med Google eller AI • Last ned oversatte filer",
+    "message": "Slik fungerer det:\n• Last opp JSON-språkfiler\n• Velg målspråk\n• Oversett med Google eller AI\n• Last ned oversatte filer",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Slik fungerer det: • Klikk på tekstelementer for å rapportere problemer • Legg til beskrivelser og alvorlighetsgrad • Eksporter rapporter til Excel eller JSON • Synkroniser med Google Drive",
+    "message": "Slik fungerer det:\n• Klikk på tekstelementer for å rapportere problemer\n• Legg til beskrivelser og alvorlighetsgrad\n• Eksporter rapporter til Excel eller JSON\n• Synkroniser med Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Logg inn for å bruke AI-oversettelse",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Best for filer med rimelig størrelse.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kvalitetskontrollrapport",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Skjul sidefeltet",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klikk for å utvide",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Fjern Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Direkteredigeringsmodus aktiv: Alle lenker og knapper er blokkert. Klikk på teksten for å redigere.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Slutt å rapportere",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekster",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Nåværende",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Foreslått",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Bruk reparasjon",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Bruk alle",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Påført",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Brukte $COUNT$ rettelser",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synkroniser fra Disk",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Gjeldende side",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Viser originaltekst",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Bruker pseudolokalisering ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Slår direkteredigeringsmodus ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Slår feilrapporteringsmodus ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Åpner JSON-oversetter ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Oversettelsesklienten er ikke initialisert",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Velg tekst på siden først",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kunne ikke kjøre kvalitetssjekk. Vennligst oppdater siden.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Kunne ikke starte oversettelsen. Vennligst oppdater siden.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Kunne ikke hente rapporter fra siden. Vennligst oppdater.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Disk-synkroniseringstjeneste er ikke tilgjengelig",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synkronisering mislyktes: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Kunne ikke kommunisere med siden. Prøv å oppdatere.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Kunne ikke vise feildetaljer. Vennligst oppdater siden.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Kunne ikke eksportere til Excel. Vennligst prøv igjen.",
+    "description": "Error when Excel export fails"
   }
 }

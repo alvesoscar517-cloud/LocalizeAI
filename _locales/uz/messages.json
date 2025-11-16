@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Bu qanday ishlaydi: • Asl va tarjima qilingan matn o'rtasida almashish • Tez almashtirish uchun tarjimalar keshlanadi • Sahifadagi barcha matnlar bilan ishlaydi • Qayta tarjima qilish uchun keshni tozalang",
+    "message": "Bu qanday ishlaydi:\n• Asl va tarjima qilingan matn o'rtasida almashish\n• Tez almashtirish uchun tarjimalar keshlanadi\n• Sahifadagi barcha matnlar bilan ishlaydi\n• Qayta tarjima qilish uchun keshni tozalang",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Bu qanday ishlaydi: • Belgilarni aksentli versiyalar bilan almashtiradi • 30-40% uzunlik kengayishini qo'shadi • Matnni [!!!... !!!] belgilar • Misol: \"Sozlamalar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Bu qanday ishlaydi:\n• Belgilarni aksentli versiyalar bilan almashtiradi\n• 30-40% uzunlik kengayishini qo'shadi\n• Matnni [!!!... !!!] belgilar\n• Misol: \"Sozlamalar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Bu qanday ishlaydi: • Har qanday matn elementini tahrirlash uchun bosing • O'zgarishlar real vaqt rejimida kuzatiladi • Tahrirlarni JSON yoki Excel sifatida eksport qiling • O‘zgarishlarni eksport qilish uchun Ctrl+E tugmalarini bosing",
+    "message": "Bu qanday ishlaydi:\n• Har qanday matn elementini tahrirlash uchun bosing\n• O'zgarishlar real vaqt rejimida kuzatiladi\n• Tahrirlarni JSON yoki Excel sifatida eksport qiling\n• O‘zgarishlarni eksport qilish uchun Ctrl+E tugmalarini bosing",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Bu qanday ishlaydi: • JSON til fayllarini yuklang • Maqsadli tillarni tanlang • Google yoki AI yordamida tarjima qiling • Tarjima qilingan fayllarni yuklab oling",
+    "message": "Bu qanday ishlaydi:\n• JSON til fayllarini yuklang\n• Maqsadli tillarni tanlang\n• Google yoki AI yordamida tarjima qiling\n• Tarjima qilingan fayllarni yuklab oling",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Bu qanday ishlaydi: • Muammolar haqida xabar berish uchun matn elementlarini bosing • Tavsiflar va jiddiylik qo'shing • Hisobotlarni Excel yoki JSONga eksport qiling • Google Drive bilan sinxronlash",
+    "message": "Bu qanday ishlaydi:\n• Muammolar haqida xabar berish uchun matn elementlarini bosing\n• Tavsiflar va jiddiylik qo'shing\n• Hisobotlarni Excel yoki JSONga eksport qiling\n• Google Drive bilan sinxronlash",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Iltimos, AI tarjimasini ishlatish uchun tizimga kiring",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Oqilona o'lchamdagi fayllar uchun eng yaxshisi.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "Sifatni tekshirish to'g'risidagi hisobot",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Yon panjara",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kengaytirish uchun bosing",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Psevdo-lokni olib tashlang",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Jonli tahrirlash rejimi faol: Barcha havolalar va tugmalari bloklanadi. Tahrirlash uchun matnni bosing.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Hisobotni to'xtating",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Matnlar",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Hozirgi",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Taklif qilingan",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Tuzatish",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Barchasini qo'llang",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Qo'llanilgan",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$ 1 hisoblash $ $ bitimlar",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Haydovchidan sinxronlash",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Joriy sahifa",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Asl matnni ko'rsatish",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Soxta-mahalliylashtirishni qo'llash ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Jonli tahrirlash rejimini o'zgartiring ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Bugning hisobot rejimini o'zgartiring ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSSson tarjionini ochish ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Tarjima mijozi ishga tushirilmagan",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Iltimos, birinchi sahifada matnni tanlang",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Sifatni tekshirish mumkin emas. Iltimos, sahifani yangilang.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Tarjimani boshlay olmadi. Iltimos, sahifani yangilang.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Sahifaning xabarlarini ololmadi. Iltimos, yangilang.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drayver Sinctor Xavfsiz mavjud emas",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinxronlashtirish muvaffaqiyatsiz tugadi: $ xato",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Sahifa bilan aloqa qilmadi. Tetiklantirishga harakat qiling.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Xato ma'lumotlarini ko'rsatib bo'lmadi. Iltimos, sahifani yangilang.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelga eksport qilinmadi. Qayta urinib ko'ring.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Πώς λειτουργεί: • Εναλλαγή μεταξύ πρωτότυπου και μεταφρασμένου κειμένου • Οι μεταφράσεις αποθηκεύονται προσωρινά για γρήγορη εναλλαγή • Λειτουργεί με όλο το κείμενο στη σελίδα • Εκκαθάριση της προσωρινής μνήμης για εκ νέου μετάφραση",
+    "message": "Πώς λειτουργεί:\n• Εναλλαγή μεταξύ πρωτότυπου και μεταφρασμένου κειμένου\n• Οι μεταφράσεις αποθηκεύονται προσωρινά για γρήγορη εναλλαγή\n• Λειτουργεί με όλο το κείμενο στη σελίδα\n• Εκκαθάριση της προσωρινής μνήμης για εκ νέου μετάφραση",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Πώς λειτουργεί: • Αντικαθιστά χαρακτήρες με τονισμένες εκδόσεις • Προσθέτει επέκταση μήκους 30-40% • Αναδιπλώνει κείμενο σε δείκτες [!!!... !!!] • Παράδειγμα: \"Ρυθμίσεις\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Πώς λειτουργεί:\n• Αντικαθιστά χαρακτήρες με τονισμένες εκδόσεις\n• Προσθέτει επέκταση μήκους 30-40%\n• Αναδιπλώνει κείμενο σε δείκτες [!!!... !!!]\n• Παράδειγμα: \"Ρυθμίσεις\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Πώς λειτουργεί: • Κάντε κλικ σε οποιοδήποτε στοιχείο κειμένου για να το επεξεργαστείτε • Οι αλλαγές παρακολουθούνται σε πραγματικό χρόνο • Εξαγωγή επεξεργασιών ως JSON ή Excel • Πατήστε Ctrl+E για εξαγωγή αλλαγών",
+    "message": "Πώς λειτουργεί:\n• Κάντε κλικ σε οποιοδήποτε στοιχείο κειμένου για να το επεξεργαστείτε\n• Οι αλλαγές παρακολουθούνται σε πραγματικό χρόνο\n• Εξαγωγή επεξεργασιών ως JSON ή Excel\n• Πατήστε Ctrl+E για εξαγωγή αλλαγών",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Πώς λειτουργεί: • Ανεβάστε αρχεία γλώσσας JSON • Επιλέξτε γλώσσες-στόχους • Μεταφράστε με Google ή AI • Λήψη μεταφρασμένων αρχείων",
+    "message": "Πώς λειτουργεί:\n• Ανεβάστε αρχεία γλώσσας JSON\n• Επιλέξτε γλώσσες-στόχους\n• Μεταφράστε με Google ή AI\n• Λήψη μεταφρασμένων αρχείων",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Πώς λειτουργεί: • Κάντε κλικ σε στοιχεία κειμένου για να αναφέρετε προβλήματα • Προσθέστε περιγραφές και σοβαρότητα • Εξάγετε αναφορές σε Excel ή JSON • Συγχρονίστε με το Google Drive",
+    "message": "Πώς λειτουργεί:\n• Κάντε κλικ σε στοιχεία κειμένου για να αναφέρετε προβλήματα\n• Προσθέστε περιγραφές και σοβαρότητα\n• Εξάγετε αναφορές σε Excel ή JSON\n• Συγχρονίστε με το Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Συνδεθείτε για να χρησιμοποιήσετε τη μετάφραση AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Το καλύτερο για αρχεία με λογικό μέγεθος.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Αναφορά ποιοτικού ελέγχου",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Σύμπτυξη πλαϊνής γραμμής",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Κάντε κλικ για επέκταση",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Αφαιρέστε το Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Λειτουργία ζωντανής επεξεργασίας Ενεργή: Όλοι οι σύνδεσμοι και τα κουμπιά είναι αποκλεισμένα. Κάντε κλικ στο κείμενο για επεξεργασία.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Διακοπή αναφοράς",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "κείμενα",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Ρεύμα",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Προτεινόμενα",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Εφαρμογή διόρθωσης",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Εφαρμόστε όλα",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Εφαρμοσμένος",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Εφαρμόστηκαν $COUNT$ διορθώσεις",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Συγχρονισμός από το Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Τρέχουσα σελίδα",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Εμφάνιση πρωτότυπου κειμένου",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Εφαρμογή ψευδοτοπικοποίησης...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Εναλλαγή λειτουργίας ζωντανής επεξεργασίας...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Εναλλαγή λειτουργίας αναφοράς σφαλμάτων...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Άνοιγμα μεταφραστή JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Το πρόγραμμα-πελάτη μετάφρασης δεν έχει αρχικοποιηθεί",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Επιλέξτε πρώτα κείμενο στη σελίδα",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Δεν ήταν δυνατή η εκτέλεση του ποιοτικού ελέγχου. Ανανεώστε τη σελίδα.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Δεν ήταν δυνατή η έναρξη της μετάφρασης. Ανανεώστε τη σελίδα.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Δεν ήταν δυνατή η λήψη αναφορών από τη σελίδα. Κάντε ανανέωση.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Η υπηρεσία συγχρονισμού Drive δεν είναι διαθέσιμη",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Ο συγχρονισμός απέτυχε: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Απέτυχε η επικοινωνία με τη σελίδα. Δοκιμάστε να ανανεώσετε.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Δεν ήταν δυνατή η εμφάνιση λεπτομερειών σφάλματος. Ανανεώστε τη σελίδα.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Απέτυχε η εξαγωγή στο Excel. Δοκιμάστε ξανά.",
+    "description": "Error when Excel export fails"
   }
 }

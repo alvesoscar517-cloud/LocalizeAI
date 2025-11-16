@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Paano ito gumagana: • Mag-toggle sa pagitan ng orihinal at isinalin na teksto • Ang mga pagsasalin ay naka-cache para sa mabilis na paglipat • Gumagana sa lahat ng teksto sa pahina • I-clear ang cache upang muling isalin",
+    "message": "Paano ito gumagana:\n• Mag-toggle sa pagitan ng orihinal at isinalin na teksto\n• Ang mga pagsasalin ay naka-cache para sa mabilis na paglipat\n• Gumagana sa lahat ng teksto sa pahina\n• I-clear ang cache upang muling isalin",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Paano ito gumagana: • Pinapalitan ang mga character ng may accent na bersyon • Nagdaragdag ng 30-40% na pagpapalawak ng haba • Binabalot ang teksto sa [!!!... !!!] mga marker • Halimbawa: \"Mga Setting\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Paano ito gumagana:\n• Pinapalitan ang mga character ng may accent na bersyon\n• Nagdaragdag ng 30-40% na pagpapalawak ng haba\n• Binabalot ang teksto sa [!!!... !!!] mga marker\n• Halimbawa: \"Mga Setting\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -1297,6 +1297,10 @@
     "message": "Mangyaring mag -sign in upang magamit ang pagsasalin ng AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Pinakamahusay para sa mga file na may makatuwirang laki.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Ulat ng kalidad ng tseke",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Pagbagsak ng sidebar",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Mag -click upang mapalawak",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Alisin ang pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live EDIT Mode Aktibo: Ang lahat ng mga link at pindutan ay naharang. Mag -click sa teksto upang mai -edit.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Itigil ang pag -uulat",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "mga teksto",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Kasalukuyan",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Iminungkahing",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Mag -apply ng ayusin",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Ilapat ang lahat",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Inilapat",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Inilapat ang $ count $ pag -aayos",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "I -sync mula sa drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Kasalukuyang pahina",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Nagpapakita ng orihinal na teksto",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Paglalapat ng pseudo-localization ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Toggling live na mode ng pag -edit ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Toggling Bug Report Mode ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Pagbubukas ng tagasalin ng json ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Hindi inisyal ang kliyente ng pagsasalin",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Mangyaring piliin muna ang teksto sa pahina",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Hindi maaaring magpatakbo ng kalidad ng tseke. Mangyaring i -refresh ang pahina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Hindi maaaring simulan ang pagsasalin. Mangyaring i -refresh ang pahina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Hindi makakuha ng mga ulat mula sa pahina. Mangyaring i -refresh.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Hindi magagamit ang serbisyo ng pag -sync",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Nabigo ang pag -sync: $ error $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Nabigong makipag -usap sa pahina. Subukan ang pag -refresh.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Hindi maipakita ang mga detalye ng bug. Mangyaring i -refresh ang pahina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Nabigong mag -export sa Excel. Mangyaring subukang muli.",
+    "description": "Error when Excel export fails"
   }
 }

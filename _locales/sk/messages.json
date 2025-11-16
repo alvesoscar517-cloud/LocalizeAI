@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Ako to funguje: • Prepínanie medzi pôvodným a preloženým textom • Preklady sa ukladajú do vyrovnávacej pamäte pre rýchle prepínanie • Funguje so všetkým textom na stránke • Vymažte vyrovnávaciu pamäť pre opätovný preklad",
+    "message": "Ako to funguje:\n• Prepínanie medzi pôvodným a preloženým textom\n• Preklady sa ukladajú do vyrovnávacej pamäte pre rýchle prepínanie\n• Funguje so všetkým textom na stránke\n• Vymažte vyrovnávaciu pamäť pre opätovný preklad",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Ako to funguje: • Nahrádza znaky verziami s diakritikou • Pridáva rozšírenie dĺžky o 30 – 40 % • Zalamuje text do značiek [!!!... !!!] • Príklad: „Nastavenia“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
+    "message": "Ako to funguje:\n• Nahrádza znaky verziami s diakritikou\n• Pridáva rozšírenie dĺžky o 30 – 40 %\n• Zalamuje text do značiek [!!!... !!!]\n• Príklad: „Nastavenia“ → „[!!! Şḗŧŧīƞɠş·· !!!]“",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Ako to funguje: • Kliknite na ľubovoľný textový prvok a upravte ho • Zmeny sa sledujú v reálnom čase • Exportujte úpravy ako JSON alebo Excel • Stlačte Ctrl+E a exportujte zmeny",
+    "message": "Ako to funguje:\n• Kliknite na ľubovoľný textový prvok a upravte ho\n• Zmeny sa sledujú v reálnom čase\n• Exportujte úpravy ako JSON alebo Excel\n• Stlačte Ctrl+E a exportujte zmeny",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Prémiové funkcie: • Kontextový preklad s využitím umelej inteligencie • Hromadný preklad celých stránok • Kontrola kvality prekladov • Návrhy v prirodzenom jazyku",
+    "message": "Prémiové funkcie:\n• Kontextový preklad s využitím umelej inteligencie\n• Hromadný preklad celých stránok\n• Kontrola kvality prekladov\n• Návrhy v prirodzenom jazyku",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Ako to funguje: • Nahrávanie jazykových súborov JSON • Výber cieľových jazykov • Preklad pomocou Googlu alebo umelej inteligencie • Sťahovanie preložených súborov",
+    "message": "Ako to funguje:\n• Nahrávanie jazykových súborov JSON\n• Výber cieľových jazykov\n• Preklad pomocou Googlu alebo umelej inteligencie\n• Sťahovanie preložených súborov",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Ako to funguje: • Kliknutím na textové prvky nahláste problémy • Pridajte popisy a závažnosť • Exportujte správy do Excelu alebo JSON • Synchronizujte s Diskom Google",
+    "message": "Ako to funguje:\n• Kliknutím na textové prvky nahláste problémy\n• Pridajte popisy a závažnosť\n• Exportujte správy do Excelu alebo JSON\n• Synchronizujte s Diskom Google",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Ak chcete použiť preklad AI, prihláste sa",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Najlepšie pre súbory s primeranou veľkosťou.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Správa o kontrole kvality",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Zbaliť bočný panel",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kliknutím rozbalíte",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Odstrániť Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Režim Live Edit Active: Všetky prepojenia a tlačidlá sú zablokované. Kliknite na text, ktorý chcete upraviť.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Zastaviť nahlasovanie",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "texty",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Aktuálne",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Navrhované",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Použiť opravu",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Použiť všetky",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplikované",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Boli použité opravy ($COUNT$).",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synchronizovať z Disku",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Aktuálna stránka",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Zobrazuje sa pôvodný text",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Používa sa pseudo-lokalizácia...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Prepína sa režim úprav naživo...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Prepína sa režim hlásenia chyby...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Otvára sa prekladač JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Prekladový klient nie je inicializovaný",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Najprv vyberte text na stránke",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Nepodarilo sa spustiť kontrolu kvality. Obnovte stránku.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Nepodarilo sa spustiť preklad. Obnovte stránku.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Zo stránky sa nepodarilo získať prehľady. Obnovte.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Služba synchronizácie disku nie je k dispozícii",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synchronizácia zlyhala: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Komunikácia so stránkou zlyhala. Skúste sa osviežiť.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Podrobnosti o chybe sa nepodarilo zobraziť. Obnovte stránku.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Export do Excelu zlyhal. Skúste to znova.",
+    "description": "Error when Excel export fails"
   }
 }

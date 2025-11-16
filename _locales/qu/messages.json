@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Imaynatataq llamkan: • Ñawpaq qillqasqata, tikrasqa qillqakunata tikray • T’ikraykunaqa usqhaylla cambianapaqmi waqaychasqa kashan • P’anqapi llapa qillqasqakunawan llamk’an • Wakmanta tikranapaq caché nisqa chuyanchay",
+    "message": "Imaynatataq llamkan:\n• Ñawpaq qillqasqata, tikrasqa qillqakunata tikray\n• T’ikraykunaqa usqhaylla cambianapaqmi waqaychasqa kashan\n• P’anqapi llapa qillqasqakunawan llamk’an\n• Wakmanta tikranapaq caché nisqa chuyanchay",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Imaynatataq llamkan: • Qillqakunataqa acentuado nisqawanmi tikran • 30-40% suni mastariyta yapan • Qillqasqata [!!!... !!!] marcadores nisqakuna • Ejemplo: \"Ajustes\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\" nisqa.",
+    "message": "Imaynatataq llamkan:\n• Qillqakunataqa acentuado nisqawanmi tikran\n• 30-40% suni mastariyta yapan\n• Qillqasqata [!!!... !!!] marcadores nisqakuna\n• Ejemplo: \"Ajustes\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\" nisqa.",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Imaynatataq llamkan: • Ima qillqa elementotapas ñit’iy allichanaykipaq • Tikraykunaqa chiqap pachallapim qatipakun • JSON utaq Excel hina allichaykunata hawaman apachiy • Ctrl+E ñit’iy tikraykunata hawaman apachinapaq",
+    "message": "Imaynatataq llamkan:\n• Ima qillqa elementotapas ñit’iy allichanaykipaq\n• Tikraykunaqa chiqap pachallapim qatipakun\n• JSON utaq Excel hina allichaykunata hawaman apachiy\n• Ctrl+E ñit’iy tikraykunata hawaman apachinapaq",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Imaynatataq llamkan: • JSON simi qillqakunata yapay • Ima rimaykunata akllay • Google utaq AI nisqawan tikray • T’ikrasqa archivokunata uraykachiy",
+    "message": "Imaynatataq llamkan:\n• JSON simi qillqakunata yapay\n• Ima rimaykunata akllay\n• Google utaq AI nisqawan tikray\n• T’ikrasqa archivokunata uraykachiy",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Imaynatataq llamkan: • Qillqa elementokunata ñit’iy sasachakuykunamanta willanaykipaq • Descripción nisqakunata, sinchi kaynintapas yapay • Willakuykunata Excel utaq JSON nisqaman hawaman apachiy • Google Drive nisqawan kuskanchana",
+    "message": "Imaynatataq llamkan:\n• Qillqa elementokunata ñit’iy sasachakuykunamanta willanaykipaq\n• Descripción nisqakunata, sinchi kaynintapas yapay\n• Willakuykunata Excel utaq JSON nisqaman hawaman apachiy\n• Google Drive nisqawan kuskanchana",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Ama hina kaspa, AI Traducción llamk'achinaykipaq yaykuykuy.",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Aswan allin archivokunapaq razonable tamañoyuq.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Calidad qhaway willakuy .",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Colapso lateral barra .",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Mastariypaq ñit'iy .",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-loc nisqata hurquy .",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Kawsaq llamk'apuy Modo Activo: Llapan t'inkikuna chaymanta botones hark'asqa kanku. Qillqasqapi ñit'iy llamk'apunaykipaq.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Willayta saqiy .",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Qillqasqakuna .",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Kunan",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Yuyaychasqa .",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplicar allichay .",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Tukuy .",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplicado .",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Aplicado $Count$ allichay .",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sincronización de Drive .",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Kunan p'anqa .",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Ñawpaq qillqasqata rikuchispa .",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudo-localización nisqa churay...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Kawsaq llamk'apuy ñanta tikray...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Modo de informe de insectos de toggling...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON tikraq kichay...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Traducción Cliente mana qallarichisqachu .",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Ama hina kaspa, ñawpaqta p'anqapi qillqata akllay .",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Mana calidad qhawayta purichiyta atirqanchu. Ama hina kaspa, p'anqata musuqyachina.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Mana tikrayta qallariyta atirqanchu. Ama hina kaspa, p'anqata musuqyachina.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Mana willakuykunata p'anqamanta chaskiyta atirqanchu. Ama hina kaspa, musuqyachiy.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync Service mana tarikunchu .",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync mana atirqanchu: $errror$ .",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "P'anqawan mana rimayta atirqanchu. Intenta refrescante.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Mana pantay detallekunata rikuchiyta atirqanchu. Ama hina kaspa, p'anqata musuqyachina.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelman hawaman apachiyta mana atirqanchu. Ama hina kaspa, hukmanta kallpachakuy.",
+    "description": "Error when Excel export fails"
   }
 }

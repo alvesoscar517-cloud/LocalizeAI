@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "ມັນເຮັດວຽກແນວໃດ: • ສະຫຼັບລະຫວ່າງຂໍ້ຄວາມຕົ້ນສະບັບ ແລະຂໍ້ຄວາມທີ່ແປແລ້ວ • ການແປພາສາຖືກເກັບໄວ້ໃນຖານສໍາລັບການປ່ຽນໄວ •ເຮັດວຽກກັບຂໍ້ຄວາມທັງຫມົດໃນຫນ້າ • ລ້າງແຄດເພື່ອແປຄືນໃໝ່",
+    "message": "ມັນເຮັດວຽກແນວໃດ:\n• ສະຫຼັບລະຫວ່າງຂໍ້ຄວາມຕົ້ນສະບັບ ແລະຂໍ້ຄວາມທີ່ແປແລ້ວ\n• ການແປພາສາຖືກເກັບໄວ້ໃນຖານສໍາລັບການປ່ຽນໄວ •ເຮັດວຽກກັບຂໍ້ຄວາມທັງຫມົດໃນຫນ້າ\n• ລ້າງແຄດເພື່ອແປຄືນໃໝ່",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "ມັນເຮັດວຽກແນວໃດ: • ຄລິກອົງປະກອບຂໍ້ຄວາມໃດນຶ່ງເພື່ອແກ້ໄຂມັນ • ການປ່ຽນແປງແມ່ນຕິດຕາມໃນເວລາຈິງ • ສົ່ງອອກການແກ້ໄຂເປັນ JSON ຫຼື Excel • ກົດ Ctrl+E ເພື່ອສົ່ງອອກການປ່ຽນແປງ",
+    "message": "ມັນເຮັດວຽກແນວໃດ:\n• ຄລິກອົງປະກອບຂໍ້ຄວາມໃດນຶ່ງເພື່ອແກ້ໄຂມັນ\n• ການປ່ຽນແປງແມ່ນຕິດຕາມໃນເວລາຈິງ\n• ສົ່ງອອກການແກ້ໄຂເປັນ JSON ຫຼື Excel\n• ກົດ Ctrl+E ເພື່ອສົ່ງອອກການປ່ຽນແປງ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "ມັນເຮັດວຽກແນວໃດ: • ອັບໂຫຼດໄຟລ໌ພາສາ JSON • ເລືອກພາສາເປົ້າໝາຍ • ແປດ້ວຍ Google ຫຼື AI • ດາວໂຫຼດໄຟລ໌ທີ່ແປແລ້ວ",
+    "message": "ມັນເຮັດວຽກແນວໃດ:\n• ອັບໂຫຼດໄຟລ໌ພາສາ JSON\n• ເລືອກພາສາເປົ້າໝາຍ\n• ແປດ້ວຍ Google ຫຼື AI\n• ດາວໂຫຼດໄຟລ໌ທີ່ແປແລ້ວ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "ມັນເຮັດວຽກແນວໃດ: • ຄລິກອົງປະກອບຂໍ້ຄວາມເພື່ອລາຍງານບັນຫາ •ເພີ່ມຄໍາອະທິບາຍແລະຄວາມຮຸນແຮງ • ສົ່ງອອກລາຍງານໄປຍັງ Excel ຫຼື JSON • ຊິງຄ໌ກັບ Google Drive",
+    "message": "ມັນເຮັດວຽກແນວໃດ:\n• ຄລິກອົງປະກອບຂໍ້ຄວາມເພື່ອລາຍງານບັນຫາ •ເພີ່ມຄໍາອະທິບາຍແລະຄວາມຮຸນແຮງ\n• ສົ່ງອອກລາຍງານໄປຍັງ Excel ຫຼື JSON\n• ຊິງຄ໌ກັບ Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "ກະລຸນາເຂົ້າສູ່ລະບົບເພື່ອນໍາໃຊ້ AI Translation",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ດີທີ່ສຸດສໍາລັບໄຟລ໌ທີ່ມີຂະຫນາດທີ່ສົມເຫດສົມຜົນ.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "ບົດລາຍງານການກວດສອບຄຸນນະພາບ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ຍຸບ bebar sid",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ກົດເຂົ້າ",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "ເອົາ pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ໂຫມດແກ້ໄຂບັນຫາທີ່ມີຊີວິດຢ່າງຫ້າວຫັນ: ທຸກລິງແລະປຸ່ມຖືກບລັອກ. ກົດທີ່ຕົວຫນັງສືເພື່ອດັດແກ້.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "ຢຸດການລາຍງານ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ບົດຂຽນ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ປະຈຸບັນ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "ແນະນໍາ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ສະຫມັກການແກ້ໄຂ",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "ສະຫມັກທັງຫມົດ",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "ໃຊ້",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "ການນໍາໃຊ້ $ ນັບ $ ແກ້ໄຂ",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ການຊິ້ງຂໍ້ມູນຈາກການຂັບ",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "ຫນ້າປັດຈຸບັນ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "ສະແດງຂໍ້ຄວາມຕົ້ນສະບັບ",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "ສະຫມັກ Pseudo-Localization ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Toggling ແກ້ໄຂບັນຫາ Live ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ຮູບແບບການລາຍງານຂອງ Toggling ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "ເປີດ JSON Translator ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ລູກຄ້າແປບໍ່ໄດ້ເລີ່ມຕົ້ນ",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ກະລຸນາເລືອກຂໍ້ຄວາມໃນຫນ້າທໍາອິດ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ບໍ່ສາມາດດໍາເນີນການກວດສອບຄຸນນະພາບໄດ້. ກະລຸນາໂຫຼດຫນ້າຈໍຄືນໃຫມ່.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ບໍ່ສາມາດເລີ່ມຕົ້ນການແປພາສາ. ກະລຸນາໂຫຼດຫນ້າຈໍຄືນໃຫມ່.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ບໍ່ສາມາດໄດ້ຮັບການລາຍງານຈາກຫນ້າເວັບ. ກະລຸນາໂຫຼດຫນ້າຈໍຄືນ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ບໍລິການ Sync DROD SYCT",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync ລົ້ມເຫລວ: $ ຂໍ້ມູນ $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ລົ້ມເຫລວໃນການສື່ສານກັບຫນ້າ. ພະຍາຍາມສົດຊື່ນ.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ບໍ່ສາມາດສະແດງລາຍລະອຽດຂອງຂໍ້ບົກພ່ອງ. ກະລຸນາໂຫຼດຫນ້າຈໍຄືນໃຫມ່.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ລົ້ມເຫລວໃນການສົ່ງອອກໄປ Excel. ກະລຸນາລອງໃຫມ່ອີກຄັ້ງ.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kako deluje: • Preklapljanje med izvirnim in prevedenim besedilom • Prevodi so shranjeni v predpomnilniku za hitro preklapljanje • Deluje z vsem besedilom na strani • Počisti predpomnilnik za ponovni prevod",
+    "message": "Kako deluje:\n• Preklapljanje med izvirnim in prevedenim besedilom\n• Prevodi so shranjeni v predpomnilniku za hitro preklapljanje\n• Deluje z vsem besedilom na strani\n• Počisti predpomnilnik za ponovni prevod",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kako deluje: • Zamenja znake z različicami z naglašenimi znaki • Doda 30–40 % razširitve dolžine • Besedilo prelomi v oznake [!!!... !!!] • Primer: »Nastavitve« → »[!!! Şḗŧŧīƞɠş·· !!!]«",
+    "message": "Kako deluje:\n• Zamenja znake z različicami z naglašenimi znaki\n• Doda 30–40 % razširitve dolžine\n• Besedilo prelomi v oznake [!!!... !!!]\n• Primer: »Nastavitve« → »[!!! Şḗŧŧīƞɠş·· !!!]«",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kako deluje: • Kliknite kateri koli element besedila, da ga uredite • Spremembe se spremljajo v realnem času • Izvozite spremembe kot JSON ali Excel • Pritisnite Ctrl+E za izvoz sprememb",
+    "message": "Kako deluje:\n• Kliknite kateri koli element besedila, da ga uredite\n• Spremembe se spremljajo v realnem času\n• Izvozite spremembe kot JSON ali Excel\n• Pritisnite Ctrl+E za izvoz sprememb",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kako deluje: • Nalaganje jezikovnih datotek JSON • Izbira ciljnih jezikov • Prevajanje z Googlom ali umetno inteligenco • Prenos prevedenih datotek",
+    "message": "Kako deluje:\n• Nalaganje jezikovnih datotek JSON\n• Izbira ciljnih jezikov\n• Prevajanje z Googlom ali umetno inteligenco\n• Prenos prevedenih datotek",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kako deluje: • Kliknite besedilne elemente za prijavo težav • Dodajte opise in resnost • Izvozite poročila v Excel ali JSON • Sinhronizirajte z Google Drive",
+    "message": "Kako deluje:\n• Kliknite besedilne elemente za prijavo težav\n• Dodajte opise in resnost\n• Izvozite poročila v Excel ali JSON\n• Sinhronizirajte z Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Prijavite se, če želite uporabljati prevajanje z umetno inteligenco",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Najboljše za datoteke razumne velikosti.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Poročilo o preverjanju kakovosti",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Strni stransko vrstico",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Kliknite za razširitev",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Odstranite Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Način urejanja v živo je aktiven: vse povezave in gumbi so blokirani. Kliknite besedilo za urejanje.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Ustavi poročanje",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "besedila",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Trenutno",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Predlagano",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Uporabi popravek",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Uporabi vse",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Uporabljeno",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Uporabljenih $COUNT$ popravkov",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinhronizacija iz storitve Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Trenutna stran",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Prikaz izvirnega besedila",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Uporaba psevdolokalizacije ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Preklop načina urejanja v živo ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Preklop načina poročanja o napakah ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Odpiranje prevajalnika JSON ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Odjemalec za prevajanje ni inicializiran",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Najprej izberite besedilo na strani",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Preverjanja kakovosti ni bilo mogoče izvesti. Osvežite stran.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Prevajanja ni bilo mogoče začeti. Osvežite stran.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Poročil s strani ni bilo mogoče pridobiti. Prosimo, osvežite.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Storitev sinhronizacije Drive ni na voljo",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinhronizacija ni uspela: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Komunikacija s stranjo ni uspela. Poskusite osvežiti.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ni bilo mogoče prikazati podrobnosti hrošča. Osvežite stran.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Izvoz v Excel ni uspel. prosim poskusite ponovno",
+    "description": "Error when Excel export fails"
   }
 }

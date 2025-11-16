@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "วิธีการทำงาน: • สลับระหว่างข้อความต้นฉบับและข้อความแปล • คำแปลจะถูกแคชไว้เพื่อการสลับที่รวดเร็ว • ใช้งานได้กับข้อความทั้งหมดในหน้า • ล้างแคชเพื่อแปลซ้ำ",
+    "message": "วิธีการทำงาน:\n• สลับระหว่างข้อความต้นฉบับและข้อความแปล\n• คำแปลจะถูกแคชไว้เพื่อการสลับที่รวดเร็ว\n• ใช้งานได้กับข้อความทั้งหมดในหน้า\n• ล้างแคชเพื่อแปลซ้ำ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "วิธีการทำงาน: • แทนที่อักขระด้วยอักขระเน้นเสียง • เพิ่มความยาว 30-40% • ล้อมข้อความด้วยเครื่องหมาย [!!!... !!!] • ตัวอย่าง: \"การตั้งค่า\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "วิธีการทำงาน:\n• แทนที่อักขระด้วยอักขระเน้นเสียง\n• เพิ่มความยาว 30-40%\n• ล้อมข้อความด้วยเครื่องหมาย [!!!... !!!]\n• ตัวอย่าง: \"การตั้งค่า\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "วิธีการทำงาน: • คลิกองค์ประกอบข้อความใดๆ เพื่อแก้ไข • ติดตามการเปลี่ยนแปลงแบบเรียลไทม์ • ส่งออกการแก้ไขเป็น JSON หรือ Excel • กด Ctrl+E เพื่อส่งออกการเปลี่ยนแปลง",
+    "message": "วิธีการทำงาน:\n• คลิกองค์ประกอบข้อความใดๆ เพื่อแก้ไข\n• ติดตามการเปลี่ยนแปลงแบบเรียลไทม์\n• ส่งออกการแก้ไขเป็น JSON หรือ Excel\n• กด Ctrl+E เพื่อส่งออกการเปลี่ยนแปลง",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ฟีเจอร์พรีเมียม: • การแปลที่คำนึงถึงบริบทด้วย AI • แปลทั้งหน้าพร้อมกันเป็นชุด • ตรวจสอบคุณภาพการแปล • ให้คำแนะนำเกี่ยวกับภาษาธรรมชาติ",
+    "message": "ฟีเจอร์พรีเมียม:\n• การแปลที่คำนึงถึงบริบทด้วย AI\n• แปลทั้งหน้าพร้อมกันเป็นชุด\n• ตรวจสอบคุณภาพการแปล\n• ให้คำแนะนำเกี่ยวกับภาษาธรรมชาติ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "วิธีการทำงาน: • อัปโหลดไฟล์ภาษา JSON • เลือกภาษาเป้าหมาย • แปลด้วย Google หรือ AI • ดาวน์โหลดไฟล์ที่แปลแล้ว",
+    "message": "วิธีการทำงาน:\n• อัปโหลดไฟล์ภาษา JSON\n• เลือกภาษาเป้าหมาย\n• แปลด้วย Google หรือ AI\n• ดาวน์โหลดไฟล์ที่แปลแล้ว",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "วิธีการทำงาน: • คลิกองค์ประกอบข้อความเพื่อรายงานปัญหา • เพิ่มคำอธิบายและความรุนแรง • ส่งออกรายงานไปยัง Excel หรือ JSON • ซิงค์กับ Google Drive",
+    "message": "วิธีการทำงาน:\n• คลิกองค์ประกอบข้อความเพื่อรายงานปัญหา\n• เพิ่มคำอธิบายและความรุนแรง\n• ส่งออกรายงานไปยัง Excel หรือ JSON\n• ซิงค์กับ Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "กรุณาเข้าสู่ระบบเพื่อใช้การแปล AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "เหมาะสำหรับไฟล์ที่มีขนาดเหมาะสมที่สุด",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "รายงานการตรวจสอบคุณภาพ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ยุบแถบด้านข้าง",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "คลิกเพื่อขยาย",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "ลบ Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "โหมดแก้ไขสดใช้งานอยู่: ลิงก์และปุ่มทั้งหมดถูกบล็อก คลิกที่ข้อความเพื่อแก้ไข",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "หยุดการรายงาน",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ข้อความ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ปัจจุบัน",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "แนะนำ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ใช้การแก้ไข",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "สมัครทั้งหมด",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "สมัครแล้ว",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "ใช้การแก้ไข $COUNT$",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ซิงค์จากไดรฟ์",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "หน้าปัจจุบัน",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "กำลังแสดงข้อความต้นฉบับ",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "กำลังใช้การแปลแบบหลอก...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "กำลังสลับโหมดแก้ไขสด...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "กำลังสลับโหมดรายงานข้อบกพร่อง...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "กำลังเปิดโปรแกรมแปล JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ไคลเอ็นต์การแปลไม่ได้เริ่มต้น",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "กรุณาเลือกข้อความบนหน้าก่อน",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ไม่สามารถดำเนินการตรวจสอบคุณภาพได้ กรุณารีเฟรชหน้า",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ไม่สามารถเริ่มการแปลได้ กรุณารีเฟรชหน้า",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ไม่สามารถรับรายงานจากเพจได้ กรุณารีเฟรช",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "บริการซิงค์ไดรฟ์ไม่พร้อมใช้งาน",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "การซิงค์ล้มเหลว: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ไม่สามารถสื่อสารกับเพจได้ ลองรีเฟรชดูครับ",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ไม่สามารถแสดงรายละเอียดข้อบกพร่องได้ กรุณารีเฟรชหน้า",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ไม่สามารถส่งออกไปยัง Excel โปรดลองอีกครั้ง",
+    "description": "Error when Excel export fails"
   }
 }

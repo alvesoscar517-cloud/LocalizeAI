@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Cara kerjane: • Ngalih ing antarane teks asli lan teks terjemahan • Translations cached kanggo ngoper cepet • Bisa karo kabeh teks ing kaca • Busak cache kanggo nerjemahake maneh",
+    "message": "Cara kerjane:\n• Ngalih ing antarane teks asli lan teks terjemahan\n• Translations cached kanggo ngoper cepet\n• Bisa karo kabeh teks ing kaca\n• Busak cache kanggo nerjemahake maneh",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Cara kerjane: • Ngganti karakter karo versi aksen • Nambah 30-40% expansion dawa • Bungkus teks ing [!!!...!!!] tandha • Conto: \"Setelan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Cara kerjane:\n• Ngganti karakter karo versi aksen\n• Nambah 30-40% expansion dawa\n• Bungkus teks ing [!!!...!!!] tandha\n• Conto: \"Setelan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Cara kerjane: • Klik unsur teks kanggo ngowahi • Owah-owahan dilacak ing wektu nyata • Ekspor suntingan minangka JSON utawa Excel • Pencet Ctrl+E kanggo ngekspor owah-owahan",
+    "message": "Cara kerjane:\n• Klik unsur teks kanggo ngowahi\n• Owah-owahan dilacak ing wektu nyata\n• Ekspor suntingan minangka JSON utawa Excel\n• Pencet Ctrl+E kanggo ngekspor owah-owahan",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Cara kerjane: • Klik unsur teks kanggo laporan masalah • Tambah katrangan lan keruwetan • Ekspor laporan menyang Excel utawa JSON • Nyelarasake karo Google Drive",
+    "message": "Cara kerjane:\n• Klik unsur teks kanggo laporan masalah\n• Tambah katrangan lan keruwetan\n• Ekspor laporan menyang Excel utawa JSON\n• Nyelarasake karo Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Mangga mlebu kanggo nggunakake terjemahan AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Paling apik kanggo file kanthi ukuran sing cukup.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Laporan Priksa Kualitas",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Sidebar sidebar",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klik kanggo nggedhekake",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Copot Pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mode suntingan langsung: Kabeh tautan lan tombol diblokir. Klik ing Tèks kanggo diowahi.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Mungkasi laporan",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Teks",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Saiki",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Disaranake",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Gunakake fix",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Gunakake kabeh",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Applied",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Applied $ count $ ndandani",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Nyelarasake saka drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Kaca saiki",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Nuduhake teks asli",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Nglamar Pelokalan Pseudo ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Togol mode suntingan langsung ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Mode Laporan Bug Toggling ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Mbukak JSON Translator ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Pelanggan terjemahan ora diwiwiti",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Pilih teks ing kaca dhisik",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ora bisa mbukak mriksa kualitas. Mangga refresh kaca kasebut.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ora bisa miwiti terjemahan. Mangga refresh kaca kasebut.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ora bisa njaluk laporan saka kaca. Mangga refresh.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Layanan sink drive ora kasedhiya",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sink gagal: $ kesalahan $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Gagal komunikasi nganggo halaman. Nyoba nyegerake.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ora bisa nuduhake rincian bug. Mangga refresh kaca kasebut.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Gagal ngekspor menyang Excel. Coba coba maneh.",
+    "description": "Error when Excel export fails"
   }
 }

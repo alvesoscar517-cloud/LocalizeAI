@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Cara kerjanya: • Beralih antara teks asli dan terjemahan • Terjemahan disimpan dalam cache untuk peralihan cepat • Berfungsi dengan semua teks di halaman • Hapus cache untuk menerjemahkan ulang",
+    "message": "Cara kerjanya:\n• Beralih antara teks asli dan terjemahan\n• Terjemahan disimpan dalam cache untuk peralihan cepat\n• Berfungsi dengan semua teks di halaman\n• Hapus cache untuk menerjemahkan ulang",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Cara kerjanya: • Mengganti karakter dengan versi beraksen • Menambahkan perluasan panjang 30-40% • Membungkus teks dengan penanda [!!!... !!!] • Contoh: \"Pengaturan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Cara kerjanya:\n• Mengganti karakter dengan versi beraksen\n• Menambahkan perluasan panjang 30-40%\n• Membungkus teks dengan penanda [!!!... !!!]\n• Contoh: \"Pengaturan\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Cara kerjanya: • Unggah berkas bahasa JSON • Pilih bahasa target • Terjemahkan dengan Google atau AI • Unduh berkas terjemahan",
+    "message": "Cara kerjanya:\n• Unggah berkas bahasa JSON\n• Pilih bahasa target\n• Terjemahkan dengan Google atau AI\n• Unduh berkas terjemahan",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Cara kerjanya: • Klik elemen teks untuk melaporkan masalah • Tambahkan deskripsi dan tingkat keparahan • Ekspor laporan ke Excel atau JSON • Sinkronkan dengan Google Drive",
+    "message": "Cara kerjanya:\n• Klik elemen teks untuk melaporkan masalah\n• Tambahkan deskripsi dan tingkat keparahan\n• Ekspor laporan ke Excel atau JSON\n• Sinkronkan dengan Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Silakan masuk untuk menggunakan terjemahan AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Terbaik untuk file dengan ukuran wajar.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Laporan Pemeriksaan Kualitas",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Ciutkan bilah sisi",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klik untuk memperluas",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Hapus Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Mode Edit Langsung Aktif: Semua tautan dan tombol diblokir. Klik pada teks untuk mengedit.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Berhenti Melaporkan",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "teks",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Saat ini",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Disarankan",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Terapkan perbaikan",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Terapkan semua",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Terapan",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Menerapkan $COUNT$ perbaikan",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinkronisasi dari Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Halaman Saat Ini",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Menampilkan teks asli",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Menerapkan lokalisasi semu...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Mengalihkan mode edit langsung...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Mengalihkan mode laporan bug...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Membuka penerjemah JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Klien terjemahan tidak diinisialisasi",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Silakan pilih teks pada halaman terlebih dahulu",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Tidak dapat menjalankan pemeriksaan kualitas. Harap segarkan halaman.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Tidak dapat memulai terjemahan. Harap segarkan halaman.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Tidak dapat memperoleh laporan dari halaman. Harap segarkan.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Layanan sinkronisasi drive tidak tersedia",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinkronisasi gagal: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Gagal berkomunikasi dengan halaman. Cobalah menyegarkan.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Tidak dapat menampilkan detail bug. Harap segarkan halaman.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Gagal mengekspor ke Excel. Silakan coba lagi.",
+    "description": "Error when Excel export fails"
   }
 }

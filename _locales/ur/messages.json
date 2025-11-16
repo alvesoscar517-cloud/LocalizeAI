@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "یہ کیسے کام کرتا ہے: • اصل اور ترجمہ شدہ متن کے درمیان ٹوگل کریں۔ • تیز رفتار سوئچنگ کے لیے ترجمے کیش کیے جاتے ہیں۔ • صفحہ پر موجود تمام متن کے ساتھ کام کرتا ہے۔ • دوبارہ ترجمہ کرنے کے لیے کیشے کو صاف کریں۔",
+    "message": "یہ کیسے کام کرتا ہے:\n• اصل اور ترجمہ شدہ متن کے درمیان ٹوگل کریں۔\n• تیز رفتار سوئچنگ کے لیے ترجمے کیش کیے جاتے ہیں۔\n• صفحہ پر موجود تمام متن کے ساتھ کام کرتا ہے۔\n• دوبارہ ترجمہ کرنے کے لیے کیشے کو صاف کریں۔",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "یہ کیسے کام کرتا ہے: • حروف کو لہجے والے ورژن سے بدلتا ہے۔ • 30-40% لمبائی کی توسیع کا اضافہ کرتا ہے۔ • متن کو [!!!...!!!] مارکر • مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·!!!]\"",
+    "message": "یہ کیسے کام کرتا ہے:\n• حروف کو لہجے والے ورژن سے بدلتا ہے۔\n• 30-40% لمبائی کی توسیع کا اضافہ کرتا ہے۔\n• متن کو [!!!...!!!] مارکر\n• مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·!!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "یہ کیسے کام کرتا ہے: • کسی بھی متنی عنصر کو ترمیم کرنے کے لیے اس پر کلک کریں۔ • تبدیلیاں ریئل ٹائم میں ٹریک کی جاتی ہیں۔ • ترمیمات کو JSON یا Excel کے بطور برآمد کریں۔ • تبدیلیاں برآمد کرنے کے لیے Ctrl+E دبائیں۔",
+    "message": "یہ کیسے کام کرتا ہے:\n• کسی بھی متنی عنصر کو ترمیم کرنے کے لیے اس پر کلک کریں۔\n• تبدیلیاں ریئل ٹائم میں ٹریک کی جاتی ہیں۔\n• ترمیمات کو JSON یا Excel کے بطور برآمد کریں۔\n• تبدیلیاں برآمد کرنے کے لیے Ctrl+E دبائیں۔",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "پریمیم خصوصیات: • AI سے چلنے والا سیاق و سباق سے آگاہ ترجمہ • بیچ پورے صفحات کا ترجمہ کرتا ہے۔ • ترجمہ کے لیے معیار کی جانچ قدرتی زبان کی تجاویز",
+    "message": "پریمیم خصوصیات:\n• AI سے چلنے والا سیاق و سباق سے آگاہ ترجمہ\n• بیچ پورے صفحات کا ترجمہ کرتا ہے۔\n• ترجمہ کے لیے معیار کی جانچ قدرتی زبان کی تجاویز",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "یہ کیسے کام کرتا ہے: JSON زبان کی فائلیں اپ لوڈ کریں۔ • ہدف کی زبانیں منتخب کریں۔ • Google یا AI کے ساتھ ترجمہ کریں۔ • ترجمہ شدہ فائلیں ڈاؤن لوڈ کریں۔",
+    "message": "یہ کیسے کام کرتا ہے: JSON زبان کی فائلیں اپ لوڈ کریں۔\n• ہدف کی زبانیں منتخب کریں۔\n• Google یا AI کے ساتھ ترجمہ کریں۔\n• ترجمہ شدہ فائلیں ڈاؤن لوڈ کریں۔",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "یہ کیسے کام کرتا ہے: • مسائل کی اطلاع دینے کے لیے ٹیکسٹ عناصر پر کلک کریں۔ • تفصیل اور شدت شامل کریں۔ • رپورٹیں ایکسل یا JSON میں برآمد کریں۔ • Google Drive کے ساتھ مطابقت پذیری کریں۔",
+    "message": "یہ کیسے کام کرتا ہے:\n• مسائل کی اطلاع دینے کے لیے ٹیکسٹ عناصر پر کلک کریں۔\n• تفصیل اور شدت شامل کریں۔\n• رپورٹیں ایکسل یا JSON میں برآمد کریں۔\n• Google Drive کے ساتھ مطابقت پذیری کریں۔",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "براہ کرم AI ترجمہ استعمال کرنے کے لئے سائن ان کریں",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "مناسب سائز والی فائلوں کے لئے بہترین۔",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "کوالٹی چیک رپورٹ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "گرنے والے سائڈبار",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "وسعت کے لئے کلک کریں",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "چھدم لوک کو ہٹا دیں",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "براہ راست ترمیم موڈ فعال: تمام لنکس اور بٹن بلاک ہیں۔ ترمیم کرنے کے لئے متن پر کلک کریں۔",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "رپورٹنگ بند کریں",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "متن",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "موجودہ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "تجویز کیا",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "طے کریں طے کریں",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "سب کا اطلاق کریں",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "درخواست دی گئی",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "لاگو $ گنتی $ اصلاحات",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ڈرائیو سے ہم آہنگی",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "موجودہ صفحہ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "اصل متن دکھا رہا ہے",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "چھدم لوکلائزیشن کا اطلاق ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "ٹوگلنگ براہ راست ترمیم موڈ ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ٹوگلنگ بگ رپورٹ موڈ ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON مترجم کو کھولنا ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ترجمہ کلائنٹ شروع نہیں کیا گیا",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "براہ کرم پہلے صفحہ پر متن منتخب کریں",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "کوالٹی چیک نہیں چلا سکے۔ براہ کرم صفحہ کو تازہ کریں۔",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ترجمہ شروع نہیں کرسکا۔ براہ کرم صفحہ کو تازہ کریں۔",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "صفحے سے رپورٹیں نہیں مل سکی۔ براہ کرم تازہ دم کریں۔",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ڈرائیو کی مطابقت پذیری سروس دستیاب نہیں ہے",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "مطابقت پذیری ناکام: $ غلطی $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "صفحہ کے ساتھ بات چیت کرنے میں ناکام۔ تازگی کرنے کی کوشش کریں۔",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "بگ کی تفصیلات نہیں دکھا سکے۔ براہ کرم صفحہ کو تازہ کریں۔",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ایکسل کو برآمد کرنے میں ناکام۔ براہ کرم دوبارہ کوشش کریں۔",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Toimintaperiaate: • Vaihda alkuperäisen ja käännetyn tekstin välillä • Käännökset tallennetaan välimuistiin nopeaa vaihtoa varten • Toimii kaiken sivun tekstin kanssa • Tyhjennä välimuisti uudelleenkääntämistä varten",
+    "message": "Toimintaperiaate:\n• Vaihda alkuperäisen ja käännetyn tekstin välillä\n• Käännökset tallennetaan välimuistiin nopeaa vaihtoa varten\n• Toimii kaiken sivun tekstin kanssa\n• Tyhjennä välimuisti uudelleenkääntämistä varten",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Toimintaperiaate: • Korvaa merkit aksenttisilla merkeillä • Lisää 30–40 % pituuden laajennuksen • Rivittää tekstin [!!!... !!!] -merkkien sisään • Esimerkki: \"Asetukset\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Toimintaperiaate:\n• Korvaa merkit aksenttisilla merkeillä\n• Lisää 30–40 % pituuden laajennuksen\n• Rivittää tekstin [!!!... !!!] -merkkien sisään\n• Esimerkki: \"Asetukset\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Toimintaperiaate: • Napsauta mitä tahansa tekstielementtiä muokataksesi sitä • Muutoksia seurataan reaaliajassa • Vie muokkaukset JSON- tai Excel-muodossa • Vie muutokset painamalla Ctrl+E",
+    "message": "Toimintaperiaate:\n• Napsauta mitä tahansa tekstielementtiä muokataksesi sitä\n• Muutoksia seurataan reaaliajassa\n• Vie muokkaukset JSON- tai Excel-muodossa\n• Vie muutokset painamalla Ctrl+E",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Toimintaperiaate: • Lataa JSON-kielitiedostoja • Valitse kohdekielet • Käännä Googlen tai tekoälyn avulla • Lataa käännettyjä tiedostoja",
+    "message": "Toimintaperiaate:\n• Lataa JSON-kielitiedostoja\n• Valitse kohdekielet\n• Käännä Googlen tai tekoälyn avulla\n• Lataa käännettyjä tiedostoja",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Toimintaperiaate: • Napsauta tekstielementtejä ilmoittaaksesi ongelmista • Lisää kuvauksia ja vakavuusastetta • Vie raportit Exceliin tai JSON-muotoon • Synkronoi Google Driven kanssa",
+    "message": "Toimintaperiaate:\n• Napsauta tekstielementtejä ilmoittaaksesi ongelmista\n• Lisää kuvauksia ja vakavuusastetta\n• Vie raportit Exceliin tai JSON-muotoon\n• Synkronoi Google Driven kanssa",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Kirjaudu sisään käyttääksesi AI-käännöstä",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Paras kohtuullisen kokoisille tiedostoille.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Laaduntarkastusraportti",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Tiivistä sivupalkki",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Laajenna napsauttamalla",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Poista Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live-muokkaustila aktiivinen: Kaikki linkit ja painikkeet on estetty. Klikkaa tekstiä muokataksesi.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Lopeta raportointi",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekstit",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Nykyinen",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Ehdotettu",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Käytä korjausta",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Käytä kaikkia",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Sovellettu",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Käytetty $COUNT$ korjausta",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Synkronoi Drivesta",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Nykyinen sivu",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Näytetään alkuperäinen teksti",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Käytetty pseudo-lokalisointi...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Vaihdetaan live-muokkaustilaa...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Vaihdetaan vikailmoitustilaa...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Avataan JSON-kääntäjä...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Käännösohjelmaa ei ole alustettu",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Valitse ensin teksti sivulla",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Laaduntarkistusta ei voitu suorittaa. Päivitä sivu.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Kääntämistä ei voitu aloittaa. Päivitä sivu.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Raportteja ei voitu hakea sivulta. Päivitä.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Aseman synkronointipalvelu ei ole käytettävissä",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Synkronointi epäonnistui: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Yhteydenpito sivun kanssa epäonnistui. Kokeile virkistystä.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Virhetietoja ei voitu näyttää. Päivitä sivu.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Vieminen Exceliin epäonnistui. Yritä uudelleen.",
+    "description": "Error when Excel export fails"
   }
 }

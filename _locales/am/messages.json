@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "እንዴት እንደሚሰራ፡- • በመጀመሪያው እና በተተረጎመ ጽሑፍ መካከል ይቀያይሩ • ለፈጣን መቀያየር ትርጉሞች የተሸጎጡ ናቸው። • በገጹ ላይ ካሉ ሁሉም ጽሑፎች ጋር ይሰራል • እንደገና ለመተርጎም መሸጎጫውን ያጽዱ",
+    "message": "እንዴት እንደሚሰራ፡-\n• በመጀመሪያው እና በተተረጎመ ጽሑፍ መካከል ይቀያይሩ\n• ለፈጣን መቀያየር ትርጉሞች የተሸጎጡ ናቸው።\n• በገጹ ላይ ካሉ ሁሉም ጽሑፎች ጋር ይሰራል\n• እንደገና ለመተርጎም መሸጎጫውን ያጽዱ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "እንዴት እንደሚሰራ፡- • ቁምፊዎችን በድምፅ ስሪቶች ይተካል። • ከ30-40% ርዝመት መስፋፋትን ይጨምራል • ጽሑፍን በ [!!!...!!!] ጠቋሚዎች • ምሳሌ፡ \"ቅንጅቶች\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "እንዴት እንደሚሰራ፡-\n• ቁምፊዎችን በድምፅ ስሪቶች ይተካል።\n• ከ30-40% ርዝመት መስፋፋትን ይጨምራል\n• ጽሑፍን በ [!!!...!!!] ጠቋሚዎች\n• ምሳሌ፡ \"ቅንጅቶች\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "እንዴት እንደሚሰራ፡- • ለማርትዕ ማንኛውንም የጽሑፍ አካል ጠቅ ያድርጉ • ለውጦች በቅጽበት ክትትል ይደረግባቸዋል • አርትዖቶችን እንደ JSON ወይም Excel ወደ ውጪ ላክ • ለውጦችን ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ",
+    "message": "እንዴት እንደሚሰራ፡-\n• ለማርትዕ ማንኛውንም የጽሑፍ አካል ጠቅ ያድርጉ\n• ለውጦች በቅጽበት ክትትል ይደረግባቸዋል\n• አርትዖቶችን እንደ JSON ወይም Excel ወደ ውጪ ላክ\n• ለውጦችን ወደ ውጭ ለመላክ Ctrl+Eን ይጫኑ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "የፕሪሚየም ባህሪዎች • በአይ-የተጎላበተ አውድ-የሚያውቅ ትርጉም • ባች ሙሉ ገጾችን መተርጎም • ለትርጉሞች ጥራት ማረጋገጫ • የተፈጥሮ ቋንቋ ጥቆማዎች",
+    "message": "የፕሪሚየም ባህሪዎች\n• በአይ-የተጎላበተ አውድ-የሚያውቅ ትርጉም\n• ባች ሙሉ ገጾችን መተርጎም\n• ለትርጉሞች ጥራት ማረጋገጫ\n• የተፈጥሮ ቋንቋ ጥቆማዎች",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "እንዴት እንደሚሰራ፡- • የJSON ቋንቋ ፋይሎችን ይስቀሉ። • የዒላማ ቋንቋዎችን ይምረጡ • በGoogle ወይም AI መተርጎም • የተተረጎሙ ፋይሎችን ያውርዱ",
+    "message": "እንዴት እንደሚሰራ፡-\n• የJSON ቋንቋ ፋይሎችን ይስቀሉ።\n• የዒላማ ቋንቋዎችን ይምረጡ\n• በGoogle ወይም AI መተርጎም\n• የተተረጎሙ ፋይሎችን ያውርዱ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "እንዴት እንደሚሰራ፡- • ጉዳዮችን ሪፖርት ለማድረግ የጽሑፍ ክፍሎችን ጠቅ ያድርጉ • መግለጫዎችን እና ክብደትን ይጨምሩ • ሪፖርቶችን ወደ ኤክሴል ወይም JSON ይላኩ። • ከGoogle Drive ጋር አስምር",
+    "message": "እንዴት እንደሚሰራ፡-\n• ጉዳዮችን ሪፖርት ለማድረግ የጽሑፍ ክፍሎችን ጠቅ ያድርጉ\n• መግለጫዎችን እና ክብደትን ይጨምሩ\n• ሪፖርቶችን ወደ ኤክሴል ወይም JSON ይላኩ።\n• ከGoogle Drive ጋር አስምር",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "የአይ ትርጉም ለመጠቀም እባክዎ ይግቡ",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "በተመጣጠነ መጠን ለፋይሎች ምርጥ.",
     "description": "AI translation limit info"
@@ -1410,5 +1414,133 @@
   "qualityCheckReport": {
     "message": "የጥራት ማረጋገጫ ዘገባ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "የጎን አሞሌን ሰብስብ",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ለማስፋፋት ጠቅ ያድርጉ",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "PSESUDO- አካባቢን ያስወግዱ",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "የቀጥታ አርትዕ ሁኔታ ንቁ-ሁሉም አገናኞች እና አዝራሮች ታግደዋል. ለማርትዕ ጽሑፍ ላይ ጠቅ ያድርጉ.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "ሪፖርት ማድረጉን አቁም",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ጽሑፎች",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "የአሁኑ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "የተጠቆመ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ጥገናን ይተግብሩ",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "ሁሉንም ይተግብሩ",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "ተተግብሯል",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "የተተገበሩ $ ቆጠራ $ ጥገናዎች",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ከ Drive ያመሳስሉ",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "የአሁኑ ገጽ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "የመጀመሪያውን ጽሑፍ ማሳየት",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "PSUSUDO-አካባቢያዊ ማመልከት ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "የቀጥታ የቀጥታ አርትዕ ሁነታን መጎተት ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "የመግባት የሳንካ ሪፖርት ሁናቴ ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "የጄሰን ተርጓሚ ይከፍታል ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "የትርጉም ደንበኛ አልተጀመረም",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "እባክዎ በመጀመሪያው ገጽ ላይ ጽሑፍ ይምረጡ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ጥራት ያለው ቼክ ማስኬድ አልተቻለም. እባክዎ ገጹን ያድሱ.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ትርጉም መጀመር አልተቻለም. እባክዎ ገጹን ያድሱ.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ሪፖርቶችን ከ ገጽ ማግኘት አልተቻለም. እባክዎን አድስ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "የማመሳሰል አገልግሎት አይገኝም",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "ማመሳሰል አልተሳካም $ ስህተት $ $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ከገጽ ጋር መገናኘት አልተሳካም. መንፈስን ለማደስ ሞክር.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "የሳንካ ዝርዝሮችን ማሳየት አልተቻለም. እባክዎ ገጹን ያድሱ.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ከ Excel ወደ ውጭ መላክ አልተሳካም. እባክዎ እንደገና ይሞክሩ.",
+    "description": "Error when Excel export fails"
   }
 }

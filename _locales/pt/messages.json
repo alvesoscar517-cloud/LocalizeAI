@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Como funciona: • Alterne entre o texto original e o traduzido • As traduções são armazenadas em cache para troca rápida • Funciona com todo o texto da página • Limpe o cache para traduzir novamente",
+    "message": "• Alterne entre o texto original e o traduzido\n• As traduções são armazenadas em cache para troca rápida\n• Funciona com todo o texto da página\n• Limpe o cache para traduzir novamente",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Como funciona: • Substitui caracteres por versões acentuadas • Aumenta o comprimento em 30-40% • Envolve o texto em marcadores [!!!... !!!] • Exemplo: \"Configurações\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "• Substitui caracteres por versões acentuadas\n• Aumenta o comprimento em 30-40%\n• Envolve o texto em marcadores [!!!... !!!]\n• Exemplo: \"Configurações\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Como funciona: • Carregue arquivos JSON de idioma • Selecione os idiomas de destino • Traduza com o Google Tradutor ou IA • Baixe os arquivos traduzidos",
+    "message": "• Carregue arquivos JSON de idioma\n• Selecione os idiomas de destino\n• Traduza com o Google Tradutor ou IA\n• Baixe os arquivos traduzidos",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Como funciona: • Clique nos elementos de texto para relatar problemas • Adicione descrições e níveis de gravidade • Exporte relatórios para Excel ou JSON • Sincronize com o Google Drive",
+    "message": "• Clique nos elementos de texto para relatar problemas\n• Adicione descrições e níveis de gravidade\n• Exporte relatórios para Excel ou JSON\n• Sincronize com o Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Faça login para usar tradução de IA",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Melhor para arquivos de tamanho razoável. Máximo 5 idiomas de cada vez.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Relatório de verificação de qualidade",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Recolher barra lateral",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Clique para expandir",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Remover Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Modo de edição ao vivo ativo: todos os links e botões estão bloqueados. Clique no texto para editar.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Parar de relatar",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "textos",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Atual",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Sugerido",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aplicar correção",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aplicar tudo",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplicado",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Correções de $COUNT$ aplicadas",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sincronizar do Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Página atual",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Mostrando texto original",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Aplicando pseudo-localização...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Alternando o modo de edição ao vivo...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Alternando modo de relatório de bug...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Abrindo o tradutor JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Cliente de tradução não inicializado",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Selecione o texto na página primeiro",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Não foi possível executar a verificação de qualidade. Atualize a página.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Não foi possível iniciar a tradução. Atualize a página.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Não foi possível obter relatórios da página. Atualize.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Serviço de sincronização de unidade não disponível",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Falha na sincronização: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Falha ao comunicar com a página. Experimente refrescar.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Não foi possível mostrar detalhes do bug. Atualize a página.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Falha ao exportar para Excel. Por favor, tente novamente.",
+    "description": "Error when Excel export fails"
   }
 }

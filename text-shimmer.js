@@ -13,26 +13,33 @@ class TextShimmer {
     if (this.isActive) return;
     this.isActive = true;
     
-    // Wrap text in shimmer container - using background-clip technique like shadcn/ui
+    // Wrap text in shimmer container with overlay effect
+    // Keep original text color and add shimmer overlay on top
     const shimmerHTML = `
       <span class="text-shimmer-wrapper" style="
+        position: relative;
         display: inline-block;
-        background: linear-gradient(
-          110deg,
-          currentColor 0%,
-          currentColor 40%,
-          #a78bfa 45%,
-          #c4b5fd 50%,
-          #a78bfa 55%,
-          currentColor 60%,
-          currentColor 100%
-        );
-        background-size: 200% 100%;
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: shimmer ${this.duration}s ease-in-out infinite;
-      ">${this.element.textContent}</span>
+      ">
+        ${this.element.textContent}
+        <span class="text-shimmer-overlay" style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, 0.6) 50%,
+            rgba(255, 255, 255, 0) 60%,
+            rgba(255, 255, 255, 0) 100%
+          );
+          background-size: 200% 100%;
+          animation: shimmer ${this.duration}s linear infinite;
+          pointer-events: none;
+        "></span>
+      </span>
     `;
     
     this.element.innerHTML = shimmerHTML;
@@ -78,20 +85,44 @@ class TextShimmer {
 
 // Helper function to create shimmer effect on button
 function createButtonShimmer(buttonId) {
-  const button = document.getElementById(buttonId);
-  if (!button) return null;
+  // In panel mode, button is directly in document
+  // On page, button is inside #localizeai-panel
+  let button = document.getElementById(buttonId);
   
-  const textElement = button.querySelector('span:not(.badge)');
-  if (!textElement) return null;
+  if (!button) {
+    // Try searching in panel container (for page mode)
+    const panel = document.getElementById('localizeai-panel');
+    if (panel) {
+      button = panel.querySelector(`#${buttonId}`);
+    }
+  }
   
-  const shimmer = new TextShimmer(textElement, { duration: 2 }); // Moderate speed
+  if (!button) {
+    return null;
+  }
+  
+  // Find the text span (first span that's not a badge)
+  const spans = button.querySelectorAll('span');
+  let textElement = null;
+  
+  for (const span of spans) {
+    if (!span.classList.contains('badge')) {
+      textElement = span;
+      break;
+    }
+  }
+  
+  if (!textElement) {
+    return null;
+  }
+  
+  const shimmer = new TextShimmer(textElement, { duration: 1.5 });
   
   return {
     start: () => {
       button.disabled = true;
       button.style.opacity = '0.8';
       button.style.cursor = 'not-allowed';
-      // Don't change text, just apply shimmer to original text
       shimmer.start();
     },
     stop: () => {

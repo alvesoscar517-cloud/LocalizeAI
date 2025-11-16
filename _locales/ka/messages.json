@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "როგორ მუშაობს: • გადართვა ორიგინალურ და თარგმნილ ტექსტს შორის • თარგმანები ქეშირებულია სწრაფი გადართვისთვის • მუშაობს გვერდზე არსებულ ყველა ტექსტთან • ქეშის გასუფთავება ხელახლა თარგმნისთვის",
+    "message": "როგორ მუშაობს:\n• გადართვა ორიგინალურ და თარგმნილ ტექსტს შორის\n• თარგმანები ქეშირებულია სწრაფი გადართვისთვის\n• მუშაობს გვერდზე არსებულ ყველა ტექსტთან\n• ქეშის გასუფთავება ხელახლა თარგმნისთვის",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "როგორ მუშაობს: • ცვლის სიმბოლოებს აქცენტირებული ვერსიებით • ამატებს სიგრძის 30-40%-იან გაფართოებას • ტექსტს ახვევს [!!!... !!!] მარკერებში • მაგალითი: \"პარამეტრები\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "როგორ მუშაობს:\n• ცვლის სიმბოლოებს აქცენტირებული ვერსიებით\n• ამატებს სიგრძის 30-40%-იან გაფართოებას\n• ტექსტს ახვევს [!!!... !!!] მარკერებში\n• მაგალითი: \"პარამეტრები\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "როგორ მუშაობს: • დააწკაპუნეთ ნებისმიერ ტექსტურ ელემენტზე მისი რედაქტირებისთვის • ცვლილებები თვალყურს ადევნებთ რეალურ დროში • რედაქტირებების ექსპორტი JSON ან Excel ფორმატში • ცვლილებების ექსპორტისთვის დააჭირეთ Ctrl+E",
+    "message": "როგორ მუშაობს:\n• დააწკაპუნეთ ნებისმიერ ტექსტურ ელემენტზე მისი რედაქტირებისთვის\n• ცვლილებები თვალყურს ადევნებთ რეალურ დროში\n• რედაქტირებების ექსპორტი JSON ან Excel ფორმატში\n• ცვლილებების ექსპორტისთვის დააჭირეთ Ctrl+E",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "პრემიუმ ფუნქციები: • ხელოვნური ინტელექტით მართული კონტექსტის გათვალისწინებით თარგმნა • მთელი გვერდების ჯგუფური თარგმნა • თარგმანების ხარისხის შემოწმება • ბუნებრივი ენის შემოთავაზებები",
+    "message": "პრემიუმ ფუნქციები:\n• ხელოვნური ინტელექტით მართული კონტექსტის გათვალისწინებით თარგმნა\n• მთელი გვერდების ჯგუფური თარგმნა\n• თარგმანების ხარისხის შემოწმება\n• ბუნებრივი ენის შემოთავაზებები",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "როგორ მუშაობს: • ატვირთეთ JSON ენის ფაილები • აირჩიეთ სამიზნე ენები • თარგმნეთ Google-ის ან ხელოვნური ინტელექტის გამოყენებით • ჩამოტვირთეთ თარგმნილი ფაილები",
+    "message": "როგორ მუშაობს:\n• ატვირთეთ JSON ენის ფაილები\n• აირჩიეთ სამიზნე ენები\n• თარგმნეთ Google-ის ან ხელოვნური ინტელექტის გამოყენებით\n• ჩამოტვირთეთ თარგმნილი ფაილები",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "როგორ მუშაობს: • პრობლემების შესატყობინებლად დააწკაპუნეთ ტექსტურ ელემენტებზე • დაამატეთ აღწერილობები და სიმძიმე • ექსპორტი გაუკეთეთ ანგარიშებს Excel-ში ან JSON-ში • სინქრონიზაცია გაუკეთეთ Google Drive-ს",
+    "message": "როგორ მუშაობს:\n• პრობლემების შესატყობინებლად დააწკაპუნეთ ტექსტურ ელემენტებზე\n• დაამატეთ აღწერილობები და სიმძიმე\n• ექსპორტი გაუკეთეთ ანგარიშებს Excel-ში ან JSON-ში\n• სინქრონიზაცია გაუკეთეთ Google Drive-ს",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "გთხოვთ შეხვიდეთ AI თარგმანის გამოსაყენებლად",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "საუკეთესოა გონივრული ზომის ფაილებისთვის.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "ხარისხის შემოწმების ანგარიში",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "გვერდითი ზოლის ჩაკეცვა",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "დააწკაპუნეთ გასაშლელად",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "ამოიღეთ ფსევდო-ლოკი",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ცოცხალი რედაქტირების რეჟიმი აქტიურია: ყველა ბმული და ღილაკი დაბლოკილია. დააწკაპუნეთ ტექსტზე რედაქტირებისთვის.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "შეაჩერე ანგარიში",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ტექსტები",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "მიმდინარე",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "შესთავაზა",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "მიმართეთ შესწორებას",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "მიმართეთ ყველა",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "მიმართა",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "გამოყენებულია $COUNT$ შესწორებები",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "სინქრონიზაცია Drive-დან",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "მიმდინარე გვერდი",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "ორიგინალური ტექსტის ჩვენება",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "მიმდინარეობს ფსევდოლოკალიზაციის გამოყენება...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "პირდაპირი რედაქტირების რეჟიმის გადართვა...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "ხარვეზის მოხსენების რეჟიმის გადართვა...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "იხსნება JSON თარჯიმანი...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "თარგმანის კლიენტი არ არის ინიციალიზებული",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "გთხოვთ, პირველ რიგში აირჩიეთ ტექსტი გვერდზე",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "ხარისხის შემოწმება ვერ მოხერხდა. გთხოვთ განაახლოთ გვერდი.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "თარგმანი ვერ დაიწყო. გთხოვთ განაახლოთ გვერდი.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "გვერდიდან ანგარიშების მიღება ვერ მოხერხდა. გთხოვთ განაახლოთ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive-ის სინქრონიზაციის სერვისი მიუწვდომელია",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "სინქრონიზაცია ვერ მოხერხდა: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "გვერდთან კომუნიკაცია ვერ მოხერხდა. სცადეთ განახლება.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "ხარვეზის დეტალების ჩვენება ვერ მოხერხდა. გთხოვთ განაახლოთ გვერდი.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel-ში ექსპორტი ვერ მოხერხდა. გთხოვთ, სცადოთ ხელახლა.",
+    "description": "Error when Excel export fails"
   }
 }

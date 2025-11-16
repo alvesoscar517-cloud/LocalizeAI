@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "仕組み： • 原文と翻訳文を切り替える • 翻訳文はキャッシュに保存されるため、素早く切り替えられる • ページ上のすべてのテキストで機能する • キャッシュをクリアして再翻訳する",
+    "message": "仕組み：\n• 原文と翻訳文を切り替える\n• 翻訳文はキャッシュに保存されるため、素早く切り替えられる\n• ページ上のすべてのテキストで機能する\n• キャッシュをクリアして再翻訳する",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "仕組み： • 文字をアクセント付き文字に置き換えます。 • 文字数を30～40%拡張します。 • テキストを[!!!... !!!]マーカーで囲みます。 • 例：「設定」→「[!!! Şḗŧŧīƞɠş·· !!!]」",
+    "message": "仕組み：\n• 文字をアクセント付き文字に置き換えます。\n• 文字数を30～40%拡張します。\n• テキストを[!!!... !!!]マーカーで囲みます。\n• 例：「設定」→「[!!! Şḗŧŧīƞɠş·· !!!]」",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "使い方： • テキスト要素をクリックして編集します。 • 変更はリアルタイムで追跡されます。 • 編集内容をJSONまたはExcel形式でエクスポートします。 • Ctrl+Eを押して変更内容をエクスポートします。",
+    "message": "使い方：\n• テキスト要素をクリックして編集します。\n• 変更はリアルタイムで追跡されます。\n• 編集内容をJSONまたはExcel形式でエクスポートします。\n• Ctrl+Eを押して変更内容をエクスポートします。",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "プレミアム機能： • AIを活用したコンテキスト認識翻訳 • ページ全体の一括翻訳 • 翻訳の品質チェック • 自然言語の提案",
+    "message": "プレミアム機能：\n• AIを活用したコンテキスト認識翻訳\n• ページ全体の一括翻訳\n• 翻訳の品質チェック\n• 自然言語の提案",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "仕組み： • JSON言語ファイルをアップロード • 対象言語を選択 • GoogleまたはAIで翻訳 • 翻訳済みファイルをダウンロード",
+    "message": "仕組み：\n• JSON言語ファイルをアップロード\n• 対象言語を選択\n• GoogleまたはAIで翻訳\n• 翻訳済みファイルをダウンロード",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "使い方： • テキスト要素をクリックして問題を報告 • 説明と重大度を追加 • レポートをExcelまたはJSONにエクスポート • Googleドライブと同期",
+    "message": "使い方：\n• テキスト要素をクリックして問題を報告\n• 説明と重大度を追加\n• レポートをExcelまたはJSONにエクスポート\n• Googleドライブと同期",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI翻訳を使用するにはサインインしてください",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "適度なサイズのファイルに最適。一度に最大5言語。",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "品質検査報告書",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "サイドバーを折りたたむ",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "クリックして展開します",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "疑似位置を削除する",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "ライブ編集モードがアクティブ: すべてのリンクとボタンがブロックされます。編集するテキストをクリックします。",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "報告を停止する",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "テキスト",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "現在",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "提案された",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "修正を適用する",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "全て適用",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "適用済み",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ 件の修正を適用しました",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ドライブから同期",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "現在のページ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "元のテキストを表示する",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "擬似ローカリゼーションを適用しています...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "ライブ編集モードを切り替えています...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "バグレポートモードを切り替えています...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON トランスレータを開いています...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "翻訳クライアントが初期化されていません",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "最初にページ上のテキストを選択してください",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "品質チェックを実行できませんでした。ページを更新してください。",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "翻訳を開始できませんでした。ページを更新してください。",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "ページからレポートを取得できませんでした。リフレッシュしてください。",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ドライブ同期サービスは利用できません",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "同期に失敗しました: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "ページとの通信に失敗しました。リフレッシュしてみてください。",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "バグの詳細を表示できませんでした。ページを更新してください。",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelへのエクスポートに失敗しました。もう一度試してください。",
+    "description": "Error when Excel export fails"
   }
 }

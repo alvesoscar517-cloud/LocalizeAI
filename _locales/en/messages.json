@@ -60,7 +60,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "How it works: • Toggle between original and translated text • Translations are cached for fast switching • Works with all text on the page • Clear cache to retranslate",
+    "message": "• Toggle between original and translated text\n• Translations are cached for fast switching\n• Works with all text on the page\n• Clear cache to retranslate",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -88,12 +88,16 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "How it works: • Replaces characters with accented versions • Adds 30-40% length expansion • Wraps text in [!!!... !!!] markers • Example: \"Settings\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "• Replaces characters with accented versions\n• Adds 30-40% length expansion\n• Wraps text in [!!!... !!!] markers\n• Example: \"Settings\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
     "message": "Apply Pseudo-Loc",
     "description": "Apply pseudo-localization button"
+  },
+  "removePseudoLoc": {
+    "message": "Remove Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
   },
   "liveEditMode": {
     "message": "Live Edit Mode",
@@ -104,12 +108,16 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "How it works: • Click any text element to edit it • Changes are tracked in real-time • Export edits as JSON or Excel • Press Ctrl+E to export changes",
+    "message": "• Click any text element to edit it\n• Changes are tracked in real-time\n• Export edits as JSON or Excel\n• Press Ctrl+E to export changes",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
     "message": "Enable Live Edit",
     "description": "Enable live edit button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit Mode Active: All links and buttons are blocked. Click on text to edit.",
+    "description": "Live edit mode active notification"
   },
   "aiFeatures": {
     "message": "AI Features",
@@ -120,7 +128,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Premium Features: • AI-powered context-aware translation • Batch translate entire pages • Quality check for translations • Natural language suggestions",
+    "message": "• AI-powered context-aware translation\n• Batch translate entire pages\n• Quality check for translations\n• Natural language suggestions",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -152,7 +160,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "How it works: • Upload JSON language files • Select target languages • Translate with Google or AI • Download translated files",
+    "message": "• Upload JSON language files\n• Select target languages\n• Translate with Google or AI\n• Download translated files",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -168,12 +176,16 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "How it works: • Click text elements to report issues • Add descriptions and severity • Export reports to Excel or JSON • Sync with Google Drive",
+    "message": "• Click text elements to report issues\n• Add descriptions and severity\n• Export reports to Excel or JSON\n• Sync with Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
     "message": "Start Reporting",
     "description": "Start bug reporting button"
+  },
+  "stopReporting": {
+    "message": "Stop Reporting",
+    "description": "Stop bug reporting button"
   },
   "manageReports": {
     "message": "Manage Reports",
@@ -453,6 +465,10 @@
     "message": "Complete!",
     "description": "Complete status"
   },
+  "texts": {
+    "message": "texts",
+    "description": "Texts label"
+  },
   "startingTranslation": {
     "message": "Starting translation for $COUNT$ languages...",
     "description": "Starting translation message",
@@ -562,6 +578,36 @@
   "qualityCheckComplete": {
     "message": "Quality check complete",
     "description": "Quality check complete message"
+  },
+  "current": {
+    "message": "Current",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Suggested",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Apply fix",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Apply all",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Applied",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Applied $COUNT$ fixes",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
   },
   "syncingToGoogleDrive": {
     "message": "Syncing to Google Drive...",
@@ -1357,6 +1403,10 @@
     "message": "Please sign in to use AI translation",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to use JSON translation feature",
+    "description": "Sign in required for JSON translation"
+  },
   "translationMethod": {
     "message": "Translation Method",
     "description": "Translation method title"
@@ -1418,5 +1468,75 @@
         "example": "3"
       }
     }
+  },
+  "currentPage": {
+    "message": "Current Page",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Showing original text",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Applying pseudo-localization...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Toggling live edit mode...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Toggling bug report mode...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Opening JSON translator...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Translation client not initialized",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Please select text on the page first",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Could not run quality check. Please refresh the page.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Could not start translation. Please refresh the page.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Could not get reports from page. Please refresh.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive sync service not available",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync failed: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Failed to communicate with page. Try refreshing.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Could not show bug details. Please refresh the page.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Failed to export to Excel. Please try again.",
+    "description": "Error when Excel export fails"
   }
 }

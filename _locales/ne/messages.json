@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "यसले कसरी काम गर्छ: • मूल र अनुवादित पाठ बीच टगल गर्नुहोस् • अनुवादहरू छिटो स्विच गर्न क्यास गरिन्छ • पृष्ठमा रहेका सबै पाठहरूसँग काम गर्छ • पुन: अनुवाद गर्न क्यास खाली गर्नुहोस्",
+    "message": "यसले कसरी काम गर्छ:\n• मूल र अनुवादित पाठ बीच टगल गर्नुहोस्\n• अनुवादहरू छिटो स्विच गर्न क्यास गरिन्छ\n• पृष्ठमा रहेका सबै पाठहरूसँग काम गर्छ\n• पुन: अनुवाद गर्न क्यास खाली गर्नुहोस्",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "यसले कसरी काम गर्छ: • क्यारेक्टरहरूलाई एक्सेन्टेड संस्करणहरूले प्रतिस्थापन गर्छ • ३०-४०% लम्बाइ विस्तार थप्छ • [!!!... !!!] मार्करहरूमा पाठ बेर्छ • उदाहरण: \"सेटिङ्हरू\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "यसले कसरी काम गर्छ:\n• क्यारेक्टरहरूलाई एक्सेन्टेड संस्करणहरूले प्रतिस्थापन गर्छ\n• ३०-४०% लम्बाइ विस्तार थप्छ\n• [!!!... !!!] मार्करहरूमा पाठ बेर्छ\n• उदाहरण: \"सेटिङ्हरू\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "यसले कसरी काम गर्छ: • कुनै पनि पाठ तत्वलाई सम्पादन गर्न क्लिक गर्नुहोस् • परिवर्तनहरू वास्तविक समयमा ट्र्याक गरिन्छ • सम्पादनहरू JSON वा Excel को रूपमा निर्यात गर्नुहोस् • परिवर्तनहरू निर्यात गर्न Ctrl+E थिच्नुहोस्",
+    "message": "यसले कसरी काम गर्छ:\n• कुनै पनि पाठ तत्वलाई सम्पादन गर्न क्लिक गर्नुहोस्\n• परिवर्तनहरू वास्तविक समयमा ट्र्याक गरिन्छ\n• सम्पादनहरू JSON वा Excel को रूपमा निर्यात गर्नुहोस्\n• परिवर्तनहरू निर्यात गर्न Ctrl+E थिच्नुहोस्",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "प्रिमियम सुविधाहरू: • एआई-संचालित सन्दर्भ-सचेत अनुवाद • सम्पूर्ण पृष्ठहरू ब्याच अनुवाद गर्नुहोस् • अनुवादहरूको गुणस्तर जाँच गर्नुहोस् • प्राकृतिक भाषा सुझावहरू",
+    "message": "प्रिमियम सुविधाहरू:\n• एआई-संचालित सन्दर्भ-सचेत अनुवाद\n• सम्पूर्ण पृष्ठहरू ब्याच अनुवाद गर्नुहोस्\n• अनुवादहरूको गुणस्तर जाँच गर्नुहोस्\n• प्राकृतिक भाषा सुझावहरू",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "यसले कसरी काम गर्छ: • JSON भाषा फाइलहरू अपलोड गर्नुहोस् • लक्षित भाषाहरू चयन गर्नुहोस् • Google वा AI मार्फत अनुवाद गर्नुहोस् • अनुवादित फाइलहरू डाउनलोड गर्नुहोस्",
+    "message": "यसले कसरी काम गर्छ:\n• JSON भाषा फाइलहरू अपलोड गर्नुहोस्\n• लक्षित भाषाहरू चयन गर्नुहोस्\n• Google वा AI मार्फत अनुवाद गर्नुहोस्\n• अनुवादित फाइलहरू डाउनलोड गर्नुहोस्",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "यसले कसरी काम गर्छ: • समस्याहरू रिपोर्ट गर्न पाठ तत्वहरूमा क्लिक गर्नुहोस् • विवरण र गम्भीरता थप्नुहोस् • एक्सेल वा JSON मा रिपोर्टहरू निर्यात गर्नुहोस् • गुगल ड्राइभसँग सिंक गर्नुहोस्",
+    "message": "यसले कसरी काम गर्छ:\n• समस्याहरू रिपोर्ट गर्न पाठ तत्वहरूमा क्लिक गर्नुहोस्\n• विवरण र गम्भीरता थप्नुहोस्\n• एक्सेल वा JSON मा रिपोर्टहरू निर्यात गर्नुहोस्\n• गुगल ड्राइभसँग सिंक गर्नुहोस्",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "कृपया AI अनुवाद प्रयोग गर्न साइन इन गर्नुहोस्",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "उचित आकारका फाइलहरूको लागि उत्तम।",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "गुणस्तर जाँच रिपोर्ट",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "साइडबार संक्षिप्त गर्नुहोस्",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "विस्तार गर्न क्लिक गर्नुहोस्",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc हटाउनुहोस्",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "प्रत्यक्ष सम्पादन मोड सक्रिय: सबै लिङ्क र बटनहरू अवरुद्ध छन्। सम्पादन गर्न पाठमा क्लिक गर्नुहोस्।",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "रिपोर्टिङ रोक्नुहोस्",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "पाठहरू",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "वर्तमान",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "सिफारिस गर्नुभयो",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "फिक्स लागू गर्नुहोस्",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "सबै लागू गर्नुहोस्",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "लागू गरियो",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ समाधानहरू लागू गरियो",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ड्राइभबाट सिंक गर्नुहोस्",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "हालको पृष्ठ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "मूल पाठ देखाउँदै",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "स्यूडो-स्थानीयकरण लागू गर्दै...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "लाइभ सम्पादन मोड टगल गर्दै...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "बग रिपोर्ट मोड टगल गर्दै...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON अनुवादक खोल्दै...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "अनुवाद ग्राहक प्रारम्भ गरिएको छैन",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "कृपया पहिले पृष्ठमा पाठ चयन गर्नुहोस्",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "गुणस्तर जाँच चलाउन सकिएन। कृपया पृष्ठ रिफ्रेस गर्नुहोस्।",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "अनुवाद सुरु गर्न सकिएन। कृपया पृष्ठ रिफ्रेस गर्नुहोस्।",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "पृष्ठबाट रिपोर्टहरू प्राप्त गर्न सकेन। कृपया रिफ्रेस गर्नुहोस्।",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "ड्राइभ सिंक सेवा उपलब्ध छैन",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "सिंक असफल भयो: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "पृष्ठसँग सञ्चार गर्न असफल भयो। रिफ्रेस गर्ने प्रयास गर्नुहोस्।",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "बग विवरणहरू देखाउन सकिएन। कृपया पृष्ठ रिफ्रेस गर्नुहोस्।",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel मा निर्यात गर्न असफल भयो। कृपया पुन: प्रयास गर्नुहोस्।",
+    "description": "Error when Excel export fails"
   }
 }

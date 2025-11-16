@@ -36,7 +36,6 @@ class TranslateClient {
       // Check cache first
       const cacheKey = `${sourceLang}:${targetLang}:${text}`;
       if (this.cache.has(cacheKey)) {
-        console.log('[TranslateClient] Cache hit:', text.substring(0, 50));
         return this.cache.get(cacheKey);
       }
 
@@ -86,7 +85,6 @@ class TranslateClient {
       // Cache the result
       this.addToCache(cacheKey, translatedText);
 
-      console.log('[TranslateClient] Translated:', text.substring(0, 50), '→', translatedText.substring(0, 50));
       return translatedText;
 
     } catch (error) {
@@ -147,7 +145,6 @@ class TranslateClient {
         return await this.translate(text, targetLang, sourceLang);
       } catch (error) {
         lastError = error;
-        console.warn(`[TranslateClient] Attempt ${attempt}/${maxRetries} failed:`, error.message);
 
         if (attempt < maxRetries) {
           // Exponential backoff: 1s, 2s, 4s
@@ -215,7 +212,6 @@ class TranslateClient {
    */
   clearCache() {
     this.cache.clear();
-    console.log('[TranslateClient] Cache cleared');
   }
 
   /**
@@ -241,5 +237,3 @@ class TranslateClient {
 
 // Create singleton instance
 window.translateClient = new TranslateClient();
-
-console.log('[TranslateClient] Initialized - Free Google Translate API ready');

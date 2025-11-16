@@ -1,16 +1,16 @@
 {
   "manifest_version": 3,
   "name": "LocalizeAI - AI Translation Testing",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "permissions": ["activeTab", "storage", "scripting", "identity"],
+  "permissions": ["activeTab", "storage", "scripting", "identity", "sidePanel"],
   "host_permissions": ["<all_urls>"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "oauth2": {
-    "client_id": "864763590147-sq3d7469v8jisthp4s5g4pndftspi0d1.apps.googleusercontent.com",
+    "client_id": "864763590147-d22597lg2dgprmbni39pbg5kn36n7n1t.apps.googleusercontent.com",
     "scopes": [
       "openid",
       "email",
@@ -24,7 +24,10 @@
   },
   "action": {
     "default_icon": "icons/icon128.png",
-    "default_popup": "popup.html"
+    "default_title": "LocalizeAI - Open Side Panel"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
   },
   "content_scripts": [
     {
@@ -44,7 +47,9 @@
         "text-shimmer.js",
         "content.js"
       ],
-      "css": ["content.css", "content-language-modern.css", "content-modal-modern.css"]
+      "css": ["content.css", "content-language-modern.css", "content-modal-modern.css"],
+      "run_at": "document_idle",
+      "all_frames": false
     }
   ],
   "icons": {
@@ -54,7 +59,8 @@
     {
       "resources": [
         "icons/lucide/*.svg",
-        "icons/*.png"
+        "icons/*.png",
+        "animation/*.json"
       ],
       "matches": ["<all_urls>"]
     }

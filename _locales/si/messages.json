@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "එය ක්‍රියා කරන ආකාරය: • මුල් සහ පරිවර්තනය කළ පෙළ අතර මාරු වන්න • පරිවර්තන වේගයෙන් මාරු වීම සඳහා හැඹිලිගත කර ඇත • පිටුවේ ඇති සියලුම පෙළ සමඟ ක්‍රියා කරයි • නැවත පරිවර්තනය කිරීමට හැඹිලිය හිස් කරන්න",
+    "message": "එය ක්‍රියා කරන ආකාරය:\n• මුල් සහ පරිවර්තනය කළ පෙළ අතර මාරු වන්න\n• පරිවර්තන වේගයෙන් මාරු වීම සඳහා හැඹිලිගත කර ඇත\n• පිටුවේ ඇති සියලුම පෙළ සමඟ ක්‍රියා කරයි\n• නැවත පරිවර්තනය කිරීමට හැඹිලිය හිස් කරන්න",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "එය ක්‍රියා කරන ආකාරය: • අක්ෂර උච්චාරණ අනුවාද සමඟ ප්‍රතිස්ථාපනය කරයි • 30-40% දිග ප්‍රසාරණය එක් කරයි • [!!!... !!!] සලකුණු වලින් පෙළ ඔතා • උදාහරණය: \"සැකසීම්\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "එය ක්‍රියා කරන ආකාරය:\n• අක්ෂර උච්චාරණ අනුවාද සමඟ ප්‍රතිස්ථාපනය කරයි\n• 30-40% දිග ප්‍රසාරණය එක් කරයි\n• [!!!... !!!] සලකුණු වලින් පෙළ ඔතා\n• උදාහරණය: \"සැකසීම්\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "එය ක්‍රියා කරන ආකාරය: • ඕනෑම පෙළ අංගයක් සංස්කරණය කිරීමට ක්ලික් කරන්න • වෙනස්කම් තත්‍ය කාලීනව නිරීක්ෂණය කෙරේ • සංස්කරණයන් JSON හෝ Excel ලෙස අපනයනය කරන්න • වෙනස්කම් අපනයනය කිරීමට Ctrl+E ඔබන්න",
+    "message": "එය ක්‍රියා කරන ආකාරය:\n• ඕනෑම පෙළ අංගයක් සංස්කරණය කිරීමට ක්ලික් කරන්න\n• වෙනස්කම් තත්‍ය කාලීනව නිරීක්ෂණය කෙරේ\n• සංස්කරණයන් JSON හෝ Excel ලෙස අපනයනය කරන්න\n• වෙනස්කම් අපනයනය කිරීමට Ctrl+E ඔබන්න",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "වාරික විශේෂාංග: • AI-බලගැන්වූ සන්දර්භ-දැනුවත් පරිවර්තනය • කණ්ඩායම් පරිවර්තනය සම්පූර්ණ පිටු • පරිවර්තන සඳහා ගුණාත්මක පරීක්ෂාව • ස්වභාවික භාෂා යෝජනා",
+    "message": "වාරික විශේෂාංග:\n• AI-බලගැන්වූ සන්දර්භ-දැනුවත් පරිවර්තනය\n• කණ්ඩායම් පරිවර්තනය සම්පූර්ණ පිටු\n• පරිවර්තන සඳහා ගුණාත්මක පරීක්ෂාව\n• ස්වභාවික භාෂා යෝජනා",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "එය ක්‍රියා කරන ආකාරය: • JSON භාෂා ගොනු උඩුගත කරන්න • ඉලක්ක භාෂා තෝරන්න • Google හෝ AI සමඟ පරිවර්තනය කරන්න • පරිවර්තනය කළ ගොනු බාගන්න",
+    "message": "එය ක්‍රියා කරන ආකාරය:\n• JSON භාෂා ගොනු උඩුගත කරන්න\n• ඉලක්ක භාෂා තෝරන්න\n• Google හෝ AI සමඟ පරිවර්තනය කරන්න\n• පරිවර්තනය කළ ගොනු බාගන්න",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "එය ක්‍රියා කරන ආකාරය: • ගැටළු වාර්තා කිරීමට පෙළ අංග ක්ලික් කරන්න • විස්තර සහ බරපතලකම එක් කරන්න • Excel හෝ JSON වෙත වාර්තා අපනයනය කරන්න • Google Drive සමඟ සමමුහුර්ත කරන්න",
+    "message": "එය ක්‍රියා කරන ආකාරය:\n• ගැටළු වාර්තා කිරීමට පෙළ අංග ක්ලික් කරන්න\n• විස්තර සහ බරපතලකම එක් කරන්න\n• Excel හෝ JSON වෙත වාර්තා අපනයනය කරන්න\n• Google Drive සමඟ සමමුහුර්ත කරන්න",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI පරිවර්තනය භාවිත කිරීමට කරුණාකර පුරන්න",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "සාධාරණ ප්‍රමාණයේ ගොනු සඳහා හොඳම.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "තත්ත්ව පරීක්ෂණ වාර්තාව",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "පැති තීරුව හකුළන්න",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "පුළුල් කිරීමට ක්ලික් කරන්න",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc ඉවත් කරන්න",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "සජීවී සංස්කරණ මාදිලිය සක්‍රීයයි: සියලුම සබැඳි සහ බොත්තම් අවහිර කර ඇත. සංස්කරණය කිරීමට පෙළ මත ක්ලික් කරන්න.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "වාර්තා කිරීම නවත්වන්න",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "පාඨ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "වත්මන්",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "යෝජනා කර ඇත",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "නිවැරදි කරන්න",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "සියල්ල අයදුම් කරන්න",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "අයදුම් කළා",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ නිවැරදි කිරීම් යොදන ලදී",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Drive වෙතින් සමමුහුර්ත කරන්න",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "වත්මන් පිටුව",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "මුල් පෙළ පෙන්වමින්",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "ව්‍යාජ දේශීයකරණය යොදමින්...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "සජීවී සංස්කරණ මාදිලිය ටොගල් කරමින්...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "දෝෂ වාර්තා මාදිලිය ටොගල් කරමින්...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON පරිවර්තකය විවෘත කරමින්...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "පරිවර්තන සේවාලාභියා ආරම්භ කර නැත",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "කරුණාකර පළමුව පිටුවේ ඇති පෙළ තෝරන්න",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "තත්ත්ව පරීක්ෂාව ධාවනය කළ නොහැකි විය. කරුණාකර පිටුව නැවුම් කරන්න.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "පරිවර්තනය ආරම්භ කිරීමට නොහැකි විය. කරුණාකර පිටුව නැවුම් කරන්න.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "පිටුවෙන් වාර්තා ලබා ගැනීමට නොහැකි විය. කරුණාකර නැවුම් කරන්න.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive සමමුහුර්ත කිරීමේ සේවාව නොමැත",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "සමමුහුර්ත කිරීම අසාර්ථක විය: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "පිටුව සමඟ සන්නිවේදනය කිරීමට අසමත් විය. නැවුම් කිරීමට උත්සාහ කරන්න.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "දෝෂ විස්තර පෙන්වීමට නොහැකි විය. කරුණාකර පිටුව නැවුම් කරන්න.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel වෙත නිර්යාත කිරීමට අසමත් විය. කරුණාකර නැවත උත්සාහ කරන්න.",
+    "description": "Error when Excel export fails"
   }
 }

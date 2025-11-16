@@ -1,6 +1,4 @@
 // Background service worker
-console.log('LocalizeAI background script loaded');
-
 const BACKEND_URL = 'https://localizeai-285680531861.us-central1.run.app';
 
 // Initialize on load - check if user is already logged in
@@ -66,8 +64,17 @@ chrome.runtime.onStartup.addListener(async () => {
 // Sync subscription status periodically (every hour)
 setInterval(syncSubscriptionStatus, 60 * 60 * 1000);
 
-// Note: action.onClicked is not used when default_popup is set in manifest.json
-// The popup.html/popup.js handles the logic for opening sidebar or showing unsupported message
+// Handle extension icon click - open side panel
+chrome.action.onClicked.addListener(async (tab) => {
+  console.log('Extension icon clicked, opening side panel');
+  
+  try {
+    // Open side panel for the current tab
+    await chrome.sidePanel.open({ tabId: tab.id });
+  } catch (error) {
+    console.error('Failed to open side panel:', error);
+  }
+});
 
 // Handle messages from content script and options page
 chrome.runtime.onMessage.addListener((request, _sender, sendResponse) => {

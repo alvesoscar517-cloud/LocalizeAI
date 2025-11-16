@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Kiel ĝi funkcias: • Ŝalti inter originala kaj tradukita teksto • Tradukoj estas konservitaj en kaŝmemoro por rapida ŝanĝo • Funkcias kun ĉiu teksto sur la paĝo • Malplenigi la kaŝmemoron por retraduki",
+    "message": "Kiel ĝi funkcias:\n• Ŝalti inter originala kaj tradukita teksto\n• Tradukoj estas konservitaj en kaŝmemoro por rapida ŝanĝo\n• Funkcias kun ĉiu teksto sur la paĝo\n• Malplenigi la kaŝmemoron por retraduki",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Kiel ĝi funkcias: • Anstataŭigas signojn per akcentitaj versioj • Aldonas 30-40%-an longo-vastiĝon • Envolvas tekston en [!!!... !!!] markilojn • Ekzemplo: \"Agordoj\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Kiel ĝi funkcias:\n• Anstataŭigas signojn per akcentitaj versioj\n• Aldonas 30-40%-an longo-vastiĝon\n• Envolvas tekston en [!!!... !!!] markilojn\n• Ekzemplo: \"Agordoj\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Kiel ĝi funkcias: • Alklaku iun ajn tekstelementon por redakti ĝin • Ŝanĝoj estas spurataj en reala tempo • Eksporti redaktojn kiel JSON aŭ Excel • Premu Ctrl+E por eksporti ŝanĝojn",
+    "message": "Kiel ĝi funkcias:\n• Alklaku iun ajn tekstelementon por redakti ĝin\n• Ŝanĝoj estas spurataj en reala tempo\n• Eksporti redaktojn kiel JSON aŭ Excel\n• Premu Ctrl+E por eksporti ŝanĝojn",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Altnivelaj Trajtoj: • AI-funkciigita kuntekstkonscia tradukado • Aro da tradukoj de tutaj paĝoj • Kvalitkontrolo por tradukoj • Naturalingvaj sugestoj",
+    "message": "Altnivelaj Trajtoj:\n• AI-funkciigita kuntekstkonscia tradukado\n• Aro da tradukoj de tutaj paĝoj\n• Kvalitkontrolo por tradukoj\n• Naturalingvaj sugestoj",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Kiel ĝi funkcias: • Alŝuti JSON-lingvajn dosierojn • Elekti cellingvojn • Traduki per Google aŭ artefarita inteligenteco • Elŝuti tradukitajn dosierojn",
+    "message": "Kiel ĝi funkcias:\n• Alŝuti JSON-lingvajn dosierojn\n• Elekti cellingvojn\n• Traduki per Google aŭ artefarita inteligenteco\n• Elŝuti tradukitajn dosierojn",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Kiel ĝi funkcias: • Alklaku tekstajn elementojn por raporti problemojn • Aldonu priskribojn kaj gravecon • Eksportu raportojn al Excel aŭ JSON • Sinkronigu kun Google Drive",
+    "message": "Kiel ĝi funkcias:\n• Alklaku tekstajn elementojn por raporti problemojn\n• Aldonu priskribojn kaj gravecon\n• Eksportu raportojn al Excel aŭ JSON\n• Sinkronigu kun Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Bonvolu ensaluti por uzi AI-tradukon",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Plej bone por dosieroj kun racia grandeco.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Raporto pri Kvalita Kontrolo",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Kolapu flankbreton",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Klaku por pligrandigi",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Forigi Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Viva Redakta Reĝimo Aktiva: Ĉiuj ligiloj kaj butonoj estas blokitaj. Alklaku tekston por redakti.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Ĉesu Raporti",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "tekstoj",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Nuna",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Sugestita",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Apliki riparo",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Apliki ĉion",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Aplikita",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Aplikitaj $COUNT$ korektoj",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sinkronigi de Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Nuna Paĝo",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Montrante originalan tekston",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Aplikante pseŭdo-lokigon...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Ŝaltante vivan redaktan reĝimon...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Ŝaltante cimraportreĝimon...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Malfermante JSON-tradukilon...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Tradukkliento ne pravigita",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Bonvolu unue elekti tekston sur la paĝo",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ne eblis ruli kvalitan kontrolon. Bonvolu refreŝigi la paĝon.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ne eblis komenci tradukadon. Bonvolu refreŝigi la paĝon.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ne eblis ricevi raportojn de paĝo. Bonvolu refreŝigi.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive-sinkroniga servo ne havebla",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sinkronigo malsukcesis: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Malsukcesis komuniki kun paĝo. Provu refreŝigi.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ne eblis montri cimdetalojn. Bonvolu refreŝigi la paĝon.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Malsukcesis eksporti al Excel. Bonvolu provi denove.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -5,9 +5,7 @@
   "scripts": {
     "build": "node scripts/build.js",
     "zip": "node scripts/zip.js",
-    "deploy": "cd backend && gcloud run deploy localizeai-api --source .",
-    "validate": "node scripts/validate-and-fix-locales.js",
-    "fix-placeholders": "node scripts/auto-fix-placeholder-errors.js"
+    "deploy": "cd backend && gcloud run deploy localizeai-api --source ."
   },
   "keywords": [
     "localization",

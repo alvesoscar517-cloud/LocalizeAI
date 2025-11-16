@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Çawa dixebite: • Di navbera nivîsa orîjînal û wergerandî de biguhere • Werger ji bo guhertina bilez têne tomar kirin • Bi hemî nivîsên li ser rûpelê re dixebite • Ji bo wergerandina ji nû ve, kaşê paqij bike",
+    "message": "Çawa dixebite:\n• Di navbera nivîsa orîjînal û wergerandî de biguhere\n• Werger ji bo guhertina bilez têne tomar kirin\n• Bi hemî nivîsên li ser rûpelê re dixebite\n• Ji bo wergerandina ji nû ve, kaşê paqij bike",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Çawa dixebite: • Tîpên bi guhertoyên bi aksentan diguherîne • Berfirehkirina dirêjahiya 30-40% zêde dike • Nivîsê di nîşankerên [!!!... !!!] de dipêçe • Mînak: \"Mîheng\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Çawa dixebite:\n• Tîpên bi guhertoyên bi aksentan diguherîne\n• Berfirehkirina dirêjahiya 30-40% zêde dike\n• Nivîsê di nîşankerên [!!!... !!!] de dipêçe\n• Mînak: \"Mîheng\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Çawa dixebite: • Ji bo guherandina wê li ser her hêmanek nivîsê bikirtînin • Guhertin di wextê rast de têne şopandin • Guhertinan wekî JSON an Excel hinarde bikin • Ji bo hinardekirina guhertinan Ctrl+E bikirtînin",
+    "message": "Çawa dixebite:\n• Ji bo guherandina wê li ser her hêmanek nivîsê bikirtînin\n• Guhertin di wextê rast de têne şopandin\n• Guhertinan wekî JSON an Excel hinarde bikin\n• Ji bo hinardekirina guhertinan Ctrl+E bikirtînin",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Çawa dixebite: • Pelên zimanê JSON bar bike • Zimanên hedef hilbijêre • Bi Google an AI wergerîne • Pelên wergerandî dakêşîne",
+    "message": "Çawa dixebite:\n• Pelên zimanê JSON bar bike\n• Zimanên hedef hilbijêre\n• Bi Google an AI wergerîne\n• Pelên wergerandî dakêşîne",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Çawa dixebite: • Ji bo raporkirina pirsgirêkan li hêmanên nivîsê bikirtînin • Danasîn û giraniyê lê zêde bikin • Raportan ji bo Excel an JSON hinarde bikin • Bi Google Drive re senkronîze bikin",
+    "message": "Çawa dixebite:\n• Ji bo raporkirina pirsgirêkan li hêmanên nivîsê bikirtînin\n• Danasîn û giraniyê lê zêde bikin\n• Raportan ji bo Excel an JSON hinarde bikin\n• Bi Google Drive re senkronîze bikin",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Ji kerema xwe têkevinê da ku wergera AI-ê bikar bînin",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Ji bo pelên bi mezinahiya maqûl çêtirîn.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Rapora Kontrolkirina Kalîteyê",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Bara kêlekê hilweşe",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Ji bo berfirehkirinê bikirtînin",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc rakin",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Moda Guhertina Zindî Çalak: Hemî girêdan û bişkok têne asteng kirin. Ji bo guherandinê li ser nivîsê bikirtînin.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Raporkirinê Rawestînin",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "texts",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Vêga",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Pêşniyar kirin",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Serrastkirinê bicîh bikin",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Hemî bicîh bikin",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Applied",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ rastkirin hatin sepandin",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sync ji Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Rûpelê Niha",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Nivîsara orîjînal tê nîşandan",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Sepandin pseudo-herêmî...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Veguheztina moda guherandina zindî...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Veguheztina moda rapora xeletiyê...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Vekirina wergêr JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Muwekîlê werger nehat destpêkirin",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Ji kerema xwe pêşî nivîsa li ser rûpelê hilbijêrin",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kontrolkirina kalîteyê nekarî. Ji kerema xwe rûpelê nûve bikin.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Nekarî dest bi wergerê bike. Ji kerema xwe rûpelê nûve bikin.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Nekarî raporên ji rûpelê werbigire. Ji kerema xwe nûve bikin.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Karûbarê hevdengkirina ajotinê peyda nabe",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Hevdengkirin têk çû: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Têkiliya bi rûpelê re têk çû. Teze biceribînin.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Nekarî hûrguliyên xeletiyê nîşan bide. Ji kerema xwe rûpelê nûve bikin.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Nekarî derxe Excel. Ji kerema xwe dîsa biceribîne.",
+    "description": "Error when Excel export fails"
   }
 }

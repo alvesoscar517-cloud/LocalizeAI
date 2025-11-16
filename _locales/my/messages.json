@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "အလုပ်လုပ်ပုံ- • မူရင်းနှင့် ဘာသာပြန်ထားသော စာသားကြားသို့ ပြောင်းပါ။ • အမြန်ပြောင်းရန်အတွက် ဘာသာပြန်ချက်များကို သိမ်းဆည်းထားသည်။ • စာမျက်နှာရှိ စာသားအားလုံးနှင့် အလုပ်လုပ်သည်။ • ပြန်လည်ဘာသာပြန်ဆိုရန် ကက်ရှ်ကို ရှင်းလင်းပါ။",
+    "message": "အလုပ်လုပ်ပုံ-\n• မူရင်းနှင့် ဘာသာပြန်ထားသော စာသားကြားသို့ ပြောင်းပါ။\n• အမြန်ပြောင်းရန်အတွက် ဘာသာပြန်ချက်များကို သိမ်းဆည်းထားသည်။\n• စာမျက်နှာရှိ စာသားအားလုံးနှင့် အလုပ်လုပ်သည်။\n• ပြန်လည်ဘာသာပြန်ဆိုရန် ကက်ရှ်ကို ရှင်းလင်းပါ။",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "အလုပ်လုပ်ပုံ- • ဇာတ်ကောင်များကို အသံထွက်ဗားရှင်းများဖြင့် အစားထိုးသည်။ • အရှည် 30-40% ထပ်တိုးသည်။ • စာသားကို [!!!...!!!] အမှတ်အသားများ • ဥပမာ- \"ဆက်တင်များ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "အလုပ်လုပ်ပုံ-\n• ဇာတ်ကောင်များကို အသံထွက်ဗားရှင်းများဖြင့် အစားထိုးသည်။\n• အရှည် 30-40% ထပ်တိုးသည်။\n• စာသားကို [!!!...!!!] အမှတ်အသားများ\n• ဥပမာ- \"ဆက်တင်များ\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "အလုပ်လုပ်ပုံ- • ၎င်းကိုတည်းဖြတ်ရန် မည်သည့်စာသားအစိတ်အပိုင်းကိုမဆို နှိပ်ပါ။ • အပြောင်းအလဲများကို အချိန်နှင့်တပြေးညီ ခြေရာခံပါသည်။ • တည်းဖြတ်မှုများကို JSON သို့မဟုတ် Excel အဖြစ် ထုတ်ယူပါ။ • ပြောင်းလဲမှုများကို ထုတ်ယူရန် Ctrl+E ကိုနှိပ်ပါ။",
+    "message": "အလုပ်လုပ်ပုံ-\n• ၎င်းကိုတည်းဖြတ်ရန် မည်သည့်စာသားအစိတ်အပိုင်းကိုမဆို နှိပ်ပါ။\n• အပြောင်းအလဲများကို အချိန်နှင့်တပြေးညီ ခြေရာခံပါသည်။\n• တည်းဖြတ်မှုများကို JSON သို့မဟုတ် Excel အဖြစ် ထုတ်ယူပါ။\n• ပြောင်းလဲမှုများကို ထုတ်ယူရန် Ctrl+E ကိုနှိပ်ပါ။",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "ပရီမီယံအင်္ဂါရပ်များ- • AI စနစ်သုံး ဆက်စပ်-သတိပြုမိသော ဘာသာပြန်ဆိုမှု • စာမျက်နှာတစ်ခုလုံးကို အတွဲလိုက် ဘာသာပြန်ပါ။ • ဘာသာပြန်ဆိုမှုများအတွက် အရည်အသွေးစစ်ဆေးပါ။ • သဘာဝဘာသာစကား အကြံပြုချက်များ",
+    "message": "ပရီမီယံအင်္ဂါရပ်များ-\n• AI စနစ်သုံး ဆက်စပ်-သတိပြုမိသော ဘာသာပြန်ဆိုမှု\n• စာမျက်နှာတစ်ခုလုံးကို အတွဲလိုက် ဘာသာပြန်ပါ။\n• ဘာသာပြန်ဆိုမှုများအတွက် အရည်အသွေးစစ်ဆေးပါ။\n• သဘာဝဘာသာစကား အကြံပြုချက်များ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "အလုပ်လုပ်ပုံ- • JSON ဘာသာစကားဖိုင်များကို အပ်လုဒ်လုပ်ပါ။ • ပစ်မှတ်ဘာသာစကားများကို ရွေးချယ်ပါ။ • Google သို့မဟုတ် AI ဖြင့် ဘာသာပြန်ပါ။ • ဘာသာပြန်ထားသောဖိုင်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
+    "message": "အလုပ်လုပ်ပုံ-\n• JSON ဘာသာစကားဖိုင်များကို အပ်လုဒ်လုပ်ပါ။\n• ပစ်မှတ်ဘာသာစကားများကို ရွေးချယ်ပါ။\n• Google သို့မဟုတ် AI ဖြင့် ဘာသာပြန်ပါ။\n• ဘာသာပြန်ထားသောဖိုင်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "အလုပ်လုပ်ပုံ- • ပြဿနာများကို သတင်းပို့ရန် စာသားအစိတ်အပိုင်းများကို နှိပ်ပါ။ • ဖော်ပြချက်များနှင့် ပြင်းထန်မှု ထည့်ပါ။ • အစီရင်ခံစာများကို Excel သို့မဟုတ် JSON သို့ ထုတ်ယူပါ။ • Google Drive နှင့် စင့်ခ်လုပ်ပါ။",
+    "message": "အလုပ်လုပ်ပုံ-\n• ပြဿနာများကို သတင်းပို့ရန် စာသားအစိတ်အပိုင်းများကို နှိပ်ပါ။\n• ဖော်ပြချက်များနှင့် ပြင်းထန်မှု ထည့်ပါ။\n• အစီရင်ခံစာများကို Excel သို့မဟုတ် JSON သို့ ထုတ်ယူပါ။\n• Google Drive နှင့် စင့်ခ်လုပ်ပါ။",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "ကျေးဇူးပြု. AI ဘာသာပြန်ခြင်းကိုအသုံးပြုရန်ဆိုင်းအင်လုပ်ပါ",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ကျိုးကြောင်းဆီလျော်သောအရွယ်အစားနှင့်အတူဖိုင်များအတွက်အကောင်းဆုံး။",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "အရည်အသွေးစစ်ဆေးမှုအစီရင်ခံစာ",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "ပြိုကျ sidebar",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ချဲ့ရန်ကိုနှိပ်ပါ",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc ဖယ်ရှားပါ",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Live Edit Mode Active - လင့်ခ်များနှင့်ခလုတ်များအားလုံးကိုပိတ်ဆို့ထားသည်။ တည်းဖြတ်ရန်စာသားကိုနှိပ်ပါ။",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "အစီရင်ခံခြင်းကိုရပ်တန့်",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "စာသားများ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ယခု",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "အကြံပြုခဲ့သည်",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "ပြင်ဆင်ရန်",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "အားလုံးလျှောက်ထားပါ",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "လျှောက်ထား",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$ ရေတွက် $ fixes လျှောက်ထား",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "drive မှစည်းညှိ",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "လက်ရှိစာမျက်နှာ",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "မူရင်းစာသားကိုပြသခြင်း",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Pseudo-localization လျှောက်ထားခြင်း ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Live Edit Mode ကို Toggling ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "bug အစီရင်ခံစာ mode ကို toggling ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON ဘာသာပြန်သူ ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "ဘာသာပြန်ချက်လက်မှတ်ကိုမစပါ",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "ကျေးဇူးပြု. စာမျက်နှာပေါ်ရှိစာသားကိုရွေးချယ်ပါ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "အရည်အသွေးစစ်ဆေးမှုကို run နိုင်ဘူး။ ကျေးဇူးပြု. စာမျက်နှာကိုလန်းဆန်းစေပါ။",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ဘာသာပြန်ကိုမစနိုင်ပါ။ ကျေးဇူးပြု. စာမျက်နှာကိုလန်းဆန်းစေပါ။",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "စာမျက်နှာမှအစီရင်ခံစာများမရနိုင်ပါ။ ကျေးဇူးပြုပြီးလန်းဆန်းစေပါ",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync 0 န်ဆောင်မှုကိုမရရှိနိုင်ပါ",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "စည်းညှိမအောင်မြင်ပါ။ $ အမှား $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "စာမျက်နှာနှင့်ဆက်သွယ်ရန်ပျက်ကွက်ခဲ့သည်။ လန်းဆန်းစမ်းပါ။",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "bug အသေးစိတ်ကိုပြသနိုင်ဘူး။ ကျေးဇူးပြု. စာမျက်နှာကိုလန်းဆန်းစေပါ။",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel ကိုတင်ပို့ရန်ပျက်ကွက်ခဲ့သည်။ ကျေးဇူးပြုပြီးထပ်ကြိုးစားပါ",
+    "description": "Error when Excel export fails"
   }
 }

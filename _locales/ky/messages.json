@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Бул кантип иштейт: • Түпнуска жана которулган тексттин ортосунда которуштуруу • Котормолор тез которулуу үчүн кэштелген • Беттеги бардык текст менен иштейт • Кайра которуу үчүн кэшти тазалаңыз",
+    "message": "Бул кантип иштейт:\n• Түпнуска жана которулган тексттин ортосунда которуштуруу\n• Котормолор тез которулуу үчүн кэштелген\n• Беттеги бардык текст менен иштейт\n• Кайра которуу үчүн кэшти тазалаңыз",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Бул кантип иштейт: • Белгилерди акценттүү версиялар менен алмаштырат • 30-40% узундугун кеңейтет • Текстти [!!!... !!!] маркерлер • Мисалы: \"Орнотуулар\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Бул кантип иштейт:\n• Белгилерди акценттүү версиялар менен алмаштырат\n• 30-40% узундугун кеңейтет\n• Текстти [!!!... !!!] маркерлер\n• Мисалы: \"Орнотуулар\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Бул кантип иштейт: • Аны түзөтүү үчүн каалаган текст элементин басыңыз • Өзгөрүүлөр реалдуу убакытта көзөмөлдөнөт • Түзөтүүлөрдү JSON же Excel катары экспорттоо • Өзгөртүүлөрдү экспорттоо үчүн Ctrl+E басыңыз",
+    "message": "Бул кантип иштейт:\n• Аны түзөтүү үчүн каалаган текст элементин басыңыз\n• Өзгөрүүлөр реалдуу убакытта көзөмөлдөнөт\n• Түзөтүүлөрдү JSON же Excel катары экспорттоо\n• Өзгөртүүлөрдү экспорттоо үчүн Ctrl+E басыңыз",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Премиум өзгөчөлүктөрү: • AI менен иштеген контекстти түшүнгөн котормо • Барактарды толугу менен которуу • Котормолордун сапатын текшерүү • Табигый тил боюнча сунуштар",
+    "message": "Премиум өзгөчөлүктөрү:\n• AI менен иштеген контекстти түшүнгөн котормо\n• Барактарды толугу менен которуу\n• Котормолордун сапатын текшерүү\n• Табигый тил боюнча сунуштар",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Бул кантип иштейт: • JSON тил файлдарын жүктөп бериңиз • Максаттуу тилдерди тандаңыз • Google же AI менен которуңуз • Которулган файлдарды жүктөп алыңыз",
+    "message": "Бул кантип иштейт:\n• JSON тил файлдарын жүктөп бериңиз\n• Максаттуу тилдерди тандаңыз\n• Google же AI менен которуңуз\n• Которулган файлдарды жүктөп алыңыз",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Бул кантип иштейт: • Маселелерди билдирүү үчүн текст элементтерин басыңыз • Сүрөттөмөлөрдү жана катаалдыгын кошуңуз • Отчетторду Excel же JSONга экспорттоо • Google Drive менен синхрондоштуруу",
+    "message": "Бул кантип иштейт:\n• Маселелерди билдирүү үчүн текст элементтерин басыңыз\n• Сүрөттөмөлөрдү жана катаалдыгын кошуңуз\n• Отчетторду Excel же JSONга экспорттоо\n• Google Drive менен синхрондоштуруу",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI Translation колдонууга кириңиз",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Акылга сыярлык өлчөмдөгү файлдар үчүн мыкты.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Сапат текшерүү отчету",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Кулоо каптал",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Кеңейтүү үчүн чыкылдатыңыз",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-LOC алып салыңыз",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Жандуу режимде жигердүү: Бардык шилтемелер жана баскычтар бөгөттөлгөн. Түзөтүү үчүн текстти чыкылдатыңыз.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Отчетторду токтотуу",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "тексттер",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Учурдагы",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Сунуш",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Оңдоо",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Бардыгын колдон",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Колдонулат",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Кошумча $ эсептөө",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Диск менен шайкештештирүү",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Учурдагы барак",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Түпнуска текст көрсөтүү",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Псевдо-локалдаштыруу режимин колдонуу ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Toggleling Live түзөтүү режими ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Боголдук отчет режими ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON котормочусун ачуу ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Котормо кардары башталбайт",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Биринчи баракчага текст тандаңыз",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Сапат текшерүүсүн жүргүзө алган жок. Сураныч баракчаны жаңылаңыз.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Котормо баштай алган жок. Сураныч баракчаны жаңылаңыз.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Барактан отчетторду ала алган жок. Сураныч жаңылаңыз.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive Sync кызматы жок",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Синхрондоштурулган жок: $ Ката $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Барак менен байланышкан жок. Сергитүүгө аракет кылыңыз.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ката чоо-жайын көрсөтө алган жок. Сураныч баракчаны жаңылаңыз.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excelге экспорттой алган жок. Сураныч, дагы бир жолу аракет кылып көрүңүз.",
+    "description": "Error when Excel export fails"
   }
 }

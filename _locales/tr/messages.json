@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Nasıl çalışır: • Orijinal ve çevrilmiş metin arasında geçiş yapın • Hızlı geçiş için çeviriler önbelleğe alınır • Sayfadaki tüm metinle çalışır • Yeniden çevirmek için önbelleği temizleyin",
+    "message": "Nasıl çalışır:\n• Orijinal ve çevrilmiş metin arasında geçiş yapın\n• Hızlı geçiş için çeviriler önbelleğe alınır\n• Sayfadaki tüm metinle çalışır\n• Yeniden çevirmek için önbelleği temizleyin",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Nasıl çalışır: • Karakterleri aksanlı versiyonlarıyla değiştirir • %30-40 uzunluk artışı ekler • Metni [!!!... !!!] işaretleriyle sarar • Örnek: \"Ayarlar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Nasıl çalışır:\n• Karakterleri aksanlı versiyonlarıyla değiştirir\n• %30-40 uzunluk artışı ekler\n• Metni [!!!... !!!] işaretleriyle sarar\n• Örnek: \"Ayarlar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Nasıl çalışır: • Düzenlemek için herhangi bir metin öğesine tıklayın • Değişiklikler gerçek zamanlı olarak izlenir • Düzenlemeleri JSON veya Excel olarak dışa aktarın • Değişiklikleri dışa aktarmak için Ctrl+E tuşlarına basın",
+    "message": "Nasıl çalışır:\n• Düzenlemek için herhangi bir metin öğesine tıklayın\n• Değişiklikler gerçek zamanlı olarak izlenir\n• Düzenlemeleri JSON veya Excel olarak dışa aktarın\n• Değişiklikleri dışa aktarmak için Ctrl+E tuşlarına basın",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Nasıl çalışır: • JSON dil dosyalarını yükleyin • Hedef dilleri seçin • Google veya AI ile çevirin • Çevrilen dosyaları indirin",
+    "message": "Nasıl çalışır:\n• JSON dil dosyalarını yükleyin\n• Hedef dilleri seçin\n• Google veya AI ile çevirin\n• Çevrilen dosyaları indirin",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Nasıl çalışır: • Sorunları bildirmek için metin öğelerine tıklayın • Açıklama ve önem derecesi ekleyin • Raporları Excel veya JSON'a aktarın • Google Drive ile senkronize edin",
+    "message": "Nasıl çalışır:\n• Sorunları bildirmek için metin öğelerine tıklayın\n• Açıklama ve önem derecesi ekleyin\n• Raporları Excel veya JSON'a aktarın\n• Google Drive ile senkronize edin",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "AI çevirisi kullanmak için lütfen giriş yapın",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Makul boyuttaki dosyalar için en iyisi.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Kalite Kontrol Raporu",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Kenar çubuğunu daralt",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Genişletmek için tıklayın",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc'u Kaldır",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Canlı Düzenleme Modu Aktif: Tüm bağlantılar ve düğmeler engellenir. Düzenlemek için metne tıklayın.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Raporlamayı Durdur",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "metinler",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Akım",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Önerilen",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Düzeltmeyi uygula",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Tümünü uygula",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Uygulandı",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ düzeltme uygulandı",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Drive'dan senkronize et",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Geçerli Sayfa",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Orijinal metin gösteriliyor",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Sahte yerelleştirme uygulanıyor...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Canlı düzenleme modu değiştiriliyor...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Hata raporu modu değiştiriliyor...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "JSON çevirmeni açılıyor...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Çeviri istemcisi başlatılmadı",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Lütfen önce sayfadaki metni seçin",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Kalite kontrolü çalıştırılamadı. Lütfen sayfayı yenileyin.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Çeviri başlatılamadı. Lütfen sayfayı yenileyin.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Sayfadan raporlar alınamadı. Lütfen yenileyin.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive senkronizasyon hizmeti kullanılamıyor",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Senkronizasyon başarısız oldu: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Sayfayla iletişim kurulamadı. Tazelemeyi deneyin.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Hata ayrıntıları gösterilemedi. Lütfen sayfayı yenileyin.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel'e aktarım başarısız oldu. Lütfen tekrar deneyin.",
+    "description": "Error when Excel export fails"
   }
 }

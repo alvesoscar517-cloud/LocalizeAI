@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Sida ay u shaqeyso: U kala beddel qoraalka asalka ah iyo kan la turjumay Turjumaada waa la kaydiyay si degdeg ah loogu beddelo • Wuxuu kula shaqeeyaa dhammaan qoraalka bogga • Nadiifi kaydka si aad dib ugu tarjunto",
+    "message": "Sida ay u shaqeyso: U kala beddel qoraalka asalka ah iyo kan la turjumay Turjumaada waa la kaydiyay si degdeg ah loogu beddelo\n• Wuxuu kula shaqeeyaa dhammaan qoraalka bogga\n• Nadiifi kaydka si aad dib ugu tarjunto",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Sida ay u shaqeyso: • Guji qayb kasta oo qoraal ah si aad u saxdo Isbeddellada waxaa lala socdaa waqtiga dhabta ah Dhoofinta waxka bedelka sida JSON ama Excel • Taabo Ctrl+E si aad u dhoofiso isbeddellada",
+    "message": "Sida ay u shaqeyso:\n• Guji qayb kasta oo qoraal ah si aad u saxdo Isbeddellada waxaa lala socdaa waqtiga dhabta ah Dhoofinta waxka bedelka sida JSON ama Excel\n• Taabo Ctrl+E si aad u dhoofiso isbeddellada",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Astaamaha qiimaha leh: • Turjumaada og macnaha guud ee awooda AI Dufcaddii turjumi bogag dhan • Hubinta tayada tarjumaada • Soo jeedinta luqadda dabiiciga ah",
+    "message": "Astaamaha qiimaha leh:\n• Turjumaada og macnaha guud ee awooda AI Dufcaddii turjumi bogag dhan\n• Hubinta tayada tarjumaada\n• Soo jeedinta luqadda dabiiciga ah",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Sida ay u shaqeyso: • Soo rar faylasha luqadda JSON • Dooro luqadaha bartilmaameedka ah Ku turjun Google ama AI • Soo deji faylasha la turjumay",
+    "message": "Sida ay u shaqeyso:\n• Soo rar faylasha luqadda JSON\n• Dooro luqadaha bartilmaameedka ah Ku turjun Google ama AI\n• Soo deji faylasha la turjumay",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Sida ay u shaqeyso: • Guji qaybaha qoraalka si aad uga warbixiso arrimaha Ku dar sharaxaad iyo darnaan Dhoofinta warbixinnada Excel ama JSON La xidhiidh Google Drive",
+    "message": "Sida ay u shaqeyso:\n• Guji qaybaha qoraalka si aad uga warbixiso arrimaha Ku dar sharaxaad iyo darnaan Dhoofinta warbixinnada Excel ama JSON La xidhiidh Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Fadlan soo gal si aad u isticmaasho tarjumaadda AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Ugu fiican feylasha leh cabir macquul ah.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Warbixinta Hubinta Tayada",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Dumin dhinac u dhig",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Guji si aad u ballaariso",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Ka saar Pseudo-Loca",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Qaabka tooska ah ee Edit Firfircoon: Dhammaan xiriiriyeyaasha iyo badhamada ayaa la xannibay. Guji qoraalka si aad u tafatirto.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Jooji warbixinta",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "Qoraalada",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Qul-qul",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Soo jeediyay",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Codso hagaajin",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Codso dhammaantood",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Codbiid codsanaya",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Codsi $ tirin $ hagaajin",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "SynC ka",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Bogga hadda jira",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Muujinaya qoraalka asalka ah",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Codsashada Pseudo-deegaan ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "TOGGLING CODKA TITIT MODIT ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Qaabka Warbixinta Cayayaanka ee cayayaanka ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Furitaanka turjubaan json ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Macaamiisha turjumida lama bislaan",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Fadlan ka dooro qoraalka bogga marka hore",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ma ordi karo jeegaga tayada leh. Fadlan bogso bogga.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ma bilaabi karin tarjumaadda. Fadlan bogso bogga.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Warbixinnada kama heli karin bogga. Fadlan dib u cusbooneysii.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Kabaha Adeegga Sync lama hayo",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync Fariin: $ Khalada $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ku guuldareystay inaad la xiriirto bogga. Isku day inaad cusbooneysiiso.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ma muujin karo faahfaahinta cayayaanka. Fadlan bogso bogga.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ku guuldareystay dhoofinta Excel. Fadlan isku day mar labaad.",
+    "description": "Error when Excel export fails"
   }
 }

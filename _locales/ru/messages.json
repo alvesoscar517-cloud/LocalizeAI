@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Как это работает: • Переключение между исходным и переведённым текстом • Кэширование переводов для быстрого переключения • Работает со всем текстом на странице • Очистка кэша для повторного перевода",
+    "message": "• Переключение между исходным и переведённым текстом\n• Кэширование переводов для быстрого переключения\n• Работает со всем текстом на странице\n• Очистка кэша для повторного перевода",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Как это работает: • Заменяет символы на их диакритические версии • Увеличивает длину на 30–40% • Заключает текст в маркеры [!!!... !!!] • Пример: «Настройки» → «[!!! Şḗŧŧīƞɠş·· !!!]»",
+    "message": "• Заменяет символы на их диакритические версии\n• Увеличивает длину на 30–40%\n• Заключает текст в маркеры [!!!... !!!]\n• Пример: «Настройки» → «[!!! Şḗŧŧīƞɠş·· !!!]»",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Как это работает: • Щелкните любой текстовый элемент, чтобы отредактировать его. • Изменения отслеживаются в режиме реального времени. • Экспортируйте изменения в формате JSON или Excel. • Нажмите Ctrl+E, чтобы экспортировать изменения.",
+    "message": "• Щелкните любой текстовый элемент, чтобы отредактировать его.\n• Изменения отслеживаются в режиме реального времени.\n• Экспортируйте изменения в формате JSON или Excel.\n• Нажмите Ctrl+E, чтобы экспортировать изменения.",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Премиум-функции: • Контекстно-зависимый перевод на базе искусственного интеллекта • Пакетный перевод целых страниц • Проверка качества переводов • Подсказки на естественном языке",
+    "message": "Премиум-функции:\n• Контекстно-зависимый перевод на базе искусственного интеллекта\n• Пакетный перевод целых страниц\n• Проверка качества переводов\n• Подсказки на естественном языке",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Как это работает: • Загрузка языковых файлов JSON • Выбор целевых языков • Перевод с помощью Google или ИИ • Загрузка переведённых файлов",
+    "message": "• Загрузка языковых файлов JSON\n• Выбор целевых языков\n• Перевод с помощью Google или ИИ\n• Загрузка переведённых файлов",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Как это работает: • Нажимайте на текстовые элементы, чтобы сообщить о проблемах • Добавляйте описания и уровень серьёзности • Экспортируйте отчёты в Excel или JSON • Синхронизируйте с Google Диском",
+    "message": "• Нажимайте на текстовые элементы, чтобы сообщить о проблемах\n• Добавляйте описания и уровень серьёзности\n• Экспортируйте отчёты в Excel или JSON\n• Синхронизируйте с Google Диском",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Войдите, чтобы использовать перевод ИИ",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Лучше всего для файлов разумного размера. Максимум 5 языков одновременно.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Отчет о проверке качества",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Свернуть боковую панель",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Нажмите, чтобы развернуть",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Удалить псевдолок",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Режим живого редактирования активен: все ссылки и кнопки заблокированы. Нажмите на текст для редактирования.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Прекратить сообщать",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "тексты",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Текущий",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Предложенный",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Применить исправление",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Применить все",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Применяемый",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Применено $COUNT$ исправлений.",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Синхронизировать с Диска",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Текущая страница",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Показ исходного текста",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Применение псевдолокализации...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Переключение режима живого редактирования...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Переключение режима отчета об ошибках...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Открытие переводчика JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Клиент перевода не инициализирован",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Пожалуйста, сначала выберите текст на странице",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Не удалось выполнить проверку качества. Пожалуйста, обновите страницу.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Не удалось начать перевод. Пожалуйста, обновите страницу.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Не удалось получить отчеты со страницы. Пожалуйста, обновите.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Служба синхронизации Диска недоступна.",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Не удалось синхронизировать: $ERROR$.",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Не удалось связаться со страницей. Попробуйте обновиться.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Не удалось показать подробную информацию об ошибке. Пожалуйста, обновите страницу.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Не удалось экспортировать в Excel. Пожалуйста, попробуйте еще раз.",
+    "description": "Error when Excel export fails"
   }
 }

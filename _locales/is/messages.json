@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Hvernig þetta virkar: • Skipta á milli upprunalegs og þýdds texta • Þýðingar eru vistaðar í skyndiminni til að hraða skiptingu • Virkar með öllum texta á síðunni • Hreinsa skyndiminnið til að endurþýða",
+    "message": "Hvernig þetta virkar:\n• Skipta á milli upprunalegs og þýdds texta\n• Þýðingar eru vistaðar í skyndiminni til að hraða skiptingu\n• Virkar með öllum texta á síðunni\n• Hreinsa skyndiminnið til að endurþýða",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Hvernig þetta virkar: • Skiptir út stöfum fyrir útgáfur með kommu • Bætir við 30-40% lengdaraukningu • Vefur texta innan [!!!... !!!] merkja • Dæmi: \"Stillingar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Hvernig þetta virkar:\n• Skiptir út stöfum fyrir útgáfur með kommu\n• Bætir við 30-40% lengdaraukningu\n• Vefur texta innan [!!!... !!!] merkja\n• Dæmi: \"Stillingar\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Hvernig þetta virkar: • Smelltu á hvaða textaþátt sem er til að breyta honum • Breytingar eru raktar í rauntíma • Flyttu út breytingar sem JSON eða Excel • Ýttu á Ctrl+E til að flytja út breytingar",
+    "message": "Hvernig þetta virkar:\n• Smelltu á hvaða textaþátt sem er til að breyta honum\n• Breytingar eru raktar í rauntíma\n• Flyttu út breytingar sem JSON eða Excel\n• Ýttu á Ctrl+E til að flytja út breytingar",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Aukaeiginleikar: • Gervigreindarknúnar samhengisvitundarþýðingar • Hópaþýðingar á heilum síðum • Gæðaeftirlit með þýðingum • Tillögur að náttúrulegu tungumáli",
+    "message": "Aukaeiginleikar:\n• Gervigreindarknúnar samhengisvitundarþýðingar\n• Hópaþýðingar á heilum síðum\n• Gæðaeftirlit með þýðingum\n• Tillögur að náttúrulegu tungumáli",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Hvernig þetta virkar: • Hlaða upp JSON tungumálaskrám • Velja markmál • Þýða með Google eða gervigreind • Sækja þýddar skrár",
+    "message": "Hvernig þetta virkar:\n• Hlaða upp JSON tungumálaskrám\n• Velja markmál\n• Þýða með Google eða gervigreind\n• Sækja þýddar skrár",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Hvernig þetta virkar: • Smelltu á textaþætti til að tilkynna vandamál • Bættu við lýsingum og alvarleika • Flyttu skýrslur út í Excel eða JSON • Samstilltu við Google Drive",
+    "message": "Hvernig þetta virkar:\n• Smelltu á textaþætti til að tilkynna vandamál\n• Bættu við lýsingum og alvarleika\n• Flyttu skýrslur út í Excel eða JSON\n• Samstilltu við Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Vinsamlegast skráðu þig inn til að nota gervigreindarþýðingu",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Best fyrir skrár með hæfilegri stærð.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "Skýrsla um gæðaeftirlit",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Draga saman hliðarstikuna",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Smelltu til að stækka",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Fjarlægðu Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Lifandi breytingastilling virk: Allir tenglar og hnappar eru læstir. Smelltu á texta til að breyta.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Hættu að tilkynna",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "texta",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Núverandi",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Lagt til",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Sækja lagfæringu",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Notaðu allt",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Beitt",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Notaði $COUNT$ lagfæringar",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Samstilla frá Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Núverandi síða",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Sýnir upprunalegan texta",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Notar gervistaðsetningu...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Skiptir um breytingastillingu í beinni...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Skiptir um villutilkynningarham...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Opnar JSON þýðanda...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Þýðingarbiðlari ekki frumstilltur",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Vinsamlegast veldu texta á síðunni fyrst",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Gat ekki keyrt gæðaskoðun. Endilega endurnýjaðu síðuna.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Gat ekki hafið þýðingu. Endilega endurnýjaðu síðuna.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Gat ekki fengið skýrslur af síðunni. Vinsamlegast endurnýjaðu.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Drive samstillingarþjónusta ekki í boði",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Samstilling mistókst: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ekki tókst að hafa samband við síðu. Prófaðu að endurnýja.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Gat ekki sýnt villuupplýsingar. Endilega endurnýjaðu síðuna.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Mistókst að flytja út í Excel. Vinsamlegast reyndu aftur.",
+    "description": "Error when Excel export fails"
   }
 }

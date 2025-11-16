@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Yadda yake aiki: • Canja tsakanin asali da rubutu da aka fassara • An adana fassarori don saurin sauyawa • Yana aiki tare da duk rubutu akan shafi • Share cache don sake fassarawa",
+    "message": "Yadda yake aiki:\n• Canja tsakanin asali da rubutu da aka fassara\n• An adana fassarori don saurin sauyawa\n• Yana aiki tare da duk rubutu akan shafi\n• Share cache don sake fassarawa",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Yadda yake aiki: Danna kowane nau'in rubutu don gyara shi • Ana bin diddigin canje-canje a ainihin-lokaci • Fitar da gyare-gyare azaman JSON ko Excel Latsa Ctrl+E don fitarwa canje-canje",
+    "message": "Yadda yake aiki: Danna kowane nau'in rubutu don gyara shi\n• Ana bin diddigin canje-canje a ainihin-lokaci\n• Fitar da gyare-gyare azaman JSON ko Excel Latsa Ctrl+E don fitarwa canje-canje",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Yadda yake aiki: • Loda fayilolin yaren JSON • Zaɓi yaren da ake hari • Fassara da Google ko AI Zazzage fayilolin da aka fassara",
+    "message": "Yadda yake aiki:\n• Loda fayilolin yaren JSON\n• Zaɓi yaren da ake hari\n• Fassara da Google ko AI Zazzage fayilolin da aka fassara",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Yadda yake aiki: • Danna abubuwan rubutu don ba da rahoton al'amura • Ƙara bayani da tsanani • Fitar da rahotanni zuwa Excel ko JSON • Aiki tare da Google Drive",
+    "message": "Yadda yake aiki:\n• Danna abubuwan rubutu don ba da rahoton al'amura\n• Ƙara bayani da tsanani\n• Fitar da rahotanni zuwa Excel ko JSON\n• Aiki tare da Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Da fatan za a shiga don amfani da fassarar AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Mafi kyau don fayiloli tare da girman m.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Rahoton bincike mai inganci",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Tudun",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Danna don fadada",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Cire Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Yanayin shirya yanayin aiki: Dukkanin hanyoyin da Buttons an toshe su. Danna kan rubutu don shirya.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Dakatar da rahoto",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "matani",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Igiya",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Ba da shawara",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Aiwatar da gyara",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Aiwatar da duka",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Shafi",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Amfani $ ƙididdige $ gyara",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Sync daga Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Shafin yanzu",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Nuna asali rubutu",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Aiwatar da ka'idodi-Calcarity ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Tgggling Live Edit Yanayin ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Yanayin Rahoton Rahoton Buguwa",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Bude JONSLator na bude jon ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Abokin ciniki wanda ba a fara ba",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Da fatan za a zabi rubutu a shafin farko",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Ba zai iya gudanar da bincike mai inganci ba. Da fatan za a sake sanar da shafin.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Ba zai iya fara fassara ba. Da fatan za a sake sanar da shafin.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Ba zai iya samun rahotanni daga shafi ba. Da fatan za a sake shakatawa.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Ba da sabis na Sync",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync ya kasa: Kuskuren $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Ba a yi nasarar sadarwa tare da shafi ba. Gwada shakatawa.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Ba zai iya nuna cikakkun bayanai ba. Da fatan za a sake sanar da shafin.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Ya kasa fitarwa zuwa Excel. Da fatan za a sake gwadawa.",
+    "description": "Error when Excel export fails"
   }
 }

@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "របៀបដែលវាដំណើរការ៖ • បិទបើករវាងអត្ថបទដើម និងអត្ថបទដែលបានបកប្រែ • ការបកប្រែត្រូវបានទុកក្នុងឃ្លាំងសម្ងាត់សម្រាប់ការប្តូររហ័ស • ធ្វើការជាមួយអត្ថបទទាំងអស់នៅលើទំព័រ • សម្អាតឃ្លាំងសម្ងាត់ដើម្បីបកប្រែឡើងវិញ",
+    "message": "របៀបដែលវាដំណើរការ៖\n• បិទបើករវាងអត្ថបទដើម និងអត្ថបទដែលបានបកប្រែ\n• ការបកប្រែត្រូវបានទុកក្នុងឃ្លាំងសម្ងាត់សម្រាប់ការប្តូររហ័ស\n• ធ្វើការជាមួយអត្ថបទទាំងអស់នៅលើទំព័រ\n• សម្អាតឃ្លាំងសម្ងាត់ដើម្បីបកប្រែឡើងវិញ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "របៀបដែលវាដំណើរការ៖ • ជំនួសតួអក្សរជាមួយនឹងកំណែសង្កត់សំឡេង • បន្ថែមការពង្រីកប្រវែង 30-40% • រុំអត្ថបទក្នុង [!!!...!!!] សញ្ញាសម្គាល់ • ឧទាហរណ៍៖ \"ការកំណត់\" → \"[!!!Şḗŧŧīƞɠş··!!!]\"",
+    "message": "របៀបដែលវាដំណើរការ៖\n• ជំនួសតួអក្សរជាមួយនឹងកំណែសង្កត់សំឡេង\n• បន្ថែមការពង្រីកប្រវែង 30-40%\n• រុំអត្ថបទក្នុង [!!!...!!!] សញ្ញាសម្គាល់\n• ឧទាហរណ៍៖ \"ការកំណត់\" → \"[!!!Şḗŧŧīƞɠş··!!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "របៀបដែលវាដំណើរការ៖ • ចុចធាតុអត្ថបទណាមួយដើម្បីកែសម្រួលវា។ • ការផ្លាស់ប្តូរត្រូវបានតាមដានក្នុងពេលជាក់ស្តែង • នាំចេញការកែសម្រួលជា JSON ឬ Excel • ចុច Ctrl+E ដើម្បីនាំចេញការផ្លាស់ប្តូរ",
+    "message": "របៀបដែលវាដំណើរការ៖\n• ចុចធាតុអត្ថបទណាមួយដើម្បីកែសម្រួលវា។\n• ការផ្លាស់ប្តូរត្រូវបានតាមដានក្នុងពេលជាក់ស្តែង\n• នាំចេញការកែសម្រួលជា JSON ឬ Excel\n• ចុច Ctrl+E ដើម្បីនាំចេញការផ្លាស់ប្តូរ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "លក្ខណៈពិសេសពិសេស៖ • ការបកប្រែតាមបរិបទដែលស្គាល់ដោយថាមពល AI • បាច់បកប្រែទំព័រទាំងមូល • ពិនិត្យគុណភាពសម្រាប់ការបកប្រែ • ការណែនាំជាភាសាធម្មជាតិ",
+    "message": "លក្ខណៈពិសេសពិសេស៖\n• ការបកប្រែតាមបរិបទដែលស្គាល់ដោយថាមពល AI\n• បាច់បកប្រែទំព័រទាំងមូល\n• ពិនិត្យគុណភាពសម្រាប់ការបកប្រែ\n• ការណែនាំជាភាសាធម្មជាតិ",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "របៀបដែលវាដំណើរការ៖ • បង្ហោះឯកសារភាសា JSON • ជ្រើសរើសភាសាគោលដៅ • បកប្រែជាមួយ Google ឬ AI • ទាញយកឯកសារដែលបានបកប្រែ",
+    "message": "របៀបដែលវាដំណើរការ៖\n• បង្ហោះឯកសារភាសា JSON\n• ជ្រើសរើសភាសាគោលដៅ\n• បកប្រែជាមួយ Google ឬ AI\n• ទាញយកឯកសារដែលបានបកប្រែ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "របៀបដែលវាដំណើរការ៖ • ចុចធាតុអត្ថបទដើម្បីរាយការណ៍បញ្ហា • បន្ថែមការពិពណ៌នា និងភាពធ្ងន់ធ្ងរ • នាំចេញរបាយការណ៍ទៅ Excel ឬ JSON • ធ្វើសមកាលកម្មជាមួយ Google Drive",
+    "message": "របៀបដែលវាដំណើរការ៖\n• ចុចធាតុអត្ថបទដើម្បីរាយការណ៍បញ្ហា\n• បន្ថែមការពិពណ៌នា និងភាពធ្ងន់ធ្ងរ\n• នាំចេញរបាយការណ៍ទៅ Excel ឬ JSON\n• ធ្វើសមកាលកម្មជាមួយ Google Drive",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "សូមចូលដើម្បីប្រើការបកប្រែ AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "ល្អបំផុតសម្រាប់ឯកសារដែលមានទំហំសមហេតុផល។",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "របាយការណ៍ត្រួតពិនិត្យគុណភាព",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "របារចំហៀង",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "ចុចដើម្បីពង្រីក",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "យក pseudo-al ចេញ pseudo-loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "របៀបកែសម្រួលបន្តផ្ទាល់សកម្ម: តំណនិងប៊ូតុងទាំងអស់ត្រូវបានរារាំង។ ចុចលើអត្ថបទដើម្បីកែសម្រួល។",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "បញ្ឈប់ការរាយការណ៍",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "អត្ថបទ",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "ថ្ផី current",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "បានស្នើ",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "អនុវត្តការជួសជុល",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "អនុវត្តទាំងអស់",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "បានអនុវត្ត",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "បានអនុវត្ត $ រាប់រាប់ $ ការជួសជុល",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "ធ្វើសមកាលកម្មពីដ្រាយវ៍",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "ទំព័របច្ចុប្បន្ន",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "បង្ហាញអត្ថបទដើម",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "អនុវត្តការធ្វើមូលដ្ឋានីយកម្ម Pseudo -",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "បិទដំណើរការរបៀបកែសម្រួលបន្តផ្ទាល់ ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "បិទបើករបៀបរបាយការណ៍កំហុស ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "បើកការបើកជេសសុន ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "អតិថិជនបកប្រែមិនបានចាប់ផ្តើម",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "សូមជ្រើសរើសអត្ថបទនៅលើទំព័រជាមុនសិន",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "មិនអាចដំណើរការការត្រួតពិនិត្យដែលមានគុណភាពបានទេ។ សូមធ្វើទំព័រឡើងវិញ។",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "មិនអាចចាប់ផ្តើមការបកប្រែបានទេ។ សូមធ្វើទំព័រឡើងវិញ។",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "មិនអាចទទួលបានរបាយការណ៍ពីទំព័រ។ សូមធ្វើឱ្យស្រស់។",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "សេវាកម្មធ្វើសមកាលកម្មបើកបរមិនអាចប្រើបានទេ",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "ធ្វើសមកាលកម្មបានបរាជ័យ: $ កំហុស $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "បានបរាជ័យក្នុងការទំនាក់ទំនងជាមួយទំព័រ។ ព្យាយាមធ្វើឱ្យស្រស់ស្រាយ។",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "មិនអាចបង្ហាញព័ត៌មានលម្អិតអំពីកំហុសបានទេ។ សូមធ្វើទំព័រឡើងវិញ។",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "បានបរាជ័យក្នុងការនាំចេញទៅ Excel ។ សូមព្យាយាមម្តងទៀត។",
+    "description": "Error when Excel export fails"
   }
 }

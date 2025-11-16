@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "دا څنګه کار کوي: • د اصلي او ژباړل شوي متن ترمنځ بدل کړئ • ژباړې د چټک بدلون لپاره زیرمه شوي • په پاڼه کې د ټولو متنونو سره کار کوي • د بیا ژباړې لپاره زیرمه پاکه کړئ",
+    "message": "دا څنګه کار کوي:\n• د اصلي او ژباړل شوي متن ترمنځ بدل کړئ\n• ژباړې د چټک بدلون لپاره زیرمه شوي\n• په پاڼه کې د ټولو متنونو سره کار کوي\n• د بیا ژباړې لپاره زیرمه پاکه کړئ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "دا څنګه کار کوي: • د تورو ځای په ځای کولو سره accented versions • د 30-40٪ اوږدوالي پراخول اضافه کوي • متن په [!!!... !!!] مارکرونو کې پوښي • مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "دا څنګه کار کوي:\n• د تورو ځای په ځای کولو سره accented versions\n• د 30-40٪ اوږدوالي پراخول اضافه کوي\n• متن په [!!!... !!!] مارکرونو کې پوښي\n• مثال: \"ترتیبات\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "دا څنګه کار کوي: • د هر متن عنصر د سمولو لپاره کلیک وکړئ • بدلونونه په ریښتیني وخت کې تعقیب کیږي • سمونونه د JSON یا Excel په توګه صادر کړئ • د بدلونونو صادرولو لپاره Ctrl+E فشار ورکړئ",
+    "message": "دا څنګه کار کوي:\n• د هر متن عنصر د سمولو لپاره کلیک وکړئ\n• بدلونونه په ریښتیني وخت کې تعقیب کیږي\n• سمونونه د JSON یا Excel په توګه صادر کړئ\n• د بدلونونو صادرولو لپاره Ctrl+E فشار ورکړئ",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "غوره ځانګړتیاوې: • د مصنوعي ذهانت په واسطه ځواکمن شوي د شرایطو څخه خبر ژباړه • د ټولو پاڼو ډله ییزه ژباړه • د ژباړو لپاره د کیفیت چک • د طبیعي ژبې وړاندیزونه",
+    "message": "غوره ځانګړتیاوې:\n• د مصنوعي ذهانت په واسطه ځواکمن شوي د شرایطو څخه خبر ژباړه\n• د ټولو پاڼو ډله ییزه ژباړه\n• د ژباړو لپاره د کیفیت چک\n• د طبیعي ژبې وړاندیزونه",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "دا څنګه کار کوي: • د JSON ژبې فایلونه اپلوډ کړئ • د هدف ژبې غوره کړئ • د ګوګل یا AI سره ژباړه وکړئ • ژباړل شوي فایلونه ډاونلوډ کړئ",
+    "message": "دا څنګه کار کوي:\n• د JSON ژبې فایلونه اپلوډ کړئ\n• د هدف ژبې غوره کړئ\n• د ګوګل یا AI سره ژباړه وکړئ\n• ژباړل شوي فایلونه ډاونلوډ کړئ",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "دا څنګه کار کوي: • د مسلو راپور ورکولو لپاره د متن عناصرو باندې کلیک وکړئ • توضیحات او شدت اضافه کړئ • راپورونه ایکسل یا JSON ته صادر کړئ • د ګوګل ډرایو سره همغږي کړئ",
+    "message": "دا څنګه کار کوي:\n• د مسلو راپور ورکولو لپاره د متن عناصرو باندې کلیک وکړئ\n• توضیحات او شدت اضافه کړئ\n• راپورونه ایکسل یا JSON ته صادر کړئ\n• د ګوګل ډرایو سره همغږي کړئ",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "مهرباني وکړئ د AI ژباړې کارولو لپاره لاسلیک وکړئ",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "د مناسب اندازې فایلونو لپاره غوره.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "د کیفیت چک راپور",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "د غاړې پټې ټوټه کول",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "د پراخولو لپاره کلیک وکړئ",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Pseudo-Loc لرې کړئ",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "د ژوندی سمون حالت فعال: ټول لینکونه او تڼۍ بندې دي. د سمون لپاره په متن کلیک وکړئ.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "راپور ورکول بند کړئ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "متنونه",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "اوسنۍ",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "وړاندیز شوی",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "اصلاح تطبیق کړئ",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "ټول تطبیق کړئ",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "تطبیق شوی",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "$COUNT$ اصلاحات پلي شوي",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "له ډرایو څخه همغږي کول",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "اوسنۍ پاڼه",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "اصلي متن ښودل",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "د سیډو - سیمه ایز کولو پلي کول ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "د ژوندی سمون حالت بدلول...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "د بګ راپور حالت بدلول...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "د JSON ژباړونکي پرانیستل...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "د ژباړې مراجع نه پیل شوی",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "مهرباني وکړئ لومړی په پاڼه کې متن وټاکئ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "د کیفیت معاینه نشو کولی. مهرباني وکړئ پاڼه تازه کړئ.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "ژباړه پیل نشوه. مهرباني وکړئ پاڼه تازه کړئ.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "د پاڼې څخه راپورونه نشي ترلاسه کولی. مهرباني وکړئ تازه کړئ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "د ډرایو ترکیب خدمت شتون نلري",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "همغږي ناکامه شوه: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "د پاڼې سره په اړیکه کې پاتې راغلل. د تازه کولو هڅه وکړئ.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "د بګ توضیحات نه شو ښودلی. مهرباني وکړئ پاڼه تازه کړئ.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Excel ته صادرولو کې پاتې راغلی. مهرباني وکړئ بیا هڅه وکړئ.",
+    "description": "Error when Excel export fails"
   }
 }

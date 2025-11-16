@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "איך זה עובד: • מעבר בין טקסט מקורי לתרגום • תרגומים נשמרים במטמון למעבר מהיר • עובד עם כל הטקסט בדף • נקה את המטמון כדי לתרגם מחדש",
+    "message": "איך זה עובד:\n• מעבר בין טקסט מקורי לתרגום\n• תרגומים נשמרים במטמון למעבר מהיר\n• עובד עם כל הטקסט בדף\n• נקה את המטמון כדי לתרגם מחדש",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "איך זה עובד: • מחליף תווים בגרסאות מוטעמות • מוסיף הרחבת אורך של 30-40% • עוטף טקסט בתוך סמני [!!!... !!!] • דוגמה: \"הגדרות\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "איך זה עובד:\n• מחליף תווים בגרסאות מוטעמות\n• מוסיף הרחבת אורך של 30-40%\n• עוטף טקסט בתוך סמני [!!!... !!!]\n• דוגמה: \"הגדרות\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "איך זה עובד: • לחצו על כל רכיב טקסט כדי לערוך אותו • השינויים מתבצעים בזמן אמת • ייצוא עריכות כ-JSON או Excel • לחצו Ctrl+E כדי לייצא שינויים",
+    "message": "איך זה עובד:\n• לחצו על כל רכיב טקסט כדי לערוך אותו\n• השינויים מתבצעים בזמן אמת\n• ייצוא עריכות כ-JSON או Excel\n• לחצו Ctrl+E כדי לייצא שינויים",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "תכונות פרימיום: • תרגום מבוסס בינה מלאכותית ותומך בהקשר • תרגום אצווה של דפים שלמים • בדיקת איכות לתרגומים • הצעות לשפה טבעית",
+    "message": "תכונות פרימיום:\n• תרגום מבוסס בינה מלאכותית ותומך בהקשר\n• תרגום אצווה של דפים שלמים\n• בדיקת איכות לתרגומים\n• הצעות לשפה טבעית",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "איך זה עובד: • העלאת קבצי שפת JSON • בחירת שפות יעד • תרגום באמצעות גוגל או בינה מלאכותית • הורדת קבצים מתורגמים",
+    "message": "איך זה עובד:\n• העלאת קבצי שפת JSON\n• בחירת שפות יעד\n• תרגום באמצעות גוגל או בינה מלאכותית\n• הורדת קבצים מתורגמים",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "איך זה עובד: • לחץ על רכיבי טקסט כדי לדווח על בעיות • הוסף תיאורים וחומרה • ייצא דוחות לאקסל או ל-JSON • סנכרן עם גוגל דרייב",
+    "message": "איך זה עובד:\n• לחץ על רכיבי טקסט כדי לדווח על בעיות\n• הוסף תיאורים וחומרה\n• ייצא דוחות לאקסל או ל-JSON\n• סנכרן עם גוגל דרייב",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "אנא התחבר כדי להשתמש בתרגום AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "הכי מתאים לקבצים בגודל סביר.",
     "description": "AI translation limit info"
@@ -1406,5 +1410,133 @@
   "qualityCheckReport": {
     "message": "דוח בדיקת איכות",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "כווץ את סרגל הצד",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "לחץ כדי להרחיב",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "הסר Pseudo-Loc",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "מצב עריכה חיה פעיל: כל הקישורים והלחצנים חסומים. לחץ על הטקסט כדי לערוך.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "תפסיק לדווח",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "טקסטים",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "נוֹכְחִי",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "מוּצָע",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "החל תיקון",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "החל הכל",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "הוחל",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "החיל תיקונים של $COUNT$",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "סנכרון מ-Drive",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "עמוד נוכחי",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "מציג טקסט מקורי",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "מפעיל פסאודו לוקליזציה...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "מחליף מצב עריכה חי...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "מחליף מצב דיווח באג...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "פותח את מתרגם JSON...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "לקוח התרגום לא אותחל",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "אנא בחר תחילה טקסט בדף",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "לא ניתן להפעיל בדיקת איכות. אנא רענן את העמוד.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "לא ניתן היה להתחיל בתרגום. אנא רענן את העמוד.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "לא ניתן היה לקבל דוחות מהדף. נא לרענן.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "שירות סנכרון Drive אינו זמין",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "הסנכרון נכשל: $ERROR$",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "נכשל התקשורת עם הדף. נסה לרענן.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "לא ניתן היה להציג פרטי באג. אנא רענן את העמוד.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "ייצוא לאקסל נכשל. אנא נסה שוב.",
+    "description": "Error when Excel export fails"
   }
 }

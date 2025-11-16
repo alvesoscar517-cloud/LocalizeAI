@@ -52,7 +52,7 @@
     "description": "Language toggle description"
   },
   "languageToggleInfo": {
-    "message": "Ka o si arụ ọrụ: • Gbanwee n'etiti ederede izizi na nke atụgharịrị • A na-echekwa ntụgharị asụsụ maka mgbanwe ngwa ngwa • Na-arụ ọrụ na ederede niile na ibe • Kpochapụ cache iji tụgharịa asụsụ",
+    "message": "Ka o si arụ ọrụ:\n• Gbanwee n'etiti ederede izizi na nke atụgharịrị\n• A na-echekwa ntụgharị asụsụ maka mgbanwe ngwa ngwa\n• Na-arụ ọrụ na ederede niile na ibe\n• Kpochapụ cache iji tụgharịa asụsụ",
     "description": "Language toggle tooltip"
   },
   "original": {
@@ -80,7 +80,7 @@
     "description": "Pseudo-localization description"
   },
   "pseudoLocalizationInfo": {
-    "message": "Ka o si arụ ọrụ: • Jiri ụdị ụda olu dochie mkpụrụedemede • Na-agbakwunye 30-40% ogologo mgbasawanye • Kechie ederede na [!!!... !!!] akara • Ọmụmaatụ: \"Ntọala\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
+    "message": "Ka o si arụ ọrụ:\n• Jiri ụdị ụda olu dochie mkpụrụedemede\n• Na-agbakwunye 30-40% ogologo mgbasawanye\n• Kechie ederede na [!!!... !!!] akara\n• Ọmụmaatụ: \"Ntọala\" → \"[!!! Şḗŧŧīƞɠş·· !!!]\"",
     "description": "Pseudo-localization tooltip"
   },
   "applyPseudoLoc": {
@@ -96,7 +96,7 @@
     "description": "Live edit description"
   },
   "liveEditModeInfo": {
-    "message": "Ka o si arụ ọrụ: • Pịa ihe ederede ọ bụla iji dezie ya • A na-enyocha mgbanwe ozugbo ozugbo • Mbupụ ndezi ka JSON ma ọ bụ Excel • Pịa Ctrl+E ka mbupu mgbanwe",
+    "message": "Ka o si arụ ọrụ:\n• Pịa ihe ederede ọ bụla iji dezie ya\n• A na-enyocha mgbanwe ozugbo ozugbo\n• Mbupụ ndezi ka JSON ma ọ bụ Excel\n• Pịa Ctrl+E ka mbupu mgbanwe",
     "description": "Live edit tooltip"
   },
   "enableLiveEdit": {
@@ -112,7 +112,7 @@
     "description": "AI features description"
   },
   "aiFeaturesInfo": {
-    "message": "Atụmatụ adịchaghị: • Ntụgharị asụsụ gburugburu-mmara nke AI kwadoro • Batch sụgharịa ibe niile • Nyochaa mma maka ntụgharị asụsụ • Atụmatụ asụsụ eke",
+    "message": "Atụmatụ adịchaghị:\n• Ntụgharị asụsụ gburugburu-mmara nke AI kwadoro\n• Batch sụgharịa ibe niile\n• Nyochaa mma maka ntụgharị asụsụ\n• Atụmatụ asụsụ eke",
     "description": "AI features tooltip"
   },
   "getAISuggestions": {
@@ -144,7 +144,7 @@
     "description": "JSON translator description"
   },
   "jsonFileTranslatorInfo": {
-    "message": "Ka o si arụ ọrụ: • Bulite faịlụ asụsụ JSON • Họrọ asụsụ ebumnuche • Jiri Google ma ọ bụ AI tụgharịa asụsụ • Budata faịlụ atụgharịrị",
+    "message": "Ka o si arụ ọrụ:\n• Bulite faịlụ asụsụ JSON\n• Họrọ asụsụ ebumnuche\n• Jiri Google ma ọ bụ AI tụgharịa asụsụ\n• Budata faịlụ atụgharịrị",
     "description": "JSON translator tooltip"
   },
   "translateJSONFile": {
@@ -160,7 +160,7 @@
     "description": "Bug report description"
   },
   "reportIssueInfo": {
-    "message": "Ka o si arụ ọrụ: • Pịa ihe ederede iji kọọ okwu • Tinye nkọwa na ịdị njọ • Bupụ akụkọ na Excel ma ọ bụ JSON • Mmekọrịta na Google mbanye",
+    "message": "Ka o si arụ ọrụ:\n• Pịa ihe ederede iji kọọ okwu\n• Tinye nkọwa na ịdị njọ\n• Bupụ akụkọ na Excel ma ọ bụ JSON\n• Mmekọrịta na Google mbanye",
     "description": "Bug report tooltip"
   },
   "startReporting": {
@@ -1297,6 +1297,10 @@
     "message": "Biko banye na iji nsụgharị AI",
     "description": "Please sign in for AI translation message"
   },
+  "pleaseSignInToTranslateJSON": {
+    "message": "Please sign in to translate JSON files",
+    "description": "Please sign in to translate JSON message"
+  },
   "aiLimitInfo": {
     "message": "Kachasị mma maka faili na nha ezi uche.",
     "description": "AI translation limit info"
@@ -1404,5 +1408,133 @@
   "qualityCheckReport": {
     "message": "Nyochaa Nyochaa",
     "description": "Quality check report title"
+  },
+  "collapse": {
+    "message": "Nkpọkọta sidebar",
+    "description": "Collapse sidebar button"
+  },
+  "clickToExpand": {
+    "message": "Pịa ka ịgbasa",
+    "description": "Click to expand tooltip"
+  },
+  "removePseudoLoc": {
+    "message": "Wepu Pseudo-LET",
+    "description": "Remove pseudo-localization button"
+  },
+  "liveEditModeActive": {
+    "message": "Bie Dezie mode na-arụ ọrụ: Njikọ niile na bọtịnụ bọtịnụ niile. Pịa ederede ka idezie.",
+    "description": "Live edit mode active notification"
+  },
+  "stopReporting": {
+    "message": "Kwụsị ịkọ",
+    "description": "Stop bug reporting button"
+  },
+  "texts": {
+    "message": "ederede",
+    "description": "Texts label"
+  },
+  "current": {
+    "message": "Korenti mmiri",
+    "description": "Current text label"
+  },
+  "suggested": {
+    "message": "Arotu aro",
+    "description": "Suggested text label"
+  },
+  "applyFix": {
+    "message": "Tinye ndozi",
+    "description": "Apply fix button"
+  },
+  "applyAll": {
+    "message": "Na-etinye ihe niile",
+    "description": "Apply all button"
+  },
+  "applied": {
+    "message": "Etinyere ihe",
+    "description": "Applied status"
+  },
+  "appliedCount": {
+    "message": "Etinyere $ ngụkọta $",
+    "description": "Applied count message",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "syncFromDriveOld": {
+    "message": "Mmekọrịta site na mbanye",
+    "description": "Sync from Drive button"
+  },
+  "currentPage": {
+    "message": "Iberee >>",
+    "description": "Current page indicator label"
+  },
+  "showingOriginalText": {
+    "message": "Na-egosi ederede mbụ",
+    "description": "Notification when showing original text"
+  },
+  "applyingPseudoLoc": {
+    "message": "Itinye Pseudo-posts ...",
+    "description": "Notification when applying pseudo-localization"
+  },
+  "togglingLiveEdit": {
+    "message": "Dezie Light Live Mode ...",
+    "description": "Notification when toggling live edit"
+  },
+  "togglingBugReport": {
+    "message": "Toggling Bug Report mode ...",
+    "description": "Notification when toggling bug report"
+  },
+  "openingJSONTranslator": {
+    "message": "Mmepe JSON Scriptor ...",
+    "description": "Notification when opening JSON translator"
+  },
+  "translationClientNotInitialized": {
+    "message": "Ọ bụghị onye na-azụ ahịa amalite",
+    "description": "Error when translation client is not ready"
+  },
+  "pleaseSelectTextFirst": {
+    "message": "Biko họrọ ederede na peeji ahụ",
+    "description": "Error when no text is selected for AI suggestions"
+  },
+  "qualityCheckError": {
+    "message": "Enweghị ike ịtụle nyocha dị mma. Biko mee ka peeji ahụ nwee ume.",
+    "description": "Error when quality check fails"
+  },
+  "translationStartError": {
+    "message": "Enweghị ike ịmalite ntụgharị. Biko mee ka peeji ahụ nwee ume.",
+    "description": "Error when translation cannot start"
+  },
+  "reportsLoadError": {
+    "message": "Enweghị ike ịnweta akụkọ na ibe. Biko mee ka ume ọhụrụ.",
+    "description": "Error when loading bug reports fails"
+  },
+  "driveSyncNotAvailable": {
+    "message": "Ọrụ Njegharị adịghị",
+    "description": "Error when Drive sync is not available"
+  },
+  "syncFailed": {
+    "message": "Sync dara: njehie $",
+    "description": "Error when sync fails",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Network error"
+      }
+    }
+  },
+  "pageCommunicationError": {
+    "message": "Enweghi ike ikwurita okwu na ibe. Gbalịa ime ka restanda.",
+    "description": "Error when page communication fails"
+  },
+  "bugDetailsError": {
+    "message": "Enweghị ike igosi nkọwa mkpụrụ ahụhụ. Biko mee ka peeji ahụ nwee ume.",
+    "description": "Error when showing bug details fails"
+  },
+  "excelExportError": {
+    "message": "Emeghị ka mbupụ gaa na Excel. Biko nwaa ọzọ.",
+    "description": "Error when Excel export fails"
   }
 }
